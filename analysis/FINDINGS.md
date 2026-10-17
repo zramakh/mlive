@@ -77,6 +77,12 @@ Its ticket (15 39 42 44 48 54) is the same for every draw, because Jupiter staye
 "hottest 6 of the last 100 draws" ticket also matched 11 (last 50 / 201 / 300 draws: 8, 5, 8), so the result does
 not need Jupiter.
 
+**The same lead on Sports Toto 4D** (`lead_on_4d.py`, 4DPrediction's data/sportstoto.csv): 16-number tickets
+from earlier 4D draws with the same Jupiter rashi and retrograde state. Over the last 30% of 4D draws it scored 55
+hits vs 60.5 expected (whole numbers) and 58 vs 60.5 (digit combinations); in the last 10 draws, 0 vs 0.37. That is
+below 67–82% of 200 random pairs. The 4D lead (Mercury nakshatra × Venus rashi) on the same test: 68 vs 60.2 and
+57 vs 60.2.
+
 ## Is the 4D lead special? (`lead_4d_robustness.py`, `lead_hunt.py`)
 
 No. Scored the same way:
