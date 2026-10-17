@@ -66,6 +66,8 @@ MIN_SHIFT = 160
 OUT = os.path.join(common.ROOT, "analysis", "own_leads_results.json")
 LOG = os.path.join(common.ROOT, "analysis", "forward_log.csv")
 REF_4D = ("mercury_nakshatra", "venus_rashi")
+# Ticket size; None = the game's own pick count (6, or 8 for Magnum Life). Set before setup().
+TICKET_K = None
 
 G = {}
 
@@ -101,7 +103,8 @@ def setup(key, extra_date=None, drop_last=0):
              pglob=pglob, gglob=gglob, base_pos=pglob.argmax(2), base_gap=gglob.argmax(2),
              noise=rng.random((d, n)).astype(np.float32) * 1e-3,
              shifts=[0] + [int(s) for s in shifts],
-             e=k * k / n, v=k * k / n * (1 - k / n) * (n - k) / (n - 1),
+             kt=TICKET_K or k, e=(TICKET_K or k) * k / n,
+             v=(TICKET_K or k) * (k / n) * (1 - k / n) * (n - (TICKET_K or k)) / (n - 1),
              period_rows={p: (int(a * d), int(b * d)) for p, (a, b) in PERIODS.items()})
 
 
@@ -109,6 +112,7 @@ def predictions(cid, last=None):
     """Tickets (rows x k numbers, 0-based) and positional / gap predictions for every row.
     `last`: only rows >= last are needed (for live tickets)."""
     k, n, H = G["k"], G["n"], G["H"]
+    kt = G.get("kt", k)                                             # ticket size
     order = np.argsort(cid, kind="stable")
     cs = cid[order]
     first = np.r_[0, np.flatnonzero(np.diff(cs)) + 1]
@@ -133,8 +137,8 @@ def predictions(cid, last=None):
     dp = dprev[rows]
     noise = G["noise"] if d == len(G["noise"]) else np.random.default_rng(5).random((d, n)).astype(np.float32) * 1e-3
     exc = hc - dp * (k / n) + noise[rows]
-    hot = np.argpartition(-exc, k - 1, 1)[:, :k]
-    cold = np.argpartition(exc, k - 1, 1)[:, :k]
+    hot = np.argpartition(-exc, kt - 1, 1)[:, :kt]
+    cold = np.argpartition(exc, kt - 1, 1)[:, :kt]
     pg, gg = G["pglob"], G["gglob"]
     if d > len(H):                                                  # live: unconditioned = all draws
         pg = np.concatenate([pg, np.repeat(G["P"].mean(0, keepdims=True), d - len(H), 0)])
@@ -150,18 +154,21 @@ def predictions(cid, last=None):
         s = np.where(taken, -1.0, pc[:, p, :] + noise[rows] * 1e-3)
         pos[:, p] = s.argmax(1)
         taken[np.arange(m), pos[:, p]] = True
-    chain = pos_mode[:, :1] + np.c_[np.zeros(m, int), np.cumsum(gap_mode, 1)]      # 0-based numbers
+    if kt < k:                                                      # keep the most confident positions
+        conf = np.take_along_axis(pc, pos[:, :, None], 2)[:, :, 0]
+        pos = np.take_along_axis(pos, np.argsort(-conf, 1)[:, :kt], 1)
+    chain = (pos_mode[:, :1] + np.c_[np.zeros(m, int), np.cumsum(gap_mode, 1)])[:, :kt]   # 0-based numbers
     mask = np.zeros((m, n), bool)
     ok = chain < n
-    r = np.repeat(np.arange(m), k).reshape(m, k)
+    r = np.repeat(np.arange(m), kt).reshape(m, kt)
     mask[r[ok], chain[ok]] = True
-    hot_rank = np.argsort(-exc, 1)[:, :2 * k]
-    for j in range(2 * k):
-        need = mask.sum(1) < k
+    hot_rank = np.argsort(-exc, 1)[:, :2 * kt]
+    for j in range(2 * kt):
+        need = mask.sum(1) < kt
         c = hot_rank[:, j]
         add = need & ~mask[np.arange(m), c]
         mask[np.arange(m)[add], c[add]] = True
-    gap = np.argsort(~mask, 1, kind="stable")[:, :k]
+    gap = np.argsort(~mask, 1, kind="stable")[:, :kt]
     return {"hot": hot, "cold": cold, "pos": pos, "gap": gap, "pos_mode": pos_mode, "gap_mode": gap_mode,
             "dprev": dp[:, 0]}
 
