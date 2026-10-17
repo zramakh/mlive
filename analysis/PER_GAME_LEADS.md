@@ -413,3 +413,31 @@ Most consistent ticket lead: **jupiter_rashi × jupiter_retrograde** (hot), z ea
 | pair | kp_asc_number × day_pillar | Vedic × Chinese | +0.00 | +0.00 | +0.00 |
 
 Most consistent ticket lead: **moon_rashi × mars_combust** (pos), z early +1.91, valid +1.84, test +1.88.
+
+## Top 21 leads over all games
+
+Ranked by the weakest of the three period z-scores (early, valid, test), over all four games and the four ticket patterns. *Chance best* is the best weakest-period z of the same game and pattern on shifted calendars (mean of 8). Written to `analysis/top_leads.json`.
+
+| # | Game | Parameter(s) | Pattern | Early | Valid | Test | Weakest | Chance best |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Magnum Life 8/36 | moon_rashi × mars_combust | pos | +1.91 | +1.84 | +1.88 | +1.84 | +1.48 |
+| 2 | SUPREME TOTO 6/58 | jupiter_rashi × jupiter_retrograde | hot | +1.86 | +1.83 | +1.75 | +1.75 | +1.52 |
+| 3 | POWER TOTO 6/55 | year_yinyang × day_god | cold | +2.30 | +1.86 | +1.69 | +1.69 | +1.62 |
+| 4 | SUPREME TOTO 6/58 | solar_term × month_stem | pos | +1.46 | +2.22 | +1.61 | +1.46 | +1.56 |
+| 5 | SUPREME TOTO 6/58 | solar_term × month_pillar | pos | +1.46 | +2.22 | +1.61 | +1.46 | +1.56 |
+| 6 | Magnum Life 8/36 | mars_rashi × venus_combust | cold | +1.82 | +1.42 | +1.92 | +1.42 | +1.44 |
+| 7 | POWER TOTO 6/55 | mercury_nakshatra × mansion_28 | cold | +1.77 | +2.09 | +1.41 | +1.41 | +1.62 |
+| 8 | POWER TOTO 6/55 | moon_navamsa × mansion_28 | cold | +2.90 | +1.80 | +1.41 | +1.41 | +1.62 |
+| 9 | STAR TOTO 6/50 | karana × venus_rashi | cold | +1.58 | +1.40 | +1.62 | +1.40 | +1.47 |
+| 10 | POWER TOTO 6/55 | kp_asc_sub_lord × lunar_month | cold | +1.85 | +1.40 | +2.44 | +1.40 | +1.62 |
+| 11 | SUPREME TOTO 6/58 | saturn_rashi × rahu_nakshatra | hot | +1.39 | +1.47 | +1.87 | +1.39 | +1.52 |
+| 12 | POWER TOTO 6/55 | mars_nakshatra × kp_asc_sub_lord | cold | +1.57 | +2.34 | +1.36 | +1.36 | +1.62 |
+| 13 | Magnum Life 8/36 | nakshatra_lord × yellow_black_path | pos | +1.39 | +1.61 | +1.36 | +1.36 | +1.48 |
+| 14 | POWER TOTO 6/55 | yoga × jupiter_nakshatra | cold | +1.57 | +2.23 | +1.35 | +1.35 | +1.62 |
+| 15 | STAR TOTO 6/50 | saturn_nakshatra × nine_star_month | pos | +1.60 | +1.58 | +1.35 | +1.35 | +1.82 |
+| 16 | SUPREME TOTO 6/58 | jupiter_retrograde × year_element | pos | +1.34 | +2.53 | +1.36 | +1.34 | +1.56 |
+| 17 | POWER TOTO 6/55 | moon_rashi × jupiter_retrograde | cold | +1.83 | +1.34 | +1.51 | +1.34 | +1.62 |
+| 18 | POWER TOTO 6/55 | venus_nakshatra × kp_sun_sub_lord | cold | +1.41 | +1.34 | +1.44 | +1.34 | +1.62 |
+| 19 | Magnum Life 8/36 | yoga × mars_rashi | hot | +1.44 | +1.63 | +1.34 | +1.34 | +1.42 |
+| 20 | STAR TOTO 6/50 | tithi × hour_stem_19h | pos | +1.84 | +2.45 | +1.34 | +1.34 | +1.82 |
+| 21 | POWER TOTO 6/55 | ayana × kp_moon_number | cold | +1.31 | +2.14 | +1.57 | +1.31 | +1.62 |
