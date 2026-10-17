@@ -69,6 +69,14 @@ Moon rashi × Mars combust is no longer consistent with 6 numbers (weakest perio
 held-out draws its 6-number ticket matched 9 vs 6.7 (p 0.19). Its earlier strength depended on the ticket size. With
 equal tickets, the best #1 pick is Supreme Toto's Jupiter rashi × Jupiter retrograde (6 vs 3.1, p 0.07).
 
+**Supreme Toto, last 10 draws held out** (`holdout_leads.py --hold 10 --games toto58`,
+[HOLDOUT_LEADS_H10.md](HOLDOUT_LEADS_H10.md)): searched again without 26 Sep – 17 Oct 2026. Jupiter rashi × Jupiter
+retrograde (hot) is #1 again and matched 11 vs 6.2 over the 10 draws (p 0.035), i.e. 5 vs 3.1 on the 5 draws not in
+the earlier test. The other 19 leads matched 94 vs 117.9; all 20 together 105 vs 124.1 (shifted calendars 95–136).
+Its ticket (15 39 42 44 48 54) is the same for every draw, because Jupiter stayed in Karka, direct. A plain
+"hottest 6 of the last 100 draws" ticket also matched 11 (last 50 / 201 / 300 draws: 8, 5, 8), so the result does
+not need Jupiter.
+
 ## Is the 4D lead special? (`lead_4d_robustness.py`, `lead_hunt.py`)
 
 No. Scored the same way:
