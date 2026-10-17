@@ -52,6 +52,16 @@ parameter sets had z > 1 in all three periods; the shifted calendars give 160 on
 consistent ticket lead (6/50 karana × Venus rashi, cold; 6/55 year yin/yang × day god, cold; 6/58 Jupiter
 rashi × Jupiter retrograde, hot; Life Moon rashi × Mars combust, position) is logged as `per_game_best`.
 
+## Leads chosen without the last 5 draws, tested on them (`holdout_leads.py`)
+
+A fresh search on each game's history minus its last 5 draws (7–17 Oct 2026), then tested on those 5 draws
+([HOLDOUT_LEADS.md](HOLDOUT_LEADS.md)). Each game's top 20 leads together matched about as many numbers as fair
+tickets: 6/50 63 vs 72.0, 6/55 67 vs 65.5, 6/58 60 vs 62.1, Life 156 vs 177.8. The same selection on shifted
+calendars gave 52–89. The #1 picks: Life Moon rashi × Mars combust (position) matched 13 vs 8.9 (a fair ticket
+does this 6.5% of the time); 6/58 Jupiter rashi × Jupiter retrograde (hot) 6 vs 3.1 (7.4%); 6/55 year yin/yang
+× day god (cold) 3 vs 3.3; 6/50 tithi × 19:00 hour stem (position) 2 vs 3.6. A lead's ranking before the hold-out
+does not predict its hold-out score (correlation −0.06 to +0.01 over all 12,324 tickets per game).
+
 ## Is the 4D lead special? (`lead_4d_robustness.py`, `lead_hunt.py`)
 
 No. Scored the same way:
