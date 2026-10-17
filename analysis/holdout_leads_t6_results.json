@@ -1,0 +1,1235 @@
+{
+ "hold_out_draws": 5,
+ "ticket_size": 6,
+ "games": {
+  "ml8": {
+   "label": "Magnum Life 8/36",
+   "held_out": [
+    "2026-10-07",
+    "2026-10-10",
+    "2026-10-11",
+    "2026-10-14",
+    "2026-10-17"
+   ],
+   "expected_per_lead": 6.67,
+   "leads": [
+    {
+     "rank": 1,
+     "set": "hora_lord \u00d7 venus_rashi",
+     "pattern": "pos",
+     "weakest_z_before": 1.55,
+     "early": 1.55,
+     "valid": 1.66,
+     "test": 2.47,
+     "holdout_matches": 4,
+     "per_draw": [
+      0,
+      1,
+      2,
+      1,
+      0
+     ],
+     "tickets": [
+      [
+       1,
+       10,
+       14,
+       30,
+       32,
+       36
+      ],
+      [
+       1,
+       8,
+       9,
+       29,
+       31,
+       35
+      ],
+      [
+       2,
+       15,
+       23,
+       26,
+       30,
+       36
+      ],
+      [
+       1,
+       10,
+       14,
+       30,
+       32,
+       36
+      ],
+      [
+       1,
+       9,
+       26,
+       28,
+       29,
+       35
+      ]
+     ],
+     "p_fair_at_least": 0.9406
+    },
+    {
+     "rank": 2,
+     "set": "paksha \u00d7 mercury_retrograde",
+     "pattern": "cold",
+     "weakest_z_before": 1.46,
+     "early": 1.58,
+     "valid": 1.66,
+     "test": 1.46,
+     "holdout_matches": 6,
+     "per_draw": [
+      1,
+      2,
+      1,
+      1,
+      1
+     ],
+     "tickets": [
+      [
+       8,
+       13,
+       20,
+       22,
+       24,
+       31
+      ],
+      [
+       8,
+       13,
+       20,
+       22,
+       24,
+       31
+      ],
+      [
+       18,
+       20,
+       22,
+       24,
+       26,
+       34
+      ],
+      [
+       18,
+       20,
+       22,
+       24,
+       32,
+       34
+      ],
+      [
+       18,
+       20,
+       22,
+       24,
+       32,
+       34
+      ]
+     ],
+     "p_fair_at_least": 0.7023
+    },
+    {
+     "rank": 3,
+     "set": "paksha \u00d7 mars_combust",
+     "pattern": "cold",
+     "weakest_z_before": 1.46,
+     "early": 1.64,
+     "valid": 1.73,
+     "test": 1.46,
+     "holdout_matches": 5,
+     "per_draw": [
+      1,
+      2,
+      0,
+      1,
+      1
+     ],
+     "tickets": [
+      [
+       12,
+       13,
+       22,
+       27,
+       31,
+       33
+      ],
+      [
+       12,
+       13,
+       22,
+       27,
+       31,
+       33
+      ],
+      [
+       18,
+       20,
+       21,
+       24,
+       32,
+       33
+      ],
+      [
+       18,
+       20,
+       22,
+       24,
+       32,
+       33
+      ],
+      [
+       18,
+       20,
+       21,
+       24,
+       32,
+       33
+      ]
+     ],
+     "p_fair_at_least": 0.8492
+    },
+    {
+     "rank": 4,
+     "set": "saturn_retrograde \u00d7 kp_asc_sub_lord",
+     "pattern": "cold",
+     "weakest_z_before": 1.3,
+     "early": 1.41,
+     "valid": 1.34,
+     "test": 1.3,
+     "holdout_matches": 7,
+     "per_draw": [
+      4,
+      0,
+      0,
+      2,
+      1
+     ],
+     "tickets": [
+      [
+       3,
+       5,
+       6,
+       19,
+       23,
+       35
+      ],
+      [
+       9,
+       15,
+       17,
+       18,
+       19,
+       33
+      ],
+      [
+       3,
+       4,
+       26,
+       28,
+       35,
+       36
+      ],
+      [
+       8,
+       17,
+       21,
+       24,
+       26,
+       29
+      ],
+      [
+       3,
+       5,
+       6,
+       19,
+       23,
+       35
+      ]
+     ],
+     "p_fair_at_least": 0.519
+    },
+    {
+     "rank": 5,
+     "set": "adhika_masa \u00d7 ayana",
+     "pattern": "pos",
+     "weakest_z_before": 1.26,
+     "early": 1.26,
+     "valid": 1.4,
+     "test": 2.15,
+     "holdout_matches": 5,
+     "per_draw": [
+      2,
+      2,
+      0,
+      1,
+      0
+     ],
+     "tickets": [
+      [
+       1,
+       6,
+       10,
+       23,
+       33,
+       36
+      ],
+      [
+       1,
+       6,
+       10,
+       23,
+       33,
+       36
+      ],
+      [
+       1,
+       6,
+       10,
+       23,
+       33,
+       36
+      ],
+      [
+       1,
+       6,
+       10,
+       23,
+       33,
+       36
+      ],
+      [
+       1,
+       6,
+       10,
+       23,
+       33,
+       36
+      ]
+     ],
+     "p_fair_at_least": 0.8492
+    },
+    {
+     "rank": 6,
+     "set": "jupiter_rashi \u00d7 planets_with_moon",
+     "pattern": "pos",
+     "weakest_z_before": 1.22,
+     "early": 1.36,
+     "valid": 1.22,
+     "test": 1.44,
+     "holdout_matches": 4,
+     "per_draw": [
+      2,
+      0,
+      2,
+      0,
+      0
+     ],
+     "tickets": [
+      [
+       2,
+       10,
+       15,
+       17,
+       33,
+       35
+      ],
+      [
+       2,
+       10,
+       15,
+       17,
+       33,
+       35
+      ],
+      [
+       1,
+       7,
+       11,
+       25,
+       28,
+       36
+      ],
+      [
+       1,
+       7,
+       10,
+       19,
+       30,
+       36
+      ],
+      [
+       1,
+       7,
+       10,
+       19,
+       30,
+       36
+      ]
+     ],
+     "p_fair_at_least": 0.9406
+    },
+    {
+     "rank": 7,
+     "set": "venus_nakshatra \u00d7 year_yinyang",
+     "pattern": "pos",
+     "weakest_z_before": 1.2,
+     "early": 1.2,
+     "valid": 1.86,
+     "test": 1.2,
+     "holdout_matches": 3,
+     "per_draw": [
+      0,
+      2,
+      0,
+      1,
+      0
+     ],
+     "tickets": [
+      [
+       1,
+       10,
+       18,
+       26,
+       30,
+       36
+      ],
+      [
+       1,
+       10,
+       18,
+       26,
+       30,
+       36
+      ],
+      [
+       1,
+       10,
+       18,
+       26,
+       30,
+       36
+      ],
+      [
+       1,
+       10,
+       18,
+       26,
+       30,
+       36
+      ],
+      [
+       1,
+       10,
+       18,
+       26,
+       30,
+       36
+      ]
+     ],
+     "p_fair_at_least": 0.9831
+    },
+    {
+     "rank": 8,
+     "set": "year_element \u00d7 nayin",
+     "pattern": "hot",
+     "weakest_z_before": 1.18,
+     "early": 1.52,
+     "valid": 1.22,
+     "test": 1.18,
+     "holdout_matches": 7,
+     "per_draw": [
+      1,
+      3,
+      1,
+      1,
+      1
+     ],
+     "tickets": [
+      [
+       14,
+       17,
+       23,
+       26,
+       27,
+       34
+      ],
+      [
+       19,
+       20,
+       22,
+       23,
+       26,
+       32
+      ],
+      [
+       10,
+       12,
+       13,
+       16,
+       18,
+       26
+      ],
+      [
+       3,
+       7,
+       21,
+       26,
+       27,
+       36
+      ],
+      [
+       1,
+       5,
+       9,
+       19,
+       34,
+       35
+      ]
+     ],
+     "p_fair_at_least": 0.519
+    },
+    {
+     "rank": 9,
+     "set": "karana \u00d7 day_vs_year_branch",
+     "pattern": "cold",
+     "weakest_z_before": 1.18,
+     "early": 2.0,
+     "valid": 1.18,
+     "test": 1.75,
+     "holdout_matches": 6,
+     "per_draw": [
+      2,
+      1,
+      1,
+      1,
+      1
+     ],
+     "tickets": [
+      [
+       4,
+       9,
+       13,
+       20,
+       21,
+       35
+      ],
+      [
+       3,
+       7,
+       13,
+       18,
+       25,
+       33
+      ],
+      [
+       12,
+       14,
+       19,
+       20,
+       26,
+       30
+      ],
+      [
+       3,
+       11,
+       20,
+       24,
+       29,
+       32
+      ],
+      [
+       3,
+       5,
+       12,
+       23,
+       24,
+       36
+      ]
+     ],
+     "p_fair_at_least": 0.7023
+    },
+    {
+     "rank": 10,
+     "set": "nakshatra \u00d7 jupiter_rashi",
+     "pattern": "pos",
+     "weakest_z_before": 1.16,
+     "early": 1.27,
+     "valid": 1.34,
+     "test": 1.16,
+     "holdout_matches": 7,
+     "per_draw": [
+      2,
+      1,
+      2,
+      0,
+      2
+     ],
+     "tickets": [
+      [
+       6,
+       8,
+       24,
+       25,
+       28,
+       36
+      ],
+      [
+       1,
+       6,
+       10,
+       28,
+       33,
+       34
+      ],
+      [
+       2,
+       8,
+       11,
+       12,
+       15,
+       34
+      ],
+      [
+       1,
+       5,
+       12,
+       19,
+       28,
+       32
+      ],
+      [
+       1,
+       9,
+       11,
+       13,
+       30,
+       36
+      ]
+     ],
+     "p_fair_at_least": 0.519
+    },
+    {
+     "rank": 11,
+     "set": "moon_navamsa \u00d7 day_pillar",
+     "pattern": "hot",
+     "weakest_z_before": 1.15,
+     "early": 1.33,
+     "valid": 2.28,
+     "test": 1.15,
+     "holdout_matches": 10,
+     "per_draw": [
+      1,
+      1,
+      3,
+      4,
+      1
+     ],
+     "tickets": [
+      [
+       3,
+       8,
+       10,
+       27,
+       34,
+       35
+      ],
+      [
+       4,
+       11,
+       13,
+       15,
+       20,
+       23
+      ],
+      [
+       5,
+       7,
+       8,
+       15,
+       22,
+       32
+      ],
+      [
+       6,
+       9,
+       10,
+       22,
+       26,
+       35
+      ],
+      [
+       5,
+       9,
+       16,
+       23,
+       34,
+       35
+      ]
+     ],
+     "p_fair_at_least": 0.092
+    },
+    {
+     "rank": 12,
+     "set": "karana \u00d7 day_element",
+     "pattern": "pos",
+     "weakest_z_before": 1.11,
+     "early": 1.28,
+     "valid": 1.86,
+     "test": 1.11,
+     "holdout_matches": 5,
+     "per_draw": [
+      0,
+      1,
+      1,
+      1,
+      2
+     ],
+     "tickets": [
+      [
+       1,
+       5,
+       10,
+       25,
+       31,
+       32
+      ],
+      [
+       2,
+       9,
+       10,
+       16,
+       31,
+       34
+      ],
+      [
+       1,
+       9,
+       16,
+       26,
+       29,
+       36
+      ],
+      [
+       1,
+       7,
+       10,
+       28,
+       30,
+       35
+      ],
+      [
+       1,
+       8,
+       12,
+       14,
+       19,
+       35
+      ]
+     ],
+     "p_fair_at_least": 0.8492
+    },
+    {
+     "rank": 13,
+     "set": "jupiter_nakshatra \u00d7 jupiter_retrograde",
+     "pattern": "cold",
+     "weakest_z_before": 1.09,
+     "early": 1.11,
+     "valid": 1.09,
+     "test": 1.26,
+     "holdout_matches": 7,
+     "per_draw": [
+      0,
+      0,
+      3,
+      3,
+      1
+     ],
+     "tickets": [
+      [
+       13,
+       14,
+       16,
+       26,
+       27,
+       29
+      ],
+      [
+       14,
+       16,
+       24,
+       26,
+       27,
+       29
+      ],
+      [
+       5,
+       14,
+       16,
+       26,
+       27,
+       29
+      ],
+      [
+       5,
+       16,
+       24,
+       26,
+       27,
+       29
+      ],
+      [
+       6,
+       16,
+       26,
+       27,
+       29,
+       32
+      ]
+     ],
+     "p_fair_at_least": 0.519
+    },
+    {
+     "rank": 14,
+     "set": "nakshatra_pada \u00d7 yellow_black_path",
+     "pattern": "pos",
+     "weakest_z_before": 1.08,
+     "early": 1.08,
+     "valid": 1.13,
+     "test": 1.43,
+     "holdout_matches": 6,
+     "per_draw": [
+      2,
+      2,
+      1,
+      0,
+      1
+     ],
+     "tickets": [
+      [
+       1,
+       10,
+       13,
+       21,
+       30,
+       35
+      ],
+      [
+       2,
+       6,
+       11,
+       21,
+       30,
+       32
+      ],
+      [
+       1,
+       16,
+       19,
+       24,
+       31,
+       32
+      ],
+      [
+       3,
+       4,
+       11,
+       29,
+       30,
+       36
+      ],
+      [
+       2,
+       8,
+       17,
+       23,
+       30,
+       36
+      ]
+     ],
+     "p_fair_at_least": 0.7023
+    },
+    {
+     "rank": 15,
+     "set": "kp_moon_sub_lord \u00d7 mansion_28",
+     "pattern": "gap",
+     "weakest_z_before": 1.04,
+     "early": 2.68,
+     "valid": 1.04,
+     "test": 1.15,
+     "holdout_matches": 3,
+     "per_draw": [
+      0,
+      0,
+      1,
+      0,
+      2
+     ],
+     "tickets": [
+      [
+       1,
+       2,
+       3,
+       5,
+       7,
+       13
+      ],
+      [
+       2,
+       5,
+       7,
+       9,
+       10,
+       11
+      ],
+      [
+       1,
+       3,
+       4,
+       7,
+       8,
+       11
+      ],
+      [
+       4,
+       12,
+       17,
+       18,
+       19,
+       20
+      ],
+      [
+       2,
+       6,
+       7,
+       11,
+       12,
+       13
+      ]
+     ],
+     "p_fair_at_least": 0.9831
+    },
+    {
+     "rank": 16,
+     "set": "nakshatra_pada \u00d7 day_stem",
+     "pattern": "hot",
+     "weakest_z_before": 1.04,
+     "early": 1.04,
+     "valid": 1.04,
+     "test": 1.78,
+     "holdout_matches": 9,
+     "per_draw": [
+      2,
+      2,
+      2,
+      1,
+      2
+     ],
+     "tickets": [
+      [
+       3,
+       10,
+       17,
+       23,
+       26,
+       35
+      ],
+      [
+       4,
+       25,
+       29,
+       34,
+       35,
+       36
+      ],
+      [
+       2,
+       6,
+       11,
+       15,
+       26,
+       32
+      ],
+      [
+       1,
+       6,
+       7,
+       10,
+       11,
+       20
+      ],
+      [
+       8,
+       17,
+       18,
+       25,
+       28,
+       31
+      ]
+     ],
+     "p_fair_at_least": 0.1895
+    },
+    {
+     "rank": 17,
+     "set": "venus_rashi \u00d7 year_yinyang",
+     "pattern": "pos",
+     "weakest_z_before": 1.04,
+     "early": 1.37,
+     "valid": 1.14,
+     "test": 1.04,
+     "holdout_matches": 6,
+     "per_draw": [
+      1,
+      3,
+      0,
+      1,
+      1
+     ],
+     "tickets": [
+      [
+       1,
+       8,
+       23,
+       26,
+       30,
+       36
+      ],
+      [
+       1,
+       8,
+       23,
+       26,
+       30,
+       36
+      ],
+      [
+       1,
+       8,
+       23,
+       26,
+       30,
+       36
+      ],
+      [
+       1,
+       8,
+       23,
+       26,
+       30,
+       36
+      ],
+      [
+       1,
+       8,
+       23,
+       26,
+       30,
+       36
+      ]
+     ],
+     "p_fair_at_least": 0.7023
+    },
+    {
+     "rank": 18,
+     "set": "mars_rashi \u00d7 venus_combust",
+     "pattern": "cold",
+     "weakest_z_before": 1.03,
+     "early": 1.03,
+     "valid": 1.56,
+     "test": 1.29,
+     "holdout_matches": 10,
+     "per_draw": [
+      4,
+      2,
+      1,
+      3,
+      0
+     ],
+     "tickets": [
+      [
+       6,
+       9,
+       15,
+       23,
+       31,
+       35
+      ],
+      [
+       6,
+       9,
+       15,
+       23,
+       31,
+       35
+      ],
+      [
+       6,
+       9,
+       15,
+       23,
+       31,
+       35
+      ],
+      [
+       6,
+       9,
+       15,
+       23,
+       31,
+       35
+      ],
+      [
+       6,
+       9,
+       15,
+       23,
+       31,
+       35
+      ]
+     ],
+     "p_fair_at_least": 0.092
+    },
+    {
+     "rank": 19,
+     "set": "lagna_rashi \u00d7 masa",
+     "pattern": "pos",
+     "weakest_z_before": 1.03,
+     "early": 1.03,
+     "valid": 1.32,
+     "test": 1.96,
+     "holdout_matches": 6,
+     "per_draw": [
+      2,
+      2,
+      0,
+      2,
+      0
+     ],
+     "tickets": [
+      [
+       1,
+       2,
+       21,
+       23,
+       30,
+       34
+      ],
+      [
+       1,
+       2,
+       21,
+       23,
+       30,
+       34
+      ],
+      [
+       1,
+       8,
+       13,
+       28,
+       29,
+       35
+      ],
+      [
+       1,
+       8,
+       13,
+       28,
+       29,
+       35
+      ],
+      [
+       1,
+       9,
+       10,
+       26,
+       31,
+       36
+      ]
+     ],
+     "p_fair_at_least": 0.7023
+    },
+    {
+     "rank": 20,
+     "set": "paksha \u00d7 mars_retrograde",
+     "pattern": "cold",
+     "weakest_z_before": 0.99,
+     "early": 1.58,
+     "valid": 1.08,
+     "test": 0.99,
+     "holdout_matches": 5,
+     "per_draw": [
+      2,
+      1,
+      0,
+      1,
+      1
+     ],
+     "tickets": [
+      [
+       12,
+       13,
+       14,
+       20,
+       22,
+       24
+      ],
+      [
+       12,
+       13,
+       14,
+       20,
+       22,
+       24
+      ],
+      [
+       4,
+       17,
+       18,
+       20,
+       24,
+       32
+      ],
+      [
+       17,
+       18,
+       20,
+       22,
+       24,
+       32
+      ],
+      [
+       4,
+       17,
+       18,
+       20,
+       22,
+       32
+      ]
+     ],
+     "p_fair_at_least": 0.8492
+    }
+   ],
+   "selected_total": 121,
+   "selected_expected": 133.3,
+   "shifted_selected_totals": [
+    138,
+    80,
+    121,
+    115
+   ],
+   "all_tickets": {
+    "count": 12324,
+    "mean": 5.87,
+    "max": 14,
+    "n_at_max": 1,
+    "p_fair_ticket_at_least_max": 0.00109,
+    "corr_weakest_z_vs_holdout": -0.03
+   }
+  }
+ }
+}

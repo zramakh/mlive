@@ -62,6 +62,13 @@ does this 6.5% of the time); 6/58 Jupiter rashi × Jupiter retrograde (hot) 6 vs
 × day god (cold) 3 vs 3.3; 6/50 tithi × 19:00 hour stem (position) 2 vs 3.6. A lead's ranking before the hold-out
 does not predict its hold-out score (correlation −0.06 to +0.01 over all 12,324 tickets per game).
 
+**Same test with 6-number tickets in every game** (`holdout_leads.py --ticket 6 --games ml8`,
+[HOLDOUT_LEADS_T6.md](HOLDOUT_LEADS_T6.md)): Magnum Life's search and selection redone with 6 picks. Its top 20 matched 121
+vs 133.3 expected (shifted calendars 80–138). The new #1, hora lord × Venus rashi (position), matched 4 vs 6.7.
+Moon rashi × Mars combust is no longer consistent with 6 numbers (weakest period z +0.50, not in the top 20); on the
+held-out draws its 6-number ticket matched 9 vs 6.7 (p 0.19). Its earlier strength depended on the ticket size. With
+equal tickets, the best #1 pick is Supreme Toto's Jupiter rashi × Jupiter retrograde (6 vs 3.1, p 0.07).
+
 ## Is the 4D lead special? (`lead_4d_robustness.py`, `lead_hunt.py`)
 
 No. Scored the same way:
