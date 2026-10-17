@@ -236,12 +236,100 @@ It is logged as variant `lead_4d` in `forward_log.csv` so that future draws, whi
 has seen, can settle it. Note that its ticket for a cell only changes when Venus changes rashi
 or Mercury changes nakshatra.
 
+## 7. Our own lead search: hot, cold, positional and gap patterns (`own_leads.py`)
+
+The leads in section 6 came from the 4D project. This section finds leads from scratch, using
+only these games' own history. For each game, and each of the 78 Vedic and Chinese parameters
+and their 3,003 pairs, a draw's cell is its value of that set (e.g. "lagna in Mesha & lunar
+month 3"). At every draw, using only the **earlier draws of the same cell**, it builds:
+
+| Pattern | What it predicts |
+|---|---|
+| hot | the k numbers drawn most often in the cell (relative to expected) |
+| cold | the k numbers drawn least often in the cell |
+| pos | per sorted position (smallest … largest), the number most often seen there in the cell |
+| gap | the cell's most common smallest number, then its most common differences to the next number (n2−n1, n3−n2, …) |
+| pos_hit | how often the per-position number is exactly right, against the same prediction from all earlier draws ignoring the cell |
+| gap_hit | the same for the per-position differences |
+
+Positional and gap distributions are smoothed towards the unconditioned ones (5 pseudo-draws).
+Draws are split into early (25–50%), validation (50–70%) and test (70–100%) periods.
+
+The selection rules were committed (11db295, before the test was read):
+* **best valid:** the highest validation z, per pattern and per family (Vedic, Chinese,
+  Vedic × Vedic, Chinese × Chinese, Vedic × Chinese, all).
+* **stable:** the highest min(early z, validation z), same breakdown.
+* **my lead:** per game, the stable rule over the four ticket patterns.
+
+The whole search was repeated on 8 shifted calendars, to show what the selected leads score when
+no real link exists. That is 3,081 sets × 6 patterns × 4 games × 9 calendars.
+
+**My leads (one per game), chosen on early + validation only:**
+
+| Game | Lead | Pattern | Early | Validation | **Test** |
+|---|---|---|---|---|---|
+| 6/50 | lagna rashi × lunar month | hot | 310 / 257.8 (1.20×, z +3.66) | 237 / 205.9 (1.15×, +2.44) | **302 / 309.6 (0.98×, −0.49)** |
+| 6/55 | karana × adhika masa | hot | 511 / 467.3 (1.09×, +2.25) | 422 / 373.1 (1.13×, +2.82) | **502 / 560.9 (0.90×, −2.77)** |
+| 6/58 | Rahu rashi × Saturn retrograde | pos | 468 / 428.9 (1.09×, +2.09) | 383 / 343.2 (1.12×, +2.37) | **487 / 515.2 (0.95×, −1.37)** |
+| Life | nakshatra pada × day officer | pos | 323 / 295.1 (1.09×, +2.06) | 354 / 314.7 (1.12×, +2.81) | **528 / 517.3 (1.02×, +0.59)** |
+
+(numbers matched / expected for fair tickets.) All four looked good in two separate periods and
+then dropped to chance, or below it, on the test draws. The same rule applied to shifted
+calendars gives test z between −1.4 and +2.3, so a lead that is "good twice" is what a search of
+12,000 candidates per game produces by luck.
+
+**All selected leads.** That is 4 ticket patterns × 6 families × 2 rules, so 48 leads per game:
+
+| Game | Best-valid leads, test z mean (sd) | Stable leads | Same rules on shifted calendars |
+|---|---|---|---|
+| 6/50 | −0.36 (0.73) | −0.01 (1.06) | +0.05 / +0.04 |
+| 6/55 | −0.55 (0.79) | −0.40 (1.22) | +0.03 / −0.06 |
+| 6/58 | −0.27 (1.01) | −0.27 (1.05) | −0.21 / −0.21 |
+| Life | −0.12 (1.00) | −0.23 (0.83) | +0.01 / −0.14 |
+
+A real effect would put the selected leads above zero, and above the shifted ones. They are at
+or below both. The best validation z of the real search (2.8–4.3 for the ticket patterns) is the same size as
+the best of the shifted searches (2.7–3.7 on average).
+
+**Does validation predict the test at all?** Across all 3,081 sets, the correlation between a
+set's validation z and its test z is −0.11 to +0.08 for the ticket patterns. That matches the
+shifted calendars (−0.14 to +0.07). The only sizeable correlations are for pos_hit and gap_hit,
+and they are just as large on shifted calendars. They measure how much the cell size hurts
+those predictions, not astrology.
+
+**Positions and gaps.** Predicting the number at each position, or the gap to the next number,
+from the cell is *worse* than ignoring the cell: on average across sets, z −0.9 to −3.6 against
+the unconditioned prediction, the same as on shifted calendars. For example, my Supreme Toto
+lead's positional predictions hit 252 times on the test draws against 308 for the unconditioned
+ones. Cells hold few draws, and their "most common" value is mostly noise.
+
+One selected lead did well on the test: Magnum Life, best-valid positional, Moon rashi ×
+samvatsara, z +2.19. It is 1 of 48 selected leads per game, and the rest average below zero.
+
+### Comparison with the earlier leads
+
+All scores are on the same test draws, as z against fair tickets:
+
+| Lead | 6/50 | 6/55 | 6/58 | Life |
+|---|---|---|---|---|
+| **My leads (this section)** | −0.49 | −2.77 | −1.37 | +0.59 |
+| 4D lead, Mercury nakshatra × Venus rashi, static ticket (section 6) | +0.81 | +0.59 | +0.73 | +2.75 |
+| Same 4D lead, walk-forward hot ticket (this section's method) | +0.16 | −0.68 | +0.22 | +0.83 |
+| Astrology formulas, best of 4 per game (section 4) | +1.15 | +0.28 | +0.39 | +1.31 |
+| Earlier walk-forward best pair (section 2) | −0.58 | −0.94 | +1.32 | −1.29 |
+
+My own leads did **not** beat the earlier ones. They scored lower on the test draws, but every
+row is within the spread expected from selection luck. The 4D lead's Magnum Life +2.75 depends on
+how its ticket is built: it is +0.83 when the ticket is updated draw by draw like every other
+lead here. Tickets for my leads on 18 and 21 Oct are logged as `own_lead` in `forward_log.csv`.
+
 ## Conclusion
 
 The Toto and Magnum Life draws are fair for practical purposes. Vedic, KP and Chinese almanac
-conditions, single or paired, and the formulas built from them carry no information that
-survives on later draws. The one surviving lead is a small effect that is not significant once
-selection is accounted for.
+conditions, single or paired, carry no information that survives on later draws. That holds
+for the formulas built from them, and for hot, cold, positional and gap patterns found
+by our own search. The one surviving lead (from the 4D project) is a small effect that is not
+significant once selection is accounted for. It also weakens when scored draw by draw.
 
 ## Reproduce
 
@@ -253,6 +341,7 @@ python3 analysis/numerology.py            # ~3 s
 python3 analysis/astro_model.py tune      # rewrites the frozen formulas: only to re-tune
 python3 analysis/astro_model.py test      # ~2 min
 python3 analysis/lead_4d_check.py
+python3 analysis/own_leads.py             # ~15 min on 4 cores
 python3 analysis/astro_model.py predict --date 2026-10-21
 ```
 
