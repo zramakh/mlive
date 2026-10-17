@@ -263,6 +263,41 @@ among all 3,403 pairs:
 So the lead is a genuinely low-probability coincidence, roughly 1 in 70–140, but it is not
 evidence of a mechanism. The forward log will show whether it continues.
 
+### Hunting for leads that beat it (`lead_hunt.py`)
+
+If the 4D lead were special, honest ways of picking leads (ways that, like the 4D lead's,
+choose without seeing the test draws) should rarely do as well. Seven methods were tried, each
+scored with exactly the statistic that gave the 4D lead its result. In this run the lead scored
++2.96 on Magnum Life and +4.70 summed over the four games; tie-breaking noise moves it slightly
+from section 6.
+
+| Method | Picks (sets × games) | Mean test z | Best single score | Scores ≥ lead's +2.96 | Best sum over 4 games |
+|---|---|---|---|---|---|
+| **4D picks:** all 58 sets 4DPrediction chose on 1985–2011 4D data (lead #1 among them) | 232 | +0.07 | +3.10 (yoga × day pillar, 6/58) | 3 | +4.70 (the lead) |
+| Within-game, best on validation | 20 | −0.08 | +1.44 | 0 | – |
+| Within-game, stable over two validation windows | 20 | +0.03 | +1.18 | 0 | – |
+| Transfer: best on the other three games | 20 | +0.27 | +1.85 | 0 | – |
+| Pooled validation over all games | 20 | −0.14 | +1.77 | 0 | +1.51 |
+| Triples, best on validation (30,000 sampled) | 20 | +0.16 | +2.54 | 0 | – |
+| **Random pairs, no selection** | 800 | −0.08 | **+3.40** (Sun nakshatra × Na Yin, 6/50) | 2 | **+6.24** (Sun nakshatra × Na Yin) |
+
+* **Random pairs beat it.** Out of 200 pairs drawn at random, two scored a higher four-game sum.
+  The best, Sun nakshatra × Na Yin (+3.40, +0.43, +1.58, +0.84), totals +6.24 against the lead's
+  +4.70.
+* **Among the 4D picks, the lead's score is what the best of 58 gets by chance.** The 58 sets
+  4D picked average +0.07 here, the same as random pairs. For one pick, a four-game sum of +4.70
+  is about a 1-in-106 result. For the best of 58 picks it is a **42%** result. Three other 4D
+  picks come close (+4.52, +4.39, +4.10). The lead was promoted to "#1" in 4D because it had the
+  best 2012–2026 score of those 58, so the fair comparison is with all 58, not with one
+  pre-chosen pick.
+* **The 4D ranking does not carry over.** Without the lead itself, the correlation between a
+  pick's 2012–2026 4D score and its score here is +0.15 over 57 picks (standard error ≈ 0.13).
+* **The honest within-game methods** found nothing better (best +2.54 out of 100 picks). That is
+  what chance gives 100 picks.
+
+So the lead's result here is matched or beaten by unselected random pairs and by other 4D
+picks, and it is about what the luckiest of the 4D picks should score. It is chance.
+
 ## 7. Our own lead search: hot, cold, positional and gap patterns (`own_leads.py`)
 
 The leads in section 6 came from the 4D project. This section finds leads from scratch, using
@@ -370,6 +405,7 @@ python3 analysis/astro_model.py test      # ~2 min
 python3 analysis/lead_4d_check.py
 python3 analysis/own_leads.py             # ~15 min on 4 cores
 python3 analysis/lead_4d_robustness.py    # ~30 s, after own_leads.py
+python3 analysis/lead_hunt.py             # ~1 min (reads ../4DPrediction for the 4D picks)
 python3 analysis/astro_model.py predict --date 2026-10-21
 ```
 

@@ -44,7 +44,16 @@ Each of my leads was +2 to +3.7 z in two separate periods before the test, then 
 None did better than the earlier leads. Per-position and gap predictions get *worse* when
 conditioned on any parameter (fewer draws per cell, more noise).
 
-## Lead worth watching
+## Is the 4D lead special? (`lead_4d_robustness.py`, `lead_hunt.py`)
+
+No. Scored the same way:
+- Random pairs with no selection beat it. Sun nakshatra × Na Yin sums +6.24 over the four games
+  against the lead's +4.70, and 2 of 200 random pairs beat it.
+- The 58 sets 4D picked average +0.07 here, the same as random. The lead is the best of them,
+  which happens by chance 42% of the time.
+- Three other 4D picks score almost as high (+4.52, +4.39, +4.10).
+
+## Lead worth watching (now explained as chance)
 
 | Lead | Evidence | Problem |
 |---|---|---|

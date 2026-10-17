@@ -1,0 +1,8085 @@
+{
+ "score": "replication z, tickets learned on first 70%, scored on last 30%",
+ "lead_4d": {
+  "set": "mercury_nakshatra x venus_rashi",
+  "test_z": {
+   "toto50": -0.16,
+   "toto55": 0.93,
+   "toto58": 0.98,
+   "ml8": 2.96
+  },
+  "sum": 4.7
+ },
+ "methods": {
+  "4d_picks": {
+   "picks": 232,
+   "mean_test_z": 0.067,
+   "sd_test_z": 1.106,
+   "max_test_z": 3.1,
+   "n_at_least_lead_ml8_z": 3,
+   "best": {
+    "game": "toto58",
+    "set": "yoga x day_pillar",
+    "test_z": 3.1,
+    "valid_z": 0.19,
+    "early_z": -0.73
+   },
+   "all": [
+    {
+     "game": "toto58",
+     "set": "yoga x day_pillar",
+     "test_z": 3.1,
+     "valid_z": 0.19,
+     "early_z": -0.73
+    },
+    {
+     "game": "toto58",
+     "set": "rahu_rashi x day_pillar",
+     "test_z": 2.99,
+     "valid_z": -0.15,
+     "early_z": -0.72
+    },
+    {
+     "game": "ml8",
+     "set": "mercury_nakshatra x venus_rashi",
+     "test_z": 2.96,
+     "valid_z": 0.06,
+     "early_z": 0.35
+    },
+    {
+     "game": "toto58",
+     "set": "jupiter_retrograde x year_yinyang",
+     "test_z": 2.58,
+     "valid_z": -0.76,
+     "early_z": 0.18
+    },
+    {
+     "game": "toto50",
+     "set": "paksha x saturn_rashi",
+     "test_z": 2.45,
+     "valid_z": 0.5,
+     "early_z": 0.13
+    },
+    {
+     "game": "toto58",
+     "set": "venus_nakshatra x month_branch",
+     "test_z": 2.33,
+     "valid_z": -0.48,
+     "early_z": 0.72
+    },
+    {
+     "game": "toto50",
+     "set": "sun_rashi x kp_sun_sub_lord",
+     "test_z": 2.21,
+     "valid_z": 1.28,
+     "early_z": 0.02
+    },
+    {
+     "game": "ml8",
+     "set": "karana x kp_sun_sub_lord",
+     "test_z": 2.15,
+     "valid_z": 1.54,
+     "early_z": -0.04
+    },
+    {
+     "game": "toto58",
+     "set": "yoga x kp_sun_star_lord",
+     "test_z": 2.14,
+     "valid_z": 0.61,
+     "early_z": -0.1
+    },
+    {
+     "game": "toto55",
+     "set": "paksha x nakshatra_lord",
+     "test_z": 2.02,
+     "valid_z": -1.77,
+     "early_z": -1.45
+    },
+    {
+     "game": "toto55",
+     "set": "karana x kp_moon_number",
+     "test_z": 2.01,
+     "valid_z": -0.52,
+     "early_z": 0.3
+    },
+    {
+     "game": "ml8",
+     "set": "weekday x nine_star_month",
+     "test_z": 1.93,
+     "valid_z": 1.49,
+     "early_z": -0.48
+    },
+    {
+     "game": "toto55",
+     "set": "venus_nakshatra x month_stem",
+     "test_z": 1.92,
+     "valid_z": 0.32,
+     "early_z": -1.06
+    },
+    {
+     "game": "toto58",
+     "set": "jupiter_rashi x year_animal",
+     "test_z": 1.92,
+     "valid_z": 1.43,
+     "early_z": -0.22
+    },
+    {
+     "game": "toto55",
+     "set": "paksha x kp_moon_star_lord",
+     "test_z": 1.83,
+     "valid_z": -1.19,
+     "early_z": -1.38
+    },
+    {
+     "game": "ml8",
+     "set": "lagna_nakshatra x day_vs_year_branch",
+     "test_z": 1.83,
+     "valid_z": -1.42,
+     "early_z": 0.27
+    },
+    {
+     "game": "ml8",
+     "set": "lunar_day x month_branch",
+     "test_z": 1.81,
+     "valid_z": -0.75,
+     "early_z": 1.78
+    },
+    {
+     "game": "toto58",
+     "set": "jupiter_rashi x year_yinyang",
+     "test_z": 1.8,
+     "valid_z": 2.48,
+     "early_z": -0.22
+    },
+    {
+     "game": "toto50",
+     "set": "yoga x kp_sun_star_lord",
+     "test_z": 1.78,
+     "valid_z": -1.24,
+     "early_z": -0.65
+    },
+    {
+     "game": "toto55",
+     "set": "weekday x lagna_nakshatra",
+     "test_z": 1.69,
+     "valid_z": -0.64,
+     "early_z": 1.08
+    },
+    {
+     "game": "ml8",
+     "set": "kp_moon_sub_lord x kp_asc_star_lord",
+     "test_z": 1.69,
+     "valid_z": 0.51,
+     "early_z": -0.01
+    },
+    {
+     "game": "toto55",
+     "set": "karana x day_pillar",
+     "test_z": 1.64,
+     "valid_z": 0.62,
+     "early_z": 0.58
+    },
+    {
+     "game": "ml8",
+     "set": "sun_rashi x lunar_day",
+     "test_z": 1.62,
+     "valid_z": -0.93,
+     "early_z": 0.65
+    },
+    {
+     "game": "toto58",
+     "set": "karana x kp_moon_number",
+     "test_z": 1.58,
+     "valid_z": -1.35,
+     "early_z": 0.1
+    },
+    {
+     "game": "toto50",
+     "set": "kp_asc_number x lunar_day",
+     "test_z": 1.46,
+     "valid_z": -1.35,
+     "early_z": 0.0
+    },
+    {
+     "game": "toto58",
+     "set": "lagna_nakshatra x day_vs_year_branch",
+     "test_z": 1.46,
+     "valid_z": 0.43,
+     "early_z": -0.31
+    },
+    {
+     "game": "ml8",
+     "set": "weekday x lagna_nakshatra",
+     "test_z": 1.41,
+     "valid_z": -0.6,
+     "early_z": 0.61
+    },
+    {
+     "game": "toto58",
+     "set": "venus_nakshatra x month_stem",
+     "test_z": 1.38,
+     "valid_z": 0.54,
+     "early_z": 1.22
+    },
+    {
+     "game": "toto55",
+     "set": "kp_asc_number x lunar_day",
+     "test_z": 1.33,
+     "valid_z": -0.99,
+     "early_z": 0.0
+    },
+    {
+     "game": "toto50",
+     "set": "lagna_nakshatra x day_vs_year_branch",
+     "test_z": 1.32,
+     "valid_z": 0.9,
+     "early_z": 0.11
+    },
+    {
+     "game": "toto55",
+     "set": "ritu x hour_stem_19h",
+     "test_z": 1.32,
+     "valid_z": -0.68,
+     "early_z": -1.91
+    },
+    {
+     "game": "ml8",
+     "set": "weekday x hour_stem_19h",
+     "test_z": 1.27,
+     "valid_z": 0.05,
+     "early_z": 0.06
+    },
+    {
+     "game": "toto55",
+     "set": "tithi x kp_asc_number",
+     "test_z": 1.2,
+     "valid_z": -1.96,
+     "early_z": -0.3
+    },
+    {
+     "game": "toto58",
+     "set": "kp_sun_sub_lord x day_god",
+     "test_z": 1.17,
+     "valid_z": -0.4,
+     "early_z": 0.86
+    },
+    {
+     "game": "ml8",
+     "set": "day_branch x day_god",
+     "test_z": 1.17,
+     "valid_z": -0.01,
+     "early_z": -1.14
+    },
+    {
+     "game": "toto50",
+     "set": "paksha x rahu_nakshatra",
+     "test_z": 1.13,
+     "valid_z": -0.69,
+     "early_z": -0.61
+    },
+    {
+     "game": "toto58",
+     "set": "mercury_retrograde x month_stem",
+     "test_z": 1.12,
+     "valid_z": 0.37,
+     "early_z": -0.17
+    },
+    {
+     "game": "toto58",
+     "set": "day_branch x day_god",
+     "test_z": 1.12,
+     "valid_z": 0.49,
+     "early_z": -0.65
+    },
+    {
+     "game": "toto55",
+     "set": "paksha x saturn_rashi",
+     "test_z": 1.1,
+     "valid_z": -1.36,
+     "early_z": 0.61
+    },
+    {
+     "game": "toto55",
+     "set": "mercury_retrograde x month_stem",
+     "test_z": 1.08,
+     "valid_z": -0.85,
+     "early_z": 0.88
+    },
+    {
+     "game": "toto55",
+     "set": "tithi x month_stem",
+     "test_z": 1.08,
+     "valid_z": 2.09,
+     "early_z": 0.03
+    },
+    {
+     "game": "toto58",
+     "set": "saturn_retrograde x kp_moon_number",
+     "test_z": 1.07,
+     "valid_z": 2.6,
+     "early_z": -1.6
+    },
+    {
+     "game": "toto55",
+     "set": "jupiter_retrograde x year_yinyang",
+     "test_z": 1.04,
+     "valid_z": 0.07,
+     "early_z": 0.48
+    },
+    {
+     "game": "ml8",
+     "set": "moon_navamsa x day_stem",
+     "test_z": 1.03,
+     "valid_z": -0.3,
+     "early_z": 1.09
+    },
+    {
+     "game": "ml8",
+     "set": "venus_nakshatra x month_stem",
+     "test_z": 1.03,
+     "valid_z": 0.83,
+     "early_z": 1.33
+    },
+    {
+     "game": "toto50",
+     "set": "mercury_retrograde x saturn_retrograde",
+     "test_z": 1.02,
+     "valid_z": -0.44,
+     "early_z": 1.13
+    },
+    {
+     "game": "toto58",
+     "set": "paksha x karana",
+     "test_z": 1.02,
+     "valid_z": -0.52,
+     "early_z": -0.85
+    },
+    {
+     "game": "toto55",
+     "set": "hora_lord x day_branch",
+     "test_z": 0.99,
+     "valid_z": -0.85,
+     "early_z": 0.41
+    },
+    {
+     "game": "toto58",
+     "set": "mercury_nakshatra x venus_rashi",
+     "test_z": 0.98,
+     "valid_z": 0.93,
+     "early_z": -0.16
+    },
+    {
+     "game": "toto58",
+     "set": "ritu x hour_stem_19h",
+     "test_z": 0.98,
+     "valid_z": -0.52,
+     "early_z": 1.14
+    },
+    {
+     "game": "toto58",
+     "set": "saturn_rashi x ayana",
+     "test_z": 0.98,
+     "valid_z": -1.1,
+     "early_z": 0.89
+    },
+    {
+     "game": "toto55",
+     "set": "kp_moon_sub_lord x day_officer",
+     "test_z": 0.94,
+     "valid_z": 1.17,
+     "early_z": 0.54
+    },
+    {
+     "game": "toto55",
+     "set": "venus_nakshatra x month_branch",
+     "test_z": 0.94,
+     "valid_z": 1.26,
+     "early_z": 0.03
+    },
+    {
+     "game": "toto55",
+     "set": "mercury_nakshatra x venus_rashi",
+     "test_z": 0.93,
+     "valid_z": 0.76,
+     "early_z": 0.17
+    },
+    {
+     "game": "toto58",
+     "set": "paksha x nakshatra_lord",
+     "test_z": 0.93,
+     "valid_z": -0.88,
+     "early_z": 0.72
+    },
+    {
+     "game": "toto58",
+     "set": "ayana x day_officer",
+     "test_z": 0.93,
+     "valid_z": 0.14,
+     "early_z": 0.11
+    },
+    {
+     "game": "ml8",
+     "set": "sun_rashi x kp_sun_sub_lord",
+     "test_z": 0.93,
+     "valid_z": 0.03,
+     "early_z": -0.63
+    },
+    {
+     "game": "toto58",
+     "set": "lunar_day x month_branch",
+     "test_z": 0.89,
+     "valid_z": 0.86,
+     "early_z": -0.04
+    },
+    {
+     "game": "ml8",
+     "set": "sun_rashi x mars_retrograde",
+     "test_z": 0.88,
+     "valid_z": -1.39,
+     "early_z": 1.13
+    },
+    {
+     "game": "toto55",
+     "set": "yoga x day_pillar",
+     "test_z": 0.87,
+     "valid_z": 0.89,
+     "early_z": -0.31
+    },
+    {
+     "game": "ml8",
+     "set": "planets_with_moon x solar_term",
+     "test_z": 0.86,
+     "valid_z": 0.37,
+     "early_z": 0.68
+    },
+    {
+     "game": "toto58",
+     "set": "paksha x year_pillar",
+     "test_z": 0.85,
+     "valid_z": -0.68,
+     "early_z": -0.05
+    },
+    {
+     "game": "toto50",
+     "set": "karana x kp_sun_sub_lord",
+     "test_z": 0.84,
+     "valid_z": -0.78,
+     "early_z": 1.33
+    },
+    {
+     "game": "toto50",
+     "set": "saturn_retrograde x year_pillar",
+     "test_z": 0.83,
+     "valid_z": 1.06,
+     "early_z": 0.65
+    },
+    {
+     "game": "ml8",
+     "set": "mercury_combust x kp_sun_number",
+     "test_z": 0.82,
+     "valid_z": -0.88,
+     "early_z": 1.03
+    },
+    {
+     "game": "toto58",
+     "set": "paksha x kp_moon_star_lord",
+     "test_z": 0.78,
+     "valid_z": -1.35,
+     "early_z": 0.52
+    },
+    {
+     "game": "ml8",
+     "set": "paksha x year_pillar",
+     "test_z": 0.78,
+     "valid_z": -0.14,
+     "early_z": -1.39
+    },
+    {
+     "game": "toto58",
+     "set": "paksha x saturn_rashi",
+     "test_z": 0.77,
+     "valid_z": 1.76,
+     "early_z": -1.18
+    },
+    {
+     "game": "ml8",
+     "set": "mercury_nakshatra x lunar_leap_month",
+     "test_z": 0.76,
+     "valid_z": -0.18,
+     "early_z": -1.41
+    },
+    {
+     "game": "toto50",
+     "set": "kp_sun_sub_lord x day_god",
+     "test_z": 0.7,
+     "valid_z": 0.34,
+     "early_z": -1.21
+    },
+    {
+     "game": "ml8",
+     "set": "weekday x day_god",
+     "test_z": 0.7,
+     "valid_z": -1.11,
+     "early_z": -0.54
+    },
+    {
+     "game": "toto58",
+     "set": "moon_navamsa x day_stem",
+     "test_z": 0.68,
+     "valid_z": -0.52,
+     "early_z": 0.04
+    },
+    {
+     "game": "toto58",
+     "set": "nakshatra_lord x hora_lord",
+     "test_z": 0.64,
+     "valid_z": 0.55,
+     "early_z": -0.65
+    },
+    {
+     "game": "toto55",
+     "set": "weekday x hour_stem_19h",
+     "test_z": 0.61,
+     "valid_z": 1.86,
+     "early_z": -0.92
+    },
+    {
+     "game": "toto55",
+     "set": "sun_rashi x mars_retrograde",
+     "test_z": 0.58,
+     "valid_z": -0.04,
+     "early_z": -0.75
+    },
+    {
+     "game": "ml8",
+     "set": "hora_lord x day_stem",
+     "test_z": 0.56,
+     "valid_z": 0.16,
+     "early_z": 0.46
+    },
+    {
+     "game": "ml8",
+     "set": "tithi x kp_asc_number",
+     "test_z": 0.52,
+     "valid_z": 0.21,
+     "early_z": 0.21
+    },
+    {
+     "game": "toto50",
+     "set": "ritu x hour_stem_19h",
+     "test_z": 0.51,
+     "valid_z": 1.28,
+     "early_z": 3.47
+    },
+    {
+     "game": "toto58",
+     "set": "jupiter_nakshatra x mercury_combust",
+     "test_z": 0.51,
+     "valid_z": 1.36,
+     "early_z": -0.87
+    },
+    {
+     "game": "toto50",
+     "set": "venus_nakshatra x lunar_day",
+     "test_z": 0.5,
+     "valid_z": 0.38,
+     "early_z": -0.88
+    },
+    {
+     "game": "toto58",
+     "set": "mercury_nakshatra x lunar_leap_month",
+     "test_z": 0.46,
+     "valid_z": 1.62,
+     "early_z": 0.06
+    },
+    {
+     "game": "toto58",
+     "set": "kp_asc_number x lunar_day",
+     "test_z": 0.44,
+     "valid_z": -0.25,
+     "early_z": 0.0
+    },
+    {
+     "game": "toto55",
+     "set": "kp_moon_sub_lord x kp_asc_star_lord",
+     "test_z": 0.43,
+     "valid_z": -0.1,
+     "early_z": 0.41
+    },
+    {
+     "game": "ml8",
+     "set": "sun_nakshatra x mercury_rashi",
+     "test_z": 0.41,
+     "valid_z": -0.67,
+     "early_z": 0.68
+    },
+    {
+     "game": "toto50",
+     "set": "tithi x kp_asc_number",
+     "test_z": 0.4,
+     "valid_z": -0.95,
+     "early_z": -0.95
+    },
+    {
+     "game": "toto58",
+     "set": "kp_moon_number x kp_sun_number",
+     "test_z": 0.35,
+     "valid_z": -1.23,
+     "early_z": 0.0
+    },
+    {
+     "game": "ml8",
+     "set": "karana x day_pillar",
+     "test_z": 0.35,
+     "valid_z": 0.67,
+     "early_z": 0.98
+    },
+    {
+     "game": "toto58",
+     "set": "mercury_rashi x nine_star_year",
+     "test_z": 0.34,
+     "valid_z": -1.78,
+     "early_z": 1.59
+    },
+    {
+     "game": "toto50",
+     "set": "venus_nakshatra x month_branch",
+     "test_z": 0.32,
+     "valid_z": -0.9,
+     "early_z": 1.23
+    },
+    {
+     "game": "toto58",
+     "set": "sun_rashi x lunar_day",
+     "test_z": 0.32,
+     "valid_z": 0.6,
+     "early_z": -1.98
+    },
+    {
+     "game": "ml8",
+     "set": "yoga x kp_sun_star_lord",
+     "test_z": 0.32,
+     "valid_z": 0.21,
+     "early_z": -1.05
+    },
+    {
+     "game": "toto50",
+     "set": "karana x day_pillar",
+     "test_z": 0.3,
+     "valid_z": -1.37,
+     "early_z": 1.67
+    },
+    {
+     "game": "toto55",
+     "set": "nakshatra_lord x hora_lord",
+     "test_z": 0.28,
+     "valid_z": 1.11,
+     "early_z": -0.25
+    },
+    {
+     "game": "toto55",
+     "set": "yoga x kp_sun_star_lord",
+     "test_z": 0.28,
+     "valid_z": -0.45,
+     "early_z": -1.78
+    },
+    {
+     "game": "toto58",
+     "set": "venus_nakshatra x masa",
+     "test_z": 0.28,
+     "valid_z": -1.28,
+     "early_z": 0.03
+    },
+    {
+     "game": "ml8",
+     "set": "mercury_retrograde x saturn_combust",
+     "test_z": 0.27,
+     "valid_z": -1.23,
+     "early_z": -0.28
+    },
+    {
+     "game": "ml8",
+     "set": "hora_lord x day_branch",
+     "test_z": 0.27,
+     "valid_z": -1.17,
+     "early_z": 0.93
+    },
+    {
+     "game": "toto55",
+     "set": "rahu_rashi x day_pillar",
+     "test_z": 0.26,
+     "valid_z": 1.76,
+     "early_z": -1.42
+    },
+    {
+     "game": "toto50",
+     "set": "paksha x karana",
+     "test_z": 0.25,
+     "valid_z": -2.32,
+     "early_z": -0.32
+    },
+    {
+     "game": "toto50",
+     "set": "weekday x lagna_nakshatra",
+     "test_z": 0.25,
+     "valid_z": 0.2,
+     "early_z": -0.15
+    },
+    {
+     "game": "toto58",
+     "set": "hora_lord x day_stem",
+     "test_z": 0.25,
+     "valid_z": -0.04,
+     "early_z": 0.66
+    },
+    {
+     "game": "toto58",
+     "set": "tithi x kp_asc_number",
+     "test_z": 0.23,
+     "valid_z": -0.67,
+     "early_z": -0.87
+    },
+    {
+     "game": "toto50",
+     "set": "sun_rashi x lunar_day",
+     "test_z": 0.14,
+     "valid_z": -0.08,
+     "early_z": 0.34
+    },
+    {
+     "game": "toto50",
+     "set": "kp_asc_sub_lord x yellow_black_path",
+     "test_z": 0.13,
+     "valid_z": -0.05,
+     "early_z": -1.13
+    },
+    {
+     "game": "toto58",
+     "set": "weekday x lagna_nakshatra",
+     "test_z": 0.1,
+     "valid_z": 0.77,
+     "early_z": -0.44
+    },
+    {
+     "game": "toto50",
+     "set": "mercury_nakshatra x lunar_leap_month",
+     "test_z": 0.09,
+     "valid_z": -0.74,
+     "early_z": -0.41
+    },
+    {
+     "game": "ml8",
+     "set": "kp_sun_sub_lord x day_god",
+     "test_z": 0.08,
+     "valid_z": -0.01,
+     "early_z": -1.03
+    },
+    {
+     "game": "toto50",
+     "set": "sun_nakshatra x mercury_rashi",
+     "test_z": 0.07,
+     "valid_z": -0.73,
+     "early_z": 0.28
+    },
+    {
+     "game": "toto50",
+     "set": "planets_with_moon x solar_term",
+     "test_z": 0.07,
+     "valid_z": -1.09,
+     "early_z": 0.28
+    },
+    {
+     "game": "toto50",
+     "set": "mercury_retrograde x saturn_combust",
+     "test_z": 0.06,
+     "valid_z": 0.5,
+     "early_z": 1.67
+    },
+    {
+     "game": "toto50",
+     "set": "mercury_retrograde x month_stem",
+     "test_z": 0.06,
+     "valid_z": 1.05,
+     "early_z": -0.05
+    },
+    {
+     "game": "toto50",
+     "set": "venus_nakshatra x month_stem",
+     "test_z": 0.06,
+     "valid_z": -0.31,
+     "early_z": -0.66
+    },
+    {
+     "game": "toto55",
+     "set": "venus_nakshatra x masa",
+     "test_z": 0.05,
+     "valid_z": 1.42,
+     "early_z": 0.29
+    },
+    {
+     "game": "ml8",
+     "set": "mercury_combust x nine_star_month",
+     "test_z": 0.04,
+     "valid_z": -1.4,
+     "early_z": 0.19
+    },
+    {
+     "game": "ml8",
+     "set": "kp_asc_sub_lord x yellow_black_path",
+     "test_z": 0.04,
+     "valid_z": -1.52,
+     "early_z": 1.93
+    },
+    {
+     "game": "toto50",
+     "set": "kp_moon_number x kp_sun_number",
+     "test_z": 0.0,
+     "valid_z": 0.0,
+     "early_z": 0.0
+    },
+    {
+     "game": "toto50",
+     "set": "hora_lord x day_branch",
+     "test_z": -0.0,
+     "valid_z": -2.16,
+     "early_z": -1.76
+    },
+    {
+     "game": "ml8",
+     "set": "jupiter_rashi x year_yinyang",
+     "test_z": 0.0,
+     "valid_z": -0.26,
+     "early_z": -0.07
+    },
+    {
+     "game": "ml8",
+     "set": "jupiter_rashi x year_animal",
+     "test_z": 0.0,
+     "valid_z": 0.24,
+     "early_z": -1.29
+    },
+    {
+     "game": "ml8",
+     "set": "kp_moon_number x kp_sun_number",
+     "test_z": 0.0,
+     "valid_z": 0.0,
+     "early_z": 0.0
+    },
+    {
+     "game": "ml8",
+     "set": "saturn_retrograde x year_pillar",
+     "test_z": -0.05,
+     "valid_z": -0.39,
+     "early_z": -0.68
+    },
+    {
+     "game": "toto55",
+     "set": "sun_nakshatra x mercury_rashi",
+     "test_z": -0.06,
+     "valid_z": 0.34,
+     "early_z": -0.44
+    },
+    {
+     "game": "toto58",
+     "set": "tithi x month_stem",
+     "test_z": -0.09,
+     "valid_z": 0.49,
+     "early_z": -0.63
+    },
+    {
+     "game": "toto50",
+     "set": "mercury_rashi x nine_star_year",
+     "test_z": -0.12,
+     "valid_z": 3.34,
+     "early_z": -0.17
+    },
+    {
+     "game": "toto58",
+     "set": "karana x kp_sun_sub_lord",
+     "test_z": -0.12,
+     "valid_z": -0.45,
+     "early_z": -0.41
+    },
+    {
+     "game": "toto55",
+     "set": "mercury_rashi x nine_star_year",
+     "test_z": -0.14,
+     "valid_z": 0.39,
+     "early_z": -0.7
+    },
+    {
+     "game": "toto55",
+     "set": "venus_nakshatra x lunar_day",
+     "test_z": -0.14,
+     "valid_z": 0.05,
+     "early_z": 0.0
+    },
+    {
+     "game": "ml8",
+     "set": "paksha x kp_moon_star_lord",
+     "test_z": -0.15,
+     "valid_z": 1.2,
+     "early_z": -1.08
+    },
+    {
+     "game": "toto50",
+     "set": "mercury_nakshatra x venus_rashi",
+     "test_z": -0.16,
+     "valid_z": -0.13,
+     "early_z": 0.25
+    },
+    {
+     "game": "ml8",
+     "set": "jupiter_nakshatra x mercury_combust",
+     "test_z": -0.17,
+     "valid_z": 0.71,
+     "early_z": -0.68
+    },
+    {
+     "game": "toto55",
+     "set": "moon_navamsa x day_stem",
+     "test_z": -0.19,
+     "valid_z": 0.13,
+     "early_z": -1.12
+    },
+    {
+     "game": "toto50",
+     "set": "paksha x year_pillar",
+     "test_z": -0.22,
+     "valid_z": 0.41,
+     "early_z": -1.13
+    },
+    {
+     "game": "toto55",
+     "set": "lunar_day x month_branch",
+     "test_z": -0.25,
+     "valid_z": 0.7,
+     "early_z": 0.83
+    },
+    {
+     "game": "toto50",
+     "set": "nakshatra_lord x hora_lord",
+     "test_z": -0.26,
+     "valid_z": -1.22,
+     "early_z": 0.54
+    },
+    {
+     "game": "toto50",
+     "set": "rahu_rashi x day_pillar",
+     "test_z": -0.26,
+     "valid_z": -1.22,
+     "early_z": -0.29
+    },
+    {
+     "game": "toto55",
+     "set": "hora_lord x day_stem",
+     "test_z": -0.28,
+     "valid_z": 0.76,
+     "early_z": -0.72
+    },
+    {
+     "game": "toto50",
+     "set": "saturn_retrograde x kp_moon_number",
+     "test_z": -0.29,
+     "valid_z": 0.02,
+     "early_z": -2.19
+    },
+    {
+     "game": "toto58",
+     "set": "sun_rashi x kp_sun_sub_lord",
+     "test_z": -0.29,
+     "valid_z": -1.65,
+     "early_z": -1.06
+    },
+    {
+     "game": "toto58",
+     "set": "weekday x nine_star_month",
+     "test_z": -0.29,
+     "valid_z": 0.14,
+     "early_z": 0.86
+    },
+    {
+     "game": "toto58",
+     "set": "mercury_combust x kp_sun_number",
+     "test_z": -0.31,
+     "valid_z": -0.12,
+     "early_z": 0.24
+    },
+    {
+     "game": "toto50",
+     "set": "jupiter_nakshatra x mercury_combust",
+     "test_z": -0.32,
+     "valid_z": 0.68,
+     "early_z": 0.23
+    },
+    {
+     "game": "toto55",
+     "set": "paksha x rahu_nakshatra",
+     "test_z": -0.34,
+     "valid_z": -0.09,
+     "early_z": 0.28
+    },
+    {
+     "game": "toto58",
+     "set": "sun_rashi x mars_retrograde",
+     "test_z": -0.34,
+     "valid_z": -0.08,
+     "early_z": 0.27
+    },
+    {
+     "game": "ml8",
+     "set": "paksha x nakshatra_lord",
+     "test_z": -0.34,
+     "valid_z": 1.32,
+     "early_z": -0.81
+    },
+    {
+     "game": "ml8",
+     "set": "ritu x hour_stem_19h",
+     "test_z": -0.34,
+     "valid_z": 0.28,
+     "early_z": -0.21
+    },
+    {
+     "game": "ml8",
+     "set": "tithi x month_stem",
+     "test_z": -0.36,
+     "valid_z": 0.3,
+     "early_z": -0.09
+    },
+    {
+     "game": "toto55",
+     "set": "mercury_nakshatra x lunar_leap_month",
+     "test_z": -0.38,
+     "valid_z": 0.19,
+     "early_z": -0.54
+    },
+    {
+     "game": "ml8",
+     "set": "paksha x karana",
+     "test_z": -0.39,
+     "valid_z": -0.65,
+     "early_z": -0.21
+    },
+    {
+     "game": "toto55",
+     "set": "lunar_day x day_god",
+     "test_z": -0.41,
+     "valid_z": 2.43,
+     "early_z": 0.11
+    },
+    {
+     "game": "toto58",
+     "set": "mercury_retrograde x saturn_retrograde",
+     "test_z": -0.43,
+     "valid_z": -1.53,
+     "early_z": 1.0
+    },
+    {
+     "game": "toto58",
+     "set": "kp_moon_sub_lord x day_officer",
+     "test_z": -0.43,
+     "valid_z": 2.1,
+     "early_z": -1.13
+    },
+    {
+     "game": "toto55",
+     "set": "saturn_rashi x ayana",
+     "test_z": -0.44,
+     "valid_z": 0.26,
+     "early_z": 0.9
+    },
+    {
+     "game": "ml8",
+     "set": "jupiter_retrograde x year_yinyang",
+     "test_z": -0.44,
+     "valid_z": 0.57,
+     "early_z": -0.07
+    },
+    {
+     "game": "ml8",
+     "set": "mercury_retrograde x month_stem",
+     "test_z": -0.44,
+     "valid_z": 0.39,
+     "early_z": -1.41
+    },
+    {
+     "game": "toto50",
+     "set": "mercury_combust x kp_sun_number",
+     "test_z": -0.45,
+     "valid_z": 1.53,
+     "early_z": 0.19
+    },
+    {
+     "game": "toto50",
+     "set": "hora_lord x day_stem",
+     "test_z": -0.45,
+     "valid_z": -0.6,
+     "early_z": 2.03
+    },
+    {
+     "game": "ml8",
+     "set": "nakshatra_lord x hora_lord",
+     "test_z": -0.45,
+     "valid_z": 0.39,
+     "early_z": 0.14
+    },
+    {
+     "game": "ml8",
+     "set": "venus_nakshatra x lunar_day",
+     "test_z": -0.46,
+     "valid_z": -1.35,
+     "early_z": 0.61
+    },
+    {
+     "game": "toto55",
+     "set": "lagna_nakshatra x day_vs_year_branch",
+     "test_z": -0.51,
+     "valid_z": -1.08,
+     "early_z": 0.01
+    },
+    {
+     "game": "toto58",
+     "set": "kp_moon_sub_lord x kp_asc_star_lord",
+     "test_z": -0.53,
+     "valid_z": -1.71,
+     "early_z": 0.11
+    },
+    {
+     "game": "ml8",
+     "set": "paksha x rahu_nakshatra",
+     "test_z": -0.53,
+     "valid_z": 1.03,
+     "early_z": -2.14
+    },
+    {
+     "game": "ml8",
+     "set": "saturn_rashi x ayana",
+     "test_z": -0.54,
+     "valid_z": 0.8,
+     "early_z": -0.23
+    },
+    {
+     "game": "toto50",
+     "set": "mercury_combust x nine_star_month",
+     "test_z": -0.58,
+     "valid_z": 0.5,
+     "early_z": -0.5
+    },
+    {
+     "game": "toto50",
+     "set": "kp_moon_sub_lord x day_officer",
+     "test_z": -0.58,
+     "valid_z": 0.24,
+     "early_z": -0.69
+    },
+    {
+     "game": "toto55",
+     "set": "weekday x nine_star_month",
+     "test_z": -0.61,
+     "valid_z": 0.59,
+     "early_z": -0.05
+    },
+    {
+     "game": "toto58",
+     "set": "paksha x rahu_nakshatra",
+     "test_z": -0.63,
+     "valid_z": 0.79,
+     "early_z": -0.99
+    },
+    {
+     "game": "toto50",
+     "set": "saturn_rashi x ayana",
+     "test_z": -0.64,
+     "valid_z": 0.26,
+     "early_z": 1.1
+    },
+    {
+     "game": "ml8",
+     "set": "kp_asc_number x lunar_day",
+     "test_z": -0.65,
+     "valid_z": -0.37,
+     "early_z": 0.0
+    },
+    {
+     "game": "ml8",
+     "set": "mercury_retrograde x saturn_retrograde",
+     "test_z": -0.67,
+     "valid_z": -0.71,
+     "early_z": -0.07
+    },
+    {
+     "game": "toto50",
+     "set": "jupiter_retrograde x year_yinyang",
+     "test_z": -0.7,
+     "valid_z": -0.52,
+     "early_z": -0.77
+    },
+    {
+     "game": "toto50",
+     "set": "moon_navamsa x day_stem",
+     "test_z": -0.7,
+     "valid_z": 0.89,
+     "early_z": 1.01
+    },
+    {
+     "game": "toto50",
+     "set": "tithi x month_stem",
+     "test_z": -0.7,
+     "valid_z": -0.14,
+     "early_z": -1.32
+    },
+    {
+     "game": "toto55",
+     "set": "day_branch x day_god",
+     "test_z": -0.7,
+     "valid_z": 0.59,
+     "early_z": 1.41
+    },
+    {
+     "game": "toto55",
+     "set": "weekday x day_god",
+     "test_z": -0.7,
+     "valid_z": -0.04,
+     "early_z": -1.51
+    },
+    {
+     "game": "toto55",
+     "set": "saturn_retrograde x kp_moon_number",
+     "test_z": -0.76,
+     "valid_z": -0.95,
+     "early_z": -1.44
+    },
+    {
+     "game": "toto58",
+     "set": "lunar_day x day_god",
+     "test_z": -0.76,
+     "valid_z": 1.03,
+     "early_z": 0.75
+    },
+    {
+     "game": "toto50",
+     "set": "ayana x day_officer",
+     "test_z": -0.77,
+     "valid_z": 2.22,
+     "early_z": 0.31
+    },
+    {
+     "game": "toto55",
+     "set": "karana x kp_sun_sub_lord",
+     "test_z": -0.77,
+     "valid_z": 1.01,
+     "early_z": 0.41
+    },
+    {
+     "game": "toto58",
+     "set": "karana x day_pillar",
+     "test_z": -0.77,
+     "valid_z": 0.99,
+     "early_z": -0.07
+    },
+    {
+     "game": "toto58",
+     "set": "weekday x hour_stem_19h",
+     "test_z": -0.77,
+     "valid_z": -0.64,
+     "early_z": 1.69
+    },
+    {
+     "game": "toto50",
+     "set": "jupiter_rashi x year_yinyang",
+     "test_z": -0.79,
+     "valid_z": 0.15,
+     "early_z": 0.91
+    },
+    {
+     "game": "toto50",
+     "set": "jupiter_rashi x year_animal",
+     "test_z": -0.79,
+     "valid_z": -0.11,
+     "early_z": 0.4
+    },
+    {
+     "game": "toto55",
+     "set": "kp_moon_number x kp_sun_number",
+     "test_z": -0.82,
+     "valid_z": 0.26,
+     "early_z": 0.0
+    },
+    {
+     "game": "ml8",
+     "set": "venus_nakshatra x masa",
+     "test_z": -0.83,
+     "valid_z": 0.38,
+     "early_z": 1.17
+    },
+    {
+     "game": "toto55",
+     "set": "paksha x year_pillar",
+     "test_z": -0.85,
+     "valid_z": -0.46,
+     "early_z": -0.41
+    },
+    {
+     "game": "toto55",
+     "set": "saturn_retrograde x year_pillar",
+     "test_z": -0.85,
+     "valid_z": 0.7,
+     "early_z": -0.16
+    },
+    {
+     "game": "toto50",
+     "set": "lunar_day x day_god",
+     "test_z": -0.87,
+     "valid_z": 1.32,
+     "early_z": 0.07
+    },
+    {
+     "game": "toto50",
+     "set": "paksha x nakshatra_lord",
+     "test_z": -0.9,
+     "valid_z": 0.73,
+     "early_z": -1.04
+    },
+    {
+     "game": "toto58",
+     "set": "mercury_combust x nine_star_month",
+     "test_z": -0.92,
+     "valid_z": 0.61,
+     "early_z": -1.06
+    },
+    {
+     "game": "toto58",
+     "set": "kp_asc_sub_lord x yellow_black_path",
+     "test_z": -0.92,
+     "valid_z": -1.47,
+     "early_z": 2.03
+    },
+    {
+     "game": "toto58",
+     "set": "weekday x day_god",
+     "test_z": -0.92,
+     "valid_z": 0.31,
+     "early_z": 0.04
+    },
+    {
+     "game": "ml8",
+     "set": "yoga x day_pillar",
+     "test_z": -0.93,
+     "valid_z": -0.49,
+     "early_z": 0.55
+    },
+    {
+     "game": "ml8",
+     "set": "paksha x saturn_rashi",
+     "test_z": -0.93,
+     "valid_z": 1.2,
+     "early_z": -0.52
+    },
+    {
+     "game": "toto58",
+     "set": "mercury_retrograde x saturn_combust",
+     "test_z": -0.97,
+     "valid_z": -0.4,
+     "early_z": 2.72
+    },
+    {
+     "game": "toto58",
+     "set": "saturn_retrograde x year_pillar",
+     "test_z": -0.97,
+     "valid_z": 2.13,
+     "early_z": -1.2
+    },
+    {
+     "game": "toto50",
+     "set": "sun_rashi x mars_retrograde",
+     "test_z": -0.98,
+     "valid_z": 1.92,
+     "early_z": 0.13
+    },
+    {
+     "game": "ml8",
+     "set": "ayana x day_officer",
+     "test_z": -1.05,
+     "valid_z": 1.49,
+     "early_z": -1.14
+    },
+    {
+     "game": "toto58",
+     "set": "hora_lord x day_branch",
+     "test_z": -1.06,
+     "valid_z": 0.55,
+     "early_z": -1.2
+    },
+    {
+     "game": "toto55",
+     "set": "mercury_combust x kp_sun_number",
+     "test_z": -1.07,
+     "valid_z": 0.02,
+     "early_z": -0.98
+    },
+    {
+     "game": "toto55",
+     "set": "mercury_retrograde x saturn_retrograde",
+     "test_z": -1.08,
+     "valid_z": 0.53,
+     "early_z": -0.52
+    },
+    {
+     "game": "toto50",
+     "set": "paksha x kp_moon_star_lord",
+     "test_z": -1.09,
+     "valid_z": 0.42,
+     "early_z": -1.13
+    },
+    {
+     "game": "toto50",
+     "set": "venus_nakshatra x masa",
+     "test_z": -1.09,
+     "valid_z": 0.65,
+     "early_z": -0.04
+    },
+    {
+     "game": "ml8",
+     "set": "venus_nakshatra x month_branch",
+     "test_z": -1.13,
+     "valid_z": 1.23,
+     "early_z": -0.13
+    },
+    {
+     "game": "ml8",
+     "set": "kp_moon_sub_lord x day_officer",
+     "test_z": -1.19,
+     "valid_z": -0.05,
+     "early_z": 1.35
+    },
+    {
+     "game": "toto55",
+     "set": "kp_asc_sub_lord x yellow_black_path",
+     "test_z": -1.22,
+     "valid_z": -0.16,
+     "early_z": -0.65
+    },
+    {
+     "game": "toto50",
+     "set": "karana x kp_moon_number",
+     "test_z": -1.23,
+     "valid_z": -0.26,
+     "early_z": 0.82
+    },
+    {
+     "game": "toto58",
+     "set": "planets_with_moon x solar_term",
+     "test_z": -1.23,
+     "valid_z": -0.39,
+     "early_z": 0.43
+    },
+    {
+     "game": "ml8",
+     "set": "saturn_retrograde x kp_moon_number",
+     "test_z": -1.32,
+     "valid_z": 1.22,
+     "early_z": -0.5
+    },
+    {
+     "game": "toto50",
+     "set": "lunar_day x month_branch",
+     "test_z": -1.38,
+     "valid_z": -0.04,
+     "early_z": 1.5
+    },
+    {
+     "game": "toto50",
+     "set": "day_branch x day_god",
+     "test_z": -1.41,
+     "valid_z": -0.6,
+     "early_z": 0.76
+    },
+    {
+     "game": "toto50",
+     "set": "kp_moon_sub_lord x kp_asc_star_lord",
+     "test_z": -1.41,
+     "valid_z": -0.52,
+     "early_z": 0.12
+    },
+    {
+     "game": "toto55",
+     "set": "ayana x day_officer",
+     "test_z": -1.41,
+     "valid_z": 0.53,
+     "early_z": -0.78
+    },
+    {
+     "game": "ml8",
+     "set": "karana x kp_moon_number",
+     "test_z": -1.42,
+     "valid_z": 0.36,
+     "early_z": -1.33
+    },
+    {
+     "game": "toto55",
+     "set": "planets_with_moon x solar_term",
+     "test_z": -1.46,
+     "valid_z": -0.9,
+     "early_z": 0.92
+    },
+    {
+     "game": "toto58",
+     "set": "sun_nakshatra x mercury_rashi",
+     "test_z": -1.47,
+     "valid_z": -1.08,
+     "early_z": 0.03
+    },
+    {
+     "game": "toto55",
+     "set": "mercury_retrograde x saturn_combust",
+     "test_z": -1.5,
+     "valid_z": -0.79,
+     "early_z": -0.58
+    },
+    {
+     "game": "toto55",
+     "set": "jupiter_rashi x year_animal",
+     "test_z": -1.58,
+     "valid_z": -0.38,
+     "early_z": -1.19
+    },
+    {
+     "game": "toto55",
+     "set": "mercury_combust x nine_star_month",
+     "test_z": -1.59,
+     "valid_z": -0.16,
+     "early_z": 1.27
+    },
+    {
+     "game": "toto58",
+     "set": "venus_nakshatra x lunar_day",
+     "test_z": -1.63,
+     "valid_z": -0.46,
+     "early_z": 0.25
+    },
+    {
+     "game": "toto55",
+     "set": "jupiter_nakshatra x mercury_combust",
+     "test_z": -1.69,
+     "valid_z": -0.0,
+     "early_z": 0.87
+    },
+    {
+     "game": "ml8",
+     "set": "mercury_rashi x nine_star_year",
+     "test_z": -1.7,
+     "valid_z": 0.08,
+     "early_z": -0.69
+    },
+    {
+     "game": "toto50",
+     "set": "weekday x day_god",
+     "test_z": -1.72,
+     "valid_z": 1.2,
+     "early_z": 1.67
+    },
+    {
+     "game": "toto55",
+     "set": "paksha x karana",
+     "test_z": -1.78,
+     "valid_z": 1.63,
+     "early_z": 1.41
+    },
+    {
+     "game": "toto55",
+     "set": "jupiter_rashi x year_yinyang",
+     "test_z": -1.88,
+     "valid_z": -0.65,
+     "early_z": -1.19
+    },
+    {
+     "game": "toto50",
+     "set": "weekday x hour_stem_19h",
+     "test_z": -1.92,
+     "valid_z": -0.52,
+     "early_z": 2.93
+    },
+    {
+     "game": "toto55",
+     "set": "kp_sun_sub_lord x day_god",
+     "test_z": -1.92,
+     "valid_z": -0.16,
+     "early_z": 1.27
+    },
+    {
+     "game": "ml8",
+     "set": "rahu_rashi x day_pillar",
+     "test_z": -1.94,
+     "valid_z": -0.53,
+     "early_z": -1.1
+    },
+    {
+     "game": "ml8",
+     "set": "lunar_day x day_god",
+     "test_z": -2.05,
+     "valid_z": 1.99,
+     "early_z": -0.52
+    },
+    {
+     "game": "toto50",
+     "set": "yoga x day_pillar",
+     "test_z": -2.15,
+     "valid_z": -1.23,
+     "early_z": -1.23
+    },
+    {
+     "game": "toto55",
+     "set": "sun_rashi x lunar_day",
+     "test_z": -2.2,
+     "valid_z": 0.74,
+     "early_z": 0.32
+    },
+    {
+     "game": "toto55",
+     "set": "sun_rashi x kp_sun_sub_lord",
+     "test_z": -2.49,
+     "valid_z": 0.07,
+     "early_z": -0.98
+    },
+    {
+     "game": "toto50",
+     "set": "weekday x nine_star_month",
+     "test_z": -2.62,
+     "valid_z": -1.62,
+     "early_z": -0.41
+    }
+   ],
+   "n_sum_at_least_lead": 1,
+   "best_sum": {
+    "set": "mercury_nakshatra x venus_rashi",
+    "sum": 4.7,
+    "by_game": {
+     "toto50": -0.16,
+     "toto55": 0.93,
+     "toto58": 0.98,
+     "ml8": 2.96
+    }
+   }
+  },
+  "valid": {
+   "picks": 20,
+   "mean_test_z": -0.077,
+   "sd_test_z": 0.83,
+   "max_test_z": 1.44,
+   "n_at_least_lead_ml8_z": 0,
+   "best": {
+    "game": "ml8",
+    "set": "venus_nakshatra x nine_star_year",
+    "test_z": 1.44,
+    "valid_z": 2.91,
+    "early_z": 0.0
+   },
+   "all": [
+    {
+     "game": "ml8",
+     "set": "venus_nakshatra x nine_star_year",
+     "test_z": 1.44,
+     "valid_z": 2.91,
+     "early_z": 0.0
+    },
+    {
+     "game": "ml8",
+     "set": "karana x jupiter_nakshatra",
+     "test_z": 0.92,
+     "valid_z": 3.14,
+     "early_z": -2.42
+    },
+    {
+     "game": "toto50",
+     "set": "year_stem x nine_star_month",
+     "test_z": 0.68,
+     "valid_z": 4.05,
+     "early_z": 0.58
+    },
+    {
+     "game": "toto50",
+     "set": "year_pillar x nine_star_month",
+     "test_z": 0.68,
+     "valid_z": 4.05,
+     "early_z": 0.58
+    },
+    {
+     "game": "toto50",
+     "set": "mercury_rashi x month_pillar",
+     "test_z": 0.63,
+     "valid_z": 3.49,
+     "early_z": 0.0
+    },
+    {
+     "game": "toto50",
+     "set": "lunar_month x hour_stem_19h",
+     "test_z": 0.44,
+     "valid_z": 3.63,
+     "early_z": 1.85
+    },
+    {
+     "game": "toto58",
+     "set": "year_animal x day_officer",
+     "test_z": 0.34,
+     "valid_z": 4.59,
+     "early_z": 1.92
+    },
+    {
+     "game": "toto50",
+     "set": "mercury_nakshatra x month_pillar",
+     "test_z": 0.33,
+     "valid_z": 3.51,
+     "early_z": 0.0
+    },
+    {
+     "game": "ml8",
+     "set": "venus_nakshatra x adhika_masa",
+     "test_z": 0.32,
+     "valid_z": 2.94,
+     "early_z": 2.8
+    },
+    {
+     "game": "ml8",
+     "set": "venus_rashi x venus_nakshatra",
+     "test_z": 0.27,
+     "valid_z": 2.94,
+     "early_z": 1.8
+    },
+    {
+     "game": "toto55",
+     "set": "tithi x hour_stem_19h",
+     "test_z": 0.1,
+     "valid_z": 2.89,
+     "early_z": -1.71
+    },
+    {
+     "game": "toto55",
+     "set": "kp_moon_number x lunar_day",
+     "test_z": -0.29,
+     "valid_z": 3.15,
+     "early_z": 0.74
+    },
+    {
+     "game": "toto55",
+     "set": "jupiter_rashi x sun_sign_tropical",
+     "test_z": -0.34,
+     "valid_z": 2.88,
+     "early_z": -0.51
+    },
+    {
+     "game": "toto58",
+     "set": "rahu_nakshatra x day_branch",
+     "test_z": -0.42,
+     "valid_z": 3.37,
+     "early_z": -0.71
+    },
+    {
+     "game": "toto55",
+     "set": "moon_navamsa x lunar_day",
+     "test_z": -0.45,
+     "valid_z": 2.99,
+     "early_z": -0.16
+    },
+    {
+     "game": "toto58",
+     "set": "mars_nakshatra x saturn_retrograde",
+     "test_z": -0.5,
+     "valid_z": 3.2,
+     "early_z": -0.02
+    },
+    {
+     "game": "toto58",
+     "set": "mars_nakshatra x venus_combust",
+     "test_z": -1.17,
+     "valid_z": 3.11,
+     "early_z": -1.48
+    },
+    {
+     "game": "toto58",
+     "set": "year_pillar x day_officer",
+     "test_z": -1.38,
+     "valid_z": 4.59,
+     "early_z": 1.59
+    },
+    {
+     "game": "toto55",
+     "set": "lagna_nakshatra x kp_sun_number",
+     "test_z": -1.5,
+     "valid_z": 3.03,
+     "early_z": -1.43
+    },
+    {
+     "game": "ml8",
+     "set": "mars_nakshatra x year_element",
+     "test_z": -1.64,
+     "valid_z": 2.83,
+     "early_z": 0.45
+    }
+   ]
+  },
+  "stable": {
+   "picks": 20,
+   "mean_test_z": 0.03,
+   "sd_test_z": 0.623,
+   "max_test_z": 1.18,
+   "n_at_least_lead_ml8_z": 0,
+   "best": {
+    "game": "toto55",
+    "set": "kp_sun_sub_lord x moon_phase",
+    "test_z": 1.18,
+    "valid_z": 2.09,
+    "early_z": 2.54
+   },
+   "all": [
+    {
+     "game": "toto55",
+     "set": "kp_sun_sub_lord x moon_phase",
+     "test_z": 1.18,
+     "valid_z": 2.09,
+     "early_z": 2.54
+    },
+    {
+     "game": "toto58",
+     "set": "kp_asc_star_lord x yellow_black_path",
+     "test_z": 0.68,
+     "valid_z": 2.57,
+     "early_z": 2.1
+    },
+    {
+     "game": "toto58",
+     "set": "weekday x year_stem",
+     "test_z": 0.64,
+     "valid_z": 1.97,
+     "early_z": 2.58
+    },
+    {
+     "game": "toto55",
+     "set": "jupiter_nakshatra x mansion_28",
+     "test_z": 0.61,
+     "valid_z": 1.72,
+     "early_z": 1.9
+    },
+    {
+     "game": "toto50",
+     "set": "lagna_rashi x day_stem",
+     "test_z": 0.57,
+     "valid_z": 2.38,
+     "early_z": 2.23
+    },
+    {
+     "game": "toto55",
+     "set": "karana x hour_stem_19h",
+     "test_z": 0.52,
+     "valid_z": 2.26,
+     "early_z": 1.67
+    },
+    {
+     "game": "toto58",
+     "set": "year_element x day_officer",
+     "test_z": 0.39,
+     "valid_z": 2.06,
+     "early_z": 2.25
+    },
+    {
+     "game": "ml8",
+     "set": "venus_nakshatra x adhika_masa",
+     "test_z": 0.32,
+     "valid_z": 2.94,
+     "early_z": 2.8
+    },
+    {
+     "game": "toto50",
+     "set": "saturn_rashi x jupiter_retrograde",
+     "test_z": 0.26,
+     "valid_z": 2.23,
+     "early_z": 2.26
+    },
+    {
+     "game": "toto50",
+     "set": "lagna_rashi x lunar_month",
+     "test_z": 0.25,
+     "valid_z": 2.83,
+     "early_z": 2.57
+    },
+    {
+     "game": "toto55",
+     "set": "jupiter_retrograde x mars_combust",
+     "test_z": 0.14,
+     "valid_z": 1.86,
+     "early_z": 2.87
+    },
+    {
+     "game": "toto55",
+     "set": "planets_with_moon x lunar_day",
+     "test_z": -0.05,
+     "valid_z": 1.82,
+     "early_z": 1.83
+    },
+    {
+     "game": "toto50",
+     "set": "kp_asc_star_lord x day_pillar",
+     "test_z": -0.07,
+     "valid_z": 3.36,
+     "early_z": 2.43
+    },
+    {
+     "game": "toto58",
+     "set": "lagna_rashi x kp_moon_star_lord",
+     "test_z": -0.38,
+     "valid_z": 2.28,
+     "early_z": 3.06
+    },
+    {
+     "game": "ml8",
+     "set": "venus_nakshatra x lunar_leap_month",
+     "test_z": -0.39,
+     "valid_z": 2.34,
+     "early_z": 2.2
+    },
+    {
+     "game": "toto50",
+     "set": "saturn_rashi x venus_retrograde",
+     "test_z": -0.44,
+     "valid_z": 2.58,
+     "early_z": 2.17
+    },
+    {
+     "game": "ml8",
+     "set": "venus_nakshatra x mars_combust",
+     "test_z": -0.56,
+     "valid_z": 2.83,
+     "early_z": 2.29
+    },
+    {
+     "game": "ml8",
+     "set": "venus_nakshatra x venus_retrograde",
+     "test_z": -0.69,
+     "valid_z": 2.67,
+     "early_z": 2.24
+    },
+    {
+     "game": "toto58",
+     "set": "venus_rashi x moon_navamsa",
+     "test_z": -1.11,
+     "valid_z": 2.21,
+     "early_z": 2.03
+    },
+    {
+     "game": "ml8",
+     "set": "venus_nakshatra x jupiter_retrograde",
+     "test_z": -1.28,
+     "valid_z": 2.81,
+     "early_z": 2.59
+    }
+   ]
+  },
+  "transfer": {
+   "picks": 20,
+   "mean_test_z": 0.272,
+   "sd_test_z": 1.012,
+   "max_test_z": 1.85,
+   "n_at_least_lead_ml8_z": 0,
+   "best": {
+    "game": "toto58",
+    "set": "paksha x solar_term",
+    "test_z": 1.85,
+    "valid_z": -0.64,
+    "early_z": 0.86
+   },
+   "all": [
+    {
+     "game": "toto58",
+     "set": "paksha x solar_term",
+     "test_z": 1.85,
+     "valid_z": -0.64,
+     "early_z": 0.86
+    },
+    {
+     "game": "toto58",
+     "set": "lagna_nakshatra x mercury_retrograde",
+     "test_z": 1.75,
+     "valid_z": -0.94,
+     "early_z": -0.1
+    },
+    {
+     "game": "toto55",
+     "set": "lagna_nakshatra x mercury_retrograde",
+     "test_z": 1.51,
+     "valid_z": -1.31,
+     "early_z": 0.32
+    },
+    {
+     "game": "toto50",
+     "set": "paksha x solar_term",
+     "test_z": 1.34,
+     "valid_z": -0.05,
+     "early_z": 0.31
+    },
+    {
+     "game": "ml8",
+     "set": "lagna_nakshatra x lunar_month",
+     "test_z": 1.04,
+     "valid_z": -0.81,
+     "early_z": 1.01
+    },
+    {
+     "game": "ml8",
+     "set": "sun_nakshatra x nayin",
+     "test_z": 0.84,
+     "valid_z": -1.08,
+     "early_z": 1.48
+    },
+    {
+     "game": "toto55",
+     "set": "paksha x solar_term",
+     "test_z": 0.71,
+     "valid_z": -1.42,
+     "early_z": -0.32
+    },
+    {
+     "game": "toto58",
+     "set": "weekday x kp_asc_star_lord",
+     "test_z": 0.68,
+     "valid_z": 1.27,
+     "early_z": 1.55
+    },
+    {
+     "game": "toto50",
+     "set": "lagna_nakshatra x mercury_retrograde",
+     "test_z": 0.64,
+     "valid_z": 1.28,
+     "early_z": 1.0
+    },
+    {
+     "game": "toto55",
+     "set": "lagna_nakshatra x lunar_month",
+     "test_z": 0.55,
+     "valid_z": 0.44,
+     "early_z": 0.99
+    },
+    {
+     "game": "toto55",
+     "set": "sun_nakshatra x nayin",
+     "test_z": 0.43,
+     "valid_z": 0.44,
+     "early_z": -0.25
+    },
+    {
+     "game": "ml8",
+     "set": "kp_moon_sub_lord x month_branch",
+     "test_z": 0.36,
+     "valid_z": 1.3,
+     "early_z": 1.08
+    },
+    {
+     "game": "toto58",
+     "set": "solar_term x hour_stem_19h",
+     "test_z": 0.1,
+     "valid_z": -1.29,
+     "early_z": 0.45
+    },
+    {
+     "game": "toto58",
+     "set": "hora_lord x lagna_nakshatra",
+     "test_z": 0.05,
+     "valid_z": -0.01,
+     "early_z": 1.04
+    },
+    {
+     "game": "toto50",
+     "set": "kp_sun_star_lord x day_officer",
+     "test_z": -0.51,
+     "valid_z": 0.42,
+     "early_z": -0.77
+    },
+    {
+     "game": "ml8",
+     "set": "sun_nakshatra x day_officer",
+     "test_z": -0.75,
+     "valid_z": 0.3,
+     "early_z": 0.52
+    },
+    {
+     "game": "ml8",
+     "set": "venus_rashi x month_pillar",
+     "test_z": -0.96,
+     "valid_z": -1.24,
+     "early_z": 0.52
+    },
+    {
+     "game": "toto55",
+     "set": "kp_moon_star_lord x day_branch",
+     "test_z": -1.31,
+     "valid_z": -0.04,
+     "early_z": -0.12
+    },
+    {
+     "game": "toto50",
+     "set": "jupiter_combust x kp_moon_star_lord",
+     "test_z": -1.34,
+     "valid_z": 1.59,
+     "early_z": 1.31
+    },
+    {
+     "game": "toto50",
+     "set": "nakshatra_lord x jupiter_combust",
+     "test_z": -1.53,
+     "valid_z": 0.58,
+     "early_z": 1.58
+    }
+   ]
+  },
+  "pooled": {
+   "picks": 20,
+   "mean_test_z": -0.142,
+   "sd_test_z": 0.85,
+   "max_test_z": 1.77,
+   "n_at_least_lead_ml8_z": 0,
+   "best": {
+    "game": "ml8",
+    "set": "lunar_day x day_vs_year_branch",
+    "test_z": 1.77,
+    "valid_z": 0.82,
+    "early_z": 0.58
+   },
+   "all": [
+    {
+     "game": "ml8",
+     "set": "lunar_day x day_vs_year_branch",
+     "test_z": 1.77,
+     "valid_z": 0.82,
+     "early_z": 0.58
+    },
+    {
+     "game": "toto58",
+     "set": "venus_combust x year_animal",
+     "test_z": 0.88,
+     "valid_z": 2.83,
+     "early_z": 0.61
+    },
+    {
+     "game": "ml8",
+     "set": "jupiter_retrograde x year_pillar",
+     "test_z": 0.88,
+     "valid_z": 1.73,
+     "early_z": -0.85
+    },
+    {
+     "game": "toto50",
+     "set": "year_animal x day_officer",
+     "test_z": 0.74,
+     "valid_z": 1.32,
+     "early_z": -0.11
+    },
+    {
+     "game": "toto55",
+     "set": "lunar_day x day_vs_year_branch",
+     "test_z": 0.43,
+     "valid_z": 2.03,
+     "early_z": 0.41
+    },
+    {
+     "game": "toto58",
+     "set": "year_animal x day_officer",
+     "test_z": 0.34,
+     "valid_z": 4.59,
+     "early_z": 1.92
+    },
+    {
+     "game": "toto55",
+     "set": "venus_combust x year_animal",
+     "test_z": 0.28,
+     "valid_z": 1.53,
+     "early_z": -1.29
+    },
+    {
+     "game": "ml8",
+     "set": "venus_combust x year_animal",
+     "test_z": 0.18,
+     "valid_z": 1.11,
+     "early_z": 0.14
+    },
+    {
+     "game": "toto50",
+     "set": "mars_nakshatra x venus_combust",
+     "test_z": 0.05,
+     "valid_z": 2.39,
+     "early_z": -0.31
+    },
+    {
+     "game": "toto55",
+     "set": "mars_nakshatra x venus_combust",
+     "test_z": 0.05,
+     "valid_z": 1.0,
+     "early_z": -0.45
+    },
+    {
+     "game": "toto58",
+     "set": "lunar_day x day_vs_year_branch",
+     "test_z": 0.05,
+     "valid_z": 2.34,
+     "early_z": 0.04
+    },
+    {
+     "game": "toto50",
+     "set": "venus_combust x year_animal",
+     "test_z": -0.06,
+     "valid_z": 1.51,
+     "early_z": 1.16
+    },
+    {
+     "game": "toto50",
+     "set": "lunar_day x day_vs_year_branch",
+     "test_z": -0.74,
+     "valid_z": 1.73,
+     "early_z": 1.64
+    },
+    {
+     "game": "toto55",
+     "set": "year_animal x day_officer",
+     "test_z": -0.75,
+     "valid_z": -0.24,
+     "early_z": -0.41
+    },
+    {
+     "game": "toto58",
+     "set": "jupiter_retrograde x year_pillar",
+     "test_z": -0.97,
+     "valid_z": 2.83,
+     "early_z": -0.05
+    },
+    {
+     "game": "ml8",
+     "set": "mars_nakshatra x venus_combust",
+     "test_z": -1.1,
+     "valid_z": 0.35,
+     "early_z": -0.06
+    },
+    {
+     "game": "ml8",
+     "set": "year_animal x day_officer",
+     "test_z": -1.11,
+     "valid_z": 1.23,
+     "early_z": 0.85
+    },
+    {
+     "game": "toto58",
+     "set": "mars_nakshatra x venus_combust",
+     "test_z": -1.17,
+     "valid_z": 3.11,
+     "early_z": -1.48
+    },
+    {
+     "game": "toto50",
+     "set": "jupiter_retrograde x year_pillar",
+     "test_z": -1.24,
+     "valid_z": 1.86,
+     "early_z": 1.67
+    },
+    {
+     "game": "toto55",
+     "set": "jupiter_retrograde x year_pillar",
+     "test_z": -1.34,
+     "valid_z": 0.5,
+     "early_z": -1.3
+    }
+   ],
+   "n_sum_at_least_lead": 0,
+   "best_sum": {
+    "set": "lunar_day x day_vs_year_branch",
+    "sum": 1.51,
+    "by_game": {
+     "toto50": -0.74,
+     "toto55": 0.43,
+     "toto58": 0.05,
+     "ml8": 1.77
+    }
+   }
+  },
+  "triples": {
+   "picks": 20,
+   "mean_test_z": 0.16,
+   "sd_test_z": 1.321,
+   "max_test_z": 2.54,
+   "n_at_least_lead_ml8_z": 0,
+   "best": {
+    "game": "ml8",
+    "set": "day_god x nine_star_year x nine_star_month",
+    "test_z": 2.54,
+    "valid_z": 3.55,
+    "early_z": 0.16
+   },
+   "all": [
+    {
+     "game": "ml8",
+     "set": "day_god x nine_star_year x nine_star_month",
+     "test_z": 2.54,
+     "valid_z": 3.55,
+     "early_z": 0.16
+    },
+    {
+     "game": "toto50",
+     "set": "kp_sun_sub_lord x year_animal x day_of_month",
+     "test_z": 2.49,
+     "valid_z": 4.33,
+     "early_z": -0.17
+    },
+    {
+     "game": "toto50",
+     "set": "saturn_retrograde x year_animal x nine_star_month",
+     "test_z": 2.03,
+     "valid_z": 4.12,
+     "early_z": 0.11
+    },
+    {
+     "game": "ml8",
+     "set": "saturn_retrograde x month_stem x mansion_28",
+     "test_z": 1.46,
+     "valid_z": 4.08,
+     "early_z": -0.14
+    },
+    {
+     "game": "toto55",
+     "set": "nakshatra_pada x saturn_combust x lunar_day",
+     "test_z": 1.43,
+     "valid_z": 3.64,
+     "early_z": -1.06
+    },
+    {
+     "game": "toto50",
+     "set": "lunar_month x day_branch x hour_stem_19h",
+     "test_z": 0.88,
+     "valid_z": 3.97,
+     "early_z": 2.18
+    },
+    {
+     "game": "toto55",
+     "set": "nakshatra_pada x mars_combust x lunar_day",
+     "test_z": 0.59,
+     "valid_z": 3.98,
+     "early_z": 0.35
+    },
+    {
+     "game": "toto58",
+     "set": "adhika_masa x year_animal x day_officer",
+     "test_z": 0.47,
+     "valid_z": 4.59,
+     "early_z": 1.92
+    },
+    {
+     "game": "ml8",
+     "set": "lagna_nakshatra x mercury_retrograde x nayin_element",
+     "test_z": 0.35,
+     "valid_z": 3.47,
+     "early_z": -1.69
+    },
+    {
+     "game": "toto58",
+     "set": "kp_moon_number x lunar_day x nine_star_month",
+     "test_z": 0.34,
+     "valid_z": 4.92,
+     "early_z": -1.83
+    },
+    {
+     "game": "toto58",
+     "set": "rahu_nakshatra x year_element x day_vs_year_branch",
+     "test_z": -0.05,
+     "valid_z": 4.59,
+     "early_z": -0.38
+    },
+    {
+     "game": "toto55",
+     "set": "sun_nakshatra x nayin_element x hour_stem_19h",
+     "test_z": -0.07,
+     "valid_z": 4.05,
+     "early_z": -0.59
+    },
+    {
+     "game": "ml8",
+     "set": "lagna_rashi x day_officer x day_vs_year_branch",
+     "test_z": -0.42,
+     "valid_z": 3.44,
+     "early_z": 0.28
+    },
+    {
+     "game": "toto58",
+     "set": "kp_moon_sub_lord x year_animal x day_vs_year_branch",
+     "test_z": -0.51,
+     "valid_z": 4.6,
+     "early_z": 0.86
+    },
+    {
+     "game": "toto50",
+     "set": "mercury_rashi x jupiter_nakshatra x day_element",
+     "test_z": -0.89,
+     "valid_z": 4.35,
+     "early_z": 0.0
+    },
+    {
+     "game": "toto50",
+     "set": "jupiter_rashi x venus_combust x kp_asc_star_lord",
+     "test_z": -0.97,
+     "valid_z": 3.93,
+     "early_z": 0.47
+    },
+    {
+     "game": "ml8",
+     "set": "venus_nakshatra x mars_combust x adhika_masa",
+     "test_z": -1.35,
+     "valid_z": 3.47,
+     "early_z": 1.57
+    },
+    {
+     "game": "toto58",
+     "set": "adhika_masa x year_pillar x day_officer",
+     "test_z": -1.38,
+     "valid_z": 4.59,
+     "early_z": 1.26
+    },
+    {
+     "game": "toto55",
+     "set": "venus_combust x saturn_combust x nayin",
+     "test_z": -1.88,
+     "valid_z": 3.7,
+     "early_z": 1.56
+    },
+    {
+     "game": "toto55",
+     "set": "jupiter_nakshatra x kp_moon_sub_lord x day_branch",
+     "test_z": -1.88,
+     "valid_z": 3.68,
+     "early_z": -0.34
+    }
+   ]
+  },
+  "random": {
+   "picks": 800,
+   "mean_test_z": -0.079,
+   "sd_test_z": 1.016,
+   "max_test_z": 3.4,
+   "n_at_least_lead_ml8_z": 2,
+   "best": {
+    "game": "toto50",
+    "set": "sun_nakshatra x nayin",
+    "test_z": 3.4,
+    "valid_z": 1.2,
+    "early_z": 0.73
+   },
+   "all": [
+    {
+     "game": "toto50",
+     "set": "sun_nakshatra x nayin",
+     "test_z": 3.4,
+     "valid_z": 1.2,
+     "early_z": 0.73
+    },
+    {
+     "game": "toto58",
+     "set": "year_animal x yellow_black_path",
+     "test_z": 2.97,
+     "valid_z": 0.38,
+     "early_z": 0.11
+    },
+    {
+     "game": "toto58",
+     "set": "moon_rashi x day_vs_year_branch",
+     "test_z": 2.63,
+     "valid_z": -0.82,
+     "early_z": -1.62
+    },
+    {
+     "game": "toto58",
+     "set": "jupiter_retrograde x year_yinyang",
+     "test_z": 2.58,
+     "valid_z": -0.76,
+     "early_z": 0.18
+    },
+    {
+     "game": "ml8",
+     "set": "mars_combust x kp_asc_number",
+     "test_z": 2.53,
+     "valid_z": -0.98,
+     "early_z": 0.8
+    },
+    {
+     "game": "toto58",
+     "set": "sun_nakshatra x day_officer",
+     "test_z": 2.48,
+     "valid_z": -0.35,
+     "early_z": -0.47
+    },
+    {
+     "game": "ml8",
+     "set": "adhika_masa x kp_sun_sub_lord",
+     "test_z": 2.45,
+     "valid_z": -0.84,
+     "early_z": -0.88
+    },
+    {
+     "game": "toto58",
+     "set": "lagna_nakshatra x day_god",
+     "test_z": 2.43,
+     "valid_z": 0.53,
+     "early_z": -1.59
+    },
+    {
+     "game": "ml8",
+     "set": "lagna_nakshatra x kp_asc_sub_lord",
+     "test_z": 2.4,
+     "valid_z": 0.42,
+     "early_z": 1.11
+    },
+    {
+     "game": "toto50",
+     "set": "saturn_rashi x kp_sun_number",
+     "test_z": 2.3,
+     "valid_z": 2.24,
+     "early_z": -0.06
+    },
+    {
+     "game": "toto50",
+     "set": "paksha x month",
+     "test_z": 2.23,
+     "valid_z": 0.58,
+     "early_z": 2.21
+    },
+    {
+     "game": "toto50",
+     "set": "sun_rashi x kp_sun_sub_lord",
+     "test_z": 2.21,
+     "valid_z": 1.28,
+     "early_z": 0.02
+    },
+    {
+     "game": "toto55",
+     "set": "moon_rashi x mars_nakshatra",
+     "test_z": 2.12,
+     "valid_z": 1.28,
+     "early_z": 0.51
+    },
+    {
+     "game": "toto55",
+     "set": "hora_lord x day_vs_year_branch",
+     "test_z": 2.12,
+     "valid_z": 0.13,
+     "early_z": -0.79
+    },
+    {
+     "game": "ml8",
+     "set": "moon_rashi x kp_sun_star_lord",
+     "test_z": 2.12,
+     "valid_z": -0.19,
+     "early_z": 0.96
+    },
+    {
+     "game": "toto50",
+     "set": "lagna_rashi x day_branch",
+     "test_z": 2.04,
+     "valid_z": -1.15,
+     "early_z": -0.68
+    },
+    {
+     "game": "toto55",
+     "set": "nakshatra_lord x ayana",
+     "test_z": 2.02,
+     "valid_z": -1.71,
+     "early_z": -0.92
+    },
+    {
+     "game": "toto55",
+     "set": "month_branch x day_element",
+     "test_z": 2.02,
+     "valid_z": -1.02,
+     "early_z": -1.45
+    },
+    {
+     "game": "toto58",
+     "set": "jupiter_rashi x rahu_rashi",
+     "test_z": 1.98,
+     "valid_z": 0.94,
+     "early_z": -0.21
+    },
+    {
+     "game": "ml8",
+     "set": "month_branch x day_vs_year_branch",
+     "test_z": 1.98,
+     "valid_z": 0.33,
+     "early_z": -0.74
+    },
+    {
+     "game": "toto55",
+     "set": "tithi x day_element",
+     "test_z": 1.97,
+     "valid_z": 1.68,
+     "early_z": -1.31
+    },
+    {
+     "game": "toto58",
+     "set": "nakshatra_lord x kp_sun_sub_lord",
+     "test_z": 1.95,
+     "valid_z": 0.97,
+     "early_z": 1.34
+    },
+    {
+     "game": "toto55",
+     "set": "kp_moon_sub_lord x yellow_black_path",
+     "test_z": 1.93,
+     "valid_z": -0.79,
+     "early_z": -0.05
+    },
+    {
+     "game": "toto55",
+     "set": "tithi x nayin_element",
+     "test_z": 1.93,
+     "valid_z": 0.19,
+     "early_z": -2.11
+    },
+    {
+     "game": "ml8",
+     "set": "mars_nakshatra x venus_nakshatra",
+     "test_z": 1.91,
+     "valid_z": 1.13,
+     "early_z": -0.75
+    },
+    {
+     "game": "toto58",
+     "set": "moon_navamsa x month",
+     "test_z": 1.9,
+     "valid_z": -0.76,
+     "early_z": 0.66
+    },
+    {
+     "game": "toto58",
+     "set": "venus_nakshatra x kp_moon_sub_lord",
+     "test_z": 1.89,
+     "valid_z": -0.48,
+     "early_z": -0.5
+    },
+    {
+     "game": "ml8",
+     "set": "planets_with_moon x nayin_element",
+     "test_z": 1.86,
+     "valid_z": 0.1,
+     "early_z": -2.77
+    },
+    {
+     "game": "toto58",
+     "set": "year_element x solar_term",
+     "test_z": 1.85,
+     "valid_z": -0.1,
+     "early_z": -0.54
+    },
+    {
+     "game": "toto58",
+     "set": "jupiter_rashi x mars_retrograde",
+     "test_z": 1.8,
+     "valid_z": 0.27,
+     "early_z": -0.5
+    },
+    {
+     "game": "toto50",
+     "set": "karana x sun_nakshatra",
+     "test_z": 1.77,
+     "valid_z": -2.24,
+     "early_z": 0.8
+    },
+    {
+     "game": "ml8",
+     "set": "venus_retrograde x kp_asc_number",
+     "test_z": 1.75,
+     "valid_z": -1.12,
+     "early_z": 0.69
+    },
+    {
+     "game": "ml8",
+     "set": "paksha x moon_rashi",
+     "test_z": 1.74,
+     "valid_z": -1.17,
+     "early_z": 1.06
+    },
+    {
+     "game": "ml8",
+     "set": "day_vs_year_branch x nine_star_month",
+     "test_z": 1.74,
+     "valid_z": 1.03,
+     "early_z": -0.07
+    },
+    {
+     "game": "toto55",
+     "set": "nakshatra_lord x saturn_nakshatra",
+     "test_z": 1.7,
+     "valid_z": -0.37,
+     "early_z": 1.27
+    },
+    {
+     "game": "toto50",
+     "set": "kp_moon_sub_lord x month",
+     "test_z": 1.69,
+     "valid_z": 0.2,
+     "early_z": 2.02
+    },
+    {
+     "game": "toto55",
+     "set": "solar_term x month_pillar",
+     "test_z": 1.69,
+     "valid_z": -0.73,
+     "early_z": -0.92
+    },
+    {
+     "game": "toto55",
+     "set": "venus_nakshatra x nine_star_month",
+     "test_z": 1.67,
+     "valid_z": -0.13,
+     "early_z": 0.04
+    },
+    {
+     "game": "toto50",
+     "set": "sun_nakshatra x day_officer",
+     "test_z": 1.66,
+     "valid_z": -0.78,
+     "early_z": -1.65
+    },
+    {
+     "game": "toto55",
+     "set": "venus_retrograde x mars_combust",
+     "test_z": 1.65,
+     "valid_z": 1.51,
+     "early_z": -0.29
+    },
+    {
+     "game": "toto58",
+     "set": "mercury_rashi x saturn_combust",
+     "test_z": 1.63,
+     "valid_z": 0.03,
+     "early_z": 1.16
+    },
+    {
+     "game": "ml8",
+     "set": "year_element x solar_term",
+     "test_z": 1.63,
+     "valid_z": 0.51,
+     "early_z": 1.51
+    },
+    {
+     "game": "toto58",
+     "set": "mars_rashi x year_element",
+     "test_z": 1.61,
+     "valid_z": 0.93,
+     "early_z": -1.29
+    },
+    {
+     "game": "toto58",
+     "set": "month x sun_sign_tropical",
+     "test_z": 1.61,
+     "valid_z": -2.54,
+     "early_z": 0.38
+    },
+    {
+     "game": "toto58",
+     "set": "mercury_retrograde x moon_sign_tropical",
+     "test_z": 1.61,
+     "valid_z": 0.73,
+     "early_z": 0.52
+    },
+    {
+     "game": "ml8",
+     "set": "jupiter_combust x kp_asc_number",
+     "test_z": 1.61,
+     "valid_z": -0.53,
+     "early_z": -0.25
+    },
+    {
+     "game": "toto58",
+     "set": "sun_nakshatra x nayin",
+     "test_z": 1.58,
+     "valid_z": 0.5,
+     "early_z": -1.21
+    },
+    {
+     "game": "ml8",
+     "set": "tithi x moon_rashi",
+     "test_z": 1.58,
+     "valid_z": -0.27,
+     "early_z": 0.88
+    },
+    {
+     "game": "ml8",
+     "set": "moon_rashi x jupiter_nakshatra",
+     "test_z": 1.57,
+     "valid_z": 0.6,
+     "early_z": -0.1
+    },
+    {
+     "game": "toto55",
+     "set": "mars_nakshatra x venus_nakshatra",
+     "test_z": 1.53,
+     "valid_z": 0.67,
+     "early_z": 0.06
+    },
+    {
+     "game": "toto58",
+     "set": "lagna_nakshatra x lunar_leap_month",
+     "test_z": 1.53,
+     "valid_z": -0.48,
+     "early_z": -0.01
+    },
+    {
+     "game": "ml8",
+     "set": "moon_rashi x day_vs_year_branch",
+     "test_z": 1.52,
+     "valid_z": -0.15,
+     "early_z": 0.0
+    },
+    {
+     "game": "toto50",
+     "set": "kp_sun_number x month_stem",
+     "test_z": 1.51,
+     "valid_z": -0.1,
+     "early_z": 0.0
+    },
+    {
+     "game": "toto55",
+     "set": "weekday x mansion_28",
+     "test_z": 1.51,
+     "valid_z": -1.37,
+     "early_z": -0.25
+    },
+    {
+     "game": "toto58",
+     "set": "saturn_rashi x saturn_combust",
+     "test_z": 1.5,
+     "valid_z": -1.4,
+     "early_z": 1.13
+    },
+    {
+     "game": "ml8",
+     "set": "lagna_nakshatra x day_stem",
+     "test_z": 1.5,
+     "valid_z": 0.86,
+     "early_z": 0.57
+    },
+    {
+     "game": "toto50",
+     "set": "yoga x kp_sun_number",
+     "test_z": 1.48,
+     "valid_z": 0.0,
+     "early_z": 0.0
+    },
+    {
+     "game": "toto50",
+     "set": "jupiter_rashi x kp_moon_sub_lord",
+     "test_z": 1.46,
+     "valid_z": 0.49,
+     "early_z": -0.2
+    },
+    {
+     "game": "toto55",
+     "set": "kp_asc_star_lord x year_stem",
+     "test_z": 1.46,
+     "valid_z": -0.21,
+     "early_z": -0.54
+    },
+    {
+     "game": "toto55",
+     "set": "hora_lord x month_branch",
+     "test_z": 1.46,
+     "valid_z": -1.62,
+     "early_z": -1.05
+    },
+    {
+     "game": "toto50",
+     "set": "saturn_rashi x lunar_day",
+     "test_z": 1.45,
+     "valid_z": 0.1,
+     "early_z": -1.51
+    },
+    {
+     "game": "toto50",
+     "set": "mercury_rashi x planets_with_moon",
+     "test_z": 1.43,
+     "valid_z": 0.93,
+     "early_z": 1.03
+    },
+    {
+     "game": "toto50",
+     "set": "mars_nakshatra x venus_nakshatra",
+     "test_z": 1.41,
+     "valid_z": 0.17,
+     "early_z": 0.43
+    },
+    {
+     "game": "toto58",
+     "set": "paksha x month",
+     "test_z": 1.41,
+     "valid_z": -1.17,
+     "early_z": 1.34
+    },
+    {
+     "game": "toto58",
+     "set": "month_branch x day_vs_year_branch",
+     "test_z": 1.41,
+     "valid_z": -1.23,
+     "early_z": 0.66
+    },
+    {
+     "game": "ml8",
+     "set": "jupiter_retrograde x kp_sun_sub_lord",
+     "test_z": 1.41,
+     "valid_z": 0.74,
+     "early_z": -0.81
+    },
+    {
+     "game": "ml8",
+     "set": "lagna_nakshatra x lunar_leap_month",
+     "test_z": 1.39,
+     "valid_z": -0.24,
+     "early_z": 1.67
+    },
+    {
+     "game": "toto50",
+     "set": "paksha x nine_star_year",
+     "test_z": 1.38,
+     "valid_z": 0.64,
+     "early_z": 0.67
+    },
+    {
+     "game": "toto50",
+     "set": "kp_sun_sub_lord x year_pillar",
+     "test_z": 1.38,
+     "valid_z": 1.97,
+     "early_z": -0.37
+    },
+    {
+     "game": "ml8",
+     "set": "mercury_rashi x kp_sun_sub_lord",
+     "test_z": 1.36,
+     "valid_z": -1.03,
+     "early_z": -0.33
+    },
+    {
+     "game": "toto55",
+     "set": "nakshatra_lord x karana",
+     "test_z": 1.32,
+     "valid_z": 1.49,
+     "early_z": -0.63
+    },
+    {
+     "game": "toto55",
+     "set": "mercury_rashi x month_pillar",
+     "test_z": 1.32,
+     "valid_z": -1.22,
+     "early_z": 0.63
+    },
+    {
+     "game": "toto55",
+     "set": "hora_lord x jupiter_rashi",
+     "test_z": 1.32,
+     "valid_z": -0.44,
+     "early_z": 1.21
+    },
+    {
+     "game": "toto55",
+     "set": "venus_nakshatra x kp_moon_sub_lord",
+     "test_z": 1.32,
+     "valid_z": -0.9,
+     "early_z": 1.36
+    },
+    {
+     "game": "toto50",
+     "set": "year_pillar x mansion_28",
+     "test_z": 1.31,
+     "valid_z": 1.06,
+     "early_z": -0.97
+    },
+    {
+     "game": "toto55",
+     "set": "hora_lord x day_pillar",
+     "test_z": 1.27,
+     "valid_z": -0.94,
+     "early_z": -0.77
+    },
+    {
+     "game": "toto55",
+     "set": "planets_with_moon x kp_moon_star_lord",
+     "test_z": 1.27,
+     "valid_z": 0.51,
+     "early_z": -1.65
+    },
+    {
+     "game": "toto58",
+     "set": "moon_navamsa x sun_sign_tropical",
+     "test_z": 1.27,
+     "valid_z": 0.02,
+     "early_z": 2.23
+    },
+    {
+     "game": "ml8",
+     "set": "weekday x moon_rashi",
+     "test_z": 1.27,
+     "valid_z": 1.03,
+     "early_z": -1.5
+    },
+    {
+     "game": "toto50",
+     "set": "saturn_rashi x month_stem",
+     "test_z": 1.25,
+     "valid_z": 1.28,
+     "early_z": 0.25
+    },
+    {
+     "game": "toto50",
+     "set": "mercury_nakshatra x month_stem",
+     "test_z": 1.24,
+     "valid_z": 1.58,
+     "early_z": 1.12
+    },
+    {
+     "game": "toto58",
+     "set": "paksha x moon_rashi",
+     "test_z": 1.22,
+     "valid_z": -1.47,
+     "early_z": -0.31
+    },
+    {
+     "game": "toto58",
+     "set": "year_stem x month",
+     "test_z": 1.22,
+     "valid_z": -0.28,
+     "early_z": 1.03
+    },
+    {
+     "game": "toto58",
+     "set": "ayana x kp_moon_star_lord",
+     "test_z": 1.22,
+     "valid_z": 0.67,
+     "early_z": 0.04
+    },
+    {
+     "game": "ml8",
+     "set": "paksha x venus_combust",
+     "test_z": 1.22,
+     "valid_z": -0.13,
+     "early_z": -0.01
+    },
+    {
+     "game": "toto55",
+     "set": "tithi x kp_asc_number",
+     "test_z": 1.2,
+     "valid_z": -1.96,
+     "early_z": -0.3
+    },
+    {
+     "game": "toto55",
+     "set": "mercury_rashi x planets_with_moon",
+     "test_z": 1.18,
+     "valid_z": -0.89,
+     "early_z": -1.12
+    },
+    {
+     "game": "toto55",
+     "set": "year_element x sun_sign_tropical",
+     "test_z": 1.18,
+     "valid_z": -0.49,
+     "early_z": -0.16
+    },
+    {
+     "game": "toto55",
+     "set": "tithi x lunar_leap_month",
+     "test_z": 1.18,
+     "valid_z": 0.11,
+     "early_z": -0.21
+    },
+    {
+     "game": "ml8",
+     "set": "moon_rashi x mars_nakshatra",
+     "test_z": 1.14,
+     "valid_z": 0.84,
+     "early_z": 0.54
+    },
+    {
+     "game": "toto55",
+     "set": "jupiter_rashi x day_stem",
+     "test_z": 1.13,
+     "valid_z": -0.27,
+     "early_z": -0.51
+    },
+    {
+     "game": "toto55",
+     "set": "lunar_day x nayin_element",
+     "test_z": 1.13,
+     "valid_z": -0.27,
+     "early_z": 0.48
+    },
+    {
+     "game": "toto58",
+     "set": "venus_rashi x mansion_28",
+     "test_z": 1.13,
+     "valid_z": -0.1,
+     "early_z": -0.8
+    },
+    {
+     "game": "toto58",
+     "set": "yoga x moon_rashi",
+     "test_z": 1.12,
+     "valid_z": 0.37,
+     "early_z": -0.06
+    },
+    {
+     "game": "toto50",
+     "set": "nakshatra_lord x ayana",
+     "test_z": 1.08,
+     "valid_z": 0.97,
+     "early_z": 1.13
+    },
+    {
+     "game": "toto55",
+     "set": "sun_nakshatra x day_officer",
+     "test_z": 1.08,
+     "valid_z": 0.92,
+     "early_z": 0.47
+    },
+    {
+     "game": "toto55",
+     "set": "ayana x kp_moon_star_lord",
+     "test_z": 1.08,
+     "valid_z": -1.48,
+     "early_z": -0.25
+    },
+    {
+     "game": "ml8",
+     "set": "sun_rashi x year_yinyang",
+     "test_z": 1.08,
+     "valid_z": 0.05,
+     "early_z": -0.01
+    },
+    {
+     "game": "toto58",
+     "set": "paksha x venus_rashi",
+     "test_z": 1.07,
+     "valid_z": -0.46,
+     "early_z": -1.47
+    },
+    {
+     "game": "toto58",
+     "set": "mars_nakshatra x rahu_nakshatra",
+     "test_z": 1.06,
+     "valid_z": 0.36,
+     "early_z": -0.87
+    },
+    {
+     "game": "toto55",
+     "set": "paksha x nine_star_year",
+     "test_z": 1.04,
+     "valid_z": 0.99,
+     "early_z": -1.27
+    },
+    {
+     "game": "toto55",
+     "set": "year_element x solar_term",
+     "test_z": 1.04,
+     "valid_z": -0.49,
+     "early_z": 0.35
+    },
+    {
+     "game": "toto55",
+     "set": "moon_rashi x kp_sun_star_lord",
+     "test_z": 1.04,
+     "valid_z": -0.91,
+     "early_z": -0.12
+    },
+    {
+     "game": "toto55",
+     "set": "jupiter_retrograde x year_yinyang",
+     "test_z": 1.04,
+     "valid_z": 0.07,
+     "early_z": 0.48
+    },
+    {
+     "game": "toto50",
+     "set": "yoga x moon_rashi",
+     "test_z": 1.03,
+     "valid_z": -0.66,
+     "early_z": -1.18
+    },
+    {
+     "game": "toto58",
+     "set": "nayin_element x yellow_black_path",
+     "test_z": 1.02,
+     "valid_z": 0.97,
+     "early_z": 1.27
+    },
+    {
+     "game": "toto50",
+     "set": "lagna_nakshatra x day_god",
+     "test_z": 1.0,
+     "valid_z": -0.33,
+     "early_z": 0.25
+    },
+    {
+     "game": "ml8",
+     "set": "paksha x nine_star_year",
+     "test_z": 1.0,
+     "valid_z": 0.64,
+     "early_z": -1.26
+    },
+    {
+     "game": "toto55",
+     "set": "mars_retrograde x saturn_combust",
+     "test_z": 0.99,
+     "valid_z": 0.24,
+     "early_z": 0.41
+    },
+    {
+     "game": "ml8",
+     "set": "venus_nakshatra x nine_star_month",
+     "test_z": 0.99,
+     "valid_z": 1.17,
+     "early_z": -0.21
+    },
+    {
+     "game": "toto58",
+     "set": "nakshatra_lord x ayana",
+     "test_z": 0.98,
+     "valid_z": -0.16,
+     "early_z": -0.79
+    },
+    {
+     "game": "toto58",
+     "set": "mars_combust x month_stem",
+     "test_z": 0.98,
+     "valid_z": -0.04,
+     "early_z": -0.17
+    },
+    {
+     "game": "ml8",
+     "set": "venus_retrograde x kp_sun_sub_lord",
+     "test_z": 0.98,
+     "valid_z": -0.94,
+     "early_z": -1.08
+    },
+    {
+     "game": "ml8",
+     "set": "saturn_combust x moon_sign_tropical",
+     "test_z": 0.98,
+     "valid_z": 0.22,
+     "early_z": 0.46
+    },
+    {
+     "game": "toto55",
+     "set": "venus_nakshatra x mansion_28",
+     "test_z": 0.97,
+     "valid_z": 1.85,
+     "early_z": 1.07
+    },
+    {
+     "game": "ml8",
+     "set": "mercury_rashi x planets_with_moon",
+     "test_z": 0.97,
+     "valid_z": 0.18,
+     "early_z": -0.57
+    },
+    {
+     "game": "ml8",
+     "set": "year_animal x yellow_black_path",
+     "test_z": 0.96,
+     "valid_z": 2.36,
+     "early_z": -1.6
+    },
+    {
+     "game": "toto50",
+     "set": "ritu x ayana",
+     "test_z": 0.95,
+     "valid_z": 2.3,
+     "early_z": 0.86
+    },
+    {
+     "game": "toto50",
+     "set": "mercury_rashi x kp_sun_sub_lord",
+     "test_z": 0.95,
+     "valid_z": 1.22,
+     "early_z": 0.69
+    },
+    {
+     "game": "ml8",
+     "set": "saturn_rashi x masa",
+     "test_z": 0.94,
+     "valid_z": -1.44,
+     "early_z": -1.47
+    },
+    {
+     "game": "toto55",
+     "set": "jupiter_combust x kp_asc_number",
+     "test_z": 0.93,
+     "valid_z": 0.8,
+     "early_z": -0.69
+    },
+    {
+     "game": "toto55",
+     "set": "weekday x kp_sun_number",
+     "test_z": 0.93,
+     "valid_z": -0.24,
+     "early_z": 0.43
+    },
+    {
+     "game": "toto58",
+     "set": "karana x day_stem",
+     "test_z": 0.93,
+     "valid_z": 1.6,
+     "early_z": -1.0
+    },
+    {
+     "game": "toto58",
+     "set": "jupiter_retrograde x day_stem",
+     "test_z": 0.93,
+     "valid_z": 0.37,
+     "early_z": 0.59
+    },
+    {
+     "game": "toto58",
+     "set": "year_stem x month_stem",
+     "test_z": 0.93,
+     "valid_z": -0.75,
+     "early_z": 0.28
+    },
+    {
+     "game": "ml8",
+     "set": "sun_rashi x kp_sun_sub_lord",
+     "test_z": 0.93,
+     "valid_z": 0.03,
+     "early_z": -0.63
+    },
+    {
+     "game": "toto50",
+     "set": "moon_rashi x day_vs_year_branch",
+     "test_z": 0.92,
+     "valid_z": -1.22,
+     "early_z": 1.24
+    },
+    {
+     "game": "toto55",
+     "set": "jupiter_rashi x mars_retrograde",
+     "test_z": 0.92,
+     "valid_z": -2.39,
+     "early_z": 1.56
+    },
+    {
+     "game": "toto50",
+     "set": "adhika_masa x kp_sun_sub_lord",
+     "test_z": 0.89,
+     "valid_z": 1.18,
+     "early_z": 0.67
+    },
+    {
+     "game": "toto55",
+     "set": "moon_navamsa x month",
+     "test_z": 0.89,
+     "valid_z": 0.71,
+     "early_z": -0.78
+    },
+    {
+     "game": "toto55",
+     "set": "mercury_rashi x saturn_combust",
+     "test_z": 0.89,
+     "valid_z": -1.1,
+     "early_z": -3.01
+    },
+    {
+     "game": "ml8",
+     "set": "kp_sun_sub_lord x hour_stem_19h",
+     "test_z": 0.89,
+     "valid_z": -0.59,
+     "early_z": 1.4
+    },
+    {
+     "game": "ml8",
+     "set": "venus_combust x nine_star_month",
+     "test_z": 0.89,
+     "valid_z": 1.85,
+     "early_z": -1.14
+    },
+    {
+     "game": "ml8",
+     "set": "yoga x year_element",
+     "test_z": 0.89,
+     "valid_z": -1.18,
+     "early_z": -0.37
+    },
+    {
+     "game": "ml8",
+     "set": "planets_with_moon x kp_moon_star_lord",
+     "test_z": 0.89,
+     "valid_z": 1.19,
+     "early_z": -0.01
+    },
+    {
+     "game": "toto58",
+     "set": "jupiter_rashi x day_stem",
+     "test_z": 0.88,
+     "valid_z": 0.17,
+     "early_z": -0.02
+    },
+    {
+     "game": "toto58",
+     "set": "kp_asc_star_lord x kp_sun_star_lord",
+     "test_z": 0.88,
+     "valid_z": 1.15,
+     "early_z": 0.45
+    },
+    {
+     "game": "toto58",
+     "set": "kp_asc_sub_lord x nayin",
+     "test_z": 0.88,
+     "valid_z": 0.07,
+     "early_z": -0.4
+    },
+    {
+     "game": "toto58",
+     "set": "moon_rashi x kp_sun_star_lord",
+     "test_z": 0.88,
+     "valid_z": 1.62,
+     "early_z": 0.93
+    },
+    {
+     "game": "toto55",
+     "set": "jupiter_nakshatra x masa",
+     "test_z": 0.87,
+     "valid_z": 0.05,
+     "early_z": -0.42
+    },
+    {
+     "game": "ml8",
+     "set": "lunar_month x nayin",
+     "test_z": 0.87,
+     "valid_z": 0.9,
+     "early_z": -0.54
+    },
+    {
+     "game": "ml8",
+     "set": "rahu_rashi x year_stem",
+     "test_z": 0.87,
+     "valid_z": -0.26,
+     "early_z": -1.39
+    },
+    {
+     "game": "toto50",
+     "set": "year_pillar x day_officer",
+     "test_z": 0.86,
+     "valid_z": 0.93,
+     "early_z": -0.11
+    },
+    {
+     "game": "toto50",
+     "set": "saturn_rashi x rahu_rashi",
+     "test_z": 0.85,
+     "valid_z": 2.5,
+     "early_z": 0.93
+    },
+    {
+     "game": "toto50",
+     "set": "venus_nakshatra x kp_moon_sub_lord",
+     "test_z": 0.85,
+     "valid_z": -0.96,
+     "early_z": 0.03
+    },
+    {
+     "game": "toto55",
+     "set": "jupiter_retrograde x moon_phase",
+     "test_z": 0.85,
+     "valid_z": -0.39,
+     "early_z": 0.68
+    },
+    {
+     "game": "toto55",
+     "set": "month_branch x month_pillar",
+     "test_z": 0.85,
+     "valid_z": -0.39,
+     "early_z": 0.81
+    },
+    {
+     "game": "toto55",
+     "set": "moon_navamsa x kp_asc_star_lord",
+     "test_z": 0.85,
+     "valid_z": -0.39,
+     "early_z": 0.81
+    },
+    {
+     "game": "toto55",
+     "set": "paksha x kp_sun_sub_lord",
+     "test_z": 0.85,
+     "valid_z": -0.68,
+     "early_z": 1.08
+    },
+    {
+     "game": "toto55",
+     "set": "tithi x paksha",
+     "test_z": 0.85,
+     "valid_z": -0.68,
+     "early_z": -0.72
+    },
+    {
+     "game": "ml8",
+     "set": "sun_nakshatra x nayin",
+     "test_z": 0.84,
+     "valid_z": -1.08,
+     "early_z": 1.48
+    },
+    {
+     "game": "toto55",
+     "set": "yoga x kp_sun_number",
+     "test_z": 0.83,
+     "valid_z": -0.9,
+     "early_z": 1.85
+    },
+    {
+     "game": "toto58",
+     "set": "lagna_rashi x day_branch",
+     "test_z": 0.83,
+     "valid_z": 0.85,
+     "early_z": -0.51
+    },
+    {
+     "game": "toto58",
+     "set": "year_stem x day_branch",
+     "test_z": 0.83,
+     "valid_z": 0.28,
+     "early_z": -2.02
+    },
+    {
+     "game": "ml8",
+     "set": "nakshatra_lord x saturn_nakshatra",
+     "test_z": 0.83,
+     "valid_z": 1.34,
+     "early_z": 0.23
+    },
+    {
+     "game": "toto58",
+     "set": "venus_rashi x lunar_month",
+     "test_z": 0.81,
+     "valid_z": -0.88,
+     "early_z": -0.02
+    },
+    {
+     "game": "toto50",
+     "set": "venus_nakshatra x nine_star_month",
+     "test_z": 0.8,
+     "valid_z": 0.65,
+     "early_z": -0.32
+    },
+    {
+     "game": "toto50",
+     "set": "lunar_month x nayin",
+     "test_z": 0.8,
+     "valid_z": 2.32,
+     "early_z": 0.25
+    },
+    {
+     "game": "toto55",
+     "set": "lunar_month x nayin",
+     "test_z": 0.8,
+     "valid_z": -1.31,
+     "early_z": 0.39
+    },
+    {
+     "game": "toto58",
+     "set": "jupiter_rashi x lunar_leap_month",
+     "test_z": 0.8,
+     "valid_z": -0.05,
+     "early_z": -0.79
+    },
+    {
+     "game": "ml8",
+     "set": "lagna_rashi x day_branch",
+     "test_z": 0.79,
+     "valid_z": 1.38,
+     "early_z": 0.53
+    },
+    {
+     "game": "toto58",
+     "set": "jupiter_retrograde x moon_phase",
+     "test_z": 0.78,
+     "valid_z": 1.32,
+     "early_z": -0.37
+    },
+    {
+     "game": "ml8",
+     "set": "year_pillar x yellow_black_path",
+     "test_z": 0.78,
+     "valid_z": 2.23,
+     "early_z": -2.11
+    },
+    {
+     "game": "toto50",
+     "set": "weekday x rahu_rashi",
+     "test_z": 0.77,
+     "valid_z": 1.45,
+     "early_z": 0.83
+    },
+    {
+     "game": "toto50",
+     "set": "jupiter_retrograde x kp_sun_sub_lord",
+     "test_z": 0.76,
+     "valid_z": 0.58,
+     "early_z": 0.49
+    },
+    {
+     "game": "toto50",
+     "set": "moon_navamsa x sun_sign_tropical",
+     "test_z": 0.76,
+     "valid_z": 0.89,
+     "early_z": -1.78
+    },
+    {
+     "game": "toto50",
+     "set": "saturn_rashi x year_pillar",
+     "test_z": 0.76,
+     "valid_z": 2.1,
+     "early_z": 1.16
+    },
+    {
+     "game": "toto50",
+     "set": "saturn_retrograde x month_branch",
+     "test_z": 0.76,
+     "valid_z": 0.63,
+     "early_z": 1.13
+    },
+    {
+     "game": "toto50",
+     "set": "month_branch x month_pillar",
+     "test_z": 0.75,
+     "valid_z": 0.55,
+     "early_z": 0.58
+    },
+    {
+     "game": "toto55",
+     "set": "mars_rashi x year_element",
+     "test_z": 0.75,
+     "valid_z": 0.3,
+     "early_z": -0.77
+    },
+    {
+     "game": "toto55",
+     "set": "nakshatra x hour_stem_19h",
+     "test_z": 0.75,
+     "valid_z": -0.73,
+     "early_z": -0.19
+    },
+    {
+     "game": "toto55",
+     "set": "mars_rashi x lunar_month",
+     "test_z": 0.75,
+     "valid_z": 0.25,
+     "early_z": 0.95
+    },
+    {
+     "game": "toto58",
+     "set": "kp_moon_number x kp_asc_number",
+     "test_z": 0.75,
+     "valid_z": -0.24,
+     "early_z": 0.0
+    },
+    {
+     "game": "ml8",
+     "set": "year_yinyang x nine_star_year",
+     "test_z": 0.75,
+     "valid_z": -0.51,
+     "early_z": -1.46
+    },
+    {
+     "game": "toto58",
+     "set": "weekday x kp_sun_number",
+     "test_z": 0.74,
+     "valid_z": 1.53,
+     "early_z": 0.69
+    },
+    {
+     "game": "toto58",
+     "set": "rahu_rashi x moon_sign_tropical",
+     "test_z": 0.74,
+     "valid_z": -0.73,
+     "early_z": -0.21
+    },
+    {
+     "game": "toto58",
+     "set": "year_element x sun_sign_tropical",
+     "test_z": 0.73,
+     "valid_z": -0.1,
+     "early_z": -0.71
+    },
+    {
+     "game": "toto58",
+     "set": "mercury_retrograde x moon_phase",
+     "test_z": 0.73,
+     "valid_z": 1.38,
+     "early_z": 0.59
+    },
+    {
+     "game": "ml8",
+     "set": "mars_retrograde x nine_star_month",
+     "test_z": 0.71,
+     "valid_z": 0.63,
+     "early_z": 0.46
+    },
+    {
+     "game": "toto58",
+     "set": "venus_nakshatra x lunar_leap_month",
+     "test_z": 0.7,
+     "valid_z": -1.53,
+     "early_z": 0.68
+    },
+    {
+     "game": "ml8",
+     "set": "moon_navamsa x jupiter_combust",
+     "test_z": 0.7,
+     "valid_z": 0.45,
+     "early_z": 0.93
+    },
+    {
+     "game": "ml8",
+     "set": "karana x day_stem",
+     "test_z": 0.7,
+     "valid_z": 0.68,
+     "early_z": 0.54
+    },
+    {
+     "game": "ml8",
+     "set": "mercury_retrograde x month_branch",
+     "test_z": 0.7,
+     "valid_z": -1.44,
+     "early_z": 0.5
+    },
+    {
+     "game": "ml8",
+     "set": "nayin_element x yellow_black_path",
+     "test_z": 0.7,
+     "valid_z": -0.01,
+     "early_z": -1.35
+    },
+    {
+     "game": "toto58",
+     "set": "jupiter_nakshatra x day_stem",
+     "test_z": 0.69,
+     "valid_z": -0.1,
+     "early_z": -0.87
+    },
+    {
+     "game": "toto50",
+     "set": "sun_rashi x year_pillar",
+     "test_z": 0.68,
+     "valid_z": 1.23,
+     "early_z": 0.65
+    },
+    {
+     "game": "toto55",
+     "set": "karana x kp_asc_sub_lord",
+     "test_z": 0.68,
+     "valid_z": 2.07,
+     "early_z": 1.01
+    },
+    {
+     "game": "toto58",
+     "set": "nakshatra_lord x year_animal",
+     "test_z": 0.68,
+     "valid_z": 1.08,
+     "early_z": 0.61
+    },
+    {
+     "game": "toto50",
+     "set": "tithi x moon_rashi",
+     "test_z": 0.66,
+     "valid_z": -0.79,
+     "early_z": 2.17
+    },
+    {
+     "game": "toto55",
+     "set": "jupiter_combust x nine_star_month",
+     "test_z": 0.66,
+     "valid_z": -0.72,
+     "early_z": -1.03
+    },
+    {
+     "game": "ml8",
+     "set": "venus_nakshatra x kp_moon_sub_lord",
+     "test_z": 0.66,
+     "valid_z": 1.56,
+     "early_z": 2.53
+    },
+    {
+     "game": "toto58",
+     "set": "year_pillar x yellow_black_path",
+     "test_z": 0.65,
+     "valid_z": 0.38,
+     "early_z": -0.54
+    },
+    {
+     "game": "ml8",
+     "set": "planets_with_moon x day_vs_year_branch",
+     "test_z": 0.65,
+     "valid_z": 1.37,
+     "early_z": 0.25
+    },
+    {
+     "game": "ml8",
+     "set": "mercury_retrograde x moon_sign_tropical",
+     "test_z": 0.65,
+     "valid_z": -0.07,
+     "early_z": -0.68
+    },
+    {
+     "game": "toto50",
+     "set": "nakshatra x year_element",
+     "test_z": 0.64,
+     "valid_z": 1.3,
+     "early_z": 0.89
+    },
+    {
+     "game": "toto55",
+     "set": "saturn_combust x planets_with_moon",
+     "test_z": 0.64,
+     "valid_z": -0.75,
+     "early_z": 0.01
+    },
+    {
+     "game": "toto58",
+     "set": "month_branch x month_pillar",
+     "test_z": 0.64,
+     "valid_z": 1.74,
+     "early_z": 0.86
+    },
+    {
+     "game": "toto50",
+     "set": "mercury_rashi x month_pillar",
+     "test_z": 0.63,
+     "valid_z": 3.49,
+     "early_z": 0.0
+    },
+    {
+     "game": "toto55",
+     "set": "sun_nakshatra x ayana",
+     "test_z": 0.61,
+     "valid_z": 0.01,
+     "early_z": 2.8
+    },
+    {
+     "game": "toto55",
+     "set": "nakshatra_lord x year_animal",
+     "test_z": 0.61,
+     "valid_z": -0.38,
+     "early_z": 0.35
+    },
+    {
+     "game": "ml8",
+     "set": "kp_sun_number x month_stem",
+     "test_z": 0.61,
+     "valid_z": -1.6,
+     "early_z": 0.0
+    },
+    {
+     "game": "ml8",
+     "set": "tithi x day_element",
+     "test_z": 0.6,
+     "valid_z": -0.53,
+     "early_z": 0.3
+    },
+    {
+     "game": "ml8",
+     "set": "kp_sun_sub_lord x day_stem",
+     "test_z": 0.6,
+     "valid_z": -1.49,
+     "early_z": 0.3
+    },
+    {
+     "game": "ml8",
+     "set": "moon_navamsa x kp_asc_star_lord",
+     "test_z": 0.6,
+     "valid_z": 0.91,
+     "early_z": 0.09
+    },
+    {
+     "game": "toto58",
+     "set": "mercury_retrograde x month_branch",
+     "test_z": 0.59,
+     "valid_z": -0.7,
+     "early_z": -0.24
+    },
+    {
+     "game": "toto50",
+     "set": "sun_nakshatra x ayana",
+     "test_z": 0.57,
+     "valid_z": 0.34,
+     "early_z": 0.76
+    },
+    {
+     "game": "toto50",
+     "set": "jupiter_retrograde x moon_phase",
+     "test_z": 0.57,
+     "valid_z": 1.36,
+     "early_z": 0.4
+    },
+    {
+     "game": "toto50",
+     "set": "ayana x kp_moon_star_lord",
+     "test_z": 0.57,
+     "valid_z": 1.05,
+     "early_z": 1.04
+    },
+    {
+     "game": "toto50",
+     "set": "lagna_nakshatra x kp_asc_sub_lord",
+     "test_z": 0.57,
+     "valid_z": -0.57,
+     "early_z": -1.19
+    },
+    {
+     "game": "toto55",
+     "set": "saturn_retrograde x month_branch",
+     "test_z": 0.57,
+     "valid_z": -0.44,
+     "early_z": 0.56
+    },
+    {
+     "game": "toto58",
+     "set": "mercury_combust x kp_moon_number",
+     "test_z": 0.57,
+     "valid_z": 0.04,
+     "early_z": 0.44
+    },
+    {
+     "game": "ml8",
+     "set": "paksha x month",
+     "test_z": 0.56,
+     "valid_z": -1.17,
+     "early_z": 0.53
+    },
+    {
+     "game": "toto50",
+     "set": "jupiter_nakshatra x year_yinyang",
+     "test_z": 0.54,
+     "valid_z": 0.41,
+     "early_z": -0.65
+    },
+    {
+     "game": "toto50",
+     "set": "karana x day_stem",
+     "test_z": 0.54,
+     "valid_z": 0.12,
+     "early_z": 0.05
+    },
+    {
+     "game": "toto58",
+     "set": "kp_asc_star_lord x year_stem",
+     "test_z": 0.54,
+     "valid_z": 0.09,
+     "early_z": -1.37
+    },
+    {
+     "game": "toto58",
+     "set": "sun_rashi x sun_nakshatra",
+     "test_z": 0.54,
+     "valid_z": -0.52,
+     "early_z": 0.45
+    },
+    {
+     "game": "toto58",
+     "set": "jupiter_nakshatra x moon_navamsa",
+     "test_z": 0.52,
+     "valid_z": -0.95,
+     "early_z": -0.87
+    },
+    {
+     "game": "ml8",
+     "set": "tithi x kp_asc_number",
+     "test_z": 0.52,
+     "valid_z": 0.21,
+     "early_z": 0.21
+    },
+    {
+     "game": "toto50",
+     "set": "kp_asc_star_lord x kp_sun_star_lord",
+     "test_z": 0.51,
+     "valid_z": -0.13,
+     "early_z": 1.04
+    },
+    {
+     "game": "toto50",
+     "set": "kp_moon_sub_lord x year_animal",
+     "test_z": 0.51,
+     "valid_z": -0.11,
+     "early_z": -0.62
+    },
+    {
+     "game": "ml8",
+     "set": "hora_lord x month_branch",
+     "test_z": 0.51,
+     "valid_z": 0.39,
+     "early_z": -1.18
+    },
+    {
+     "game": "ml8",
+     "set": "kp_asc_sub_lord x nayin",
+     "test_z": 0.51,
+     "valid_z": 0.1,
+     "early_z": 0.28
+    },
+    {
+     "game": "ml8",
+     "set": "venus_retrograde x hour_stem_19h",
+     "test_z": 0.51,
+     "valid_z": -2.39,
+     "early_z": -0.07
+    },
+    {
+     "game": "toto50",
+     "set": "kp_asc_sub_lord x nayin",
+     "test_z": 0.5,
+     "valid_z": 1.08,
+     "early_z": 1.77
+    },
+    {
+     "game": "toto50",
+     "set": "kp_moon_sub_lord x nine_star_year",
+     "test_z": 0.5,
+     "valid_z": 0.51,
+     "early_z": 0.4
+    },
+    {
+     "game": "toto55",
+     "set": "adhika_masa x nine_star_month",
+     "test_z": 0.5,
+     "valid_z": -0.86,
+     "early_z": -1.47
+    },
+    {
+     "game": "ml8",
+     "set": "venus_rashi x saturn_rashi",
+     "test_z": 0.48,
+     "valid_z": -1.87,
+     "early_z": 0.95
+    },
+    {
+     "game": "toto50",
+     "set": "yoga x year_element",
+     "test_z": 0.47,
+     "valid_z": 0.9,
+     "early_z": -1.51
+    },
+    {
+     "game": "toto55",
+     "set": "rahu_nakshatra x month_pillar",
+     "test_z": 0.47,
+     "valid_z": 0.0,
+     "early_z": -2.1
+    },
+    {
+     "game": "toto55",
+     "set": "nakshatra_lord x month",
+     "test_z": 0.47,
+     "valid_z": 0.94,
+     "early_z": 0.08
+    },
+    {
+     "game": "toto50",
+     "set": "saturn_nakshatra x kp_moon_number",
+     "test_z": 0.46,
+     "valid_z": -0.94,
+     "early_z": 0.24
+    },
+    {
+     "game": "toto50",
+     "set": "hora_lord x jupiter_rashi",
+     "test_z": 0.46,
+     "valid_z": 0.65,
+     "early_z": -0.99
+    },
+    {
+     "game": "toto58",
+     "set": "saturn_rashi x lunar_day",
+     "test_z": 0.46,
+     "valid_z": 0.1,
+     "early_z": 0.34
+    },
+    {
+     "game": "ml8",
+     "set": "mars_rashi x lunar_month",
+     "test_z": 0.46,
+     "valid_z": 1.17,
+     "early_z": 0.42
+    },
+    {
+     "game": "toto58",
+     "set": "nakshatra x year_yinyang",
+     "test_z": 0.44,
+     "valid_z": -0.94,
+     "early_z": 2.44
+    },
+    {
+     "game": "toto58",
+     "set": "mars_combust x day_officer",
+     "test_z": 0.44,
+     "valid_z": 1.68,
+     "early_z": 0.72
+    },
+    {
+     "game": "ml8",
+     "set": "jupiter_combust x nine_star_month",
+     "test_z": 0.44,
+     "valid_z": 1.35,
+     "early_z": 0.09
+    },
+    {
+     "game": "toto50",
+     "set": "saturn_combust x planets_with_moon",
+     "test_z": 0.43,
+     "valid_z": -0.6,
+     "early_z": -0.8
+    },
+    {
+     "game": "toto50",
+     "set": "rahu_nakshatra x ayana",
+     "test_z": 0.43,
+     "valid_z": 1.86,
+     "early_z": -0.92
+    },
+    {
+     "game": "toto55",
+     "set": "paksha x venus_rashi",
+     "test_z": 0.43,
+     "valid_z": -2.0,
+     "early_z": 0.28
+    },
+    {
+     "game": "toto55",
+     "set": "ritu x ayana",
+     "test_z": 0.43,
+     "valid_z": -1.83,
+     "early_z": -1.12
+    },
+    {
+     "game": "toto55",
+     "set": "saturn_rashi x masa",
+     "test_z": 0.43,
+     "valid_z": -1.89,
+     "early_z": 1.24
+    },
+    {
+     "game": "toto55",
+     "set": "sun_nakshatra x nayin",
+     "test_z": 0.43,
+     "valid_z": 0.44,
+     "early_z": -0.25
+    },
+    {
+     "game": "toto55",
+     "set": "moon_rashi x jupiter_nakshatra",
+     "test_z": 0.42,
+     "valid_z": -1.22,
+     "early_z": -0.51
+    },
+    {
+     "game": "ml8",
+     "set": "kp_moon_number x day_god",
+     "test_z": 0.42,
+     "valid_z": -0.81,
+     "early_z": 1.17
+    },
+    {
+     "game": "toto50",
+     "set": "lagna_nakshatra x lunar_leap_month",
+     "test_z": 0.41,
+     "valid_z": 1.26,
+     "early_z": -0.23
+    },
+    {
+     "game": "toto58",
+     "set": "sun_nakshatra x mars_combust",
+     "test_z": 0.41,
+     "valid_z": -0.58,
+     "early_z": -0.71
+    },
+    {
+     "game": "toto50",
+     "set": "tithi x kp_asc_number",
+     "test_z": 0.4,
+     "valid_z": -0.95,
+     "early_z": -0.95
+    },
+    {
+     "game": "toto58",
+     "set": "saturn_rashi x kp_sun_number",
+     "test_z": 0.4,
+     "valid_z": -0.41,
+     "early_z": -0.8
+    },
+    {
+     "game": "toto50",
+     "set": "hora_lord x day_pillar",
+     "test_z": 0.39,
+     "valid_z": -0.48,
+     "early_z": -0.67
+    },
+    {
+     "game": "toto50",
+     "set": "kp_sun_sub_lord x hour_stem_19h",
+     "test_z": 0.38,
+     "valid_z": -1.22,
+     "early_z": -0.14
+    },
+    {
+     "game": "toto50",
+     "set": "venus_retrograde x kp_sun_sub_lord",
+     "test_z": 0.38,
+     "valid_z": -0.75,
+     "early_z": 0.04
+    },
+    {
+     "game": "toto55",
+     "set": "month_branch x day_vs_year_branch",
+     "test_z": 0.38,
+     "valid_z": -0.79,
+     "early_z": -0.72
+    },
+    {
+     "game": "ml8",
+     "set": "saturn_rashi x kp_sun_number",
+     "test_z": 0.38,
+     "valid_z": 1.22,
+     "early_z": 0.71
+    },
+    {
+     "game": "toto58",
+     "set": "moon_rashi x jupiter_nakshatra",
+     "test_z": 0.37,
+     "valid_z": 0.13,
+     "early_z": 3.34
+    },
+    {
+     "game": "ml8",
+     "set": "jupiter_retrograde x day_stem",
+     "test_z": 0.37,
+     "valid_z": -1.17,
+     "early_z": -0.14
+    },
+    {
+     "game": "ml8",
+     "set": "paksha x kp_sun_sub_lord",
+     "test_z": 0.37,
+     "valid_z": 0.97,
+     "early_z": -0.74
+    },
+    {
+     "game": "toto50",
+     "set": "tithi x nine_star_year",
+     "test_z": 0.36,
+     "valid_z": -0.12,
+     "early_z": -1.26
+    },
+    {
+     "game": "toto50",
+     "set": "kp_sun_number x lunar_leap_month",
+     "test_z": 0.36,
+     "valid_z": 1.12,
+     "early_z": -0.43
+    },
+    {
+     "game": "toto55",
+     "set": "saturn_nakshatra x kp_moon_number",
+     "test_z": 0.36,
+     "valid_z": -1.72,
+     "early_z": 0.65
+    },
+    {
+     "game": "toto58",
+     "set": "mercury_rashi x rahu_nakshatra",
+     "test_z": 0.36,
+     "valid_z": 1.3,
+     "early_z": 0.5
+    },
+    {
+     "game": "toto58",
+     "set": "mars_nakshatra x rahu_rashi",
+     "test_z": 0.36,
+     "valid_z": -1.04,
+     "early_z": 0.14
+    },
+    {
+     "game": "ml8",
+     "set": "moon_rashi x day_of_month",
+     "test_z": 0.36,
+     "valid_z": 0.65,
+     "early_z": 1.04
+    },
+    {
+     "game": "toto50",
+     "set": "nine_star_year x day_of_month",
+     "test_z": 0.34,
+     "valid_z": 1.9,
+     "early_z": 1.78
+    },
+    {
+     "game": "toto58",
+     "set": "ritu x ayana",
+     "test_z": 0.34,
+     "valid_z": -1.35,
+     "early_z": 1.75
+    },
+    {
+     "game": "toto58",
+     "set": "hora_lord x month_branch",
+     "test_z": 0.34,
+     "valid_z": 0.05,
+     "early_z": 0.93
+    },
+    {
+     "game": "toto50",
+     "set": "venus_retrograde x kp_asc_number",
+     "test_z": 0.33,
+     "valid_z": 0.22,
+     "early_z": -0.41
+    },
+    {
+     "game": "toto55",
+     "set": "mars_combust x month_stem",
+     "test_z": 0.33,
+     "valid_z": 0.47,
+     "early_z": 0.28
+    },
+    {
+     "game": "toto55",
+     "set": "nakshatra x year_element",
+     "test_z": 0.33,
+     "valid_z": -1.53,
+     "early_z": 0.73
+    },
+    {
+     "game": "toto55",
+     "set": "nine_star_year x day_of_month",
+     "test_z": 0.33,
+     "valid_z": 0.94,
+     "early_z": -1.91
+    },
+    {
+     "game": "toto58",
+     "set": "jupiter_combust x kp_asc_number",
+     "test_z": 0.33,
+     "valid_z": 0.18,
+     "early_z": -0.64
+    },
+    {
+     "game": "toto50",
+     "set": "jupiter_combust x kp_asc_number",
+     "test_z": 0.31,
+     "valid_z": 1.09,
+     "early_z": 0.06
+    },
+    {
+     "game": "toto50",
+     "set": "rahu_rashi x kp_sun_sub_lord",
+     "test_z": 0.31,
+     "valid_z": -0.29,
+     "early_z": 0.72
+    },
+    {
+     "game": "toto58",
+     "set": "jupiter_retrograde x yellow_black_path",
+     "test_z": 0.3,
+     "valid_z": 0.61,
+     "early_z": 0.93
+    },
+    {
+     "game": "toto58",
+     "set": "mercury_rashi x kp_sun_sub_lord",
+     "test_z": 0.3,
+     "valid_z": -1.11,
+     "early_z": -0.44
+    },
+    {
+     "game": "toto58",
+     "set": "lunar_month x nayin",
+     "test_z": 0.3,
+     "valid_z": -0.33,
+     "early_z": -1.72
+    },
+    {
+     "game": "toto58",
+     "set": "month_branch x day_element",
+     "test_z": 0.3,
+     "valid_z": -0.64,
+     "early_z": -0.99
+    },
+    {
+     "game": "ml8",
+     "set": "kp_sun_number x lunar_leap_month",
+     "test_z": 0.3,
+     "valid_z": -0.51,
+     "early_z": 0.87
+    },
+    {
+     "game": "toto55",
+     "set": "day_vs_year_branch x nine_star_month",
+     "test_z": 0.28,
+     "valid_z": -0.27,
+     "early_z": 0.61
+    },
+    {
+     "game": "toto58",
+     "set": "rahu_rashi x day_stem",
+     "test_z": 0.27,
+     "valid_z": 0.85,
+     "early_z": 0.65
+    },
+    {
+     "game": "toto58",
+     "set": "jupiter_rashi x kp_moon_number",
+     "test_z": 0.27,
+     "valid_z": -1.1,
+     "early_z": -0.31
+    },
+    {
+     "game": "toto50",
+     "set": "saturn_rashi x masa",
+     "test_z": 0.26,
+     "valid_z": 0.63,
+     "early_z": 0.56
+    },
+    {
+     "game": "toto55",
+     "set": "lagna_nakshatra x lunar_leap_month",
+     "test_z": 0.26,
+     "valid_z": -0.64,
+     "early_z": -0.54
+    },
+    {
+     "game": "toto55",
+     "set": "jupiter_rashi x kp_moon_number",
+     "test_z": 0.26,
+     "valid_z": -0.19,
+     "early_z": 0.74
+    },
+    {
+     "game": "ml8",
+     "set": "hora_lord x planets_with_moon",
+     "test_z": 0.26,
+     "valid_z": -1.19,
+     "early_z": -1.55
+    },
+    {
+     "game": "toto50",
+     "set": "moon_navamsa x month",
+     "test_z": 0.25,
+     "valid_z": 0.22,
+     "early_z": -1.91
+    },
+    {
+     "game": "toto55",
+     "set": "mercury_rashi x samvatsara",
+     "test_z": 0.25,
+     "valid_z": -0.03,
+     "early_z": -1.67
+    },
+    {
+     "game": "toto58",
+     "set": "saturn_rashi x month_stem",
+     "test_z": 0.25,
+     "valid_z": 0.62,
+     "early_z": -0.06
+    },
+    {
+     "game": "toto50",
+     "set": "jupiter_nakshatra x masa",
+     "test_z": 0.24,
+     "valid_z": 0.0,
+     "early_z": 0.67
+    },
+    {
+     "game": "toto50",
+     "set": "samvatsara x kp_sun_star_lord",
+     "test_z": 0.24,
+     "valid_z": 1.61,
+     "early_z": 1.02
+    },
+    {
+     "game": "toto50",
+     "set": "kp_moon_number x nayin_element",
+     "test_z": 0.24,
+     "valid_z": 0.75,
+     "early_z": 0.65
+    },
+    {
+     "game": "toto55",
+     "set": "nakshatra_lord x kp_sun_sub_lord",
+     "test_z": 0.24,
+     "valid_z": -1.42,
+     "early_z": 0.48
+    },
+    {
+     "game": "toto58",
+     "set": "year_pillar x mansion_28",
+     "test_z": 0.24,
+     "valid_z": 0.02,
+     "early_z": 0.11
+    },
+    {
+     "game": "ml8",
+     "set": "karana x sun_nakshatra",
+     "test_z": 0.24,
+     "valid_z": -1.45,
+     "early_z": 0.47
+    },
+    {
+     "game": "toto50",
+     "set": "tithi x lunar_leap_month",
+     "test_z": 0.23,
+     "valid_z": -0.32,
+     "early_z": 0.49
+    },
+    {
+     "game": "toto58",
+     "set": "tithi x kp_asc_number",
+     "test_z": 0.23,
+     "valid_z": -0.67,
+     "early_z": -0.87
+    },
+    {
+     "game": "ml8",
+     "set": "kp_asc_star_lord x kp_sun_star_lord",
+     "test_z": 0.23,
+     "valid_z": -0.59,
+     "early_z": 0.53
+    },
+    {
+     "game": "toto50",
+     "set": "jupiter_rashi x day_stem",
+     "test_z": 0.21,
+     "valid_z": -1.81,
+     "early_z": -0.46
+    },
+    {
+     "game": "toto50",
+     "set": "nakshatra x rahu_rashi",
+     "test_z": 0.21,
+     "valid_z": 0.77,
+     "early_z": 0.69
+    },
+    {
+     "game": "toto58",
+     "set": "karana x sun_nakshatra",
+     "test_z": 0.2,
+     "valid_z": -0.73,
+     "early_z": -0.07
+    },
+    {
+     "game": "toto58",
+     "set": "sun_nakshatra x ayana",
+     "test_z": 0.2,
+     "valid_z": -2.42,
+     "early_z": 0.93
+    },
+    {
+     "game": "toto58",
+     "set": "nakshatra_lord x karana",
+     "test_z": 0.2,
+     "valid_z": -0.24,
+     "early_z": 1.84
+    },
+    {
+     "game": "toto58",
+     "set": "venus_retrograde x day_stem",
+     "test_z": 0.2,
+     "valid_z": 0.73,
+     "early_z": 0.04
+    },
+    {
+     "game": "toto58",
+     "set": "kp_moon_sub_lord x month",
+     "test_z": 0.2,
+     "valid_z": -0.42,
+     "early_z": 0.05
+    },
+    {
+     "game": "toto50",
+     "set": "paksha x moon_rashi",
+     "test_z": 0.19,
+     "valid_z": 0.03,
+     "early_z": -0.68
+    },
+    {
+     "game": "toto55",
+     "set": "jupiter_retrograde x kp_sun_sub_lord",
+     "test_z": 0.19,
+     "valid_z": -1.19,
+     "early_z": 0.88
+    },
+    {
+     "game": "toto55",
+     "set": "kp_sun_star_lord x nine_star_year",
+     "test_z": 0.19,
+     "valid_z": -0.19,
+     "early_z": -0.37
+    },
+    {
+     "game": "toto55",
+     "set": "sun_nakshatra x mars_combust",
+     "test_z": 0.19,
+     "valid_z": 1.17,
+     "early_z": 0.44
+    },
+    {
+     "game": "toto55",
+     "set": "sun_rashi x sun_nakshatra",
+     "test_z": 0.19,
+     "valid_z": -0.04,
+     "early_z": 2.07
+    },
+    {
+     "game": "toto55",
+     "set": "year_stem x day_branch",
+     "test_z": 0.19,
+     "valid_z": -0.06,
+     "early_z": 0.48
+    },
+    {
+     "game": "ml8",
+     "set": "karana x sun_sign_tropical",
+     "test_z": 0.18,
+     "valid_z": -0.43,
+     "early_z": 1.32
+    },
+    {
+     "game": "ml8",
+     "set": "saturn_rashi x year_pillar",
+     "test_z": 0.18,
+     "valid_z": 1.98,
+     "early_z": -1.39
+    },
+    {
+     "game": "toto55",
+     "set": "rahu_rashi x moon_sign_tropical",
+     "test_z": 0.17,
+     "valid_z": 0.26,
+     "early_z": 0.26
+    },
+    {
+     "game": "ml8",
+     "set": "hora_lord x kp_asc_number",
+     "test_z": 0.17,
+     "valid_z": 0.31,
+     "early_z": 1.12
+    },
+    {
+     "game": "toto58",
+     "set": "hora_lord x day_vs_year_branch",
+     "test_z": 0.15,
+     "valid_z": -1.29,
+     "early_z": -0.18
+    },
+    {
+     "game": "toto58",
+     "set": "adhika_masa x kp_moon_number",
+     "test_z": 0.15,
+     "valid_z": 2.22,
+     "early_z": -0.54
+    },
+    {
+     "game": "toto58",
+     "set": "tithi x paksha",
+     "test_z": 0.15,
+     "valid_z": 0.37,
+     "early_z": -2.16
+    },
+    {
+     "game": "ml8",
+     "set": "rahu_nakshatra x kp_moon_star_lord",
+     "test_z": 0.15,
+     "valid_z": 1.47,
+     "early_z": 0.64
+    },
+    {
+     "game": "ml8",
+     "set": "venus_combust x year_element",
+     "test_z": 0.15,
+     "valid_z": 1.64,
+     "early_z": -0.17
+    },
+    {
+     "game": "toto50",
+     "set": "mars_rashi x lunar_month",
+     "test_z": 0.14,
+     "valid_z": -1.46,
+     "early_z": 0.86
+    },
+    {
+     "game": "toto55",
+     "set": "mercury_retrograde x month_branch",
+     "test_z": 0.14,
+     "valid_z": -1.54,
+     "early_z": 0.35
+    },
+    {
+     "game": "toto58",
+     "set": "yoga x kp_sun_number",
+     "test_z": 0.14,
+     "valid_z": -1.23,
+     "early_z": 0.53
+    },
+    {
+     "game": "toto50",
+     "set": "sun_rashi x sun_nakshatra",
+     "test_z": 0.13,
+     "valid_z": 0.89,
+     "early_z": 0.49
+    },
+    {
+     "game": "ml8",
+     "set": "jupiter_retrograde x yellow_black_path",
+     "test_z": 0.13,
+     "valid_z": -1.46,
+     "early_z": -0.07
+    },
+    {
+     "game": "ml8",
+     "set": "yoga x moon_rashi",
+     "test_z": 0.13,
+     "valid_z": 0.74,
+     "early_z": -0.8
+    },
+    {
+     "game": "toto55",
+     "set": "mercury_combust x kp_moon_number",
+     "test_z": 0.12,
+     "valid_z": -1.08,
+     "early_z": -0.02
+    },
+    {
+     "game": "toto50",
+     "set": "rahu_rashi x year_stem",
+     "test_z": 0.11,
+     "valid_z": -0.24,
+     "early_z": -0.62
+    },
+    {
+     "game": "toto58",
+     "set": "rahu_rashi x kp_sun_sub_lord",
+     "test_z": 0.11,
+     "valid_z": 0.46,
+     "early_z": -0.55
+    },
+    {
+     "game": "toto55",
+     "set": "kp_sun_number x lunar_leap_month",
+     "test_z": 0.1,
+     "valid_z": 0.32,
+     "early_z": -0.05
+    },
+    {
+     "game": "ml8",
+     "set": "kp_moon_sub_lord x year_animal",
+     "test_z": 0.1,
+     "valid_z": -0.14,
+     "early_z": -1.19
+    },
+    {
+     "game": "toto58",
+     "set": "jupiter_nakshatra x masa",
+     "test_z": 0.09,
+     "valid_z": -0.87,
+     "early_z": 0.0
+    },
+    {
+     "game": "toto50",
+     "set": "mars_nakshatra x rahu_nakshatra",
+     "test_z": 0.08,
+     "valid_z": -0.02,
+     "early_z": 0.75
+    },
+    {
+     "game": "toto50",
+     "set": "solar_term x month_pillar",
+     "test_z": 0.08,
+     "valid_z": -0.47,
+     "early_z": 0.52
+    },
+    {
+     "game": "ml8",
+     "set": "weekday x mansion_28",
+     "test_z": 0.08,
+     "valid_z": -0.13,
+     "early_z": -0.34
+    },
+    {
+     "game": "toto50",
+     "set": "paksha x venus_rashi",
+     "test_z": 0.06,
+     "valid_z": 0.26,
+     "early_z": -1.13
+    },
+    {
+     "game": "toto50",
+     "set": "mercury_retrograde x month_branch",
+     "test_z": 0.06,
+     "valid_z": 0.97,
+     "early_z": 0.96
+    },
+    {
+     "game": "toto50",
+     "set": "lunar_month x day_officer",
+     "test_z": 0.06,
+     "valid_z": -0.21,
+     "early_z": 0.49
+    },
+    {
+     "game": "toto50",
+     "set": "hora_lord x day_vs_year_branch",
+     "test_z": 0.06,
+     "valid_z": -2.06,
+     "early_z": -1.13
+    },
+    {
+     "game": "toto50",
+     "set": "mercury_rashi x saturn_combust",
+     "test_z": 0.06,
+     "valid_z": -0.28,
+     "early_z": 0.35
+    },
+    {
+     "game": "toto55",
+     "set": "karana x day_stem",
+     "test_z": 0.05,
+     "valid_z": 1.43,
+     "early_z": 0.5
+    },
+    {
+     "game": "toto58",
+     "set": "lagna_nakshatra x day_stem",
+     "test_z": 0.05,
+     "valid_z": 0.43,
+     "early_z": -1.4
+    },
+    {
+     "game": "toto58",
+     "set": "venus_retrograde x hour_stem_19h",
+     "test_z": 0.05,
+     "valid_z": -0.04,
+     "early_z": 2.37
+    },
+    {
+     "game": "toto55",
+     "set": "jupiter_rashi x rahu_rashi",
+     "test_z": 0.03,
+     "valid_z": -1.78,
+     "early_z": -0.16
+    },
+    {
+     "game": "ml8",
+     "set": "lunar_month x nine_star_month",
+     "test_z": 0.03,
+     "valid_z": 0.59,
+     "early_z": -0.61
+    },
+    {
+     "game": "toto50",
+     "set": "nakshatra_lord x karana",
+     "test_z": 0.02,
+     "valid_z": 0.73,
+     "early_z": 0.99
+    },
+    {
+     "game": "toto58",
+     "set": "moon_rashi x mars_nakshatra",
+     "test_z": 0.02,
+     "valid_z": 1.87,
+     "early_z": 0.42
+    },
+    {
+     "game": "toto55",
+     "set": "kp_asc_sub_lord x nayin",
+     "test_z": 0.01,
+     "valid_z": -1.77,
+     "early_z": -0.79
+    },
+    {
+     "game": "toto50",
+     "set": "rahu_nakshatra x month",
+     "test_z": 0.0,
+     "valid_z": 0.37,
+     "early_z": 1.45
+    },
+    {
+     "game": "toto50",
+     "set": "kp_moon_number x kp_asc_number",
+     "test_z": 0.0,
+     "valid_z": 0.0,
+     "early_z": -0.95
+    },
+    {
+     "game": "toto50",
+     "set": "hora_lord x month_branch",
+     "test_z": -0.0,
+     "valid_z": -0.21,
+     "early_z": -0.91
+    },
+    {
+     "game": "toto50",
+     "set": "nakshatra_lord x month",
+     "test_z": -0.0,
+     "valid_z": 0.58,
+     "early_z": 0.58
+    },
+    {
+     "game": "toto50",
+     "set": "karana x kp_asc_sub_lord",
+     "test_z": -0.0,
+     "valid_z": 0.31,
+     "early_z": 0.36
+    },
+    {
+     "game": "toto50",
+     "set": "year_animal x month",
+     "test_z": 0.0,
+     "valid_z": 1.7,
+     "early_z": 0.65
+    },
+    {
+     "game": "toto50",
+     "set": "year_stem x month",
+     "test_z": 0.0,
+     "valid_z": 0.37,
+     "early_z": -1.39
+    },
+    {
+     "game": "toto50",
+     "set": "mars_retrograde x venus_combust",
+     "test_z": -0.0,
+     "valid_z": -0.09,
+     "early_z": -0.05
+    },
+    {
+     "game": "toto58",
+     "set": "sun_nakshatra x year_animal",
+     "test_z": -0.0,
+     "valid_z": 1.08,
+     "early_z": -0.87
+    },
+    {
+     "game": "ml8",
+     "set": "jupiter_rashi x day_stem",
+     "test_z": 0.0,
+     "valid_z": -1.24,
+     "early_z": -0.48
+    },
+    {
+     "game": "ml8",
+     "set": "jupiter_rashi x mars_retrograde",
+     "test_z": 0.0,
+     "valid_z": 0.7,
+     "early_z": 0.25
+    },
+    {
+     "game": "ml8",
+     "set": "jupiter_rashi x rahu_rashi",
+     "test_z": 0.0,
+     "valid_z": 0.57,
+     "early_z": -0.2
+    },
+    {
+     "game": "ml8",
+     "set": "kp_moon_number x kp_asc_number",
+     "test_z": 0.0,
+     "valid_z": 0.0,
+     "early_z": 0.21
+    },
+    {
+     "game": "ml8",
+     "set": "jupiter_rashi x lunar_leap_month",
+     "test_z": 0.0,
+     "valid_z": 1.45,
+     "early_z": 0.25
+    },
+    {
+     "game": "ml8",
+     "set": "jupiter_rashi x kp_moon_number",
+     "test_z": 0.0,
+     "valid_z": 0.53,
+     "early_z": -0.09
+    },
+    {
+     "game": "ml8",
+     "set": "hora_lord x jupiter_rashi",
+     "test_z": 0.0,
+     "valid_z": -0.74,
+     "early_z": -1.14
+    },
+    {
+     "game": "ml8",
+     "set": "jupiter_rashi x kp_moon_sub_lord",
+     "test_z": 0.0,
+     "valid_z": 2.01,
+     "early_z": 1.54
+    },
+    {
+     "game": "toto58",
+     "set": "lunar_month x nine_star_month",
+     "test_z": -0.01,
+     "valid_z": -0.92,
+     "early_z": 0.24
+    },
+    {
+     "game": "ml8",
+     "set": "lunar_month x day_officer",
+     "test_z": -0.01,
+     "valid_z": 1.38,
+     "early_z": -0.41
+    },
+    {
+     "game": "toto50",
+     "set": "mars_combust x month_stem",
+     "test_z": -0.02,
+     "valid_z": -0.08,
+     "early_z": 1.2
+    },
+    {
+     "game": "ml8",
+     "set": "day_pillar x day_god",
+     "test_z": -0.02,
+     "valid_z": 0.09,
+     "early_z": -1.17
+    },
+    {
+     "game": "ml8",
+     "set": "kp_asc_star_lord x year_stem",
+     "test_z": -0.02,
+     "valid_z": -1.01,
+     "early_z": -0.62
+    },
+    {
+     "game": "toto50",
+     "set": "jupiter_nakshatra x day_stem",
+     "test_z": -0.03,
+     "valid_z": 1.77,
+     "early_z": 0.67
+    },
+    {
+     "game": "ml8",
+     "set": "mercury_rashi x samvatsara",
+     "test_z": -0.03,
+     "valid_z": -0.6,
+     "early_z": -1.05
+    },
+    {
+     "game": "toto55",
+     "set": "kp_asc_star_lord x kp_sun_star_lord",
+     "test_z": -0.04,
+     "valid_z": -0.62,
+     "early_z": -0.05
+    },
+    {
+     "game": "toto55",
+     "set": "lagna_nakshatra x day_god",
+     "test_z": -0.04,
+     "valid_z": 0.82,
+     "early_z": -0.25
+    },
+    {
+     "game": "toto58",
+     "set": "kp_moon_sub_lord x yellow_black_path",
+     "test_z": -0.04,
+     "valid_z": -0.1,
+     "early_z": -0.44
+    },
+    {
+     "game": "toto58",
+     "set": "planets_with_moon x kp_moon_star_lord",
+     "test_z": -0.05,
+     "valid_z": 2.14,
+     "early_z": -0.99
+    },
+    {
+     "game": "ml8",
+     "set": "planets_with_moon x kp_moon_sub_lord",
+     "test_z": -0.06,
+     "valid_z": 1.07,
+     "early_z": -0.39
+    },
+    {
+     "game": "toto50",
+     "set": "nakshatra_pada x moon_rashi",
+     "test_z": -0.07,
+     "valid_z": 1.44,
+     "early_z": -0.5
+    },
+    {
+     "game": "toto50",
+     "set": "kp_asc_sub_lord x year_element",
+     "test_z": -0.08,
+     "valid_z": 0.1,
+     "early_z": -0.75
+    },
+    {
+     "game": "toto50",
+     "set": "jupiter_rashi x kp_moon_number",
+     "test_z": -0.08,
+     "valid_z": -0.37,
+     "early_z": -1.25
+    },
+    {
+     "game": "toto58",
+     "set": "kp_sun_number x month_stem",
+     "test_z": -0.08,
+     "valid_z": 1.11,
+     "early_z": -0.35
+    },
+    {
+     "game": "toto58",
+     "set": "planets_with_moon x kp_moon_sub_lord",
+     "test_z": -0.08,
+     "valid_z": 1.5,
+     "early_z": -0.43
+    },
+    {
+     "game": "ml8",
+     "set": "kp_moon_sub_lord x month",
+     "test_z": -0.08,
+     "valid_z": -0.71,
+     "early_z": 0.81
+    },
+    {
+     "game": "toto50",
+     "set": "planets_with_moon x kp_moon_sub_lord",
+     "test_z": -0.09,
+     "valid_z": 0.06,
+     "early_z": -0.08
+    },
+    {
+     "game": "toto55",
+     "set": "month_stem x yellow_black_path",
+     "test_z": -0.09,
+     "valid_z": 0.53,
+     "early_z": -0.25
+    },
+    {
+     "game": "toto55",
+     "set": "year_yinyang x nine_star_year",
+     "test_z": -0.09,
+     "valid_z": -0.25,
+     "early_z": -1.27
+    },
+    {
+     "game": "toto55",
+     "set": "lagna_nakshatra x day_stem",
+     "test_z": -0.09,
+     "valid_z": 2.09,
+     "early_z": 0.08
+    },
+    {
+     "game": "toto55",
+     "set": "jupiter_rashi x lunar_leap_month",
+     "test_z": -0.09,
+     "valid_z": -1.77,
+     "early_z": -0.16
+    },
+    {
+     "game": "toto55",
+     "set": "jupiter_retrograde x day_pillar",
+     "test_z": -0.09,
+     "valid_z": 0.7,
+     "early_z": -0.78
+    },
+    {
+     "game": "toto55",
+     "set": "mercury_retrograde x moon_phase",
+     "test_z": -0.09,
+     "valid_z": 0.07,
+     "early_z": 2.4
+    },
+    {
+     "game": "toto50",
+     "set": "lunar_month x nine_star_month",
+     "test_z": -0.1,
+     "valid_z": 2.6,
+     "early_z": 1.4
+    },
+    {
+     "game": "toto55",
+     "set": "nakshatra x rahu_rashi",
+     "test_z": -0.1,
+     "valid_z": -0.92,
+     "early_z": 1.43
+    },
+    {
+     "game": "toto58",
+     "set": "venus_nakshatra x nine_star_month",
+     "test_z": -0.1,
+     "valid_z": -1.93,
+     "early_z": -1.12
+    },
+    {
+     "game": "toto58",
+     "set": "jupiter_nakshatra x year_yinyang",
+     "test_z": -0.1,
+     "valid_z": 2.48,
+     "early_z": 0.53
+    },
+    {
+     "game": "toto58",
+     "set": "samvatsara x kp_sun_star_lord",
+     "test_z": -0.1,
+     "valid_z": -0.21,
+     "early_z": 0.5
+    },
+    {
+     "game": "toto50",
+     "set": "kp_asc_star_lord x year_stem",
+     "test_z": -0.11,
+     "valid_z": -0.11,
+     "early_z": 1.42
+    },
+    {
+     "game": "toto58",
+     "set": "mars_nakshatra x kp_moon_number",
+     "test_z": -0.11,
+     "valid_z": 0.55,
+     "early_z": -0.34
+    },
+    {
+     "game": "ml8",
+     "set": "lunar_day x nayin_element",
+     "test_z": -0.11,
+     "valid_z": -1.23,
+     "early_z": 1.25
+    },
+    {
+     "game": "ml8",
+     "set": "nakshatra_lord x month",
+     "test_z": -0.11,
+     "valid_z": -1.58,
+     "early_z": -0.54
+    },
+    {
+     "game": "ml8",
+     "set": "venus_retrograde x day_stem",
+     "test_z": -0.11,
+     "valid_z": -1.06,
+     "early_z": 0.13
+    },
+    {
+     "game": "ml8",
+     "set": "saturn_combust x planets_with_moon",
+     "test_z": -0.12,
+     "valid_z": -0.88,
+     "early_z": -0.34
+    },
+    {
+     "game": "ml8",
+     "set": "mars_combust x month_stem",
+     "test_z": -0.12,
+     "valid_z": 0.45,
+     "early_z": -0.47
+    },
+    {
+     "game": "ml8",
+     "set": "mercury_rashi x month_pillar",
+     "test_z": -0.12,
+     "valid_z": -0.03,
+     "early_z": -0.53
+    },
+    {
+     "game": "toto50",
+     "set": "mars_combust x day_officer",
+     "test_z": -0.13,
+     "valid_z": -1.46,
+     "early_z": 0.67
+    },
+    {
+     "game": "toto50",
+     "set": "paksha x kp_sun_sub_lord",
+     "test_z": -0.13,
+     "valid_z": 1.52,
+     "early_z": 2.03
+    },
+    {
+     "game": "toto58",
+     "set": "saturn_nakshatra x kp_moon_number",
+     "test_z": -0.13,
+     "valid_z": -2.71,
+     "early_z": -0.32
+    },
+    {
+     "game": "ml8",
+     "set": "venus_rashi x mansion_28",
+     "test_z": -0.14,
+     "valid_z": -0.78,
+     "early_z": -0.23
+    },
+    {
+     "game": "ml8",
+     "set": "mercury_nakshatra x month_stem",
+     "test_z": -0.14,
+     "valid_z": 0.81,
+     "early_z": -0.29
+    },
+    {
+     "game": "toto50",
+     "set": "venus_nakshatra x mansion_28",
+     "test_z": -0.15,
+     "valid_z": 1.05,
+     "early_z": 1.08
+    },
+    {
+     "game": "ml8",
+     "set": "venus_combust x moon_sign_tropical",
+     "test_z": -0.15,
+     "valid_z": 0.1,
+     "early_z": -2.55
+    },
+    {
+     "game": "ml8",
+     "set": "adhika_masa x nine_star_month",
+     "test_z": -0.15,
+     "valid_z": 1.34,
+     "early_z": -0.14
+    },
+    {
+     "game": "toto58",
+     "set": "kp_moon_number x nayin_element",
+     "test_z": -0.16,
+     "valid_z": -0.43,
+     "early_z": 1.3
+    },
+    {
+     "game": "ml8",
+     "set": "saturn_retrograde x month_branch",
+     "test_z": -0.16,
+     "valid_z": -0.49,
+     "early_z": -0.32
+    },
+    {
+     "game": "toto50",
+     "set": "year_stem x month_stem",
+     "test_z": -0.17,
+     "valid_z": 0.97,
+     "early_z": 1.23
+    },
+    {
+     "game": "toto50",
+     "set": "year_element x sun_sign_tropical",
+     "test_z": -0.18,
+     "valid_z": 1.02,
+     "early_z": -0.31
+    },
+    {
+     "game": "toto50",
+     "set": "venus_rashi x mansion_28",
+     "test_z": -0.18,
+     "valid_z": 2.15,
+     "early_z": 0.67
+    },
+    {
+     "game": "toto50",
+     "set": "mercury_retrograde x moon_phase",
+     "test_z": -0.19,
+     "valid_z": -1.3,
+     "early_z": -0.23
+    },
+    {
+     "game": "toto50",
+     "set": "month_branch x day_element",
+     "test_z": -0.19,
+     "valid_z": 2.14,
+     "early_z": 0.67
+    },
+    {
+     "game": "toto50",
+     "set": "venus_retrograde x saturn_retrograde",
+     "test_z": -0.19,
+     "valid_z": 1.2,
+     "early_z": 0.67
+    },
+    {
+     "game": "toto55",
+     "set": "hora_lord x planets_with_moon",
+     "test_z": -0.19,
+     "valid_z": -1.21,
+     "early_z": 0.68
+    },
+    {
+     "game": "toto58",
+     "set": "mercury_rashi x lagna_rashi",
+     "test_z": -0.19,
+     "valid_z": -0.94,
+     "early_z": 2.6
+    },
+    {
+     "game": "toto58",
+     "set": "nakshatra x hour_stem_19h",
+     "test_z": -0.19,
+     "valid_z": -0.88,
+     "early_z": 1.0
+    },
+    {
+     "game": "toto58",
+     "set": "tithi x nayin_element",
+     "test_z": -0.19,
+     "valid_z": 0.73,
+     "early_z": -0.31
+    },
+    {
+     "game": "toto55",
+     "set": "jupiter_nakshatra x year_yinyang",
+     "test_z": -0.2,
+     "valid_z": -0.29,
+     "early_z": -1.19
+    },
+    {
+     "game": "toto58",
+     "set": "saturn_rashi x rahu_rashi",
+     "test_z": -0.2,
+     "valid_z": -0.83,
+     "early_z": 1.16
+    },
+    {
+     "game": "ml8",
+     "set": "tithi x nayin_element",
+     "test_z": -0.2,
+     "valid_z": 0.66,
+     "early_z": 0.96
+    },
+    {
+     "game": "ml8",
+     "set": "weekday x kp_sun_number",
+     "test_z": -0.2,
+     "valid_z": -0.63,
+     "early_z": 0.91
+    },
+    {
+     "game": "toto50",
+     "set": "nakshatra_lord x saturn_nakshatra",
+     "test_z": -0.21,
+     "valid_z": 0.51,
+     "early_z": 0.75
+    },
+    {
+     "game": "toto50",
+     "set": "year_element x solar_term",
+     "test_z": -0.22,
+     "valid_z": -1.14,
+     "early_z": -0.99
+    },
+    {
+     "game": "toto55",
+     "set": "venus_rashi x mansion_28",
+     "test_z": -0.22,
+     "valid_z": -0.33,
+     "early_z": -0.77
+    },
+    {
+     "game": "ml8",
+     "set": "venus_nakshatra x mansion_28",
+     "test_z": -0.22,
+     "valid_z": 0.0,
+     "early_z": -1.28
+    },
+    {
+     "game": "toto50",
+     "set": "year_yinyang x nine_star_year",
+     "test_z": -0.23,
+     "valid_z": 1.19,
+     "early_z": 0.95
+    },
+    {
+     "game": "toto55",
+     "set": "venus_retrograde x kp_asc_number",
+     "test_z": -0.23,
+     "valid_z": 0.05,
+     "early_z": -0.9
+    },
+    {
+     "game": "toto55",
+     "set": "year_stem x month",
+     "test_z": -0.23,
+     "valid_z": -0.96,
+     "early_z": 0.57
+    },
+    {
+     "game": "toto58",
+     "set": "karana x kp_asc_sub_lord",
+     "test_z": -0.23,
+     "valid_z": -1.09,
+     "early_z": 0.75
+    },
+    {
+     "game": "toto58",
+     "set": "year_animal x month",
+     "test_z": -0.23,
+     "valid_z": 0.02,
+     "early_z": 1.03
+    },
+    {
+     "game": "ml8",
+     "set": "saturn_rashi x saturn_combust",
+     "test_z": -0.23,
+     "valid_z": -0.1,
+     "early_z": -1.34
+    },
+    {
+     "game": "ml8",
+     "set": "jupiter_retrograde x day_pillar",
+     "test_z": -0.23,
+     "valid_z": -0.16,
+     "early_z": -0.88
+    },
+    {
+     "game": "toto55",
+     "set": "rahu_rashi x kp_sun_sub_lord",
+     "test_z": -0.24,
+     "valid_z": -1.33,
+     "early_z": -1.16
+    },
+    {
+     "game": "toto58",
+     "set": "day_pillar x day_god",
+     "test_z": -0.24,
+     "valid_z": -0.17,
+     "early_z": 0.35
+    },
+    {
+     "game": "toto58",
+     "set": "nakshatra x year_element",
+     "test_z": -0.24,
+     "valid_z": 0.47,
+     "early_z": -1.86
+    },
+    {
+     "game": "toto58",
+     "set": "tithi x moon_rashi",
+     "test_z": -0.24,
+     "valid_z": -0.29,
+     "early_z": -0.95
+    },
+    {
+     "game": "toto55",
+     "set": "adhika_masa x kp_moon_number",
+     "test_z": -0.25,
+     "valid_z": 0.19,
+     "early_z": -0.49
+    },
+    {
+     "game": "ml8",
+     "set": "ritu x ayana",
+     "test_z": -0.25,
+     "valid_z": -0.59,
+     "early_z": 0.73
+    },
+    {
+     "game": "ml8",
+     "set": "sun_nakshatra x ayana",
+     "test_z": -0.25,
+     "valid_z": -1.0,
+     "early_z": 1.26
+    },
+    {
+     "game": "ml8",
+     "set": "month_stem x yellow_black_path",
+     "test_z": -0.25,
+     "valid_z": -0.94,
+     "early_z": 0.06
+    },
+    {
+     "game": "ml8",
+     "set": "mercury_rashi x saturn_combust",
+     "test_z": -0.25,
+     "valid_z": -0.06,
+     "early_z": 0.46
+    },
+    {
+     "game": "ml8",
+     "set": "sun_rashi x sun_nakshatra",
+     "test_z": -0.25,
+     "valid_z": -0.88,
+     "early_z": 0.66
+    },
+    {
+     "game": "toto50",
+     "set": "venus_retrograde x mars_combust",
+     "test_z": -0.26,
+     "valid_z": 0.5,
+     "early_z": 0.22
+    },
+    {
+     "game": "toto50",
+     "set": "hora_lord x moon_rashi",
+     "test_z": -0.26,
+     "valid_z": -0.75,
+     "early_z": -1.09
+    },
+    {
+     "game": "toto50",
+     "set": "nakshatra x year_yinyang",
+     "test_z": -0.26,
+     "valid_z": 1.12,
+     "early_z": -1.49
+    },
+    {
+     "game": "toto50",
+     "set": "day_vs_year_branch x nine_star_month",
+     "test_z": -0.26,
+     "valid_z": -0.21,
+     "early_z": -1.76
+    },
+    {
+     "game": "toto50",
+     "set": "nakshatra_lord x kp_sun_sub_lord",
+     "test_z": -0.26,
+     "valid_z": 0.5,
+     "early_z": 0.42
+    },
+    {
+     "game": "toto55",
+     "set": "kp_sun_number x month_stem",
+     "test_z": -0.26,
+     "valid_z": -0.31,
+     "early_z": -1.98
+    },
+    {
+     "game": "ml8",
+     "set": "venus_rashi x lunar_month",
+     "test_z": -0.26,
+     "valid_z": 0.65,
+     "early_z": 1.0
+    },
+    {
+     "game": "toto50",
+     "set": "year_stem x day_branch",
+     "test_z": -0.27,
+     "valid_z": 1.58,
+     "early_z": 0.14
+    },
+    {
+     "game": "toto55",
+     "set": "nakshatra x year_yinyang",
+     "test_z": -0.28,
+     "valid_z": -0.73,
+     "early_z": 1.01
+    },
+    {
+     "game": "toto55",
+     "set": "venus_combust x year_element",
+     "test_z": -0.28,
+     "valid_z": 2.2,
+     "early_z": -1.17
+    },
+    {
+     "game": "toto55",
+     "set": "moon_navamsa x sun_sign_tropical",
+     "test_z": -0.28,
+     "valid_z": -0.33,
+     "early_z": -1.32
+    },
+    {
+     "game": "toto55",
+     "set": "samvatsara x kp_sun_star_lord",
+     "test_z": -0.28,
+     "valid_z": -2.33,
+     "early_z": -2.12
+    },
+    {
+     "game": "toto50",
+     "set": "mercury_rashi x lagna_rashi",
+     "test_z": -0.29,
+     "valid_z": 0.9,
+     "early_z": 1.08
+    },
+    {
+     "game": "toto50",
+     "set": "jupiter_rashi x mars_retrograde",
+     "test_z": -0.29,
+     "valid_z": -1.88,
+     "early_z": 0.73
+    },
+    {
+     "game": "toto50",
+     "set": "jupiter_rashi x lunar_leap_month",
+     "test_z": -0.29,
+     "valid_z": -1.97,
+     "early_z": 0.01
+    },
+    {
+     "game": "toto58",
+     "set": "sun_rashi x kp_sun_sub_lord",
+     "test_z": -0.29,
+     "valid_z": -1.65,
+     "early_z": -1.06
+    },
+    {
+     "game": "toto58",
+     "set": "venus_combust x year_element",
+     "test_z": -0.29,
+     "valid_z": 0.84,
+     "early_z": -0.38
+    },
+    {
+     "game": "toto58",
+     "set": "mars_retrograde x saturn_combust",
+     "test_z": -0.29,
+     "valid_z": 0.25,
+     "early_z": 1.69
+    },
+    {
+     "game": "ml8",
+     "set": "mercury_rashi x rahu_nakshatra",
+     "test_z": -0.29,
+     "valid_z": -0.23,
+     "early_z": -0.05
+    },
+    {
+     "game": "ml8",
+     "set": "lagna_nakshatra x day_god",
+     "test_z": -0.29,
+     "valid_z": 0.89,
+     "early_z": -0.2
+    },
+    {
+     "game": "ml8",
+     "set": "moon_navamsa x month",
+     "test_z": -0.29,
+     "valid_z": 0.25,
+     "early_z": 1.01
+    },
+    {
+     "game": "toto50",
+     "set": "moon_rashi x day_of_month",
+     "test_z": -0.3,
+     "valid_z": -0.97,
+     "early_z": -1.06
+    },
+    {
+     "game": "toto58",
+     "set": "moon_rashi x day_of_month",
+     "test_z": -0.3,
+     "valid_z": -2.08,
+     "early_z": 0.59
+    },
+    {
+     "game": "toto50",
+     "set": "jupiter_nakshatra x moon_navamsa",
+     "test_z": -0.32,
+     "valid_z": -0.77,
+     "early_z": 1.52
+    },
+    {
+     "game": "toto50",
+     "set": "venus_combust x year_element",
+     "test_z": -0.32,
+     "valid_z": -0.44,
+     "early_z": 2.25
+    },
+    {
+     "game": "toto50",
+     "set": "moon_rashi x kp_sun_star_lord",
+     "test_z": -0.32,
+     "valid_z": 0.65,
+     "early_z": 2.75
+    },
+    {
+     "game": "toto58",
+     "set": "jupiter_retrograde x kp_sun_sub_lord",
+     "test_z": -0.33,
+     "valid_z": -0.1,
+     "early_z": 1.2
+    },
+    {
+     "game": "toto58",
+     "set": "lunar_month x day_officer",
+     "test_z": -0.33,
+     "valid_z": 1.09,
+     "early_z": -0.1
+    },
+    {
+     "game": "toto58",
+     "set": "kp_moon_sub_lord x nine_star_year",
+     "test_z": -0.33,
+     "valid_z": 0.15,
+     "early_z": -0.34
+    },
+    {
+     "game": "toto58",
+     "set": "rahu_nakshatra x month",
+     "test_z": -0.34,
+     "valid_z": 1.13,
+     "early_z": 1.6
+    },
+    {
+     "game": "ml8",
+     "set": "saturn_nakshatra x moon_phase",
+     "test_z": -0.35,
+     "valid_z": 1.82,
+     "early_z": -1.23
+    },
+    {
+     "game": "toto55",
+     "set": "saturn_rashi x kp_sun_number",
+     "test_z": -0.36,
+     "valid_z": 0.87,
+     "early_z": 1.4
+    },
+    {
+     "game": "toto58",
+     "set": "saturn_retrograde x month_branch",
+     "test_z": -0.36,
+     "valid_z": -0.94,
+     "early_z": 0.58
+    },
+    {
+     "game": "ml8",
+     "set": "rahu_nakshatra x ayana",
+     "test_z": -0.36,
+     "valid_z": 0.25,
+     "early_z": -1.04
+    },
+    {
+     "game": "ml8",
+     "set": "kp_moon_sub_lord x nine_star_year",
+     "test_z": -0.36,
+     "valid_z": -0.07,
+     "early_z": -0.05
+    },
+    {
+     "game": "toto55",
+     "set": "venus_combust x nine_star_month",
+     "test_z": -0.37,
+     "valid_z": 0.71,
+     "early_z": -0.53
+    },
+    {
+     "game": "toto55",
+     "set": "moon_navamsa x hour_stem_19h",
+     "test_z": -0.37,
+     "valid_z": 0.36,
+     "early_z": 0.21
+    },
+    {
+     "game": "toto55",
+     "set": "mercury_nakshatra x month_stem",
+     "test_z": -0.37,
+     "valid_z": -0.91,
+     "early_z": -0.71
+    },
+    {
+     "game": "toto50",
+     "set": "kp_moon_number x day_god",
+     "test_z": -0.38,
+     "valid_z": -0.52,
+     "early_z": -0.87
+    },
+    {
+     "game": "toto58",
+     "set": "month_stem x yellow_black_path",
+     "test_z": -0.38,
+     "valid_z": 0.25,
+     "early_z": -1.13
+    },
+    {
+     "game": "toto58",
+     "set": "saturn_combust x moon_sign_tropical",
+     "test_z": -0.38,
+     "valid_z": -0.82,
+     "early_z": -0.17
+    },
+    {
+     "game": "toto58",
+     "set": "jupiter_retrograde x day_pillar",
+     "test_z": -0.38,
+     "valid_z": -1.02,
+     "early_z": -0.25
+    },
+    {
+     "game": "toto58",
+     "set": "nine_star_year x day_of_month",
+     "test_z": -0.38,
+     "valid_z": 0.66,
+     "early_z": -1.01
+    },
+    {
+     "game": "toto50",
+     "set": "weekday x moon_rashi",
+     "test_z": -0.39,
+     "valid_z": 0.34,
+     "early_z": -0.38
+    },
+    {
+     "game": "ml8",
+     "set": "venus_nakshatra x lunar_leap_month",
+     "test_z": -0.39,
+     "valid_z": 2.34,
+     "early_z": 2.2
+    },
+    {
+     "game": "ml8",
+     "set": "day_stem x hour_stem_19h",
+     "test_z": -0.39,
+     "valid_z": -1.11,
+     "early_z": 1.0
+    },
+    {
+     "game": "toto58",
+     "set": "tithi x lunar_leap_month",
+     "test_z": -0.4,
+     "valid_z": 0.47,
+     "early_z": -2.2
+    },
+    {
+     "game": "ml8",
+     "set": "saturn_nakshatra x moon_sign_tropical",
+     "test_z": -0.4,
+     "valid_z": -0.57,
+     "early_z": -0.74
+    },
+    {
+     "game": "toto50",
+     "set": "rahu_nakshatra x month_pillar",
+     "test_z": -0.41,
+     "valid_z": 0.74,
+     "early_z": 1.52
+    },
+    {
+     "game": "toto50",
+     "set": "year_animal x month_branch",
+     "test_z": -0.41,
+     "valid_z": 1.23,
+     "early_z": 0.65
+    },
+    {
+     "game": "toto50",
+     "set": "sun_nakshatra x year_animal",
+     "test_z": -0.41,
+     "valid_z": 1.41,
+     "early_z": 0.16
+    },
+    {
+     "game": "ml8",
+     "set": "nakshatra x year_element",
+     "test_z": -0.41,
+     "valid_z": -0.43,
+     "early_z": -0.88
+    },
+    {
+     "game": "toto55",
+     "set": "saturn_combust x moon_sign_tropical",
+     "test_z": -0.42,
+     "valid_z": -0.16,
+     "early_z": -0.05
+    },
+    {
+     "game": "toto55",
+     "set": "year_stem x month_stem",
+     "test_z": -0.42,
+     "valid_z": -3.36,
+     "early_z": -2.13
+    },
+    {
+     "game": "toto55",
+     "set": "lagna_rashi x day_branch",
+     "test_z": -0.42,
+     "valid_z": 0.19,
+     "early_z": 1.27
+    },
+    {
+     "game": "toto50",
+     "set": "rahu_nakshatra x kp_moon_star_lord",
+     "test_z": -0.43,
+     "valid_z": 1.17,
+     "early_z": 1.57
+    },
+    {
+     "game": "toto58",
+     "set": "hora_lord x moon_rashi",
+     "test_z": -0.43,
+     "valid_z": -0.46,
+     "early_z": -0.58
+    },
+    {
+     "game": "toto58",
+     "set": "day_vs_year_branch x nine_star_month",
+     "test_z": -0.43,
+     "valid_z": 0.08,
+     "early_z": -0.24
+    },
+    {
+     "game": "toto58",
+     "set": "weekday x moon_rashi",
+     "test_z": -0.43,
+     "valid_z": -0.16,
+     "early_z": -0.17
+    },
+    {
+     "game": "toto50",
+     "set": "planets_with_moon x nayin_element",
+     "test_z": -0.44,
+     "valid_z": 0.11,
+     "early_z": 0.72
+    },
+    {
+     "game": "toto50",
+     "set": "mercury_combust x kp_moon_number",
+     "test_z": -0.44,
+     "valid_z": 0.31,
+     "early_z": -0.41
+    },
+    {
+     "game": "toto55",
+     "set": "venus_rashi x lunar_month",
+     "test_z": -0.44,
+     "valid_z": -0.27,
+     "early_z": 1.1
+    },
+    {
+     "game": "toto55",
+     "set": "moon_rashi x day_of_month",
+     "test_z": -0.44,
+     "valid_z": 1.56,
+     "early_z": 1.42
+    },
+    {
+     "game": "toto55",
+     "set": "saturn_rashi x month_stem",
+     "test_z": -0.44,
+     "valid_z": 0.28,
+     "early_z": -0.97
+    },
+    {
+     "game": "toto58",
+     "set": "nakshatra_lord x saturn_nakshatra",
+     "test_z": -0.44,
+     "valid_z": -0.63,
+     "early_z": 1.96
+    },
+    {
+     "game": "ml8",
+     "set": "venus_retrograde x mars_combust",
+     "test_z": -0.44,
+     "valid_z": 1.03,
+     "early_z": 0.53
+    },
+    {
+     "game": "ml8",
+     "set": "mars_retrograde x saturn_combust",
+     "test_z": -0.44,
+     "valid_z": -1.46,
+     "early_z": 0.8
+    },
+    {
+     "game": "ml8",
+     "set": "karana x kp_asc_sub_lord",
+     "test_z": -0.44,
+     "valid_z": 0.55,
+     "early_z": 0.14
+    },
+    {
+     "game": "ml8",
+     "set": "jupiter_retrograde x year_yinyang",
+     "test_z": -0.44,
+     "valid_z": 0.57,
+     "early_z": -0.07
+    },
+    {
+     "game": "ml8",
+     "set": "mars_retrograde x venus_combust",
+     "test_z": -0.44,
+     "valid_z": 0.25,
+     "early_z": 0.46
+    },
+    {
+     "game": "toto50",
+     "set": "moon_navamsa x kp_asc_star_lord",
+     "test_z": -0.45,
+     "valid_z": 0.65,
+     "early_z": -1.61
+    },
+    {
+     "game": "toto55",
+     "set": "mars_combust x kp_asc_number",
+     "test_z": -0.45,
+     "valid_z": 0.35,
+     "early_z": -1.8
+    },
+    {
+     "game": "ml8",
+     "set": "hora_lord x day_vs_year_branch",
+     "test_z": -0.45,
+     "valid_z": 1.18,
+     "early_z": -0.01
+    },
+    {
+     "game": "toto58",
+     "set": "year_animal x month_branch",
+     "test_z": -0.46,
+     "valid_z": 0.02,
+     "early_z": 0.25
+    },
+    {
+     "game": "toto55",
+     "set": "sun_rashi x year_yinyang",
+     "test_z": -0.47,
+     "valid_z": -0.16,
+     "early_z": 0.21
+    },
+    {
+     "game": "toto55",
+     "set": "lunar_month x day_officer",
+     "test_z": -0.47,
+     "valid_z": -0.91,
+     "early_z": 0.21
+    },
+    {
+     "game": "toto55",
+     "set": "mars_retrograde x nine_star_month",
+     "test_z": -0.47,
+     "valid_z": -1.37,
+     "early_z": 0.07
+    },
+    {
+     "game": "toto55",
+     "set": "paksha x month",
+     "test_z": -0.47,
+     "valid_z": 0.36,
+     "early_z": -1.12
+    },
+    {
+     "game": "toto55",
+     "set": "venus_retrograde x saturn_retrograde",
+     "test_z": -0.47,
+     "valid_z": -0.1,
+     "early_z": 1.01
+    },
+    {
+     "game": "toto55",
+     "set": "adhika_masa x kp_sun_sub_lord",
+     "test_z": -0.47,
+     "valid_z": -0.04,
+     "early_z": 1.54
+    },
+    {
+     "game": "ml8",
+     "set": "rahu_rashi x day_stem",
+     "test_z": -0.47,
+     "valid_z": 0.29,
+     "early_z": -0.03
+    },
+    {
+     "game": "toto55",
+     "set": "saturn_nakshatra x moon_sign_tropical",
+     "test_z": -0.48,
+     "valid_z": 0.66,
+     "early_z": 1.03
+    },
+    {
+     "game": "toto58",
+     "set": "venus_retrograde x kp_sun_sub_lord",
+     "test_z": -0.48,
+     "valid_z": -1.11,
+     "early_z": 0.45
+    },
+    {
+     "game": "toto58",
+     "set": "kp_moon_number x day_god",
+     "test_z": -0.48,
+     "valid_z": 0.97,
+     "early_z": -1.44
+    },
+    {
+     "game": "toto58",
+     "set": "venus_retrograde x saturn_retrograde",
+     "test_z": -0.48,
+     "valid_z": -0.4,
+     "early_z": -0.03
+    },
+    {
+     "game": "toto50",
+     "set": "weekday x kp_sun_number",
+     "test_z": -0.49,
+     "valid_z": 0.95,
+     "early_z": -1.45
+    },
+    {
+     "game": "ml8",
+     "set": "saturn_nakshatra x kp_moon_number",
+     "test_z": -0.49,
+     "valid_z": 0.48,
+     "early_z": 0.08
+    },
+    {
+     "game": "toto58",
+     "set": "adhika_masa x nine_star_month",
+     "test_z": -0.5,
+     "valid_z": 1.85,
+     "early_z": -1.13
+    },
+    {
+     "game": "toto50",
+     "set": "mars_combust x kp_asc_number",
+     "test_z": -0.51,
+     "valid_z": 0.21,
+     "early_z": 0.37
+    },
+    {
+     "game": "toto55",
+     "set": "kp_asc_sub_lord x year_element",
+     "test_z": -0.51,
+     "valid_z": 0.24,
+     "early_z": -1.42
+    },
+    {
+     "game": "toto55",
+     "set": "weekday x rahu_rashi",
+     "test_z": -0.51,
+     "valid_z": -0.28,
+     "early_z": 0.52
+    },
+    {
+     "game": "toto55",
+     "set": "paksha x moon_rashi",
+     "test_z": -0.51,
+     "valid_z": -1.77,
+     "early_z": -0.85
+    },
+    {
+     "game": "toto55",
+     "set": "venus_retrograde x hour_stem_19h",
+     "test_z": -0.51,
+     "valid_z": -1.25,
+     "early_z": -1.51
+    },
+    {
+     "game": "toto50",
+     "set": "rahu_rashi x day_stem",
+     "test_z": -0.53,
+     "valid_z": 0.15,
+     "early_z": -0.85
+    },
+    {
+     "game": "toto50",
+     "set": "rahu_rashi x moon_sign_tropical",
+     "test_z": -0.53,
+     "valid_z": -0.38,
+     "early_z": 0.73
+    },
+    {
+     "game": "toto58",
+     "set": "kp_asc_sub_lord x year_element",
+     "test_z": -0.53,
+     "valid_z": 0.65,
+     "early_z": 0.11
+    },
+    {
+     "game": "toto50",
+     "set": "year_animal x yellow_black_path",
+     "test_z": -0.54,
+     "valid_z": -1.02,
+     "early_z": 0.91
+    },
+    {
+     "game": "toto50",
+     "set": "year_pillar x yellow_black_path",
+     "test_z": -0.54,
+     "valid_z": -0.89,
+     "early_z": 0.91
+    },
+    {
+     "game": "toto50",
+     "set": "venus_rashi x saturn_rashi",
+     "test_z": -0.54,
+     "valid_z": 0.06,
+     "early_z": 0.41
+    },
+    {
+     "game": "toto55",
+     "set": "hora_lord x kp_asc_number",
+     "test_z": -0.54,
+     "valid_z": -1.53,
+     "early_z": -1.9
+    },
+    {
+     "game": "ml8",
+     "set": "saturn_rashi x month_stem",
+     "test_z": -0.54,
+     "valid_z": 0.43,
+     "early_z": 0.58
+    },
+    {
+     "game": "ml8",
+     "set": "mercury_rashi x lagna_rashi",
+     "test_z": -0.55,
+     "valid_z": 0.55,
+     "early_z": -0.6
+    },
+    {
+     "game": "toto55",
+     "set": "moon_rashi x day_vs_year_branch",
+     "test_z": -0.56,
+     "valid_z": -0.16,
+     "early_z": -0.12
+    },
+    {
+     "game": "toto55",
+     "set": "day_stem x hour_stem_19h",
+     "test_z": -0.56,
+     "valid_z": -1.6,
+     "early_z": -1.51
+    },
+    {
+     "game": "toto55",
+     "set": "mars_retrograde x venus_combust",
+     "test_z": -0.56,
+     "valid_z": 0.47,
+     "early_z": -0.52
+    },
+    {
+     "game": "toto58",
+     "set": "rahu_rashi x year_stem",
+     "test_z": -0.57,
+     "valid_z": 2.13,
+     "early_z": 0.31
+    },
+    {
+     "game": "toto58",
+     "set": "saturn_rashi x year_pillar",
+     "test_z": -0.57,
+     "valid_z": 2.13,
+     "early_z": 0.44
+    },
+    {
+     "game": "toto50",
+     "set": "saturn_nakshatra x moon_phase",
+     "test_z": -0.58,
+     "valid_z": -0.26,
+     "early_z": 0.75
+    },
+    {
+     "game": "toto50",
+     "set": "mars_nakshatra x rahu_rashi",
+     "test_z": -0.58,
+     "valid_z": -0.02,
+     "early_z": 0.41
+    },
+    {
+     "game": "toto55",
+     "set": "kp_moon_number x kp_asc_number",
+     "test_z": -0.58,
+     "valid_z": 1.64,
+     "early_z": 0.0
+    },
+    {
+     "game": "toto58",
+     "set": "kp_sun_star_lord x nine_star_year",
+     "test_z": -0.58,
+     "valid_z": 0.95,
+     "early_z": -0.01
+    },
+    {
+     "game": "toto55",
+     "set": "planets_with_moon x day_vs_year_branch",
+     "test_z": -0.59,
+     "valid_z": 0.57,
+     "early_z": -2.11
+    },
+    {
+     "game": "ml8",
+     "set": "kp_sun_sub_lord x year_pillar",
+     "test_z": -0.59,
+     "valid_z": -1.64,
+     "early_z": 0.03
+    },
+    {
+     "game": "ml8",
+     "set": "year_stem x month_stem",
+     "test_z": -0.6,
+     "valid_z": 0.05,
+     "early_z": -0.11
+    },
+    {
+     "game": "toto50",
+     "set": "jupiter_combust x nine_star_month",
+     "test_z": -0.61,
+     "valid_z": 0.2,
+     "early_z": -0.71
+    },
+    {
+     "game": "toto55",
+     "set": "yoga x moon_rashi",
+     "test_z": -0.61,
+     "valid_z": 0.24,
+     "early_z": 1.59
+    },
+    {
+     "game": "ml8",
+     "set": "tithi x lunar_leap_month",
+     "test_z": -0.62,
+     "valid_z": 2.32,
+     "early_z": 0.33
+    },
+    {
+     "game": "toto50",
+     "set": "adhika_masa x nine_star_month",
+     "test_z": -0.63,
+     "valid_z": -0.97,
+     "early_z": 0.22
+    },
+    {
+     "game": "toto55",
+     "set": "saturn_nakshatra x moon_phase",
+     "test_z": -0.63,
+     "valid_z": 0.89,
+     "early_z": 0.19
+    },
+    {
+     "game": "toto58",
+     "set": "lunar_day x nayin_element",
+     "test_z": -0.63,
+     "valid_z": 1.74,
+     "early_z": -0.37
+    },
+    {
+     "game": "toto58",
+     "set": "kp_moon_number x nayin",
+     "test_z": -0.63,
+     "valid_z": -0.6,
+     "early_z": 0.43
+    },
+    {
+     "game": "toto50",
+     "set": "paksha x venus_combust",
+     "test_z": -0.64,
+     "valid_z": 0.42,
+     "early_z": 1.67
+    },
+    {
+     "game": "toto50",
+     "set": "jupiter_retrograde x day_pillar",
+     "test_z": -0.64,
+     "valid_z": -0.59,
+     "early_z": 0.86
+    },
+    {
+     "game": "toto55",
+     "set": "mars_combust x day_officer",
+     "test_z": -0.65,
+     "valid_z": 1.57,
+     "early_z": -0.72
+    },
+    {
+     "game": "ml8",
+     "set": "jupiter_nakshatra x day_stem",
+     "test_z": -0.65,
+     "valid_z": -0.84,
+     "early_z": -0.45
+    },
+    {
+     "game": "ml8",
+     "set": "kp_sun_star_lord x nine_star_year",
+     "test_z": -0.66,
+     "valid_z": 0.05,
+     "early_z": 0.16
+    },
+    {
+     "game": "toto55",
+     "set": "year_pillar x mansion_28",
+     "test_z": -0.67,
+     "valid_z": 1.66,
+     "early_z": 0.39
+    },
+    {
+     "game": "ml8",
+     "set": "hora_lord x day_pillar",
+     "test_z": -0.67,
+     "valid_z": 1.06,
+     "early_z": 0.14
+    },
+    {
+     "game": "toto58",
+     "set": "venus_rashi x saturn_rashi",
+     "test_z": -0.68,
+     "valid_z": -0.41,
+     "early_z": -1.41
+    },
+    {
+     "game": "toto55",
+     "set": "kp_sun_sub_lord x year_pillar",
+     "test_z": -0.69,
+     "valid_z": -0.07,
+     "early_z": 0.98
+    },
+    {
+     "game": "toto55",
+     "set": "year_pillar x day_officer",
+     "test_z": -0.69,
+     "valid_z": -0.46,
+     "early_z": 1.11
+    },
+    {
+     "game": "toto58",
+     "set": "saturn_combust x planets_with_moon",
+     "test_z": -0.69,
+     "valid_z": 1.36,
+     "early_z": -0.51
+    },
+    {
+     "game": "toto50",
+     "set": "jupiter_retrograde x year_yinyang",
+     "test_z": -0.7,
+     "valid_z": -0.52,
+     "early_z": -0.77
+    },
+    {
+     "game": "toto58",
+     "set": "kp_sun_number x lunar_leap_month",
+     "test_z": -0.7,
+     "valid_z": -0.03,
+     "early_z": 0.24
+    },
+    {
+     "game": "toto58",
+     "set": "mercury_rashi x samvatsara",
+     "test_z": -0.7,
+     "valid_z": 1.3,
+     "early_z": 1.44
+    },
+    {
+     "game": "toto50",
+     "set": "mars_nakshatra x kp_moon_number",
+     "test_z": -0.71,
+     "valid_z": -2.06,
+     "early_z": 0.33
+    },
+    {
+     "game": "toto58",
+     "set": "rahu_nakshatra x month_pillar",
+     "test_z": -0.71,
+     "valid_z": 2.13,
+     "early_z": 1.53
+    },
+    {
+     "game": "toto58",
+     "set": "venus_nakshatra x mansion_28",
+     "test_z": -0.71,
+     "valid_z": 0.86,
+     "early_z": 0.14
+    },
+    {
+     "game": "toto55",
+     "set": "venus_rashi x saturn_rashi",
+     "test_z": -0.72,
+     "valid_z": -0.46,
+     "early_z": 0.27
+    },
+    {
+     "game": "toto58",
+     "set": "venus_retrograde x mars_combust",
+     "test_z": -0.72,
+     "valid_z": -1.05,
+     "early_z": 0.86
+    },
+    {
+     "game": "ml8",
+     "set": "sun_nakshatra x mars_combust",
+     "test_z": -0.73,
+     "valid_z": -1.43,
+     "early_z": 1.32
+    },
+    {
+     "game": "toto55",
+     "set": "mercury_rashi x lagna_rashi",
+     "test_z": -0.75,
+     "valid_z": 0.13,
+     "early_z": -1.16
+    },
+    {
+     "game": "toto55",
+     "set": "nakshatra_pada x moon_rashi",
+     "test_z": -0.75,
+     "valid_z": -1.6,
+     "early_z": -0.38
+    },
+    {
+     "game": "toto55",
+     "set": "jupiter_nakshatra x day_stem",
+     "test_z": -0.75,
+     "valid_z": 2.0,
+     "early_z": -1.19
+    },
+    {
+     "game": "toto58",
+     "set": "year_yinyang x nine_star_year",
+     "test_z": -0.75,
+     "valid_z": 0.74,
+     "early_z": -0.68
+    },
+    {
+     "game": "ml8",
+     "set": "year_pillar x mansion_28",
+     "test_z": -0.75,
+     "valid_z": -0.14,
+     "early_z": -0.19
+    },
+    {
+     "game": "ml8",
+     "set": "sun_nakshatra x day_officer",
+     "test_z": -0.75,
+     "valid_z": 0.3,
+     "early_z": 0.52
+    },
+    {
+     "game": "ml8",
+     "set": "nine_star_year x day_of_month",
+     "test_z": -0.75,
+     "valid_z": 0.64,
+     "early_z": -0.67
+    },
+    {
+     "game": "toto50",
+     "set": "venus_nakshatra x lunar_leap_month",
+     "test_z": -0.76,
+     "valid_z": 0.04,
+     "early_z": 1.31
+    },
+    {
+     "game": "toto55",
+     "set": "jupiter_nakshatra x moon_navamsa",
+     "test_z": -0.76,
+     "valid_z": -0.18,
+     "early_z": 1.56
+    },
+    {
+     "game": "toto50",
+     "set": "tithi x day_element",
+     "test_z": -0.77,
+     "valid_z": -0.52,
+     "early_z": 0.29
+    },
+    {
+     "game": "toto50",
+     "set": "sun_rashi x year_yinyang",
+     "test_z": -0.77,
+     "valid_z": 1.12,
+     "early_z": -1.04
+    },
+    {
+     "game": "toto55",
+     "set": "planets_with_moon x nayin_element",
+     "test_z": -0.77,
+     "valid_z": -0.1,
+     "early_z": -0.38
+    },
+    {
+     "game": "toto55",
+     "set": "kp_moon_number x day_god",
+     "test_z": -0.77,
+     "valid_z": -1.08,
+     "early_z": -0.77
+    },
+    {
+     "game": "toto58",
+     "set": "tithi x day_element",
+     "test_z": -0.77,
+     "valid_z": 0.43,
+     "early_z": 0.18
+    },
+    {
+     "game": "toto58",
+     "set": "kp_sun_sub_lord x day_stem",
+     "test_z": -0.77,
+     "valid_z": -0.7,
+     "early_z": -0.03
+    },
+    {
+     "game": "ml8",
+     "set": "hora_lord x moon_rashi",
+     "test_z": -0.77,
+     "valid_z": 0.68,
+     "early_z": 0.01
+    },
+    {
+     "game": "ml8",
+     "set": "mars_combust x day_officer",
+     "test_z": -0.77,
+     "valid_z": 1.44,
+     "early_z": -0.61
+    },
+    {
+     "game": "ml8",
+     "set": "ayana x kp_moon_star_lord",
+     "test_z": -0.77,
+     "valid_z": 0.86,
+     "early_z": 0.19
+    },
+    {
+     "game": "toto50",
+     "set": "jupiter_rashi x rahu_rashi",
+     "test_z": -0.79,
+     "valid_z": -0.7,
+     "early_z": -0.27
+    },
+    {
+     "game": "toto55",
+     "set": "moon_navamsa x jupiter_combust",
+     "test_z": -0.8,
+     "valid_z": -0.5,
+     "early_z": 0.74
+    },
+    {
+     "game": "toto55",
+     "set": "year_animal x yellow_black_path",
+     "test_z": -0.8,
+     "valid_z": -0.65,
+     "early_z": -0.79
+    },
+    {
+     "game": "toto55",
+     "set": "venus_retrograde x kp_sun_sub_lord",
+     "test_z": -0.8,
+     "valid_z": 0.19,
+     "early_z": 1.08
+    },
+    {
+     "game": "toto55",
+     "set": "jupiter_retrograde x yellow_black_path",
+     "test_z": -0.8,
+     "valid_z": 0.42,
+     "early_z": -0.25
+    },
+    {
+     "game": "toto55",
+     "set": "mercury_rashi x kp_sun_sub_lord",
+     "test_z": -0.8,
+     "valid_z": -2.52,
+     "early_z": -1.51
+    },
+    {
+     "game": "toto55",
+     "set": "kp_moon_sub_lord x month",
+     "test_z": -0.8,
+     "valid_z": -0.12,
+     "early_z": 1.21
+    },
+    {
+     "game": "toto58",
+     "set": "hora_lord x day_pillar",
+     "test_z": -0.8,
+     "valid_z": -1.23,
+     "early_z": -2.6
+    },
+    {
+     "game": "toto58",
+     "set": "saturn_nakshatra x moon_phase",
+     "test_z": -0.81,
+     "valid_z": 0.32,
+     "early_z": -0.6
+    },
+    {
+     "game": "ml8",
+     "set": "month x sun_sign_tropical",
+     "test_z": -0.81,
+     "valid_z": -0.88,
+     "early_z": 1.53
+    },
+    {
+     "game": "ml8",
+     "set": "moon_navamsa x sun_sign_tropical",
+     "test_z": -0.81,
+     "valid_z": 2.12,
+     "early_z": 0.94
+    },
+    {
+     "game": "toto55",
+     "set": "saturn_rashi x saturn_combust",
+     "test_z": -0.82,
+     "valid_z": -0.56,
+     "early_z": -0.12
+    },
+    {
+     "game": "toto55",
+     "set": "venus_nakshatra x lunar_leap_month",
+     "test_z": -0.82,
+     "valid_z": 1.4,
+     "early_z": 0.92
+    },
+    {
+     "game": "toto58",
+     "set": "rahu_nakshatra x kp_moon_star_lord",
+     "test_z": -0.82,
+     "valid_z": 0.39,
+     "early_z": -0.43
+    },
+    {
+     "game": "toto58",
+     "set": "venus_combust x nine_star_month",
+     "test_z": -0.82,
+     "valid_z": 0.64,
+     "early_z": -1.01
+    },
+    {
+     "game": "toto50",
+     "set": "jupiter_retrograde x yellow_black_path",
+     "test_z": -0.83,
+     "valid_z": 0.65,
+     "early_z": 1.58
+    },
+    {
+     "game": "toto50",
+     "set": "lagna_nakshatra x day_stem",
+     "test_z": -0.83,
+     "valid_z": 0.49,
+     "early_z": 2.16
+    },
+    {
+     "game": "toto50",
+     "set": "venus_retrograde x hour_stem_19h",
+     "test_z": -0.83,
+     "valid_z": 0.26,
+     "early_z": 2.66
+    },
+    {
+     "game": "toto50",
+     "set": "moon_rashi x mars_nakshatra",
+     "test_z": -0.84,
+     "valid_z": 1.55,
+     "early_z": 0.36
+    },
+    {
+     "game": "toto58",
+     "set": "venus_retrograde x kp_asc_number",
+     "test_z": -0.85,
+     "valid_z": -0.78,
+     "early_z": 0.63
+    },
+    {
+     "game": "toto55",
+     "set": "kp_moon_number x nayin",
+     "test_z": -0.86,
+     "valid_z": -1.31,
+     "early_z": 1.14
+    },
+    {
+     "game": "ml8",
+     "set": "nakshatra_lord x ayana",
+     "test_z": -0.86,
+     "valid_z": -0.01,
+     "early_z": 1.33
+    },
+    {
+     "game": "toto58",
+     "set": "paksha x venus_combust",
+     "test_z": -0.87,
+     "valid_z": 1.21,
+     "early_z": 0.79
+    },
+    {
+     "game": "toto58",
+     "set": "sun_rashi x year_yinyang",
+     "test_z": -0.87,
+     "valid_z": 0.31,
+     "early_z": -0.1
+    },
+    {
+     "game": "toto58",
+     "set": "karana x sun_sign_tropical",
+     "test_z": -0.87,
+     "valid_z": -0.97,
+     "early_z": -0.32
+    },
+    {
+     "game": "toto58",
+     "set": "nakshatra_pada x moon_rashi",
+     "test_z": -0.87,
+     "valid_z": 0.19,
+     "early_z": -0.37
+    },
+    {
+     "game": "ml8",
+     "set": "kp_moon_number x nayin",
+     "test_z": -0.87,
+     "valid_z": 1.27,
+     "early_z": -0.53
+    },
+    {
+     "game": "ml8",
+     "set": "nakshatra_lord x karana",
+     "test_z": -0.88,
+     "valid_z": 0.65,
+     "early_z": -1.47
+    },
+    {
+     "game": "toto58",
+     "set": "hora_lord x kp_asc_number",
+     "test_z": -0.89,
+     "valid_z": 0.18,
+     "early_z": 1.33
+    },
+    {
+     "game": "toto50",
+     "set": "kp_moon_sub_lord x yellow_black_path",
+     "test_z": -0.9,
+     "valid_z": -1.15,
+     "early_z": 0.86
+    },
+    {
+     "game": "toto55",
+     "set": "rahu_nakshatra x month",
+     "test_z": -0.9,
+     "valid_z": -0.74,
+     "early_z": 1.07
+    },
+    {
+     "game": "toto55",
+     "set": "mars_nakshatra x rahu_nakshatra",
+     "test_z": -0.9,
+     "valid_z": -1.64,
+     "early_z": -2.06
+    },
+    {
+     "game": "toto55",
+     "set": "mercury_rashi x rahu_nakshatra",
+     "test_z": -0.9,
+     "valid_z": -0.34,
+     "early_z": 0.45
+    },
+    {
+     "game": "toto55",
+     "set": "sun_rashi x year_pillar",
+     "test_z": -0.9,
+     "valid_z": -0.59,
+     "early_z": -0.42
+    },
+    {
+     "game": "toto55",
+     "set": "rahu_nakshatra x ayana",
+     "test_z": -0.9,
+     "valid_z": -2.17,
+     "early_z": -0.34
+    },
+    {
+     "game": "toto55",
+     "set": "mars_nakshatra x rahu_rashi",
+     "test_z": -0.9,
+     "valid_z": -1.64,
+     "early_z": -0.72
+    },
+    {
+     "game": "toto50",
+     "set": "hora_lord x kp_asc_number",
+     "test_z": -0.91,
+     "valid_z": -0.26,
+     "early_z": 0.64
+    },
+    {
+     "game": "ml8",
+     "set": "mars_nakshatra x kp_moon_number",
+     "test_z": -0.91,
+     "valid_z": 1.16,
+     "early_z": 0.0
+    },
+    {
+     "game": "ml8",
+     "set": "nakshatra x rahu_rashi",
+     "test_z": -0.91,
+     "valid_z": 2.03,
+     "early_z": 0.23
+    },
+    {
+     "game": "ml8",
+     "set": "jupiter_retrograde x moon_phase",
+     "test_z": -0.91,
+     "valid_z": 1.73,
+     "early_z": -0.68
+    },
+    {
+     "game": "ml8",
+     "set": "venus_retrograde x saturn_retrograde",
+     "test_z": -0.91,
+     "valid_z": 0.97,
+     "early_z": -0.54
+    },
+    {
+     "game": "toto58",
+     "set": "tithi x nine_star_year",
+     "test_z": -0.92,
+     "valid_z": 2.67,
+     "early_z": -0.34
+    },
+    {
+     "game": "toto58",
+     "set": "hora_lord x jupiter_rashi",
+     "test_z": -0.92,
+     "valid_z": -2.4,
+     "early_z": -0.58
+    },
+    {
+     "game": "toto50",
+     "set": "kp_moon_number x nayin",
+     "test_z": -0.94,
+     "valid_z": -0.92,
+     "early_z": 0.08
+    },
+    {
+     "game": "toto50",
+     "set": "saturn_nakshatra x moon_sign_tropical",
+     "test_z": -0.94,
+     "valid_z": 0.73,
+     "early_z": 0.07
+    },
+    {
+     "game": "toto55",
+     "set": "hora_lord x moon_rashi",
+     "test_z": -0.94,
+     "valid_z": 0.07,
+     "early_z": -0.12
+    },
+    {
+     "game": "toto50",
+     "set": "day_pillar x day_god",
+     "test_z": -0.95,
+     "valid_z": 0.7,
+     "early_z": 2.22
+    },
+    {
+     "game": "toto50",
+     "set": "lunar_day x nayin_element",
+     "test_z": -0.96,
+     "valid_z": 0.58,
+     "early_z": 2.13
+    },
+    {
+     "game": "toto50",
+     "set": "kp_sun_sub_lord x day_stem",
+     "test_z": -0.96,
+     "valid_z": 0.84,
+     "early_z": 0.47
+    },
+    {
+     "game": "ml8",
+     "set": "moon_navamsa x hour_stem_19h",
+     "test_z": -0.96,
+     "valid_z": -0.53,
+     "early_z": -0.21
+    },
+    {
+     "game": "ml8",
+     "set": "mercury_retrograde x moon_phase",
+     "test_z": -0.96,
+     "valid_z": 0.22,
+     "early_z": -0.07
+    },
+    {
+     "game": "toto50",
+     "set": "karana x sun_sign_tropical",
+     "test_z": -0.97,
+     "valid_z": 0.92,
+     "early_z": 0.66
+    },
+    {
+     "game": "toto58",
+     "set": "paksha x nine_star_year",
+     "test_z": -0.97,
+     "valid_z": 0.95,
+     "early_z": -0.01
+    },
+    {
+     "game": "toto58",
+     "set": "kp_sun_sub_lord x hour_stem_19h",
+     "test_z": -0.97,
+     "valid_z": -0.1,
+     "early_z": 0.11
+    },
+    {
+     "game": "toto58",
+     "set": "yoga x year_element",
+     "test_z": -0.97,
+     "valid_z": 0.37,
+     "early_z": 0.11
+    },
+    {
+     "game": "toto55",
+     "set": "month x sun_sign_tropical",
+     "test_z": -0.98,
+     "valid_z": -1.48,
+     "early_z": 0.01
+    },
+    {
+     "game": "toto55",
+     "set": "karana x sun_nakshatra",
+     "test_z": -0.99,
+     "valid_z": -0.39,
+     "early_z": -0.14
+    },
+    {
+     "game": "ml8",
+     "set": "month_branch x month_pillar",
+     "test_z": -1.0,
+     "valid_z": -0.62,
+     "early_z": 0.52
+    },
+    {
+     "game": "ml8",
+     "set": "kp_moon_sub_lord x yellow_black_path",
+     "test_z": -1.0,
+     "valid_z": -0.19,
+     "early_z": 0.13
+    },
+    {
+     "game": "toto50",
+     "set": "moon_navamsa x hour_stem_19h",
+     "test_z": -1.02,
+     "valid_z": 1.83,
+     "early_z": 0.13
+    },
+    {
+     "game": "toto55",
+     "set": "saturn_rashi x year_pillar",
+     "test_z": -1.02,
+     "valid_z": -0.07,
+     "early_z": -1.3
+    },
+    {
+     "game": "toto55",
+     "set": "sun_nakshatra x year_animal",
+     "test_z": -1.02,
+     "valid_z": -0.71,
+     "early_z": 0.47
+    },
+    {
+     "game": "toto55",
+     "set": "planets_with_moon x kp_moon_sub_lord",
+     "test_z": -1.06,
+     "valid_z": -0.62,
+     "early_z": 0.74
+    },
+    {
+     "game": "toto58",
+     "set": "moon_navamsa x hour_stem_19h",
+     "test_z": -1.06,
+     "valid_z": 0.43,
+     "early_z": 1.55
+    },
+    {
+     "game": "ml8",
+     "set": "yoga x kp_sun_number",
+     "test_z": -1.06,
+     "valid_z": 0.0,
+     "early_z": 0.0
+    },
+    {
+     "game": "toto55",
+     "set": "mars_nakshatra x kp_moon_number",
+     "test_z": -1.07,
+     "valid_z": -1.93,
+     "early_z": 0.01
+    },
+    {
+     "game": "ml8",
+     "set": "year_element x sun_sign_tropical",
+     "test_z": -1.07,
+     "valid_z": 0.49,
+     "early_z": 1.6
+    },
+    {
+     "game": "toto55",
+     "set": "venus_combust x moon_sign_tropical",
+     "test_z": -1.08,
+     "valid_z": -0.1,
+     "early_z": 0.15
+    },
+    {
+     "game": "toto55",
+     "set": "kp_moon_sub_lord x nine_star_year",
+     "test_z": -1.08,
+     "valid_z": 1.4,
+     "early_z": -0.76
+    },
+    {
+     "game": "toto55",
+     "set": "kp_moon_sub_lord x year_animal",
+     "test_z": -1.08,
+     "valid_z": -0.51,
+     "early_z": -0.54
+    },
+    {
+     "game": "toto55",
+     "set": "lagna_nakshatra x kp_asc_sub_lord",
+     "test_z": -1.08,
+     "valid_z": 0.01,
+     "early_z": -1.15
+    },
+    {
+     "game": "toto50",
+     "set": "nakshatra x hour_stem_19h",
+     "test_z": -1.09,
+     "valid_z": -0.52,
+     "early_z": 0.13
+    },
+    {
+     "game": "toto50",
+     "set": "sun_nakshatra x mars_combust",
+     "test_z": -1.09,
+     "valid_z": -0.99,
+     "early_z": 1.08
+    },
+    {
+     "game": "toto50",
+     "set": "tithi x paksha",
+     "test_z": -1.09,
+     "valid_z": -1.3,
+     "early_z": 0.67
+    },
+    {
+     "game": "toto58",
+     "set": "planets_with_moon x day_vs_year_branch",
+     "test_z": -1.1,
+     "valid_z": 1.18,
+     "early_z": 0.18
+    },
+    {
+     "game": "ml8",
+     "set": "tithi x paksha",
+     "test_z": -1.1,
+     "valid_z": 1.44,
+     "early_z": -0.01
+    },
+    {
+     "game": "toto50",
+     "set": "adhika_masa x kp_moon_number",
+     "test_z": -1.11,
+     "valid_z": 0.11,
+     "early_z": -0.56
+    },
+    {
+     "game": "toto58",
+     "set": "solar_term x month_pillar",
+     "test_z": -1.11,
+     "valid_z": 0.49,
+     "early_z": 0.38
+    },
+    {
+     "game": "toto58",
+     "set": "kp_moon_sub_lord x year_animal",
+     "test_z": -1.11,
+     "valid_z": 2.48,
+     "early_z": -1.69
+    },
+    {
+     "game": "toto50",
+     "set": "hora_lord x planets_with_moon",
+     "test_z": -1.12,
+     "valid_z": -1.56,
+     "early_z": -1.7
+    },
+    {
+     "game": "toto55",
+     "set": "rahu_nakshatra x kp_moon_star_lord",
+     "test_z": -1.13,
+     "valid_z": 0.5,
+     "early_z": -0.64
+    },
+    {
+     "game": "toto50",
+     "set": "mercury_retrograde x moon_sign_tropical",
+     "test_z": -1.15,
+     "valid_z": -0.75,
+     "early_z": -0.14
+    },
+    {
+     "game": "toto50",
+     "set": "nayin_element x yellow_black_path",
+     "test_z": -1.15,
+     "valid_z": -0.52,
+     "early_z": -0.86
+    },
+    {
+     "game": "toto50",
+     "set": "saturn_combust x moon_sign_tropical",
+     "test_z": -1.15,
+     "valid_z": -0.21,
+     "early_z": -0.5
+    },
+    {
+     "game": "toto58",
+     "set": "rahu_nakshatra x ayana",
+     "test_z": -1.16,
+     "valid_z": 0.99,
+     "early_z": -0.28
+    },
+    {
+     "game": "toto50",
+     "set": "moon_rashi x jupiter_nakshatra",
+     "test_z": -1.19,
+     "valid_z": 0.92,
+     "early_z": 0.23
+    },
+    {
+     "game": "toto58",
+     "set": "saturn_nakshatra x moon_sign_tropical",
+     "test_z": -1.19,
+     "valid_z": 1.53,
+     "early_z": -1.5
+    },
+    {
+     "game": "toto50",
+     "set": "venus_rashi x lunar_month",
+     "test_z": -1.2,
+     "valid_z": 0.86,
+     "early_z": 0.57
+    },
+    {
+     "game": "ml8",
+     "set": "year_pillar x day_officer",
+     "test_z": -1.2,
+     "valid_z": 0.98,
+     "early_z": 0.34
+    },
+    {
+     "game": "ml8",
+     "set": "nakshatra_lord x year_animal",
+     "test_z": -1.2,
+     "valid_z": 1.11,
+     "early_z": -0.37
+    },
+    {
+     "game": "toto50",
+     "set": "month_stem x yellow_black_path",
+     "test_z": -1.21,
+     "valid_z": 1.28,
+     "early_z": -0.5
+    },
+    {
+     "game": "toto50",
+     "set": "tithi x nayin_element",
+     "test_z": -1.21,
+     "valid_z": -0.21,
+     "early_z": 0.24
+    },
+    {
+     "game": "toto50",
+     "set": "month_branch x day_vs_year_branch",
+     "test_z": -1.21,
+     "valid_z": 0.26,
+     "early_z": 0.04
+    },
+    {
+     "game": "toto58",
+     "set": "venus_combust x moon_sign_tropical",
+     "test_z": -1.21,
+     "valid_z": -0.4,
+     "early_z": 0.24
+    },
+    {
+     "game": "toto58",
+     "set": "day_stem x hour_stem_19h",
+     "test_z": -1.21,
+     "valid_z": 1.03,
+     "early_z": 0.52
+    },
+    {
+     "game": "toto55",
+     "set": "day_pillar x day_god",
+     "test_z": -1.22,
+     "valid_z": -0.04,
+     "early_z": -0.18
+    },
+    {
+     "game": "ml8",
+     "set": "saturn_rashi x rahu_rashi",
+     "test_z": -1.24,
+     "valid_z": -0.41,
+     "early_z": -0.2
+    },
+    {
+     "game": "ml8",
+     "set": "month_branch x day_element",
+     "test_z": -1.24,
+     "valid_z": -1.11,
+     "early_z": 2.0
+    },
+    {
+     "game": "toto50",
+     "set": "mercury_rashi x rahu_nakshatra",
+     "test_z": -1.25,
+     "valid_z": 0.37,
+     "early_z": 0.0
+    },
+    {
+     "game": "toto50",
+     "set": "kp_sun_star_lord x nine_star_year",
+     "test_z": -1.25,
+     "valid_z": 1.27,
+     "early_z": 0.4
+    },
+    {
+     "game": "toto50",
+     "set": "planets_with_moon x kp_moon_star_lord",
+     "test_z": -1.25,
+     "valid_z": 0.32,
+     "early_z": -0.52
+    },
+    {
+     "game": "toto55",
+     "set": "lunar_month x nine_star_month",
+     "test_z": -1.25,
+     "valid_z": -0.73,
+     "early_z": 0.93
+    },
+    {
+     "game": "toto55",
+     "set": "tithi x nine_star_year",
+     "test_z": -1.27,
+     "valid_z": -0.65,
+     "early_z": -1.34
+    },
+    {
+     "game": "toto58",
+     "set": "mercury_rashi x planets_with_moon",
+     "test_z": -1.28,
+     "valid_z": 0.4,
+     "early_z": 0.11
+    },
+    {
+     "game": "ml8",
+     "set": "kp_asc_sub_lord x year_element",
+     "test_z": -1.28,
+     "valid_z": 0.2,
+     "early_z": -1.19
+    },
+    {
+     "game": "toto58",
+     "set": "nakshatra x rahu_rashi",
+     "test_z": -1.29,
+     "valid_z": 0.65,
+     "early_z": -0.89
+    },
+    {
+     "game": "toto58",
+     "set": "weekday x rahu_rashi",
+     "test_z": -1.29,
+     "valid_z": -0.33,
+     "early_z": 0.31
+    },
+    {
+     "game": "ml8",
+     "set": "solar_term x month_pillar",
+     "test_z": -1.29,
+     "valid_z": -1.32,
+     "early_z": 0.0
+    },
+    {
+     "game": "toto58",
+     "set": "mars_combust x kp_asc_number",
+     "test_z": -1.3,
+     "valid_z": -1.07,
+     "early_z": -1.36
+    },
+    {
+     "game": "toto50",
+     "set": "planets_with_moon x day_vs_year_branch",
+     "test_z": -1.31,
+     "valid_z": -0.05,
+     "early_z": -0.1
+    },
+    {
+     "game": "toto58",
+     "set": "moon_navamsa x jupiter_combust",
+     "test_z": -1.31,
+     "valid_z": 1.03,
+     "early_z": 1.75
+    },
+    {
+     "game": "toto58",
+     "set": "hora_lord x planets_with_moon",
+     "test_z": -1.31,
+     "valid_z": 1.01,
+     "early_z": -0.17
+    },
+    {
+     "game": "toto58",
+     "set": "mercury_rashi x month_pillar",
+     "test_z": -1.33,
+     "valid_z": 0.69,
+     "early_z": -1.07
+    },
+    {
+     "game": "ml8",
+     "set": "mars_rashi x year_element",
+     "test_z": -1.33,
+     "valid_z": -0.19,
+     "early_z": -0.91
+    },
+    {
+     "game": "toto50",
+     "set": "saturn_rashi x saturn_combust",
+     "test_z": -1.34,
+     "valid_z": 2.0,
+     "early_z": 1.68
+    },
+    {
+     "game": "toto58",
+     "set": "mars_rashi x lunar_month",
+     "test_z": -1.34,
+     "valid_z": 0.74,
+     "early_z": 0.28
+    },
+    {
+     "game": "toto58",
+     "set": "mars_retrograde x nine_star_month",
+     "test_z": -1.34,
+     "valid_z": 0.77,
+     "early_z": -1.38
+    },
+    {
+     "game": "ml8",
+     "set": "rahu_rashi x moon_sign_tropical",
+     "test_z": -1.34,
+     "valid_z": -0.48,
+     "early_z": 0.58
+    },
+    {
+     "game": "toto55",
+     "set": "rahu_rashi x year_stem",
+     "test_z": -1.35,
+     "valid_z": -1.42,
+     "early_z": -1.42
+    },
+    {
+     "game": "toto58",
+     "set": "adhika_masa x kp_sun_sub_lord",
+     "test_z": -1.35,
+     "valid_z": -0.76,
+     "early_z": 0.86
+    },
+    {
+     "game": "toto58",
+     "set": "kp_sun_sub_lord x year_pillar",
+     "test_z": -1.38,
+     "valid_z": 0.38,
+     "early_z": -0.05
+    },
+    {
+     "game": "toto58",
+     "set": "year_pillar x day_officer",
+     "test_z": -1.38,
+     "valid_z": 4.59,
+     "early_z": 1.59
+    },
+    {
+     "game": "toto55",
+     "set": "year_animal x month",
+     "test_z": -1.4,
+     "valid_z": -0.79,
+     "early_z": 2.86
+    },
+    {
+     "game": "toto58",
+     "set": "moon_navamsa x kp_asc_star_lord",
+     "test_z": -1.4,
+     "valid_z": -0.04,
+     "early_z": 1.34
+    },
+    {
+     "game": "toto58",
+     "set": "mars_retrograde x venus_combust",
+     "test_z": -1.4,
+     "valid_z": 1.15,
+     "early_z": 1.18
+    },
+    {
+     "game": "toto55",
+     "set": "yoga x year_element",
+     "test_z": -1.41,
+     "valid_z": 1.45,
+     "early_z": 0.86
+    },
+    {
+     "game": "toto50",
+     "set": "mars_retrograde x nine_star_month",
+     "test_z": -1.42,
+     "valid_z": -0.97,
+     "early_z": 0.22
+    },
+    {
+     "game": "ml8",
+     "set": "samvatsara x kp_sun_star_lord",
+     "test_z": -1.42,
+     "valid_z": 1.04,
+     "early_z": 0.05
+    },
+    {
+     "game": "ml8",
+     "set": "paksha x venus_rashi",
+     "test_z": -1.43,
+     "valid_z": 0.28,
+     "early_z": 0.06
+    },
+    {
+     "game": "toto55",
+     "set": "paksha x venus_combust",
+     "test_z": -1.45,
+     "valid_z": 0.71,
+     "early_z": -0.12
+    },
+    {
+     "game": "toto55",
+     "set": "karana x sun_sign_tropical",
+     "test_z": -1.45,
+     "valid_z": -1.62,
+     "early_z": 0.43
+    },
+    {
+     "game": "toto55",
+     "set": "weekday x moon_rashi",
+     "test_z": -1.45,
+     "valid_z": 0.42,
+     "early_z": 0.08
+    },
+    {
+     "game": "toto55",
+     "set": "venus_retrograde x day_stem",
+     "test_z": -1.45,
+     "valid_z": -1.31,
+     "early_z": -1.25
+    },
+    {
+     "game": "ml8",
+     "set": "sun_rashi x year_pillar",
+     "test_z": -1.46,
+     "valid_z": -0.91,
+     "early_z": -0.53
+    },
+    {
+     "game": "toto50",
+     "set": "day_stem x hour_stem_19h",
+     "test_z": -1.47,
+     "valid_z": 1.2,
+     "early_z": 2.03
+    },
+    {
+     "game": "toto50",
+     "set": "mercury_rashi x samvatsara",
+     "test_z": -1.47,
+     "valid_z": -0.13,
+     "early_z": 0.0
+    },
+    {
+     "game": "toto55",
+     "set": "rahu_rashi x day_stem",
+     "test_z": -1.47,
+     "valid_z": -1.08,
+     "early_z": -1.03
+    },
+    {
+     "game": "toto58",
+     "set": "planets_with_moon x nayin_element",
+     "test_z": -1.47,
+     "valid_z": 2.21,
+     "early_z": -2.02
+    },
+    {
+     "game": "toto58",
+     "set": "mercury_nakshatra x month_stem",
+     "test_z": -1.48,
+     "valid_z": -0.69,
+     "early_z": -1.74
+    },
+    {
+     "game": "ml8",
+     "set": "jupiter_nakshatra x year_yinyang",
+     "test_z": -1.48,
+     "valid_z": 0.36,
+     "early_z": -1.6
+    },
+    {
+     "game": "toto50",
+     "set": "nakshatra_lord x year_animal",
+     "test_z": -1.5,
+     "valid_z": 0.28,
+     "early_z": 0.65
+    },
+    {
+     "game": "toto50",
+     "set": "month x sun_sign_tropical",
+     "test_z": -1.53,
+     "valid_z": 1.12,
+     "early_z": -0.05
+    },
+    {
+     "game": "toto50",
+     "set": "mars_rashi x year_element",
+     "test_z": -1.54,
+     "valid_z": 2.38,
+     "early_z": 0.01
+    },
+    {
+     "game": "ml8",
+     "set": "year_stem x day_branch",
+     "test_z": -1.54,
+     "valid_z": -0.76,
+     "early_z": -1.5
+    },
+    {
+     "game": "toto55",
+     "set": "tithi x moon_rashi",
+     "test_z": -1.55,
+     "valid_z": 0.43,
+     "early_z": 0.12
+    },
+    {
+     "game": "ml8",
+     "set": "saturn_rashi x lunar_day",
+     "test_z": -1.55,
+     "valid_z": 1.7,
+     "early_z": 0.14
+    },
+    {
+     "game": "ml8",
+     "set": "rahu_rashi x kp_sun_sub_lord",
+     "test_z": -1.56,
+     "valid_z": -0.62,
+     "early_z": 0.67
+    },
+    {
+     "game": "ml8",
+     "set": "nakshatra x year_yinyang",
+     "test_z": -1.57,
+     "valid_z": 0.05,
+     "early_z": 0.19
+    },
+    {
+     "game": "toto55",
+     "set": "kp_sun_sub_lord x day_stem",
+     "test_z": -1.59,
+     "valid_z": 0.19,
+     "early_z": 1.47
+    },
+    {
+     "game": "toto58",
+     "set": "sun_rashi x year_pillar",
+     "test_z": -1.62,
+     "valid_z": 0.38,
+     "early_z": -1.23
+    },
+    {
+     "game": "toto58",
+     "set": "paksha x kp_sun_sub_lord",
+     "test_z": -1.69,
+     "valid_z": 1.09,
+     "early_z": -0.31
+    },
+    {
+     "game": "ml8",
+     "set": "rahu_nakshatra x month_pillar",
+     "test_z": -1.69,
+     "valid_z": -0.05,
+     "early_z": -0.26
+    },
+    {
+     "game": "ml8",
+     "set": "year_animal x month_branch",
+     "test_z": -1.69,
+     "valid_z": -0.45,
+     "early_z": -0.65
+    },
+    {
+     "game": "toto58",
+     "set": "saturn_rashi x masa",
+     "test_z": -1.72,
+     "valid_z": -0.35,
+     "early_z": -1.47
+    },
+    {
+     "game": "ml8",
+     "set": "jupiter_nakshatra x masa",
+     "test_z": -1.72,
+     "valid_z": -0.03,
+     "early_z": -1.27
+    },
+    {
+     "game": "ml8",
+     "set": "nakshatra_pada x moon_rashi",
+     "test_z": -1.76,
+     "valid_z": 0.97,
+     "early_z": -0.36
+    },
+    {
+     "game": "toto55",
+     "set": "saturn_rashi x lunar_day",
+     "test_z": -1.78,
+     "valid_z": -0.08,
+     "early_z": 0.68
+    },
+    {
+     "game": "toto58",
+     "set": "nakshatra_lord x month",
+     "test_z": -1.79,
+     "valid_z": -0.52,
+     "early_z": -1.54
+    },
+    {
+     "game": "toto55",
+     "set": "year_animal x month_branch",
+     "test_z": -1.8,
+     "valid_z": -2.06,
+     "early_z": -1.0
+    },
+    {
+     "game": "toto55",
+     "set": "nayin_element x yellow_black_path",
+     "test_z": -1.83,
+     "valid_z": 0.47,
+     "early_z": 0.08
+    },
+    {
+     "game": "ml8",
+     "set": "sun_nakshatra x year_animal",
+     "test_z": -1.83,
+     "valid_z": -0.26,
+     "early_z": -1.28
+    },
+    {
+     "game": "toto50",
+     "set": "moon_navamsa x jupiter_combust",
+     "test_z": -1.85,
+     "valid_z": 1.98,
+     "early_z": -1.04
+    },
+    {
+     "game": "toto50",
+     "set": "venus_combust x moon_sign_tropical",
+     "test_z": -1.85,
+     "valid_z": -0.6,
+     "early_z": 0.49
+    },
+    {
+     "game": "toto55",
+     "set": "saturn_rashi x rahu_rashi",
+     "test_z": -1.87,
+     "valid_z": -1.89,
+     "early_z": -0.9
+    },
+    {
+     "game": "toto55",
+     "set": "jupiter_retrograde x day_stem",
+     "test_z": -1.88,
+     "valid_z": -0.22,
+     "early_z": -1.18
+    },
+    {
+     "game": "ml8",
+     "set": "jupiter_nakshatra x moon_navamsa",
+     "test_z": -1.88,
+     "valid_z": -0.28,
+     "early_z": 0.97
+    },
+    {
+     "game": "toto58",
+     "set": "jupiter_rashi x kp_moon_sub_lord",
+     "test_z": -1.89,
+     "valid_z": -0.7,
+     "early_z": 1.37
+    },
+    {
+     "game": "toto58",
+     "set": "lagna_nakshatra x kp_asc_sub_lord",
+     "test_z": -1.99,
+     "valid_z": -1.64,
+     "early_z": -0.02
+    },
+    {
+     "game": "toto55",
+     "set": "kp_sun_sub_lord x hour_stem_19h",
+     "test_z": -2.02,
+     "valid_z": -0.22,
+     "early_z": 1.74
+    },
+    {
+     "game": "toto55",
+     "set": "mercury_retrograde x moon_sign_tropical",
+     "test_z": -2.02,
+     "valid_z": -0.27,
+     "early_z": 1.08
+    },
+    {
+     "game": "toto58",
+     "set": "jupiter_combust x nine_star_month",
+     "test_z": -2.03,
+     "valid_z": 1.59,
+     "early_z": -0.25
+    },
+    {
+     "game": "ml8",
+     "set": "mars_nakshatra x rahu_rashi",
+     "test_z": -2.08,
+     "valid_z": 2.09,
+     "early_z": 0.97
+    },
+    {
+     "game": "ml8",
+     "set": "nakshatra x hour_stem_19h",
+     "test_z": -2.09,
+     "valid_z": -1.17,
+     "early_z": -0.74
+    },
+    {
+     "game": "toto50",
+     "set": "venus_retrograde x day_stem",
+     "test_z": -2.11,
+     "valid_z": -0.68,
+     "early_z": 1.76
+    },
+    {
+     "game": "ml8",
+     "set": "kp_moon_number x nayin_element",
+     "test_z": -2.12,
+     "valid_z": -0.12,
+     "early_z": 0.15
+    },
+    {
+     "game": "toto55",
+     "set": "kp_moon_number x nayin_element",
+     "test_z": -2.14,
+     "valid_z": -0.95,
+     "early_z": -0.31
+    },
+    {
+     "game": "toto58",
+     "set": "mars_nakshatra x venus_nakshatra",
+     "test_z": -2.14,
+     "valid_z": -0.43,
+     "early_z": 0.17
+    },
+    {
+     "game": "toto50",
+     "set": "mars_retrograde x saturn_combust",
+     "test_z": -2.17,
+     "valid_z": -0.6,
+     "early_z": 0.95
+    },
+    {
+     "game": "ml8",
+     "set": "tithi x nine_star_year",
+     "test_z": -2.17,
+     "valid_z": 1.35,
+     "early_z": -0.23
+    },
+    {
+     "game": "toto55",
+     "set": "year_pillar x yellow_black_path",
+     "test_z": -2.18,
+     "valid_z": -0.27,
+     "early_z": -0.79
+    },
+    {
+     "game": "toto50",
+     "set": "jupiter_retrograde x day_stem",
+     "test_z": -2.24,
+     "valid_z": -0.05,
+     "early_z": 0.13
+    },
+    {
+     "game": "ml8",
+     "set": "weekday x rahu_rashi",
+     "test_z": -2.35,
+     "valid_z": 0.85,
+     "early_z": -1.07
+    },
+    {
+     "game": "ml8",
+     "set": "rahu_nakshatra x month",
+     "test_z": -2.4,
+     "valid_z": -1.69,
+     "early_z": -1.0
+    },
+    {
+     "game": "ml8",
+     "set": "year_animal x month",
+     "test_z": -2.4,
+     "valid_z": -0.74,
+     "early_z": -0.53
+    },
+    {
+     "game": "ml8",
+     "set": "year_stem x month",
+     "test_z": -2.4,
+     "valid_z": -1.69,
+     "early_z": -1.0
+    },
+    {
+     "game": "toto55",
+     "set": "sun_rashi x kp_sun_sub_lord",
+     "test_z": -2.49,
+     "valid_z": 0.07,
+     "early_z": -0.98
+    },
+    {
+     "game": "ml8",
+     "set": "mars_nakshatra x rahu_nakshatra",
+     "test_z": -2.5,
+     "valid_z": 1.81,
+     "early_z": 0.97
+    },
+    {
+     "game": "toto58",
+     "set": "weekday x mansion_28",
+     "test_z": -2.52,
+     "valid_z": -1.35,
+     "early_z": 0.04
+    },
+    {
+     "game": "ml8",
+     "set": "nakshatra_lord x kp_sun_sub_lord",
+     "test_z": -2.56,
+     "valid_z": -0.03,
+     "early_z": -0.19
+    },
+    {
+     "game": "toto55",
+     "set": "jupiter_rashi x kp_moon_sub_lord",
+     "test_z": -2.67,
+     "valid_z": -0.4,
+     "early_z": 1.9
+    },
+    {
+     "game": "toto50",
+     "set": "venus_combust x nine_star_month",
+     "test_z": -2.74,
+     "valid_z": -0.22,
+     "early_z": 0.35
+    },
+    {
+     "game": "toto50",
+     "set": "weekday x mansion_28",
+     "test_z": -2.94,
+     "valid_z": -0.6,
+     "early_z": -0.59
+    },
+    {
+     "game": "ml8",
+     "set": "mercury_combust x kp_moon_number",
+     "test_z": -3.15,
+     "valid_z": 0.93,
+     "early_z": 1.06
+    },
+    {
+     "game": "ml8",
+     "set": "adhika_masa x kp_moon_number",
+     "test_z": -3.17,
+     "valid_z": -0.22,
+     "early_z": 0.23
+    }
+   ],
+   "n_sum_at_least_lead": 2,
+   "best_sum": {
+    "set": "sun_nakshatra x nayin",
+    "sum": 6.24,
+    "by_game": {
+     "toto50": 3.4,
+     "toto55": 0.43,
+     "toto58": 1.58,
+     "ml8": 0.84
+    }
+   }
+  }
+ },
+ "all_pairs_share_at_least_lead_ml8_z": 0.00169
+}
