@@ -1,0 +1,2118 @@
+{
+ "toto50": {
+  "label": "STAR TOTO 6/50",
+  "metrics": {
+   "hot": {
+    "consistent_sets": 7,
+    "chance_mean": 5.5,
+    "chance_range": [
+     0,
+     11
+    ],
+    "best_weakest_z": 1.24,
+    "chance_best_weakest_z_mean": 1.42,
+    "top": {
+     "single": [
+      {
+       "set": "kp_sun_sub_lord",
+       "family": "vedic",
+       "early": 0.95,
+       "valid": 0.65,
+       "test": 0.57
+      },
+      {
+       "set": "lagna_nakshatra",
+       "family": "vedic",
+       "early": 0.53,
+       "valid": 1.59,
+       "test": 0.51
+      },
+      {
+       "set": "kp_sun_star_lord",
+       "family": "vedic",
+       "early": 1.3,
+       "valid": 0.97,
+       "test": 0.13
+      },
+      {
+       "set": "kp_asc_star_lord",
+       "family": "vedic",
+       "early": 0.11,
+       "valid": 0.5,
+       "test": 1.08
+      },
+      {
+       "set": "month_branch",
+       "family": "chinese",
+       "early": 0.11,
+       "valid": 0.5,
+       "test": 1.15
+      }
+     ],
+     "pair": [
+      {
+       "set": "lagna_rashi \u00d7 kp_sun_sub_lord",
+       "family": "vedic x vedic",
+       "early": 1.24,
+       "valid": 1.98,
+       "test": 2.6
+      },
+      {
+       "set": "mars_retrograde \u00d7 kp_sun_star_lord",
+       "family": "vedic x vedic",
+       "early": 1.51,
+       "valid": 2.69,
+       "test": 1.15
+      },
+      {
+       "set": "paksha \u00d7 lunar_month",
+       "family": "vedic x chinese",
+       "early": 1.09,
+       "valid": 2.22,
+       "test": 2.55
+      },
+      {
+       "set": "nakshatra_lord \u00d7 karana",
+       "family": "vedic x vedic",
+       "early": 1.98,
+       "valid": 1.52,
+       "test": 1.06
+      },
+      {
+       "set": "hora_lord \u00d7 month_pillar",
+       "family": "vedic x chinese",
+       "early": 1.05,
+       "valid": 2.1,
+       "test": 1.17
+      }
+     ]
+    }
+   },
+   "cold": {
+    "consistent_sets": 8,
+    "chance_mean": 10.6,
+    "chance_range": [
+     5,
+     18
+    ],
+    "best_weakest_z": 1.4,
+    "chance_best_weakest_z_mean": 1.47,
+    "top": {
+     "single": [
+      {
+       "set": "kp_moon_number",
+       "family": "vedic",
+       "early": 0.84,
+       "valid": 1.8,
+       "test": 1.24
+      },
+      {
+       "set": "planets_with_moon",
+       "family": "vedic",
+       "early": 0.65,
+       "valid": 0.89,
+       "test": 0.76
+      },
+      {
+       "set": "nine_star_year",
+       "family": "chinese",
+       "early": 0.82,
+       "valid": 0.53,
+       "test": 0.94
+      },
+      {
+       "set": "day_god",
+       "family": "chinese",
+       "early": 0.95,
+       "valid": 0.42,
+       "test": 1.4
+      },
+      {
+       "set": "year_element",
+       "family": "chinese",
+       "early": 1.12,
+       "valid": 0.16,
+       "test": 1.97
+      }
+     ],
+     "pair": [
+      {
+       "set": "karana \u00d7 venus_rashi",
+       "family": "vedic x vedic",
+       "early": 1.58,
+       "valid": 1.4,
+       "test": 1.62
+      },
+      {
+       "set": "ayana \u00d7 day_god",
+       "family": "vedic x chinese",
+       "early": 1.44,
+       "valid": 1.12,
+       "test": 1.59
+      },
+      {
+       "set": "moon_rashi \u00d7 saturn_rashi",
+       "family": "vedic x vedic",
+       "early": 2.45,
+       "valid": 1.12,
+       "test": 1.27
+      },
+      {
+       "set": "nakshatra \u00d7 kp_moon_sub_lord",
+       "family": "vedic x vedic",
+       "early": 1.1,
+       "valid": 1.32,
+       "test": 1.38
+      },
+      {
+       "set": "moon_rashi \u00d7 day_element",
+       "family": "vedic x chinese",
+       "early": 1.09,
+       "valid": 1.2,
+       "test": 1.66
+      }
+     ]
+    }
+   },
+   "pos": {
+    "consistent_sets": 14,
+    "chance_mean": 17.1,
+    "chance_range": [
+     5,
+     33
+    ],
+    "best_weakest_z": 1.35,
+    "chance_best_weakest_z_mean": 1.82,
+    "top": {
+     "single": [
+      {
+       "set": "ritu",
+       "family": "vedic",
+       "early": 0.53,
+       "valid": 1.2,
+       "test": 0.89
+      },
+      {
+       "set": "tithi",
+       "family": "vedic",
+       "early": 0.74,
+       "valid": 1.36,
+       "test": 0.51
+      },
+      {
+       "set": "jupiter_combust",
+       "family": "vedic",
+       "early": 0.53,
+       "valid": 1.28,
+       "test": 0.44
+      },
+      {
+       "set": "solar_term",
+       "family": "chinese",
+       "early": 1.02,
+       "valid": 0.42,
+       "test": 0.57
+      },
+      {
+       "set": "month_pillar",
+       "family": "chinese",
+       "early": 0.38,
+       "valid": 1.69,
+       "test": 0.74
+      }
+     ],
+     "pair": [
+      {
+       "set": "saturn_nakshatra \u00d7 nine_star_month",
+       "family": "vedic x chinese",
+       "early": 1.6,
+       "valid": 1.58,
+       "test": 1.35
+      },
+      {
+       "set": "tithi \u00d7 hour_stem_19h",
+       "family": "vedic x chinese",
+       "early": 1.84,
+       "valid": 2.45,
+       "test": 1.34
+      },
+      {
+       "set": "sun_rashi \u00d7 mercury_rashi",
+       "family": "vedic x vedic",
+       "early": 1.19,
+       "valid": 2.26,
+       "test": 1.34
+      },
+      {
+       "set": "paksha \u00d7 kp_sun_star_lord",
+       "family": "vedic x vedic",
+       "early": 1.3,
+       "valid": 1.2,
+       "test": 1.15
+      },
+      {
+       "set": "nakshatra \u00d7 lagna_rashi",
+       "family": "vedic x vedic",
+       "early": 1.12,
+       "valid": 1.34,
+       "test": 1.7
+      }
+     ]
+    }
+   },
+   "gap": {
+    "consistent_sets": 4,
+    "chance_mean": 2.4,
+    "chance_range": [
+     1,
+     4
+    ],
+    "best_weakest_z": 1.22,
+    "chance_best_weakest_z_mean": 1.19,
+    "top": {
+     "single": [
+      {
+       "set": "kp_sun_number",
+       "family": "vedic",
+       "early": 0.84,
+       "valid": 0.82,
+       "test": 1.13
+      },
+      {
+       "set": "sun_rashi",
+       "family": "vedic",
+       "early": 0.32,
+       "valid": 0.34,
+       "test": 0.38
+      },
+      {
+       "set": "tithi",
+       "family": "vedic",
+       "early": 0.39,
+       "valid": 0.34,
+       "test": 0.19
+      },
+      {
+       "set": "lagna_nakshatra",
+       "family": "vedic",
+       "early": 0.18,
+       "valid": 0.58,
+       "test": 0.06
+      },
+      {
+       "set": "mars_retrograde",
+       "family": "vedic",
+       "early": -0.03,
+       "valid": 0.42,
+       "test": 0.13
+      }
+     ],
+     "pair": [
+      {
+       "set": "samvatsara \u00d7 month_branch",
+       "family": "vedic x chinese",
+       "early": 1.22,
+       "valid": 1.66,
+       "test": 1.36
+      },
+      {
+       "set": "sun_rashi \u00d7 kp_asc_star_lord",
+       "family": "vedic x vedic",
+       "early": 1.21,
+       "valid": 1.44,
+       "test": 1.21
+      },
+      {
+       "set": "saturn_nakshatra \u00d7 month_branch",
+       "family": "vedic x chinese",
+       "early": 1.14,
+       "valid": 1.46,
+       "test": 1.66
+      },
+      {
+       "set": "month_branch \u00d7 nine_star_month",
+       "family": "chinese x chinese",
+       "early": 1.01,
+       "valid": 1.48,
+       "test": 2.87
+      },
+      {
+       "set": "kp_sun_number \u00d7 month_branch",
+       "family": "vedic x chinese",
+       "early": 1.0,
+       "valid": 0.96,
+       "test": 0.98
+      }
+     ]
+    }
+   },
+   "pos_hit": {
+    "consistent_sets": 0,
+    "chance_mean": 0.0,
+    "chance_range": [
+     0,
+     0
+    ],
+    "best_weakest_z": 0.4,
+    "chance_best_weakest_z_mean": 0.57,
+    "top": {
+     "single": [
+      {
+       "set": "ayana",
+       "family": "vedic",
+       "early": 0.55,
+       "valid": 0.0,
+       "test": 0.44
+      },
+      {
+       "set": "saturn_retrograde",
+       "family": "vedic",
+       "early": 1.02,
+       "valid": 0.21,
+       "test": -0.22
+      },
+      {
+       "set": "lunar_month",
+       "family": "chinese",
+       "early": -0.22,
+       "valid": -0.18,
+       "test": -0.27
+      },
+      {
+       "set": "jupiter_retrograde",
+       "family": "vedic",
+       "early": -0.37,
+       "valid": -0.28,
+       "test": 0.89
+      },
+      {
+       "set": "lagna_rashi",
+       "family": "vedic",
+       "early": -0.15,
+       "valid": -0.08,
+       "test": -0.41
+      }
+     ],
+     "pair": [
+      {
+       "set": "jupiter_retrograde \u00d7 saturn_retrograde",
+       "family": "vedic x vedic",
+       "early": 0.4,
+       "valid": 0.77,
+       "test": 0.97
+      },
+      {
+       "set": "jupiter_combust \u00d7 ayana",
+       "family": "vedic x vedic",
+       "early": 0.7,
+       "valid": 0.26,
+       "test": 0.29
+      },
+      {
+       "set": "jupiter_retrograde \u00d7 ritu",
+       "family": "vedic x vedic",
+       "early": 0.37,
+       "valid": 0.17,
+       "test": 0.31
+      },
+      {
+       "set": "jupiter_retrograde \u00d7 venus_combust",
+       "family": "vedic x vedic",
+       "early": 0.09,
+       "valid": 0.17,
+       "test": 0.52
+      },
+      {
+       "set": "weekday \u00d7 venus_retrograde",
+       "family": "vedic x vedic",
+       "early": 0.4,
+       "valid": 0.09,
+       "test": 0.7
+      }
+     ]
+    }
+   },
+   "gap_hit": {
+    "consistent_sets": 0,
+    "chance_mean": 0.0,
+    "chance_range": [
+     0,
+     0
+    ],
+    "best_weakest_z": 0.08,
+    "chance_best_weakest_z_mean": 0.27,
+    "top": {
+     "single": [
+      {
+       "set": "venus_retrograde",
+       "family": "vedic",
+       "early": -0.25,
+       "valid": 0.45,
+       "test": 0.21
+      },
+      {
+       "set": "venus_combust",
+       "family": "vedic",
+       "early": 0.37,
+       "valid": 0.16,
+       "test": -0.44
+      },
+      {
+       "set": "mars_combust",
+       "family": "vedic",
+       "early": -0.78,
+       "valid": -0.51,
+       "test": 1.09
+      },
+      {
+       "set": "mansion_28",
+       "family": "chinese",
+       "early": -0.21,
+       "valid": -0.4,
+       "test": -0.86
+      },
+      {
+       "set": "lunar_month",
+       "family": "chinese",
+       "early": -0.65,
+       "valid": -0.81,
+       "test": -0.88
+      }
+     ],
+     "pair": [
+      {
+       "set": "weekday \u00d7 venus_combust",
+       "family": "vedic x vedic",
+       "early": 1.09,
+       "valid": 0.09,
+       "test": 0.08
+      },
+      {
+       "set": "kp_moon_number \u00d7 kp_asc_number",
+       "family": "vedic x vedic",
+       "early": 0.0,
+       "valid": 0.0,
+       "test": 0.0
+      },
+      {
+       "set": "nakshatra_pada \u00d7 kp_asc_number",
+       "family": "vedic x vedic",
+       "early": 0.0,
+       "valid": 0.0,
+       "test": 0.0
+      },
+      {
+       "set": "kp_moon_number \u00d7 kp_sun_number",
+       "family": "vedic x vedic",
+       "early": 0.0,
+       "valid": 0.0,
+       "test": 0.0
+      },
+      {
+       "set": "kp_sun_number \u00d7 day_pillar",
+       "family": "vedic x chinese",
+       "early": 0.0,
+       "valid": 0.0,
+       "test": 0.0
+      }
+     ]
+    }
+   }
+  },
+  "best_ticket_lead": {
+   "set": "karana \u00d7 venus_rashi",
+   "pattern": "cold",
+   "weakest_z": 1.4,
+   "early": 1.58,
+   "valid": 1.4,
+   "test": 1.62
+  }
+ },
+ "toto55": {
+  "label": "POWER TOTO 6/55",
+  "metrics": {
+   "hot": {
+    "consistent_sets": 3,
+    "chance_mean": 3.2,
+    "chance_range": [
+     2,
+     6
+    ],
+    "best_weakest_z": 1.27,
+    "chance_best_weakest_z_mean": 1.26,
+    "top": {
+     "single": [
+      {
+       "set": "mars_nakshatra",
+       "family": "vedic",
+       "early": 0.6,
+       "valid": 1.8,
+       "test": 2.63
+      },
+      {
+       "set": "mars_combust",
+       "family": "vedic",
+       "early": 0.19,
+       "valid": 1.11,
+       "test": 0.71
+      },
+      {
+       "set": "kp_moon_sub_lord",
+       "family": "vedic",
+       "early": -0.02,
+       "valid": -0.04,
+       "test": 0.33
+      },
+      {
+       "set": "sun_nakshatra",
+       "family": "vedic",
+       "early": 0.7,
+       "valid": -0.16,
+       "test": -0.09
+      },
+      {
+       "set": "venus_rashi",
+       "family": "vedic",
+       "early": -0.02,
+       "valid": -0.16,
+       "test": 2.44
+      }
+     ],
+     "pair": [
+      {
+       "set": "paksha \u00d7 jupiter_retrograde",
+       "family": "vedic x vedic",
+       "early": 1.42,
+       "valid": 1.28,
+       "test": 1.27
+      },
+      {
+       "set": "mars_nakshatra \u00d7 month_stem",
+       "family": "vedic x chinese",
+       "early": 1.07,
+       "valid": 1.19,
+       "test": 1.45
+      },
+      {
+       "set": "moon_navamsa \u00d7 mars_combust",
+       "family": "vedic x vedic",
+       "early": 1.27,
+       "valid": 1.05,
+       "test": 1.74
+      },
+      {
+       "set": "lagna_nakshatra \u00d7 samvatsara",
+       "family": "vedic x vedic",
+       "early": 1.49,
+       "valid": 1.03,
+       "test": 0.98
+      },
+      {
+       "set": "karana \u00d7 nine_star_month",
+       "family": "vedic x chinese",
+       "early": 1.46,
+       "valid": 0.99,
+       "test": 0.88
+      }
+     ]
+    }
+   },
+   "cold": {
+    "consistent_sets": 29,
+    "chance_mean": 36.5,
+    "chance_range": [
+     22,
+     59
+    ],
+    "best_weakest_z": 1.69,
+    "chance_best_weakest_z_mean": 1.62,
+    "top": {
+     "single": [
+      {
+       "set": "paksha",
+       "family": "vedic",
+       "early": 1.37,
+       "valid": 1.22,
+       "test": 1.51
+      },
+      {
+       "set": "nakshatra_pada",
+       "family": "vedic",
+       "early": 0.6,
+       "valid": 0.76,
+       "test": 0.66
+      },
+      {
+       "set": "mansion_28",
+       "family": "chinese",
+       "early": 0.86,
+       "valid": 0.59,
+       "test": 0.8
+      },
+      {
+       "set": "mars_retrograde",
+       "family": "vedic",
+       "early": 0.96,
+       "valid": 0.47,
+       "test": 1.69
+      },
+      {
+       "set": "kp_moon_star_lord",
+       "family": "vedic",
+       "early": 1.22,
+       "valid": 0.36,
+       "test": 0.99
+      }
+     ],
+     "pair": [
+      {
+       "set": "year_yinyang \u00d7 day_god",
+       "family": "chinese x chinese",
+       "early": 2.3,
+       "valid": 1.86,
+       "test": 1.69
+      },
+      {
+       "set": "mercury_nakshatra \u00d7 mansion_28",
+       "family": "vedic x chinese",
+       "early": 1.77,
+       "valid": 2.09,
+       "test": 1.41
+      },
+      {
+       "set": "moon_navamsa \u00d7 mansion_28",
+       "family": "vedic x chinese",
+       "early": 2.9,
+       "valid": 1.8,
+       "test": 1.41
+      },
+      {
+       "set": "kp_asc_sub_lord \u00d7 lunar_month",
+       "family": "vedic x chinese",
+       "early": 1.85,
+       "valid": 1.4,
+       "test": 2.44
+      },
+      {
+       "set": "mars_nakshatra \u00d7 kp_asc_sub_lord",
+       "family": "vedic x vedic",
+       "early": 1.57,
+       "valid": 2.34,
+       "test": 1.36
+      }
+     ]
+    }
+   },
+   "pos": {
+    "consistent_sets": 5,
+    "chance_mean": 8.2,
+    "chance_range": [
+     1,
+     15
+    ],
+    "best_weakest_z": 1.25,
+    "chance_best_weakest_z_mean": 1.4,
+    "top": {
+     "single": [
+      {
+       "set": "sun_rashi",
+       "family": "vedic",
+       "early": 2.14,
+       "valid": 0.42,
+       "test": 0.85
+      },
+      {
+       "set": "kp_sun_sub_lord",
+       "family": "vedic",
+       "early": 0.5,
+       "valid": 1.05,
+       "test": 0.38
+      },
+      {
+       "set": "lagna_rashi",
+       "family": "vedic",
+       "early": 1.17,
+       "valid": 0.24,
+       "test": 1.13
+      },
+      {
+       "set": "saturn_rashi",
+       "family": "vedic",
+       "early": 0.36,
+       "valid": 0.23,
+       "test": 0.91
+      },
+      {
+       "set": "weekday",
+       "family": "vedic",
+       "early": 0.39,
+       "valid": 0.19,
+       "test": 0.8
+      }
+     ],
+     "pair": [
+      {
+       "set": "venus_rashi \u00d7 saturn_combust",
+       "family": "vedic x vedic",
+       "early": 1.25,
+       "valid": 1.72,
+       "test": 1.38
+      },
+      {
+       "set": "venus_nakshatra \u00d7 jupiter_rashi",
+       "family": "vedic x vedic",
+       "early": 1.61,
+       "valid": 1.2,
+       "test": 2.01
+      },
+      {
+       "set": "venus_rashi \u00d7 nine_star_year",
+       "family": "vedic x chinese",
+       "early": 1.58,
+       "valid": 1.42,
+       "test": 1.19
+      },
+      {
+       "set": "yoga \u00d7 ritu",
+       "family": "vedic x vedic",
+       "early": 1.53,
+       "valid": 1.17,
+       "test": 1.6
+      },
+      {
+       "set": "kp_sun_sub_lord \u00d7 lunar_day",
+       "family": "vedic x chinese",
+       "early": 1.56,
+       "valid": 1.84,
+       "test": 1.16
+      }
+     ]
+    }
+   },
+   "gap": {
+    "consistent_sets": 3,
+    "chance_mean": 4.0,
+    "chance_range": [
+     2,
+     6
+    ],
+    "best_weakest_z": 1.29,
+    "chance_best_weakest_z_mean": 1.44,
+    "top": {
+     "single": [
+      {
+       "set": "month_stem",
+       "family": "chinese",
+       "early": 0.96,
+       "valid": 0.24,
+       "test": 0.85
+      },
+      {
+       "set": "mercury_combust",
+       "family": "vedic",
+       "early": 0.29,
+       "valid": 1.17,
+       "test": 0.19
+      },
+      {
+       "set": "mercury_retrograde",
+       "family": "vedic",
+       "early": 0.09,
+       "valid": 1.86,
+       "test": 0.24
+      },
+      {
+       "set": "venus_combust",
+       "family": "vedic",
+       "early": 0.03,
+       "valid": 0.59,
+       "test": -0.04
+      },
+      {
+       "set": "hora_lord",
+       "family": "vedic",
+       "early": -0.07,
+       "valid": -0.04,
+       "test": 0.0
+      }
+     ],
+     "pair": [
+      {
+       "set": "weekday \u00d7 jupiter_nakshatra",
+       "family": "vedic x vedic",
+       "early": 1.29,
+       "valid": 1.39,
+       "test": 1.32
+      },
+      {
+       "set": "weekday \u00d7 year_stem",
+       "family": "vedic x chinese",
+       "early": 1.1,
+       "valid": 1.72,
+       "test": 1.74
+      },
+      {
+       "set": "sun_nakshatra \u00d7 saturn_rashi",
+       "family": "vedic x vedic",
+       "early": 2.5,
+       "valid": 1.06,
+       "test": 1.33
+      },
+      {
+       "set": "weekday \u00d7 nayin_element",
+       "family": "vedic x chinese",
+       "early": 1.32,
+       "valid": 1.51,
+       "test": 0.94
+      },
+      {
+       "set": "mercury_nakshatra \u00d7 month_stem",
+       "family": "vedic x chinese",
+       "early": 1.33,
+       "valid": 1.0,
+       "test": 0.93
+      }
+     ]
+    }
+   },
+   "pos_hit": {
+    "consistent_sets": 0,
+    "chance_mean": 0.0,
+    "chance_range": [
+     0,
+     0
+    ],
+    "best_weakest_z": 0.0,
+    "chance_best_weakest_z_mean": 0.1,
+    "top": {
+     "single": [
+      {
+       "set": "venus_retrograde",
+       "family": "vedic",
+       "early": 0.51,
+       "valid": -0.21,
+       "test": 1.13
+      },
+      {
+       "set": "venus_combust",
+       "family": "vedic",
+       "early": 0.38,
+       "valid": -0.22,
+       "test": -0.12
+      },
+      {
+       "set": "jupiter_retrograde",
+       "family": "vedic",
+       "early": -0.42,
+       "valid": 0.99,
+       "test": -0.74
+      },
+      {
+       "set": "jupiter_combust",
+       "family": "vedic",
+       "early": -0.93,
+       "valid": 0.56,
+       "test": 0.45
+      },
+      {
+       "set": "yellow_black_path",
+       "family": "chinese",
+       "early": -0.94,
+       "valid": 0.21,
+       "test": -0.45
+      }
+     ],
+     "pair": [
+      {
+       "set": "kp_sun_number \u00d7 day_pillar",
+       "family": "vedic x chinese",
+       "early": 0.0,
+       "valid": 0.0,
+       "test": 0.0
+      },
+      {
+       "set": "venus_retrograde \u00d7 venus_combust",
+       "family": "vedic x vedic",
+       "early": 0.11,
+       "valid": -0.1,
+       "test": 0.53
+      },
+      {
+       "set": "venus_retrograde \u00d7 adhika_masa",
+       "family": "vedic x vedic",
+       "early": 0.3,
+       "valid": -0.15,
+       "test": 1.39
+      },
+      {
+       "set": "venus_combust \u00d7 lunar_leap_month",
+       "family": "vedic x chinese",
+       "early": -0.25,
+       "valid": -0.11,
+       "test": -0.2
+      },
+      {
+       "set": "venus_combust \u00d7 mars_combust",
+       "family": "vedic x vedic",
+       "early": -0.33,
+       "valid": -0.31,
+       "test": 0.15
+      }
+     ]
+    }
+   },
+   "gap_hit": {
+    "consistent_sets": 0,
+    "chance_mean": 0.5,
+    "chance_range": [
+     0,
+     4
+    ],
+    "best_weakest_z": 0.19,
+    "chance_best_weakest_z_mean": 0.49,
+    "top": {
+     "single": [
+      {
+       "set": "lunar_leap_month",
+       "family": "chinese",
+       "early": 0.19,
+       "valid": 2.13,
+       "test": 0.51
+      },
+      {
+       "set": "mercury_retrograde",
+       "family": "vedic",
+       "early": 0.0,
+       "valid": 0.11,
+       "test": -0.07
+      },
+      {
+       "set": "ayana",
+       "family": "vedic",
+       "early": -0.26,
+       "valid": 0.0,
+       "test": 1.63
+      },
+      {
+       "set": "jupiter_retrograde",
+       "family": "vedic",
+       "early": -0.28,
+       "valid": 0.52,
+       "test": 0.15
+      },
+      {
+       "set": "yellow_black_path",
+       "family": "chinese",
+       "early": -0.15,
+       "valid": -0.49,
+       "test": 0.66
+      }
+     ],
+     "pair": [
+      {
+       "set": "kp_moon_number \u00d7 kp_asc_number",
+       "family": "vedic x vedic",
+       "early": 0.0,
+       "valid": 0.0,
+       "test": 0.0
+      },
+      {
+       "set": "venus_retrograde \u00d7 jupiter_combust",
+       "family": "vedic x vedic",
+       "early": 0.11,
+       "valid": 0.59,
+       "test": 0.0
+      },
+      {
+       "set": "kp_asc_number \u00d7 day_pillar",
+       "family": "vedic x chinese",
+       "early": 0.0,
+       "valid": 0.0,
+       "test": 1.41
+      },
+      {
+       "set": "kp_sun_number \u00d7 day_pillar",
+       "family": "vedic x chinese",
+       "early": 0.0,
+       "valid": 0.0,
+       "test": 0.0
+      },
+      {
+       "set": "venus_retrograde \u00d7 mercury_combust",
+       "family": "vedic x vedic",
+       "early": 0.82,
+       "valid": 0.74,
+       "test": 0.0
+      }
+     ]
+    }
+   }
+  },
+  "best_ticket_lead": {
+   "set": "year_yinyang \u00d7 day_god",
+   "pattern": "cold",
+   "weakest_z": 1.69,
+   "early": 2.3,
+   "valid": 1.86,
+   "test": 1.69
+  }
+ },
+ "toto58": {
+  "label": "SUPREME TOTO 6/58",
+  "metrics": {
+   "hot": {
+    "consistent_sets": 19,
+    "chance_mean": 18.5,
+    "chance_range": [
+     8,
+     28
+    ],
+    "best_weakest_z": 1.75,
+    "chance_best_weakest_z_mean": 1.52,
+    "top": {
+     "single": [
+      {
+       "set": "nakshatra",
+       "family": "vedic",
+       "early": 1.14,
+       "valid": 1.27,
+       "test": 1.02
+      },
+      {
+       "set": "mercury_nakshatra",
+       "family": "vedic",
+       "early": 0.76,
+       "valid": 2.4,
+       "test": 1.12
+      },
+      {
+       "set": "rahu_nakshatra",
+       "family": "vedic",
+       "early": 0.59,
+       "valid": 1.32,
+       "test": 1.48
+      },
+      {
+       "set": "jupiter_rashi",
+       "family": "vedic",
+       "early": 0.69,
+       "valid": 0.43,
+       "test": 1.02
+      },
+      {
+       "set": "mercury_rashi",
+       "family": "vedic",
+       "early": 0.87,
+       "valid": 0.37,
+       "test": 0.68
+      }
+     ],
+     "pair": [
+      {
+       "set": "jupiter_rashi \u00d7 jupiter_retrograde",
+       "family": "vedic x vedic",
+       "early": 1.86,
+       "valid": 1.83,
+       "test": 1.75
+      },
+      {
+       "set": "saturn_rashi \u00d7 rahu_nakshatra",
+       "family": "vedic x vedic",
+       "early": 1.39,
+       "valid": 1.47,
+       "test": 1.87
+      },
+      {
+       "set": "mars_rashi \u00d7 year_element",
+       "family": "vedic x chinese",
+       "early": 1.95,
+       "valid": 1.31,
+       "test": 1.51
+      },
+      {
+       "set": "yoga \u00d7 month_branch",
+       "family": "vedic x chinese",
+       "early": 1.3,
+       "valid": 1.38,
+       "test": 2.0
+      },
+      {
+       "set": "saturn_rashi \u00d7 saturn_retrograde",
+       "family": "vedic x vedic",
+       "early": 1.22,
+       "valid": 1.52,
+       "test": 1.2
+      }
+     ]
+    }
+   },
+   "cold": {
+    "consistent_sets": 4,
+    "chance_mean": 1.8,
+    "chance_range": [
+     0,
+     5
+    ],
+    "best_weakest_z": 1.19,
+    "chance_best_weakest_z_mean": 1.13,
+    "top": {
+     "single": [
+      {
+       "set": "mansion_28",
+       "family": "chinese",
+       "early": 1.99,
+       "valid": 0.67,
+       "test": 0.93
+      },
+      {
+       "set": "mars_rashi",
+       "family": "vedic",
+       "early": 0.71,
+       "valid": 0.61,
+       "test": 0.64
+      },
+      {
+       "set": "mercury_rashi",
+       "family": "vedic",
+       "early": 1.19,
+       "valid": 0.55,
+       "test": 0.68
+      },
+      {
+       "set": "kp_asc_sub_lord",
+       "family": "vedic",
+       "early": 0.34,
+       "valid": 0.43,
+       "test": 0.15
+      },
+      {
+       "set": "ritu",
+       "family": "vedic",
+       "early": -0.09,
+       "valid": 1.44,
+       "test": 0.64
+      }
+     ],
+     "pair": [
+      {
+       "set": "venus_combust \u00d7 mansion_28",
+       "family": "vedic x chinese",
+       "early": 1.19,
+       "valid": 1.21,
+       "test": 1.51
+      },
+      {
+       "set": "planets_with_moon \u00d7 mansion_28",
+       "family": "vedic x chinese",
+       "early": 1.1,
+       "valid": 1.7,
+       "test": 2.09
+      },
+      {
+       "set": "adhika_masa \u00d7 mansion_28",
+       "family": "vedic x chinese",
+       "early": 1.67,
+       "valid": 1.09,
+       "test": 1.8
+      },
+      {
+       "set": "ritu \u00d7 year_yinyang",
+       "family": "vedic x chinese",
+       "early": 1.03,
+       "valid": 1.15,
+       "test": 1.12
+      },
+      {
+       "set": "venus_combust \u00d7 solar_term",
+       "family": "vedic x chinese",
+       "early": 0.97,
+       "valid": 1.3,
+       "test": 1.17
+      }
+     ]
+    }
+   },
+   "pos": {
+    "consistent_sets": 21,
+    "chance_mean": 20.6,
+    "chance_range": [
+     11,
+     35
+    ],
+    "best_weakest_z": 1.46,
+    "chance_best_weakest_z_mean": 1.56,
+    "top": {
+     "single": [
+      {
+       "set": "nine_star_year",
+       "family": "chinese",
+       "early": 1.5,
+       "valid": 1.66,
+       "test": 0.93
+      },
+      {
+       "set": "year_animal",
+       "family": "chinese",
+       "early": 1.77,
+       "valid": 0.94,
+       "test": 0.88
+      },
+      {
+       "set": "year_yinyang",
+       "family": "chinese",
+       "early": 1.03,
+       "valid": 0.79,
+       "test": 1.46
+      },
+      {
+       "set": "rahu_nakshatra",
+       "family": "vedic",
+       "early": 1.77,
+       "valid": 1.14,
+       "test": 0.7
+      },
+      {
+       "set": "day_god",
+       "family": "chinese",
+       "early": 1.56,
+       "valid": 0.61,
+       "test": 1.02
+      }
+     ],
+     "pair": [
+      {
+       "set": "solar_term \u00d7 month_stem",
+       "family": "chinese x chinese",
+       "early": 1.46,
+       "valid": 2.22,
+       "test": 1.61
+      },
+      {
+       "set": "solar_term \u00d7 month_pillar",
+       "family": "chinese x chinese",
+       "early": 1.46,
+       "valid": 2.22,
+       "test": 1.61
+      },
+      {
+       "set": "jupiter_retrograde \u00d7 year_element",
+       "family": "vedic x chinese",
+       "early": 1.34,
+       "valid": 2.53,
+       "test": 1.36
+      },
+      {
+       "set": "kp_moon_sub_lord \u00d7 year_element",
+       "family": "vedic x chinese",
+       "early": 1.47,
+       "valid": 1.25,
+       "test": 1.85
+      },
+      {
+       "set": "rahu_nakshatra \u00d7 venus_retrograde",
+       "family": "vedic x vedic",
+       "early": 1.89,
+       "valid": 1.33,
+       "test": 1.25
+      }
+     ]
+    }
+   },
+   "gap": {
+    "consistent_sets": 2,
+    "chance_mean": 2.4,
+    "chance_range": [
+     1,
+     4
+    ],
+    "best_weakest_z": 1.3,
+    "chance_best_weakest_z_mean": 1.25,
+    "top": {
+     "single": [
+      {
+       "set": "nakshatra_pada",
+       "family": "vedic",
+       "early": 1.61,
+       "valid": 0.25,
+       "test": 0.64
+      },
+      {
+       "set": "solar_term",
+       "family": "chinese",
+       "early": 0.82,
+       "valid": 0.55,
+       "test": 0.15
+      },
+      {
+       "set": "mars_nakshatra",
+       "family": "vedic",
+       "early": 0.55,
+       "valid": 0.67,
+       "test": 0.1
+      },
+      {
+       "set": "kp_sun_star_lord",
+       "family": "vedic",
+       "early": 0.07,
+       "valid": 0.19,
+       "test": 2.19
+      },
+      {
+       "set": "nayin_element",
+       "family": "chinese",
+       "early": 0.18,
+       "valid": 0.97,
+       "test": 0.01
+      }
+     ],
+     "pair": [
+      {
+       "set": "day_stem \u00d7 nine_star_month",
+       "family": "chinese x chinese",
+       "early": 1.3,
+       "valid": 1.56,
+       "test": 2.09
+      },
+      {
+       "set": "karana \u00d7 day_element",
+       "family": "vedic x chinese",
+       "early": 1.83,
+       "valid": 1.15,
+       "test": 1.17
+      },
+      {
+       "set": "moon_navamsa \u00d7 kp_sun_number",
+       "family": "vedic x vedic",
+       "early": 1.32,
+       "valid": 1.26,
+       "test": 1.0
+      },
+      {
+       "set": "kp_asc_sub_lord \u00d7 hour_stem_19h",
+       "family": "vedic x chinese",
+       "early": 1.08,
+       "valid": 1.32,
+       "test": 0.98
+      },
+      {
+       "set": "mercury_retrograde \u00d7 day_branch",
+       "family": "vedic x chinese",
+       "early": 2.47,
+       "valid": 2.04,
+       "test": 0.93
+      }
+     ]
+    }
+   },
+   "pos_hit": {
+    "consistent_sets": 0,
+    "chance_mean": 0.0,
+    "chance_range": [
+     0,
+     0
+    ],
+    "best_weakest_z": 0.0,
+    "chance_best_weakest_z_mean": 0.05,
+    "top": {
+     "single": [
+      {
+       "set": "mars_retrograde",
+       "family": "vedic",
+       "early": -0.25,
+       "valid": 0.61,
+       "test": -0.31
+      },
+      {
+       "set": "ritu",
+       "family": "vedic",
+       "early": -0.88,
+       "valid": -0.25,
+       "test": -0.7
+      },
+      {
+       "set": "mercury_combust",
+       "family": "vedic",
+       "early": -1.0,
+       "valid": 1.28,
+       "test": -1.01
+      },
+      {
+       "set": "yellow_black_path",
+       "family": "chinese",
+       "early": 0.08,
+       "valid": 0.1,
+       "test": -1.16
+      },
+      {
+       "set": "jupiter_combust",
+       "family": "vedic",
+       "early": -1.3,
+       "valid": 0.69,
+       "test": -0.26
+      }
+     ],
+     "pair": [
+      {
+       "set": "kp_asc_number \u00d7 day_pillar",
+       "family": "vedic x chinese",
+       "early": 0.0,
+       "valid": 0.0,
+       "test": 0.0
+      },
+      {
+       "set": "kp_sun_number \u00d7 day_pillar",
+       "family": "vedic x chinese",
+       "early": 0.0,
+       "valid": 0.0,
+       "test": 0.0
+      },
+      {
+       "set": "adhika_masa \u00d7 yellow_black_path",
+       "family": "vedic x chinese",
+       "early": -0.23,
+       "valid": 0.92,
+       "test": -0.38
+      },
+      {
+       "set": "lunar_leap_month \u00d7 yellow_black_path",
+       "family": "chinese x chinese",
+       "early": -0.38,
+       "valid": 0.31,
+       "test": -0.5
+      },
+      {
+       "set": "jupiter_combust \u00d7 yellow_black_path",
+       "family": "vedic x chinese",
+       "early": -0.51,
+       "valid": -0.28,
+       "test": -0.5
+      }
+     ]
+    }
+   },
+   "gap_hit": {
+    "consistent_sets": 0,
+    "chance_mean": 0.0,
+    "chance_range": [
+     0,
+     0
+    ],
+    "best_weakest_z": 0.0,
+    "chance_best_weakest_z_mean": 0.12,
+    "top": {
+     "single": [
+      {
+       "set": "paksha",
+       "family": "vedic",
+       "early": 0.92,
+       "valid": -0.42,
+       "test": -0.59
+      },
+      {
+       "set": "saturn_retrograde",
+       "family": "vedic",
+       "early": -0.32,
+       "valid": -0.59,
+       "test": -0.62
+      },
+      {
+       "set": "yellow_black_path",
+       "family": "chinese",
+       "early": -0.59,
+       "valid": -0.65,
+       "test": -0.36
+      },
+      {
+       "set": "saturn_combust",
+       "family": "vedic",
+       "early": 0.55,
+       "valid": -0.68,
+       "test": -0.14
+      },
+      {
+       "set": "nayin_element",
+       "family": "chinese",
+       "early": -1.02,
+       "valid": -0.13,
+       "test": 0.24
+      }
+     ],
+     "pair": [
+      {
+       "set": "kp_asc_number \u00d7 day_pillar",
+       "family": "vedic x chinese",
+       "early": 0.0,
+       "valid": 0.0,
+       "test": 0.0
+      },
+      {
+       "set": "kp_sun_number \u00d7 day_pillar",
+       "family": "vedic x chinese",
+       "early": 0.0,
+       "valid": 0.0,
+       "test": 0.0
+      },
+      {
+       "set": "saturn_retrograde \u00d7 saturn_combust",
+       "family": "vedic x vedic",
+       "early": 0.14,
+       "valid": 0.09,
+       "test": -0.38
+      },
+      {
+       "set": "saturn_retrograde \u00d7 adhika_masa",
+       "family": "vedic x vedic",
+       "early": -0.41,
+       "valid": 0.0,
+       "test": -0.23
+      },
+      {
+       "set": "kp_moon_number \u00d7 kp_asc_number",
+       "family": "vedic x vedic",
+       "early": 0.0,
+       "valid": 0.0,
+       "test": -0.45
+      }
+     ]
+    }
+   }
+  },
+  "best_ticket_lead": {
+   "set": "jupiter_rashi \u00d7 jupiter_retrograde",
+   "pattern": "hot",
+   "weakest_z": 1.75,
+   "early": 1.86,
+   "valid": 1.83,
+   "test": 1.75
+  }
+ },
+ "ml8": {
+  "label": "Magnum Life 8/36",
+  "metrics": {
+   "hot": {
+    "consistent_sets": 3,
+    "chance_mean": 7.4,
+    "chance_range": [
+     2,
+     12
+    ],
+    "best_weakest_z": 1.34,
+    "chance_best_weakest_z_mean": 1.42,
+    "top": {
+     "single": [
+      {
+       "set": "moon_rashi",
+       "family": "vedic",
+       "early": 0.72,
+       "valid": 0.74,
+       "test": 2.35
+      },
+      {
+       "set": "nine_star_year",
+       "family": "chinese",
+       "early": 0.13,
+       "valid": 0.6,
+       "test": 0.21
+      },
+      {
+       "set": "hora_lord",
+       "family": "vedic",
+       "early": 0.31,
+       "valid": 0.1,
+       "test": 0.75
+      },
+      {
+       "set": "month_branch",
+       "family": "chinese",
+       "early": -0.01,
+       "valid": 0.16,
+       "test": 0.98
+      },
+      {
+       "set": "mercury_nakshatra",
+       "family": "vedic",
+       "early": 0.56,
+       "valid": -0.01,
+       "test": 0.56
+      }
+     ],
+     "pair": [
+      {
+       "set": "yoga \u00d7 mars_rashi",
+       "family": "vedic x vedic",
+       "early": 1.44,
+       "valid": 1.63,
+       "test": 1.34
+      },
+      {
+       "set": "moon_navamsa \u00d7 day_pillar",
+       "family": "vedic x chinese",
+       "early": 1.29,
+       "valid": 1.92,
+       "test": 1.88
+      },
+      {
+       "set": "ritu \u00d7 nayin_element",
+       "family": "vedic x chinese",
+       "early": 1.08,
+       "valid": 1.55,
+       "test": 1.22
+      },
+      {
+       "set": "moon_rashi \u00d7 mars_retrograde",
+       "family": "vedic x vedic",
+       "early": 1.29,
+       "valid": 0.91,
+       "test": 1.41
+      },
+      {
+       "set": "yoga \u00d7 day_vs_year_branch",
+       "family": "vedic x chinese",
+       "early": 0.89,
+       "valid": 1.0,
+       "test": 1.37
+      }
+     ]
+    }
+   },
+   "cold": {
+    "consistent_sets": 5,
+    "chance_mean": 9.5,
+    "chance_range": [
+     1,
+     14
+    ],
+    "best_weakest_z": 1.42,
+    "chance_best_weakest_z_mean": 1.44,
+    "top": {
+     "single": [
+      {
+       "set": "rahu_rashi",
+       "family": "vedic",
+       "early": 1.48,
+       "valid": 1.31,
+       "test": 0.88
+      },
+      {
+       "set": "kp_asc_sub_lord",
+       "family": "vedic",
+       "early": 0.87,
+       "valid": 0.86,
+       "test": 0.94
+      },
+      {
+       "set": "mars_rashi",
+       "family": "vedic",
+       "early": 2.38,
+       "valid": 0.62,
+       "test": 1.03
+      },
+      {
+       "set": "jupiter_nakshatra",
+       "family": "vedic",
+       "early": 0.61,
+       "valid": 0.69,
+       "test": 0.74
+      },
+      {
+       "set": "nakshatra_pada",
+       "family": "vedic",
+       "early": 0.48,
+       "valid": 0.51,
+       "test": 0.94
+      }
+     ],
+     "pair": [
+      {
+       "set": "mars_rashi \u00d7 venus_combust",
+       "family": "vedic x vedic",
+       "early": 1.82,
+       "valid": 1.42,
+       "test": 1.92
+      },
+      {
+       "set": "paksha \u00d7 mars_combust",
+       "family": "vedic x vedic",
+       "early": 1.29,
+       "valid": 1.32,
+       "test": 1.69
+      },
+      {
+       "set": "venus_combust \u00d7 yellow_black_path",
+       "family": "vedic x chinese",
+       "early": 1.6,
+       "valid": 1.2,
+       "test": 1.46
+      },
+      {
+       "set": "ayana \u00d7 nine_star_month",
+       "family": "vedic x chinese",
+       "early": 1.22,
+       "valid": 1.26,
+       "test": 1.08
+      },
+      {
+       "set": "mars_rashi \u00d7 kp_sun_star_lord",
+       "family": "vedic x vedic",
+       "early": 1.05,
+       "valid": 1.21,
+       "test": 1.05
+      }
+     ]
+    }
+   },
+   "pos": {
+    "consistent_sets": 9,
+    "chance_mean": 10.8,
+    "chance_range": [
+     5,
+     22
+    ],
+    "best_weakest_z": 1.84,
+    "chance_best_weakest_z_mean": 1.48,
+    "top": {
+     "single": [
+      {
+       "set": "hour_stem_19h",
+       "family": "chinese",
+       "early": 0.67,
+       "valid": 1.15,
+       "test": 0.65
+      },
+      {
+       "set": "samvatsara",
+       "family": "vedic",
+       "early": 0.8,
+       "valid": 0.66,
+       "test": 0.63
+      },
+      {
+       "set": "lunar_month",
+       "family": "chinese",
+       "early": 0.67,
+       "valid": 0.51,
+       "test": 1.22
+      },
+      {
+       "set": "day_pillar",
+       "family": "chinese",
+       "early": 0.46,
+       "valid": 1.32,
+       "test": 0.75
+      },
+      {
+       "set": "moon_rashi",
+       "family": "vedic",
+       "early": 0.31,
+       "valid": 0.33,
+       "test": 1.74
+      }
+     ],
+     "pair": [
+      {
+       "set": "moon_rashi \u00d7 mars_combust",
+       "family": "vedic x vedic",
+       "early": 1.91,
+       "valid": 1.84,
+       "test": 1.88
+      },
+      {
+       "set": "nakshatra_lord \u00d7 yellow_black_path",
+       "family": "vedic x chinese",
+       "early": 1.39,
+       "valid": 1.61,
+       "test": 1.36
+      },
+      {
+       "set": "jupiter_rashi \u00d7 planets_with_moon",
+       "family": "vedic x vedic",
+       "early": 1.65,
+       "valid": 1.21,
+       "test": 1.61
+      },
+      {
+       "set": "hora_lord \u00d7 venus_rashi",
+       "family": "vedic x vedic",
+       "early": 2.2,
+       "valid": 1.15,
+       "test": 2.02
+      },
+      {
+       "set": "nakshatra_lord \u00d7 ayana",
+       "family": "vedic x vedic",
+       "early": 1.24,
+       "valid": 1.15,
+       "test": 1.17
+      }
+     ]
+    }
+   },
+   "gap": {
+    "consistent_sets": 1,
+    "chance_mean": 1.4,
+    "chance_range": [
+     0,
+     3
+    ],
+    "best_weakest_z": 1.11,
+    "chance_best_weakest_z_mean": 1.09,
+    "top": {
+     "single": [
+      {
+       "set": "sun_nakshatra",
+       "family": "vedic",
+       "early": 0.67,
+       "valid": 0.74,
+       "test": 0.94
+      },
+      {
+       "set": "kp_asc_number",
+       "family": "vedic",
+       "early": 0.61,
+       "valid": 1.14,
+       "test": 0.56
+      },
+      {
+       "set": "kp_sun_number",
+       "family": "vedic",
+       "early": 0.61,
+       "valid": 0.54,
+       "test": 0.78
+      },
+      {
+       "set": "tithi",
+       "family": "vedic",
+       "early": 0.51,
+       "valid": 0.51,
+       "test": 0.84
+      },
+      {
+       "set": "kp_asc_sub_lord",
+       "family": "vedic",
+       "early": 1.24,
+       "valid": 0.28,
+       "test": 0.32
+      }
+     ],
+     "pair": [
+      {
+       "set": "yoga \u00d7 hora_lord",
+       "family": "vedic x vedic",
+       "early": 1.83,
+       "valid": 1.31,
+       "test": 1.11
+      },
+      {
+       "set": "nakshatra_pada \u00d7 jupiter_retrograde",
+       "family": "vedic x vedic",
+       "early": 1.0,
+       "valid": 0.98,
+       "test": 1.0
+      },
+      {
+       "set": "nakshatra_pada \u00d7 day_pillar",
+       "family": "vedic x chinese",
+       "early": 0.91,
+       "valid": 1.32,
+       "test": 1.01
+      },
+      {
+       "set": "jupiter_retrograde \u00d7 ritu",
+       "family": "vedic x vedic",
+       "early": 0.76,
+       "valid": 1.02,
+       "test": 1.64
+      },
+      {
+       "set": "nakshatra_pada \u00d7 nine_star_month",
+       "family": "vedic x chinese",
+       "early": 1.08,
+       "valid": 1.33,
+       "test": 0.75
+      }
+     ]
+    }
+   },
+   "pos_hit": {
+    "consistent_sets": 0,
+    "chance_mean": 0.0,
+    "chance_range": [
+     0,
+     0
+    ],
+    "best_weakest_z": 0.47,
+    "chance_best_weakest_z_mean": 0.23,
+    "top": {
+     "single": [
+      {
+       "set": "jupiter_combust",
+       "family": "vedic",
+       "early": 0.47,
+       "valid": 0.82,
+       "test": 0.68
+      },
+      {
+       "set": "ayana",
+       "family": "vedic",
+       "early": 1.84,
+       "valid": -0.22,
+       "test": -0.41
+      },
+      {
+       "set": "venus_retrograde",
+       "family": "vedic",
+       "early": -0.45,
+       "valid": -0.2,
+       "test": 0.12
+      },
+      {
+       "set": "planets_with_moon",
+       "family": "vedic",
+       "early": 0.78,
+       "valid": -0.15,
+       "test": -0.55
+      },
+      {
+       "set": "venus_combust",
+       "family": "vedic",
+       "early": 0.56,
+       "valid": -0.76,
+       "test": 0.3
+      }
+     ],
+     "pair": [
+      {
+       "set": "saturn_combust \u00d7 adhika_masa",
+       "family": "vedic x vedic",
+       "early": 0.16,
+       "valid": 0.61,
+       "test": 0.1
+      },
+      {
+       "set": "kp_sun_number \u00d7 day_pillar",
+       "family": "vedic x chinese",
+       "early": 0.0,
+       "valid": 0.0,
+       "test": 0.0
+      },
+      {
+       "set": "kp_asc_number \u00d7 day_pillar",
+       "family": "vedic x chinese",
+       "early": 0.0,
+       "valid": 0.0,
+       "test": 0.0
+      },
+      {
+       "set": "kp_moon_number \u00d7 kp_sun_number",
+       "family": "vedic x vedic",
+       "early": 0.0,
+       "valid": 0.0,
+       "test": 0.0
+      },
+      {
+       "set": "nakshatra_pada \u00d7 kp_asc_number",
+       "family": "vedic x vedic",
+       "early": 0.0,
+       "valid": 0.0,
+       "test": 0.0
+      }
+     ]
+    }
+   },
+   "gap_hit": {
+    "consistent_sets": 0,
+    "chance_mean": 0.0,
+    "chance_range": [
+     0,
+     0
+    ],
+    "best_weakest_z": 0.0,
+    "chance_best_weakest_z_mean": 0.01,
+    "top": {
+     "single": [
+      {
+       "set": "adhika_masa",
+       "family": "vedic",
+       "early": 0.69,
+       "valid": 0.0,
+       "test": 0.22
+      },
+      {
+       "set": "saturn_combust",
+       "family": "vedic",
+       "early": -0.63,
+       "valid": -0.9,
+       "test": -0.24
+      },
+      {
+       "set": "paksha",
+       "family": "vedic",
+       "early": -0.91,
+       "valid": 0.0,
+       "test": -1.0
+      },
+      {
+       "set": "mercury_combust",
+       "family": "vedic",
+       "early": -0.5,
+       "valid": -1.14,
+       "test": 0.0
+      },
+      {
+       "set": "jupiter_combust",
+       "family": "vedic",
+       "early": 0.9,
+       "valid": -0.82,
+       "test": -1.18
+      }
+     ],
+     "pair": [
+      {
+       "set": "nakshatra_pada \u00d7 kp_asc_number",
+       "family": "vedic x vedic",
+       "early": 0.0,
+       "valid": 0.0,
+       "test": 0.0
+      },
+      {
+       "set": "kp_sun_number \u00d7 day_pillar",
+       "family": "vedic x chinese",
+       "early": 0.0,
+       "valid": 0.0,
+       "test": 0.0
+      },
+      {
+       "set": "kp_moon_number \u00d7 kp_sun_number",
+       "family": "vedic x vedic",
+       "early": 0.0,
+       "valid": 0.0,
+       "test": 0.0
+      },
+      {
+       "set": "yoga \u00d7 kp_sun_number",
+       "family": "vedic x vedic",
+       "early": 0.0,
+       "valid": 0.0,
+       "test": 0.0
+      },
+      {
+       "set": "kp_asc_number \u00d7 day_pillar",
+       "family": "vedic x chinese",
+       "early": 0.0,
+       "valid": 0.0,
+       "test": 0.0
+      }
+     ]
+    }
+   }
+  },
+  "best_ticket_lead": {
+   "set": "moon_rashi \u00d7 mars_combust",
+   "pattern": "pos",
+   "weakest_z": 1.84,
+   "early": 1.91,
+   "valid": 1.84,
+   "test": 1.88
+  }
+ }
+}

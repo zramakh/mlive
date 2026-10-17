@@ -44,6 +44,14 @@ Each of my leads was +2 to +3.7 z in two separate periods before the test, then 
 None did better than the earlier leads. Per-position and gap predictions get *worse* when
 conditioned on any parameter (fewer draws per cell, more noise).
 
+## Per game: which parameters performed well (`per_game_leads.py`)
+
+[PER_GAME_LEADS.md](PER_GAME_LEADS.md) lists, for each game on its own, the top single parameters and pairs
+for each pattern, with their z in all three periods. Over the four ticket patterns and four games, 137
+parameter sets had z > 1 in all three periods; the shifted calendars give 160 on average. Each game's most
+consistent ticket lead (6/50 karana × Venus rashi, cold; 6/55 year yin/yang × day god, cold; 6/58 Jupiter
+rashi × Jupiter retrograde, hot; Life Moon rashi × Mars combust, position) is logged as `per_game_best`.
+
 ## Is the 4D lead special? (`lead_4d_robustness.py`, `lead_hunt.py`)
 
 No. Scored the same way:
