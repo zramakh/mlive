@@ -75,8 +75,11 @@ def family(s):
     return kinds[0] if len(s) == 1 else " x ".join(sorted(kinds, reverse=True))
 
 
-def setup(key, extra_date=None):
+def setup(key, extra_date=None, drop_last=0):
+    """drop_last: leave the game's last draws out of the history (for a hold-out test)."""
     g = common.load_game(key)
+    if drop_last:
+        g = {**g, "dates": g["dates"][:-drop_last], "nums": g["nums"][:-drop_last], "hit": g["hit"][:-drop_last]}
     dates = g["dates"] + ([extra_date] if extra_date else [])
     codes, values = common.codes_for(dates, PARAMS)
     d, k, n = len(g["dates"]), g["k"], g["n"]
@@ -124,7 +127,7 @@ def predictions(cid, last=None):
     Hx = np.vstack([H, np.zeros((d - len(H), n), np.float32)]) if d > len(H) else H
     Px = np.concatenate([G["P"], np.zeros((d - len(H),) + G["P"].shape[1:], np.float32)]) if d > len(H) else G["P"]
     Gx = np.concatenate([G["GP"], np.zeros((d - len(H),) + G["GP"].shape[1:], np.float32)]) if d > len(H) else G["GP"]
-    dprev = ex(np.ones((d, 1), np.float32))
+    dprev = ex((np.arange(d) < len(H)).astype(np.float32)[:, None])     # extra (future) rows are not history
     rows = slice(last, None) if last is not None else slice(None)
     hc = ex(Hx)[rows]
     dp = dprev[rows]
