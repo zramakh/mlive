@@ -1,0 +1,210 @@
+{
+ "toto50": {
+  "mercury_nakshatra x venus_rashi": {
+   "rec_z": 0.952,
+   "pre_rec_z": 0.591,
+   "rep_hits": 273,
+   "rep_expected": 261.36,
+   "rep_z": 0.81,
+   "test_halves": [
+    {
+     "from": "2024-03-02",
+     "to": "2025-07-26",
+     "draws": 181,
+     "hits": 127,
+     "expected": 130.3,
+     "z": -0.33
+    },
+    {
+     "from": "2025-07-27",
+     "to": "2026-10-17",
+     "draws": 182,
+     "hits": 148,
+     "expected": 131.0,
+     "z": 1.67
+    }
+   ]
+  },
+  "karana x day_pillar": {
+   "rec_z": -0.18,
+   "pre_rec_z": -0.977,
+   "rep_hits": 290,
+   "rep_expected": 286.56,
+   "rep_z": 0.229,
+   "test_halves": [
+    {
+     "from": "2024-03-02",
+     "to": "2025-06-21",
+     "draws": 199,
+     "hits": 154,
+     "expected": 143.3,
+     "z": 1.01
+    },
+    {
+     "from": "2025-06-22",
+     "to": "2026-10-17",
+     "draws": 199,
+     "hits": 157,
+     "expected": 143.3,
+     "z": 1.29
+    }
+   ]
+  }
+ },
+ "toto55": {
+  "mercury_nakshatra x venus_rashi": {
+   "rec_z": -0.009,
+   "pre_rec_z": 0.177,
+   "rep_hits": 561,
+   "rep_expected": 548.51,
+   "rep_z": 0.593,
+   "test_halves": [
+    {
+     "from": "2021-05-30",
+     "to": "2024-03-09",
+     "draws": 419,
+     "hits": 278,
+     "expected": 274.3,
+     "z": 0.25
+    },
+    {
+     "from": "2024-03-10",
+     "to": "2026-10-17",
+     "draws": 419,
+     "hits": 277,
+     "expected": 274.3,
+     "z": 0.18
+    }
+   ]
+  },
+  "karana x day_pillar": {
+   "rec_z": 1.407,
+   "pre_rec_z": 1.542,
+   "rep_hits": 589,
+   "rep_expected": 538.69,
+   "rep_z": 2.411,
+   "test_halves": [
+    {
+     "from": "2021-05-30",
+     "to": "2024-02-21",
+     "draws": 411,
+     "hits": 298,
+     "expected": 269.0,
+     "z": 1.97
+    },
+    {
+     "from": "2024-02-24",
+     "to": "2026-10-17",
+     "draws": 412,
+     "hits": 291,
+     "expected": 269.7,
+     "z": 1.44
+    }
+   ]
+  }
+ },
+ "toto58": {
+  "mercury_nakshatra x venus_rashi": {
+   "rec_z": 0.533,
+   "pre_rec_z": 0.092,
+   "rep_hits": 522,
+   "rep_expected": 507.1,
+   "rep_z": 0.731,
+   "test_halves": [
+    {
+     "from": "2021-10-26",
+     "to": "2024-03-31",
+     "draws": 408,
+     "hits": 256,
+     "expected": 253.2,
+     "z": 0.19
+    },
+    {
+     "from": "2024-04-03",
+     "to": "2026-10-17",
+     "draws": 409,
+     "hits": 261,
+     "expected": 253.9,
+     "z": 0.5
+    }
+   ]
+  },
+  "karana x day_pillar": {
+   "rec_z": -0.336,
+   "pre_rec_z": -0.379,
+   "rep_hits": 483,
+   "rep_expected": 499.66,
+   "rep_z": -0.824,
+   "test_halves": [
+    {
+     "from": "2021-10-26",
+     "to": "2024-03-16",
+     "draws": 402,
+     "hits": 236,
+     "expected": 249.5,
+     "z": -0.95
+    },
+    {
+     "from": "2024-03-17",
+     "to": "2026-10-17",
+     "draws": 403,
+     "hits": 242,
+     "expected": 250.1,
+     "z": -0.57
+    }
+   ]
+  }
+ },
+ "ml8": {
+  "mercury_nakshatra x venus_rashi": {
+   "rec_z": 0.743,
+   "pre_rec_z": -0.092,
+   "rep_hits": 643,
+   "rep_expected": 590.22,
+   "rep_z": 2.754,
+   "test_halves": [
+    {
+     "from": "2024-05-04",
+     "to": "2025-08-16",
+     "draws": 166,
+     "hits": 318,
+     "expected": 295.1,
+     "z": 1.69
+    },
+    {
+     "from": "2025-08-17",
+     "to": "2026-10-17",
+     "draws": 166,
+     "hits": 321,
+     "expected": 295.1,
+     "z": 1.91
+    }
+   ]
+  },
+  "karana x day_pillar": {
+   "rec_z": 1.677,
+   "pre_rec_z": 1.549,
+   "rep_hits": 670,
+   "rep_expected": 656.0,
+   "rep_z": 0.693,
+   "test_halves": [
+    {
+     "from": "2024-05-04",
+     "to": "2025-07-26",
+     "draws": 184,
+     "hits": 350,
+     "expected": 327.1,
+     "z": 1.6
+    },
+    {
+     "from": "2025-07-27",
+     "to": "2026-10-17",
+     "draws": 185,
+     "hits": 322,
+     "expected": 328.9,
+     "z": -0.48
+    }
+   ]
+  }
+ }
+}

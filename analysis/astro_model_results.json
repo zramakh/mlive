@@ -1,0 +1,258 @@
+{
+ "toto50": {
+  "label": "STAR TOTO 6/50",
+  "test": [
+   "2024-03-02",
+   "2026-10-17"
+  ],
+  "draws": 432,
+  "expected_matches_per_ticket": 0.72,
+  "vedic": {
+   "matches": 313,
+   "expected": 311.0,
+   "lift": 1.0063,
+   "z": 0.13,
+   "tickets_3plus": 5,
+   "tickets_3plus_expected": 7.6,
+   "top1_hit_rate": 0.1042,
+   "top1_chance": 0.12,
+   "ll_gain_per_draw": -0.10463
+  },
+  "chinese": {
+   "matches": 309,
+   "expected": 311.0,
+   "lift": 0.9934,
+   "z": -0.13,
+   "tickets_3plus": 5,
+   "tickets_3plus_expected": 7.6,
+   "top1_hit_rate": 0.1157,
+   "top1_chance": 0.12,
+   "ll_gain_per_draw": -0.04837
+  },
+  "both": {
+   "matches": 321,
+   "expected": 311.0,
+   "lift": 1.032,
+   "z": 0.64,
+   "tickets_3plus": 6,
+   "tickets_3plus_expected": 7.6,
+   "top1_hit_rate": 0.0972,
+   "top1_chance": 0.12,
+   "ll_gain_per_draw": -0.09043
+  },
+  "kernel": {
+   "matches": 329,
+   "expected": 311.0,
+   "lift": 1.0577,
+   "z": 1.15,
+   "tickets_3plus": 9,
+   "tickets_3plus_expected": 7.6,
+   "top1_hit_rate": 0.1134,
+   "top1_chance": 0.12,
+   "ll_gain_per_draw": -0.00208
+  },
+  "hot_numbers": {
+   "matches": 295,
+   "expected": 311.0,
+   "lift": 0.9484,
+   "z": -1.02,
+   "tickets_3plus": 3,
+   "tickets_3plus_expected": 7.6,
+   "top1_hit_rate": 0.0972,
+   "top1_chance": 0.12,
+   "ll_gain_per_draw": -0.03451
+  }
+ },
+ "toto55": {
+  "label": "POWER TOTO 6/55",
+  "test": [
+   "2021-05-30",
+   "2026-10-17"
+  ],
+  "draws": 857,
+  "expected_matches_per_ticket": 0.6545,
+  "vedic": {
+   "matches": 556,
+   "expected": 560.9,
+   "lift": 0.9912,
+   "z": -0.23,
+   "tickets_3plus": 15,
+   "tickets_3plus_expected": 11.4,
+   "top1_hit_rate": 0.1097,
+   "top1_chance": 0.1091,
+   "ll_gain_per_draw": -0.0568
+  },
+  "chinese": {
+   "matches": 534,
+   "expected": 560.9,
+   "lift": 0.952,
+   "z": -1.27,
+   "tickets_3plus": 13,
+   "tickets_3plus_expected": 11.4,
+   "top1_hit_rate": 0.1272,
+   "top1_chance": 0.1091,
+   "ll_gain_per_draw": -0.03392
+  },
+  "both": {
+   "matches": 538,
+   "expected": 560.9,
+   "lift": 0.9591,
+   "z": -1.08,
+   "tickets_3plus": 16,
+   "tickets_3plus_expected": 11.4,
+   "top1_hit_rate": 0.1237,
+   "top1_chance": 0.1091,
+   "ll_gain_per_draw": -0.07969
+  },
+  "kernel": {
+   "matches": 567,
+   "expected": 560.9,
+   "lift": 1.0108,
+   "z": 0.28,
+   "tickets_3plus": 14,
+   "tickets_3plus_expected": 11.4,
+   "top1_hit_rate": 0.1249,
+   "top1_chance": 0.1091,
+   "ll_gain_per_draw": -0.00019
+  },
+  "hot_numbers": {
+   "matches": 561,
+   "expected": 560.9,
+   "lift": 1.0001,
+   "z": 0.0,
+   "tickets_3plus": 16,
+   "tickets_3plus_expected": 11.4,
+   "top1_hit_rate": 0.1109,
+   "top1_chance": 0.1091,
+   "ll_gain_per_draw": -0.01122
+  }
+ },
+ "toto58": {
+  "label": "SUPREME TOTO 6/58",
+  "test": [
+   "2021-10-26",
+   "2026-10-17"
+  ],
+  "draws": 836,
+  "expected_matches_per_ticket": 0.6207,
+  "vedic": {
+   "matches": 490,
+   "expected": 518.9,
+   "lift": 0.9443,
+   "z": -1.4,
+   "tickets_3plus": 5,
+   "tickets_3plus_expected": 9.5,
+   "top1_hit_rate": 0.1005,
+   "top1_chance": 0.1034,
+   "ll_gain_per_draw": -0.02004
+  },
+  "chinese": {
+   "matches": 527,
+   "expected": 518.9,
+   "lift": 1.0156,
+   "z": 0.39,
+   "tickets_3plus": 8,
+   "tickets_3plus_expected": 9.5,
+   "top1_hit_rate": 0.0969,
+   "top1_chance": 0.1034,
+   "ll_gain_per_draw": -0.07015
+  },
+  "both": {
+   "matches": 514,
+   "expected": 518.9,
+   "lift": 0.9906,
+   "z": -0.24,
+   "tickets_3plus": 8,
+   "tickets_3plus_expected": 9.5,
+   "top1_hit_rate": 0.0861,
+   "top1_chance": 0.1034,
+   "ll_gain_per_draw": -0.14994
+  },
+  "kernel": {
+   "matches": 522,
+   "expected": 518.9,
+   "lift": 1.006,
+   "z": 0.15,
+   "tickets_3plus": 14,
+   "tickets_3plus_expected": 9.5,
+   "top1_hit_rate": 0.1017,
+   "top1_chance": 0.1034,
+   "ll_gain_per_draw": -0.00014
+  },
+  "hot_numbers": {
+   "matches": 497,
+   "expected": 518.9,
+   "lift": 0.9578,
+   "z": -1.06,
+   "tickets_3plus": 10,
+   "tickets_3plus_expected": 9.5,
+   "top1_hit_rate": 0.0933,
+   "top1_chance": 0.1034,
+   "ll_gain_per_draw": -0.00879
+  }
+ },
+ "ml8": {
+  "label": "Magnum Life 8/36",
+  "test": [
+   "2024-05-04",
+   "2026-10-17"
+  ],
+  "draws": 404,
+  "expected_matches_per_ticket": 1.7778,
+  "vedic": {
+   "matches": 724,
+   "expected": 718.2,
+   "lift": 1.008,
+   "z": 0.27,
+   "tickets_3plus": 100,
+   "tickets_3plus_expected": 95.2,
+   "top1_hit_rate": 0.2277,
+   "top1_chance": 0.2222,
+   "ll_gain_per_draw": -0.03719
+  },
+  "chinese": {
+   "matches": 746,
+   "expected": 718.2,
+   "lift": 1.0387,
+   "z": 1.31,
+   "tickets_3plus": 96,
+   "tickets_3plus_expected": 95.2,
+   "top1_hit_rate": 0.2153,
+   "top1_chance": 0.2222,
+   "ll_gain_per_draw": -0.06343
+  },
+  "both": {
+   "matches": 696,
+   "expected": 718.2,
+   "lift": 0.9691,
+   "z": -1.05,
+   "tickets_3plus": 94,
+   "tickets_3plus_expected": 95.2,
+   "top1_hit_rate": 0.2475,
+   "top1_chance": 0.2222,
+   "ll_gain_per_draw": -0.08206
+  },
+  "kernel": {
+   "matches": 720,
+   "expected": 718.2,
+   "lift": 1.0025,
+   "z": 0.08,
+   "tickets_3plus": 99,
+   "tickets_3plus_expected": 95.2,
+   "top1_hit_rate": 0.1906,
+   "top1_chance": 0.2222,
+   "ll_gain_per_draw": -0.00144
+  },
+  "hot_numbers": {
+   "matches": 740,
+   "expected": 718.2,
+   "lift": 1.0303,
+   "z": 1.03,
+   "tickets_3plus": 101,
+   "tickets_3plus_expected": 95.2,
+   "top1_hit_rate": 0.1807,
+   "top1_chance": 0.2222,
+   "ll_gain_per_draw": -0.00955
+  }
+ }
+}
