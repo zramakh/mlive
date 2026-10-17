@@ -236,6 +236,33 @@ It is logged as variant `lead_4d` in `forward_log.csv` so that future draws, whi
 has seen, can settle it. Note that its ticket for a cell only changes when Venus changes rashi
 or Mercury changes nakshatra.
 
+### How unusual is the 4D lead? (`lead_4d_robustness.py`)
+
+Because the lead was chosen on unrelated 4D data, the fair question is how its score here ranks
+among all 3,403 pairs:
+
+| | 6/50 | 6/55 | 6/58 | Life | Sum over the 4 games |
+|---|---|---|---|---|---|
+| Replication z | +0.81 | +0.59 | +0.73 | +2.75 | +4.89 |
+| Pairs scoring at least as high | 498 (15%) | 842 (25%) | 778 (23%) | 4 (0.1%) | 24 (0.7%) |
+
+* **As a pick made in advance, it is about a 1-in-140 result,** or about 1 in 70 counting both
+  4D leads that were tried. That is unusual, but it comes almost entirely from one game. In the
+  three Toto games it is an ordinary pair.
+* **No pair is consistently good across games.** The correlation of pairs' replication z
+  between any two games is −0.05 to +0.06. If some parameter combinations really steered
+  numbers, the same pairs would tend to score well in several games.
+* **Other pairs score much higher by chance.** The best real pair over the four games (paksha ×
+  solar term, sum +8.01) and the best pair on every shifted calendar (+6.0 to +8.2) are far above
+  +4.89.
+* **The Magnum Life result depends on the cut-off date.** Learned on the first 70% or 80% of
+  draws, z = +2.0 to +3.4 for tickets of 4–12 numbers. Learned on the first 60% (and so tested on
+  more draws), z = +0.4 to +1.3. Updated draw by draw, z = +0.83, which is 17% of pairs. A
+  stable effect would not depend on where the line is drawn.
+
+So the lead is a genuinely low-probability coincidence, roughly 1 in 70–140, but it is not
+evidence of a mechanism. The forward log will show whether it continues.
+
 ## 7. Our own lead search: hot, cold, positional and gap patterns (`own_leads.py`)
 
 The leads in section 6 came from the 4D project. This section finds leads from scratch, using
@@ -342,6 +369,7 @@ python3 analysis/astro_model.py tune      # rewrites the frozen formulas: only t
 python3 analysis/astro_model.py test      # ~2 min
 python3 analysis/lead_4d_check.py
 python3 analysis/own_leads.py             # ~15 min on 4 cores
+python3 analysis/lead_4d_robustness.py    # ~30 s, after own_leads.py
 python3 analysis/astro_model.py predict --date 2026-10-21
 ```
 

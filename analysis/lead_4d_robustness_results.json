@@ -1,0 +1,378 @@
+{
+ "rank": {
+  "4D lead #1": {
+   "toto50": {
+    "z": 0.81,
+    "pairs_at_least_as_high": 498,
+    "share": 0.1463
+   },
+   "toto55": {
+    "z": 0.593,
+    "pairs_at_least_as_high": 842,
+    "share": 0.2474
+   },
+   "toto58": {
+    "z": 0.731,
+    "pairs_at_least_as_high": 778,
+    "share": 0.2286
+   },
+   "ml8": {
+    "z": 2.754,
+    "pairs_at_least_as_high": 4,
+    "share": 0.0012
+   },
+   "sum_over_games": {
+    "z_sum": 4.89,
+    "pairs_at_least_as_high": 24,
+    "share": 0.0071,
+    "shifted_best_z_sum": [
+     7.15,
+     6.01,
+     6.55,
+     8.08,
+     7.04,
+     7.05,
+     6.66,
+     7.72,
+     8.15,
+     7.25
+    ],
+    "real_best_z_sum": 8.01,
+    "real_best_pair": "paksha x solar_term"
+   }
+  },
+  "4D lead #2": {
+   "toto50": {
+    "z": 0.229,
+    "pairs_at_least_as_high": 1174,
+    "share": 0.345
+   },
+   "toto55": {
+    "z": 2.411,
+    "pairs_at_least_as_high": 26,
+    "share": 0.0076
+   },
+   "toto58": {
+    "z": -0.824,
+    "pairs_at_least_as_high": 2711,
+    "share": 0.7967
+   },
+   "ml8": {
+    "z": 0.693,
+    "pairs_at_least_as_high": 728,
+    "share": 0.2139
+   },
+   "sum_over_games": {
+    "z_sum": 2.51,
+    "pairs_at_least_as_high": 257,
+    "share": 0.0755,
+    "shifted_best_z_sum": [
+     7.15,
+     6.01,
+     6.55,
+     8.08,
+     7.04,
+     7.05,
+     6.66,
+     7.72,
+     8.15,
+     7.25
+    ],
+    "real_best_z_sum": 8.01,
+    "real_best_pair": "paksha x solar_term"
+   }
+  }
+ },
+ "cross_game": {
+  "toto50~toto55": {
+   "real": -0.054,
+   "shifted": [
+    -0.02,
+    -0.068,
+    -0.005,
+    0.08,
+    -0.005,
+    0.051,
+    0.063,
+    0.052,
+    -0.037,
+    0.051
+   ]
+  },
+  "toto50~toto58": {
+   "real": 0.06,
+   "shifted": [
+    -0.004,
+    0.057,
+    0.079,
+    0.019,
+    0.034,
+    0.032,
+    -0.017,
+    0.021,
+    0.067,
+    0.012
+   ]
+  },
+  "toto50~ml8": {
+   "real": 0.032,
+   "shifted": [
+    -0.024,
+    0.037,
+    0.008,
+    0.074,
+    -0.085,
+    -0.009,
+    0.03,
+    0.042,
+    0.041,
+    0.002
+   ]
+  },
+  "toto55~toto58": {
+   "real": 0.016,
+   "shifted": [
+    0.051,
+    -0.019,
+    -0.007,
+    -0.04,
+    -0.001,
+    -0.037,
+    -0.031,
+    -0.006,
+    0.03,
+    0.012
+   ]
+  },
+  "toto55~ml8": {
+   "real": -0.024,
+   "shifted": [
+    0.019,
+    -0.083,
+    -0.035,
+    0.04,
+    0.061,
+    -0.02,
+    0.001,
+    0.055,
+    0.0,
+    -0.013
+   ]
+  },
+  "toto58~ml8": {
+   "real": 0.033,
+   "shifted": [
+    -0.005,
+    0.053,
+    -0.001,
+    -0.027,
+    0.079,
+    -0.059,
+    0.005,
+    0.035,
+    0.053,
+    0.003
+   ]
+  }
+ },
+ "robustness": {
+  "ml8": {
+   "ticket 4, learned on first 60%": {
+    "draws": 410,
+    "hits": 373,
+    "expected": 364.4,
+    "z": 0.53
+   },
+   "ticket 4, learned on first 70%": {
+    "draws": 332,
+    "hits": 329,
+    "expected": 295.1,
+    "z": 2.34
+   },
+   "ticket 4, learned on first 80%": {
+    "draws": 239,
+    "hits": 246,
+    "expected": 212.4,
+    "z": 2.73
+   },
+   "ticket 6, learned on first 60%": {
+    "draws": 410,
+    "hits": 565,
+    "expected": 546.7,
+    "z": 0.96
+   },
+   "ticket 6, learned on first 70%": {
+    "draws": 332,
+    "hits": 477,
+    "expected": 442.7,
+    "z": 2.0
+   },
+   "ticket 6, learned on first 80%": {
+    "draws": 239,
+    "hits": 368,
+    "expected": 318.7,
+    "z": 3.38
+   },
+   "ticket 8, learned on first 60%": {
+    "draws": 410,
+    "hits": 738,
+    "expected": 728.9,
+    "z": 0.43
+   },
+   "ticket 8, learned on first 70%": {
+    "draws": 332,
+    "hits": 629,
+    "expected": 590.2,
+    "z": 2.02
+   },
+   "ticket 8, learned on first 80%": {
+    "draws": 239,
+    "hits": 467,
+    "expected": 424.9,
+    "z": 2.59
+   },
+   "ticket 10, learned on first 60%": {
+    "draws": 410,
+    "hits": 928,
+    "expected": 911.1,
+    "z": 0.74
+   },
+   "ticket 10, learned on first 70%": {
+    "draws": 332,
+    "hits": 790,
+    "expected": 737.8,
+    "z": 2.53
+   },
+   "ticket 10, learned on first 80%": {
+    "draws": 239,
+    "hits": 568,
+    "expected": 531.1,
+    "z": 2.11
+   },
+   "ticket 12, learned on first 60%": {
+    "draws": 410,
+    "hits": 1124,
+    "expected": 1093.3,
+    "z": 1.27
+   },
+   "ticket 12, learned on first 70%": {
+    "draws": 332,
+    "hits": 941,
+    "expected": 885.3,
+    "z": 2.56
+   },
+   "ticket 12, learned on first 80%": {
+    "draws": 239,
+    "hits": 687,
+    "expected": 637.3,
+    "z": 2.69
+   }
+  }
+ },
+ "walk_forward_rank": {
+  "toto50": {
+   "hot": {
+    "z": 0.16,
+    "share_of_pairs_at_least_as_high": 0.326
+   },
+   "cold": {
+    "z": 0.1,
+    "share_of_pairs_at_least_as_high": 0.554
+   },
+   "pos": {
+    "z": 0.29,
+    "share_of_pairs_at_least_as_high": 0.277
+   },
+   "gap": {
+    "z": 2.57,
+    "share_of_pairs_at_least_as_high": 0.003
+   },
+   "pos_hit": {
+    "z": 0.25,
+    "share_of_pairs_at_least_as_high": 0.096
+   },
+   "gap_hit": {
+    "z": -2.73,
+    "share_of_pairs_at_least_as_high": 0.76
+   }
+  },
+  "toto55": {
+   "hot": {
+    "z": -0.68,
+    "share_of_pairs_at_least_as_high": 0.69
+   },
+   "cold": {
+    "z": 0.31,
+    "share_of_pairs_at_least_as_high": 0.46
+   },
+   "pos": {
+    "z": -0.87,
+    "share_of_pairs_at_least_as_high": 0.772
+   },
+   "gap": {
+    "z": -0.77,
+    "share_of_pairs_at_least_as_high": 0.753
+   },
+   "pos_hit": {
+    "z": -2.1,
+    "share_of_pairs_at_least_as_high": 0.71
+   },
+   "gap_hit": {
+    "z": -1.7,
+    "share_of_pairs_at_least_as_high": 0.356
+   }
+  },
+  "toto58": {
+   "hot": {
+    "z": 0.22,
+    "share_of_pairs_at_least_as_high": 0.431
+   },
+   "cold": {
+    "z": -1.15,
+    "share_of_pairs_at_least_as_high": 0.805
+   },
+   "pos": {
+    "z": 0.46,
+    "share_of_pairs_at_least_as_high": 0.294
+   },
+   "gap": {
+    "z": -0.51,
+    "share_of_pairs_at_least_as_high": 0.578
+   },
+   "pos_hit": {
+    "z": -2.14,
+    "share_of_pairs_at_least_as_high": 0.533
+   },
+   "gap_hit": {
+    "z": -3.47,
+    "share_of_pairs_at_least_as_high": 0.594
+   }
+  },
+  "ml8": {
+   "hot": {
+    "z": 0.83,
+    "share_of_pairs_at_least_as_high": 0.165
+   },
+   "cold": {
+    "z": -1.15,
+    "share_of_pairs_at_least_as_high": 0.886
+   },
+   "pos": {
+    "z": 0.06,
+    "share_of_pairs_at_least_as_high": 0.597
+   },
+   "gap": {
+    "z": -1.58,
+    "share_of_pairs_at_least_as_high": 0.955
+   },
+   "pos_hit": {
+    "z": -4.74,
+    "share_of_pairs_at_least_as_high": 0.938
+   },
+   "gap_hit": {
+    "z": -4.91,
+    "share_of_pairs_at_least_as_high": 0.787
+   }
+  }
+ }
+}
