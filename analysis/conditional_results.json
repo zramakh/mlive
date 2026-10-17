@@ -1,0 +1,4993 @@
+{
+ "toto50": {
+  "label": "STAR TOTO 6/50",
+  "test_from": "2024-03-02",
+  "singles": {
+   "max_rec_z": 2.34,
+   "n_rec_z_gt3": 0,
+   "mean_rec_z": -0.377,
+   "max_rep_z": 1.78,
+   "mean_rep_z": -0.283,
+   "rep_lift": 0.9851,
+   "best_assoc_z": 4.56,
+   "tests": 83,
+   "shifted": {
+    "max_rec_z": [
+     2.55,
+     1.35,
+     2.4,
+     1.36,
+     1.83,
+     2.1,
+     2.08,
+     1.4,
+     1.49,
+     1.74,
+     1.65,
+     1.41,
+     2.72,
+     1.16,
+     2.52,
+     1.43,
+     1.32,
+     1.73,
+     1.85,
+     2.22
+    ],
+    "n_rec_z_gt3": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "mean_rec_z": [
+     -0.278,
+     -0.4,
+     -0.283,
+     -0.399,
+     -0.357,
+     -0.197,
+     -0.236,
+     -0.317,
+     -0.425,
+     -0.588,
+     -0.41,
+     -0.483,
+     -0.225,
+     -0.558,
+     -0.511,
+     -0.678,
+     -0.511,
+     -0.366,
+     -0.318,
+     -0.297
+    ],
+    "max_rep_z": [
+     2.57,
+     2.23,
+     1.53,
+     2.42,
+     2.68,
+     2.17,
+     2.17,
+     2.1,
+     1.98,
+     1.72,
+     1.78,
+     2.82,
+     2.17,
+     2.23,
+     1.53,
+     1.98,
+     1.4,
+     2.42,
+     2.19,
+     2.33
+    ],
+    "mean_rep_z": [
+     -0.21,
+     -0.461,
+     -0.393,
+     -0.237,
+     -0.211,
+     -0.278,
+     -0.105,
+     0.112,
+     -0.273,
+     -0.183,
+     -0.559,
+     -0.509,
+     -0.357,
+     -0.177,
+     -0.313,
+     -0.551,
+     -0.306,
+     -0.16,
+     -0.238,
+     -0.193
+    ],
+    "rep_lift": [
+     0.9891,
+     0.9767,
+     0.9793,
+     0.9874,
+     0.9881,
+     0.9849,
+     0.995,
+     1.0059,
+     0.986,
+     0.9904,
+     0.9714,
+     0.9726,
+     0.9815,
+     0.9914,
+     0.9839,
+     0.97,
+     0.9856,
+     0.992,
+     0.9869,
+     0.9906
+    ],
+    "best_assoc_z": [
+     4.38,
+     4.57,
+     4.36,
+     4.62,
+     4.39,
+     4.38,
+     4.87,
+     4.62,
+     4.38,
+     4.38,
+     4.38,
+     4.46,
+     5.29,
+     5.04,
+     4.56,
+     4.91,
+     4.68,
+     4.71,
+     5.03,
+     4.62
+    ]
+   },
+   "real_beats_shifts": {
+    "max_rec_z": 16,
+    "n_rec_z_gt3": 0,
+    "mean_rec_z": 10,
+    "max_rep_z": 4,
+    "mean_rep_z": 8,
+    "rep_lift": 8,
+    "best_assoc_z": 8
+   },
+   "top_recurrence": [
+    {
+     "params": "lunar_month",
+     "rec_z": 2.341,
+     "pre_rec_z": 1.861,
+     "rep_hits": 314,
+     "rep_expected": 311.04,
+     "rep_z": 0.189,
+     "best": {
+      "z": 3.47,
+      "number": 34,
+      "wins": 30,
+      "expected": 16.08,
+      "draws": 134,
+      "first_draw": 60
+     }
+    },
+    {
+     "params": "sun_rashi",
+     "rec_z": 1.462,
+     "pre_rec_z": 1.614,
+     "rep_hits": 306,
+     "rep_expected": 311.04,
+     "rep_z": -0.321,
+     "best": {
+      "z": 3.49,
+      "number": 1,
+      "wins": 28,
+      "expected": 14.64,
+      "draws": 122,
+      "first_draw": 28
+     }
+    },
+    {
+     "params": "lagna_rashi",
+     "rec_z": 1.334,
+     "pre_rec_z": 1.829,
+     "rep_hits": 328,
+     "rep_expected": 311.04,
+     "rep_z": 1.082,
+     "best": {
+      "z": 3.14,
+      "number": 1,
+      "wins": 29,
+      "expected": 16.32,
+      "draws": 136,
+      "first_draw": 29
+     }
+    },
+    {
+     "params": "kp_sun_sub_lord",
+     "rec_z": 1.257,
+     "pre_rec_z": 0.588,
+     "rep_hits": 317,
+     "rep_expected": 311.04,
+     "rep_z": 0.38,
+     "best": {
+      "z": 3.78,
+      "number": 17,
+      "wins": 43,
+      "expected": 24.36,
+      "draws": 203,
+      "first_draw": 9
+     }
+    },
+    {
+     "params": "month_pillar",
+     "rec_z": 1.22,
+     "pre_rec_z": 1.271,
+     "rep_hits": 261,
+     "rep_expected": 259.2,
+     "rep_z": 0.126,
+     "best": {
+      "z": 4.17,
+      "number": 23,
+      "wins": 11,
+      "expected": 3.36,
+      "draws": 28,
+      "first_draw": 174
+     }
+    },
+    {
+     "params": "month",
+     "rec_z": 1.094,
+     "pre_rec_z": 1.231,
+     "rep_hits": 316,
+     "rep_expected": 311.04,
+     "rep_z": 0.316,
+     "best": {
+      "z": 2.84,
+      "number": 50,
+      "wins": 23,
+      "expected": 12.84,
+      "draws": 107,
+      "first_draw": 82
+     }
+    },
+    {
+     "params": "mercury_rashi",
+     "rec_z": 0.974,
+     "pre_rec_z": 0.459,
+     "rep_hits": 337,
+     "rep_expected": 311.04,
+     "rep_z": 1.656,
+     "best": {
+      "z": 3.06,
+      "number": 49,
+      "wins": 27,
+      "expected": 15.12,
+      "draws": 126,
+      "first_draw": 49
+     }
+    },
+    {
+     "params": "jupiter_nakshatra",
+     "rec_z": 0.834,
+     "pre_rec_z": 1.571,
+     "rep_hits": 14,
+     "rep_expected": 15.12,
+     "rep_z": -0.324,
+     "best": {
+      "z": 3.1,
+      "number": 43,
+      "wins": 21,
+      "expected": 10.8,
+      "draws": 90,
+      "first_draw": 540
+     }
+    },
+    {
+     "params": "kp_sun_number",
+     "rec_z": 0.819,
+     "pre_rec_z": 0.493,
+     "rep_hits": 324,
+     "rep_expected": 306.0,
+     "rep_z": 1.158,
+     "best": {
+      "z": 3.47,
+      "number": 2,
+      "wins": 5,
+      "expected": 1.2,
+      "draws": 10,
+      "first_draw": 5
+     }
+    },
+    {
+     "params": "nayin",
+     "rec_z": 0.778,
+     "pre_rec_z": 0.087,
+     "rep_hits": 315,
+     "rep_expected": 311.04,
+     "rep_z": 0.253,
+     "best": {
+      "z": 3.76,
+      "number": 29,
+      "wins": 15,
+      "expected": 5.88,
+      "draws": 49,
+      "first_draw": 13
+     }
+    }
+   ],
+   "top_replication": [
+    {
+     "params": "kp_asc_star_lord",
+     "rec_z": -0.275,
+     "pre_rec_z": -0.668,
+     "rep_hits": 339,
+     "rep_expected": 311.04,
+     "rep_z": 1.783,
+     "best": {
+      "z": 3.38,
+      "number": 1,
+      "wins": 34,
+      "expected": 19.2,
+      "draws": 160,
+      "first_draw": 32
+     }
+    },
+    {
+     "params": "mercury_rashi",
+     "rec_z": 0.974,
+     "pre_rec_z": 0.459,
+     "rep_hits": 337,
+     "rep_expected": 311.04,
+     "rep_z": 1.656,
+     "best": {
+      "z": 3.06,
+      "number": 49,
+      "wins": 27,
+      "expected": 15.12,
+      "draws": 126,
+      "first_draw": 49
+     }
+    },
+    {
+     "params": "month_branch",
+     "rec_z": 0.511,
+     "pre_rec_z": 0.094,
+     "rep_hits": 334,
+     "rep_expected": 311.04,
+     "rep_z": 1.465,
+     "best": {
+      "z": 3.71,
+      "number": 38,
+      "wins": 29,
+      "expected": 14.76,
+      "draws": 123,
+      "first_draw": 25
+     }
+    },
+    {
+     "params": "nakshatra",
+     "rec_z": -0.762,
+     "pre_rec_z": -0.349,
+     "rep_hits": 332,
+     "rep_expected": 311.04,
+     "rep_z": 1.337,
+     "best": {
+      "z": 3.43,
+      "number": 42,
+      "wins": 15,
+      "expected": 6.36,
+      "draws": 53,
+      "first_draw": 34
+     }
+    },
+    {
+     "params": "kp_sun_number",
+     "rec_z": 0.819,
+     "pre_rec_z": 0.493,
+     "rep_hits": 324,
+     "rep_expected": 306.0,
+     "rep_z": 1.158,
+     "best": {
+      "z": 3.47,
+      "number": 2,
+      "wins": 5,
+      "expected": 1.2,
+      "draws": 10,
+      "first_draw": 5
+     }
+    },
+    {
+     "params": "lagna_rashi",
+     "rec_z": 1.334,
+     "pre_rec_z": 1.829,
+     "rep_hits": 328,
+     "rep_expected": 311.04,
+     "rep_z": 1.082,
+     "best": {
+      "z": 3.14,
+      "number": 1,
+      "wins": 29,
+      "expected": 16.32,
+      "draws": 136,
+      "first_draw": 29
+     }
+    },
+    {
+     "params": "kp_asc_sub_lord",
+     "rec_z": 0.737,
+     "pre_rec_z": -0.006,
+     "rep_hits": 326,
+     "rep_expected": 311.04,
+     "rep_z": 0.954,
+     "best": {
+      "z": 3.01,
+      "number": 42,
+      "wins": 20,
+      "expected": 10.32,
+      "draws": 86,
+      "first_draw": 16
+     }
+    },
+    {
+     "params": "ritu",
+     "rec_z": 0.119,
+     "pre_rec_z": 0.165,
+     "rep_hits": 325,
+     "rep_expected": 311.04,
+     "rep_z": 0.89,
+     "best": {
+      "z": 2.56,
+      "number": 8,
+      "wins": 43,
+      "expected": 29.16,
+      "draws": 243,
+      "first_draw": 144
+     }
+    },
+    {
+     "params": "weekday",
+     "rec_z": -1.513,
+     "pre_rec_z": -0.777,
+     "rep_hits": 324,
+     "rep_expected": 311.04,
+     "rep_z": 0.827,
+     "best": {
+      "z": 3.38,
+      "number": 29,
+      "wins": 26,
+      "expected": 13.56,
+      "draws": 113,
+      "first_draw": 5
+     }
+    },
+    {
+     "params": "saturn_retrograde",
+     "rec_z": -0.518,
+     "pre_rec_z": 0.614,
+     "rep_hits": 323,
+     "rep_expected": 311.04,
+     "rep_z": 0.763,
+     "best": {
+      "z": 2.18,
+      "number": 49,
+      "wins": 137,
+      "expected": 113.76,
+      "draws": 948,
+      "first_draw": 0
+     }
+    }
+   ],
+   "top_associations": [
+    {
+     "params": "tithi",
+     "z": 4.56,
+     "number": 3,
+     "wins": 16,
+     "expected": 5.4,
+     "draws": 45,
+     "first_draw": "2017-10-31"
+    },
+    {
+     "params": "sun_nakshatra",
+     "z": 4.31,
+     "number": 1,
+     "wins": 17,
+     "expected": 6.24,
+     "draws": 52,
+     "first_draw": "2017-12-30"
+    },
+    {
+     "params": "month_pillar",
+     "z": 4.17,
+     "number": 23,
+     "wins": 11,
+     "expected": 3.36,
+     "draws": 28,
+     "first_draw": "2018-10-10"
+    },
+    {
+     "params": "nakshatra_pada",
+     "z": 4.1,
+     "number": 15,
+     "wins": 7,
+     "expected": 1.68,
+     "draws": 14,
+     "first_draw": "2020-01-15"
+    },
+    {
+     "params": "mars_nakshatra",
+     "z": 4.08,
+     "number": 49,
+     "wins": 16,
+     "expected": 6.0,
+     "draws": 50,
+     "first_draw": "2018-02-13"
+    },
+    {
+     "params": "lagna_nakshatra",
+     "z": 4.08,
+     "number": 1,
+     "wins": 19,
+     "expected": 7.68,
+     "draws": 64,
+     "first_draw": "2017-12-24"
+    },
+    {
+     "params": "mercury_nakshatra",
+     "z": 3.93,
+     "number": 16,
+     "wins": 21,
+     "expected": 9.12,
+     "draws": 76,
+     "first_draw": "2017-11-04"
+    },
+    {
+     "params": "day_of_month",
+     "z": 3.85,
+     "number": 35,
+     "wins": 15,
+     "expected": 5.76,
+     "draws": 48,
+     "first_draw": "2017-12-20"
+    },
+    {
+     "params": "kp_moon_number",
+     "z": 3.8,
+     "number": 35,
+     "wins": 6,
+     "expected": 1.44,
+     "draws": 12,
+     "first_draw": "2018-01-27"
+    },
+    {
+     "params": "kp_asc_number",
+     "z": 3.8,
+     "number": 49,
+     "wins": 6,
+     "expected": 1.44,
+     "draws": 12,
+     "first_draw": "2017-12-30"
+    }
+   ],
+   "walk_forward_leads": [
+    {
+     "params": "day_officer",
+     "pre_rec_z": 2.593,
+     "test_rep_hits": 298,
+     "test_rep_expected": 311.04,
+     "test_rep_z": -0.832
+    },
+    {
+     "params": "ayana",
+     "pre_rec_z": 1.906,
+     "test_rep_hits": 312,
+     "test_rep_expected": 311.04,
+     "test_rep_z": 0.061
+    },
+    {
+     "params": "lunar_month",
+     "pre_rec_z": 1.861,
+     "test_rep_hits": 314,
+     "test_rep_expected": 311.04,
+     "test_rep_z": 0.189
+    },
+    {
+     "params": "day_element",
+     "pre_rec_z": 1.847,
+     "test_rep_hits": 302,
+     "test_rep_expected": 311.04,
+     "test_rep_z": -0.577
+    },
+    {
+     "params": "lagna_rashi",
+     "pre_rec_z": 1.829,
+     "test_rep_hits": 328,
+     "test_rep_expected": 311.04,
+     "test_rep_z": 1.082
+    }
+   ]
+  },
+  "pairs": {
+   "max_rec_z": 3.33,
+   "n_rec_z_gt3": 2,
+   "mean_rec_z": -0.242,
+   "max_rep_z": 3.25,
+   "mean_rep_z": -0.141,
+   "rep_lift": 0.9909,
+   "best_assoc_z": 6.68,
+   "tests": 3403,
+   "shifted": {
+    "max_rec_z": [
+     3.54,
+     3.79,
+     3.66,
+     3.97,
+     3.47,
+     2.96,
+     3.29,
+     3.06,
+     4.09,
+     3.02,
+     2.91,
+     2.92,
+     3.46,
+     3.12,
+     3.25,
+     2.42,
+     2.96,
+     2.9,
+     2.98,
+     3.02
+    ],
+    "n_rec_z_gt3": [
+     5,
+     4,
+     2,
+     3,
+     1,
+     0,
+     3,
+     3,
+     1,
+     1,
+     0,
+     0,
+     5,
+     1,
+     1,
+     0,
+     0,
+     0,
+     0,
+     1
+    ],
+    "mean_rec_z": [
+     -0.121,
+     -0.167,
+     -0.076,
+     -0.212,
+     -0.193,
+     -0.012,
+     0.007,
+     -0.111,
+     -0.335,
+     -0.423,
+     -0.271,
+     -0.327,
+     -0.042,
+     -0.36,
+     -0.315,
+     -0.438,
+     -0.278,
+     -0.169,
+     -0.141,
+     -0.198
+    ],
+    "max_rep_z": [
+     3.44,
+     3.38,
+     3.16,
+     3.94,
+     3.31,
+     3.45,
+     3.8,
+     3.83,
+     4.0,
+     3.12,
+     3.67,
+     4.13,
+     3.38,
+     3.06,
+     3.59,
+     3.01,
+     3.73,
+     3.46,
+     3.44,
+     3.44
+    ],
+    "mean_rep_z": [
+     -0.017,
+     -0.256,
+     -0.189,
+     -0.02,
+     -0.112,
+     -0.101,
+     -0.122,
+     0.06,
+     -0.126,
+     -0.127,
+     -0.376,
+     -0.233,
+     -0.133,
+     -0.051,
+     -0.146,
+     -0.379,
+     -0.1,
+     -0.095,
+     -0.087,
+     -0.068
+    ],
+    "rep_lift": [
+     0.9996,
+     0.9852,
+     0.9887,
+     0.9985,
+     0.9921,
+     0.994,
+     0.9939,
+     1.0042,
+     0.9929,
+     0.992,
+     0.9787,
+     0.9849,
+     0.9922,
+     0.9968,
+     0.9916,
+     0.9781,
+     0.9957,
+     0.9934,
+     0.9938,
+     0.9963
+    ],
+    "best_assoc_z": [
+     6.86,
+     6.3,
+     6.21,
+     6.2,
+     5.83,
+     6.68,
+     6.68,
+     6.21,
+     5.81,
+     5.81,
+     6.11,
+     6.21,
+     6.16,
+     5.96,
+     6.21,
+     6.11,
+     6.42,
+     6.48,
+     6.11,
+     6.21
+    ]
+   },
+   "real_beats_shifts": {
+    "max_rec_z": 13,
+    "n_rec_z_gt3": 13,
+    "mean_rec_z": 8,
+    "max_rep_z": 4,
+    "mean_rep_z": 6,
+    "rep_lift": 5,
+    "best_assoc_z": 17
+   },
+   "top_recurrence": [
+    {
+     "params": "paksha x lunar_month",
+     "rec_z": 3.331,
+     "pre_rec_z": 2.279,
+     "rep_hits": 326,
+     "rep_expected": 311.04,
+     "rep_z": 0.954,
+     "best": {
+      "z": 3.94,
+      "number": 19,
+      "wins": 19,
+      "expected": 7.92,
+      "draws": 66,
+      "first_draw": 75
+     }
+    },
+    {
+     "params": "lagna_rashi x lunar_month",
+     "rec_z": 3.262,
+     "pre_rec_z": 3.062,
+     "rep_hits": 302,
+     "rep_expected": 308.16,
+     "rep_z": -0.395,
+     "best": {
+      "z": 3.73,
+      "number": 34,
+      "wins": 19,
+      "expected": 8.28,
+      "draws": 69,
+      "first_draw": 60
+     }
+    },
+    {
+     "params": "mercury_rashi x month_pillar",
+     "rec_z": 2.996,
+     "pre_rec_z": 2.275,
+     "rep_hits": 206,
+     "rep_expected": 192.24,
+     "rep_z": 1.116,
+     "best": {
+      "z": 3.8,
+      "number": 33,
+      "wins": 6,
+      "expected": 1.44,
+      "draws": 12,
+      "first_draw": 163
+     }
+    },
+    {
+     "params": "sun_rashi x lunar_month",
+     "rec_z": 2.931,
+     "pre_rec_z": 2.419,
+     "rep_hits": 310,
+     "rep_expected": 303.12,
+     "rep_z": 0.445,
+     "best": {
+      "z": 3.3,
+      "number": 14,
+      "wins": 20,
+      "expected": 9.72,
+      "draws": 81,
+      "first_draw": 116
+     }
+    },
+    {
+     "params": "venus_retrograde x lunar_month",
+     "rec_z": 2.715,
+     "pre_rec_z": 1.992,
+     "rep_hits": 323,
+     "rep_expected": 298.08,
+     "rep_z": 1.624,
+     "best": {
+      "z": 4.38,
+      "number": 3,
+      "wins": 6,
+      "expected": 1.2,
+      "draws": 10,
+      "first_draw": 915
+     }
+    },
+    {
+     "params": "day_element x day_officer",
+     "rec_z": 2.714,
+     "pre_rec_z": 4.029,
+     "rep_hits": 302,
+     "rep_expected": 311.04,
+     "rep_z": -0.577,
+     "best": {
+      "z": 3.61,
+      "number": 47,
+      "wins": 9,
+      "expected": 2.88,
+      "draws": 24,
+      "first_draw": 13
+     }
+    },
+    {
+     "params": "lagna_rashi x kp_sun_sub_lord",
+     "rec_z": 2.522,
+     "pre_rec_z": 1.706,
+     "rep_hits": 333,
+     "rep_expected": 310.32,
+     "rep_z": 1.448,
+     "best": {
+      "z": 4.2,
+      "number": 3,
+      "wins": 10,
+      "expected": 2.88,
+      "draws": 24,
+      "first_draw": 157
+     }
+    },
+    {
+     "params": "mars_nakshatra x day_pillar",
+     "rec_z": 2.459,
+     "pre_rec_z": 1.825,
+     "rep_hits": 116,
+     "rep_expected": 102.96,
+     "rep_z": 1.446,
+     "best": null
+    },
+    {
+     "params": "lunar_month x hour_stem_19h",
+     "rec_z": 2.453,
+     "pre_rec_z": 2.855,
+     "rep_hits": 318,
+     "rep_expected": 311.04,
+     "rep_z": 0.444,
+     "best": {
+      "z": 4.71,
+      "number": 17,
+      "wins": 10,
+      "expected": 2.52,
+      "draws": 21,
+      "first_draw": 105
+     }
+    },
+    {
+     "params": "ayana x kp_sun_sub_lord",
+     "rec_z": 2.419,
+     "pre_rec_z": 1.453,
+     "rep_hits": 311,
+     "rep_expected": 311.04,
+     "rep_z": -0.003,
+     "best": {
+      "z": 3.6,
+      "number": 2,
+      "wins": 25,
+      "expected": 12.36,
+      "draws": 103,
+      "first_draw": 5
+     }
+    }
+   ],
+   "top_replication": [
+    {
+     "params": "solar_term x hour_stem_19h",
+     "rec_z": 1.275,
+     "pre_rec_z": 0.026,
+     "rep_hits": 362,
+     "rep_expected": 311.04,
+     "rep_z": 3.251,
+     "best": {
+      "z": 4.63,
+      "number": 49,
+      "wins": 7,
+      "expected": 1.44,
+      "draws": 12,
+      "first_draw": 35
+     }
+    },
+    {
+     "params": "hora_lord x year_element",
+     "rec_z": -0.764,
+     "pre_rec_z": -0.689,
+     "rep_hits": 333,
+     "rep_expected": 285.12,
+     "rep_z": 3.19,
+     "best": {
+      "z": 3.8,
+      "number": 44,
+      "wins": 6,
+      "expected": 1.44,
+      "draws": 12,
+      "first_draw": 1108
+     }
+    },
+    {
+     "params": "mars_retrograde x kp_asc_star_lord",
+     "rec_z": 0.723,
+     "pre_rec_z": -0.12,
+     "rep_hits": 355,
+     "rep_expected": 311.04,
+     "rep_z": 2.804,
+     "best": {
+      "z": 3.38,
+      "number": 32,
+      "wins": 32,
+      "expected": 17.76,
+      "draws": 148,
+      "first_draw": 4
+     }
+    },
+    {
+     "params": "yoga x kp_sun_star_lord",
+     "rec_z": 0.838,
+     "pre_rec_z": -1.708,
+     "rep_hits": 354,
+     "rep_expected": 311.04,
+     "rep_z": 2.74,
+     "best": {
+      "z": 3.47,
+      "number": 29,
+      "wins": 5,
+      "expected": 1.2,
+      "draws": 10,
+      "first_draw": 78
+     }
+    },
+    {
+     "params": "kp_moon_sub_lord x month_branch",
+     "rec_z": 1.246,
+     "pre_rec_z": -1.582,
+     "rep_hits": 350,
+     "rep_expected": 308.88,
+     "rep_z": 2.632,
+     "best": {
+      "z": 3.55,
+      "number": 38,
+      "wins": 6,
+      "expected": 1.56,
+      "draws": 13,
+      "first_draw": 213
+     }
+    },
+    {
+     "params": "hora_lord x nayin",
+     "rec_z": 0.596,
+     "pre_rec_z": -0.546,
+     "rep_hits": 346,
+     "rep_expected": 305.28,
+     "rep_z": 2.622,
+     "best": {
+      "z": 4.1,
+      "number": 43,
+      "wins": 7,
+      "expected": 1.68,
+      "draws": 14,
+      "first_draw": 104
+     }
+    },
+    {
+     "params": "mercury_retrograde x solar_term",
+     "rec_z": 0.211,
+     "pre_rec_z": -1.09,
+     "rep_hits": 351,
+     "rep_expected": 311.04,
+     "rep_z": 2.549,
+     "best": {
+      "z": 4.65,
+      "number": 5,
+      "wins": 9,
+      "expected": 2.16,
+      "draws": 18,
+      "first_draw": 301
+     }
+    },
+    {
+     "params": "saturn_nakshatra x moon_navamsa",
+     "rec_z": -0.248,
+     "pre_rec_z": -0.219,
+     "rep_hits": 52,
+     "rep_expected": 38.16,
+     "rep_z": 2.52,
+     "best": {
+      "z": 3.8,
+      "number": 21,
+      "wins": 6,
+      "expected": 1.44,
+      "draws": 12,
+      "first_draw": 79
+     }
+    },
+    {
+     "params": "mercury_rashi x jupiter_retrograde",
+     "rec_z": 0.345,
+     "pre_rec_z": -0.564,
+     "rep_hits": 325,
+     "rep_expected": 288.0,
+     "rep_z": 2.453,
+     "best": {
+      "z": 3.85,
+      "number": 14,
+      "wins": 13,
+      "expected": 4.68,
+      "draws": 39,
+      "first_draw": 121
+     }
+    },
+    {
+     "params": "paksha x saturn_rashi",
+     "rec_z": -0.528,
+     "pre_rec_z": 0.414,
+     "rep_hits": 152,
+     "rep_expected": 127.44,
+     "rep_z": 2.447,
+     "best": {
+      "z": 2.5,
+      "number": 7,
+      "wins": 37,
+      "expected": 24.6,
+      "draws": 205,
+      "first_draw": 690
+     }
+    }
+   ],
+   "top_associations": [
+    {
+     "params": "kp_asc_sub_lord x year_element",
+     "z": 6.68,
+     "number": 9,
+     "wins": 9,
+     "expected": 1.32,
+     "draws": 11,
+     "first_draw": "2017-10-21"
+    },
+    {
+     "params": "kp_asc_sub_lord x nine_star_year",
+     "z": 6.68,
+     "number": 9,
+     "wins": 9,
+     "expected": 1.32,
+     "draws": 11,
+     "first_draw": "2017-10-21"
+    },
+    {
+     "params": "mercury_nakshatra x moon_sign_tropical",
+     "z": 6.3,
+     "number": 16,
+     "wins": 9,
+     "expected": 1.44,
+     "draws": 12,
+     "first_draw": "2018-11-04"
+    },
+    {
+     "params": "venus_rashi x moon_sign_tropical",
+     "z": 6.3,
+     "number": 43,
+     "wins": 9,
+     "expected": 1.44,
+     "draws": 12,
+     "first_draw": "2018-01-24"
+    },
+    {
+     "params": "moon_navamsa x kp_sun_sub_lord",
+     "z": 6.11,
+     "number": 39,
+     "wins": 10,
+     "expected": 1.8,
+     "draws": 15,
+     "first_draw": "2018-01-31"
+    },
+    {
+     "params": "karana x month_branch",
+     "z": 5.83,
+     "number": 23,
+     "wins": 10,
+     "expected": 1.92,
+     "draws": 16,
+     "first_draw": "2017-10-21"
+    },
+    {
+     "params": "rahu_nakshatra x nayin_element",
+     "z": 5.77,
+     "number": 29,
+     "wins": 13,
+     "expected": 3.0,
+     "draws": 25,
+     "first_draw": "2023-10-31"
+    },
+    {
+     "params": "paksha x mars_nakshatra",
+     "z": 5.76,
+     "number": 32,
+     "wins": 12,
+     "expected": 2.64,
+     "draws": 22,
+     "first_draw": "2017-11-19"
+    },
+    {
+     "params": "mercury_rashi x day_element",
+     "z": 5.55,
+     "number": 43,
+     "wins": 11,
+     "expected": 2.4,
+     "draws": 20,
+     "first_draw": "2018-09-25"
+    },
+    {
+     "params": "karana x mercury_nakshatra",
+     "z": 5.47,
+     "number": 23,
+     "wins": 8,
+     "expected": 1.44,
+     "draws": 12,
+     "first_draw": "2017-10-21"
+    }
+   ],
+   "walk_forward_leads": [
+    {
+     "params": "day_element x day_officer",
+     "pre_rec_z": 4.029,
+     "test_rep_hits": 302,
+     "test_rep_expected": 311.04,
+     "test_rep_z": -0.577
+    },
+    {
+     "params": "venus_rashi x lagna_rashi",
+     "pre_rec_z": 3.556,
+     "test_rep_hits": 299,
+     "test_rep_expected": 308.16,
+     "test_rep_z": -0.587
+    },
+    {
+     "params": "venus_rashi x sun_sign_tropical",
+     "pre_rec_z": 3.372,
+     "test_rep_hits": 312,
+     "test_rep_expected": 308.16,
+     "test_rep_z": 0.246
+    },
+    {
+     "params": "lagna_rashi x lunar_month",
+     "pre_rec_z": 3.062,
+     "test_rep_hits": 302,
+     "test_rep_expected": 308.16,
+     "test_rep_z": -0.395
+    },
+    {
+     "params": "venus_nakshatra x lagna_rashi",
+     "pre_rec_z": 2.922,
+     "test_rep_hits": 273,
+     "test_rep_expected": 306.0,
+     "test_rep_z": -2.122
+    }
+   ]
+  }
+ },
+ "toto55": {
+  "label": "POWER TOTO 6/55",
+  "test_from": "2021-05-30",
+  "singles": {
+   "max_rec_z": 3.37,
+   "n_rec_z_gt3": 1,
+   "mean_rec_z": -0.123,
+   "max_rep_z": 3.2,
+   "mean_rep_z": -0.098,
+   "rep_lift": 0.9978,
+   "best_assoc_z": 5.24,
+   "tests": 83,
+   "shifted": {
+    "max_rec_z": [
+     1.95,
+     1.59,
+     2.23,
+     3.67,
+     1.94,
+     2.5,
+     1.99,
+     3.28,
+     2.48,
+     2.31,
+     2.12,
+     2.61,
+     2.19,
+     2.28,
+     2.38,
+     1.68,
+     2.29,
+     1.71,
+     2.62,
+     2.17
+    ],
+    "n_rec_z_gt3": [
+     0,
+     0,
+     0,
+     1,
+     0,
+     0,
+     0,
+     1,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "mean_rec_z": [
+     -0.148,
+     -0.444,
+     -0.179,
+     -0.278,
+     0.008,
+     0.116,
+     -0.073,
+     0.218,
+     0.021,
+     0.126,
+     -0.138,
+     -0.016,
+     -0.0,
+     -0.111,
+     -0.197,
+     -0.231,
+     0.083,
+     -0.072,
+     -0.275,
+     0.004
+    ],
+    "max_rep_z": [
+     2.12,
+     1.22,
+     1.69,
+     2.16,
+     2.49,
+     2.02,
+     2.4,
+     2.73,
+     2.48,
+     2.21,
+     1.93,
+     2.16,
+     2.54,
+     2.54,
+     2.63,
+     2.21,
+     2.12,
+     2.35,
+     2.07,
+     2.07
+    ],
+    "mean_rep_z": [
+     0.097,
+     -0.479,
+     -0.04,
+     -0.278,
+     0.167,
+     0.001,
+     0.054,
+     0.233,
+     0.155,
+     0.245,
+     -0.27,
+     -0.006,
+     0.064,
+     0.139,
+     -0.167,
+     -0.161,
+     -0.001,
+     -0.028,
+     -0.167,
+     -0.014
+    ],
+    "rep_lift": [
+     1.0035,
+     0.9807,
+     0.9987,
+     0.9899,
+     1.0072,
+     1.0007,
+     1.0031,
+     1.0097,
+     1.0065,
+     1.0088,
+     0.9894,
+     0.9993,
+     1.003,
+     1.0056,
+     0.9941,
+     0.9938,
+     1.0002,
+     0.9991,
+     0.9931,
+     0.9997
+    ],
+    "best_assoc_z": [
+     4.7,
+     4.43,
+     4.71,
+     5.49,
+     5.69,
+     5.53,
+     4.81,
+     5.49,
+     4.7,
+     5.85,
+     4.97,
+     5.35,
+     5.43,
+     5.25,
+     4.69,
+     5.01,
+     6.25,
+     5.53,
+     4.73,
+     5.66
+    ]
+   },
+   "real_beats_shifts": {
+    "max_rec_z": 19,
+    "n_rec_z_gt3": 18,
+    "mean_rec_z": 8,
+    "max_rep_z": 20,
+    "mean_rep_z": 6,
+    "rep_lift": 6,
+    "best_assoc_z": 9
+   },
+   "top_recurrence": [
+    {
+     "params": "venus_nakshatra",
+     "rec_z": 3.365,
+     "pre_rec_z": 1.897,
+     "rep_hits": 563,
+     "rep_expected": 560.95,
+     "rep_z": 0.096,
+     "best": {
+      "z": 3.15,
+      "number": 28,
+      "wins": 20,
+      "expected": 10.04,
+      "draws": 92,
+      "first_draw": 72
+     }
+    },
+    {
+     "params": "mars_nakshatra",
+     "rec_z": 2.082,
+     "pre_rec_z": 1.203,
+     "rep_hits": 603,
+     "rep_expected": 560.95,
+     "rep_z": 1.975,
+     "best": {
+      "z": 3.74,
+      "number": 14,
+      "wins": 21,
+      "expected": 9.49,
+      "draws": 87,
+      "first_draw": 285
+     }
+    },
+    {
+     "params": "mars_rashi",
+     "rec_z": 1.796,
+     "pre_rec_z": -0.383,
+     "rep_hits": 629,
+     "rep_expected": 560.95,
+     "rep_z": 3.196,
+     "best": {
+      "z": 3.92,
+      "number": 48,
+      "wins": 42,
+      "expected": 23.13,
+      "draws": 212,
+      "first_draw": 268
+     }
+    },
+    {
+     "params": "lunar_day",
+     "rec_z": 1.173,
+     "pre_rec_z": 0.017,
+     "rep_hits": 580,
+     "rep_expected": 560.95,
+     "rep_z": 0.895,
+     "best": {
+      "z": 3.51,
+      "number": 5,
+      "wins": 22,
+      "expected": 10.58,
+      "draws": 97,
+      "first_draw": 41
+     }
+    },
+    {
+     "params": "venus_rashi",
+     "rec_z": 1.04,
+     "pre_rec_z": 0.346,
+     "rep_hits": 593,
+     "rep_expected": 560.95,
+     "rep_z": 1.505,
+     "best": {
+      "z": 3.13,
+      "number": 28,
+      "wins": 36,
+      "expected": 21.49,
+      "draws": 197,
+      "first_draw": 72
+     }
+    },
+    {
+     "params": "rahu_rashi",
+     "rec_z": 0.964,
+     "pre_rec_z": 1.18,
+     "rep_hits": 59,
+     "rep_expected": 66.76,
+     "rep_z": -1.057,
+     "best": {
+      "z": 3.47,
+      "number": 11,
+      "wins": 49,
+      "expected": 30.0,
+      "draws": 275,
+      "first_draw": 285
+     }
+    },
+    {
+     "params": "yoga",
+     "rec_z": 0.953,
+     "pre_rec_z": 0.67,
+     "rep_hits": 547,
+     "rep_expected": 560.95,
+     "rep_z": -0.655,
+     "best": {
+      "z": 3.31,
+      "number": 22,
+      "wins": 22,
+      "expected": 11.02,
+      "draws": 101,
+      "first_draw": 17
+     }
+    },
+    {
+     "params": "mars_combust",
+     "rec_z": 0.888,
+     "pre_rec_z": -0.037,
+     "rep_hits": 589,
+     "rep_expected": 560.95,
+     "rep_z": 1.317,
+     "best": {
+      "z": 3.03,
+      "number": 14,
+      "wins": 311,
+      "expected": 261.93,
+      "draws": 2401,
+      "first_draw": 0
+     }
+    },
+    {
+     "params": "moon_navamsa",
+     "rec_z": 0.776,
+     "pre_rec_z": 1.801,
+     "rep_hits": 567,
+     "rep_expected": 560.95,
+     "rep_z": 0.284,
+     "best": {
+      "z": 3.15,
+      "number": 27,
+      "wins": 41,
+      "expected": 25.2,
+      "draws": 231,
+      "first_draw": 0
+     }
+    },
+    {
+     "params": "sun_nakshatra",
+     "rec_z": 0.687,
+     "pre_rec_z": -0.015,
+     "rep_hits": 570,
+     "rep_expected": 560.95,
+     "rep_z": 0.425,
+     "best": {
+      "z": 3.76,
+      "number": 11,
+      "wins": 23,
+      "expected": 10.69,
+      "draws": 98,
+      "first_draw": 169
+     }
+    }
+   ],
+   "top_replication": [
+    {
+     "params": "mars_rashi",
+     "rec_z": 1.796,
+     "pre_rec_z": -0.383,
+     "rep_hits": 629,
+     "rep_expected": 560.95,
+     "rep_z": 3.196,
+     "best": {
+      "z": 3.92,
+      "number": 48,
+      "wins": 42,
+      "expected": 23.13,
+      "draws": 212,
+      "first_draw": 268
+     }
+    },
+    {
+     "params": "mars_nakshatra",
+     "rec_z": 2.082,
+     "pre_rec_z": 1.203,
+     "rep_hits": 603,
+     "rep_expected": 560.95,
+     "rep_z": 1.975,
+     "best": {
+      "z": 3.74,
+      "number": 14,
+      "wins": 21,
+      "expected": 9.49,
+      "draws": 87,
+      "first_draw": 285
+     }
+    },
+    {
+     "params": "mansion_28",
+     "rec_z": -0.799,
+     "pre_rec_z": -2.09,
+     "rep_hits": 600,
+     "rep_expected": 560.95,
+     "rep_z": 1.834,
+     "best": {
+      "z": 3.18,
+      "number": 37,
+      "wins": 39,
+      "expected": 23.56,
+      "draws": 216,
+      "first_draw": 1
+     }
+    },
+    {
+     "params": "year_yinyang",
+     "rec_z": 0.358,
+     "pre_rec_z": -0.742,
+     "rep_hits": 599,
+     "rep_expected": 560.95,
+     "rep_z": 1.787,
+     "best": {
+      "z": 2.12,
+      "number": 15,
+      "wins": 177,
+      "expected": 150.98,
+      "draws": 1384,
+      "first_draw": 0
+     }
+    },
+    {
+     "params": "nakshatra_lord",
+     "rec_z": 0.133,
+     "pre_rec_z": -0.303,
+     "rep_hits": 595,
+     "rep_expected": 560.95,
+     "rep_z": 1.599,
+     "best": {
+      "z": 3.06,
+      "number": 37,
+      "wins": 53,
+      "expected": 34.91,
+      "draws": 320,
+      "first_draw": 8
+     }
+    },
+    {
+     "params": "kp_moon_star_lord",
+     "rec_z": 0.168,
+     "pre_rec_z": -0.315,
+     "rep_hits": 595,
+     "rep_expected": 560.95,
+     "rep_z": 1.599,
+     "best": {
+      "z": 3.06,
+      "number": 37,
+      "wins": 53,
+      "expected": 34.91,
+      "draws": 320,
+      "first_draw": 8
+     }
+    },
+    {
+     "params": "tithi",
+     "rec_z": -0.289,
+     "pre_rec_z": -1.781,
+     "rep_hits": 594,
+     "rep_expected": 560.95,
+     "rep_z": 1.552,
+     "best": {
+      "z": 3.91,
+      "number": 5,
+      "wins": 24,
+      "expected": 11.02,
+      "draws": 101,
+      "first_draw": 13
+     }
+    },
+    {
+     "params": "venus_rashi",
+     "rec_z": 1.04,
+     "pre_rec_z": 0.346,
+     "rep_hits": 593,
+     "rep_expected": 560.95,
+     "rep_z": 1.505,
+     "best": {
+      "z": 3.13,
+      "number": 28,
+      "wins": 36,
+      "expected": 21.49,
+      "draws": 197,
+      "first_draw": 72
+     }
+    },
+    {
+     "params": "mars_combust",
+     "rec_z": 0.888,
+     "pre_rec_z": -0.037,
+     "rep_hits": 589,
+     "rep_expected": 560.95,
+     "rep_z": 1.317,
+     "best": {
+      "z": 3.03,
+      "number": 14,
+      "wins": 311,
+      "expected": 261.93,
+      "draws": 2401,
+      "first_draw": 0
+     }
+    },
+    {
+     "params": "hora_lord",
+     "rec_z": -0.276,
+     "pre_rec_z": -0.76,
+     "rep_hits": 587,
+     "rep_expected": 560.95,
+     "rep_z": 1.224,
+     "best": {
+      "z": 3.16,
+      "number": 15,
+      "wins": 111,
+      "expected": 82.36,
+      "draws": 755,
+      "first_draw": 17
+     }
+    }
+   ],
+   "top_associations": [
+    {
+     "params": "kp_sun_number",
+     "z": 5.24,
+     "number": 15,
+     "wins": 8,
+     "expected": 1.53,
+     "draws": 14,
+     "first_draw": "2010-07-18"
+    },
+    {
+     "params": "kp_moon_number",
+     "z": 4.97,
+     "number": 7,
+     "wins": 8,
+     "expected": 1.64,
+     "draws": 15,
+     "first_draw": "2010-03-03"
+    },
+    {
+     "params": "kp_asc_number",
+     "z": 4.7,
+     "number": 22,
+     "wins": 6,
+     "expected": 1.09,
+     "draws": 10,
+     "first_draw": "2010-08-28"
+    },
+    {
+     "params": "year_animal",
+     "z": 4.36,
+     "number": 36,
+     "wins": 65,
+     "expected": 38.07,
+     "draws": 349,
+     "first_draw": "2012-01-24"
+    },
+    {
+     "params": "nakshatra_pada",
+     "z": 4.26,
+     "number": 31,
+     "wins": 9,
+     "expected": 2.4,
+     "draws": 22,
+     "first_draw": "2010-06-02"
+    },
+    {
+     "params": "mars_rashi",
+     "z": 3.92,
+     "number": 48,
+     "wins": 42,
+     "expected": 23.13,
+     "draws": 212,
+     "first_draw": "2011-05-03"
+    },
+    {
+     "params": "day_pillar",
+     "z": 3.92,
+     "number": 15,
+     "wins": 14,
+     "expected": 5.13,
+     "draws": 47,
+     "first_draw": "2009-12-13"
+    },
+    {
+     "params": "tithi",
+     "z": 3.91,
+     "number": 5,
+     "wins": 24,
+     "expected": 11.02,
+     "draws": 101,
+     "first_draw": "2009-11-25"
+    },
+    {
+     "params": "month_pillar",
+     "z": 3.84,
+     "number": 43,
+     "wins": 13,
+     "expected": 4.69,
+     "draws": 43,
+     "first_draw": "2014-04-05"
+    },
+    {
+     "params": "rahu_nakshatra",
+     "z": 3.79,
+     "number": 26,
+     "wins": 11,
+     "expected": 3.71,
+     "draws": 34,
+     "first_draw": "2026-08-02"
+    }
+   ],
+   "walk_forward_leads": [
+    {
+     "params": "karana",
+     "pre_rec_z": 2.143,
+     "test_rep_hits": 536,
+     "test_rep_expected": 560.95,
+     "test_rep_z": -1.171
+    },
+    {
+     "params": "venus_nakshatra",
+     "pre_rec_z": 1.897,
+     "test_rep_hits": 563,
+     "test_rep_expected": 560.95,
+     "test_rep_z": 0.096
+    },
+    {
+     "params": "moon_navamsa",
+     "pre_rec_z": 1.801,
+     "test_rep_hits": 567,
+     "test_rep_expected": 560.95,
+     "test_rep_z": 0.284
+    },
+    {
+     "params": "nine_star_year",
+     "pre_rec_z": 1.405,
+     "test_rep_hits": 540,
+     "test_rep_expected": 560.95,
+     "test_rep_z": -0.984
+    },
+    {
+     "params": "mars_nakshatra",
+     "pre_rec_z": 1.203,
+     "test_rep_hits": 603,
+     "test_rep_expected": 560.95,
+     "test_rep_z": 1.975
+    }
+   ]
+  },
+  "pairs": {
+   "max_rec_z": 3.75,
+   "n_rec_z_gt3": 7,
+   "mean_rec_z": -0.024,
+   "max_rep_z": 3.48,
+   "mean_rep_z": -0.067,
+   "rep_lift": 0.999,
+   "best_assoc_z": 6.72,
+   "tests": 3403,
+   "shifted": {
+    "max_rec_z": [
+     3.07,
+     2.96,
+     3.29,
+     4.08,
+     3.75,
+     3.63,
+     3.4,
+     3.76,
+     2.98,
+     3.48,
+     3.04,
+     3.55,
+     3.25,
+     3.74,
+     3.15,
+     3.25,
+     3.44,
+     3.52,
+     3.22,
+     3.58
+    ],
+    "n_rec_z_gt3": [
+     1,
+     0,
+     4,
+     17,
+     5,
+     1,
+     4,
+     19,
+     0,
+     3,
+     1,
+     3,
+     2,
+     5,
+     2,
+     4,
+     6,
+     4,
+     3,
+     1
+    ],
+    "mean_rec_z": [
+     -0.033,
+     -0.294,
+     -0.081,
+     -0.205,
+     0.117,
+     0.206,
+     0.057,
+     0.312,
+     0.05,
+     0.133,
+     -0.027,
+     0.042,
+     0.108,
+     0.082,
+     -0.103,
+     -0.083,
+     0.245,
+     0.003,
+     -0.131,
+     0.165
+    ],
+    "max_rep_z": [
+     3.24,
+     3.15,
+     3.29,
+     4.01,
+     3.15,
+     3.85,
+     3.2,
+     3.48,
+     3.29,
+     3.57,
+     3.38,
+     3.72,
+     4.46,
+     3.6,
+     3.06,
+     3.24,
+     3.15,
+     4.12,
+     2.91,
+     4.04
+    ],
+    "mean_rep_z": [
+     0.196,
+     -0.292,
+     -0.075,
+     -0.181,
+     0.124,
+     0.038,
+     0.115,
+     0.162,
+     0.085,
+     0.131,
+     -0.172,
+     0.058,
+     0.197,
+     0.095,
+     -0.116,
+     -0.076,
+     -0.01,
+     0.002,
+     -0.099,
+     0.02
+    ],
+    "rep_lift": [
+     1.0087,
+     0.987,
+     0.9967,
+     0.9922,
+     1.0054,
+     1.0019,
+     1.0058,
+     1.0074,
+     1.0044,
+     1.0052,
+     0.993,
+     1.0024,
+     1.0089,
+     1.0037,
+     0.9948,
+     0.9964,
+     0.9997,
+     0.9996,
+     0.9951,
+     1.0018
+    ],
+    "best_assoc_z": [
+     6.37,
+     6.37,
+     6.2,
+     6.45,
+     7.32,
+     6.62,
+     6.72,
+     6.61,
+     6.72,
+     6.65,
+     6.9,
+     6.72,
+     6.37,
+     6.37,
+     6.61,
+     6.61,
+     6.86,
+     7.57,
+     6.72,
+     6.61
+    ]
+   },
+   "real_beats_shifts": {
+    "max_rec_z": 17,
+    "n_rec_z_gt3": 18,
+    "mean_rec_z": 8,
+    "max_rep_z": 11,
+    "mean_rep_z": 7,
+    "rep_lift": 7,
+    "best_assoc_z": 12
+   },
+   "top_recurrence": [
+    {
+     "params": "venus_nakshatra x jupiter_combust",
+     "rec_z": 3.748,
+     "pre_rec_z": 1.983,
+     "rep_hits": 535,
+     "rep_expected": 530.84,
+     "rep_z": 0.201,
+     "best": {
+      "z": 3.74,
+      "number": 12,
+      "wins": 5,
+      "expected": 1.09,
+      "draws": 10,
+      "first_draw": 2279
+     }
+    },
+    {
+     "params": "venus_nakshatra x saturn_combust",
+     "rec_z": 3.73,
+     "pre_rec_z": 2.14,
+     "rep_hits": 545,
+     "rep_expected": 536.07,
+     "rep_z": 0.429,
+     "best": {
+      "z": 3.98,
+      "number": 22,
+      "wins": 7,
+      "expected": 1.75,
+      "draws": 16,
+      "first_draw": 1261
+     }
+    },
+    {
+     "params": "venus_nakshatra x mars_retrograde",
+     "rec_z": 3.33,
+     "pre_rec_z": 1.289,
+     "rep_hits": 574,
+     "rep_expected": 549.16,
+     "rep_z": 1.179,
+     "best": {
+      "z": 3.66,
+      "number": 7,
+      "wins": 9,
+      "expected": 2.84,
+      "draws": 26,
+      "first_draw": 57
+     }
+    },
+    {
+     "params": "venus_nakshatra x lunar_leap_month",
+     "rec_z": 3.317,
+     "pre_rec_z": 1.808,
+     "rep_hits": 560,
+     "rep_expected": 554.4,
+     "rep_z": 0.265,
+     "best": {
+      "z": 3.31,
+      "number": 3,
+      "wins": 19,
+      "expected": 9.05,
+      "draws": 83,
+      "first_draw": 79
+     }
+    },
+    {
+     "params": "venus_nakshatra x yellow_black_path",
+     "rec_z": 3.272,
+     "pre_rec_z": 2.252,
+     "rep_hits": 575,
+     "rep_expected": 560.95,
+     "rep_z": 0.66,
+     "best": {
+      "z": 3.86,
+      "number": 27,
+      "wins": 17,
+      "expected": 6.87,
+      "draws": 63,
+      "first_draw": 59
+     }
+    },
+    {
+     "params": "venus_rashi x venus_nakshatra",
+     "rec_z": 3.153,
+     "pre_rec_z": 1.72,
+     "rep_hits": 565,
+     "rep_expected": 560.95,
+     "rep_z": 0.19,
+     "best": {
+      "z": 3.61,
+      "number": 28,
+      "wins": 8,
+      "expected": 2.4,
+      "draws": 22,
+      "first_draw": 109
+     }
+    },
+    {
+     "params": "venus_nakshatra x saturn_retrograde",
+     "rec_z": 3.039,
+     "pre_rec_z": 1.269,
+     "rep_hits": 535,
+     "rep_expected": 526.25,
+     "rep_z": 0.424,
+     "best": {
+      "z": 3.6,
+      "number": 12,
+      "wins": 10,
+      "expected": 3.38,
+      "draws": 31,
+      "first_draw": 1569
+     }
+    },
+    {
+     "params": "venus_nakshatra x adhika_masa",
+     "rec_z": 2.953,
+     "pre_rec_z": 1.513,
+     "rep_hits": 564,
+     "rep_expected": 560.95,
+     "rep_z": 0.143,
+     "best": {
+      "z": 3.23,
+      "number": 30,
+      "wins": 5,
+      "expected": 1.31,
+      "draws": 12,
+      "first_draw": 495
+     }
+    },
+    {
+     "params": "venus_nakshatra x ayana",
+     "rec_z": 2.911,
+     "pre_rec_z": 1.615,
+     "rep_hits": 561,
+     "rep_expected": 560.95,
+     "rep_z": 0.003,
+     "best": {
+      "z": 3.27,
+      "number": 47,
+      "wins": 11,
+      "expected": 4.25,
+      "draws": 39,
+      "first_draw": 375
+     }
+    },
+    {
+     "params": "venus_nakshatra x venus_combust",
+     "rec_z": 2.871,
+     "pre_rec_z": 1.788,
+     "rep_hits": 565,
+     "rep_expected": 560.95,
+     "rep_z": 0.19,
+     "best": {
+      "z": 4.12,
+      "number": 7,
+      "wins": 8,
+      "expected": 2.07,
+      "draws": 19,
+      "first_draw": 31
+     }
+    }
+   ],
+   "top_replication": [
+    {
+     "params": "hora_lord x nayin",
+     "rec_z": -0.08,
+     "pre_rec_z": -1.561,
+     "rep_hits": 635,
+     "rep_expected": 560.95,
+     "rep_z": 3.478,
+     "best": {
+      "z": 4.26,
+      "number": 42,
+      "wins": 9,
+      "expected": 2.4,
+      "draws": 22,
+      "first_draw": 44
+     }
+    },
+    {
+     "params": "hora_lord x mansion_28",
+     "rec_z": -1.321,
+     "pre_rec_z": -3.077,
+     "rep_hits": 630,
+     "rep_expected": 560.95,
+     "rep_z": 3.243,
+     "best": {
+      "z": 3.47,
+      "number": 36,
+      "wins": 8,
+      "expected": 2.51,
+      "draws": 23,
+      "first_draw": 8
+     }
+    },
+    {
+     "params": "mars_rashi x ayana",
+     "rec_z": 1.666,
+     "pre_rec_z": -0.513,
+     "rep_hits": 630,
+     "rep_expected": 560.95,
+     "rep_z": 3.243,
+     "best": {
+      "z": 3.84,
+      "number": 48,
+      "wins": 33,
+      "expected": 17.13,
+      "draws": 157,
+      "first_draw": 268
+     }
+    },
+    {
+     "params": "lunar_month x day_element",
+     "rec_z": 1.28,
+     "pre_rec_z": -0.511,
+     "rep_hits": 629,
+     "rep_expected": 560.95,
+     "rep_z": 3.196,
+     "best": {
+      "z": 4.76,
+      "number": 7,
+      "wins": 15,
+      "expected": 4.69,
+      "draws": 43,
+      "first_draw": 113
+     }
+    },
+    {
+     "params": "mars_rashi x jupiter_retrograde",
+     "rec_z": 1.286,
+     "pre_rec_z": 0.088,
+     "rep_hits": 628,
+     "rep_expected": 560.95,
+     "rep_z": 3.149,
+     "best": {
+      "z": 3.61,
+      "number": 48,
+      "wins": 33,
+      "expected": 17.78,
+      "draws": 163,
+      "first_draw": 268
+     }
+    },
+    {
+     "params": "mars_rashi x year_yinyang",
+     "rec_z": 1.109,
+     "pre_rec_z": -0.452,
+     "rep_hits": 478,
+     "rep_expected": 422.84,
+     "rep_z": 2.984,
+     "best": {
+      "z": 3.17,
+      "number": 54,
+      "wins": 15,
+      "expected": 6.76,
+      "draws": 62,
+      "first_draw": 2191
+     }
+    },
+    {
+     "params": "tithi x year_yinyang",
+     "rec_z": 1.004,
+     "pre_rec_z": -0.743,
+     "rep_hits": 624,
+     "rep_expected": 560.95,
+     "rep_z": 2.961,
+     "best": {
+      "z": 4.2,
+      "number": 4,
+      "wins": 14,
+      "expected": 4.8,
+      "draws": 44,
+      "first_draw": 10
+     }
+    },
+    {
+     "params": "mars_nakshatra x year_yinyang",
+     "rec_z": 2.175,
+     "pre_rec_z": 1.066,
+     "rep_hits": 458,
+     "rep_expected": 406.47,
+     "rep_z": 2.843,
+     "best": {
+      "z": 3.47,
+      "number": 33,
+      "wins": 5,
+      "expected": 1.2,
+      "draws": 11,
+      "first_draw": 2410
+     }
+    },
+    {
+     "params": "venus_nakshatra x nine_star_month",
+     "rec_z": 2.006,
+     "pre_rec_z": 1.091,
+     "rep_hits": 350,
+     "rep_expected": 305.67,
+     "rep_z": 2.82,
+     "best": {
+      "z": 5.29,
+      "number": 46,
+      "wins": 7,
+      "expected": 1.2,
+      "draws": 11,
+      "first_draw": 1944
+     }
+    },
+    {
+     "params": "venus_rashi x saturn_combust",
+     "rec_z": 1.365,
+     "pre_rec_z": 0.598,
+     "rep_hits": 594,
+     "rep_expected": 536.07,
+     "rep_z": 2.783,
+     "best": {
+      "z": 3.79,
+      "number": 50,
+      "wins": 11,
+      "expected": 3.71,
+      "draws": 34,
+      "first_draw": 352
+     }
+    }
+   ],
+   "top_associations": [
+    {
+     "params": "yoga x kp_sun_sub_lord",
+     "z": 6.72,
+     "number": 11,
+     "wins": 9,
+     "expected": 1.31,
+     "draws": 12,
+     "first_draw": "2011-07-10"
+    },
+    {
+     "params": "nakshatra_lord x day_pillar",
+     "z": 6.61,
+     "number": 54,
+     "wins": 8,
+     "expected": 1.09,
+     "draws": 10,
+     "first_draw": "2013-05-08"
+    },
+    {
+     "params": "kp_moon_star_lord x day_pillar",
+     "z": 6.61,
+     "number": 54,
+     "wins": 8,
+     "expected": 1.09,
+     "draws": 10,
+     "first_draw": "2013-05-08"
+    },
+    {
+     "params": "weekday x month_pillar",
+     "z": 6.45,
+     "number": 7,
+     "wins": 11,
+     "expected": 1.96,
+     "draws": 18,
+     "first_draw": "2011-05-07"
+    },
+    {
+     "params": "hora_lord x month_pillar",
+     "z": 6.45,
+     "number": 7,
+     "wins": 11,
+     "expected": 1.96,
+     "draws": 18,
+     "first_draw": "2011-05-07"
+    },
+    {
+     "params": "saturn_rashi x lagna_nakshatra",
+     "z": 6.45,
+     "number": 4,
+     "wins": 11,
+     "expected": 1.96,
+     "draws": 18,
+     "first_draw": "2017-03-18"
+    },
+    {
+     "params": "saturn_nakshatra x lagna_nakshatra",
+     "z": 6.21,
+     "number": 4,
+     "wins": 8,
+     "expected": 1.2,
+     "draws": 11,
+     "first_draw": "2018-03-17"
+    },
+    {
+     "params": "lagna_nakshatra x year_element",
+     "z": 6.21,
+     "number": 4,
+     "wins": 8,
+     "expected": 1.2,
+     "draws": 11,
+     "first_draw": "2018-03-17"
+    },
+    {
+     "params": "lunar_day x nine_star_month",
+     "z": 6.21,
+     "number": 31,
+     "wins": 8,
+     "expected": 1.2,
+     "draws": 11,
+     "first_draw": "2014-01-04"
+    },
+    {
+     "params": "kp_asc_sub_lord x month",
+     "z": 6.2,
+     "number": 22,
+     "wins": 11,
+     "expected": 2.07,
+     "draws": 19,
+     "first_draw": "2010-08-28"
+    }
+   ],
+   "walk_forward_leads": [
+    {
+     "params": "karana x saturn_retrograde",
+     "pre_rec_z": 3.183,
+     "test_rep_hits": 541,
+     "test_rep_expected": 560.95,
+     "test_rep_z": -0.937
+    },
+    {
+     "params": "karana x day_element",
+     "pre_rec_z": 2.962,
+     "test_rep_hits": 592,
+     "test_rep_expected": 560.95,
+     "test_rep_z": 1.458
+    },
+    {
+     "params": "nakshatra x hora_lord",
+     "pre_rec_z": 2.866,
+     "test_rep_hits": 571,
+     "test_rep_expected": 555.05,
+     "test_rep_z": 0.753
+    },
+    {
+     "params": "mercury_combust x moon_phase",
+     "pre_rec_z": 2.799,
+     "test_rep_hits": 569,
+     "test_rep_expected": 560.95,
+     "test_rep_z": 0.378
+    },
+    {
+     "params": "kp_asc_star_lord x day_of_month",
+     "pre_rec_z": 2.665,
+     "test_rep_hits": 555,
+     "test_rep_expected": 559.64,
+     "test_rep_z": -0.218
+    }
+   ]
+  }
+ },
+ "toto58": {
+  "label": "SUPREME TOTO 6/58",
+  "test_from": "2021-10-26",
+  "singles": {
+   "max_rec_z": 2.86,
+   "n_rec_z_gt3": 0,
+   "mean_rec_z": 0.396,
+   "max_rep_z": 2.19,
+   "mean_rep_z": -0.191,
+   "rep_lift": 0.9929,
+   "best_assoc_z": 5.07,
+   "tests": 83,
+   "shifted": {
+    "max_rec_z": [
+     2.85,
+     2.33,
+     2.11,
+     2.46,
+     2.36,
+     2.16,
+     1.86,
+     2.5,
+     2.09,
+     3.16,
+     2.32,
+     2.28,
+     2.36,
+     2.41,
+     3.08,
+     2.11,
+     1.94,
+     2.12,
+     1.92,
+     3.25
+    ],
+    "n_rec_z_gt3": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     1,
+     0,
+     0,
+     0,
+     0,
+     1,
+     0,
+     0,
+     0,
+     0,
+     1
+    ],
+    "mean_rec_z": [
+     0.515,
+     0.34,
+     0.394,
+     0.263,
+     0.434,
+     0.405,
+     0.587,
+     0.388,
+     0.233,
+     0.719,
+     0.611,
+     0.331,
+     0.556,
+     0.628,
+     0.156,
+     0.418,
+     0.218,
+     0.238,
+     0.426,
+     0.752
+    ],
+    "max_rep_z": [
+     2.67,
+     1.7,
+     1.46,
+     2.17,
+     2.43,
+     2.24,
+     1.36,
+     1.56,
+     3.02,
+     2.43,
+     3.16,
+     1.75,
+     1.7,
+     2.38,
+     2.38,
+     2.09,
+     2.19,
+     2.19,
+     2.09,
+     2.19
+    ],
+    "mean_rep_z": [
+     -0.056,
+     -0.089,
+     -0.208,
+     -0.36,
+     0.003,
+     -0.237,
+     -0.156,
+     -0.183,
+     -0.018,
+     0.145,
+     -0.15,
+     -0.2,
+     -0.3,
+     -0.23,
+     -0.351,
+     -0.154,
+     -0.356,
+     0.028,
+     -0.043,
+     -0.12
+    ],
+    "rep_lift": [
+     0.9985,
+     0.997,
+     0.9914,
+     0.9853,
+     1.0,
+     0.9899,
+     0.9938,
+     0.993,
+     0.9997,
+     1.0073,
+     0.994,
+     0.9919,
+     0.9876,
+     0.992,
+     0.9868,
+     0.9933,
+     0.986,
+     1.0009,
+     0.9975,
+     0.9955
+    ],
+    "best_assoc_z": [
+     5.18,
+     4.93,
+     5.03,
+     4.93,
+     4.93,
+     6.6,
+     4.88,
+     4.88,
+     4.61,
+     5.17,
+     5.5,
+     5.22,
+     5.02,
+     5.02,
+     5.74,
+     5.44,
+     4.76,
+     4.93,
+     5.59,
+     5.46
+    ]
+   },
+   "real_beats_shifts": {
+    "max_rec_z": 17,
+    "n_rec_z_gt3": 0,
+    "mean_rec_z": 9,
+    "max_rep_z": 9,
+    "mean_rep_z": 8,
+    "rep_lift": 8,
+    "best_assoc_z": 11
+   },
+   "top_recurrence": [
+    {
+     "params": "paksha",
+     "rec_z": 2.861,
+     "pre_rec_z": 1.632,
+     "rep_hits": 526,
+     "rep_expected": 518.9,
+     "rep_z": 0.345,
+     "best": {
+      "z": 3.32,
+      "number": 20,
+      "wins": 184,
+      "expected": 144.1,
+      "draws": 1393,
+      "first_draw": 5
+     }
+    },
+    {
+     "params": "yellow_black_path",
+     "rec_z": 2.579,
+     "pre_rec_z": 2.351,
+     "rep_hits": 528,
+     "rep_expected": 518.9,
+     "rep_z": 0.442,
+     "best": {
+      "z": 2.81,
+      "number": 53,
+      "wins": 178,
+      "expected": 144.21,
+      "draws": 1394,
+      "first_draw": 1
+     }
+    },
+    {
+     "params": "kp_sun_star_lord",
+     "rec_z": 2.553,
+     "pre_rec_z": 1.244,
+     "rep_hits": 521,
+     "rep_expected": 518.9,
+     "rep_z": 0.102,
+     "best": {
+      "z": 2.89,
+      "number": 46,
+      "wins": 47,
+      "expected": 30.93,
+      "draws": 299,
+      "first_draw": 13
+     }
+    },
+    {
+     "params": "kp_asc_star_lord",
+     "rec_z": 2.244,
+     "pre_rec_z": 2.156,
+     "rep_hits": 535,
+     "rep_expected": 518.9,
+     "rep_z": 0.782,
+     "best": {
+      "z": 3.29,
+      "number": 1,
+      "wins": 48,
+      "expected": 30.0,
+      "draws": 290,
+      "first_draw": 25
+     }
+    },
+    {
+     "params": "mercury_retrograde",
+     "rec_z": 1.827,
+     "pre_rec_z": 1.936,
+     "rep_hits": 509,
+     "rep_expected": 518.9,
+     "rep_z": -0.48,
+     "best": {
+      "z": 2.41,
+      "number": 53,
+      "wins": 269,
+      "expected": 232.24,
+      "draws": 2245,
+      "first_draw": 0
+     }
+    },
+    {
+     "params": "year_animal",
+     "rec_z": 1.776,
+     "pre_rec_z": 1.12,
+     "rep_hits": 530,
+     "rep_expected": 518.9,
+     "rep_z": 0.539,
+     "best": {
+      "z": 3.31,
+      "number": 20,
+      "wins": 56,
+      "expected": 36.1,
+      "draws": 349,
+      "first_draw": 326
+     }
+    },
+    {
+     "params": "year_stem",
+     "rec_z": 1.757,
+     "pre_rec_z": 0.896,
+     "rep_hits": 541,
+     "rep_expected": 518.9,
+     "rep_z": 1.073,
+     "best": {
+      "z": 2.99,
+      "number": 17,
+      "wins": 29,
+      "expected": 16.76,
+      "draws": 162,
+      "first_draw": 1580
+     }
+    },
+    {
+     "params": "mercury_nakshatra",
+     "rec_z": 1.712,
+     "pre_rec_z": 1.77,
+     "rep_hits": 530,
+     "rep_expected": 518.9,
+     "rep_z": 0.539,
+     "best": {
+      "z": 4.38,
+      "number": 53,
+      "wins": 27,
+      "expected": 11.9,
+      "draws": 115,
+      "first_draw": 121
+     }
+    },
+    {
+     "params": "mars_retrograde",
+     "rec_z": 1.557,
+     "pre_rec_z": 1.133,
+     "rep_hits": 499,
+     "rep_expected": 518.9,
+     "rep_z": -0.966,
+     "best": {
+      "z": 3.42,
+      "number": 10,
+      "wins": 43,
+      "expected": 25.66,
+      "draws": 248,
+      "first_draw": 326
+     }
+    },
+    {
+     "params": "year_yinyang",
+     "rec_z": 1.548,
+     "pre_rec_z": 0.883,
+     "rep_hits": 511,
+     "rep_expected": 518.9,
+     "rep_z": -0.383,
+     "best": {
+      "z": 2.89,
+      "number": 26,
+      "wins": 186,
+      "expected": 150.52,
+      "draws": 1455,
+      "first_draw": 0
+     }
+    }
+   ],
+   "top_replication": [
+    {
+     "params": "day_god",
+     "rec_z": -0.016,
+     "pre_rec_z": -1.226,
+     "rep_hits": 564,
+     "rep_expected": 518.9,
+     "rep_z": 2.189,
+     "best": {
+      "z": 3.19,
+      "number": 36,
+      "wins": 41,
+      "expected": 25.03,
+      "draws": 242,
+      "first_draw": 6
+     }
+    },
+    {
+     "params": "lagna_rashi",
+     "rec_z": 0.116,
+     "pre_rec_z": -0.307,
+     "rep_hits": 561,
+     "rep_expected": 518.9,
+     "rep_z": 2.044,
+     "best": {
+      "z": 3.47,
+      "number": 26,
+      "wins": 40,
+      "expected": 23.28,
+      "draws": 225,
+      "first_draw": 15
+     }
+    },
+    {
+     "params": "sun_sign_tropical",
+     "rec_z": -0.693,
+     "pre_rec_z": -1.048,
+     "rep_hits": 559,
+     "rep_expected": 518.9,
+     "rep_z": 1.947,
+     "best": {
+      "z": 3.12,
+      "number": 26,
+      "wins": 39,
+      "expected": 23.79,
+      "draws": 230,
+      "first_draw": 16
+     }
+    },
+    {
+     "params": "month_stem",
+     "rec_z": 0.3,
+     "pre_rec_z": -0.411,
+     "rep_hits": 548,
+     "rep_expected": 518.9,
+     "rep_z": 1.413,
+     "best": {
+      "z": 3.36,
+      "number": 27,
+      "wins": 48,
+      "expected": 29.69,
+      "draws": 287,
+      "first_draw": 114
+     }
+    },
+    {
+     "params": "saturn_rashi",
+     "rec_z": 0.045,
+     "pre_rec_z": -0.015,
+     "rep_hits": 125,
+     "rep_expected": 113.59,
+     "rep_z": 1.184,
+     "best": {
+      "z": 3.54,
+      "number": 20,
+      "wins": 76,
+      "expected": 50.79,
+      "draws": 491,
+      "first_draw": 292
+     }
+    },
+    {
+     "params": "sun_nakshatra",
+     "rec_z": 1.023,
+     "pre_rec_z": 0.174,
+     "rep_hits": 541,
+     "rep_expected": 518.9,
+     "rep_z": 1.073,
+     "best": {
+      "z": 3.05,
+      "number": 26,
+      "wins": 20,
+      "expected": 10.24,
+      "draws": 99,
+      "first_draw": 13
+     }
+    },
+    {
+     "params": "year_stem",
+     "rec_z": 1.757,
+     "pre_rec_z": 0.896,
+     "rep_hits": 541,
+     "rep_expected": 518.9,
+     "rep_z": 1.073,
+     "best": {
+      "z": 2.99,
+      "number": 17,
+      "wins": 29,
+      "expected": 16.76,
+      "draws": 162,
+      "first_draw": 1580
+     }
+    },
+    {
+     "params": "nakshatra",
+     "rec_z": 1.067,
+     "pre_rec_z": 0.562,
+     "rep_hits": 539,
+     "rep_expected": 518.9,
+     "rep_z": 0.976,
+     "best": {
+      "z": 4.04,
+      "number": 26,
+      "wins": 23,
+      "expected": 10.14,
+      "draws": 98,
+      "first_draw": 22
+     }
+    },
+    {
+     "params": "venus_nakshatra",
+     "rec_z": 0.298,
+     "pre_rec_z": -1.45,
+     "rep_hits": 538,
+     "rep_expected": 518.9,
+     "rep_z": 0.927,
+     "best": {
+      "z": 4.04,
+      "number": 53,
+      "wins": 23,
+      "expected": 10.14,
+      "draws": 98,
+      "first_draw": 0
+     }
+    },
+    {
+     "params": "jupiter_rashi",
+     "rec_z": 1.479,
+     "pre_rec_z": 0.589,
+     "rep_hits": 538,
+     "rep_expected": 518.9,
+     "rep_z": 0.927,
+     "best": {
+      "z": 3.38,
+      "number": 50,
+      "wins": 22,
+      "expected": 10.86,
+      "draws": 105,
+      "first_draw": 1767
+     }
+    }
+   ],
+   "top_associations": [
+    {
+     "params": "nakshatra_pada",
+     "z": 5.07,
+     "number": 1,
+     "wins": 11,
+     "expected": 2.69,
+     "draws": 26,
+     "first_draw": "2010-06-30"
+    },
+    {
+     "params": "kp_moon_number",
+     "z": 4.82,
+     "number": 1,
+     "wins": 9,
+     "expected": 2.07,
+     "draws": 20,
+     "first_draw": "2010-06-30"
+    },
+    {
+     "params": "nine_star_year",
+     "z": 4.73,
+     "number": 20,
+     "wins": 58,
+     "expected": 31.45,
+     "draws": 304,
+     "first_draw": "2012-02-04"
+    },
+    {
+     "params": "lunar_month",
+     "z": 4.52,
+     "number": 26,
+     "wins": 44,
+     "expected": 22.55,
+     "draws": 218,
+     "first_draw": "2010-04-14"
+    },
+    {
+     "params": "year_pillar",
+     "z": 4.43,
+     "number": 20,
+     "wins": 39,
+     "expected": 19.45,
+     "draws": 188,
+     "first_draw": "2012-01-24"
+    },
+    {
+     "params": "mercury_nakshatra",
+     "z": 4.38,
+     "number": 53,
+     "wins": 27,
+     "expected": 11.9,
+     "draws": 115,
+     "first_draw": "2010-11-27"
+    },
+    {
+     "params": "kp_sun_number",
+     "z": 4.37,
+     "number": 3,
+     "wins": 7,
+     "expected": 1.55,
+     "draws": 15,
+     "first_draw": "2011-01-08"
+    },
+    {
+     "params": "month_pillar",
+     "z": 4.24,
+     "number": 53,
+     "wins": 14,
+     "expected": 4.76,
+     "draws": 46,
+     "first_draw": "2012-02-04"
+    },
+    {
+     "params": "kp_asc_number",
+     "z": 4.15,
+     "number": 51,
+     "wins": 7,
+     "expected": 1.66,
+     "draws": 16,
+     "first_draw": "2010-08-04"
+    },
+    {
+     "params": "mercury_rashi",
+     "z": 4.14,
+     "number": 26,
+     "wins": 45,
+     "expected": 24.52,
+     "draws": 237,
+     "first_draw": "2010-03-20"
+    }
+   ],
+   "walk_forward_leads": [
+    {
+     "params": "yellow_black_path",
+     "pre_rec_z": 2.351,
+     "test_rep_hits": 528,
+     "test_rep_expected": 518.9,
+     "test_rep_z": 0.442
+    },
+    {
+     "params": "kp_asc_star_lord",
+     "pre_rec_z": 2.156,
+     "test_rep_hits": 535,
+     "test_rep_expected": 518.9,
+     "test_rep_z": 0.782
+    },
+    {
+     "params": "kp_asc_sub_lord",
+     "pre_rec_z": 2.078,
+     "test_rep_hits": 510,
+     "test_rep_expected": 518.9,
+     "test_rep_z": -0.432
+    },
+    {
+     "params": "mercury_retrograde",
+     "pre_rec_z": 1.936,
+     "test_rep_hits": 509,
+     "test_rep_expected": 518.9,
+     "test_rep_z": -0.48
+    },
+    {
+     "params": "mercury_nakshatra",
+     "pre_rec_z": 1.77,
+     "test_rep_hits": 530,
+     "test_rep_expected": 518.9,
+     "test_rep_z": 0.539
+    }
+   ]
+  },
+  "pairs": {
+   "max_rec_z": 3.77,
+   "n_rec_z_gt3": 7,
+   "mean_rec_z": 0.081,
+   "max_rep_z": 3.31,
+   "mean_rep_z": -0.022,
+   "rep_lift": 1.0005,
+   "best_assoc_z": 6.78,
+   "tests": 3403,
+   "shifted": {
+    "max_rec_z": [
+     3.49,
+     3.27,
+     2.93,
+     3.42,
+     3.33,
+     3.44,
+     2.97,
+     3.46,
+     2.56,
+     3.76,
+     3.52,
+     3.04,
+     3.27,
+     3.21,
+     3.82,
+     3.08,
+     2.79,
+     3.88,
+     3.62,
+     3.77
+    ],
+    "n_rec_z_gt3": [
+     5,
+     3,
+     0,
+     5,
+     3,
+     1,
+     0,
+     8,
+     0,
+     12,
+     6,
+     1,
+     2,
+     4,
+     12,
+     1,
+     0,
+     1,
+     2,
+     11
+    ],
+    "mean_rec_z": [
+     0.203,
+     0.063,
+     -0.007,
+     0.068,
+     0.091,
+     0.105,
+     0.188,
+     0.081,
+     -0.05,
+     0.334,
+     0.231,
+     0.084,
+     0.201,
+     0.245,
+     -0.172,
+     0.094,
+     -0.028,
+     0.019,
+     0.066,
+     0.28
+    ],
+    "max_rep_z": [
+     3.34,
+     3.09,
+     3.01,
+     3.45,
+     2.97,
+     3.94,
+     3.31,
+     3.21,
+     4.67,
+     3.98,
+     3.98,
+     3.39,
+     3.35,
+     4.62,
+     3.21,
+     3.26,
+     3.26,
+     3.88,
+     3.85,
+     3.55
+    ],
+    "mean_rep_z": [
+     0.003,
+     -0.076,
+     -0.145,
+     -0.123,
+     0.123,
+     -0.052,
+     -0.005,
+     -0.081,
+     0.127,
+     0.203,
+     0.082,
+     -0.015,
+     -0.105,
+     -0.016,
+     -0.027,
+     -0.108,
+     -0.099,
+     0.086,
+     0.024,
+     0.01
+    ],
+    "rep_lift": [
+     1.0018,
+     0.9968,
+     0.9932,
+     0.9938,
+     1.0057,
+     0.9969,
+     1.0002,
+     0.9961,
+     1.0064,
+     1.0098,
+     1.0043,
+     0.9994,
+     0.9943,
+     0.9994,
+     0.9982,
+     0.9949,
+     0.9954,
+     1.0025,
+     1.0005,
+     1.0008
+    ],
+    "best_assoc_z": [
+     6.49,
+     6.89,
+     6.7,
+     6.7,
+     7.32,
+     7.37,
+     6.6,
+     6.7,
+     6.43,
+     6.28,
+     6.97,
+     6.96,
+     6.44,
+     6.85,
+     7.37,
+     6.6,
+     6.49,
+     7.1,
+     6.85,
+     6.9
+    ]
+   },
+   "real_beats_shifts": {
+    "max_rec_z": 17,
+    "n_rec_z_gt3": 16,
+    "mean_rec_z": 8,
+    "max_rep_z": 7,
+    "mean_rep_z": 9,
+    "rep_lift": 12,
+    "best_assoc_z": 10
+   },
+   "top_recurrence": [
+    {
+     "params": "paksha x mercury_retrograde",
+     "rec_z": 3.771,
+     "pre_rec_z": 2.617,
+     "rep_hits": 542,
+     "rep_expected": 518.9,
+     "rep_z": 1.121,
+     "best": {
+      "z": 2.76,
+      "number": 24,
+      "wins": 42,
+      "expected": 27.52,
+      "draws": 266,
+      "first_draw": 15
+     }
+    },
+    {
+     "params": "paksha x yellow_black_path",
+     "rec_z": 3.642,
+     "pre_rec_z": 2.299,
+     "rep_hits": 527,
+     "rep_expected": 518.9,
+     "rep_z": 0.393,
+     "best": {
+      "z": 3.2,
+      "number": 20,
+      "wins": 100,
+      "expected": 72.72,
+      "draws": 703,
+      "first_draw": 6
+     }
+    },
+    {
+     "params": "jupiter_retrograde x yellow_black_path",
+     "rec_z": 3.572,
+     "pre_rec_z": 2.793,
+     "rep_hits": 525,
+     "rep_expected": 518.9,
+     "rep_z": 0.296,
+     "best": {
+      "z": 2.74,
+      "number": 20,
+      "wins": 59,
+      "expected": 41.38,
+      "draws": 400,
+      "first_draw": 62
+     }
+    },
+    {
+     "params": "mercury_retrograde x kp_sun_star_lord",
+     "rec_z": 3.472,
+     "pre_rec_z": 1.823,
+     "rep_hits": 556,
+     "rep_expected": 518.9,
+     "rep_z": 1.801,
+     "best": {
+      "z": 3.33,
+      "number": 7,
+      "wins": 41,
+      "expected": 24.52,
+      "draws": 237,
+      "first_draw": 6
+     }
+    },
+    {
+     "params": "kp_asc_star_lord x yellow_black_path",
+     "rec_z": 3.33,
+     "pre_rec_z": 3.468,
+     "rep_hits": 546,
+     "rep_expected": 518.9,
+     "rep_z": 1.316,
+     "best": {
+      "z": 4.05,
+      "number": 1,
+      "wins": 31,
+      "expected": 15.21,
+      "draws": 147,
+      "first_draw": 29
+     }
+    },
+    {
+     "params": "paksha x jupiter_combust",
+     "rec_z": 3.191,
+     "pre_rec_z": 1.62,
+     "rep_hits": 548,
+     "rep_expected": 518.9,
+     "rep_z": 1.413,
+     "best": {
+      "z": 3.28,
+      "number": 20,
+      "wins": 171,
+      "expected": 133.14,
+      "draws": 1287,
+      "first_draw": 5
+     }
+    },
+    {
+     "params": "yoga x year_animal",
+     "rec_z": 3.134,
+     "pre_rec_z": 1.663,
+     "rep_hits": 541,
+     "rep_expected": 518.9,
+     "rep_z": 1.073,
+     "best": {
+      "z": 4.01,
+      "number": 48,
+      "wins": 6,
+      "expected": 1.34,
+      "draws": 13,
+      "first_draw": 363
+     }
+    },
+    {
+     "params": "mercury_retrograde x kp_asc_star_lord",
+     "rec_z": 2.948,
+     "pre_rec_z": 3.101,
+     "rep_hits": 525,
+     "rep_expected": 518.9,
+     "rep_z": 0.296,
+     "best": {
+      "z": 3.22,
+      "number": 1,
+      "wins": 41,
+      "expected": 24.93,
+      "draws": 241,
+      "first_draw": 27
+     }
+    },
+    {
+     "params": "kp_sun_star_lord x yellow_black_path",
+     "rec_z": 2.948,
+     "pre_rec_z": 1.844,
+     "rep_hits": 558,
+     "rep_expected": 518.9,
+     "rep_z": 1.898,
+     "best": {
+      "z": 3.74,
+      "number": 23,
+      "wins": 31,
+      "expected": 16.03,
+      "draws": 155,
+      "first_draw": 22
+     }
+    },
+    {
+     "params": "paksha x mars_retrograde",
+     "rec_z": 2.927,
+     "pre_rec_z": 1.589,
+     "rep_hits": 536,
+     "rep_expected": 518.9,
+     "rep_z": 0.83,
+     "best": {
+      "z": 3.26,
+      "number": 20,
+      "wins": 169,
+      "expected": 131.59,
+      "draws": 1272,
+      "first_draw": 5
+     }
+    }
+   ],
+   "top_replication": [
+    {
+     "params": "mercury_combust x masa",
+     "rec_z": 0.202,
+     "pre_rec_z": -0.917,
+     "rep_hits": 587,
+     "rep_expected": 518.9,
+     "rep_z": 3.306,
+     "best": {
+      "z": 3.48,
+      "number": 1,
+      "wins": 22,
+      "expected": 10.66,
+      "draws": 103,
+      "first_draw": 322
+     }
+    },
+    {
+     "params": "venus_nakshatra x kp_sun_star_lord",
+     "rec_z": -0.126,
+     "pre_rec_z": -1.303,
+     "rep_hits": 585,
+     "rep_expected": 518.28,
+     "rep_z": 3.241,
+     "best": {
+      "z": 4.88,
+      "number": 41,
+      "wins": 6,
+      "expected": 1.03,
+      "draws": 10,
+      "first_draw": 523
+     }
+    },
+    {
+     "params": "paksha x month_pillar",
+     "rec_z": 0.661,
+     "pre_rec_z": 1.09,
+     "rep_hits": 584,
+     "rep_expected": 518.9,
+     "rep_z": 3.16,
+     "best": {
+      "z": 4.94,
+      "number": 14,
+      "wins": 10,
+      "expected": 2.38,
+      "draws": 23,
+      "first_draw": 407
+     }
+    },
+    {
+     "params": "mercury_nakshatra x nayin_element",
+     "rec_z": 2.367,
+     "pre_rec_z": 0.646,
+     "rep_hits": 584,
+     "rep_expected": 518.9,
+     "rep_z": 3.16,
+     "best": {
+      "z": 4.5,
+      "number": 8,
+      "wins": 8,
+      "expected": 1.86,
+      "draws": 18,
+      "first_draw": 92
+     }
+    },
+    {
+     "params": "mercury_rashi x venus_nakshatra",
+     "rec_z": 2.343,
+     "pre_rec_z": 0.746,
+     "rep_hits": 570,
+     "rep_expected": 508.34,
+     "rep_z": 3.024,
+     "best": {
+      "z": 5.98,
+      "number": 29,
+      "wins": 9,
+      "expected": 1.55,
+      "draws": 15,
+      "first_draw": 571
+     }
+    },
+    {
+     "params": "jupiter_retrograde x year_yinyang",
+     "rec_z": 1.953,
+     "pre_rec_z": 0.936,
+     "rep_hits": 581,
+     "rep_expected": 518.9,
+     "rep_z": 3.015,
+     "best": {
+      "z": 2.56,
+      "number": 53,
+      "wins": 54,
+      "expected": 38.17,
+      "draws": 369,
+      "first_draw": 254
+     }
+    },
+    {
+     "params": "venus_nakshatra x month_pillar",
+     "rec_z": 1.069,
+     "pre_rec_z": 0.009,
+     "rep_hits": 358,
+     "rep_expected": 310.34,
+     "rep_z": 2.991,
+     "best": {
+      "z": 4.82,
+      "number": 51,
+      "wins": 9,
+      "expected": 2.07,
+      "draws": 20,
+      "first_draw": 306
+     }
+    },
+    {
+     "params": "yoga x sun_sign_tropical",
+     "rec_z": 0.883,
+     "pre_rec_z": -1.655,
+     "rep_hits": 578,
+     "rep_expected": 518.9,
+     "rep_z": 2.869,
+     "best": {
+      "z": 3.9,
+      "number": 25,
+      "wins": 5,
+      "expected": 1.03,
+      "draws": 10,
+      "first_draw": 17
+     }
+    },
+    {
+     "params": "sun_rashi x day_officer",
+     "rec_z": 1.113,
+     "pre_rec_z": 1.026,
+     "rep_hits": 575,
+     "rep_expected": 518.9,
+     "rep_z": 2.723,
+     "best": {
+      "z": 4.15,
+      "number": 11,
+      "wins": 7,
+      "expected": 1.66,
+      "draws": 16,
+      "first_draw": 103
+     }
+    },
+    {
+     "params": "jupiter_combust x kp_moon_star_lord",
+     "rec_z": -0.169,
+     "pre_rec_z": -0.791,
+     "rep_hits": 575,
+     "rep_expected": 518.9,
+     "rep_z": 2.723,
+     "best": {
+      "z": 3.13,
+      "number": 37,
+      "wins": 7,
+      "expected": 2.28,
+      "draws": 22,
+      "first_draw": 180
+     }
+    }
+   ],
+   "top_associations": [
+    {
+     "params": "jupiter_rashi x month_branch",
+     "z": 6.78,
+     "number": 50,
+     "wins": 10,
+     "expected": 1.55,
+     "draws": 15,
+     "first_draw": "2020-11-21"
+    },
+    {
+     "params": "mercury_nakshatra x hour_stem_19h",
+     "z": 6.21,
+     "number": 26,
+     "wins": 11,
+     "expected": 2.07,
+     "draws": 20,
+     "first_draw": "2011-03-16"
+    },
+    {
+     "params": "saturn_rashi x mansion_28",
+     "z": 6.11,
+     "number": 39,
+     "wins": 13,
+     "expected": 2.79,
+     "draws": 27,
+     "first_draw": "2020-02-19"
+    },
+    {
+     "params": "rahu_rashi x masa",
+     "z": 6.11,
+     "number": 50,
+     "wins": 13,
+     "expected": 2.79,
+     "draws": 27,
+     "first_draw": "2020-11-15"
+    },
+    {
+     "params": "rahu_rashi x lunar_month",
+     "z": 6.11,
+     "number": 50,
+     "wins": 13,
+     "expected": 2.79,
+     "draws": 27,
+     "first_draw": "2020-11-15"
+    },
+    {
+     "params": "nakshatra x kp_sun_star_lord",
+     "z": 6.07,
+     "number": 8,
+     "wins": 8,
+     "expected": 1.24,
+     "draws": 12,
+     "first_draw": "2011-04-26"
+    },
+    {
+     "params": "venus_rashi x saturn_rashi",
+     "z": 6.07,
+     "number": 1,
+     "wins": 8,
+     "expected": 1.24,
+     "draws": 12,
+     "first_draw": "2025-12-20"
+    },
+    {
+     "params": "venus_rashi x saturn_nakshatra",
+     "z": 6.07,
+     "number": 1,
+     "wins": 8,
+     "expected": 1.24,
+     "draws": 12,
+     "first_draw": "2025-12-20"
+    },
+    {
+     "params": "venus_rashi x rahu_rashi",
+     "z": 6.07,
+     "number": 1,
+     "wins": 8,
+     "expected": 1.24,
+     "draws": 12,
+     "first_draw": "2025-12-20"
+    },
+    {
+     "params": "venus_rashi x rahu_nakshatra",
+     "z": 6.07,
+     "number": 1,
+     "wins": 8,
+     "expected": 1.24,
+     "draws": 12,
+     "first_draw": "2025-12-20"
+    }
+   ],
+   "walk_forward_leads": [
+    {
+     "params": "kp_asc_star_lord x yellow_black_path",
+     "pre_rec_z": 3.468,
+     "test_rep_hits": 546,
+     "test_rep_expected": 518.9,
+     "test_rep_z": 1.316
+    },
+    {
+     "params": "mercury_retrograde x kp_asc_star_lord",
+     "pre_rec_z": 3.101,
+     "test_rep_hits": 525,
+     "test_rep_expected": 518.9,
+     "test_rep_z": 0.296
+    },
+    {
+     "params": "mercury_combust x kp_asc_sub_lord",
+     "pre_rec_z": 3.078,
+     "test_rep_hits": 515,
+     "test_rep_expected": 518.9,
+     "test_rep_z": -0.189
+    },
+    {
+     "params": "mercury_retrograde x yellow_black_path",
+     "pre_rec_z": 2.799,
+     "test_rep_hits": 513,
+     "test_rep_expected": 518.9,
+     "test_rep_z": -0.286
+    },
+    {
+     "params": "planets_with_moon x yellow_black_path",
+     "pre_rec_z": 2.798,
+     "test_rep_hits": 511,
+     "test_rep_expected": 518.28,
+     "test_rep_z": -0.353
+    }
+   ]
+  }
+ },
+ "ml8": {
+  "label": "Magnum Life 8/36",
+  "test_from": "2024-05-04",
+  "singles": {
+   "max_rec_z": 1.83,
+   "n_rec_z_gt3": 0,
+   "mean_rec_z": 0.19,
+   "max_rep_z": 1.79,
+   "mean_rep_z": 0.217,
+   "rep_lift": 1.0079,
+   "best_assoc_z": 3.88,
+   "tests": 83,
+   "shifted": {
+    "max_rec_z": [
+     2.81,
+     1.51,
+     1.96,
+     1.96,
+     1.87,
+     2.22,
+     1.77,
+     3.16,
+     3.19,
+     1.91,
+     2.11,
+     1.7,
+     1.73,
+     2.06,
+     2.63,
+     2.12,
+     2.82,
+     2.73,
+     2.02,
+     2.2
+    ],
+    "n_rec_z_gt3": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     1,
+     1,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "mean_rec_z": [
+     0.036,
+     -0.217,
+     0.18,
+     0.056,
+     0.139,
+     0.189,
+     0.101,
+     0.361,
+     0.23,
+     -0.01,
+     -0.149,
+     -0.25,
+     0.025,
+     0.279,
+     0.022,
+     -0.017,
+     -0.029,
+     -0.009,
+     0.188,
+     -0.134
+    ],
+    "max_rep_z": [
+     3.25,
+     2.07,
+     1.93,
+     2.31,
+     3.58,
+     2.12,
+     2.26,
+     2.5,
+     2.69,
+     2.4,
+     1.74,
+     2.17,
+     1.88,
+     2.69,
+     2.31,
+     1.83,
+     2.26,
+     2.83,
+     2.26,
+     2.02
+    ],
+    "mean_rep_z": [
+     0.26,
+     -0.067,
+     -0.007,
+     -0.107,
+     0.255,
+     0.23,
+     0.031,
+     0.328,
+     0.378,
+     0.137,
+     -0.1,
+     -0.064,
+     0.063,
+     0.223,
+     0.315,
+     -0.091,
+     -0.032,
+     0.094,
+     0.036,
+     -0.158
+    ],
+    "rep_lift": [
+     1.0083,
+     0.9987,
+     0.9998,
+     0.9981,
+     1.0095,
+     1.0078,
+     1.0023,
+     1.0119,
+     1.012,
+     1.0044,
+     0.9978,
+     0.9989,
+     1.0021,
+     1.008,
+     1.0105,
+     0.9981,
+     1.0002,
+     1.0036,
+     1.0017,
+     0.9957
+    ],
+    "best_assoc_z": [
+     3.76,
+     4.44,
+     3.95,
+     4.17,
+     3.76,
+     3.93,
+     3.88,
+     4.12,
+     3.85,
+     4.08,
+     4.53,
+     4.09,
+     4.18,
+     4.43,
+     3.88,
+     3.82,
+     3.77,
+     3.79,
+     4.09,
+     5.1
+    ]
+   },
+   "real_beats_shifts": {
+    "max_rec_z": 4,
+    "n_rec_z_gt3": 0,
+    "mean_rec_z": 17,
+    "max_rep_z": 1,
+    "mean_rep_z": 13,
+    "rep_lift": 14,
+    "best_assoc_z": 6
+   },
+   "top_recurrence": [
+    {
+     "params": "saturn_nakshatra",
+     "rec_z": 1.835,
+     "pre_rec_z": 2.091,
+     "rep_hits": 378,
+     "rep_expected": 373.33,
+     "rep_z": 0.306,
+     "best": {
+      "z": 3.1,
+      "number": 29,
+      "wins": 61,
+      "expected": 41.11,
+      "draws": 185,
+      "first_draw": 930
+     }
+    },
+    {
+     "params": "samvatsara",
+     "rec_z": 1.664,
+     "pre_rec_z": 2.158,
+     "rep_hits": 261,
+     "rep_expected": 264.89,
+     "rep_z": -0.303,
+     "best": {
+      "z": 2.21,
+      "number": 23,
+      "wins": 49,
+      "expected": 35.78,
+      "draws": 161,
+      "first_draw": 124
+     }
+    },
+    {
+     "params": "nine_star_year",
+     "rec_z": 1.655,
+     "pre_rec_z": 2.131,
+     "rep_hits": 220,
+     "rep_expected": 222.22,
+     "rep_z": -0.189,
+     "best": {
+      "z": 2.73,
+      "number": 23,
+      "wins": 54,
+      "expected": 37.33,
+      "draws": 168,
+      "first_draw": 140
+     }
+    },
+    {
+     "params": "mercury_combust",
+     "rec_z": 1.569,
+     "pre_rec_z": 0.672,
+     "rep_hits": 738,
+     "rep_expected": 718.22,
+     "rep_z": 0.936,
+     "best": {
+      "z": 2.43,
+      "number": 10,
+      "wins": 200,
+      "expected": 168.44,
+      "draws": 758,
+      "first_draw": 0
+     }
+    },
+    {
+     "params": "moon_rashi",
+     "rec_z": 1.359,
+     "pre_rec_z": 1.328,
+     "rep_hits": 750,
+     "rep_expected": 718.22,
+     "rep_z": 1.503,
+     "best": {
+      "z": 2.6,
+      "number": 26,
+      "wins": 37,
+      "expected": 24.22,
+      "draws": 109,
+      "first_draw": 8
+     }
+    },
+    {
+     "params": "year_animal",
+     "rec_z": 1.322,
+     "pre_rec_z": 1.876,
+     "rep_hits": 229,
+     "rep_expected": 216.89,
+     "rep_z": 1.043,
+     "best": {
+      "z": 2.83,
+      "number": 23,
+      "wins": 53,
+      "expected": 36.0,
+      "draws": 162,
+      "first_draw": 140
+     }
+    },
+    {
+     "params": "year_stem",
+     "rec_z": 1.322,
+     "pre_rec_z": 1.876,
+     "rep_hits": 215,
+     "rep_expected": 216.89,
+     "rep_z": -0.163,
+     "best": {
+      "z": 2.83,
+      "number": 23,
+      "wins": 53,
+      "expected": 36.0,
+      "draws": 162,
+      "first_draw": 140
+     }
+    },
+    {
+     "params": "year_pillar",
+     "rec_z": 1.322,
+     "pre_rec_z": 1.876,
+     "rep_hits": 215,
+     "rep_expected": 216.89,
+     "rep_z": -0.163,
+     "best": {
+      "z": 2.83,
+      "number": 23,
+      "wins": 53,
+      "expected": 36.0,
+      "draws": 162,
+      "first_draw": 140
+     }
+    },
+    {
+     "params": "solar_term",
+     "rec_z": 1.201,
+     "pre_rec_z": 0.432,
+     "rep_hits": 744,
+     "rep_expected": 718.22,
+     "rep_z": 1.219,
+     "best": {
+      "z": 3.02,
+      "number": 26,
+      "wins": 25,
+      "expected": 13.78,
+      "draws": 62,
+      "first_draw": 89
+     }
+    },
+    {
+     "params": "year_element",
+     "rec_z": 1.2,
+     "pre_rec_z": 1.724,
+     "rep_hits": 541,
+     "rep_expected": 526.22,
+     "rep_z": 0.817,
+     "best": {
+      "z": 3.4,
+      "number": 23,
+      "wins": 95,
+      "expected": 67.11,
+      "draws": 302,
+      "first_draw": 0
+     }
+    }
+   ],
+   "top_replication": [
+    {
+     "params": "nayin_element",
+     "rec_z": 0.587,
+     "pre_rec_z": 0.114,
+     "rep_hits": 756,
+     "rep_expected": 718.22,
+     "rep_z": 1.787,
+     "best": {
+      "z": 2.42,
+      "number": 15,
+      "wins": 78,
+      "expected": 59.33,
+      "draws": 267,
+      "first_draw": 1
+     }
+    },
+    {
+     "params": "kp_asc_number",
+     "rec_z": 0.031,
+     "pre_rec_z": -0.748,
+     "rep_hits": 754,
+     "rep_expected": 718.22,
+     "rep_z": 1.692,
+     "best": {
+      "z": 3.21,
+      "number": 13,
+      "wins": 7,
+      "expected": 2.22,
+      "draws": 10,
+      "first_draw": 217
+     }
+    },
+    {
+     "params": "moon_sign_tropical",
+     "rec_z": 0.821,
+     "pre_rec_z": 1.244,
+     "rep_hits": 754,
+     "rep_expected": 718.22,
+     "rep_z": 1.692,
+     "best": {
+      "z": 2.46,
+      "number": 30,
+      "wins": 38,
+      "expected": 25.56,
+      "draws": 115,
+      "first_draw": 5
+     }
+    },
+    {
+     "params": "hora_lord",
+     "rec_z": 0.512,
+     "pre_rec_z": -0.416,
+     "rep_hits": 752,
+     "rep_expected": 718.22,
+     "rep_z": 1.598,
+     "best": {
+      "z": 3.18,
+      "number": 10,
+      "wins": 110,
+      "expected": 81.33,
+      "draws": 366,
+      "first_draw": 0
+     }
+    },
+    {
+     "params": "lagna_nakshatra",
+     "rec_z": 0.303,
+     "pre_rec_z": -0.577,
+     "rep_hits": 751,
+     "rep_expected": 718.22,
+     "rep_z": 1.551,
+     "best": {
+      "z": 3.16,
+      "number": 6,
+      "wins": 21,
+      "expected": 10.67,
+      "draws": 48,
+      "first_draw": 62
+     }
+    },
+    {
+     "params": "moon_rashi",
+     "rec_z": 1.359,
+     "pre_rec_z": 1.328,
+     "rep_hits": 750,
+     "rep_expected": 718.22,
+     "rep_z": 1.503,
+     "best": {
+      "z": 2.6,
+      "number": 26,
+      "wins": 37,
+      "expected": 24.22,
+      "draws": 109,
+      "first_draw": 8
+     }
+    },
+    {
+     "params": "yellow_black_path",
+     "rec_z": -0.408,
+     "pre_rec_z": -1.415,
+     "rep_hits": 750,
+     "rep_expected": 718.22,
+     "rep_z": 1.503,
+     "best": {
+      "z": 2.2,
+      "number": 16,
+      "wins": 176,
+      "expected": 149.11,
+      "draws": 671,
+      "first_draw": 0
+     }
+    },
+    {
+     "params": "kp_sun_sub_lord",
+     "rec_z": 0.316,
+     "pre_rec_z": -1.161,
+     "rep_hits": 749,
+     "rep_expected": 718.22,
+     "rep_z": 1.456,
+     "best": {
+      "z": 2.6,
+      "number": 16,
+      "wins": 61,
+      "expected": 43.78,
+      "draws": 197,
+      "first_draw": 15
+     }
+    },
+    {
+     "params": "lunar_leap_month",
+     "rec_z": 0.432,
+     "pre_rec_z": -0.071,
+     "rep_hits": 749,
+     "rep_expected": 718.22,
+     "rep_z": 1.456,
+     "best": {
+      "z": 1.88,
+      "number": 23,
+      "wins": 325,
+      "expected": 292.89,
+      "draws": 1318,
+      "first_draw": 0
+     }
+    },
+    {
+     "params": "mars_rashi",
+     "rec_z": -0.069,
+     "pre_rec_z": -0.521,
+     "rep_hits": 748,
+     "rep_expected": 718.22,
+     "rep_z": 1.409,
+     "best": {
+      "z": 3.14,
+      "number": 20,
+      "wins": 27,
+      "expected": 14.89,
+      "draws": 67,
+      "first_draw": 224
+     }
+    }
+   ],
+   "top_associations": [
+    {
+     "params": "nakshatra_pada",
+     "z": 3.88,
+     "number": 36,
+     "wins": 8,
+     "expected": 2.22,
+     "draws": 10,
+     "first_draw": "2019-06-29"
+    },
+    {
+     "params": "nayin",
+     "z": 3.87,
+     "number": 15,
+     "wins": 24,
+     "expected": 11.11,
+     "draws": 50,
+     "first_draw": "2018-06-06"
+    },
+    {
+     "params": "yoga",
+     "z": 3.59,
+     "number": 16,
+     "wins": 21,
+     "expected": 9.78,
+     "draws": 44,
+     "first_draw": "2018-05-01"
+    },
+    {
+     "params": "day_pillar",
+     "z": 3.58,
+     "number": 15,
+     "wins": 14,
+     "expected": 5.56,
+     "draws": 25,
+     "first_draw": "2018-08-04"
+    },
+    {
+     "params": "moon_navamsa",
+     "z": 3.55,
+     "number": 23,
+     "wins": 42,
+     "expected": 24.44,
+     "draws": 110,
+     "first_draw": "2018-05-06"
+    },
+    {
+     "params": "mansion_28",
+     "z": 3.43,
+     "number": 10,
+     "wins": 39,
+     "expected": 22.67,
+     "draws": 102,
+     "first_draw": "2018-05-16"
+    },
+    {
+     "params": "saturn_rashi",
+     "z": 3.4,
+     "number": 23,
+     "wins": 95,
+     "expected": 67.11,
+     "draws": 302,
+     "first_draw": "2018-04-25"
+    },
+    {
+     "params": "year_element",
+     "z": 3.4,
+     "number": 23,
+     "wins": 95,
+     "expected": 67.11,
+     "draws": 302,
+     "first_draw": "2018-04-25"
+    },
+    {
+     "params": "sun_nakshatra",
+     "z": 3.37,
+     "number": 6,
+     "wins": 23,
+     "expected": 11.56,
+     "draws": 52,
+     "first_draw": "2018-09-01"
+    },
+    {
+     "params": "jupiter_nakshatra",
+     "z": 3.37,
+     "number": 7,
+     "wins": 15,
+     "expected": 6.44,
+     "draws": 29,
+     "first_draw": "2021-01-09"
+    }
+   ],
+   "walk_forward_leads": [
+    {
+     "params": "samvatsara",
+     "pre_rec_z": 2.158,
+     "test_rep_hits": 261,
+     "test_rep_expected": 264.89,
+     "test_rep_z": -0.303
+    },
+    {
+     "params": "nine_star_year",
+     "pre_rec_z": 2.131,
+     "test_rep_hits": 220,
+     "test_rep_expected": 222.22,
+     "test_rep_z": -0.189
+    },
+    {
+     "params": "saturn_nakshatra",
+     "pre_rec_z": 2.091,
+     "test_rep_hits": 378,
+     "test_rep_expected": 373.33,
+     "test_rep_z": 0.306
+    },
+    {
+     "params": "venus_nakshatra",
+     "pre_rec_z": 2.008,
+     "test_rep_hits": 698,
+     "test_rep_expected": 718.22,
+     "test_rep_z": -0.957
+    },
+    {
+     "params": "year_animal",
+     "pre_rec_z": 1.876,
+     "test_rep_hits": 229,
+     "test_rep_expected": 216.89,
+     "test_rep_z": 1.043
+    }
+   ]
+  },
+  "pairs": {
+   "max_rec_z": 2.77,
+   "n_rec_z_gt3": 0,
+   "mean_rec_z": 0.034,
+   "max_rep_z": 3.73,
+   "mean_rep_z": -0.109,
+   "rep_lift": 0.9997,
+   "best_assoc_z": 5.22,
+   "tests": 3403,
+   "shifted": {
+    "max_rec_z": [
+     3.3,
+     3.31,
+     3.25,
+     3.17,
+     3.32,
+     3.29,
+     3.6,
+     4.23,
+     3.55,
+     3.44,
+     3.07,
+     3.02,
+     3.23,
+     2.96,
+     3.18,
+     3.63,
+     3.45,
+     3.31,
+     3.26,
+     2.86
+    ],
+    "n_rec_z_gt3": [
+     7,
+     3,
+     2,
+     1,
+     2,
+     2,
+     5,
+     38,
+     10,
+     4,
+     1,
+     1,
+     3,
+     0,
+     3,
+     1,
+     3,
+     5,
+     2,
+     0
+    ],
+    "mean_rec_z": [
+     -0.022,
+     -0.235,
+     0.095,
+     -0.045,
+     0.005,
+     0.054,
+     0.055,
+     0.27,
+     0.108,
+     0.017,
+     -0.225,
+     -0.28,
+     -0.04,
+     0.069,
+     -0.131,
+     -0.134,
+     -0.151,
+     -0.053,
+     0.133,
+     -0.275
+    ],
+    "max_rep_z": [
+     3.25,
+     3.3,
+     3.91,
+     4.33,
+     3.49,
+     3.63,
+     3.35,
+     4.11,
+     3.36,
+     3.77,
+     3.31,
+     3.29,
+     3.38,
+     3.23,
+     3.66,
+     3.44,
+     3.29,
+     3.63,
+     3.35,
+     3.11
+    ],
+    "mean_rep_z": [
+     0.121,
+     -0.162,
+     -0.042,
+     -0.089,
+     0.138,
+     0.015,
+     -0.034,
+     0.207,
+     0.242,
+     0.161,
+     -0.207,
+     -0.073,
+     0.037,
+     -0.013,
+     0.018,
+     -0.112,
+     -0.118,
+     -0.053,
+     -0.012,
+     -0.12
+    ],
+    "rep_lift": [
+     1.0057,
+     0.9956,
+     0.999,
+     0.9992,
+     1.007,
+     1.0027,
+     1.0017,
+     1.0094,
+     1.0091,
+     1.007,
+     0.9944,
+     0.9991,
+     1.0023,
+     1.0016,
+     1.0027,
+     0.9974,
+     0.9982,
+     0.9997,
+     1.0005,
+     0.9965
+    ],
+    "best_assoc_z": [
+     5.38,
+     4.77,
+     5.48,
+     5.29,
+     4.77,
+     5.29,
+     4.77,
+     5.08,
+     5.01,
+     4.83,
+     4.75,
+     5.22,
+     5.03,
+     4.83,
+     5.05,
+     4.55,
+     4.86,
+     4.83,
+     5.21,
+     5.1
+    ]
+   },
+   "real_beats_shifts": {
+    "max_rec_z": 0,
+    "n_rec_z_gt3": 0,
+    "mean_rec_z": 13,
+    "max_rep_z": 16,
+    "mean_rep_z": 5,
+    "rep_lift": 8,
+    "best_assoc_z": 15
+   },
+   "top_recurrence": [
+    {
+     "params": "rahu_rashi x mercury_combust",
+     "rec_z": 2.773,
+     "pre_rec_z": 2.456,
+     "rep_hits": 290,
+     "rep_expected": 307.56,
+     "rep_z": -1.269,
+     "best": {
+      "z": 2.73,
+      "number": 29,
+      "wins": 48,
+      "expected": 32.44,
+      "draws": 146,
+      "first_draw": 865
+     }
+    },
+    {
+     "params": "mars_rashi x moon_phase",
+     "rec_z": 2.752,
+     "pre_rec_z": 3.021,
+     "rep_hits": 727,
+     "rep_expected": 718.22,
+     "rep_z": 0.415,
+     "best": {
+      "z": 4.23,
+      "number": 18,
+      "wins": 12,
+      "expected": 3.78,
+      "draws": 17,
+      "first_draw": 152
+     }
+    },
+    {
+     "params": "yellow_black_path x nine_star_year",
+     "rec_z": 2.624,
+     "pre_rec_z": 1.537,
+     "rep_hits": 234,
+     "rep_expected": 222.22,
+     "rep_z": 1.002,
+     "best": {
+      "z": 3.25,
+      "number": 3,
+      "wins": 33,
+      "expected": 18.89,
+      "draws": 85,
+      "first_draw": 141
+     }
+    },
+    {
+     "params": "moon_rashi x kp_moon_sub_lord",
+     "rec_z": 2.495,
+     "pre_rec_z": 2.632,
+     "rep_hits": 729,
+     "rep_expected": 711.11,
+     "rep_z": 0.85,
+     "best": {
+      "z": 3.27,
+      "number": 29,
+      "wins": 8,
+      "expected": 2.67,
+      "draws": 12,
+      "first_draw": 116
+     }
+    },
+    {
+     "params": "saturn_nakshatra x year_element",
+     "rec_z": 2.474,
+     "pre_rec_z": 2.326,
+     "rep_hits": 388,
+     "rep_expected": 373.33,
+     "rep_z": 0.962,
+     "best": {
+      "z": 3.1,
+      "number": 29,
+      "wins": 61,
+      "expected": 41.11,
+      "draws": 185,
+      "first_draw": 930
+     }
+    },
+    {
+     "params": "sun_rashi x moon_navamsa",
+     "rec_z": 2.399,
+     "pre_rec_z": 1.557,
+     "rep_hits": 739,
+     "rep_expected": 716.44,
+     "rep_z": 1.068,
+     "best": {
+      "z": 3.27,
+      "number": 27,
+      "wins": 8,
+      "expected": 2.67,
+      "draws": 12,
+      "first_draw": 0
+     }
+    },
+    {
+     "params": "yellow_black_path x moon_sign_tropical",
+     "rec_z": 2.348,
+     "pre_rec_z": 2.704,
+     "rep_hits": 711,
+     "rep_expected": 718.22,
+     "rep_z": -0.342,
+     "best": {
+      "z": 3.37,
+      "number": 28,
+      "wins": 23,
+      "expected": 11.56,
+      "draws": 52,
+      "first_draw": 12
+     }
+    },
+    {
+     "params": "nakshatra_pada x year_animal",
+     "rec_z": 2.298,
+     "pre_rec_z": 1.536,
+     "rep_hits": 72,
+     "rep_expected": 74.67,
+     "rep_z": -0.391,
+     "best": null
+    },
+    {
+     "params": "nakshatra_pada x year_stem",
+     "rec_z": 2.298,
+     "pre_rec_z": 1.536,
+     "rep_hits": 73,
+     "rep_expected": 74.67,
+     "rep_z": -0.245,
+     "best": null
+    },
+    {
+     "params": "nakshatra_pada x year_pillar",
+     "rec_z": 2.298,
+     "pre_rec_z": 1.536,
+     "rep_hits": 73,
+     "rep_expected": 74.67,
+     "rep_z": -0.245,
+     "best": null
+    }
+   ],
+   "top_replication": [
+    {
+     "params": "paksha x solar_term",
+     "rec_z": 2.218,
+     "pre_rec_z": 1.289,
+     "rep_hits": 797,
+     "rep_expected": 718.22,
+     "rep_z": 3.727,
+     "best": {
+      "z": 3.23,
+      "number": 31,
+      "wins": 15,
+      "expected": 6.67,
+      "draws": 30,
+      "first_draw": 119
+     }
+    },
+    {
+     "params": "mercury_nakshatra x kp_asc_star_lord",
+     "rec_z": 0.82,
+     "pre_rec_z": 0.128,
+     "rep_hits": 780,
+     "rep_expected": 709.33,
+     "rep_z": 3.364,
+     "best": {
+      "z": 3.88,
+      "number": 6,
+      "wins": 9,
+      "expected": 2.67,
+      "draws": 12,
+      "first_draw": 65
+     }
+    },
+    {
+     "params": "moon_navamsa x month_pillar",
+     "rec_z": 0.633,
+     "pre_rec_z": -0.652,
+     "rep_hits": 443,
+     "rep_expected": 394.67,
+     "rep_z": 3.084,
+     "best": null
+    },
+    {
+     "params": "mercury_nakshatra x venus_rashi",
+     "rec_z": 0.743,
+     "pre_rec_z": -0.092,
+     "rep_hits": 643,
+     "rep_expected": 590.22,
+     "rep_z": 2.754,
+     "best": {
+      "z": 3.01,
+      "number": 15,
+      "wins": 8,
+      "expected": 2.89,
+      "draws": 13,
+      "first_draw": 246
+     }
+    },
+    {
+     "params": "saturn_retrograde x kp_asc_number",
+     "rec_z": 0.563,
+     "pre_rec_z": -0.984,
+     "rep_hits": 653,
+     "rep_expected": 600.89,
+     "rep_z": 2.695,
+     "best": {
+      "z": 2.65,
+      "number": 25,
+      "wins": 7,
+      "expected": 2.67,
+      "draws": 12,
+      "first_draw": 136
+     }
+    },
+    {
+     "params": "moon_rashi x lagna_nakshatra",
+     "rec_z": 0.869,
+     "pre_rec_z": -0.565,
+     "rep_hits": 762,
+     "rep_expected": 705.78,
+     "rep_z": 2.683,
+     "best": null
+    },
+    {
+     "params": "kp_sun_sub_lord x solar_term",
+     "rec_z": 0.941,
+     "pre_rec_z": -0.281,
+     "rep_hits": 768,
+     "rep_expected": 712.89,
+     "rep_z": 2.617,
+     "best": {
+      "z": 4.0,
+      "number": 9,
+      "wins": 12,
+      "expected": 4.0,
+      "draws": 18,
+      "first_draw": 140
+     }
+    },
+    {
+     "params": "moon_rashi x kp_asc_star_lord",
+     "rec_z": 0.64,
+     "pre_rec_z": -0.682,
+     "rep_hits": 773,
+     "rep_expected": 718.22,
+     "rep_z": 2.591,
+     "best": {
+      "z": 3.6,
+      "number": 18,
+      "wins": 9,
+      "expected": 2.89,
+      "draws": 13,
+      "first_draw": 219
+     }
+    },
+    {
+     "params": "lagna_nakshatra x day_stem",
+     "rec_z": 0.681,
+     "pre_rec_z": 0.859,
+     "rep_hits": 773,
+     "rep_expected": 718.22,
+     "rep_z": 2.591,
+     "best": null
+    },
+    {
+     "params": "lagna_nakshatra x day_vs_year_branch",
+     "rec_z": 0.547,
+     "pre_rec_z": -0.995,
+     "rep_hits": 770,
+     "rep_expected": 716.44,
+     "rep_z": 2.537,
+     "best": {
+      "z": 3.55,
+      "number": 3,
+      "wins": 8,
+      "expected": 2.44,
+      "draws": 11,
+      "first_draw": 30
+     }
+    }
+   ],
+   "top_associations": [
+    {
+     "params": "moon_rashi x sun_rashi",
+     "z": 5.22,
+     "number": 26,
+     "wins": 10,
+     "expected": 2.22,
+     "draws": 10,
+     "first_draw": "2018-05-12"
+    },
+    {
+     "params": "month_stem x hour_stem_19h",
+     "z": 4.78,
+     "number": 12,
+     "wins": 19,
+     "expected": 6.67,
+     "draws": 30,
+     "first_draw": "2018-05-13"
+    },
+    {
+     "params": "yoga x karana",
+     "z": 4.77,
+     "number": 25,
+     "wins": 11,
+     "expected": 2.89,
+     "draws": 13,
+     "first_draw": "2018-06-10"
+    },
+    {
+     "params": "karana x lunar_month",
+     "z": 4.77,
+     "number": 2,
+     "wins": 11,
+     "expected": 2.89,
+     "draws": 13,
+     "first_draw": "2018-08-18"
+    },
+    {
+     "params": "karana x day_branch",
+     "z": 4.77,
+     "number": 10,
+     "wins": 11,
+     "expected": 2.89,
+     "draws": 13,
+     "first_draw": "2018-09-26"
+    },
+    {
+     "params": "day_branch x nine_star_month",
+     "z": 4.77,
+     "number": 33,
+     "wins": 11,
+     "expected": 2.89,
+     "draws": 13,
+     "first_draw": "2018-10-28"
+    },
+    {
+     "params": "mercury_nakshatra x sun_sign_tropical",
+     "z": 4.74,
+     "number": 6,
+     "wins": 13,
+     "expected": 3.78,
+     "draws": 17,
+     "first_draw": "2018-09-04"
+    },
+    {
+     "params": "moon_rashi x lunar_month",
+     "z": 4.55,
+     "number": 10,
+     "wins": 9,
+     "expected": 2.22,
+     "draws": 10,
+     "first_draw": "2018-09-25"
+    },
+    {
+     "params": "moon_rashi x month_branch",
+     "z": 4.55,
+     "number": 10,
+     "wins": 9,
+     "expected": 2.22,
+     "draws": 10,
+     "first_draw": "2018-09-25"
+    },
+    {
+     "params": "lagna_rashi x moon_sign_tropical",
+     "z": 4.55,
+     "number": 26,
+     "wins": 9,
+     "expected": 2.22,
+     "draws": 10,
+     "first_draw": "2018-05-12"
+    }
+   ],
+   "walk_forward_leads": [
+    {
+     "params": "nakshatra_pada x day_officer",
+     "pre_rec_z": 3.745,
+     "test_rep_hits": 449,
+     "test_rep_expected": 471.11,
+     "test_rep_z": -1.291
+    },
+    {
+     "params": "mars_rashi x moon_phase",
+     "pre_rec_z": 3.021,
+     "test_rep_hits": 727,
+     "test_rep_expected": 718.22,
+     "test_rep_z": 0.415
+    },
+    {
+     "params": "day_branch x nine_star_year",
+     "pre_rec_z": 3.017,
+     "test_rep_hits": 196,
+     "test_rep_expected": 222.22,
+     "test_rep_z": -2.23
+    },
+    {
+     "params": "day_officer x nine_star_year",
+     "pre_rec_z": 2.857,
+     "test_rep_hits": 206,
+     "test_rep_expected": 222.22,
+     "test_rep_z": -1.38
+    },
+    {
+     "params": "year_element x day_branch",
+     "pre_rec_z": 2.835,
+     "test_rep_hits": 498,
+     "test_rep_expected": 526.22,
+     "test_rep_z": -1.56
+    }
+   ]
+  }
+ }
+}

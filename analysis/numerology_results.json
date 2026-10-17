@@ -1,0 +1,579 @@
+{
+ "toto50": {
+  "weekday": {
+   "digital_root": {
+    "observed": 939,
+    "expected": 968.0,
+    "ratio": 0.97,
+    "z": -1.05
+   },
+   "contains_digit": {
+    "observed": 1410,
+    "expected": 1391.4,
+    "ratio": 1.0134,
+    "z": 0.59
+   }
+  },
+  "hora_lord": {
+   "digital_root": {
+    "observed": 903,
+    "expected": 893.5,
+    "ratio": 1.0106,
+    "z": 0.35
+   },
+   "contains_digit": {
+    "observed": 1102,
+    "expected": 1090.3,
+    "ratio": 1.0107,
+    "z": 0.41
+   }
+  },
+  "nakshatra_lord": {
+   "digital_root": {
+    "observed": 1001,
+    "expected": 959.2,
+    "ratio": 1.0436,
+    "z": 1.51
+   },
+   "contains_digit": {
+    "observed": 1651,
+    "expected": 1583.2,
+    "ratio": 1.0429,
+    "z": 2.04
+   }
+  },
+  "kp_moon_star_lord": {
+   "digital_root": {
+    "observed": 999,
+    "expected": 958.6,
+    "ratio": 1.0422,
+    "z": 1.46
+   },
+   "contains_digit": {
+    "observed": 1643,
+    "expected": 1577.8,
+    "ratio": 1.0413,
+    "z": 1.97
+   }
+  },
+  "kp_moon_sub_lord": {
+   "digital_root": {
+    "observed": 928,
+    "expected": 957.0,
+    "ratio": 0.9697,
+    "z": -1.05
+   },
+   "contains_digit": {
+    "observed": 1584,
+    "expected": 1515.7,
+    "ratio": 1.045,
+    "z": 2.09
+   }
+  },
+  "kp_asc_star_lord": {
+   "digital_root": {
+    "observed": 938,
+    "expected": 956.8,
+    "ratio": 0.9804,
+    "z": -0.68
+   },
+   "contains_digit": {
+    "observed": 1526,
+    "expected": 1560.6,
+    "ratio": 0.9778,
+    "z": -1.05
+   }
+  },
+  "kp_asc_sub_lord": {
+   "digital_root": {
+    "observed": 973,
+    "expected": 957.6,
+    "ratio": 1.0161,
+    "z": 0.56
+   },
+   "contains_digit": {
+    "observed": 1570,
+    "expected": 1529.8,
+    "ratio": 1.0263,
+    "z": 1.23
+   }
+  },
+  "kp_sun_star_lord": {
+   "digital_root": {
+    "observed": 969,
+    "expected": 959.6,
+    "ratio": 1.0098,
+    "z": 0.34
+   },
+   "contains_digit": {
+    "observed": 1610,
+    "expected": 1587.5,
+    "ratio": 1.0142,
+    "z": 0.68
+   }
+  },
+  "kp_sun_sub_lord": {
+   "digital_root": {
+    "observed": 961,
+    "expected": 959.0,
+    "ratio": 1.002,
+    "z": 0.07
+   },
+   "contains_digit": {
+    "observed": 1520,
+    "expected": 1542.7,
+    "ratio": 0.9853,
+    "z": -0.69
+   }
+  }
+ },
+ "toto55": {
+  "weekday": {
+   "digital_root": {
+    "observed": 2009,
+    "expected": 1962.9,
+    "ratio": 1.0235,
+    "z": 1.16
+   },
+   "contains_digit": {
+    "observed": 2998,
+    "expected": 3053.7,
+    "ratio": 0.9818,
+    "z": -1.19
+   }
+  },
+  "hora_lord": {
+   "digital_root": {
+    "observed": 1978,
+    "expected": 1880.4,
+    "ratio": 1.0519,
+    "z": 2.5
+   },
+   "contains_digit": {
+    "observed": 2151,
+    "expected": 2116.1,
+    "ratio": 1.0165,
+    "z": 0.87
+   }
+  },
+  "nakshatra_lord": {
+   "digital_root": {
+    "observed": 1884,
+    "expected": 1904.6,
+    "ratio": 0.9892,
+    "z": -0.53
+   },
+   "contains_digit": {
+    "observed": 3165,
+    "expected": 3158.4,
+    "ratio": 1.0021,
+    "z": 0.14
+   }
+  },
+  "kp_moon_star_lord": {
+   "digital_root": {
+    "observed": 1885,
+    "expected": 1904.6,
+    "ratio": 0.9897,
+    "z": -0.5
+   },
+   "contains_digit": {
+    "observed": 3161,
+    "expected": 3148.8,
+    "ratio": 1.0039,
+    "z": 0.26
+   }
+  },
+  "kp_moon_sub_lord": {
+   "digital_root": {
+    "observed": 1864,
+    "expected": 1883.8,
+    "ratio": 0.9895,
+    "z": -0.51
+   },
+   "contains_digit": {
+    "observed": 3111,
+    "expected": 3120.4,
+    "ratio": 0.997,
+    "z": -0.2
+   }
+  },
+  "kp_asc_star_lord": {
+   "digital_root": {
+    "observed": 1988,
+    "expected": 1902.8,
+    "ratio": 1.0448,
+    "z": 2.18
+   },
+   "contains_digit": {
+    "observed": 3143,
+    "expected": 3142.0,
+    "ratio": 1.0003,
+    "z": 0.02
+   }
+  },
+  "kp_asc_sub_lord": {
+   "digital_root": {
+    "observed": 1910,
+    "expected": 1884.5,
+    "ratio": 1.0135,
+    "z": 0.65
+   },
+   "contains_digit": {
+    "observed": 3085,
+    "expected": 3117.2,
+    "ratio": 0.9897,
+    "z": -0.69
+   }
+  },
+  "kp_sun_star_lord": {
+   "digital_root": {
+    "observed": 1880,
+    "expected": 1902.1,
+    "ratio": 0.9884,
+    "z": -0.56
+   },
+   "contains_digit": {
+    "observed": 3187,
+    "expected": 3173.9,
+    "ratio": 1.0041,
+    "z": 0.28
+   }
+  },
+  "kp_sun_sub_lord": {
+   "digital_root": {
+    "observed": 1889,
+    "expected": 1884.5,
+    "ratio": 1.0024,
+    "z": 0.11
+   },
+   "contains_digit": {
+    "observed": 3121,
+    "expected": 3120.9,
+    "ratio": 1.0,
+    "z": 0.0
+   }
+  }
+ },
+ "toto58": {
+  "weekday": {
+   "digital_root": {
+    "observed": 1874,
+    "expected": 1815.7,
+    "ratio": 1.0321,
+    "z": 1.52
+   },
+   "contains_digit": {
+    "observed": 3053,
+    "expected": 3171.8,
+    "ratio": 0.9625,
+    "z": -2.5
+   }
+  },
+  "hora_lord": {
+   "digital_root": {
+    "observed": 1812,
+    "expected": 1774.2,
+    "ratio": 1.0213,
+    "z": 0.99
+   },
+   "contains_digit": {
+    "observed": 2090,
+    "expected": 2138.8,
+    "ratio": 0.9772,
+    "z": -1.2
+   }
+  },
+  "nakshatra_lord": {
+   "digital_root": {
+    "observed": 1819,
+    "expected": 1857.6,
+    "ratio": 0.9792,
+    "z": -1.0
+   },
+   "contains_digit": {
+    "observed": 3097,
+    "expected": 3115.8,
+    "ratio": 0.994,
+    "z": -0.4
+   }
+  },
+  "kp_moon_star_lord": {
+   "digital_root": {
+    "observed": 1821,
+    "expected": 1856.9,
+    "ratio": 0.9807,
+    "z": -0.93
+   },
+   "contains_digit": {
+    "observed": 3084,
+    "expected": 3106.9,
+    "ratio": 0.9926,
+    "z": -0.49
+   }
+  },
+  "kp_moon_sub_lord": {
+   "digital_root": {
+    "observed": 1863,
+    "expected": 1848.2,
+    "ratio": 1.008,
+    "z": 0.38
+   },
+   "contains_digit": {
+    "observed": 3169,
+    "expected": 3119.4,
+    "ratio": 1.0159,
+    "z": 1.05
+   }
+  },
+  "kp_asc_star_lord": {
+   "digital_root": {
+    "observed": 1732,
+    "expected": 1857.3,
+    "ratio": 0.9325,
+    "z": -3.23
+   },
+   "contains_digit": {
+    "observed": 3047,
+    "expected": 3104.8,
+    "ratio": 0.9814,
+    "z": -1.23
+   }
+  },
+  "kp_asc_sub_lord": {
+   "digital_root": {
+    "observed": 1863,
+    "expected": 1848.4,
+    "ratio": 1.0079,
+    "z": 0.38
+   },
+   "contains_digit": {
+    "observed": 3016,
+    "expected": 3112.0,
+    "ratio": 0.9691,
+    "z": -2.04
+   }
+  },
+  "kp_sun_star_lord": {
+   "digital_root": {
+    "observed": 1930,
+    "expected": 1858.8,
+    "ratio": 1.0383,
+    "z": 1.84
+   },
+   "contains_digit": {
+    "observed": 3120,
+    "expected": 3122.0,
+    "ratio": 0.9994,
+    "z": -0.04
+   }
+  },
+  "kp_sun_sub_lord": {
+   "digital_root": {
+    "observed": 1920,
+    "expected": 1850.1,
+    "ratio": 1.0378,
+    "z": 1.81
+   },
+   "contains_digit": {
+    "observed": 3164,
+    "expected": 3121.4,
+    "ratio": 1.0136,
+    "z": 0.9
+   }
+  }
+ },
+ "ml8": {
+  "weekday": {
+   "digital_root": {
+    "observed": 1198,
+    "expected": 1196.4,
+    "ratio": 1.0013,
+    "z": 0.05
+   },
+   "contains_digit": {
+    "observed": 1907,
+    "expected": 1909.6,
+    "ratio": 0.9987,
+    "z": -0.08
+   }
+  },
+  "hora_lord": {
+   "digital_root": {
+    "observed": 1212,
+    "expected": 1196.4,
+    "ratio": 1.013,
+    "z": 0.53
+   },
+   "contains_digit": {
+    "observed": 1376,
+    "expected": 1370.2,
+    "ratio": 1.0042,
+    "z": 0.19
+   }
+  },
+  "nakshatra_lord": {
+   "digital_root": {
+    "observed": 1213,
+    "expected": 1196.4,
+    "ratio": 1.0138,
+    "z": 0.57
+   },
+   "contains_digit": {
+    "observed": 1867,
+    "expected": 1896.0,
+    "ratio": 0.9847,
+    "z": -0.86
+   }
+  },
+  "kp_moon_star_lord": {
+   "digital_root": {
+    "observed": 1209,
+    "expected": 1196.4,
+    "ratio": 1.0105,
+    "z": 0.43
+   },
+   "contains_digit": {
+    "observed": 1857,
+    "expected": 1886.4,
+    "ratio": 0.9844,
+    "z": -0.87
+   }
+  },
+  "kp_moon_sub_lord": {
+   "digital_root": {
+    "observed": 1188,
+    "expected": 1196.4,
+    "ratio": 0.9929,
+    "z": -0.29
+   },
+   "contains_digit": {
+    "observed": 1708,
+    "expected": 1681.8,
+    "ratio": 1.0156,
+    "z": 0.81
+   }
+  },
+  "kp_asc_star_lord": {
+   "digital_root": {
+    "observed": 1186,
+    "expected": 1196.4,
+    "ratio": 0.9913,
+    "z": -0.36
+   },
+   "contains_digit": {
+    "observed": 1920,
+    "expected": 1871.3,
+    "ratio": 1.026,
+    "z": 1.45
+   }
+  },
+  "kp_asc_sub_lord": {
+   "digital_root": {
+    "observed": 1164,
+    "expected": 1196.4,
+    "ratio": 0.9729,
+    "z": -1.11
+   },
+   "contains_digit": {
+    "observed": 1728,
+    "expected": 1708.9,
+    "ratio": 1.0112,
+    "z": 0.59
+   }
+  },
+  "kp_sun_star_lord": {
+   "digital_root": {
+    "observed": 1242,
+    "expected": 1196.4,
+    "ratio": 1.0381,
+    "z": 1.56
+   },
+   "contains_digit": {
+    "observed": 1911,
+    "expected": 1914.2,
+    "ratio": 0.9983,
+    "z": -0.1
+   }
+  },
+  "kp_sun_sub_lord": {
+   "digital_root": {
+    "observed": 1214,
+    "expected": 1196.4,
+    "ratio": 1.0147,
+    "z": 0.6
+   },
+   "contains_digit": {
+    "observed": 1672,
+    "expected": 1734.2,
+    "ratio": 0.9641,
+    "z": -1.9
+   }
+  }
+ },
+ "summary": {
+  "tests": 72,
+  "max_abs_z": 3.23,
+  "n_abs_z_gt_1.96": 8,
+  "expected_if_independent": 3.6,
+  "shifted_calendars": 200,
+  "shifted_mean_n_abs_z_gt_1.96": 3.5,
+  "shifted_max_abs_z_mean": 2.55,
+  "share_of_shifts_with_at_least_as_many": 0.045,
+  "share_of_shifts_with_larger_max": 0.05,
+  "n_z_gt_1.96": 5,
+  "shifted_mean_n_z_gt_1.96": 2.0,
+  "mean_z": 0.137,
+  "share_of_shifts_with_higher_mean_z": 0.27,
+  "replication": [
+   {
+    "game": "toto55",
+    "lord": "hora_lord",
+    "property": "digital_root",
+    "z_before_test": 2.94,
+    "z_test": 0.08,
+    "same_sign": true
+   },
+   {
+    "game": "toto58",
+    "lord": "kp_asc_star_lord",
+    "property": "digital_root",
+    "z_before_test": -3.17,
+    "z_test": -1.05,
+    "same_sign": true
+   },
+   {
+    "game": "toto58",
+    "lord": "kp_sun_star_lord",
+    "property": "digital_root",
+    "z_before_test": 2.12,
+    "z_test": 0.12,
+    "same_sign": true
+   },
+   {
+    "game": "toto58",
+    "lord": "weekday",
+    "property": "contains_digit",
+    "z_before_test": -2.31,
+    "z_test": -1.04,
+    "same_sign": true
+   },
+   {
+    "game": "ml8",
+    "lord": "kp_asc_star_lord",
+    "property": "contains_digit",
+    "z_before_test": 2.31,
+    "z_test": -0.88,
+    "same_sign": false
+   },
+   {
+    "game": "ml8",
+    "lord": "kp_sun_sub_lord",
+    "property": "contains_digit",
+    "z_before_test": -2.97,
+    "z_test": 1.08,
+    "same_sign": false
+   }
+  ]
+ }
+}

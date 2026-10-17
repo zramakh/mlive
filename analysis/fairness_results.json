@@ -1,0 +1,738 @@
+{
+ "toto50": {
+  "label": "STAR TOTO 6/50",
+  "draws": 1437,
+  "first": "2017-10-21",
+  "last": "2026-10-17",
+  "tests": {
+   "uniform": {
+    "value": 36.5479,
+    "chance_mean": 43.9834,
+    "chance_sd": 8.7108,
+    "z": -0.85,
+    "p_high": 0.8056,
+    "p_low": 0.1954
+   },
+   "year_drift": {
+    "value": 379.3366,
+    "chance_mean": 396.9976,
+    "chance_sd": 26.2041,
+    "z": -0.67,
+    "p_high": 0.7491,
+    "p_low": 0.2514
+   },
+   "persistence": {
+    "value": 0.0233,
+    "chance_mean": -0.001,
+    "chance_sd": 0.139,
+    "z": 0.17,
+    "p_high": 0.4408,
+    "p_low": 0.5597
+   },
+   "weekday": {
+    "value": 121.0568,
+    "chance_mean": 132.2211,
+    "chance_sd": 15.3739,
+    "z": -0.73,
+    "p_high": 0.7526,
+    "p_low": 0.2479
+   },
+   "repeat_lag1": {
+    "value": 0.7103,
+    "chance_mean": 0.7198,
+    "chance_sd": 0.0206,
+    "z": -0.46,
+    "p_high": 0.6787,
+    "p_low": 0.3303
+   },
+   "repeat_lag2": {
+    "value": 0.7324,
+    "chance_mean": 0.72,
+    "chance_sd": 0.0199,
+    "z": 0.62,
+    "p_high": 0.2639,
+    "p_low": 0.7486
+   },
+   "repeat_lag5": {
+    "value": 0.7437,
+    "chance_mean": 0.7204,
+    "chance_sd": 0.0199,
+    "z": 1.17,
+    "p_high": 0.1259,
+    "p_low": 0.8831
+   },
+   "repeat_lag10": {
+    "value": 0.7183,
+    "chance_mean": 0.72,
+    "chance_sd": 0.0196,
+    "z": -0.09,
+    "p_high": 0.5442,
+    "p_low": 0.4688
+   },
+   "sum_mean": {
+    "value": 154.625,
+    "chance_mean": 153.006,
+    "z": 1.84
+   },
+   "sum_sd": {
+    "value": 34.008,
+    "chance_mean": 33.479,
+    "z": 0.89
+   },
+   "odd_mean": {
+    "value": 3.027,
+    "chance_mean": 3.0,
+    "z": 0.87
+   },
+   "consecutive_mean": {
+    "value": 0.578,
+    "chance_mean": 0.6,
+    "z": -1.19
+   }
+  },
+  "most_frequent": [
+   [
+    42,
+    193
+   ],
+   [
+    35,
+    191
+   ],
+   [
+    43,
+    191
+   ],
+   [
+    34,
+    190
+   ],
+   [
+    49,
+    189
+   ]
+  ],
+  "least_frequent": [
+   [
+    10,
+    144
+   ],
+   [
+    28,
+    148
+   ],
+   [
+    4,
+    155
+   ],
+   [
+    27,
+    159
+   ],
+   [
+    21,
+    160
+   ]
+  ],
+  "expected_per_number": 172.4,
+  "strategies": {
+   "hot_all_time": {
+    "draws": 432,
+    "matches": 303,
+    "expected": 311.0,
+    "lift": 0.974,
+    "z": -0.51,
+    "draws_3plus": 2
+   },
+   "hot_last_100": {
+    "draws": 432,
+    "matches": 294,
+    "expected": 311.0,
+    "lift": 0.945,
+    "z": -1.09,
+    "draws_3plus": 9
+   },
+   "cold_all_time": {
+    "draws": 432,
+    "matches": 320,
+    "expected": 311.0,
+    "lift": 1.029,
+    "z": 0.57,
+    "draws_3plus": 12
+   },
+   "repeat_last_draw": {
+    "draws": 432,
+    "matches": 302,
+    "expected": 311.0,
+    "lift": 0.971,
+    "z": -0.58,
+    "draws_3plus": 10
+   },
+   "random": {
+    "draws": 432,
+    "matches": 326,
+    "expected": 311.0,
+    "lift": 1.048,
+    "z": 0.95,
+    "draws_3plus": 9
+   }
+  }
+ },
+ "toto55": {
+  "label": "POWER TOTO 6/55",
+  "draws": 2856,
+  "first": "2009-10-31",
+  "last": "2026-10-17",
+  "tests": {
+   "uniform": {
+    "value": 45.7227,
+    "chance_mean": 49.2481,
+    "chance_sd": 9.5947,
+    "z": -0.37,
+    "p_high": 0.6222,
+    "p_low": 0.3783
+   },
+   "year_drift": {
+    "value": 863.6394,
+    "chance_mean": 832.1369,
+    "chance_sd": 40.2615,
+    "z": 0.78,
+    "p_high": 0.2209,
+    "p_low": 0.7796
+   },
+   "persistence": {
+    "value": -0.0715,
+    "chance_mean": 0.0029,
+    "chance_sd": 0.1363,
+    "z": -0.55,
+    "p_high": 0.7111,
+    "p_low": 0.2894
+   },
+   "weekday": {
+    "value": 145.2039,
+    "chance_mean": 146.9222,
+    "chance_sd": 16.3539,
+    "z": -0.11,
+    "p_high": 0.5337,
+    "p_low": 0.4668
+   },
+   "repeat_lag1": {
+    "value": 0.6704,
+    "chance_mean": 0.6543,
+    "chance_sd": 0.0134,
+    "z": 1.2,
+    "p_high": 0.1239,
+    "p_low": 0.8831
+   },
+   "repeat_lag2": {
+    "value": 0.658,
+    "chance_mean": 0.6546,
+    "chance_sd": 0.0136,
+    "z": 0.26,
+    "p_high": 0.4003,
+    "p_low": 0.6122
+   },
+   "repeat_lag5": {
+    "value": 0.6422,
+    "chance_mean": 0.6545,
+    "chance_sd": 0.0134,
+    "z": -0.91,
+    "p_high": 0.8266,
+    "p_low": 0.1779
+   },
+   "repeat_lag10": {
+    "value": 0.6391,
+    "chance_mean": 0.6542,
+    "chance_sd": 0.0136,
+    "z": -1.1,
+    "p_high": 0.8651,
+    "p_low": 0.1419
+   },
+   "sum_mean": {
+    "value": 168.313,
+    "chance_mean": 168.005,
+    "z": 0.44
+   },
+   "sum_sd": {
+    "value": 37.201,
+    "chance_mean": 37.034,
+    "z": 0.37
+   },
+   "odd_mean": {
+    "value": 3.07,
+    "chance_mean": 3.055,
+    "z": 0.67
+   },
+   "consecutive_mean": {
+    "value": 0.54,
+    "chance_mean": 0.545,
+    "z": -0.44
+   }
+  },
+  "most_frequent": [
+   [
+    14,
+    348
+   ],
+   [
+    22,
+    343
+   ],
+   [
+    15,
+    341
+   ],
+   [
+    53,
+    336
+   ],
+   [
+    7,
+    332
+   ]
+  ],
+  "least_frequent": [
+   [
+    26,
+    280
+   ],
+   [
+    10,
+    285
+   ],
+   [
+    51,
+    285
+   ],
+   [
+    13,
+    287
+   ],
+   [
+    40,
+    289
+   ]
+  ],
+  "expected_per_number": 311.6,
+  "strategies": {
+   "hot_all_time": {
+    "draws": 857,
+    "matches": 562,
+    "expected": 560.9,
+    "lift": 1.002,
+    "z": 0.05,
+    "draws_3plus": 16
+   },
+   "hot_last_100": {
+    "draws": 857,
+    "matches": 557,
+    "expected": 560.9,
+    "lift": 0.993,
+    "z": -0.19,
+    "draws_3plus": 20
+   },
+   "cold_all_time": {
+    "draws": 857,
+    "matches": 574,
+    "expected": 560.9,
+    "lift": 1.023,
+    "z": 0.61,
+    "draws_3plus": 8
+   },
+   "repeat_last_draw": {
+    "draws": 857,
+    "matches": 598,
+    "expected": 560.9,
+    "lift": 1.066,
+    "z": 1.74,
+    "draws_3plus": 14
+   },
+   "random": {
+    "draws": 857,
+    "matches": 552,
+    "expected": 560.9,
+    "lift": 0.984,
+    "z": -0.42,
+    "draws_3plus": 16
+   }
+  }
+ },
+ "toto58": {
+  "label": "SUPREME TOTO 6/58",
+  "draws": 2786,
+  "first": "2010-03-20",
+  "last": "2026-10-17",
+  "tests": {
+   "uniform": {
+    "value": 63.8969,
+    "chance_mean": 51.3059,
+    "chance_sd": 9.5853,
+    "z": 1.31,
+    "p_high": 0.1059,
+    "p_low": 0.8946
+   },
+   "year_drift": {
+    "value": 840.9774,
+    "chance_mean": 832.1515,
+    "chance_sd": 38.6184,
+    "z": 0.23,
+    "p_high": 0.3988,
+    "p_low": 0.6017
+   },
+   "persistence": {
+    "value": 0.0841,
+    "chance_mean": -0.0028,
+    "chance_sd": 0.1306,
+    "z": 0.67,
+    "p_high": 0.2509,
+    "p_low": 0.7496
+   },
+   "weekday": {
+    "value": 145.5441,
+    "chance_mean": 155.9233,
+    "chance_sd": 16.7459,
+    "z": -0.62,
+    "p_high": 0.7226,
+    "p_low": 0.2779
+   },
+   "repeat_lag1": {
+    "value": 0.6205,
+    "chance_mean": 0.6206,
+    "chance_sd": 0.0134,
+    "z": -0.01,
+    "p_high": 0.5127,
+    "p_low": 0.4988
+   },
+   "repeat_lag2": {
+    "value": 0.6099,
+    "chance_mean": 0.6208,
+    "chance_sd": 0.0137,
+    "z": -0.79,
+    "p_high": 0.7881,
+    "p_low": 0.2204
+   },
+   "repeat_lag5": {
+    "value": 0.6077,
+    "chance_mean": 0.6206,
+    "chance_sd": 0.0138,
+    "z": -0.94,
+    "p_high": 0.8296,
+    "p_low": 0.1779
+   },
+   "repeat_lag10": {
+    "value": 0.6261,
+    "chance_mean": 0.621,
+    "chance_sd": 0.0135,
+    "z": 0.38,
+    "p_high": 0.3718,
+    "p_low": 0.6417
+   },
+   "sum_mean": {
+    "value": 177.882,
+    "chance_mean": 177.013,
+    "z": 1.19
+   },
+   "sum_sd": {
+    "value": 39.485,
+    "chance_mean": 39.157,
+    "z": 0.67
+   },
+   "odd_mean": {
+    "value": 3.021,
+    "chance_mean": 3.0,
+    "z": 0.96
+   },
+   "consecutive_mean": {
+    "value": 0.534,
+    "chance_mean": 0.517,
+    "z": 1.38
+   }
+  },
+  "most_frequent": [
+   [
+    53,
+    330
+   ],
+   [
+    26,
+    326
+   ],
+   [
+    20,
+    319
+   ],
+   [
+    27,
+    310
+   ],
+   [
+    58,
+    306
+   ]
+  ],
+  "least_frequent": [
+   [
+    56,
+    244
+   ],
+   [
+    28,
+    247
+   ],
+   [
+    2,
+    253
+   ],
+   [
+    18,
+    257
+   ],
+   [
+    13,
+    258
+   ]
+  ],
+  "expected_per_number": 288.2,
+  "strategies": {
+   "hot_all_time": {
+    "draws": 836,
+    "matches": 502,
+    "expected": 518.9,
+    "lift": 0.967,
+    "z": -0.82,
+    "draws_3plus": 11
+   },
+   "hot_last_100": {
+    "draws": 836,
+    "matches": 501,
+    "expected": 518.9,
+    "lift": 0.966,
+    "z": -0.87,
+    "draws_3plus": 3
+   },
+   "cold_all_time": {
+    "draws": 836,
+    "matches": 468,
+    "expected": 518.9,
+    "lift": 0.902,
+    "z": -2.47,
+    "draws_3plus": 6
+   },
+   "repeat_last_draw": {
+    "draws": 836,
+    "matches": 511,
+    "expected": 518.9,
+    "lift": 0.985,
+    "z": -0.38,
+    "draws_3plus": 6
+   },
+   "random": {
+    "draws": 836,
+    "matches": 531,
+    "expected": 518.9,
+    "lift": 1.023,
+    "z": 0.59,
+    "draws_3plus": 6
+   }
+  }
+ },
+ "ml8": {
+  "label": "Magnum Life 8/36",
+  "draws": 1346,
+  "first": "2018-04-25",
+  "last": "2026-10-17",
+  "tests": {
+   "uniform": {
+    "value": 27.7407,
+    "chance_mean": 28.0231,
+    "chance_sd": 6.7689,
+    "z": -0.04,
+    "p_high": 0.4738,
+    "p_low": 0.5267
+   },
+   "year_drift": {
+    "value": 238.2253,
+    "chance_mean": 224.2128,
+    "chance_sd": 18.441,
+    "z": 0.76,
+    "p_high": 0.2159,
+    "p_low": 0.7846
+   },
+   "persistence": {
+    "value": 0.0919,
+    "chance_mean": -0.0017,
+    "chance_sd": 0.1673,
+    "z": 0.56,
+    "p_high": 0.2959,
+    "p_low": 0.7046
+   },
+   "weekday": {
+    "value": 83.1696,
+    "chance_mean": 83.884,
+    "chance_sd": 11.5411,
+    "z": -0.06,
+    "p_high": 0.5032,
+    "p_low": 0.4973
+   },
+   "repeat_lag1": {
+    "value": 1.7643,
+    "chance_mean": 1.7781,
+    "chance_sd": 0.028,
+    "z": -0.49,
+    "p_high": 0.6857,
+    "p_low": 0.3233
+   },
+   "repeat_lag2": {
+    "value": 1.747,
+    "chance_mean": 1.7787,
+    "chance_sd": 0.0284,
+    "z": -1.11,
+    "p_high": 0.8736,
+    "p_low": 0.1329
+   },
+   "repeat_lag5": {
+    "value": 1.7241,
+    "chance_mean": 1.7782,
+    "chance_sd": 0.0289,
+    "z": -1.87,
+    "p_high": 0.974,
+    "p_low": 0.029
+   },
+   "repeat_lag10": {
+    "value": 1.768,
+    "chance_mean": 1.7782,
+    "chance_sd": 0.0291,
+    "z": -0.35,
+    "p_high": 0.6447,
+    "p_low": 0.3678
+   },
+   "sum_mean": {
+    "value": 148.071,
+    "chance_mean": 147.979,
+    "z": 0.13
+   },
+   "sum_sd": {
+    "value": 26.635,
+    "chance_mean": 26.261,
+    "z": 0.77
+   },
+   "odd_mean": {
+    "value": 4.027,
+    "chance_mean": 4.0,
+    "z": 0.78
+   },
+   "consecutive_mean": {
+    "value": 1.572,
+    "chance_mean": 1.555,
+    "z": 0.63
+   }
+  },
+  "most_frequent": [
+   [
+    10,
+    328
+   ],
+   [
+    23,
+    328
+   ],
+   [
+    16,
+    327
+   ],
+   [
+    29,
+    320
+   ],
+   [
+    15,
+    317
+   ]
+  ],
+  "least_frequent": [
+   [
+    20,
+    265
+   ],
+   [
+    24,
+    273
+   ],
+   [
+    22,
+    275
+   ],
+   [
+    17,
+    278
+   ],
+   [
+    13,
+    281
+   ]
+  ],
+  "expected_per_number": 299.1,
+  "strategies": {
+   "hot_all_time": {
+    "draws": 404,
+    "matches": 747,
+    "expected": 718.2,
+    "lift": 1.04,
+    "z": 1.36,
+    "draws_3plus": 103
+   },
+   "hot_last_100": {
+    "draws": 404,
+    "matches": 712,
+    "expected": 718.2,
+    "lift": 0.991,
+    "z": -0.29,
+    "draws_3plus": 90
+   },
+   "cold_all_time": {
+    "draws": 404,
+    "matches": 699,
+    "expected": 718.2,
+    "lift": 0.973,
+    "z": -0.91,
+    "draws_3plus": 93
+   },
+   "repeat_last_draw": {
+    "draws": 404,
+    "matches": 695,
+    "expected": 718.2,
+    "lift": 0.968,
+    "z": -1.1,
+    "draws_3plus": 85
+   },
+   "random": {
+    "draws": 404,
+    "matches": 701,
+    "expected": 718.2,
+    "lift": 0.976,
+    "z": -0.81,
+    "draws_3plus": 81
+   }
+  }
+ },
+ "same_evening_overlap": {
+  "toto50_vs_toto55": {
+   "dates": 1437,
+   "shared": 978,
+   "expected": 940.6,
+   "z": 1.32
+  },
+  "toto50_vs_toto58": {
+   "dates": 1436,
+   "shared": 869,
+   "expected": 891.3,
+   "z": -0.83
+  },
+  "toto55_vs_toto58": {
+   "dates": 2786,
+   "shared": 1738,
+   "expected": 1729.2,
+   "z": 0.23
+  }
+ }
+}
