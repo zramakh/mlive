@@ -215,6 +215,16 @@ three-number tickets came from one draw (30 Sep, when its overlapping tickets al
 previous draw" scored 105 (p 0.035). Supreme Toto's hot+cold mix, Jupiter cell lead and plain "hot last 100" are the
 same recent-hot-number signal (101–111 vs 62). Random tickets scored at chance in every game.
 
+## Lead search for more numbers in one ticket (`lead_search10.py`, [LEAD_SEARCH10.md](LEAD_SEARCH10.md))
+
+114 astrological parameters (83 + 31 new) and all pairs × 4 patterns (hot, cold, position, hot+recent) = 26,220 leads per
+game, 10 tickets per draw, ranked without the last 10 draws by the weakest of three period z-scores of the best-ticket
+matches. Leads consistent in all three periods (z > 1): 31, 40, 131, 62 vs 28–61, 29–80, 65–131, 48–108 on shifted
+calendars. The top 10 per game on the last 10 draws (best ticket per draw, summed): 6/50 121 vs 106.3 expected (shifted
+selections 66–113), 6/55 93 vs 96.7 (98–104), 6/58 83 vs 91.9 (93–113), Life 247 vs 236.5 (233–257). Best single
+result: 6/55 Venus nakshatra × Na Yin element (position) 14 vs 9.7, 11 three-number tickets vs 1.3 (chance 7.9%). No
+ticket matched more than 3 numbers in the Toto games or 4 in Magnum Life. No new lead emerged.
+
 ## Is the 4D lead special? (`lead_4d_robustness.py`, `lead_hunt.py`)
 
 No. Scored the same way:
