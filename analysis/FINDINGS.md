@@ -179,6 +179,13 @@ every draw: +0.33, +0.26, +0.21, −0.16. Overdue: +1.75, +0.26, −0.42, −0.0
 21/17.8. Selection-vs-test correlation across look-backs −0.40 to +0.34; fair histories have SD ≈ 0.3 for this, so
 Magnum Life's +0.26–0.34 happens 18% of the time. No cold rule works either.
 
+**Hot + cold in one ticket** (`hot_cold_mix.py`, [HOT_COLD_MIX.md](HOT_COLD_MIX.md)): h hottest of the last Nh draws +
+(k − h) coldest of the last Nc (or overdue), 295–400 combinations per game. Chosen: 6/50 3 hot (300) + 3 cold (200) →
+test z +0.98; 6/55 6 cold (50) → −0.30; 6/58 4 hot (100) + 2 cold (200) → −1.60; Life 1 hot (50) + 7 cold (10) →
+−0.64 (fair histories, same pipeline: about −1.7 to +1.6). The chosen combinations' selection z (+2.14 to +2.69) is what
+the same menu gives on fair histories (+2.19 to +2.36). Re-chosen every draw: +0.27, −1.29, −0.03, −2.08. Last 10:
+8/7.2, 6/6.5, 12/6.2, 18/17.8.
+
 ## Is the 4D lead special? (`lead_4d_robustness.py`, `lead_hunt.py`)
 
 No. Scored the same way:
