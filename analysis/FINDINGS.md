@@ -205,6 +205,16 @@ calendars beat it) and absent from Power and Supreme Toto, drawn the same evenin
 −2.47/+1.37/+0.39); its last 10: 3 vs 6.7. Logged as `universal_day` for 18 and 21 Oct. As lead parameters the new
 factors match the shifted calendars (replication lift 0.966–1.001 vs 0.980–1.007; walk-forward leads −1.57 to +2.12).
 
+## Ten tickets per draw on the last 10 draws (`ten_tickets.py`, [TEN_TICKETS.md](TEN_TICKETS.md))
+
+Every ticket-producing method (choices frozen without the last 10 draws) played its 10 best k-number sets per draw on
+26 Sep – 17 Oct 2026; chance from 20,000 simulated fair draw sets on the same tickets. 92 methods × games: 10 below 5%
+(4.6 expected), 1 below 1% (0.9 expected), and the low ones are near-copies of each other. Top: Power Toto
+selected-parameter analogy (tropical Moon sign + Jupiter nakshatra) 116 vs 65.3 matches (p 0.009), but 7 of its 9
+three-number tickets came from one draw (30 Sep, when its overlapping tickets all held 28 33 34), and "replay the
+previous draw" scored 105 (p 0.035). Supreme Toto's hot+cold mix, Jupiter cell lead and plain "hot last 100" are the
+same recent-hot-number signal (101–111 vs 62). Random tickets scored at chance in every game.
+
 ## Is the 4D lead special? (`lead_4d_robustness.py`, `lead_hunt.py`)
 
 No. Scored the same way:
