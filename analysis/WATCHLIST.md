@@ -86,3 +86,27 @@ Supreme Toto shows no calendar effect for 5-number hits over the whole history (
 | nakshatra × nayin (and nakshatra / nakshatra_pada / kp_moon_number × nayin / day_pillar) | hot+100 | 5 numbers on 2026-10-11, the same cluster of numbers | 10 sets (+RM27,856) | Ranked 8,250-25,934, return 4-7% |
 | nakshatra × sun_sign_tropical | hot+100 | No 5+ | — | Most 5+ hits against its own shifted calendars (12, z +11.3) |
 | kp_moon_number × nayin_element | hot+100 | 5 numbers, 3 winning draws | System 7 × 2 overlap (+RM14,024) | Top of the combined ranking |
+
+# New-pattern leads (cold+100, hot/cold100, cold/hot100)
+
+Added from `lead_full.py` (7 patterns, chosen on the draws up to 2026-10-17, `LEADS7_*.md`); scored from 2026-10-18 on
+in `WATCH_LOG.md`.
+
+| Game | Lead | Pattern | Why | Best format |
+|---|---|---|---|---|
+| Magnum Life | mercury_rashi × kp_asc_sub_lord | cold+100 | Earlier return 286% (System 10, rank 994); profit in three formats on the last 10 draws (+RM4,580 System 10) | System 10 × 1 |
+| Magnum Life | mars_retrograde × moon_phase | hot/cold100 | Won on 4 of the last 10 draws (+RM1,465) | System 9 × 2 disjoint |
+| Magnum Life | mercury_rashi × day_branch | cold+100 | Won on 4 of the last 10 draws (+RM1,400) | System 9 × 2 overlap |
+| Magnum Life | month_stem × kp_ruling_planets | hot/cold100 | Won on 4 of the last 10 draws (+RM1,380) | System 9 × 2 disjoint |
+| Magnum Life | aspect_moon_mars × aspect_mercury_mars | cold+100 | Most 7+ hits against its own shifted calendars (z +8.8) | System 10 × 1 |
+| Star Toto | hora_lord × mars_combust | cold/hot100 | 5 numbers on 2026-10-07 (+RM8,100 10 sets) | 10 sets |
+| Star Toto | saturn_retrograde × aspect_mercury_jupiter | cold/hot100 | Earlier return 55% (rank 1,172), +RM4,048 on the last 10 | System 7 × 2 disjoint |
+| Star Toto | aspect_sun_mars × aspect_moon_venus | hot/cold100 | Earlier return 45% (rank 2,732), +RM4,078 | System 7 × 2 disjoint |
+| Star Toto | day_of_month × aspect_venus_jupiter | hot/cold100 | Among the top by earlier profit and +RM4,016 on the last 10 | System 7 × 2 disjoint |
+| Star Toto | mars_combust × aspect_moon_mercury | hot/cold100 | Most 5+ hits against its own shifted calendars (12, z +11.9) | 10 sets |
+| Power Toto | mercury_nakshatra × aspects_soft | cold/hot100 | 5 numbers, +RM6,672 on the last 10 | System 7 × 2 disjoint |
+| Power Toto | mars_combust × aspect_jupiter_saturn | cold/hot100 | 9 5+ hits against its own shifted calendars (z +8.6) | 10 sets |
+| Supreme Toto | saturn_rashi × kp_asc_star_lord | cold+100 | 5 numbers, +RM13,928; earlier return 29% (rank 4,137) | System 7 × 2 disjoint |
+| Supreme Toto | kp_asc_star_lord × year_pillar | hot/cold100 | #1 by earlier profit; −RM8 on the last 10 (almost break-even) | System 7 × 2 overlap |
+| Supreme Toto | lagna_rashi × lunar_day | hot/cold100 | 5 numbers, +RM21,384 | System 8 × 1 |
+| Supreme Toto | sun_nakshatra × lunar_month | cold/hot100 | 5 numbers, +RM13,928 | System 7 × 2 overlap |
