@@ -19,6 +19,8 @@ of the three. The top TOP per game are then scored on the last HOLD draws.
 Control: the same search on SHIFTS circularly shifted parameter calendars.
 
 python3 analysis/lead_search10.py  (~15 min on 4 cores) -> analysis/lead_search10_results.json, analysis/LEAD_SEARCH10.md
+python3 analysis/lead_search10.py --tickets 20   the same with 20 tickets per draw (extra swaps with ranks up
+    to k+5), plus the 10-ticket run's top 10 leads re-scored -> analysis/lead_search20_results.json, LEAD_SEARCH20.md
 """
 
 import itertools
@@ -35,18 +37,23 @@ import common  # noqa: E402
 import extra_astro as xa  # noqa: E402
 
 HOLD = 10
+NT = int(sys.argv[sys.argv.index("--tickets") + 1]) if "--tickets" in sys.argv else 10
+KEXTRA = 3 if NT == 10 else 5                                        # ranks beyond k that tickets may use
 SHIFTS = 4
 TOP = 10
 SMOOTH = 5.0
 PATTERNS = ["hot", "cold", "pos", "hot+100"]
 SIMS = 200000
-OUT = os.path.join(common.ROOT, "analysis", "lead_search10_results.json")
-MD = os.path.join(common.ROOT, "analysis", "LEAD_SEARCH10.md")
+OUT = os.path.join(common.ROOT, "analysis", f"lead_search{NT}_results.json")
+MD = os.path.join(common.ROOT, "analysis", f"LEAD_SEARCH{NT}.md")
+PREV = os.path.join(common.ROOT, "analysis", "lead_search10_results.json")
 W = {}
 
 
 def swap_patterns(k):
-    """10 tickets as lists of rank positions (0-based)."""
+    """NT tickets as lists of rank positions (0-based)."""
+    if NT != 10:
+        return swap_patterns_n(k, NT)
     base = list(range(k))
     a, b, c = k, k + 1, k + 2
     rep = lambda drop, add: sorted(set(base) - set(drop) | set(add))  # noqa: E731
@@ -54,13 +61,35 @@ def swap_patterns(k):
             rep([k - 1], [c]), rep([k - 2], [b]), rep([k - 3], [a]), rep([k - 1, k - 2], [a, c]), rep([k - 2], [c])]
 
 
+def swap_patterns_n(k, nt):
+    """nt tickets: ranks 0..k-1, then one- and two-number swaps ordered by how far down the ranking they reach."""
+    base = list(range(k))
+    cands = []
+    for drop in range(k - 1, k - 5, -1):
+        for add in range(k, k + KEXTRA):
+            cands.append(((add - drop), sorted(set(base) - {drop} | {add})))
+    for d1 in range(k - 1, k - 4, -1):
+        for d2 in range(d1 - 1, k - 4, -1):
+            for a1 in range(k, k + 4):
+                for a2 in range(a1 + 1, k + 4):
+                    cands.append(((a1 - d1) + (a2 - d2), sorted(set(base) - {d1, d2} | {a1, a2})))
+    out, seen = [base], {tuple(base)}
+    for _, t in sorted(cands, key=lambda c: c[0]):
+        if tuple(t) not in seen:
+            seen.add(tuple(t))
+            out.append(t)
+        if len(out) == nt:
+            break
+    return out
+
+
 def chance_best(k, n):
     """Per-draw distribution of best-of-10 matches and of 3+ tickets for this ticket structure on fair draws."""
     rng = np.random.default_rng(0)
     pats = swap_patterns(k)
-    war = np.zeros((SIMS, k + 3), bool)
+    war = np.zeros((SIMS, k + KEXTRA), bool)
     pos = np.argsort(rng.random((SIMS, n)), 1)[:, :k]                # winning ranks
-    for j in range(k + 3):
+    for j in range(k + KEXTRA):
         war[:, j] = (pos == j).any(1)
     m = np.stack([war[:, p].sum(1) for p in pats], 1)
     best = m.max(1)
@@ -118,7 +147,7 @@ def evaluate(cid):
     out = {}
     for p, S in scores.items():
         S = S + W["tie"]
-        top = np.argpartition(-S, k + 2, 1)[:, :k + 3]
+        top = np.argpartition(-S, k + KEXTRA - 1, 1)[:, :k + KEXTRA]
         top = np.take_along_axis(top, np.argsort(-np.take_along_axis(S, top, 1), 1), 1)
         war = np.take_along_axis(H, top, 1)                          # draws x (k+3): rank j drawn?
         m = np.stack([war[:, q].sum(1) for q in W["pats"]], 1)
@@ -132,6 +161,19 @@ def evaluate(cid):
 
 def zper(s, cnt, mean, sd):
     return (s - cnt * mean) / (sd * math.sqrt(cnt)) if cnt else 0.0
+
+
+def watch_list():
+    """The 10-ticket run's top 10 leads per game, re-scored here (only when NT != 10)."""
+    if NT == 10 or not os.path.exists(PREV):
+        return {}
+    names = common.ALL_PARAMS + xa.extra_params()
+    prev = json.load(open(PREV))["games"]
+    return {key: {(tuple(sorted(names.index(x) for x in r["set"].split(" × "))), r["pattern"]) for r in g["real"]["top"]}
+            for key, g in prev.items()}
+
+
+WATCH = watch_list()
 
 
 def run(task):
@@ -150,8 +192,9 @@ def run(task):
             res.append((s, p, min(z), z, v))
     # keep only the best few per task to save memory (selection is on the weakest z)
     res.sort(key=lambda r: -r[2])
+    watched = [r for r in res if sh == 0 and (tuple(sorted(r[0])), r[1]) in WATCH.get(key, set())]
     return key, sh, [(s, p, w, z, {kk: vv for kk, vv in v.items()}) for s, p, w, z, v in res[:TOP]], \
-        [(s, p, w) for s, p, w, z, v in res]
+        [(s, p, w) for s, p, w, z, v in res], watched
 
 
 def main():
@@ -160,17 +203,18 @@ def main():
     chunk = 200
     tasks = [(key, sh, sets[i:i + chunk]) for key in common.GAMES for sh in range(SHIFTS + 1)
              for i in range(0, len(sets), chunk)]
-    best, allw = {}, {}
+    best, allw, watched = {}, {}, {}
     with Pool(4) as pool:
-        for i, (key, sh, top, w) in enumerate(pool.imap_unordered(run, tasks), 1):
+        for i, (key, sh, top, w, wt) in enumerate(pool.imap_unordered(run, tasks), 1):
             best.setdefault((key, sh), []).extend(top)
             allw.setdefault((key, sh), []).extend(x[2] for x in w)
+            watched.setdefault(key, []).extend(wt)
             if i % 50 == 0:
                 print(f"{i}/{len(tasks)}", flush=True)
     res = {"sets": len(sets), "patterns": PATTERNS, "games": {}}
-    md = ["# Lead search for more numbers in one ticket (10 tickets per draw)", "",
+    md = [f"# Lead search for more numbers in one ticket ({NT} tickets per draw)", "",
           "Generated by `analysis/lead_search10.py`. 114 astrological parameters and all their pairs × 4 patterns "
-          f"({len(sets) * 4:,} leads per game). Leads ranked, without the last {HOLD} draws, by the weakest of three "
+          f"({len(sets) * 4:,} leads per game), {NT} tickets per draw. Leads ranked, without the last {HOLD} draws, by the weakest of three "
           "period z-scores of the best-ticket matches; the top 10 are scored on the last 10 draws. *Chance* for a lead = "
           "share of fair 10-draw sets in which the best ticket per draw sums to at least as much. Control: the same search "
           f"on {SHIFTS} shifted calendars.", ""]
@@ -184,19 +228,27 @@ def main():
             tot = np.convolve(tot, dist)
         p_ge = lambda x: float(tot[int(x):].sum())  # noqa: E731
         game = {"label": g["label"], "expected_best_per_draw": round(float(eb), 3), "expected_3plus_per_draw": round(float(e3), 3)}
-        for sh in range(SHIFTS + 1):
-            top = sorted(best[(key, sh)], key=lambda r: -r[2])[:TOP]
+        def describe(entries):
             rows = []
-            for s, p, w, z, v in top:
+            for s, p, w, z, v in entries:
                 hb = sum(v["hold_best"])
                 rows.append({"set": " × ".join(names[j] for j in s), "pattern": p, "weakest_z": round(w, 2),
                              "z_periods": [round(x, 2) for x in z], "hold_best_sum": int(hb), "hold_expected": round(HOLD * eb, 2),
                              "hold_chance": round(p_ge(hb), 4), "hold_max": int(max(max(r) for r in v["hold_m"])),
                              "hold_3plus": int(sum(sum(1 for x in r if x >= 3) for r in v["hold_m"])),
                              "hold_3plus_expected": round(HOLD * e3, 2), "hold_tickets": v["hold_tickets"]})
+            return rows
+
+        for sh in range(SHIFTS + 1):
+            rows = describe(sorted(best[(key, sh)], key=lambda r: -r[2])[:TOP])
             ws = np.array(allw[(key, sh)])
             game["real" if sh == 0 else f"shift{sh}"] = {"top": rows, "best_weakest_z": round(float(ws.max()), 2),
                                                          "n_weakest_z_gt_1": int((ws > 1).sum())}
+        if watched.get(key):
+            allz = np.sort(np.array(allw[(key, 0)]))[::-1]
+            game["previous_leads"] = describe(sorted(watched[key], key=lambda r: -r[2]))
+            for r in game["previous_leads"]:
+                r["rank_now"] = int((allz > r["weakest_z"]).sum()) + 1
         real = game["real"]
         sh = [game[f"shift{i}"] for i in range(1, SHIFTS + 1)]
         game["summary"] = {
@@ -227,6 +279,15 @@ def main():
                       f"{r['hold_best_sum']} ({r['hold_expected']}) | {100 * r['hold_chance']:.1f}% | {r['hold_max']} | "
                       f"{r['hold_3plus']} ({r['hold_3plus_expected']}) |")
         md.append("")
+        if game.get("previous_leads"):
+            md += [f"**The 10-ticket run's top 10 leads, now with {NT} tickets** (rank now = rank among all leads on the earlier periods):", "",
+                   "| Lead | Pattern | Rank now | z early / valid / late | Last 10: best-ticket sum (expected) | Chance | Max in one ticket | 3+ tickets (expected) |",
+                   "|---|---|---|---|---|---|---|---|"]
+            for r in game["previous_leads"]:
+                md.append(f"| {r['set']} | {r['pattern']} | {r['rank_now']} | {' / '.join(f'{x:+.2f}' for x in r['z_periods'])} | "
+                          f"{r['hold_best_sum']} ({r['hold_expected']}) | {100 * r['hold_chance']:.1f}% | {r['hold_max']} | "
+                          f"{r['hold_3plus']} ({r['hold_3plus_expected']}) |")
+            md.append("")
     with open(OUT, "w") as fh:
         json.dump(res, fh, indent=1, default=float)
     with open(MD, "w") as fh:
