@@ -1,0 +1,984 @@
+{
+ "games": {
+  "toto50": {
+   "label": "STAR TOTO 6/50",
+   "real": {
+    "combinations": 2988,
+    "chosen": {
+     "set": "mercury_combust \u00d7 day_officer",
+     "Nh": 20,
+     "Nc": 300,
+     "alpha": 0.0,
+     "beta": 1.0,
+     "gamma": 2.0
+    },
+    "select_z": 4.01,
+    "test_z": -2.64,
+    "last10": 9,
+    "same_without_astrology": {
+     "select_z": 1.77,
+     "test_z": -1.73,
+     "last10": 11
+    },
+    "best_without_astrology": {
+     "combo": {
+      "set": "lagna_rashi \u00d7 lunar_month",
+      "Nh": 20,
+      "Nc": 300,
+      "alpha": 1.0,
+      "beta": 1.0,
+      "gamma": 0.0
+     },
+     "select_z": 2.24,
+     "test_z": -0.96,
+     "last10": 10
+    },
+    "astro_sets": [
+     "lagna_rashi \u00d7 lunar_month",
+     "karana \u00d7 saturn_nakshatra",
+     "lagna_rashi \u00d7 day_element",
+     "mercury_combust \u00d7 day_officer",
+     "venus_rashi \u00d7 lagna_rashi"
+    ],
+    "last10_expected": 7.2
+   },
+   "shifted": [
+    {
+     "combinations": 2988,
+     "chosen": {
+      "set": "kp_moon_sub_lord \u00d7 day_branch",
+      "Nh": 20,
+      "Nc": 300,
+      "alpha": 1.0,
+      "beta": 1.0,
+      "gamma": 2.0
+     },
+     "select_z": 4.06,
+     "test_z": -1.09,
+     "last10": 14,
+     "same_without_astrology": {
+      "select_z": 2.24,
+      "test_z": -0.96,
+      "last10": 10
+     },
+     "best_without_astrology": {
+      "combo": {
+       "set": "moon_rashi \u00d7 mars_combust",
+       "Nh": 20,
+       "Nc": 300,
+       "alpha": 1.0,
+       "beta": 1.0,
+       "gamma": 0.0
+      },
+      "select_z": 2.24,
+      "test_z": -0.96,
+      "last10": 10
+     },
+     "astro_sets": [
+      "moon_rashi \u00d7 mars_combust",
+      "nakshatra \u00d7 kp_asc_sub_lord",
+      "nakshatra_pada \u00d7 kp_sun_star_lord",
+      "hour_stem_19h \u00d7 yellow_black_path",
+      "sun_rashi \u00d7 day_branch"
+     ],
+     "last10_expected": 7.2
+    },
+    {
+     "combinations": 2988,
+     "chosen": {
+      "set": "mercury_combust \u00d7 ritu",
+      "Nh": 20,
+      "Nc": 300,
+      "alpha": 0.0,
+      "beta": 1.0,
+      "gamma": 2.0
+     },
+     "select_z": 3.91,
+     "test_z": -0.25,
+     "last10": 7,
+     "same_without_astrology": {
+      "select_z": 1.77,
+      "test_z": -1.73,
+      "last10": 11
+     },
+     "best_without_astrology": {
+      "combo": {
+       "set": "ritu",
+       "Nh": 20,
+       "Nc": 300,
+       "alpha": 1.0,
+       "beta": 1.0,
+       "gamma": 0.0
+      },
+      "select_z": 2.24,
+      "test_z": -0.96,
+      "last10": 10
+     },
+     "astro_sets": [
+      "ritu",
+      "ritu \u00d7 lunar_leap_month",
+      "saturn_combust \u00d7 day_branch",
+      "moon_navamsa \u00d7 jupiter_combust",
+      "saturn_retrograde \u00d7 kp_sun_star_lord"
+     ],
+     "last10_expected": 7.2
+    },
+    {
+     "combinations": 2988,
+     "chosen": {
+      "set": "mars_nakshatra \u00d7 lunar_day",
+      "Nh": 20,
+      "Nc": 300,
+      "alpha": 0.0,
+      "beta": 1.0,
+      "gamma": 2.0
+     },
+     "select_z": 3.7,
+     "test_z": -0.76,
+     "last10": 11,
+     "same_without_astrology": {
+      "select_z": 1.77,
+      "test_z": -1.73,
+      "last10": 11
+     },
+     "best_without_astrology": {
+      "combo": {
+       "set": "mars_nakshatra \u00d7 lunar_day",
+       "Nh": 20,
+       "Nc": 300,
+       "alpha": 1.0,
+       "beta": 1.0,
+       "gamma": 0.0
+      },
+      "select_z": 2.24,
+      "test_z": -0.96,
+      "last10": 10
+     },
+     "astro_sets": [
+      "mars_nakshatra \u00d7 lunar_day",
+      "lunar_day \u00d7 day_element",
+      "nayin_element \u00d7 yellow_black_path",
+      "rahu_rashi \u00d7 lunar_day",
+      "saturn_nakshatra \u00d7 day_pillar"
+     ],
+     "last10_expected": 7.2
+    },
+    {
+     "combinations": 2988,
+     "chosen": {
+      "set": "kp_asc_star_lord \u00d7 kp_sun_sub_lord",
+      "Nh": 20,
+      "Nc": 300,
+      "alpha": 0.0,
+      "beta": 1.0,
+      "gamma": 2.0
+     },
+     "select_z": 3.85,
+     "test_z": -1.28,
+     "last10": 10,
+     "same_without_astrology": {
+      "select_z": 1.77,
+      "test_z": -1.73,
+      "last10": 11
+     },
+     "best_without_astrology": {
+      "combo": {
+       "set": "kp_asc_star_lord \u00d7 kp_sun_sub_lord",
+       "Nh": 20,
+       "Nc": 300,
+       "alpha": 1.0,
+       "beta": 1.0,
+       "gamma": 0.0
+      },
+      "select_z": 2.24,
+      "test_z": -0.96,
+      "last10": 10
+     },
+     "astro_sets": [
+      "kp_asc_star_lord \u00d7 kp_sun_sub_lord",
+      "tithi \u00d7 year_element",
+      "kp_sun_star_lord \u00d7 day_officer",
+      "tithi \u00d7 jupiter_rashi",
+      "paksha \u00d7 mansion_28"
+     ],
+     "last10_expected": 7.2
+    },
+    {
+     "combinations": 2988,
+     "chosen": {
+      "set": "yoga \u00d7 jupiter_retrograde",
+      "Nh": 20,
+      "Nc": 100,
+      "alpha": -1.0,
+      "beta": 1.0,
+      "gamma": 2.0
+     },
+     "select_z": 4.53,
+     "test_z": -0.96,
+     "last10": 5,
+     "same_without_astrology": {
+      "select_z": -0.01,
+      "test_z": -2.05,
+      "last10": 3
+     },
+     "best_without_astrology": {
+      "combo": {
+       "set": "saturn_nakshatra \u00d7 lunar_day",
+       "Nh": 20,
+       "Nc": 300,
+       "alpha": 1.0,
+       "beta": 1.0,
+       "gamma": 0.0
+      },
+      "select_z": 2.24,
+      "test_z": -0.96,
+      "last10": 10
+     },
+     "astro_sets": [
+      "saturn_nakshatra \u00d7 lunar_day",
+      "mars_nakshatra \u00d7 adhika_masa",
+      "mars_nakshatra",
+      "mars_nakshatra \u00d7 ayana",
+      "nayin \u00d7 nine_star_month"
+     ],
+     "last10_expected": 7.2
+    }
+   ]
+  },
+  "toto55": {
+   "label": "POWER TOTO 6/55",
+   "real": {
+    "combinations": 2988,
+    "chosen": {
+     "set": "karana \u00d7 adhika_masa",
+     "Nh": 20,
+     "Nc": 100,
+     "alpha": 1.0,
+     "beta": -1.0,
+     "gamma": 2.0
+    },
+    "select_z": 4.75,
+    "test_z": -1.15,
+    "last10": 6,
+    "same_without_astrology": {
+     "select_z": -2.04,
+     "test_z": 0.93,
+     "last10": 6
+    },
+    "best_without_astrology": {
+     "combo": {
+      "set": "karana \u00d7 adhika_masa",
+      "Nh": 20,
+      "Nc": 20,
+      "alpha": -1.0,
+      "beta": -1.0,
+      "gamma": 0.0
+     },
+     "select_z": 1.61,
+     "test_z": -1.2,
+     "last10": 9
+    },
+    "astro_sets": [
+     "karana \u00d7 adhika_masa",
+     "karana \u00d7 lunar_leap_month",
+     "karana",
+     "paksha \u00d7 moon_navamsa",
+     "moon_rashi \u00d7 day_pillar"
+    ],
+    "last10_expected": 6.55
+   },
+   "shifted": [
+    {
+     "combinations": 2988,
+     "chosen": {
+      "set": "kp_moon_sub_lord \u00d7 lunar_month",
+      "Nh": 20,
+      "Nc": 20,
+      "alpha": -1.0,
+      "beta": 0.0,
+      "gamma": 2.0
+     },
+     "select_z": 4.18,
+     "test_z": 0.12,
+     "last10": 9,
+     "same_without_astrology": {
+      "select_z": 1.57,
+      "test_z": -1.25,
+      "last10": 9
+     },
+     "best_without_astrology": {
+      "combo": {
+       "set": "sun_rashi \u00d7 mercury_nakshatra",
+       "Nh": 20,
+       "Nc": 20,
+       "alpha": -1.0,
+       "beta": -1.0,
+       "gamma": 0.0
+      },
+      "select_z": 1.61,
+      "test_z": -1.2,
+      "last10": 9
+     },
+     "astro_sets": [
+      "sun_rashi \u00d7 mercury_nakshatra",
+      "kp_asc_sub_lord \u00d7 kp_sun_sub_lord",
+      "nakshatra \u00d7 month_pillar",
+      "jupiter_nakshatra \u00d7 kp_asc_star_lord",
+      "sun_rashi \u00d7 venus_combust"
+     ],
+     "last10_expected": 6.55
+    },
+    {
+     "combinations": 2988,
+     "chosen": {
+      "set": "nakshatra_pada \u00d7 mansion_28",
+      "Nh": 20,
+      "Nc": 100,
+      "alpha": -1.0,
+      "beta": -1.0,
+      "gamma": 2.0
+     },
+     "select_z": 3.64,
+     "test_z": -0.96,
+     "last10": 5,
+     "same_without_astrology": {
+      "select_z": 1.19,
+      "test_z": -0.73,
+      "last10": 5
+     },
+     "best_without_astrology": {
+      "combo": {
+       "set": "venus_nakshatra \u00d7 nayin_element",
+       "Nh": 20,
+       "Nc": 20,
+       "alpha": -1.0,
+       "beta": -1.0,
+       "gamma": 0.0
+      },
+      "select_z": 1.61,
+      "test_z": -1.2,
+      "last10": 9
+     },
+     "astro_sets": [
+      "venus_nakshatra \u00d7 nayin_element",
+      "venus_rashi \u00d7 yellow_black_path",
+      "nakshatra_lord \u00d7 day_vs_year_branch",
+      "kp_moon_star_lord \u00d7 day_vs_year_branch",
+      "mars_rashi \u00d7 kp_moon_sub_lord"
+     ],
+     "last10_expected": 6.55
+    },
+    {
+     "combinations": 2988,
+     "chosen": {
+      "set": "saturn_rashi \u00d7 lunar_day",
+      "Nh": 20,
+      "Nc": 300,
+      "alpha": 0.0,
+      "beta": 1.0,
+      "gamma": 2.0
+     },
+     "select_z": 3.87,
+     "test_z": -0.21,
+     "last10": 5,
+     "same_without_astrology": {
+      "select_z": -0.43,
+      "test_z": 0.55,
+      "last10": 7
+     },
+     "best_without_astrology": {
+      "combo": {
+       "set": "jupiter_nakshatra \u00d7 day_god",
+       "Nh": 20,
+       "Nc": 20,
+       "alpha": -1.0,
+       "beta": -1.0,
+       "gamma": 0.0
+      },
+      "select_z": 1.61,
+      "test_z": -1.2,
+      "last10": 9
+     },
+     "astro_sets": [
+      "jupiter_nakshatra \u00d7 day_god",
+      "kp_moon_number \u00d7 nayin",
+      "saturn_rashi \u00d7 lunar_day",
+      "jupiter_rashi \u00d7 lunar_day",
+      "mars_nakshatra \u00d7 venus_rashi"
+     ],
+     "last10_expected": 6.55
+    },
+    {
+     "combinations": 2988,
+     "chosen": {
+      "set": "rahu_nakshatra \u00d7 kp_sun_star_lord",
+      "Nh": 20,
+      "Nc": 300,
+      "alpha": 0.0,
+      "beta": -1.0,
+      "gamma": 1.0
+     },
+     "select_z": 4.41,
+     "test_z": 0.74,
+     "last10": 8,
+     "same_without_astrology": {
+      "select_z": 1.34,
+      "test_z": -0.63,
+      "last10": 6
+     },
+     "best_without_astrology": {
+      "combo": {
+       "set": "moon_rashi \u00d7 kp_sun_number",
+       "Nh": 20,
+       "Nc": 20,
+       "alpha": -1.0,
+       "beta": -1.0,
+       "gamma": 0.0
+      },
+      "select_z": 1.61,
+      "test_z": -1.2,
+      "last10": 9
+     },
+     "astro_sets": [
+      "moon_rashi \u00d7 kp_sun_number",
+      "moon_navamsa \u00d7 kp_asc_number",
+      "kp_asc_number \u00d7 lunar_month",
+      "kp_asc_sub_lord \u00d7 kp_sun_star_lord",
+      "rahu_nakshatra \u00d7 kp_sun_star_lord"
+     ],
+     "last10_expected": 6.55
+    },
+    {
+     "combinations": 2988,
+     "chosen": {
+      "set": "kp_sun_star_lord \u00d7 day_element",
+      "Nh": 20,
+      "Nc": 100,
+      "alpha": -1.0,
+      "beta": -1.0,
+      "gamma": 2.0
+     },
+     "select_z": 4.41,
+     "test_z": -0.35,
+     "last10": 8,
+     "same_without_astrology": {
+      "select_z": 1.19,
+      "test_z": -0.73,
+      "last10": 5
+     },
+     "best_without_astrology": {
+      "combo": {
+       "set": "day_branch \u00d7 day_officer",
+       "Nh": 20,
+       "Nc": 20,
+       "alpha": -1.0,
+       "beta": -1.0,
+       "gamma": 0.0
+      },
+      "select_z": 1.61,
+      "test_z": -1.2,
+      "last10": 9
+     },
+     "astro_sets": [
+      "day_branch \u00d7 day_officer",
+      "month_branch \u00d7 day_officer",
+      "day_officer \u00d7 day_god",
+      "month_branch \u00d7 day_branch",
+      "month_branch \u00d7 day_god"
+     ],
+     "last10_expected": 6.55
+    }
+   ]
+  },
+  "toto58": {
+   "label": "SUPREME TOTO 6/58",
+   "real": {
+    "combinations": 2988,
+    "chosen": {
+     "set": "paksha \u00d7 rahu_rashi",
+     "Nh": 20,
+     "Nc": 300,
+     "alpha": 0.0,
+     "beta": 1.0,
+     "gamma": 2.0
+    },
+    "select_z": 4.31,
+    "test_z": -0.52,
+    "last10": 5,
+    "same_without_astrology": {
+     "select_z": 1.33,
+     "test_z": 0.16,
+     "last10": 8
+    },
+    "best_without_astrology": {
+     "combo": {
+      "set": "paksha \u00d7 rahu_rashi",
+      "Nh": 20,
+      "Nc": 100,
+      "alpha": 0.0,
+      "beta": 1.0,
+      "gamma": 0.0
+     },
+     "select_z": 1.41,
+     "test_z": -0.57,
+     "last10": 11
+    },
+    "astro_sets": [
+     "paksha \u00d7 rahu_rashi",
+     "jupiter_rashi \u00d7 jupiter_retrograde",
+     "mars_nakshatra \u00d7 nine_star_month",
+     "mercury_combust \u00d7 nine_star_year",
+     "paksha \u00d7 jupiter_rashi"
+    ],
+    "last10_expected": 6.21
+   },
+   "shifted": [
+    {
+     "combinations": 2988,
+     "chosen": {
+      "set": "mercury_combust \u00d7 ritu",
+      "Nh": 20,
+      "Nc": 100,
+      "alpha": 1.0,
+      "beta": 1.0,
+      "gamma": 2.0
+     },
+     "select_z": 4.23,
+     "test_z": -0.91,
+     "last10": 10,
+     "same_without_astrology": {
+      "select_z": 1.18,
+      "test_z": 1.48,
+      "last10": 8
+     },
+     "best_without_astrology": {
+      "combo": {
+       "set": "kp_asc_sub_lord \u00d7 hour_stem_19h",
+       "Nh": 20,
+       "Nc": 100,
+       "alpha": 0.0,
+       "beta": 1.0,
+       "gamma": 0.0
+      },
+      "select_z": 1.41,
+      "test_z": -0.57,
+      "last10": 11
+     },
+     "astro_sets": [
+      "kp_asc_sub_lord \u00d7 hour_stem_19h",
+      "mercury_combust \u00d7 ritu",
+      "mars_combust \u00d7 adhika_masa",
+      "mercury_retrograde \u00d7 day_stem",
+      "mercury_retrograde \u00d7 nayin_element"
+     ],
+     "last10_expected": 6.21
+    },
+    {
+     "combinations": 2988,
+     "chosen": {
+      "set": "venus_rashi \u00d7 lunar_month",
+      "Nh": 20,
+      "Nc": 20,
+      "alpha": 0.0,
+      "beta": 1.0,
+      "gamma": 1.0
+     },
+     "select_z": 3.55,
+     "test_z": 0.26,
+     "last10": 3,
+     "same_without_astrology": {
+      "select_z": -0.33,
+      "test_z": 2.36,
+      "last10": 8
+     },
+     "best_without_astrology": {
+      "combo": {
+       "set": "samvatsara \u00d7 day_vs_year_branch",
+       "Nh": 20,
+       "Nc": 100,
+       "alpha": 0.0,
+       "beta": 1.0,
+       "gamma": 0.0
+      },
+      "select_z": 1.41,
+      "test_z": -0.57,
+      "last10": 11
+     },
+     "astro_sets": [
+      "samvatsara \u00d7 day_vs_year_branch",
+      "mars_nakshatra \u00d7 month_branch",
+      "kp_sun_sub_lord \u00d7 day_stem",
+      "venus_rashi \u00d7 lagna_rashi",
+      "saturn_nakshatra \u00d7 ayana"
+     ],
+     "last10_expected": 6.21
+    },
+    {
+     "combinations": 2988,
+     "chosen": {
+      "set": "paksha \u00d7 lagna_rashi",
+      "Nh": 20,
+      "Nc": 300,
+      "alpha": 1.0,
+      "beta": 1.0,
+      "gamma": 2.0
+     },
+     "select_z": 3.91,
+     "test_z": 0.75,
+     "last10": 4,
+     "same_without_astrology": {
+      "select_z": 1.06,
+      "test_z": -0.23,
+      "last10": 8
+     },
+     "best_without_astrology": {
+      "combo": {
+       "set": "paksha \u00d7 lagna_rashi",
+       "Nh": 20,
+       "Nc": 100,
+       "alpha": 0.0,
+       "beta": 1.0,
+       "gamma": 0.0
+      },
+      "select_z": 1.41,
+      "test_z": -0.57,
+      "last10": 11
+     },
+     "astro_sets": [
+      "paksha \u00d7 lagna_rashi",
+      "mars_rashi \u00d7 mercury_combust",
+      "kp_asc_sub_lord \u00d7 day_element",
+      "paksha \u00d7 sun_rashi",
+      "hora_lord \u00d7 mercury_retrograde"
+     ],
+     "last10_expected": 6.21
+    },
+    {
+     "combinations": 2988,
+     "chosen": {
+      "set": "kp_asc_star_lord \u00d7 day_pillar",
+      "Nh": 100,
+      "Nc": 300,
+      "alpha": 1.0,
+      "beta": -1.0,
+      "gamma": 1.0
+     },
+     "select_z": 3.59,
+     "test_z": 0.65,
+     "last10": 7,
+     "same_without_astrology": {
+      "select_z": -0.25,
+      "test_z": -0.08,
+      "last10": 10
+     },
+     "best_without_astrology": {
+      "combo": {
+       "set": "kp_asc_star_lord \u00d7 day_pillar",
+       "Nh": 20,
+       "Nc": 100,
+       "alpha": 0.0,
+       "beta": 1.0,
+       "gamma": 0.0
+      },
+      "select_z": 1.41,
+      "test_z": -0.57,
+      "last10": 11
+     },
+     "astro_sets": [
+      "kp_asc_star_lord \u00d7 day_pillar",
+      "jupiter_retrograde \u00d7 adhika_masa",
+      "moon_navamsa \u00d7 samvatsara",
+      "kp_asc_sub_lord \u00d7 lunar_month",
+      "mars_nakshatra \u00d7 mansion_28"
+     ],
+     "last10_expected": 6.21
+    },
+    {
+     "combinations": 2988,
+     "chosen": {
+      "set": "mercury_combust \u00d7 saturn_combust",
+      "Nh": 20,
+      "Nc": 300,
+      "alpha": 1.0,
+      "beta": -1.0,
+      "gamma": 2.0
+     },
+     "select_z": 4.23,
+     "test_z": 0.31,
+     "last10": 4,
+     "same_without_astrology": {
+      "select_z": 1.29,
+      "test_z": -0.18,
+      "last10": 8
+     },
+     "best_without_astrology": {
+      "combo": {
+       "set": "paksha \u00d7 hour_stem_19h",
+       "Nh": 20,
+       "Nc": 100,
+       "alpha": 0.0,
+       "beta": 1.0,
+       "gamma": 0.0
+      },
+      "select_z": 1.41,
+      "test_z": -0.57,
+      "last10": 11
+     },
+     "astro_sets": [
+      "paksha \u00d7 hour_stem_19h",
+      "rahu_nakshatra \u00d7 day_branch",
+      "yoga \u00d7 month_stem",
+      "saturn_rashi \u00d7 day_branch",
+      "adhika_masa \u00d7 day_vs_year_branch"
+     ],
+     "last10_expected": 6.21
+    }
+   ]
+  },
+  "ml8": {
+   "label": "Magnum Life 8/36",
+   "real": {
+    "combinations": 2988,
+    "chosen": {
+     "set": "venus_nakshatra \u00d7 planets_with_moon",
+     "Nh": 20,
+     "Nc": 300,
+     "alpha": 0.0,
+     "beta": -1.0,
+     "gamma": 0.5
+    },
+    "select_z": 3.81,
+    "test_z": 0.89,
+    "last10": 22,
+    "same_without_astrology": {
+     "select_z": 2.19,
+     "test_z": 0.51,
+     "last10": 21
+    },
+    "best_without_astrology": {
+     "combo": {
+      "set": "nakshatra_pada \u00d7 nine_star_month",
+      "Nh": 20,
+      "Nc": 300,
+      "alpha": 0.0,
+      "beta": -1.0,
+      "gamma": 0.0
+     },
+     "select_z": 2.19,
+     "test_z": 0.51,
+     "last10": 21
+    },
+    "astro_sets": [
+     "nakshatra_pada \u00d7 nine_star_month",
+     "year_element \u00d7 nayin",
+     "mercury_rashi \u00d7 kp_asc_sub_lord",
+     "moon_rashi \u00d7 kp_moon_sub_lord",
+     "venus_nakshatra \u00d7 jupiter_combust"
+    ],
+    "last10_expected": 17.78
+   },
+   "shifted": [
+    {
+     "combinations": 2988,
+     "chosen": {
+      "set": "lunar_day \u00d7 solar_term",
+      "Nh": 20,
+      "Nc": 300,
+      "alpha": 0.0,
+      "beta": -1.0,
+      "gamma": 0.5
+     },
+     "select_z": 3.12,
+     "test_z": 0.65,
+     "last10": 21,
+     "same_without_astrology": {
+      "select_z": 2.19,
+      "test_z": 0.51,
+      "last10": 21
+     },
+     "best_without_astrology": {
+      "combo": {
+       "set": "mercury_nakshatra \u00d7 day_officer",
+       "Nh": 20,
+       "Nc": 300,
+       "alpha": 0.0,
+       "beta": -1.0,
+       "gamma": 0.0
+      },
+      "select_z": 2.19,
+      "test_z": 0.51,
+      "last10": 21
+     },
+     "astro_sets": [
+      "mercury_nakshatra \u00d7 day_officer",
+      "month_stem \u00d7 yellow_black_path",
+      "lunar_day \u00d7 day_pillar",
+      "saturn_rashi \u00d7 day_officer",
+      "kp_asc_sub_lord \u00d7 lunar_month"
+     ],
+     "last10_expected": 17.78
+    },
+    {
+     "combinations": 2988,
+     "chosen": {
+      "set": "ayana \u00d7 kp_asc_sub_lord",
+      "Nh": 20,
+      "Nc": 20,
+      "alpha": -1.0,
+      "beta": 1.0,
+      "gamma": 0.5
+     },
+     "select_z": 4.82,
+     "test_z": -0.6,
+     "last10": 15,
+     "same_without_astrology": {
+      "select_z": 1.18,
+      "test_z": 0.22,
+      "last10": 19
+     },
+     "best_without_astrology": {
+      "combo": {
+       "set": "kp_sun_number \u00d7 year_yinyang",
+       "Nh": 20,
+       "Nc": 300,
+       "alpha": 0.0,
+       "beta": -1.0,
+       "gamma": 0.0
+      },
+      "select_z": 2.19,
+      "test_z": 0.51,
+      "last10": 21
+     },
+     "astro_sets": [
+      "kp_sun_number \u00d7 year_yinyang",
+      "mars_combust \u00d7 day_god",
+      "ayana \u00d7 kp_asc_sub_lord",
+      "saturn_nakshatra \u00d7 nayin",
+      "lagna_nakshatra \u00d7 day_element"
+     ],
+     "last10_expected": 17.78
+    },
+    {
+     "combinations": 2988,
+     "chosen": {
+      "set": "nakshatra_pada \u00d7 mercury_rashi",
+      "Nh": 20,
+      "Nc": 300,
+      "alpha": 0.0,
+      "beta": -1.0,
+      "gamma": 2.0
+     },
+     "select_z": 3.93,
+     "test_z": -0.79,
+     "last10": 15,
+     "same_without_astrology": {
+      "select_z": 2.19,
+      "test_z": 0.51,
+      "last10": 21
+     },
+     "best_without_astrology": {
+      "combo": {
+       "set": "nakshatra_pada \u00d7 mercury_rashi",
+       "Nh": 20,
+       "Nc": 300,
+       "alpha": 0.0,
+       "beta": -1.0,
+       "gamma": 0.0
+      },
+      "select_z": 2.19,
+      "test_z": 0.51,
+      "last10": 21
+     },
+     "astro_sets": [
+      "nakshatra_pada \u00d7 mercury_rashi",
+      "saturn_rashi \u00d7 kp_asc_star_lord",
+      "kp_sun_sub_lord \u00d7 hour_stem_19h",
+      "mercury_rashi \u00d7 hour_stem_19h",
+      "lagna_nakshatra \u00d7 mars_combust"
+     ],
+     "last10_expected": 17.78
+    },
+    {
+     "combinations": 2988,
+     "chosen": {
+      "set": "nakshatra \u00d7 year_stem",
+      "Nh": 20,
+      "Nc": 300,
+      "alpha": -1.0,
+      "beta": -1.0,
+      "gamma": 2.0
+     },
+     "select_z": 4.54,
+     "test_z": 1.32,
+     "last10": 16,
+     "same_without_astrology": {
+      "select_z": 1.45,
+      "test_z": -0.12,
+      "last10": 27
+     },
+     "best_without_astrology": {
+      "combo": {
+       "set": "kp_sun_number \u00d7 year_yinyang",
+       "Nh": 20,
+       "Nc": 300,
+       "alpha": 0.0,
+       "beta": -1.0,
+       "gamma": 0.0
+      },
+      "select_z": 2.19,
+      "test_z": 0.51,
+      "last10": 21
+     },
+     "astro_sets": [
+      "kp_sun_number \u00d7 year_yinyang",
+      "saturn_combust \u00d7 kp_asc_number",
+      "nakshatra \u00d7 year_stem",
+      "nakshatra \u00d7 year_animal",
+      "nakshatra \u00d7 year_pillar"
+     ],
+     "last10_expected": 17.78
+    },
+    {
+     "combinations": 2988,
+     "chosen": {
+      "set": "kp_sun_sub_lord \u00d7 year_pillar",
+      "Nh": 100,
+      "Nc": 300,
+      "alpha": -1.0,
+      "beta": -1.0,
+      "gamma": 1.0
+     },
+     "select_z": 3.89,
+     "test_z": -1.17,
+     "last10": 23,
+     "same_without_astrology": {
+      "select_z": 0.64,
+      "test_z": -1.46,
+      "last10": 24
+     },
+     "best_without_astrology": {
+      "combo": {
+       "set": "hora_lord \u00d7 rahu_rashi",
+       "Nh": 20,
+       "Nc": 300,
+       "alpha": 0.0,
+       "beta": -1.0,
+       "gamma": 0.0
+      },
+      "select_z": 2.19,
+      "test_z": 0.51,
+      "last10": 21
+     },
+     "astro_sets": [
+      "hora_lord \u00d7 rahu_rashi",
+      "lunar_day \u00d7 nine_star_month",
+      "samvatsara \u00d7 kp_asc_sub_lord",
+      "moon_rashi \u00d7 nayin",
+      "jupiter_rashi \u00d7 kp_asc_sub_lord"
+     ],
+     "last10_expected": 17.78
+    }
+   ]
+  }
+ }
+}

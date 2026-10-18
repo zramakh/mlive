@@ -186,6 +186,14 @@ test z +0.98; 6/55 6 cold (50) → −0.30; 6/58 4 hot (100) + 2 cold (200) → 
 the same menu gives on fair histories (+2.19 to +2.36). Re-chosen every draw: +0.27, −1.29, −0.03, −2.08. Last 10:
 8/7.2, 6/6.5, 12/6.2, 18/17.8.
 
+**Hot / cold + astrology in one score** (`hotcold_astro.py`): score = α·hot/cold(Nh) + β·hot/cold(Nc) + γ·astrology cell
+signal, the astrology set one of the 20 that ranked best on the early/validation periods of `own_leads.py`; ~3,000
+combinations per game chosen on draws 25–70%. Chosen: 6/50 γ 2 (Mercury combust × day officer) → test z −2.64 (same mix
+without astrology −1.73); 6/55 γ 2 (karana × adhika masa) → −1.15 (+0.93 without); 6/58 γ 2 (paksha × Rahu rashi) →
+−0.52 (+0.16 without); Life γ 0.5 (Venus nakshatra × planets with Moon) → +0.89 (+0.51 without). Selection z +3.8 to
++4.8 here and +3.1 to +4.8 on 5 shifted calendars, which also always choose γ > 0; their test z −1.28 to +1.32. The
+astrology term wins the selection because it adds flexibility to fit noise, and it does not help on later draws.
+
 ## Is the 4D lead special? (`lead_4d_robustness.py`, `lead_hunt.py`)
 
 No. Scored the same way:
