@@ -1,0 +1,230 @@
+{
+ "game": "STAR TOTO 6/50",
+ "shifts": 100,
+ "formats": {
+  "10 sets | whole history | 5+": {
+   "real": 3356,
+   "mean": 2998.3,
+   "max": 3590,
+   "rank": 9,
+   "p": 0.08
+  },
+  "10 sets | whole history | 6": {
+   "real": 18,
+   "mean": 14.76,
+   "max": 61,
+   "rank": 32,
+   "p": 0.34
+  },
+  "10 sets | first half | 5+": {
+   "real": 1592,
+   "mean": 1567.07,
+   "max": 2127,
+   "rank": 41,
+   "p": 0.4
+  },
+  "10 sets | first half | 6": {
+   "real": 14,
+   "mean": 8.12,
+   "max": 31,
+   "rank": 17,
+   "p": 0.2
+  },
+  "10 sets | second half | 5+": {
+   "real": 1736,
+   "mean": 1402.74,
+   "max": 1766,
+   "rank": 4,
+   "p": 0.03
+  },
+  "10 sets | second half | 6": {
+   "real": 4,
+   "mean": 6.56,
+   "max": 56,
+   "rank": 60,
+   "p": 0.68
+  },
+  "10 sets | last 10 draws | 5+": {
+   "real": 28,
+   "mean": 28.49,
+   "max": 78,
+   "rank": 39,
+   "p": 0.39
+  },
+  "10 sets | last 10 draws | 6": {
+   "real": 0,
+   "mean": 0.08,
+   "max": 1,
+   "rank": 9,
+   "p": 1.0
+  },
+  "System 7 \u00d7 2 overlap | whole history | 5+": {
+   "real": 3999,
+   "mean": 3547.58,
+   "max": 4604,
+   "rank": 7,
+   "p": 0.06
+  },
+  "System 7 \u00d7 2 overlap | whole history | 6": {
+   "real": 22,
+   "mean": 19.7,
+   "max": 66,
+   "rank": 30,
+   "p": 0.33
+  },
+  "System 7 \u00d7 2 overlap | first half | 5+": {
+   "real": 2233,
+   "mean": 2094.38,
+   "max": 3295,
+   "rank": 23,
+   "p": 0.22
+  },
+  "System 7 \u00d7 2 overlap | first half | 6": {
+   "real": 18,
+   "mean": 9.58,
+   "max": 26,
+   "rank": 7,
+   "p": 0.08
+  },
+  "System 7 \u00d7 2 overlap | second half | 5+": {
+   "real": 1743,
+   "mean": 1430.54,
+   "max": 1823,
+   "rank": 3,
+   "p": 0.02
+  },
+  "System 7 \u00d7 2 overlap | second half | 6": {
+   "real": 4,
+   "mean": 10.03,
+   "max": 60,
+   "rank": 84,
+   "p": 0.93
+  },
+  "System 7 \u00d7 2 overlap | last 10 draws | 5+": {
+   "real": 23,
+   "mean": 22.66,
+   "max": 60,
+   "rank": 37,
+   "p": 0.4
+  },
+  "System 7 \u00d7 2 overlap | last 10 draws | 6": {
+   "real": 0,
+   "mean": 0.09,
+   "max": 1,
+   "rank": 10,
+   "p": 1.0
+  },
+  "System 7 \u00d7 2 disjoint | whole history | 5+": {
+   "real": 3113,
+   "mean": 2858.64,
+   "max": 3255,
+   "rank": 8,
+   "p": 0.07
+  },
+  "System 7 \u00d7 2 disjoint | whole history | 6": {
+   "real": 26,
+   "mean": 19.86,
+   "max": 71,
+   "rank": 16,
+   "p": 0.18
+  },
+  "System 7 \u00d7 2 disjoint | first half | 5+": {
+   "real": 1357,
+   "mean": 1338.07,
+   "max": 1652,
+   "rank": 41,
+   "p": 0.4
+  },
+  "System 7 \u00d7 2 disjoint | first half | 6": {
+   "real": 14,
+   "mean": 9.26,
+   "max": 26,
+   "rank": 14,
+   "p": 0.15
+  },
+  "System 7 \u00d7 2 disjoint | second half | 5+": {
+   "real": 1730,
+   "mean": 1498.19,
+   "max": 1875,
+   "rank": 6,
+   "p": 0.05
+  },
+  "System 7 \u00d7 2 disjoint | second half | 6": {
+   "real": 12,
+   "mean": 10.5,
+   "max": 62,
+   "rank": 29,
+   "p": 0.38
+  },
+  "System 7 \u00d7 2 disjoint | last 10 draws | 5+": {
+   "real": 26,
+   "mean": 22.38,
+   "max": 57,
+   "rank": 31,
+   "p": 0.32
+  },
+  "System 7 \u00d7 2 disjoint | last 10 draws | 6": {
+   "real": 0,
+   "mean": 0.1,
+   "max": 3,
+   "rank": 9,
+   "p": 1.0
+  },
+  "System 8 \u00d7 1 | whole history | 5+": {
+   "real": 4295,
+   "mean": 3803.56,
+   "max": 4403,
+   "rank": 3,
+   "p": 0.02
+  },
+  "System 8 \u00d7 1 | whole history | 6": {
+   "real": 48,
+   "mean": 49.44,
+   "max": 100,
+   "rank": 56,
+   "p": 0.57
+  },
+  "System 8 \u00d7 1 | first half | 5+": {
+   "real": 1937,
+   "mean": 1819.55,
+   "max": 2281,
+   "rank": 20,
+   "p": 0.2
+  },
+  "System 8 \u00d7 1 | first half | 6": {
+   "real": 29,
+   "mean": 24.08,
+   "max": 58,
+   "rank": 27,
+   "p": 0.28
+  },
+  "System 8 \u00d7 1 | second half | 5+": {
+   "real": 2333,
+   "mean": 1953.12,
+   "max": 2667,
+   "rank": 5,
+   "p": 0.04
+  },
+  "System 8 \u00d7 1 | second half | 6": {
+   "real": 19,
+   "mean": 25.14,
+   "max": 80,
+   "rank": 65,
+   "p": 0.72
+  },
+  "System 8 \u00d7 1 | last 10 draws | 5+": {
+   "real": 25,
+   "mean": 30.89,
+   "max": 75,
+   "rank": 58,
+   "p": 0.59
+  },
+  "System 8 \u00d7 1 | last 10 draws | 6": {
+   "real": 0,
+   "mean": 0.22,
+   "max": 2,
+   "rank": 19,
+   "p": 1.0
+  }
+ }
+}
