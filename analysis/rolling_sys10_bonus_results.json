@@ -1,0 +1,319 @@
+{
+ "format": "1 System 10 set",
+ "bonus": true,
+ "games": {
+  "ml8": {
+   "label": "Magnum Life 8/36",
+   "expected_per_draw": 2.781,
+   "real": {
+    "summary": {
+     "rolling_top1": 29,
+     "rolling_top10_mean": 28.0,
+     "frozen_top1": 29,
+     "frozen_top1_lead": "month_stem \u00d7 universal_day (cold)",
+     "frozen_top10_mean": 28.5,
+     "expected": 27.81,
+     "distinct_rolling_leads": 1
+    },
+    "picks": [
+     {
+      "date": "2026-09-26",
+      "lead": "month_stem \u00d7 universal_day",
+      "pattern": "cold",
+      "weakest_z": 1.58,
+      "caught": 4,
+      "split": "3+1",
+      "top10_mean": 2.5
+     },
+     {
+      "date": "2026-09-27",
+      "lead": "month_stem \u00d7 universal_day",
+      "pattern": "cold",
+      "weakest_z": 1.58,
+      "caught": 4,
+      "split": "4+0",
+      "top10_mean": 3.1
+     },
+     {
+      "date": "2026-09-30",
+      "lead": "month_stem \u00d7 universal_day",
+      "pattern": "cold",
+      "weakest_z": 1.53,
+      "caught": 1,
+      "split": "1+0",
+      "top10_mean": 2.3
+     },
+     {
+      "date": "2026-10-03",
+      "lead": "month_stem \u00d7 universal_day",
+      "pattern": "cold",
+      "weakest_z": 1.54,
+      "caught": 3,
+      "split": "3+0",
+      "top10_mean": 3.4
+     },
+     {
+      "date": "2026-10-04",
+      "lead": "month_stem \u00d7 universal_day",
+      "pattern": "cold",
+      "weakest_z": 1.63,
+      "caught": 1,
+      "split": "1+0",
+      "top10_mean": 2.2
+     },
+     {
+      "date": "2026-10-07",
+      "lead": "month_stem \u00d7 universal_day",
+      "pattern": "cold",
+      "weakest_z": 1.59,
+      "caught": 3,
+      "split": "3+0",
+      "top10_mean": 2.7
+     },
+     {
+      "date": "2026-10-10",
+      "lead": "month_stem \u00d7 universal_day",
+      "pattern": "cold",
+      "weakest_z": 1.72,
+      "caught": 3,
+      "split": "3+0",
+      "top10_mean": 2.3
+     },
+     {
+      "date": "2026-10-11",
+      "lead": "month_stem \u00d7 universal_day",
+      "pattern": "cold",
+      "weakest_z": 1.72,
+      "caught": 5,
+      "split": "4+1",
+      "top10_mean": 3.0
+     },
+     {
+      "date": "2026-10-14",
+      "lead": "month_stem \u00d7 universal_day",
+      "pattern": "cold",
+      "weakest_z": 1.63,
+      "caught": 2,
+      "split": "1+1",
+      "top10_mean": 3.2
+     },
+     {
+      "date": "2026-10-17",
+      "lead": "month_stem \u00d7 universal_day",
+      "pattern": "cold",
+      "weakest_z": 1.63,
+      "caught": 3,
+      "split": "2+1",
+      "top10_mean": 3.3
+     }
+    ]
+   },
+   "shift1": {
+    "summary": {
+     "rolling_top1": 29,
+     "rolling_top10_mean": 29.9,
+     "frozen_top1": 33,
+     "frozen_top1_lead": "mercury_retrograde \u00d7 aspect_sun_mars (cold)",
+     "frozen_top10_mean": 29.9,
+     "expected": 27.81,
+     "distinct_rolling_leads": 2
+    },
+    "picks": [
+     {
+      "date": "2026-09-26",
+      "lead": "mercury_retrograde \u00d7 aspect_sun_mars",
+      "pattern": "cold",
+      "weakest_z": 1.63,
+      "caught": 2,
+      "split": "1+1",
+      "top10_mean": 2.6
+     },
+     {
+      "date": "2026-09-27",
+      "lead": "mercury_retrograde \u00d7 aspect_sun_mars",
+      "pattern": "cold",
+      "weakest_z": 1.63,
+      "caught": 4,
+      "split": "3+1",
+      "top10_mean": 3.1
+     },
+     {
+      "date": "2026-09-30",
+      "lead": "paksha",
+      "pattern": "cold",
+      "weakest_z": 1.59,
+      "caught": 4,
+      "split": "3+1",
+      "top10_mean": 3.4
+     },
+     {
+      "date": "2026-10-03",
+      "lead": "paksha",
+      "pattern": "cold",
+      "weakest_z": 1.64,
+      "caught": 3,
+      "split": "3+0",
+      "top10_mean": 3.0
+     },
+     {
+      "date": "2026-10-04",
+      "lead": "paksha",
+      "pattern": "cold",
+      "weakest_z": 1.64,
+      "caught": 3,
+      "split": "3+0",
+      "top10_mean": 2.7
+     },
+     {
+      "date": "2026-10-07",
+      "lead": "paksha",
+      "pattern": "cold",
+      "weakest_z": 1.68,
+      "caught": 1,
+      "split": "0+1",
+      "top10_mean": 2.2
+     },
+     {
+      "date": "2026-10-10",
+      "lead": "paksha",
+      "pattern": "cold",
+      "weakest_z": 1.68,
+      "caught": 2,
+      "split": "1+1",
+      "top10_mean": 3.9
+     },
+     {
+      "date": "2026-10-11",
+      "lead": "paksha",
+      "pattern": "cold",
+      "weakest_z": 1.68,
+      "caught": 4,
+      "split": "4+0",
+      "top10_mean": 3.3
+     },
+     {
+      "date": "2026-10-14",
+      "lead": "paksha",
+      "pattern": "cold",
+      "weakest_z": 1.73,
+      "caught": 3,
+      "split": "2+1",
+      "top10_mean": 3.3
+     },
+     {
+      "date": "2026-10-17",
+      "lead": "paksha",
+      "pattern": "cold",
+      "weakest_z": 1.69,
+      "caught": 3,
+      "split": "3+0",
+      "top10_mean": 2.4
+     }
+    ]
+   },
+   "shift2": {
+    "summary": {
+     "rolling_top1": 29,
+     "rolling_top10_mean": 26.0,
+     "frozen_top1": 23,
+     "frozen_top1_lead": "mercury_retrograde \u00d7 mars_combust (cold)",
+     "frozen_top10_mean": 26.2,
+     "expected": 27.81,
+     "distinct_rolling_leads": 4
+    },
+    "picks": [
+     {
+      "date": "2026-09-26",
+      "lead": "mercury_retrograde \u00d7 mars_combust",
+      "pattern": "cold",
+      "weakest_z": 1.51,
+      "caught": 0,
+      "split": "0+0",
+      "top10_mean": 2.4
+     },
+     {
+      "date": "2026-09-27",
+      "lead": "mars_rashi \u00d7 nine_star_day",
+      "pattern": "cold",
+      "weakest_z": 1.44,
+      "caught": 4,
+      "split": "3+1",
+      "top10_mean": 2.5
+     },
+     {
+      "date": "2026-09-30",
+      "lead": "kp_moon_sub_lord \u00d7 aspects_hard",
+      "pattern": "hot",
+      "weakest_z": 1.53,
+      "caught": 2,
+      "split": "1+1",
+      "top10_mean": 2.5
+     },
+     {
+      "date": "2026-10-03",
+      "lead": "kp_moon_sub_lord \u00d7 aspects_hard",
+      "pattern": "hot",
+      "weakest_z": 1.59,
+      "caught": 4,
+      "split": "3+1",
+      "top10_mean": 2.1
+     },
+     {
+      "date": "2026-10-04",
+      "lead": "kp_moon_sub_lord \u00d7 aspects_hard",
+      "pattern": "hot",
+      "weakest_z": 1.58,
+      "caught": 3,
+      "split": "2+1",
+      "top10_mean": 2.7
+     },
+     {
+      "date": "2026-10-07",
+      "lead": "kp_moon_sub_lord \u00d7 aspects_hard",
+      "pattern": "hot",
+      "weakest_z": 1.59,
+      "caught": 1,
+      "split": "1+0",
+      "top10_mean": 1.9
+     },
+     {
+      "date": "2026-10-10",
+      "lead": "karana \u00d7 mars_combust",
+      "pattern": "cold",
+      "weakest_z": 1.64,
+      "caught": 4,
+      "split": "3+1",
+      "top10_mean": 3.3
+     },
+     {
+      "date": "2026-10-11",
+      "lead": "karana \u00d7 mars_combust",
+      "pattern": "cold",
+      "weakest_z": 1.64,
+      "caught": 3,
+      "split": "2+1",
+      "top10_mean": 2.6
+     },
+     {
+      "date": "2026-10-14",
+      "lead": "karana \u00d7 mars_combust",
+      "pattern": "cold",
+      "weakest_z": 1.69,
+      "caught": 6,
+      "split": "4+2",
+      "top10_mean": 3.8
+     },
+     {
+      "date": "2026-10-17",
+      "lead": "karana \u00d7 mars_combust",
+      "pattern": "cold",
+      "weakest_z": 1.64,
+      "caught": 2,
+      "split": "1+1",
+      "top10_mean": 2.2
+     }
+    ]
+   }
+  }
+ }
+}

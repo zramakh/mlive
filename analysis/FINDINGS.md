@@ -256,6 +256,22 @@ on the last 10 draws: System 9 disjoint 310 vs 325.9 (shifted 325–339), overla
 bonus balls (about 5.5 expected); Mars rashi × Venus combust 36 vs 29.2 (overlap, 4%) and 35 vs 27.8 (System 10, 4.3%);
 Mars rashi × tropical Sun sign 40 vs 32.6 (disjoint, 1.2%) but ranked 9,007th on the earlier periods.
 
+## Re-choosing the lead before every draw (`rolling_select.py`)
+
+The hot / cold counts inside every lead were already updated before each draw; what was fixed was the *choice* of lead. Here all ~26,000 leads (parameters and pairs × hot / cold / position / hot+recent) are re-ranked before each of the last 10 draws on every earlier draw (weakest of three period z-scores of balls caught), and the #1 lead and the top 10 are played. Balls caught over the 10 draws (main + bonus for the System formats):
+
+| Format | Re-chosen #1 | Re-chosen top 10 (avg) | Frozen #1 | Frozen top 10 (avg) | Expected | Shifted calendars, re-chosen #1 |
+|---|---|---|---|---|---|---|
+| STAR TOTO 6/50, 10 tickets | 13 | 11.7 | 13 | 11.5 | 10.63 | 11, 11 |
+| POWER TOTO 6/55, 10 tickets | 9 | 9.9 | 9 | 9.3 | 9.67 | 13, 12 |
+| SUPREME TOTO 6/58, 10 tickets | 9 | 7.5 | 9 | 8.3 | 9.19 | 9, 10 |
+| Magnum Life, 10 tickets | 17 | 24.0 | 21 | 24.9 | 23.65 | 20, 28 |
+| Magnum Life System 9 × 2 overlap + bonus | 27 | 29.9 | 29 | 30.3 | 29.21 | 34, 29 |
+| Magnum Life System 9 × 2 disjoint + bonus | 33 | 31.6 | 33 | 31.6 | 32.59 | 30, 35 |
+| Magnum Life System 10 × 1 + bonus | 29 | 28.0 | 29 | 28.5 | 27.81 | 29, 29 |
+
+Re-choosing does not help: one extra draw hardly moves a ranking built on 1,300-2,800 draws, so the #1 lead mostly stays the same (1-4 different leads over the 10 draws), and where it changes the result is equal or worse. Every row is within chance and the shifted calendars do as well. Details in `ROLLING_*.md`.
+
 ## Is the 4D lead special? (`lead_4d_robustness.py`, `lead_hunt.py`)
 
 No. Scored the same way:
