@@ -1,0 +1,177 @@
+#!/usr/bin/env python3
+"""Re-choose the lead before every one of the last 10 draws.
+
+lead_search10.py chooses its leads once, on the draws before the last 10 (the hot / cold counts inside
+each lead already update draw by draw). Here the choice itself is redone before each draw t of the last
+10: every lead (all parameters and pairs x hot / cold / pos / hot+100) is ranked by the weakest of its
+three period z-scores computed on draws [0, t) (periods 25-50%, 50-70%, 70-100% of t), and the #1 lead
+(and the top 10) is played on draw t. Compared with the frozen choice and with the same rolling
+procedure on SHIFTS shifted calendars.
+
+python3 analysis/rolling_select.py --games toto50,toto55,toto58,ml8              10 tickets, main numbers
+python3 analysis/rolling_select.py --games ml8 --system 9 --sets 2 --structure overlap --bonus
+python3 analysis/rolling_select.py --games ml8 --system 10 --sets 1 --bonus
+    -> analysis/rolling_<tag>_results.json, analysis/ROLLING_<TAG>.md
+"""
+
+import itertools
+import json
+import math
+import os
+import sys
+from multiprocessing import Pool
+
+import numpy as np
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import common  # noqa: E402
+import extra_astro as xa  # noqa: E402
+import lead_search10 as ls  # noqa: E402  (reads the same command-line options)
+
+SHIFTS = 2
+TOPS = (1, 10)
+OUT = os.path.join(common.ROOT, "analysis", f"rolling_{ls.TAG}_results.json")
+MD = os.path.join(common.ROOT, "analysis", f"ROLLING_{ls.TAG.upper()}.md")
+
+
+def series(task):
+    """Per-draw objective (best set's balls caught) and main / bonus of that set, for a chunk of sets."""
+    key, sh, sets = task
+    if ls.W.get("key") != key:
+        ls.init(key)
+    codes = np.roll(ls.W["codes"], ls.W["shifts"][sh], axis=0)
+    k, n, H = ls.W["k"], ls.W["n"], ls.W["H"]
+    out_obj, out_main, out_bonus, labels = [], [], [], []
+    for s in sets:
+        cid = codes[:, s[0]].astype(np.int64)
+        for j in s[1:]:
+            cid = cid * 1000 + codes[:, j]
+        order = np.argsort(cid, kind="stable")
+        cs = cid[order]
+        first = np.r_[0, np.flatnonzero(np.diff(cs)) + 1]
+        starts = np.repeat(first, np.diff(np.r_[first, len(cid)]))
+
+        def ex(X):
+            xs = X[order]
+            c = np.cumsum(xs, 0) - xs
+            c = c - c[starts]
+            o = np.empty_like(X)
+            o[order] = c
+            return o
+        dp = ex(np.ones((len(cid), 1), np.float32))
+        cnt = ex(H)
+        e = dp * k / n
+        zc = (cnt - e) / np.sqrt(e * (1 - k / n) + 1e-6)
+        scores = {"hot": cnt - e, "cold": e - cnt,
+                  "pos": ((ex(ls.W["P"]) + ls.SMOOTH * ls.W["pglob"]) / (dp[:, :, None] + ls.SMOOTH)).sum(1),
+                  "hot+100": zc + ls.W["hot100"]}
+        kt = ls.ktop(k)
+        for p, S in scores.items():
+            S = S + ls.W["tie"]
+            top = np.argpartition(-S, kt - 1, 1)[:, :kt]
+            top = np.take_along_axis(top, np.argsort(-np.take_along_axis(S, top, 1), 1), 1)
+            war = np.take_along_axis(H, top, 1)
+            warb = np.take_along_axis(ls.W["Bn"], top, 1)
+            mm = np.stack([war[:, q].sum(1) for q in ls.W["pats"]], 1)
+            mb = np.stack([warb[:, q].sum(1) for q in ls.W["pats"]], 1)
+            m = mm + mb
+            bi = m.argmax(1)
+            r = np.arange(len(m))
+            out_obj.append(m[r, bi].astype(np.int8))
+            out_main.append(mm[r, bi].astype(np.int8))
+            out_bonus.append(mb[r, bi].astype(np.int8))
+            labels.append((s, p))
+    return key, sh, labels, np.array(out_obj), np.array(out_main), np.array(out_bonus)
+
+
+def weakest_z(obj, t, eb, sb):
+    """Weakest of the three period z-scores on draws [0, t) for every lead (rows of obj)."""
+    cs = np.cumsum(obj[:, :t], 1, dtype=np.int64)
+    cs = np.c_[np.zeros(len(obj), np.int64), cs]
+    zs = []
+    for a, b in ((0.25, 0.5), (0.5, 0.7), (0.7, 1.0)):
+        lo, hi = int(a * t), int(b * t)
+        zs.append((cs[:, hi] - cs[:, lo] - (hi - lo) * eb) / (sb * math.sqrt(hi - lo)))
+    return np.min(zs, 0)
+
+
+def main():
+    names = common.ALL_PARAMS + xa.extra_params()
+    sets = [(i,) for i in range(len(names))] + list(itertools.combinations(range(len(names)), 2))
+    chunk = 200
+    tasks = [(key, sh, sets[i:i + chunk]) for key in ls.RUN_GAMES for sh in range(SHIFTS + 1)
+             for i in range(0, len(sets), chunk)]
+    store = {}
+    with Pool(4) as pool:
+        for key, sh, labels, o, mm, mb in pool.imap_unordered(series, tasks):
+            st = store.setdefault((key, sh), {"labels": [], "obj": [], "main": [], "bonus": []})
+            st["labels"] += labels
+            st["obj"].append(o)
+            st["main"].append(mm)
+            st["bonus"].append(mb)
+    res = {"format": ls.TLAB, "bonus": ls.BONUS, "games": {}}
+    md = [f"# Re-choosing the lead before every draw ({ls.TLAB}{', main + bonus balls' if ls.BONUS else ''})", "",
+          "Generated by `analysis/rolling_select.py`. Before each of the last 10 draws, all leads (114 parameters and their "
+          "pairs × hot / cold / position / hot+recent) are re-ranked on every earlier draw (weakest of three period z-scores), "
+          "and the #1 lead (and the top 10) is played. *Frozen* = the lead chosen once before the 10 draws "
+          "(`lead_search10.py`). Control: the same rolling choice on shifted calendars.", ""]
+    for key in ls.RUN_GAMES:
+        g = common.load_game(key)
+        k, n = g["k"], g["n"]
+        eb, sb, *_ = ls.chance_best(k, n)
+        d = len(g["dates"])
+        rows = range(d - ls.HOLD, d)
+        game = {"label": g["label"], "expected_per_draw": round(float(eb), 3)}
+        for sh in range(SHIFTS + 1):
+            st = store[(key, sh)]
+            obj, mm, mb = np.vstack(st["obj"]), np.vstack(st["main"]), np.vstack(st["bonus"])
+            picks = []
+            for t in rows:
+                z = weakest_z(obj, t, eb, sb)
+                order = np.argsort(-z)
+                i1 = int(order[0])
+                s, p = st["labels"][i1]
+                picks.append({"date": g["dates"][t], "lead": " × ".join(names[j] for j in s), "pattern": p,
+                              "weakest_z": round(float(z[i1]), 2), "caught": int(obj[i1, t]),
+                              "split": f"{int(mm[i1, t])}+{int(mb[i1, t])}",
+                              "top10_mean": round(float(obj[order[:10], t].mean()), 2)})
+            frozen_z = weakest_z(obj, d - ls.HOLD, eb, sb)
+            fi = int(np.argmax(frozen_z))
+            fo = np.argsort(-frozen_z)[:10]
+            summ = {"rolling_top1": sum(x["caught"] for x in picks),
+                    "rolling_top10_mean": round(sum(x["top10_mean"] for x in picks), 2),
+                    "frozen_top1": int(obj[fi, d - ls.HOLD:].sum()),
+                    "frozen_top1_lead": " × ".join(names[j] for j in st["labels"][fi][0]) + f" ({st['labels'][fi][1]})",
+                    "frozen_top10_mean": round(float(obj[fo, d - ls.HOLD:].sum(1).mean()), 2),
+                    "expected": round(ls.HOLD * float(eb), 2),
+                    "distinct_rolling_leads": len({(x["lead"], x["pattern"]) for x in picks})}
+            game["real" if sh == 0 else f"shift{sh}"] = {"summary": summ, "picks": picks}
+        res["games"][key] = game
+        R = game["real"]["summary"]
+        shs = [game[f"shift{i}"]["summary"] for i in range(1, SHIFTS + 1)]
+        print(f"{g['label']}: rolling #1 {R['rolling_top1']} | rolling top-10 avg {R['rolling_top10_mean']} | frozen #1 "
+              f"{R['frozen_top1']} | frozen top-10 avg {R['frozen_top10_mean']} | expected {R['expected']} | "
+              f"distinct leads used {R['distinct_rolling_leads']} | shifted rolling #1 {[x['rolling_top1'] for x in shs]}")
+        md += [f"## {g['label']}", "",
+               f"Expected by chance: {R['expected']} over the 10 draws ({eb:.2f} per draw).", "",
+               "| Choice | Caught over 10 draws | Shifted calendars |", "|---|---|---|",
+               f"| Re-chosen before each draw, #1 lead | {R['rolling_top1']} | {', '.join(str(x['rolling_top1']) for x in shs)} |",
+               f"| Re-chosen before each draw, top 10 (average) | {R['rolling_top10_mean']} | {', '.join(str(x['rolling_top10_mean']) for x in shs)} |",
+               f"| Frozen before the 10 draws, #1 lead ({R['frozen_top1_lead']}) | {R['frozen_top1']} | {', '.join(str(x['frozen_top1']) for x in shs)} |",
+               f"| Frozen, top 10 (average) | {R['frozen_top10_mean']} | {', '.join(str(x['frozen_top10_mean']) for x in shs)} |",
+               "", f"Lead chosen before each draw ({R['distinct_rolling_leads']} different leads over the 10 draws):", "",
+               "| Draw | #1 lead | Pattern | Weakest z | Caught" + (" (main+bonus)" if ls.BONUS else "") + " | Top 10 average |",
+               "|---|---|---|---|---|---|"]
+        for x in game["real"]["picks"]:
+            md.append(f"| {x['date']} | {x['lead']} | {x['pattern']} | {x['weakest_z']:+.2f} | {x['caught']}"
+                      + (f" ({x['split']})" if ls.BONUS else "") + f" | {x['top10_mean']} |")
+        md.append("")
+    with open(OUT, "w") as fh:
+        json.dump(res, fh, indent=1)
+    with open(MD, "w") as fh:
+        fh.write("\n".join(md) + "\n")
+    print("wrote", OUT, "and", MD)
+
+
+if __name__ == "__main__":
+    main()
