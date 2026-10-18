@@ -103,7 +103,8 @@ def ranking(cols, pat):
     zc = (cnt - e) / np.sqrt(e * (1 - k / n) + 1e-6)
     S = {"hot": cnt - e, "cold": e - cnt,
          "pos": ((ex(W["P"]) + ls.SMOOTH * W["pglob"]) / (dp[:, :, None] + ls.SMOOTH)).sum(1),
-         "hot+100": zc + W["hot100"]}[pat] + W["tie"]
+         "hot+100": zc + W["hot100"], "cold+100": -zc - W["hot100"], "hot/cold100": zc - W["hot100"],
+         "cold/hot100": -zc + W["hot100"]}[pat] + W["tie"]
     return np.argsort(-S, 1)
 
 
