@@ -232,6 +232,17 @@ vs 257.6 (255–266). Magnum Life's Mars rashi × month (cold) is #1 with 10 and
 "year × month" cold leads (27 each). New in Star Toto: Mercury rashi × lunar month (position) 19 vs 12.3 (1.4%). The
 10-ticket leads mostly kept their ranks but stayed at chance on the last 10.
 
+## Magnum Life System 9 × 2 (`lead_search10.py --system 9`, `system_methods.py`)
+
+Two 9-number System entries per draw (disjoint: ranks 1–9 and 10–18; overlap: ranks 1–9 and 1–6 + 10–12); outcome =
+drawn numbers inside the better set. New searches over all parameters and pairs: top 10 on the last 10 draws 264 vs
+270.3 expected (disjoint; shifted 257–267) and 224 vs 238.7 (overlap; shifted 231–248) — no new lead
+([LEAD_SEARCHSYS9_DISJOINT.md](LEAD_SEARCHSYS9_DISJOINT.md), [LEAD_SEARCHSYS9_OVERLAP.md](LEAD_SEARCHSYS9_OVERLAP.md)).
+Earlier leads: Mars rashi × month (cold) 29 vs 27.0 (disjoint, 30%) and 31 vs 23.9 (overlap, 2.5%); Mars rashi ×
+tropical Sun sign 35 vs 27.0 (disjoint, 0.6%) but it ranks 16,410th on the earlier periods; Moon rashi × Mars combust
+caught 6 of 8 in one overlap set. Non-parameter methods ([SYSTEM9_METHODS.md](SYSTEM9_METHODS.md)): best analogy
+"direct" 31 vs 27.0 (11%) and 29 vs 23.9 (8%). A set with 5+ of 8 is expected about once in 37 draws.
+
 ## Is the 4D lead special? (`lead_4d_robustness.py`, `lead_hunt.py`)
 
 No. Scored the same way:
