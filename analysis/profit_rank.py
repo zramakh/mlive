@@ -53,6 +53,7 @@ PRIZE = {(8, 0): GRAND, (7, 1): 100000, (7, 0): 6000, (6, 1): 600, (6, 0): 100, 
 SET = ls.SYSTEM or 8
 OUT = os.path.join(common.ROOT, "analysis", f"profit_{ls.TAG}_results.json")
 MD = os.path.join(common.ROOT, "analysis", f"PROFIT_{ls.TAG.upper()}.md")
+ARR = os.path.join(common.ROOT, "analysis", "profit_arrays")                 # per-lead arrays (not committed)
 
 
 def prize8(m, b):
@@ -198,6 +199,9 @@ def main():
                          "per_draw": [round(float(x), 1) for x in P[i, R:]], "profit_earlier": round(float(pre[i]), 1),
                          "earlier_per_draw": round(float(pre[i] / (R - lo)), 3), "rank_earlier": int(rank_pre[i]),
                          "wins_last10": int(wins[i]), "win_rate_earlier": round(float(rate_pre[i]), 4)}
+        os.makedirs(ARR, exist_ok=True)
+        np.savez_compressed(os.path.join(ARR, f"{ls.TAG}_sh{sh}.npz"), hold=P[:, R:].astype(np.float32),
+                            pre=pre, rate_pre=rate_pre, labels=np.array([f"{lab(x[0])}|{x[1]}" for x in L]))
         res["real" if sh == 0 else f"shift{sh}"] = {
             "summary": {"best_last10": round(float(hold.max()), 1), "leads_in_profit_last10": int((hold > 0).sum()),
                         "leads": len(P), "frozen_top1": round(float(hold[fo[0]]), 1),
