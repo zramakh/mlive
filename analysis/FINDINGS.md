@@ -154,6 +154,16 @@ times). A plain "replay the previous draw" ticket matched 12 numbers over those 
 200 random parameter pairs matched 9.6 on average, and 10% of them reached 13 or more (best 16). The lead adds one
 match over replaying the last draw, and a random pair of parameters does that well 10% of the time.
 
+## Recent repeats and hot streaks, without astrology (`recency.py`, [RECENCY.md](RECENCY.md))
+
+Against 500 simulated fair histories per game: Power Toto's last 10 draws are genuinely unusual (12 numbers repeated
+from the previous draw, top 2.2%; number 28 in 6 of 10 draws, 0.8%; confirmed against lottolyzer), and Supreme Toto's
+last 10 drew its 100-draw hot numbers 11 times (top 2.6%). But windows like these occur in each game's history at the
+normal rate, hot-number runs do not carry over from one 10-draw window to the next (correlation −0.02 to +0.07, fair
+≈ 0), and number frequencies are no more uneven than chance in any game, recently or overall (no ball or machine
+bias). Repeats from the previous draw do cluster slightly in all four games (window-to-window +0.03 to +0.14; combined
+p ≈ 0.01), but a strategy that plays the repeat ticket only after a high-repeat window returned 0.79–1.05× of chance.
+
 ## Is the 4D lead special? (`lead_4d_robustness.py`, `lead_hunt.py`)
 
 No. Scored the same way:

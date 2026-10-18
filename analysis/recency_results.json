@@ -1,0 +1,326 @@
+{
+ "toto50": {
+  "label": "STAR TOTO 6/50",
+  "expected_per_draw": 0.72,
+  "real": {
+   "repeat": {
+    "last": 7.0,
+    "max": 14.0,
+    "share_ge_last": 0.6068675543097407,
+    "persistence": 0.14079660036947267,
+    "adaptive_played": 90,
+    "adaptive_matches": 65.0
+   },
+   "hot100": {
+    "last": 6.0,
+    "max": 16.0,
+    "share_ge_last": 0.7146084337349398,
+    "persistence": 0.07310937816256623,
+    "adaptive_played": 120,
+    "adaptive_matches": 86.0
+   },
+   "streak": {
+    "last": 4,
+    "max": 6,
+    "share_ge_last": 0.742296918767507
+   },
+   "dispersion100": {
+    "last": 23.666666666666664,
+    "mean": 43.62437810945274,
+    "max": 71.16666666666666
+   },
+   "dispersion300": {
+    "last": 27.27777777777778,
+    "mean": 42.74561403508772,
+    "max": 57.777777777777786
+   }
+  },
+  "vs_fair_sims": {
+   "repeat": {
+    "last_window_pct": 59.2,
+    "max_window_pct": 97.4,
+    "persistence_pct": 5.4,
+    "persistence_sim_mean": -0.005,
+    "adaptive_lift": 1.003,
+    "adaptive_lift_sim": [
+     0.833,
+     0.997,
+     1.155
+    ],
+    "last_window_sim_mean": 7.21,
+    "adaptive_z": 0.03
+   },
+   "hot100": {
+    "last_window_pct": 77.4,
+    "max_window_pct": 33.0,
+    "persistence_pct": 18.8,
+    "persistence_sim_mean": -0.005,
+    "adaptive_lift": 0.995,
+    "adaptive_lift_sim": [
+     0.822,
+     0.992,
+     1.165
+    ],
+    "last_window_sim_mean": 7.15,
+    "adaptive_z": -0.05
+   },
+   "streak": {
+    "last_pct": 74.2,
+    "max_pct": 100.0
+   },
+   "dispersion100": {
+    "last_pct": 99.6,
+    "mean_pct": 55.4,
+    "max_pct": 25.8
+   },
+   "dispersion300": {
+    "last_pct": 97.8,
+    "mean_pct": 63.2,
+    "max_pct": 76.6
+   }
+  }
+ },
+ "toto55": {
+  "label": "POWER TOTO 6/55",
+  "expected_per_draw": 0.655,
+  "real": {
+   "repeat": {
+    "last": 12.0,
+    "max": 16.0,
+    "share_ge_last": 0.03373155305692199,
+    "persistence": 0.07465341244246568,
+    "adaptive_played": 340,
+    "adaptive_matches": 232.0
+   },
+   "hot100": {
+    "last": 10.0,
+    "max": 15.0,
+    "share_ge_last": 0.1044776119402985,
+    "persistence": -0.009079835086394285,
+    "adaptive_played": 260,
+    "adaptive_matches": 169.0
+   },
+   "streak": {
+    "last": 6,
+    "max": 7,
+    "share_ge_last": 0.013347383210396909
+   },
+   "dispersion100": {
+    "last": 51.56666666666667,
+    "mean": 48.57089371980677,
+    "max": 71.73333333333335
+   },
+   "dispersion300": {
+    "last": 42.19444444444444,
+    "mean": 49.302669270833334,
+    "max": 83.87222222222223
+   }
+  },
+  "vs_fair_sims": {
+   "repeat": {
+    "last_window_pct": 2.2,
+    "max_window_pct": 29.2,
+    "persistence_pct": 10.4,
+    "persistence_sim_mean": -0.003,
+    "adaptive_lift": 1.042,
+    "adaptive_lift_sim": [
+     0.898,
+     1.002,
+     1.106
+    ],
+    "last_window_sim_mean": 6.6,
+    "adaptive_z": 0.7
+   },
+   "hot100": {
+    "last_window_pct": 11.8,
+    "max_window_pct": 67.2,
+    "persistence_pct": 54.8,
+    "persistence_sim_mean": -0.002,
+    "adaptive_lift": 0.993,
+    "adaptive_lift_sim": [
+     0.895,
+     1.0,
+     1.102
+    ],
+    "last_window_sim_mean": 6.64,
+    "adaptive_z": -0.1
+   },
+   "streak": {
+    "last_pct": 0.8,
+    "max_pct": 77.0
+   },
+   "dispersion100": {
+    "last_pct": 41.4,
+    "mean_pct": 61.0,
+    "max_pct": 87.2
+   },
+   "dispersion300": {
+    "last_pct": 75.8,
+    "mean_pct": 45.6,
+    "max_pct": 8.6
+   }
+  }
+ },
+ "toto58": {
+  "label": "SUPREME TOTO 6/58",
+  "expected_per_draw": 0.621,
+  "real": {
+   "repeat": {
+    "last": 3.0,
+    "max": 14.0,
+    "share_ge_last": 0.9646974063400576,
+    "persistence": 0.10242921676856141,
+    "adaptive_played": 210,
+    "adaptive_matches": 137.0
+   },
+   "hot100": {
+    "last": 11.0,
+    "max": 14.0,
+    "share_ge_last": 0.035113933507657825,
+    "persistence": -0.023585433101421808,
+    "adaptive_played": 220,
+    "adaptive_matches": 122.0
+   },
+   "streak": {
+    "last": 4,
+    "max": 7,
+    "share_ge_last": 0.5848037450486137
+   },
+   "dispersion100": {
+    "last": 56.75333333333333,
+    "mean": 53.13893432465923,
+    "max": 81.30666666666666
+   },
+   "dispersion300": {
+    "last": 53.61555555555555,
+    "mean": 51.32609549308344,
+    "max": 67.47111111111111
+   }
+  },
+  "vs_fair_sims": {
+   "repeat": {
+    "last_window_pct": 97.4,
+    "max_window_pct": 82.8,
+    "persistence_pct": 3.4,
+    "persistence_sim_mean": -0.005,
+    "adaptive_lift": 1.051,
+    "adaptive_lift_sim": [
+     0.865,
+     0.994,
+     1.114
+    ],
+    "last_window_sim_mean": 6.01,
+    "adaptive_z": 0.64
+   },
+   "hot100": {
+    "last_window_pct": 2.6,
+    "max_window_pct": 83.6,
+    "persistence_pct": 64.4,
+    "persistence_sim_mean": -0.005,
+    "adaptive_lift": 0.893,
+    "adaptive_lift_sim": [
+     0.868,
+     1.001,
+     1.135
+    ],
+    "last_window_sim_mean": 6.22,
+    "adaptive_z": -1.38
+   },
+   "streak": {
+    "last_pct": 60.0,
+    "max_pct": 58.0
+   },
+   "dispersion100": {
+    "last_pct": 32.8,
+    "mean_pct": 22.8,
+    "max_pct": 45.2
+   },
+   "dispersion300": {
+    "last_pct": 40.4,
+    "mean_pct": 60.2,
+    "max_pct": 94.2
+   }
+  }
+ },
+ "ml8": {
+  "label": "Magnum Life 8/36",
+  "expected_per_draw": 1.778,
+  "real": {
+   "repeat": {
+    "last": 19.0,
+    "max": 29.0,
+    "share_ge_last": 0.3929640718562874,
+    "persistence": 0.030123236434219523,
+    "adaptive_played": 10,
+    "adaptive_matches": 14.0
+   },
+   "hot100": {
+    "last": 15.0,
+    "max": 29.0,
+    "share_ge_last": 0.8116410670978172,
+    "persistence": -0.01236998668019508,
+    "adaptive_played": 10,
+    "adaptive_matches": 17.0
+   },
+   "streak": {
+    "last": 5,
+    "max": 8,
+    "share_ge_last": 0.8773373223635004
+   },
+   "dispersion100": {
+    "last": 26.56,
+    "mean": 29.39032,
+    "max": 50.5
+   },
+   "dispersion300": {
+    "last": 29.369999999999997,
+    "mean": 26.342,
+    "max": 48.3
+   }
+  },
+  "vs_fair_sims": {
+   "repeat": {
+    "last_window_pct": 41.6,
+    "max_window_pct": 41.6,
+    "persistence_pct": 33.4,
+    "persistence_sim_mean": -0.007,
+    "adaptive_lift": 0.787,
+    "adaptive_lift_sim": [
+     0.731,
+     1.012,
+     1.294
+    ],
+    "last_window_sim_mean": 17.76,
+    "adaptive_z": -1.14
+   },
+   "hot100": {
+    "last_window_pct": 82.6,
+    "max_window_pct": 43.0,
+    "persistence_pct": 54.0,
+    "persistence_sim_mean": -0.007,
+    "adaptive_lift": 0.956,
+    "adaptive_lift_sim": [
+     0.731,
+     1.012,
+     1.294
+    ],
+    "last_window_sim_mean": 17.73,
+    "adaptive_z": -0.23
+   },
+   "streak": {
+    "last_pct": 90.0,
+    "max_pct": 98.0
+   },
+   "dispersion100": {
+    "last_pct": 55.2,
+    "mean_pct": 15.2,
+    "max_pct": 16.8
+   },
+   "dispersion300": {
+    "last_pct": 39.4,
+    "mean_pct": 71.8,
+    "max_pct": 14.4
+   }
+  }
+ }
+}
