@@ -164,6 +164,14 @@ normal rate, hot-number runs do not carry over from one 10-draw window to the ne
 bias). Repeats from the previous draw do cluster slightly in all four games (window-to-window +0.03 to +0.14; combined
 p ≈ 0.01), but a strategy that plays the repeat ticket only after a high-repeat window returned 0.79–1.05× of chance.
 
+## Optimising the hot-number look-back (`hot_window.py`, [HOT_WINDOW.md](HOT_WINDOW.md))
+
+Hot ticket = k most frequent numbers of the previous N draws (N = 5 … 500 or all) or exponentially weighted (half-life
+5–200). Chosen on draws 25–70%, tested on 70% → last 10, and on the last 10. Chosen look-backs: 6/50 N=300 → test z
+−2.05; 6/55 half-life 5 → +0.03; 6/58 N=100 → −0.47; Life N=150 → +0.22 (fair histories, same pipeline: −1.7 to +1.8).
+Re-optimising every draw over the previous 200: −1.54, −2.33, +0.11, −0.79. A look-back's selection score does not
+predict its test score (correlation −0.50, +0.06, −0.03, +0.00; fair ≈ 0). No look-back works.
+
 ## Is the 4D lead special? (`lead_4d_robustness.py`, `lead_hunt.py`)
 
 No. Scored the same way:
