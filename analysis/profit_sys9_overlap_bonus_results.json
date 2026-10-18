@@ -55,7 +55,7 @@
     ],
     "profit_earlier": -14341.0,
     "earlier_per_draw": -14.312,
-    "rank_earlier": 10809,
+    "rank_earlier": 10812,
     "wins_last10": 5,
     "win_rate_earlier": 0.0569
    },
@@ -275,7 +275,7 @@
     ],
     "profit_earlier": -15311.0,
     "earlier_per_draw": -15.28,
-    "rank_earlier": 20491,
+    "rank_earlier": 20490,
     "wins_last10": 4,
     "win_rate_earlier": 0.0699
    },
@@ -451,7 +451,7 @@
     ],
     "profit_earlier": -13726.0,
     "earlier_per_draw": -13.699,
-    "rank_earlier": 7108,
+    "rank_earlier": 7107,
     "wins_last10": 3,
     "win_rate_earlier": 0.0639
    },
@@ -651,7 +651,7 @@
     ],
     "profit_earlier": -13901.0,
     "earlier_per_draw": -13.873,
-    "rank_earlier": 8008,
+    "rank_earlier": 8010,
     "wins_last10": 0,
     "win_rate_earlier": 0.0918
    },
@@ -741,7 +741,7 @@
     ],
     "profit_earlier": -15826.0,
     "earlier_per_draw": -15.794,
-    "rank_earlier": 24975,
+    "rank_earlier": 24979,
     "wins_last10": 1,
     "win_rate_earlier": 0.0579
    },
@@ -807,7 +807,7 @@
     ],
     "profit_earlier": -15036.0,
     "earlier_per_draw": -15.006,
-    "rank_earlier": 17300,
+    "rank_earlier": 17304,
     "wins_last10": 1,
     "win_rate_earlier": 0.0569
    },
@@ -829,7 +829,7 @@
     ],
     "profit_earlier": -15891.0,
     "earlier_per_draw": -15.859,
-    "rank_earlier": 25288,
+    "rank_earlier": 25287,
     "wins_last10": 2,
     "win_rate_earlier": 0.0549
    },
@@ -873,7 +873,7 @@
     ],
     "profit_earlier": -14741.0,
     "earlier_per_draw": -14.712,
-    "rank_earlier": 14091,
+    "rank_earlier": 14089,
     "wins_last10": 1,
     "win_rate_earlier": 0.0669
    },
@@ -917,31 +917,9 @@
     ],
     "profit_earlier": -15656.0,
     "earlier_per_draw": -15.625,
-    "rank_earlier": 23815,
+    "rank_earlier": 23814,
     "wins_last10": 1,
     "win_rate_earlier": 0.0549
-   },
-   {
-    "lead": "hora_lord \u00d7 aspect_mercury_jupiter",
-    "pattern": "cold",
-    "profit_last10": 1340.0,
-    "per_draw": [
-     -18.0,
-     -18.0,
-     -18.0,
-     -18.0,
-     -18.0,
-     -18.0,
-     -18.0,
-     -18.0,
-     1502.0,
-     -18.0
-    ],
-    "profit_earlier": -13571.0,
-    "earlier_per_draw": -13.544,
-    "rank_earlier": 6348,
-    "wins_last10": 1,
-    "win_rate_earlier": 0.0599
    },
    {
     "lead": "karana \u00d7 aspect_mars_saturn",
@@ -983,7 +961,29 @@
     ],
     "profit_earlier": -13911.0,
     "earlier_per_draw": -13.883,
-    "rank_earlier": 8071,
+    "rank_earlier": 8070,
+    "wins_last10": 1,
+    "win_rate_earlier": 0.0599
+   },
+   {
+    "lead": "hora_lord \u00d7 aspect_mercury_jupiter",
+    "pattern": "cold",
+    "profit_last10": 1340.0,
+    "per_draw": [
+     -18.0,
+     -18.0,
+     -18.0,
+     -18.0,
+     -18.0,
+     -18.0,
+     -18.0,
+     -18.0,
+     1502.0,
+     -18.0
+    ],
+    "profit_earlier": -13571.0,
+    "earlier_per_draw": -13.544,
+    "rank_earlier": 6348,
     "wins_last10": 1,
     "win_rate_earlier": 0.0599
    },
@@ -1005,7 +1005,7 @@
     ],
     "profit_earlier": -15511.0,
     "earlier_per_draw": -15.48,
-    "rank_earlier": 22542,
+    "rank_earlier": 22544,
     "wins_last10": 2,
     "win_rate_earlier": 0.0699
    },
@@ -1054,28 +1054,6 @@
     "win_rate_earlier": 0.0659
    },
    {
-    "lead": "day_pillar \u00d7 draw_in_daylight",
-    "pattern": "pos",
-    "profit_last10": 1340.0,
-    "per_draw": [
-     -18.0,
-     -18.0,
-     -18.0,
-     1502.0,
-     -18.0,
-     -18.0,
-     -18.0,
-     -18.0,
-     -18.0,
-     -18.0
-    ],
-    "profit_earlier": -11506.0,
-    "earlier_per_draw": -11.483,
-    "rank_earlier": 2023,
-    "wins_last10": 1,
-    "win_rate_earlier": 0.0649
-   },
-   {
     "lead": "month_branch \u00d7 aspect_sun_moon",
     "pattern": "hot+100",
     "profit_last10": 1340.0,
@@ -1098,6 +1076,28 @@
     "win_rate_earlier": 0.0559
    },
    {
+    "lead": "day_pillar \u00d7 draw_in_daylight",
+    "pattern": "pos",
+    "profit_last10": 1340.0,
+    "per_draw": [
+     -18.0,
+     -18.0,
+     -18.0,
+     1502.0,
+     -18.0,
+     -18.0,
+     -18.0,
+     -18.0,
+     -18.0,
+     -18.0
+    ],
+    "profit_earlier": -11506.0,
+    "earlier_per_draw": -11.483,
+    "rank_earlier": 2023,
+    "wins_last10": 1,
+    "win_rate_earlier": 0.0649
+   },
+   {
     "lead": "moon_rashi \u00d7 aspect_venus_jupiter",
     "pattern": "hot",
     "profit_last10": 1320.0,
@@ -1115,7 +1115,7 @@
     ],
     "profit_earlier": -14876.0,
     "earlier_per_draw": -14.846,
-    "rank_earlier": 15468,
+    "rank_earlier": 15472,
     "wins_last10": 1,
     "win_rate_earlier": 0.0679
    },
@@ -1805,7 +1805,7 @@
     ],
     "profit_earlier": -14896.0,
     "earlier_per_draw": -14.866,
-    "rank_earlier": 16199,
+    "rank_earlier": 16200,
     "wins_last10": 4,
     "win_rate_earlier": 0.0639
    },
@@ -1827,7 +1827,7 @@
     ],
     "profit_earlier": -14471.0,
     "earlier_per_draw": -14.442,
-    "rank_earlier": 12218,
+    "rank_earlier": 12216,
     "wins_last10": 4,
     "win_rate_earlier": 0.0659
    },
@@ -2225,7 +2225,7 @@
     ],
     "profit_earlier": -12026.0,
     "earlier_per_draw": -12.002,
-    "rank_earlier": 2599,
+    "rank_earlier": 2598,
     "wins_last10": 0,
     "win_rate_earlier": 0.0948
    },
@@ -2271,7 +2271,7 @@
     ],
     "profit_earlier": -13836.0,
     "earlier_per_draw": -13.808,
-    "rank_earlier": 8026,
+    "rank_earlier": 8029,
     "wins_last10": 2,
     "win_rate_earlier": 0.0669
    },
@@ -2315,7 +2315,7 @@
     ],
     "profit_earlier": -13586.0,
     "earlier_per_draw": -13.559,
-    "rank_earlier": 6735,
+    "rank_earlier": 6737,
     "wins_last10": 2,
     "win_rate_earlier": 0.0599
    },
@@ -2337,7 +2337,7 @@
     ],
     "profit_earlier": -15266.0,
     "earlier_per_draw": -15.236,
-    "rank_earlier": 20475,
+    "rank_earlier": 20473,
     "wins_last10": 1,
     "win_rate_earlier": 0.0649
    },
@@ -2381,7 +2381,7 @@
     ],
     "profit_earlier": -14961.0,
     "earlier_per_draw": -14.931,
-    "rank_earlier": 16958,
+    "rank_earlier": 16954,
     "wins_last10": 2,
     "win_rate_earlier": 0.0589
    },
@@ -3180,7 +3180,7 @@
     ],
     "profit_earlier": -14446.0,
     "earlier_per_draw": -14.417,
-    "rank_earlier": 11217,
+    "rank_earlier": 11219,
     "wins_last10": 4,
     "win_rate_earlier": 0.0649
    },
@@ -3756,7 +3756,7 @@
     ],
     "profit_earlier": -14101.0,
     "earlier_per_draw": -14.073,
-    "rank_earlier": 8891,
+    "rank_earlier": 8895,
     "wins_last10": 1,
     "win_rate_earlier": 0.0768
    },
@@ -3800,7 +3800,7 @@
     ],
     "profit_earlier": -15006.0,
     "earlier_per_draw": -14.976,
-    "rank_earlier": 16808,
+    "rank_earlier": 16810,
     "wins_last10": 1,
     "win_rate_earlier": 0.0689
    },
@@ -3932,7 +3932,7 @@
     ],
     "profit_earlier": -10941.0,
     "earlier_per_draw": -10.919,
-    "rank_earlier": 1336,
+    "rank_earlier": 1337,
     "wins_last10": 1,
     "win_rate_earlier": 0.0758
    },
@@ -3954,7 +3954,7 @@
     ],
     "profit_earlier": -15041.0,
     "earlier_per_draw": -15.011,
-    "rank_earlier": 17184,
+    "rank_earlier": 17188,
     "wins_last10": 1,
     "win_rate_earlier": 0.0649
    },
@@ -4020,7 +4020,7 @@
     ],
     "profit_earlier": -15121.0,
     "earlier_per_draw": -15.091,
-    "rank_earlier": 18120,
+    "rank_earlier": 18118,
     "wins_last10": 1,
     "win_rate_earlier": 0.0709
    },
@@ -4042,7 +4042,7 @@
     ],
     "profit_earlier": -14066.0,
     "earlier_per_draw": -14.038,
-    "rank_earlier": 8652,
+    "rank_earlier": 8650,
     "wins_last10": 1,
     "win_rate_earlier": 0.0838
    },
@@ -4064,7 +4064,7 @@
     ],
     "profit_earlier": -14856.0,
     "earlier_per_draw": -14.826,
-    "rank_earlier": 15081,
+    "rank_earlier": 15079,
     "wins_last10": 1,
     "win_rate_earlier": 0.0659
    },

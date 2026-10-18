@@ -32,15 +32,15 @@ Random tickets return RM24.76 of every RM45 on average (prizes are mostly the Gr
 | 9 | mercury_nakshatra × ayana | cold | +19,910 | -45 -45 -45 -45 +20,265 -45 -45 -45 -45 +5 | 15,295 | -36,900 |
 | 10 | mercury_nakshatra × lunar_leap_month | cold | +19,910 | -45 -45 -45 -45 +20,265 -45 -45 -45 -45 +5 | 14,431 | -36,700 |
 | 11 | saturn_combust × plum_trigrams | cold | +19,910 | -45 -45 -45 +20,265 +5 -45 -45 -45 -45 -45 | 15,960 | -37,060 |
-| 12 | moon_rashi × mars_retrograde | pos | +19,860 | -45 -45 +20,265 -45 -45 -45 -45 -45 -45 -45 | 21,341 | -38,340 |
+| 12 | moon_rashi × mars_retrograde | pos | +19,860 | -45 -45 +20,265 -45 -45 -45 -45 -45 -45 -45 | 21,342 | -38,340 |
 | 13 | mercury_rashi × mercury_nakshatra | cold | +19,860 | -45 -45 -45 -45 +20,265 -45 -45 -45 -45 -45 | 9,813 | -35,300 |
-| 14 | venus_nakshatra × pof_rashi | cold | +19,860 | -45 -45 -45 -45 -45 -45 +20,265 -45 -45 -45 | 21,245 | -38,310 |
-| 15 | saturn_nakshatra × aspect_moon_jupiter | pos | +19,860 | -45 +20,265 -45 -45 -45 -45 -45 -45 -45 -45 | 7,097 | -34,195 |
+| 14 | venus_nakshatra × pof_rashi | cold | +19,860 | -45 -45 -45 -45 -45 -45 +20,265 -45 -45 -45 | 21,243 | -38,310 |
+| 15 | saturn_nakshatra × aspect_moon_jupiter | pos | +19,860 | -45 +20,265 -45 -45 -45 -45 -45 -45 -45 -45 | 7,096 | -34,195 |
 | 16 | moon_phase × universal_day | cold | +2,645 | -45 -45 -45 +2,730 +275 -45 -45 -45 -45 -45 | 2,623 | -29,245 |
 | 17 | hora_lord × mercury_rashi | cold | +2,475 | +2,730 +5 -45 -45 -45 -45 -45 -45 -45 +55 | 18,735 | -37,740 |
 | 18 | mercury_retrograde × kp_sun_sub_lord | hot | +2,475 | -45 -45 +55 -45 -45 -45 +5 -45 -45 +2,730 | 1,622 | -16,610 |
 | 19 | kp_asc_sub_lord × aspect_mercury_jupiter | cold | +2,475 | -45 -45 +55 -45 +5 -45 -45 -45 +2,730 -45 | 15,944 | -37,055 |
-| 20 | kp_sun_sub_lord × aspect_sun_mars | hot | +2,475 | -45 -45 -45 +55 -45 +2,730 -45 -45 -45 +5 | 13,547 | -36,475 |
+| 20 | kp_sun_sub_lord × aspect_sun_mars | hot | +2,475 | -45 -45 -45 +55 -45 +2,730 -45 -45 -45 +5 | 13,543 | -36,475 |
 
 ## Top 10 leads by profit on the earlier draws, played on the last 10
 
@@ -63,7 +63,7 @@ Random tickets return RM24.76 of every RM45 on average (prizes are mostly the Gr
 |---|---|---|---|---|---|
 | mars_rashi × venus_combust | cold | +20 | -45 +5 -45 -45 -45 +55 -45 -45 +275 -45 | 13,051 | -36,330 |
 | moon_rashi × mars_combust | pos | -130 | -45 -45 +275 -45 -45 -45 -45 -45 -45 -45 | 1,896 | -17,670 |
-| mars_rashi × month | cold | -400 | -45 -45 -45 -45 -45 -45 -45 -45 -45 +5 | 16,484 | -37,200 |
+| mars_rashi × month | cold | -400 | -45 -45 -45 -45 -45 -45 -45 -45 -45 +5 | 16,486 | -37,200 |
 | mars_rashi × sun_sign_tropical | cold | -400 | +5 -45 -45 -45 -45 -45 -45 -45 -45 -45 | 24,999 | -39,560 |
 | mercury_nakshatra × venus_rashi | hot | -450 | -45 -45 -45 -45 -45 -45 -45 -45 -45 -45 | 24,963 | -39,540 |
 | venus_nakshatra × kp_moon_sub_lord | hot | -450 | -45 -45 -45 -45 -45 -45 -45 -45 -45 -45 | 9,814 | -35,300 |
@@ -74,26 +74,26 @@ Random tickets return RM24.76 of every RM45 on average (prizes are mostly the Gr
 
 | # | Lead | Pattern | Winning draws | Profit, last 10 (RM) | Per draw (RM) | Earlier win rate | Rank earlier (profit) |
 |---|---|---|---|---|---|---|---|
-| 1 | kp_sun_sub_lord × year_yinyang | hot | 4/10 | +540 | -45 -45 +5 -45 -45 +275 +5 -45 -45 +525 | 5.9% | 8,317 |
+| 1 | kp_sun_sub_lord × year_yinyang | hot | 4/10 | +540 | -45 -45 +5 -45 -45 +275 +5 -45 -45 +525 | 5.9% | 8,315 |
 | 2 | jupiter_retrograde × day_branch | cold | 4/10 | +120 | +5 +55 +55 -45 -45 -45 +275 -45 -45 -45 | 6.5% | 16,851 |
 | 3 | ayana × kp_moon_star_lord | pos | 4/10 | +120 | +275 -45 -45 +55 +55 +5 -45 -45 -45 -45 | 5.9% | 9,215 |
-| 4 | hora_lord × kp_moon_sub_lord | cold | 4/10 | +70 | -45 +55 -45 -45 +5 -45 -45 -45 +5 +275 | 6.4% | 10,175 |
+| 4 | hora_lord × kp_moon_sub_lord | cold | 4/10 | +70 | -45 +55 -45 -45 +5 -45 -45 -45 +5 +275 | 6.4% | 10,176 |
 | 5 | mercury_retrograde × aspect_venus_mars | cold | 4/10 | +70 | -45 +5 -45 -45 +275 -45 -45 -45 +55 +5 | 7.7% | 2,341 |
 | 6 | karana × moon_sign_tropical | hot | 4/10 | +20 | +275 -45 +5 -45 +5 -45 -45 -45 -45 +5 | 6.0% | 17,235 |
 | 7 | moon_navamsa × solar_term | cold | 4/10 | +20 | +5 +5 +275 -45 -45 +5 -45 -45 -45 -45 | 5.4% | 9,522 |
 | 8 | draw_in_daylight × aspect_mercury_mars | cold | 4/10 | -100 | -45 -45 +5 -45 -45 +55 +55 -45 +55 -45 | 6.9% | 1,557 |
 | 9 | mars_rashi × aspects_soft | cold | 4/10 | -150 | -45 +55 -45 -45 -45 +5 +5 -45 +55 -45 | 5.0% | 1,041 |
-| 10 | planets_with_moon × mansion_28 | cold | 4/10 | -150 | -45 +55 -45 -45 -45 +5 +55 -45 -45 +5 | 6.6% | 14,960 |
-| 11 | mars_combust × aspect_moon_mars | cold | 4/10 | -150 | +55 +5 +55 -45 -45 -45 -45 -45 +5 -45 | 7.6% | 7,158 |
+| 10 | mars_combust × aspect_moon_mars | cold | 4/10 | -150 | +55 +5 +55 -45 -45 -45 -45 -45 +5 -45 | 7.6% | 7,157 |
+| 11 | planets_with_moon × mansion_28 | cold | 4/10 | -150 | -45 +55 -45 -45 -45 +5 +55 -45 -45 +5 | 6.6% | 14,960 |
 | 12 | kp_asc_sub_lord × aspect_venus_saturn | cold | 4/10 | -150 | -45 -45 +55 -45 +5 +55 -45 +5 -45 -45 | 6.5% | 3,155 |
-| 13 | sun_rashi × nayin_element | cold | 4/10 | -200 | +5 -45 -45 -45 -45 +55 -45 -45 +5 +5 | 8.2% | 10,846 |
+| 13 | sun_rashi × nayin_element | cold | 4/10 | -200 | +5 -45 -45 -45 -45 +55 -45 -45 +5 +5 | 8.2% | 10,842 |
 | 14 | saturn_nakshatra × day_officer | cold | 4/10 | -200 | -45 +5 -45 +5 -45 -45 -45 +55 -45 +5 | 7.0% | 5,384 |
-| 15 | mars_combust × aspects_hard | hot | 4/10 | -200 | -45 -45 -45 -45 +5 +55 -45 +5 -45 +5 | 5.8% | 11,974 |
-| 16 | mars_combust × aspects_hard | pos | 4/10 | -200 | -45 -45 -45 -45 +5 +55 -45 +5 -45 +5 | 5.8% | 24,514 |
+| 15 | mars_combust × aspects_hard | hot | 4/10 | -200 | -45 -45 -45 -45 +5 +55 -45 +5 -45 +5 | 5.8% | 11,972 |
+| 16 | mars_combust × aspects_hard | pos | 4/10 | -200 | -45 -45 -45 -45 +5 +55 -45 +5 -45 +5 | 5.8% | 24,512 |
 | 17 | samvatsara × pof_nakshatra | hot | 4/10 | -200 | +5 -45 +5 -45 -45 -45 -45 -45 +55 +5 | 7.5% | 6,786 |
-| 18 | year_animal × pof_nakshatra | hot | 4/10 | -200 | +5 -45 +5 -45 -45 -45 -45 -45 +55 +5 | 7.5% | 1,349 |
-| 19 | year_stem × pof_nakshatra | hot | 4/10 | -200 | +5 -45 +5 -45 -45 -45 -45 -45 +55 +5 | 7.5% | 1,350 |
-| 20 | kp_asc_sub_lord × aspect_mars_saturn | pos | 4/10 | -200 | -45 -45 -45 +5 -45 -45 -45 +5 +5 +55 | 4.1% | 26,068 |
+| 18 | kp_asc_sub_lord × aspect_mars_saturn | pos | 4/10 | -200 | -45 -45 -45 +5 -45 -45 -45 +5 +5 +55 | 4.1% | 26,068 |
+| 19 | year_animal × pof_nakshatra | hot | 4/10 | -200 | +5 -45 +5 -45 -45 -45 -45 -45 +55 +5 | 7.5% | 1,349 |
+| 20 | year_stem × pof_nakshatra | hot | 4/10 | -200 | +5 -45 +5 -45 -45 -45 -45 -45 +55 +5 | 7.5% | 1,350 |
 
 ## Top 10 leads by win rate on the earlier draws, played on the last 10
 

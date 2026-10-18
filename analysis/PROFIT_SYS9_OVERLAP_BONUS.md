@@ -22,24 +22,24 @@ Random tickets return RM9.90 of every RM18 on average (prizes are mostly the Gra
 | # | Lead | Pattern | Profit, last 10 (RM) | Per draw (RM) | Rank earlier | Profit earlier (RM) |
 |---|---|---|---|---|---|---|
 | 1 | aspect_venus_jupiter × universal_day | hot | +110,060 | -18 -18 +110,222 -18 -18 -18 -18 -18 -18 -18 | 4,750 | -13,156 |
-| 2 | paksha × venus_rashi | cold | +25,220 | +25,382 -18 -18 -18 -18 -18 -18 -18 -18 -18 | 24,975 | -15,826 |
+| 2 | paksha × venus_rashi | cold | +25,220 | +25,382 -18 -18 -18 -18 -18 -18 -18 -18 -18 | 24,979 | -15,826 |
 | 3 | saturn_combust × plum_trigrams | cold | +12,560 | -18 -18 -18 +12,722 -18 -18 -18 -18 -18 -18 | 11,064 | -14,376 |
 | 4 | day_pillar × aspect_jupiter_saturn | pos | +12,560 | -18 -18 -18 +12,682 -18 -18 -18 -18 +2 +2 | 6,819 | -13,666 |
-| 5 | moon_rashi × saturn_retrograde | pos | +12,520 | -18 -18 +12,682 -18 -18 -18 -18 -18 -18 -18 | 17,300 | -15,036 |
-| 6 | yellow_black_path × aspects_hard | pos | +2,600 | -18 +2 -18 -18 -18 -18 -18 -18 -18 +2,742 | 25,288 | -15,891 |
+| 5 | moon_rashi × saturn_retrograde | pos | +12,520 | -18 -18 +12,682 -18 -18 -18 -18 -18 -18 -18 | 17,304 | -15,036 |
+| 6 | yellow_black_path × aspects_hard | pos | +2,600 | -18 +2 -18 -18 -18 -18 -18 -18 -18 +2,742 | 25,287 | -15,891 |
 | 7 | mars_combust × day_element | pos | +1,445 | +107 -18 -18 -18 -18 -18 +1,482 -18 -18 -18 | 12,540 | -14,566 |
-| 8 | day_god × aspect_mars_saturn | hot | +1,425 | -18 -18 -18 -18 -18 -18 -18 +1,587 -18 -18 | 14,091 | -14,741 |
+| 8 | day_god × aspect_mars_saturn | hot | +1,425 | -18 -18 -18 -18 -18 -18 -18 +1,587 -18 -18 | 14,089 | -14,741 |
 | 9 | mercury_rashi × kp_asc_sub_lord | cold | +1,380 | -18 -18 +22 -18 -18 -18 -18 -18 +1,502 -18 | 24,527 | -15,751 |
-| 10 | yoga × moon_phase | hot | +1,340 | -18 -18 -18 -18 -18 -18 -18 -18 +1,502 -18 | 23,815 | -15,656 |
-| 11 | hora_lord × aspect_mercury_jupiter | cold | +1,340 | -18 -18 -18 -18 -18 -18 -18 -18 +1,502 -18 | 6,348 | -13,571 |
-| 12 | karana × aspect_mars_saturn | hot | +1,340 | -18 -18 -18 -18 -18 -18 -18 -18 -18 +1,502 | 681 | -1,346 |
-| 13 | karana × aspect_mars_saturn | pos | +1,340 | -18 -18 -18 -18 -18 -18 -18 -18 -18 +1,502 | 8,071 | -13,911 |
-| 14 | venus_rashi × yellow_black_path | cold | +1,340 | -18 +2 +1,482 -18 -18 -18 -18 -18 -18 -18 | 22,542 | -15,511 |
+| 10 | yoga × moon_phase | hot | +1,340 | -18 -18 -18 -18 -18 -18 -18 -18 +1,502 -18 | 23,814 | -15,656 |
+| 11 | karana × aspect_mars_saturn | hot | +1,340 | -18 -18 -18 -18 -18 -18 -18 -18 -18 +1,502 | 681 | -1,346 |
+| 12 | karana × aspect_mars_saturn | pos | +1,340 | -18 -18 -18 -18 -18 -18 -18 -18 -18 +1,502 | 8,070 | -13,911 |
+| 13 | hora_lord × aspect_mercury_jupiter | cold | +1,340 | -18 -18 -18 -18 -18 -18 -18 -18 +1,502 -18 | 6,348 | -13,571 |
+| 14 | venus_rashi × yellow_black_path | cold | +1,340 | -18 +2 +1,482 -18 -18 -18 -18 -18 -18 -18 | 22,544 | -15,511 |
 | 15 | adhika_masa × year_yinyang | cold | +1,340 | -18 -18 +1,482 +2 -18 -18 -18 -18 -18 -18 | 7,207 | -13,746 |
 | 16 | year_yinyang × day_element | hot | +1,340 | +2 -18 -18 -18 -18 -18 +1,482 -18 -18 -18 | 20,273 | -15,286 |
-| 17 | day_pillar × draw_in_daylight | pos | +1,340 | -18 -18 -18 +1,502 -18 -18 -18 -18 -18 -18 | 2,023 | -11,506 |
-| 18 | month_branch × aspect_sun_moon | hot+100 | +1,340 | -18 -18 -18 -18 +1,462 -18 +22 -18 -18 -18 | 6,013 | -13,491 |
-| 19 | moon_rashi × aspect_venus_jupiter | hot | +1,320 | -18 -18 +1,482 -18 -18 -18 -18 -18 -18 -18 | 15,468 | -14,876 |
+| 17 | month_branch × aspect_sun_moon | hot+100 | +1,340 | -18 -18 -18 -18 +1,462 -18 +22 -18 -18 -18 | 6,013 | -13,491 |
+| 18 | day_pillar × draw_in_daylight | pos | +1,340 | -18 -18 -18 +1,502 -18 -18 -18 -18 -18 -18 | 2,023 | -11,506 |
+| 19 | moon_rashi × aspect_venus_jupiter | hot | +1,320 | -18 -18 +1,482 -18 -18 -18 -18 -18 -18 -18 | 15,472 | -14,876 |
 | 20 | mercury_nakshatra × aspect_sun_jupiter | cold | +1,320 | -18 -18 -18 -18 +1,482 -18 -18 -18 -18 -18 | 17,133 | -15,021 |
 
 ## Top 10 leads by profit on the earlier draws, played on the last 10
@@ -74,7 +74,7 @@ Random tickets return RM9.90 of every RM18 on average (prizes are mostly the Gra
 
 | # | Lead | Pattern | Winning draws | Profit, last 10 (RM) | Per draw (RM) | Earlier win rate | Rank earlier (profit) |
 |---|---|---|---|---|---|---|---|
-| 1 | moon_navamsa × solar_term | cold | 5/10 | -60 | +22 +2 +2 -18 -18 +2 +2 -18 -18 -18 | 5.7% | 10,809 |
+| 1 | moon_navamsa × solar_term | cold | 5/10 | -60 | +22 +2 +2 -18 -18 +2 +2 -18 -18 -18 | 5.7% | 10,812 |
 | 2 | ayana × kp_moon_star_lord | pos | 4/10 | +300 | +362 -18 -18 +22 +22 +2 -18 -18 -18 -18 | 7.4% | 2,568 |
 | 3 | month_branch × draw_in_daylight | cold | 4/10 | +65 | +22 -18 -18 -18 -18 -18 -18 +2 +22 +127 | 5.0% | 8,850 |
 | 4 | aspect_venus_saturn × aspects_soft | cold | 4/10 | +65 | -18 +2 -18 -18 +127 -18 -18 +22 -18 +22 | 6.2% | 2,646 |
@@ -84,7 +84,7 @@ Random tickets return RM9.90 of every RM18 on average (prizes are mostly the Gra
 | 8 | nakshatra_lord × ayana | pos | 4/10 | -40 | +2 -18 -18 +2 +62 +2 -18 -18 -18 -18 | 6.8% | 3,376 |
 | 9 | mars_rashi × aspects_soft | cold | 4/10 | -40 | -18 +42 -18 -18 -18 +2 +2 -18 +22 -18 | 5.4% | 9,263 |
 | 10 | mercury_nakshatra × aspect_venus_saturn | cold | 4/10 | -40 | +2 -18 +22 -18 +42 -18 -18 -18 -18 +2 | 6.3% | 22,336 |
-| 11 | karana × plum_trigrams | cold | 4/10 | -60 | -18 +2 -18 +22 -18 -18 +22 +2 -18 -18 | 7.0% | 20,491 |
+| 11 | karana × plum_trigrams | cold | 4/10 | -60 | -18 +2 -18 +22 -18 -18 +22 +2 -18 -18 | 7.0% | 20,490 |
 | 12 | month_branch × aspect_venus_jupiter | hot | 4/10 | -60 | -18 +22 -18 +2 +22 -18 +2 -18 -18 -18 | 6.0% | 24,912 |
 | 13 | month_branch × aspect_venus_jupiter | pos | 4/10 | -60 | -18 +22 -18 -18 +22 +2 +2 -18 -18 -18 | 5.1% | 25,079 |
 | 14 | mercury_rashi × aspect_moon_mercury | cold | 4/10 | -80 | +2 -18 -18 -18 +2 -18 +2 +22 -18 -18 | 6.3% | 669 |
@@ -92,7 +92,7 @@ Random tickets return RM9.90 of every RM18 on average (prizes are mostly the Gra
 | 16 | venus_rashi × nayin_element | cold | 4/10 | -100 | +2 +2 -18 +2 -18 -18 -18 -18 -18 +2 | 7.0% | 12,783 |
 | 17 | aspect_sun_venus × aspect_venus_mars | cold | 4/10 | -100 | -18 +2 -18 -18 +2 -18 +2 -18 -18 +2 | 7.2% | 14,383 |
 | 18 | day_pillar × aspect_jupiter_saturn | pos | 3/10 | +12,560 | -18 -18 -18 +12,682 -18 -18 -18 -18 +2 +2 | 6.0% | 6,819 |
-| 19 | kp_sun_sub_lord × year_yinyang | hot | 3/10 | +340 | -18 -18 -18 -18 -18 +232 +107 -18 -18 +127 | 6.4% | 7,108 |
+| 19 | kp_sun_sub_lord × year_yinyang | hot | 3/10 | +340 | -18 -18 -18 -18 -18 +232 +107 -18 -18 +127 | 6.4% | 7,107 |
 | 20 | pof_rashi × draw_in_daylight | pos | 3/10 | +280 | -18 -18 +382 -18 +2 +22 -18 -18 -18 -18 | 6.9% | 12,856 |
 
 ## Top 10 leads by win rate on the earlier draws, played on the last 10

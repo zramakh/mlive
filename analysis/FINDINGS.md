@@ -285,6 +285,8 @@ Official Magnum Life prize table per 8-number combination (8 = Grand, RM1,000 a 
 
 Paksha × Venus rashi (cold) caught all 8 numbers on 26 Sep 2026 (checked independently: 67 earlier draws in that cell, 7 of the winners in its cold top 8 and the 8th at rank 10). It is luck, not a lead: it ranked 12,375th (10 tickets) and 8,135th (System 10) on the earlier draws, where it lost money, and 26,224 leads × 10 draws give a jackpot-sized lottery among themselves. The leads with the most earlier profit are all leads that once hit the Grand prize (ritu × year_yinyang, mars_combust × ritu, hora_lord × saturn_nakshatra ...); the shifted calendars have just as many (best earlier profit RM7.3-8.1m on every calendar), and on the last 10 draws they won almost nothing. Re-ranking by profit before every draw keeps the same past jackpot winner and loses the full stake. Every honest choice lost about what random tickets lose or more.
 
+**Combined ranking (`profit_combined.py`, `PROFIT_COMBINED.md`).** All 104,896 lead × format rows (10 ordinary tickets, System 10 × 1, System 9 × 2 overlap / disjoint) scored by the average of their rank by profit margin (profit ÷ stake) and by winning draws. Best on the last 10 draws: Rahu rashi × aspect Mercury–Saturn (cold), System 9 × 2 disjoint, +RM12,685 on RM180 with 4 winning draws (one 7-number hit), earlier margin −82%. Rows in profit with 3+ winning draws: 319 (shifted calendars 188, 224). The top 10 by the same score on the earlier draws (all System 9 disjoint, margins of +530-550% from an earlier Grand prize) lost RM152 on average on the last 10 with 0.7 winning draws (shifted −172, −199).
+
 ## Is the 4D lead special? (`lead_4d_robustness.py`, `lead_hunt.py`)
 
 No. Scored the same way:
