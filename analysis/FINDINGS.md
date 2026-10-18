@@ -86,6 +86,26 @@ and 84 vs 75.3 (digit, +1.00; 12%); on Da Ma Cai (from 2016-02-14) 69 vs 63.3 (+
 11%). Last 10 draws: 1 hit vs 0.37 (Magnum), 0 (Da Ma Cai). None of the six scores is significant; the 4D lead,
 scored the same way, ranges from z −1.27 to +1.51.
 
+## Embedding / language-model approach (`embed_model.py`, [EMBEDDINGS.md](EMBEDDINGS.md))
+
+Each draw as a "sentence" of tokens (its 83 parameter values + the numbers drawn); word2vec-style vectors (PPMI + SVD)
+and a small neural language model (averaged parameter embeddings → softmax over numbers, optionally with the previous
+draw's numbers as context). Settings chosen on validation draws; tested on later draws and on the last 10 draws; the
+whole pipeline repeated on 5 shifted calendars.
+
+| Game | Vector arithmetic (PPMI): test z / last 10 | Shifted calendars | Neural LM: test z / last 10 | Neural, shifted | LM validation loss vs uniform |
+|---|---|---|---|---|---|
+| 6/50 | +1.65 / 8 vs 7.2 | −1.48 to +1.26 / 6–12 | +0.63 / 6 vs 7.2 | +0.01 to +0.24 | 3.9115 vs 3.9120 |
+| 6/55 | −0.06 / 5 vs 6.6 | −1.85 to +0.97 / 3–9 | +1.72 / 7 vs 6.6 | +1.72 (all 5) | 4.0092 vs 4.0073 |
+| 6/58 | +0.59 / 3 vs 6.2 | −0.18 to +1.72 / 3–7 | −0.36 / 4 vs 6.2 | −1.26 to −0.07 | 4.0635 vs 4.0604 |
+| Life | +0.61 / 22 vs 17.8 | −1.07 to +0.85 / 15–20 | +0.50 / 19 vs 17.8 | +0.15 to +0.26 | 3.5850 vs 3.5835 |
+
+The vectors do learn real astronomy (Moon in Vrishabha − Rohini + Ashwini ≈ Moon in Mesha; Jupiter in Karka sits next
+to Jupiter in Ashlesha), but number tokens only sit next to generic, common tokens. The neural model's validation loss
+never beats "all numbers equally likely", early stopping keeps it at 5–20 epochs, and its tickets come out the same on
+shifted calendars, i.e. they ignore the parameters and follow overall number frequency. Every LM fits the test draws
+worse than uniform (log-likelihood −0.008 to −0.035 nats per draw).
+
 ## Is the 4D lead special? (`lead_4d_robustness.py`, `lead_hunt.py`)
 
 No. Scored the same way:

@@ -385,6 +385,34 @@ row is within the spread expected from selection luck. The 4D lead's Magnum Life
 how its ticket is built: it is +0.83 when the ticket is updated draw by draw like every other
 lead here. Tickets for my leads on 18 and 21 Oct are logged as `own_lead` in `forward_log.csv`.
 
+## 8. Word vectors and a small language model (`embed_model.py`)
+
+Inspired by word embeddings ("king − man + woman = queen"): each draw is a sentence of tokens, the 83 parameter values
+of its date and time plus the numbers drawn. Two models per game, numpy only:
+
+* **PPMI + SVD** (mathematically equivalent to word2vec): token co-occurrence within draws, positive PMI with context
+  smoothing, truncated SVD (10, 30 or 100 dimensions, chosen on validation). A date's ticket = the numbers whose vectors
+  are closest (cosine) to the sum of its parameter vectors.
+* **Neural language model** (fastText-style): the date's parameter tokens are embedded and averaged, and a softmax
+  over number tokens is trained (Adam, L2, early stopping on validation). A second variant adds the previous draw's
+  numbers to the context, like the previous words an LLM reads.
+
+Protocol per game: the last 10 draws kept aside; settings chosen on R[0–60%] → R[60–80%]; tested on R[80–100%] after
+retraining on R[0–80%]; then retrained on all of R and used on the last 10. Everything repeated on 5 shifted calendars.
+Results are in FINDINGS.md and `embed_results.json`.
+
+**What the vectors learn.** Where 100 dimensions were chosen (6/58, Magnum Life), the parameter vectors recover real
+structure: Moon in Vrishabha − Rohini + Ashwini ≈ Moon in Mesha (Ashwini lies in Mesha); Jupiter in Karka's nearest
+token is Jupiter in Ashlesha (a nakshatra inside Karka); the Jia Zi day sits next to Na Yin 0 (its own Na Yin). Number
+tokens, however, only sit next to the most common tokens (flags such as "not retrograde", "planets with Moon = 0"),
+because they co-occur with everything about equally. In the 10-dimension spaces (6/50, 6/55) nearly all tokens are at
+cosine 0.95–0.98 of each other.
+
+**What it predicts.** Nothing beyond chance. PPMI tickets land within the range of the shifted calendars in every game.
+The neural model never achieves a validation loss below "all numbers equally likely", so early stopping halts it after
+5–20 epochs; its tickets are identical on shifted calendars (6/55: z +1.72 every time), i.e. they follow overall number
+frequency, not the parameters. On the test draws every language model fits the results worse than uniform.
+
 ## Conclusion
 
 The Toto and Magnum Life draws are fair for practical purposes. Vedic, KP and Chinese almanac
@@ -406,6 +434,7 @@ python3 analysis/lead_4d_check.py
 python3 analysis/own_leads.py             # ~15 min on 4 cores
 python3 analysis/lead_4d_robustness.py    # ~30 s, after own_leads.py
 python3 analysis/lead_hunt.py             # ~1 min (reads ../4DPrediction for the 4D picks)
+python3 analysis/embed_model.py           # ~25 min on 4 cores
 python3 analysis/astro_model.py predict --date 2026-10-21
 ```
 
