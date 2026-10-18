@@ -126,6 +126,28 @@ highest scores do not need the analogy: 6/50 `similar` / `map` +2.20 has λ = 0,
 above the shifted calendars'. Last 10 draws: all within the shifted range (e.g. Life 20–23 vs 17.8 expected, shifted
 12–23).
 
+## Fewer parameters (`param_select.py`)
+
+The vector forecasters (`direct` map and `last`-draw analogy) rebuilt from a selected subset of parameters, chosen on
+validation draws only: top-m by single-parameter validation AUC (m ∈ 1, 3, 5, 10, 20) or greedy forward selection
+(≤ 10). Selection repeated on 4 shifted calendars.
+
+| Game / forecaster | All 83 (test z) | top-m: chosen → test z | greedy: chosen → test z |
+|---|---|---|---|
+| 6/50 direct | +0.08 | ritu → −0.39 | ritu, Jupiter rashi, day element → −0.86 |
+| 6/50 last | +0.32 | day element → +1.26 | day element, nakshatra, tropical Sun sign → +0.40 |
+| 6/55 direct | +2.30 | Venus nakshatra, 19:00 hour stem, day officer → −0.70 | Venus nakshatra, Na Yin, KP Asc star lord, Moon rashi → −0.75 |
+| 6/55 last | +1.20 | 5 params → −0.47 | tropical Moon sign, Jupiter nakshatra → +1.38 |
+| 6/58 direct | −0.66 | KP Sun star lord → +0.23 | 5 params → −0.66 |
+| 6/58 last | −0.84 | hora lord → +0.59 | 6 params → +0.53 |
+| Life direct | −0.49 | Jupiter rashi, lagna nakshatra, Mercury combust → +0.32 | Jupiter rashi, samvatsara → −0.84 |
+| Life last | +1.08 | 20 params → +1.54 | 5 params → −0.72 |
+
+Reduced sets average test z +0.05 (all 83: +0.37); shifted-calendar selections range −2.88 to +2.18. Every game and
+forecaster picks different parameters, and the shifted calendars pick equally plausible-looking ones. One last-10
+result stands out: 6/55 `last` with tropical Moon sign + Jupiter nakshatra matched 13 vs 6.6 (p 0.008 for one ticket
+set; about 12% for the best of the 16 hold-out results here), while a shifted calendar also reached 13.
+
 ## Is the 4D lead special? (`lead_4d_robustness.py`, `lead_hunt.py`)
 
 No. Scored the same way:

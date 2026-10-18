@@ -1,0 +1,2849 @@
+{
+ "games": {
+  "toto50": {
+   "label": "STAR TOTO 6/50",
+   "direct": {
+    "real": {
+     "single_valid_auc": {
+      "ritu": 0.5121,
+      "mercury_rashi": 0.5113,
+      "year_element": 0.5106,
+      "lunar_day": 0.5106,
+      "hora_lord": 0.5094,
+      "day_vs_year_branch": 0.5093,
+      "saturn_retrograde": 0.5088,
+      "venus_combust": 0.5084,
+      "tithi": 0.5082,
+      "jupiter_nakshatra": 0.508,
+      "month_pillar": 0.5079,
+      "nakshatra_pada": 0.5079,
+      "moon_phase": 0.5077,
+      "jupiter_retrograde": 0.5077,
+      "moon_navamsa": 0.5076
+     },
+     "top_m": {
+      "m": 1,
+      "valid_auc_by_m": {
+       "1": 0.5121,
+       "3": 0.5115,
+       "5": 0.5094,
+       "10": 0.5068,
+       "20": 0.5056
+      },
+      "params": [
+       "ritu"
+      ],
+      "test": {
+       "draws": 286,
+       "matches": 201,
+       "expected": 205.92,
+       "z": -0.39,
+       "auc": 0.4982
+      },
+      "hold_out": {
+       "draws": 10,
+       "matches": 9,
+       "expected": 7.2,
+       "z": 0.75,
+       "auc": 0.4598
+      },
+      "hold_out_tickets": [
+       [
+        2,
+        3,
+        4,
+        7,
+        22,
+        45
+       ],
+       [
+        2,
+        3,
+        4,
+        7,
+        22,
+        45
+       ],
+       [
+        2,
+        3,
+        4,
+        7,
+        22,
+        45
+       ],
+       [
+        2,
+        3,
+        4,
+        7,
+        22,
+        45
+       ],
+       [
+        2,
+        3,
+        4,
+        7,
+        22,
+        45
+       ],
+       [
+        2,
+        3,
+        4,
+        7,
+        22,
+        45
+       ],
+       [
+        2,
+        3,
+        4,
+        7,
+        22,
+        45
+       ],
+       [
+        1,
+        18,
+        22,
+        29,
+        45,
+        47
+       ],
+       [
+        1,
+        18,
+        22,
+        29,
+        45,
+        47
+       ],
+       [
+        1,
+        18,
+        22,
+        29,
+        45,
+        47
+       ]
+      ]
+     },
+     "greedy": {
+      "valid_auc": 0.5186,
+      "params": [
+       "ritu",
+       "jupiter_rashi",
+       "day_element"
+      ],
+      "test": {
+       "draws": 286,
+       "matches": 195,
+       "expected": 205.92,
+       "z": -0.86,
+       "auc": 0.4963
+      },
+      "hold_out": {
+       "draws": 10,
+       "matches": 7,
+       "expected": 7.2,
+       "z": -0.08,
+       "auc": 0.4883
+      },
+      "hold_out_tickets": [
+       [
+        1,
+        2,
+        22,
+        29,
+        35,
+        48
+       ],
+       [
+        1,
+        2,
+        6,
+        29,
+        33,
+        35
+       ],
+       [
+        1,
+        2,
+        22,
+        29,
+        33,
+        35
+       ],
+       [
+        1,
+        2,
+        6,
+        22,
+        29,
+        35
+       ],
+       [
+        1,
+        2,
+        6,
+        22,
+        29,
+        35
+       ],
+       [
+        1,
+        2,
+        6,
+        29,
+        33,
+        35
+       ],
+       [
+        1,
+        2,
+        22,
+        29,
+        33,
+        35
+       ],
+       [
+        1,
+        2,
+        6,
+        29,
+        35,
+        47
+       ],
+       [
+        1,
+        6,
+        22,
+        29,
+        35,
+        47
+       ],
+       [
+        1,
+        2,
+        6,
+        29,
+        35,
+        47
+       ]
+      ]
+     },
+     "all_params": {
+      "valid_auc": 0.5039,
+      "test": {
+       "draws": 286,
+       "matches": 207,
+       "expected": 205.92,
+       "z": 0.08,
+       "auc": 0.5037
+      }
+     }
+    },
+    "shifted": {
+     "top_m": {
+      "test_z": [
+       -2.66,
+       0.56,
+       -1.64,
+       -0.15
+      ],
+      "test_auc": [
+       0.4877,
+       0.4933,
+       0.4989,
+       0.4935
+      ],
+      "valid_auc": [
+       0.5244,
+       0.5166,
+       0.5176,
+       0.5159
+      ],
+      "hold_matches": [
+       8,
+       6,
+       8,
+       8
+      ],
+      "params": [
+       [
+        "lunar_day"
+       ],
+       [
+        "yoga",
+        "day_of_month",
+        "day_pillar",
+        "nayin",
+        "day_branch"
+       ],
+       [
+        "nayin_element",
+        "kp_moon_number",
+        "moon_sign_tropical"
+       ],
+       [
+        "day_branch"
+       ]
+      ]
+     },
+     "greedy": {
+      "test_z": [
+       -1.64,
+       -1.25,
+       0.87,
+       -0.07
+      ],
+      "test_auc": [
+       0.4857,
+       0.4839,
+       0.5066,
+       0.4971
+      ],
+      "valid_auc": [
+       0.525,
+       0.5146,
+       0.5267,
+       0.5191
+      ],
+      "hold_matches": [
+       7,
+       6,
+       8,
+       8
+      ],
+      "params": [
+       [
+        "lunar_day",
+        "ritu"
+       ],
+       [
+        "yoga"
+       ],
+       [
+        "nayin_element",
+        "mansion_28",
+        "month_branch",
+        "mercury_combust",
+        "moon_sign_tropical",
+        "rahu_nakshatra"
+       ],
+       [
+        "day_branch",
+        "day_element"
+       ]
+      ]
+     }
+    }
+   },
+   "last": {
+    "real": {
+     "single_valid_auc": {
+      "day_element": 0.512,
+      "lagna_nakshatra": 0.5108,
+      "nayin": 0.5096,
+      "nakshatra": 0.5093,
+      "kp_asc_number": 0.509,
+      "lunar_month": 0.5088,
+      "sun_rashi": 0.5079,
+      "kp_moon_star_lord": 0.5072,
+      "nakshatra_lord": 0.507,
+      "yellow_black_path": 0.5069,
+      "sun_nakshatra": 0.5069,
+      "saturn_retrograde": 0.5062,
+      "karana": 0.5058,
+      "nakshatra_pada": 0.5053,
+      "samvatsara": 0.5051
+     },
+     "top_m": {
+      "m": 1,
+      "valid_auc_by_m": {
+       "1": 0.512,
+       "3": 0.4981,
+       "5": 0.5077,
+       "10": 0.4984,
+       "20": 0.4926
+      },
+      "params": [
+       "day_element"
+      ],
+      "test": {
+       "draws": 286,
+       "matches": 222,
+       "expected": 205.92,
+       "z": 1.26,
+       "auc": 0.5116
+      },
+      "hold_out": {
+       "draws": 10,
+       "matches": 6,
+       "expected": 7.2,
+       "z": -0.5,
+       "auc": 0.4655
+      },
+      "hold_out_tickets": [
+       [
+        1,
+        9,
+        14,
+        22,
+        37,
+        49
+       ],
+       [
+        3,
+        25,
+        27,
+        34,
+        45,
+        46
+       ],
+       [
+        7,
+        9,
+        16,
+        21,
+        29,
+        30
+       ],
+       [
+        1,
+        12,
+        33,
+        34,
+        42,
+        47
+       ],
+       [
+        1,
+        14,
+        22,
+        24,
+        30,
+        35
+       ],
+       [
+        17,
+        25,
+        26,
+        37,
+        39,
+        45
+       ],
+       [
+        7,
+        13,
+        16,
+        21,
+        29,
+        30
+       ],
+       [
+        1,
+        5,
+        18,
+        36,
+        46,
+        47
+       ],
+       [
+        3,
+        4,
+        12,
+        16,
+        33,
+        38
+       ],
+       [
+        10,
+        26,
+        37,
+        39,
+        45,
+        49
+       ]
+      ]
+     },
+     "greedy": {
+      "valid_auc": 0.5204,
+      "params": [
+       "day_element",
+       "nakshatra",
+       "sun_sign_tropical"
+      ],
+      "test": {
+       "draws": 286,
+       "matches": 211,
+       "expected": 205.92,
+       "z": 0.4,
+       "auc": 0.4935
+      },
+      "hold_out": {
+       "draws": 10,
+       "matches": 7,
+       "expected": 7.2,
+       "z": -0.08,
+       "auc": 0.4811
+      },
+      "hold_out_tickets": [
+       [
+        8,
+        9,
+        14,
+        37,
+        43,
+        44
+       ],
+       [
+        2,
+        4,
+        12,
+        29,
+        40,
+        46
+       ],
+       [
+        7,
+        9,
+        11,
+        16,
+        33,
+        41
+       ],
+       [
+        3,
+        12,
+        25,
+        29,
+        35,
+        47
+       ],
+       [
+        5,
+        19,
+        20,
+        30,
+        35,
+        44
+       ],
+       [
+        13,
+        16,
+        17,
+        24,
+        25,
+        49
+       ],
+       [
+        3,
+        16,
+        17,
+        21,
+        30,
+        37
+       ],
+       [
+        9,
+        17,
+        27,
+        31,
+        41,
+        47
+       ],
+       [
+        2,
+        4,
+        19,
+        29,
+        32,
+        38
+       ],
+       [
+        1,
+        10,
+        11,
+        37,
+        39,
+        49
+       ]
+      ]
+     },
+     "all_params": {
+      "valid_auc": 0.4975,
+      "test": {
+       "draws": 286,
+       "matches": 210,
+       "expected": 205.92,
+       "z": 0.32,
+       "auc": 0.4967
+      }
+     }
+    },
+    "shifted": {
+     "top_m": {
+      "test_z": [
+       -0.78,
+       -0.15,
+       -0.7,
+       -0.62
+      ],
+      "test_auc": [
+       0.4961,
+       0.5063,
+       0.4963,
+       0.4894
+      ],
+      "valid_auc": [
+       0.5148,
+       0.5132,
+       0.5278,
+       0.5118
+      ],
+      "hold_matches": [
+       8,
+       8,
+       7,
+       9
+      ],
+      "params": [
+       [
+        "mercury_nakshatra",
+        "moon_navamsa",
+        "mercury_rashi"
+       ],
+       [
+        "moon_sign_tropical"
+       ],
+       [
+        "yoga"
+       ],
+       [
+        "kp_moon_star_lord"
+       ]
+      ]
+     },
+     "greedy": {
+      "test_z": [
+       0.32,
+       0.71,
+       -0.7,
+       -1.72
+      ],
+      "test_auc": [
+       0.498,
+       0.5129,
+       0.4963,
+       0.4954
+      ],
+      "valid_auc": [
+       0.5235,
+       0.5216,
+       0.5278,
+       0.5212
+      ],
+      "hold_matches": [
+       3,
+       8,
+       7,
+       7
+      ],
+      "params": [
+       [
+        "mercury_nakshatra",
+        "lunar_month",
+        "saturn_retrograde"
+       ],
+       [
+        "moon_sign_tropical",
+        "mars_nakshatra",
+        "nayin_element"
+       ],
+       [
+        "yoga"
+       ],
+       [
+        "kp_moon_star_lord",
+        "karana",
+        "samvatsara",
+        "mars_rashi",
+        "paksha"
+       ]
+      ]
+     }
+    }
+   }
+  },
+  "toto55": {
+   "label": "POWER TOTO 6/55",
+   "direct": {
+    "real": {
+     "single_valid_auc": {
+      "venus_nakshatra": 0.5106,
+      "hour_stem_19h": 0.5097,
+      "day_officer": 0.5096,
+      "nakshatra": 0.509,
+      "kp_sun_number": 0.5081,
+      "nakshatra_pada": 0.5077,
+      "nine_star_year": 0.5076,
+      "day_of_month": 0.5074,
+      "hora_lord": 0.5068,
+      "jupiter_retrograde": 0.5065,
+      "month_stem": 0.5061,
+      "nayin": 0.506,
+      "yellow_black_path": 0.5059,
+      "day_branch": 0.5059,
+      "venus_rashi": 0.5057
+     },
+     "top_m": {
+      "m": 3,
+      "valid_auc_by_m": {
+       "1": 0.5106,
+       "3": 0.514,
+       "5": 0.506,
+       "10": 0.5089,
+       "20": 0.5062
+      },
+      "params": [
+       "venus_nakshatra",
+       "hour_stem_19h",
+       "day_officer"
+      ],
+      "test": {
+       "draws": 570,
+       "matches": 361,
+       "expected": 373.09,
+       "z": -0.7,
+       "auc": 0.4981
+      },
+      "hold_out": {
+       "draws": 10,
+       "matches": 2,
+       "expected": 6.55,
+       "z": -1.98,
+       "auc": 0.4044
+      },
+      "hold_out_tickets": [
+       [
+        4,
+        18,
+        23,
+        27,
+        53,
+        55
+       ],
+       [
+        4,
+        18,
+        23,
+        27,
+        53,
+        55
+       ],
+       [
+        4,
+        18,
+        23,
+        27,
+        53,
+        55
+       ],
+       [
+        4,
+        23,
+        27,
+        45,
+        53,
+        55
+       ],
+       [
+        4,
+        23,
+        27,
+        30,
+        44,
+        55
+       ],
+       [
+        4,
+        23,
+        25,
+        27,
+        53,
+        55
+       ],
+       [
+        4,
+        18,
+        23,
+        27,
+        53,
+        55
+       ],
+       [
+        4,
+        23,
+        27,
+        46,
+        53,
+        55
+       ],
+       [
+        4,
+        23,
+        27,
+        46,
+        53,
+        55
+       ],
+       [
+        4,
+        18,
+        23,
+        27,
+        49,
+        55
+       ]
+      ]
+     },
+     "greedy": {
+      "valid_auc": 0.5188,
+      "params": [
+       "venus_nakshatra",
+       "nayin",
+       "kp_asc_star_lord",
+       "moon_rashi"
+      ],
+      "test": {
+       "draws": 570,
+       "matches": 360,
+       "expected": 373.09,
+       "z": -0.75,
+       "auc": 0.495
+      },
+      "hold_out": {
+       "draws": 10,
+       "matches": 1,
+       "expected": 6.55,
+       "z": -2.41,
+       "auc": 0.418
+      },
+      "hold_out_tickets": [
+       [
+        2,
+        4,
+        15,
+        23,
+        27,
+        45
+       ],
+       [
+        2,
+        4,
+        15,
+        23,
+        27,
+        45
+       ],
+       [
+        1,
+        4,
+        15,
+        27,
+        45,
+        53
+       ],
+       [
+        4,
+        15,
+        18,
+        27,
+        45,
+        53
+       ],
+       [
+        4,
+        15,
+        25,
+        27,
+        45,
+        53
+       ],
+       [
+        4,
+        15,
+        18,
+        25,
+        27,
+        45
+       ],
+       [
+        15,
+        16,
+        18,
+        27,
+        45,
+        53
+       ],
+       [
+        4,
+        15,
+        18,
+        25,
+        45,
+        53
+       ],
+       [
+        4,
+        15,
+        25,
+        27,
+        45,
+        53
+       ],
+       [
+        4,
+        15,
+        23,
+        27,
+        45,
+        53
+       ]
+      ]
+     },
+     "all_params": {
+      "valid_auc": 0.5004,
+      "test": {
+       "draws": 570,
+       "matches": 413,
+       "expected": 373.09,
+       "z": 2.3,
+       "auc": 0.5136
+      }
+     }
+    },
+    "shifted": {
+     "top_m": {
+      "test_z": [
+       -1.96,
+       -2.88,
+       -0.01,
+       -0.24
+      ],
+      "test_auc": [
+       0.4959,
+       0.4846,
+       0.5017,
+       0.4969
+      ],
+      "valid_auc": [
+       0.5102,
+       0.5121,
+       0.5121,
+       0.5136
+      ],
+      "hold_matches": [
+       4,
+       6,
+       6,
+       5
+      ],
+      "params": [
+       [
+        "kp_moon_number"
+       ],
+       [
+        "lagna_rashi"
+       ],
+       [
+        "nakshatra"
+       ],
+       [
+        "day_of_month"
+       ]
+      ]
+     },
+     "greedy": {
+      "test_z": [
+       1.32,
+       -2.54,
+       0.34,
+       -0.24
+      ],
+      "test_auc": [
+       0.5022,
+       0.4862,
+       0.4971,
+       0.4969
+      ],
+      "valid_auc": [
+       0.5197,
+       0.5207,
+       0.5186,
+       0.5136
+      ],
+      "hold_matches": [
+       5,
+       5,
+       6,
+       5
+      ],
+      "params": [
+       [
+        "kp_moon_number",
+        "lunar_month",
+        "day_officer"
+       ],
+       [
+        "lagna_rashi",
+        "moon_navamsa",
+        "moon_phase",
+        "kp_asc_sub_lord"
+       ],
+       [
+        "nakshatra",
+        "venus_rashi",
+        "month_stem"
+       ],
+       [
+        "day_of_month"
+       ]
+      ]
+     }
+    }
+   },
+   "last": {
+    "real": {
+     "single_valid_auc": {
+      "moon_sign_tropical": 0.5131,
+      "nine_star_year": 0.5118,
+      "day_branch": 0.5117,
+      "kp_asc_number": 0.5112,
+      "nakshatra_lord": 0.511,
+      "month_stem": 0.5109,
+      "year_element": 0.5107,
+      "day_vs_year_branch": 0.5102,
+      "mars_nakshatra": 0.5101,
+      "kp_moon_star_lord": 0.5099,
+      "jupiter_nakshatra": 0.5099,
+      "saturn_combust": 0.5098,
+      "lunar_month": 0.5097,
+      "month_pillar": 0.5096,
+      "kp_sun_star_lord": 0.5096
+     },
+     "top_m": {
+      "m": 5,
+      "valid_auc_by_m": {
+       "1": 0.5131,
+       "3": 0.513,
+       "5": 0.5135,
+       "10": 0.5034,
+       "20": 0.5022
+      },
+      "params": [
+       "moon_sign_tropical",
+       "nine_star_year",
+       "day_branch",
+       "kp_asc_number",
+       "nakshatra_lord"
+      ],
+      "test": {
+       "draws": 570,
+       "matches": 365,
+       "expected": 373.09,
+       "z": -0.47,
+       "auc": 0.4988
+      },
+      "hold_out": {
+       "draws": 10,
+       "matches": 6,
+       "expected": 6.55,
+       "z": -0.24,
+       "auc": 0.4667
+      },
+      "hold_out_tickets": [
+       [
+        2,
+        9,
+        12,
+        16,
+        22,
+        51
+       ],
+       [
+        11,
+        14,
+        28,
+        29,
+        32,
+        52
+       ],
+       [
+        3,
+        4,
+        15,
+        32,
+        43,
+        50
+       ],
+       [
+        11,
+        18,
+        31,
+        33,
+        34,
+        45
+       ],
+       [
+        10,
+        28,
+        46,
+        51,
+        52,
+        55
+       ],
+       [
+        3,
+        6,
+        8,
+        19,
+        32,
+        43
+       ],
+       [
+        5,
+        7,
+        11,
+        13,
+        31,
+        34
+       ],
+       [
+        6,
+        28,
+        32,
+        33,
+        46,
+        49
+       ],
+       [
+        9,
+        10,
+        26,
+        30,
+        36,
+        52
+       ],
+       [
+        4,
+        15,
+        28,
+        32,
+        43,
+        46
+       ]
+      ]
+     },
+     "greedy": {
+      "valid_auc": 0.5169,
+      "params": [
+       "moon_sign_tropical",
+       "jupiter_nakshatra"
+      ],
+      "test": {
+       "draws": 570,
+       "matches": 397,
+       "expected": 373.09,
+       "z": 1.38,
+       "auc": 0.5106
+      },
+      "hold_out": {
+       "draws": 10,
+       "matches": 13,
+       "expected": 6.55,
+       "z": 2.81,
+       "auc": 0.5711
+      },
+      "hold_out_tickets": [
+       [
+        1,
+        5,
+        8,
+        17,
+        19,
+        38
+       ],
+       [
+        6,
+        22,
+        32,
+        40,
+        51,
+        52
+       ],
+       [
+        28,
+        33,
+        34,
+        41,
+        42,
+        45
+       ],
+       [
+        11,
+        28,
+        32,
+        34,
+        39,
+        44
+       ],
+       [
+        21,
+        28,
+        32,
+        39,
+        51,
+        52
+       ],
+       [
+        7,
+        13,
+        23,
+        32,
+        36,
+        40
+       ],
+       [
+        5,
+        16,
+        18,
+        20,
+        50,
+        55
+       ],
+       [
+        1,
+        3,
+        28,
+        35,
+        49,
+        50
+       ],
+       [
+        11,
+        26,
+        28,
+        29,
+        44,
+        50
+       ],
+       [
+        21,
+        28,
+        36,
+        41,
+        46,
+        49
+       ]
+      ]
+     },
+     "all_params": {
+      "valid_auc": 0.4991,
+      "test": {
+       "draws": 570,
+       "matches": 394,
+       "expected": 373.09,
+       "z": 1.2,
+       "auc": 0.5036
+      }
+     }
+    },
+    "shifted": {
+     "top_m": {
+      "test_z": [
+       0.97,
+       -0.87,
+       1.09,
+       -1.04
+      ],
+      "test_auc": [
+       0.5083,
+       0.5069,
+       0.5067,
+       0.5007
+      ],
+      "valid_auc": [
+       0.512,
+       0.5176,
+       0.5139,
+       0.5138
+      ],
+      "hold_matches": [
+       13,
+       9,
+       7,
+       6
+      ],
+      "params": [
+       [
+        "nine_star_year"
+       ],
+       [
+        "kp_moon_star_lord",
+        "venus_rashi",
+        "yoga"
+       ],
+       [
+        "kp_sun_star_lord"
+       ],
+       [
+        "weekday"
+       ]
+      ]
+     },
+     "greedy": {
+      "test_z": [
+       0.57,
+       2.18,
+       1.09,
+       -0.52
+      ],
+      "test_auc": [
+       0.503,
+       0.5104,
+       0.5067,
+       0.4952
+      ],
+      "valid_auc": [
+       0.5159,
+       0.5317,
+       0.5139,
+       0.5187
+      ],
+      "hold_matches": [
+       4,
+       9,
+       7,
+       6
+      ],
+      "params": [
+       [
+        "nine_star_year",
+        "saturn_combust",
+        "yellow_black_path",
+        "ayana"
+       ],
+       [
+        "kp_moon_star_lord",
+        "yoga",
+        "mansion_28",
+        "ritu"
+       ],
+       [
+        "kp_sun_star_lord"
+       ],
+       [
+        "weekday",
+        "month_stem",
+        "mars_rashi",
+        "jupiter_retrograde"
+       ]
+      ]
+     }
+    }
+   }
+  },
+  "toto58": {
+   "label": "SUPREME TOTO 6/58",
+   "direct": {
+    "real": {
+     "single_valid_auc": {
+      "kp_sun_star_lord": 0.5097,
+      "nakshatra_lord": 0.509,
+      "saturn_nakshatra": 0.5084,
+      "mars_nakshatra": 0.5081,
+      "kp_moon_star_lord": 0.5072,
+      "month_stem": 0.5069,
+      "day_branch": 0.5065,
+      "day_vs_year_branch": 0.5063,
+      "venus_combust": 0.5058,
+      "lunar_day": 0.5052,
+      "kp_asc_star_lord": 0.5051,
+      "karana": 0.505,
+      "jupiter_rashi": 0.505,
+      "saturn_rashi": 0.5048,
+      "moon_navamsa": 0.5046
+     },
+     "top_m": {
+      "m": 1,
+      "valid_auc_by_m": {
+       "1": 0.5097,
+       "3": 0.508,
+       "5": 0.5053,
+       "10": 0.5038,
+       "20": 0.5097
+      },
+      "params": [
+       "kp_sun_star_lord"
+      ],
+      "test": {
+       "draws": 556,
+       "matches": 349,
+       "expected": 345.1,
+       "z": 0.23,
+       "auc": 0.5079
+      },
+      "hold_out": {
+       "draws": 10,
+       "matches": 4,
+       "expected": 6.21,
+       "z": -0.98,
+       "auc": 0.4609
+      },
+      "hold_out_tickets": [
+       [
+        1,
+        6,
+        13,
+        26,
+        33,
+        47
+       ],
+       [
+        13,
+        14,
+        26,
+        33,
+        40,
+        49
+       ],
+       [
+        13,
+        14,
+        26,
+        33,
+        40,
+        49
+       ],
+       [
+        13,
+        14,
+        26,
+        33,
+        40,
+        49
+       ],
+       [
+        13,
+        14,
+        26,
+        33,
+        40,
+        49
+       ],
+       [
+        13,
+        14,
+        26,
+        33,
+        40,
+        49
+       ],
+       [
+        13,
+        14,
+        26,
+        33,
+        40,
+        49
+       ],
+       [
+        6,
+        26,
+        33,
+        40,
+        47,
+        49
+       ],
+       [
+        6,
+        26,
+        33,
+        40,
+        47,
+        49
+       ],
+       [
+        6,
+        26,
+        33,
+        40,
+        47,
+        49
+       ]
+      ]
+     },
+     "greedy": {
+      "valid_auc": 0.5206,
+      "params": [
+       "kp_sun_star_lord",
+       "day_branch",
+       "month_stem",
+       "day_stem",
+       "day_officer"
+      ],
+      "test": {
+       "draws": 556,
+       "matches": 334,
+       "expected": 345.1,
+       "z": -0.66,
+       "auc": 0.5037
+      },
+      "hold_out": {
+       "draws": 10,
+       "matches": 4,
+       "expected": 6.21,
+       "z": -0.98,
+       "auc": 0.5103
+      },
+      "hold_out_tickets": [
+       [
+        26,
+        27,
+        31,
+        33,
+        47,
+        56
+       ],
+       [
+        13,
+        26,
+        33,
+        39,
+        43,
+        49
+       ],
+       [
+        10,
+        26,
+        31,
+        33,
+        47,
+        56
+       ],
+       [
+        26,
+        31,
+        33,
+        39,
+        47,
+        49
+       ],
+       [
+        26,
+        33,
+        34,
+        39,
+        47,
+        57
+       ],
+       [
+        26,
+        27,
+        33,
+        39,
+        43,
+        47
+       ],
+       [
+        13,
+        26,
+        31,
+        32,
+        33,
+        47
+       ],
+       [
+        8,
+        26,
+        33,
+        38,
+        47,
+        56
+       ],
+       [
+        26,
+        31,
+        33,
+        34,
+        47,
+        56
+       ],
+       [
+        10,
+        26,
+        33,
+        39,
+        47,
+        56
+       ]
+      ]
+     },
+     "all_params": {
+      "valid_auc": 0.4965,
+      "test": {
+       "draws": 556,
+       "matches": 334,
+       "expected": 345.1,
+       "z": -0.66,
+       "auc": 0.4996
+      }
+     }
+    },
+    "shifted": {
+     "top_m": {
+      "test_z": [
+       0.17,
+       -0.9,
+       -0.01,
+       0.35
+      ],
+      "test_auc": [
+       0.5033,
+       0.5024,
+       0.507,
+       0.4998
+      ],
+      "valid_auc": [
+       0.515,
+       0.5141,
+       0.5113,
+       0.5156
+      ],
+      "hold_matches": [
+       4,
+       6,
+       4,
+       4
+      ],
+      "params": [
+       [
+        "month_pillar"
+       ],
+       [
+        "karana",
+        "day_stem",
+        "day_element",
+        "day_god",
+        "month_stem"
+       ],
+       [
+        "moon_navamsa"
+       ],
+       [
+        "rahu_rashi",
+        "mars_rashi",
+        "kp_sun_sub_lord"
+       ]
+      ]
+     },
+     "greedy": {
+      "test_z": [
+       -0.84,
+       -1.67,
+       0.47,
+       0.35
+      ],
+      "test_auc": [
+       0.5,
+       0.496,
+       0.5029,
+       0.5027
+      ],
+      "valid_auc": [
+       0.5158,
+       0.5142,
+       0.5179,
+       0.5194
+      ],
+      "hold_matches": [
+       4,
+       4,
+       8,
+       4
+      ],
+      "params": [
+       [
+        "month_pillar",
+        "day_god"
+       ],
+       [
+        "karana",
+        "lunar_day",
+        "moon_sign_tropical"
+       ],
+       [
+        "moon_navamsa",
+        "saturn_nakshatra",
+        "moon_sign_tropical"
+       ],
+       [
+        "rahu_rashi",
+        "mars_rashi",
+        "kp_asc_sub_lord"
+       ]
+      ]
+     }
+    }
+   },
+   "last": {
+    "real": {
+     "single_valid_auc": {
+      "hora_lord": 0.5082,
+      "karana": 0.5081,
+      "kp_moon_number": 0.506,
+      "day_branch": 0.5057,
+      "mansion_28": 0.5044,
+      "kp_asc_number": 0.5041,
+      "venus_rashi": 0.504,
+      "nakshatra": 0.5034,
+      "moon_navamsa": 0.5028,
+      "nakshatra_pada": 0.502,
+      "mercury_nakshatra": 0.502,
+      "month_branch": 0.5015,
+      "kp_asc_sub_lord": 0.5014,
+      "day_officer": 0.5014,
+      "rahu_rashi": 0.5012
+     },
+     "top_m": {
+      "m": 1,
+      "valid_auc_by_m": {
+       "1": 0.5082,
+       "3": 0.5063,
+       "5": 0.5063,
+       "10": 0.5048,
+       "20": 0.5068
+      },
+      "params": [
+       "hora_lord"
+      ],
+      "test": {
+       "draws": 556,
+       "matches": 355,
+       "expected": 345.1,
+       "z": 0.59,
+       "auc": 0.501
+      },
+      "hold_out": {
+       "draws": 10,
+       "matches": 4,
+       "expected": 6.21,
+       "z": -0.98,
+       "auc": 0.4785
+      },
+      "hold_out_tickets": [
+       [
+        13,
+        26,
+        29,
+        40,
+        41,
+        48
+       ],
+       [
+        1,
+        4,
+        5,
+        28,
+        32,
+        52
+       ],
+       [
+        10,
+        21,
+        27,
+        34,
+        45,
+        50
+       ],
+       [
+        11,
+        26,
+        40,
+        41,
+        42,
+        48
+       ],
+       [
+        4,
+        5,
+        25,
+        28,
+        32,
+        52
+       ],
+       [
+        8,
+        15,
+        19,
+        21,
+        45,
+        53
+       ],
+       [
+        11,
+        26,
+        40,
+        41,
+        42,
+        48
+       ],
+       [
+        4,
+        5,
+        22,
+        28,
+        32,
+        52
+       ],
+       [
+        19,
+        21,
+        27,
+        34,
+        38,
+        45
+       ],
+       [
+        11,
+        18,
+        38,
+        40,
+        47,
+        51
+       ]
+      ]
+     },
+     "greedy": {
+      "valid_auc": 0.5162,
+      "params": [
+       "hora_lord",
+       "karana",
+       "yellow_black_path",
+       "kp_asc_star_lord",
+       "rahu_rashi",
+       "kp_sun_sub_lord"
+      ],
+      "test": {
+       "draws": 556,
+       "matches": 354,
+       "expected": 345.1,
+       "z": 0.53,
+       "auc": 0.4954
+      },
+      "hold_out": {
+       "draws": 10,
+       "matches": 8,
+       "expected": 6.21,
+       "z": 0.8,
+       "auc": 0.5141
+      },
+      "hold_out_tickets": [
+       [
+        6,
+        10,
+        29,
+        42,
+        48,
+        55
+       ],
+       [
+        8,
+        20,
+        25,
+        27,
+        34,
+        43
+       ],
+       [
+        12,
+        14,
+        16,
+        21,
+        31,
+        34
+       ],
+       [
+        3,
+        6,
+        26,
+        34,
+        41,
+        57
+       ],
+       [
+        14,
+        22,
+        27,
+        39,
+        52,
+        54
+       ],
+       [
+        14,
+        15,
+        19,
+        21,
+        32,
+        45
+       ],
+       [
+        8,
+        9,
+        11,
+        16,
+        21,
+        34
+       ],
+       [
+        18,
+        22,
+        25,
+        28,
+        39,
+        52
+       ],
+       [
+        8,
+        14,
+        31,
+        34,
+        43,
+        48
+       ],
+       [
+        15,
+        22,
+        32,
+        39,
+        45,
+        55
+       ]
+      ]
+     },
+     "all_params": {
+      "valid_auc": 0.501,
+      "test": {
+       "draws": 556,
+       "matches": 331,
+       "expected": 345.1,
+       "z": -0.84,
+       "auc": 0.4979
+      }
+     }
+    },
+    "shifted": {
+     "top_m": {
+      "test_z": [
+       0.77,
+       -0.84,
+       -1.73,
+       -1.02
+      ],
+      "test_auc": [
+       0.5064,
+       0.4957,
+       0.4977,
+       0.4998
+      ],
+      "valid_auc": [
+       0.5111,
+       0.5115,
+       0.5087,
+       0.5063
+      ],
+      "hold_matches": [
+       10,
+       6,
+       6,
+       4
+      ],
+      "params": [
+       [
+        "moon_rashi"
+       ],
+       [
+        "day_pillar",
+        "mansion_28",
+        "moon_navamsa"
+       ],
+       [
+        "day_vs_year_branch",
+        "tithi",
+        "moon_navamsa"
+       ],
+       [
+        "kp_sun_sub_lord"
+       ]
+      ]
+     },
+     "greedy": {
+      "test_z": [
+       -1.73,
+       -0.48,
+       -0.3,
+       -0.13
+      ],
+      "test_auc": [
+       0.4975,
+       0.4982,
+       0.494,
+       0.4962
+      ],
+      "valid_auc": [
+       0.5197,
+       0.5211,
+       0.513,
+       0.5109
+      ],
+      "hold_matches": [
+       5,
+       6,
+       7,
+       3
+      ],
+      "params": [
+       [
+        "moon_rashi",
+        "day_of_month",
+        "kp_moon_sub_lord",
+        "month",
+        "day_stem",
+        "kp_asc_sub_lord",
+        "nayin_element"
+       ],
+       [
+        "day_pillar",
+        "lunar_leap_month",
+        "rahu_rashi",
+        "year_element",
+        "mars_retrograde",
+        "ayana",
+        "jupiter_combust",
+        "moon_rashi"
+       ],
+       [
+        "day_vs_year_branch",
+        "month_branch",
+        "sun_rashi"
+       ],
+       [
+        "kp_sun_sub_lord",
+        "saturn_rashi"
+       ]
+      ]
+     }
+    }
+   }
+  },
+  "ml8": {
+   "label": "Magnum Life 8/36",
+   "direct": {
+    "real": {
+     "single_valid_auc": {
+      "jupiter_rashi": 0.5133,
+      "lagna_nakshatra": 0.5112,
+      "mercury_combust": 0.5112,
+      "venus_retrograde": 0.5104,
+      "nayin_element": 0.51,
+      "samvatsara": 0.5096,
+      "venus_combust": 0.5094,
+      "jupiter_nakshatra": 0.5093,
+      "weekday": 0.5092,
+      "jupiter_combust": 0.5087,
+      "day_vs_year_branch": 0.5084,
+      "saturn_retrograde": 0.5084,
+      "moon_phase": 0.5074,
+      "jupiter_retrograde": 0.5073,
+      "lunar_leap_month": 0.5071
+     },
+     "top_m": {
+      "m": 3,
+      "valid_auc_by_m": {
+       "1": 0.5133,
+       "3": 0.5186,
+       "5": 0.5141,
+       "10": 0.4968,
+       "20": 0.4925
+      },
+      "params": [
+       "jupiter_rashi",
+       "lagna_nakshatra",
+       "mercury_combust"
+      ],
+      "test": {
+       "draws": 268,
+       "matches": 482,
+       "expected": 476.44,
+       "z": 0.32,
+       "auc": 0.5017
+      },
+      "hold_out": {
+       "draws": 10,
+       "matches": 15,
+       "expected": 17.78,
+       "z": -0.84,
+       "auc": 0.4915
+      },
+      "hold_out_tickets": [
+       [
+        2,
+        4,
+        5,
+        8,
+        11,
+        16,
+        18,
+        27
+       ],
+       [
+        2,
+        4,
+        5,
+        8,
+        11,
+        16,
+        18,
+        27
+       ],
+       [
+        2,
+        4,
+        5,
+        8,
+        11,
+        16,
+        18,
+        27
+       ],
+       [
+        2,
+        4,
+        5,
+        8,
+        11,
+        16,
+        18,
+        27
+       ],
+       [
+        2,
+        4,
+        5,
+        8,
+        11,
+        16,
+        18,
+        27
+       ],
+       [
+        2,
+        4,
+        5,
+        8,
+        11,
+        16,
+        18,
+        27
+       ],
+       [
+        2,
+        4,
+        5,
+        8,
+        11,
+        16,
+        18,
+        27
+       ],
+       [
+        2,
+        4,
+        5,
+        8,
+        11,
+        16,
+        18,
+        27
+       ],
+       [
+        2,
+        4,
+        5,
+        8,
+        11,
+        16,
+        18,
+        27
+       ],
+       [
+        2,
+        4,
+        5,
+        8,
+        11,
+        16,
+        18,
+        27
+       ]
+      ]
+     },
+     "greedy": {
+      "valid_auc": 0.5206,
+      "params": [
+       "jupiter_rashi",
+       "samvatsara"
+      ],
+      "test": {
+       "draws": 268,
+       "matches": 462,
+       "expected": 476.44,
+       "z": -0.84,
+       "auc": 0.4887
+      },
+      "hold_out": {
+       "draws": 10,
+       "matches": 18,
+       "expected": 17.78,
+       "z": 0.07,
+       "auc": 0.5192
+      },
+      "hold_out_tickets": [
+       [
+        2,
+        4,
+        8,
+        10,
+        16,
+        25,
+        27,
+        33
+       ],
+       [
+        2,
+        4,
+        8,
+        10,
+        16,
+        25,
+        27,
+        33
+       ],
+       [
+        2,
+        4,
+        8,
+        10,
+        16,
+        25,
+        27,
+        33
+       ],
+       [
+        2,
+        4,
+        8,
+        10,
+        16,
+        25,
+        27,
+        33
+       ],
+       [
+        2,
+        4,
+        8,
+        10,
+        16,
+        25,
+        27,
+        33
+       ],
+       [
+        2,
+        4,
+        8,
+        10,
+        16,
+        25,
+        27,
+        33
+       ],
+       [
+        2,
+        4,
+        8,
+        10,
+        16,
+        25,
+        27,
+        33
+       ],
+       [
+        2,
+        4,
+        8,
+        10,
+        16,
+        25,
+        27,
+        33
+       ],
+       [
+        2,
+        4,
+        8,
+        10,
+        16,
+        25,
+        27,
+        33
+       ],
+       [
+        2,
+        4,
+        8,
+        10,
+        16,
+        25,
+        27,
+        33
+       ]
+      ]
+     },
+     "all_params": {
+      "valid_auc": 0.4941,
+      "test": {
+       "draws": 268,
+       "matches": 468,
+       "expected": 476.44,
+       "z": -0.49,
+       "auc": 0.509
+      }
+     }
+    },
+    "shifted": {
+     "top_m": {
+      "test_z": [
+       -0.26,
+       -0.32,
+       -0.32,
+       -0.96
+      ],
+      "test_auc": [
+       0.5046,
+       0.4997,
+       0.5037,
+       0.485
+      ],
+      "valid_auc": [
+       0.5161,
+       0.5191,
+       0.5168,
+       0.5237
+      ],
+      "hold_matches": [
+       18,
+       18,
+       24,
+       16
+      ],
+      "params": [
+       [
+        "mars_combust"
+       ],
+       [
+        "samvatsara",
+        "year_animal",
+        "mercury_rashi"
+       ],
+       [
+        "kp_moon_sub_lord"
+       ],
+       [
+        "saturn_combust",
+        "lunar_leap_month",
+        "weekday",
+        "venus_combust",
+        "lunar_day",
+        "nakshatra",
+        "venus_retrograde",
+        "rahu_nakshatra",
+        "mars_combust",
+        "paksha"
+       ]
+      ]
+     },
+     "greedy": {
+      "test_z": [
+       -0.08,
+       0.9,
+       -0.72,
+       -1.25
+      ],
+      "test_auc": [
+       0.5099,
+       0.4964,
+       0.4979,
+       0.4901
+      ],
+      "valid_auc": [
+       0.5324,
+       0.5182,
+       0.5214,
+       0.5262
+      ],
+      "hold_matches": [
+       17,
+       17,
+       19,
+       17
+      ],
+      "params": [
+       [
+        "mars_combust",
+        "nine_star_year",
+        "mercury_nakshatra",
+        "planets_with_moon",
+        "nine_star_month",
+        "kp_sun_sub_lord"
+       ],
+       [
+        "samvatsara",
+        "saturn_nakshatra"
+       ],
+       [
+        "kp_moon_sub_lord",
+        "mars_rashi",
+        "day_element"
+       ],
+       [
+        "saturn_combust",
+        "lunar_day"
+       ]
+      ]
+     }
+    }
+   },
+   "last": {
+    "real": {
+     "single_valid_auc": {
+      "hora_lord": 0.5107,
+      "day_of_month": 0.5087,
+      "weekday": 0.5073,
+      "yellow_black_path": 0.5072,
+      "day_pillar": 0.5069,
+      "kp_sun_sub_lord": 0.5048,
+      "yoga": 0.5042,
+      "kp_moon_sub_lord": 0.5041,
+      "mercury_retrograde": 0.5037,
+      "lagna_nakshatra": 0.5035,
+      "day_god": 0.5033,
+      "paksha": 0.5031,
+      "nakshatra_lord": 0.5031,
+      "kp_asc_star_lord": 0.5031,
+      "day_vs_year_branch": 0.503
+     },
+     "top_m": {
+      "m": 20,
+      "valid_auc_by_m": {
+       "1": 0.5107,
+       "3": 0.5093,
+       "5": 0.5099,
+       "10": 0.5079,
+       "20": 0.5135
+      },
+      "params": [
+       "hora_lord",
+       "day_of_month",
+       "weekday",
+       "yellow_black_path",
+       "day_pillar",
+       "kp_sun_sub_lord",
+       "yoga",
+       "kp_moon_sub_lord",
+       "mercury_retrograde",
+       "lagna_nakshatra",
+       "day_god",
+       "paksha",
+       "nakshatra_lord",
+       "kp_asc_star_lord",
+       "day_vs_year_branch",
+       "venus_combust",
+       "adhika_masa",
+       "mansion_28",
+       "year_element",
+       "lunar_leap_month"
+      ],
+      "test": {
+       "draws": 268,
+       "matches": 503,
+       "expected": 476.44,
+       "z": 1.54,
+       "auc": 0.5112
+      },
+      "hold_out": {
+       "draws": 10,
+       "matches": 17,
+       "expected": 17.78,
+       "z": -0.23,
+       "auc": 0.5058
+      },
+      "hold_out_tickets": [
+       [
+        2,
+        4,
+        7,
+        25,
+        27,
+        28,
+        31,
+        33
+       ],
+       [
+        1,
+        5,
+        6,
+        11,
+        14,
+        16,
+        18,
+        23
+       ],
+       [
+        5,
+        12,
+        18,
+        20,
+        21,
+        24,
+        28,
+        36
+       ],
+       [
+        1,
+        4,
+        21,
+        24,
+        27,
+        32,
+        34,
+        36
+       ],
+       [
+        5,
+        6,
+        7,
+        8,
+        11,
+        12,
+        17,
+        33
+       ],
+       [
+        4,
+        13,
+        21,
+        24,
+        27,
+        31,
+        34,
+        36
+       ],
+       [
+        2,
+        4,
+        15,
+        19,
+        23,
+        25,
+        27,
+        34
+       ],
+       [
+        2,
+        8,
+        11,
+        14,
+        17,
+        23,
+        31,
+        32
+       ],
+       [
+        4,
+        5,
+        12,
+        21,
+        24,
+        28,
+        31,
+        36
+       ],
+       [
+        2,
+        7,
+        14,
+        15,
+        25,
+        27,
+        34,
+        35
+       ]
+      ]
+     },
+     "greedy": {
+      "valid_auc": 0.5238,
+      "params": [
+       "hora_lord",
+       "day_god",
+       "lunar_leap_month",
+       "mars_retrograde",
+       "paksha"
+      ],
+      "test": {
+       "draws": 268,
+       "matches": 464,
+       "expected": 476.44,
+       "z": -0.72,
+       "auc": 0.4896
+      },
+      "hold_out": {
+       "draws": 10,
+       "matches": 18,
+       "expected": 17.78,
+       "z": 0.07,
+       "auc": 0.5277
+      },
+      "hold_out_tickets": [
+       [
+        2,
+        3,
+        5,
+        6,
+        10,
+        12,
+        27,
+        31
+       ],
+       [
+        2,
+        5,
+        6,
+        10,
+        11,
+        23,
+        26,
+        31
+       ],
+       [
+        2,
+        4,
+        11,
+        20,
+        21,
+        27,
+        31,
+        36
+       ],
+       [
+        2,
+        4,
+        10,
+        11,
+        17,
+        20,
+        31,
+        34
+       ],
+       [
+        2,
+        5,
+        8,
+        11,
+        26,
+        27,
+        31,
+        36
+       ],
+       [
+        1,
+        2,
+        11,
+        15,
+        17,
+        25,
+        31,
+        34
+       ],
+       [
+        2,
+        5,
+        6,
+        11,
+        17,
+        23,
+        27,
+        31
+       ],
+       [
+        2,
+        4,
+        11,
+        15,
+        23,
+        26,
+        30,
+        31
+       ],
+       [
+        2,
+        4,
+        7,
+        11,
+        15,
+        20,
+        25,
+        31
+       ],
+       [
+        1,
+        2,
+        3,
+        6,
+        11,
+        17,
+        31,
+        35
+       ]
+      ]
+     },
+     "all_params": {
+      "valid_auc": 0.5062,
+      "test": {
+       "draws": 268,
+       "matches": 495,
+       "expected": 476.44,
+       "z": 1.08,
+       "auc": 0.5047
+      }
+     }
+    },
+    "shifted": {
+     "top_m": {
+      "test_z": [
+       -0.55,
+       0.09,
+       -1.19,
+       -0.43
+      ],
+      "test_auc": [
+       0.4933,
+       0.4989,
+       0.4951,
+       0.4917
+      ],
+      "valid_auc": [
+       0.5157,
+       0.5199,
+       0.5216,
+       0.5143
+      ],
+      "hold_matches": [
+       21,
+       19,
+       15,
+       21
+      ],
+      "params": [
+       [
+        "hora_lord"
+       ],
+       [
+        "mansion_28"
+       ],
+       [
+        "yoga",
+        "moon_navamsa",
+        "moon_sign_tropical"
+       ],
+       [
+        "nakshatra"
+       ]
+      ]
+     },
+     "greedy": {
+      "test_z": [
+       -0.49,
+       -0.37,
+       -0.66,
+       -0.08
+      ],
+      "test_auc": [
+       0.4852,
+       0.4893,
+       0.4881,
+       0.5004
+      ],
+      "valid_auc": [
+       0.5199,
+       0.5268,
+       0.5286,
+       0.5362
+      ],
+      "hold_matches": [
+       23,
+       19,
+       19,
+       17
+      ],
+      "params": [
+       [
+        "hora_lord",
+        "mercury_rashi",
+        "saturn_rashi"
+       ],
+       [
+        "mansion_28",
+        "kp_sun_star_lord",
+        "jupiter_retrograde"
+       ],
+       [
+        "yoga",
+        "nakshatra_lord",
+        "lunar_leap_month",
+        "saturn_combust"
+       ],
+       [
+        "nakshatra",
+        "mercury_combust",
+        "venus_combust",
+        "mercury_retrograde",
+        "kp_moon_number",
+        "month",
+        "lunar_leap_month",
+        "month_stem",
+        "saturn_retrograde",
+        "jupiter_retrograde"
+       ]
+      ]
+     }
+    }
+   }
+  }
+ }
+}
