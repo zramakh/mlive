@@ -68,7 +68,8 @@ WATCH["ml8"] += [("mercury_rashi × kp_asc_sub_lord", "cold+100", ["System 10 ×
                  ("mars_retrograde × moon_phase", "hot/cold100", ["System 9 × 2 disjoint"]),
                  ("mercury_rashi × day_branch", "cold+100", ["System 9 × 2 overlap"]),
                  ("month_stem × kp_ruling_planets", "hot/cold100", ["System 9 × 2 disjoint"]),
-                 ("aspect_moon_mars × aspect_mercury_mars", "cold+100", ["System 10 × 1"])]
+                 ("aspect_moon_mars × aspect_mercury_mars", "cold+100", ["System 10 × 1"]),
+                 ("mercury_combust × aspects_soft", "cold/hot100", ["System 9 × 2 disjoint"])]  # added after 2026-10-18
 WATCH["toto50"] += [("hora_lord × mars_combust", "cold/hot100", ["10 sets", "System 7 × 2 overlap"]),
                     ("saturn_retrograde × aspect_mercury_jupiter", "cold/hot100", ["System 7 × 2 disjoint"]),
                     ("aspect_sun_mars × aspect_moon_venus", "hot/cold100", ["System 7 × 2 disjoint"]),
