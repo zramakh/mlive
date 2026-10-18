@@ -1,9 +1,11 @@
-# Magnum Life watchlist
+# Watchlist: Magnum Life and Sports Toto
 
 Summary of the leads worth following on future draws, drawn from `PROFIT_*.md`, `PROFIT_COMBINED.md`, `HIGH_HITS.md`,
 `HIGH_HITS_NULL.md`, `LEAD_HIGH_HITS.md` and `LEAD_DETAIL_*.md`. None of them has beaten chance on draws it had not
 seen: each was found by looking back over 26,224 leads, and the shifted calendars throw up leads like them just as
 often. Watching them on new draws, without changing the list, is the only fair test.
+
+# Magnum Life
 
 ## Profitable before and during the last 10 draws
 
@@ -40,3 +42,47 @@ often. Watching them on new draws, without changing the list, is the only fair t
 | Lead | Pattern | What happened |
 |---|---|---|
 | mars_rashi × month | cold | Most persistent lead on balls caught (top on the earlier draws for 20 tickets, 34 caught vs 27.8 expected in System 10), but mostly 3-4 main numbers: lost 80-89% of the stake under the real prize table |
+
+# Star Toto 6/50
+
+From `TOTO_PROFIT.md`, `TOTO_SYSTEM_PROFIT.md`, `TOTO_COMBINED.md`, `TOTO_LEAD_HIGH_HITS.md`. Star Toto is the one game
+where all leads together got more 5-number hits on the real calendar than on shifted ones (p 0.02-0.08 of 100, second
+half of the history only, `TOTO_NULL100_TOTO50.md`), carried by solar term, lagna nakshatra, adhika masa, retrogrades
+and KP star lords (`PARAM_EXCESS.md`).
+
+| Lead | Pattern | What happened on the last 10 draws | Best format | Earlier record |
+|---|---|---|---|---|
+| hour_stem_19h × sun_sign_tropical | pos / hot | 5 + bonus (Jackpot 2, RM100,000) | System 8 × 1 (+RM111,936), System 7 × 2 (+RM105,808) | Ranked 720 (System 7 disjoint), return 55% |
+| hora_lord × mars_retrograde | cold | 5 numbers on 2026-10-07 | 10 sets (+RM8,100) | Ranked 843 (System 7 overlap), return 56% |
+| hora_lord × adhika_masa | cold | 5 numbers on 2026-10-07 | 10 sets (+RM6,100) | Ranked 1,101 (10 sets), return 55% |
+| rahu_nakshatra × kp_asc_sub_lord | hot | 4 + bonus, 3 winning draws | System 8 × 1 (+RM6,404) | Ranked 1,098, return 48% |
+| sun_rashi × planets_with_moon | cold | Won on 4 of 10 draws | System 8 × 1 (+RM6,544), 10 sets (+RM160) | Ranked 6,236, return 28% |
+| lagna_rashi × day_officer | cold | 5 numbers; won on 4 of 10 draws | System 7 × 2 disjoint (+RM4,112) | Ranked 7,799-10,320, return 20-23% |
+| saturn_retrograde × nayin | hot | No 5+ | — | Most 5+ hits against its own shifted calendars (10 vs 0.2) |
+| karana × masa | cold | No 5+, about break-even (−RM24 to +RM16) | System 8 × 1 | 9 5+ hits vs 0.4 on its shifted calendars |
+
+# Power Toto 6/55
+
+Power Toto shows no calendar effect over the whole history (5+ hits rank 10-16 of 21, jackpot-level hits rank 14-21).
+
+| Lead | Pattern | What happened on the last 10 draws | Best format | Earlier record |
+|---|---|---|---|---|
+| masa × day_god | hot | Jackpot (6 numbers) on 2026-09-27 | every format (+RM3.02-3.04m) | Ranked 20,004, return 5% |
+| sun_sign_tropical × aspect_moon_saturn | hot+100 | Jackpot on 2026-10-11 | 10 sets, System 8 × 1 | Ranked 3,293 (System 8), return 23% |
+| lunar_month × sun_sign_tropical | hot+100 | Jackpot (System 8) | System 8 × 1 (+RM3.04m) | Ranked 2,142, return 24%, best earlier record of the jackpot leads |
+| masa × adhika_masa | hot+100 | Jackpot (System play) | System 7 × 2, System 8 × 1 | Ranked 16,726-19,112, return 5% |
+| month_branch × aspect_venus_jupiter | hot+100 | Jackpot (System 8) | System 8 × 1 | Ranked 16,282, return 6% |
+| lagna_rashi × saturn_retrograde | hot+100 | Profit in three formats (+RM6,672 System 7 overlap) | System 7 × 2 overlap | 10 5+ hits against its own shifted calendars (z +9.6) |
+| kp_sun_star_lord × month_pillar | hot+100 | Won on 4 of 10 draws (+RM139) | 10 sets | Win rate 3.1% |
+
+# Supreme Toto 6/58
+
+Supreme Toto shows no calendar effect for 5-number hits over the whole history (rank 6-17 of 21).
+
+| Lead | Pattern | What happened on the last 10 draws | Best format | Earlier record |
+|---|---|---|---|---|
+| moon_rashi × aspects_hard | cold | 5 numbers, 2 winning draws | System 8 × 1 (+RM21,464), System 7 overlap (+RM14,168) | Ranked 106 (System 8), return 44%, the best earlier record in Supreme |
+| kp_sun_star_lord × day_stem | hot | 5 numbers, 2 winning draws | System 7 × 2 disjoint (+RM14,168) | Ranked 1,473, return 30% |
+| nakshatra × nayin (and nakshatra / nakshatra_pada / kp_moon_number × nayin / day_pillar) | hot+100 | 5 numbers on 2026-10-11, the same cluster of numbers | 10 sets (+RM27,856) | Ranked 8,250-25,934, return 4-7% |
+| nakshatra × sun_sign_tropical | hot+100 | No 5+ | — | Most 5+ hits against its own shifted calendars (12, z +11.3) |
+| kp_moon_number × nayin_element | hot+100 | 5 numbers, 3 winning draws | System 7 × 2 overlap (+RM14,024) | Top of the combined ranking |
