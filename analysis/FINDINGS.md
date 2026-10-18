@@ -272,6 +272,19 @@ The hot / cold counts inside every lead were already updated before each draw; w
 
 Re-choosing does not help: one extra draw hardly moves a ranking built on 1,300-2,800 draws, so the #1 lead mostly stays the same (1-4 different leads over the 10 draws), and where it changes the result is equal or worse. Every row is within chance and the shifted calendars do as well. Details in `ROLLING_*.md`.
 
+## Magnum Life leads ranked by profit (`profit_rank.py`)
+
+Official Magnum Life prize table per 8-number combination (8 = Grand, RM1,000 a day for 20 years, counted as RM7.3m; 7+bonus RM100,000; 7 RM6,000; 6+bonus RM600; 6 RM100; 5+bonus RM30; 5 RM10; 4+bonus RM5; a combination with both bonus numbers wins its +bonus prize twice), System 9 = 9 combinations (RM9), System 10 = 45 (RM45). All 26,224 leads, tickets built before each draw from counts updated on every earlier draw. Profit over the last 10 draws (RM):
+
+| Format (cost over 10 draws) | Random tickets, expected | Best lead (hindsight) | Shifted calendars, best | #1 by earlier profit | Top 10 by earlier profit, average | Re-ranked by profit before every draw |
+|---|---|---|---|---|---|---|
+| 10 tickets (RM100) | -45 | +7,330,300 (paksha × venus_rashi, cold) | +24,500, +8,170 | -100 | -94 | -100 |
+| System 10 × 1 (RM450) | -202 | +7,398,350 (paksha × venus_rashi, cold) | +20,010, +121,430 | -450 | -339 | -450 |
+| System 9 × 2 overlap (RM180) | -81 | +110,060 (aspect_venus_jupiter × universal_day, hot) | +12,900, +110,400 | -180 | -156 | -180 |
+| System 9 × 2 disjoint (RM180) | -81 | +110,020 (ayana × lunar_leap_month, hot+100) | +110,060, +110,060 | -160 | -87 | -160 |
+
+Paksha × Venus rashi (cold) caught all 8 numbers on 26 Sep 2026 (checked independently: 67 earlier draws in that cell, 7 of the winners in its cold top 8 and the 8th at rank 10). It is luck, not a lead: it ranked 12,375th (10 tickets) and 8,135th (System 10) on the earlier draws, where it lost money, and 26,224 leads × 10 draws give a jackpot-sized lottery among themselves. The leads with the most earlier profit are all leads that once hit the Grand prize (ritu × year_yinyang, mars_combust × ritu, hora_lord × saturn_nakshatra ...); the shifted calendars have just as many (best earlier profit RM7.3-8.1m on every calendar), and on the last 10 draws they won almost nothing. Re-ranking by profit before every draw keeps the same past jackpot winner and loses the full stake. Every honest choice lost about what random tickets lose or more.
+
 ## Is the 4D lead special? (`lead_4d_robustness.py`, `lead_hunt.py`)
 
 No. Scored the same way:
