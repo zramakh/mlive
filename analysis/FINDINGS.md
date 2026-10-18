@@ -225,6 +225,13 @@ selections 66–113), 6/55 93 vs 96.7 (98–104), 6/58 83 vs 91.9 (93–113), Li
 result: 6/55 Venus nakshatra × Na Yin element (position) 14 vs 9.7, 11 three-number tickets vs 1.3 (chance 7.9%). No
 ticket matched more than 3 numbers in the Toto games or 4 in Magnum Life. No new lead emerged.
 
+**Same search with 20 tickets per draw** ([LEAD_SEARCH20.md](LEAD_SEARCH20.md)): top 10 per game on the last 10 draws
+(best ticket summed) 6/50 132 vs 122.8 (shifted 84–127), 6/55 109 vs 112.3 (98–115), 6/58 97 vs 106.9 (101–134), Life 262
+vs 257.6 (255–266). Magnum Life's Mars rashi × month (cold) is #1 with 10 and with 20 tickets: 34 vs 25.8 (chance 1.2%),
+103 three-or-more tickets vs 47.3; it is the best of about 40 leads tested on these draws and of the near-identical
+"year × month" cold leads (27 each). New in Star Toto: Mercury rashi × lunar month (position) 19 vs 12.3 (1.4%). The
+10-ticket leads mostly kept their ranks but stayed at chance on the last 10.
+
 ## Is the 4D lead special? (`lead_4d_robustness.py`, `lead_hunt.py`)
 
 No. Scored the same way:
