@@ -81,7 +81,10 @@ not need Jupiter.
 from earlier 4D draws with the same Jupiter rashi and retrograde state. Over the last 30% of 4D draws it scored 55
 hits vs 60.5 expected (whole numbers) and 58 vs 60.5 (digit combinations); in the last 10 draws, 0 vs 0.37. That is
 below 67–82% of 200 random pairs. The 4D lead (Mercury nakshatra × Venus rashi) on the same test: 68 vs 60.2 and
-57 vs 60.2.
+57 vs 60.2. On Magnum 4D (test from 2014-06-04) it scored 85 vs 75.3 (number, z +1.12; 20% of random pairs as high)
+and 84 vs 75.3 (digit, +1.00; 12%); on Da Ma Cai (from 2016-02-14) 69 vs 63.3 (+0.72; 30%) and 74 vs 63.3 (+1.34;
+11%). Last 10 draws: 1 hit vs 0.37 (Magnum), 0 (Da Ma Cai). None of the six scores is significant; the 4D lead,
+scored the same way, ranges from z −1.27 to +1.51.
 
 ## Is the 4D lead special? (`lead_4d_robustness.py`, `lead_hunt.py`)
 

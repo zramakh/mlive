@@ -1,0 +1,180 @@
+{
+ "game": "Da Ma Cai 1+3D",
+ "draws": 5738,
+ "test_from": "2016-02-14",
+ "hold_out": [
+  "2026-09-26",
+  "2026-09-27",
+  "2026-09-30",
+  "2026-10-03",
+  "2026-10-04",
+  "2026-10-07",
+  "2026-10-10",
+  "2026-10-11",
+  "2026-10-14",
+  "2026-10-17"
+ ],
+ "ticket_size": 16,
+ "leads": {
+  "Supreme Toto lead": {
+   "pair": "jupiter_rashi x jupiter_retrograde",
+   "test": {
+    "number": {
+     "hits": 69,
+     "expected": 63.3,
+     "z": 0.72,
+     "share_of_random_pairs_at_least": 0.295
+    },
+    "digit": {
+     "hits": 74,
+     "expected": 63.3,
+     "z": 1.34,
+     "share_of_random_pairs_at_least": 0.105
+    }
+   },
+   "hold_out": {
+    "number": {
+     "hits": 0,
+     "expected": 0.37,
+     "z": -0.61,
+     "share_of_random_pairs_at_least": 1.0
+    },
+    "digit": {
+     "hits": 0,
+     "expected": 0.37,
+     "z": -0.61,
+     "share_of_random_pairs_at_least": 1.0
+    }
+   },
+   "last_ticket": {
+    "number": [
+     "0399",
+     "1351",
+     "1463",
+     "2015",
+     "2852",
+     "3613",
+     "4426",
+     "5210",
+     "6915",
+     "6920",
+     "7862",
+     "8259",
+     "8334",
+     "9364",
+     "9414",
+     "9811"
+    ],
+    "digit": [
+     "1723",
+     "1725",
+     "1793",
+     "1795",
+     "1823",
+     "1825",
+     "1893",
+     "1895",
+     "6723",
+     "6725",
+     "6793",
+     "6795",
+     "6823",
+     "6825",
+     "6893",
+     "6895"
+    ]
+   }
+  },
+  "4D lead": {
+   "pair": "mercury_nakshatra x venus_rashi",
+   "test": {
+    "number": {
+     "hits": 75,
+     "expected": 63.05,
+     "z": 1.51,
+     "share_of_random_pairs_at_least": 0.115
+    },
+    "digit": {
+     "hits": 53,
+     "expected": 63.05,
+     "z": -1.27,
+     "share_of_random_pairs_at_least": 0.885
+    }
+   },
+   "hold_out": {
+    "number": {
+     "hits": 0,
+     "expected": 0.37,
+     "z": -0.61,
+     "share_of_random_pairs_at_least": 1.0
+    },
+    "digit": {
+     "hits": 1,
+     "expected": 0.37,
+     "z": 1.04,
+     "share_of_random_pairs_at_least": 0.25
+    }
+   },
+   "last_ticket": {
+    "number": [
+     "0066",
+     "0417",
+     "2149",
+     "2323",
+     "2665",
+     "3390",
+     "3447",
+     "3962",
+     "4834",
+     "7191",
+     "7338",
+     "7405",
+     "8153",
+     "8291",
+     "8611",
+     "9313"
+    ],
+    "digit": [
+     "0015",
+     "0017",
+     "0045",
+     "0047",
+     "0515",
+     "0517",
+     "0545",
+     "0547",
+     "7015",
+     "7017",
+     "7045",
+     "7047",
+     "7515",
+     "7517",
+     "7545",
+     "7547"
+    ]
+   }
+  }
+ },
+ "random_pairs": {
+  "test_number": {
+   "mean_z": 0.187,
+   "sd_z": 1.031,
+   "max_z": 2.98
+  },
+  "test_digit": {
+   "mean_z": 0.038,
+   "sd_z": 1.022,
+   "max_z": 2.92
+  },
+  "hold_out_number": {
+   "mean_z": -0.07,
+   "sd_z": 0.93,
+   "max_z": 4.34
+  },
+  "hold_out_digit": {
+   "mean_z": -0.115,
+   "sd_z": 0.921,
+   "max_z": 4.34
+  }
+ }
+}

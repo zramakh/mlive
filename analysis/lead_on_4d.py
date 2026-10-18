@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """The Supreme Toto lead (Jupiter rashi x Jupiter retrograde, hot) applied to
-Sports Toto 4D (data/sportstoto.csv in the 4DPrediction repo, 1992-2026).
+Sports Toto 4D (data/sportstoto.csv in the 4DPrediction repo, 1992-2026), or
+Magnum 4D / Da Ma Cai 1+3D with --operator.
 
 At every 4D draw, using only earlier draws on dates with the same Jupiter
 rashi and retrograde state, two tickets of 16 numbers are built:
@@ -13,7 +14,8 @@ Periods: hold-out = the last 10 draws; test = the last 30% of draws.
 For comparison, the same is done for the 4D project's lead (Mercury nakshatra
 x Venus rashi) and 200 random Vedic / Chinese pairs (the chance spread).
 
-python3 analysis/lead_on_4d.py  (~3 min) -> analysis/lead_on_4d_results.json
+python3 analysis/lead_on_4d.py [--operator sportstoto|magnum|damacai]  (~1 min)
+    -> analysis/lead_on_4d_results.json (Sports Toto) or analysis/lead_on_4d_<operator>_results.json
 """
 
 import csv
@@ -29,8 +31,11 @@ import numpy as np
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import common  # noqa: E402
 
-SRC = os.path.join(common.ROOT, "..", "4DPrediction", "data", "sportstoto.csv")
-OUT = os.path.join(common.ROOT, "analysis", "lead_on_4d_results.json")
+OPERATORS = {"sportstoto": "Sports Toto 4D", "magnum": "Magnum 4D", "damacai": "Da Ma Cai 1+3D"}
+OPERATOR = sys.argv[sys.argv.index("--operator") + 1] if "--operator" in sys.argv else "sportstoto"
+SRC = os.path.join(common.ROOT, "..", "4DPrediction", "data", f"{OPERATOR}.csv")
+OUT = os.path.join(common.ROOT, "analysis",
+                   "lead_on_4d_results.json" if OPERATOR == "sportstoto" else f"lead_on_4d_{OPERATOR}_results.json")
 PARAMS = common.VEDIC + common.CHINESE
 LEADS = {"Supreme Toto lead": ("jupiter_rashi", "jupiter_retrograde"),
          "4D lead": ("mercury_nakshatra", "venus_rashi")}
@@ -44,6 +49,8 @@ D = {}
 def load():
     draws = {}
     for r in csv.DictReader(open(SRC)):
+        if OPERATOR == "magnum" and r["date"] == "2015-01-09":
+            continue                    # repeats 22 of 2015-01-07's numbers on the source site (4DPrediction README)
         draws.setdefault(r["date"], set()).add(int(r["4d_number"]))
     dates = sorted(draws)
     vals = {}
@@ -111,7 +118,7 @@ def main():
         res = {pr: (o, t) for pr, o, t in pool.imap_unordered(run, todo)}
     dates = D["dates"]
     n = len(dates)
-    out = {"game": "Sports Toto 4D", "draws": n, "test_from": dates[int(n * (1 - TEST_FRAC))],
+    out = {"game": OPERATORS[OPERATOR], "draws": n, "test_from": dates[int(n * (1 - TEST_FRAC))],
            "hold_out": dates[-HOLD:], "ticket_size": K, "leads": {}, "random_pairs": {}}
     for name, pr in lead_pairs.items():
         o, t = res[pr]
