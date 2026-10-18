@@ -243,6 +243,11 @@ tropical Sun sign 35 vs 27.0 (disjoint, 0.6%) but it ranks 16,410th on the earli
 caught 6 of 8 in one overlap set. Non-parameter methods ([SYSTEM9_METHODS.md](SYSTEM9_METHODS.md)): best analogy
 "direct" 31 vs 27.0 (11%) and 29 vs 23.9 (8%). A set with 5+ of 8 is expected about once in 37 draws.
 
+**System 10 × 1** (`lead_search10.py --system 10 --sets 1`, [LEAD_SEARCHSYS10.md](LEAD_SEARCHSYS10.md),
+[SYSTEM10_METHODS.md](SYSTEM10_METHODS.md)): one 10-number set (the top 10) per draw. Top 10 new leads on the last 10 draws
+227 vs 222.7 expected (shifted 210–235). Mars rashi × month (cold) ranked #2 on the earlier periods and caught 30 vs 22.3
+(chance 2.3%), no draw above 4 of 8. Best other methods: analogy "direct" 28 (6.9%) and "map" 28 (7.4%, one set with 6).
+
 ## Is the 4D lead special? (`lead_4d_robustness.py`, `lead_hunt.py`)
 
 No. Scored the same way:

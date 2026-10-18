@@ -20,6 +20,7 @@ Control: the same search on SHIFTS circularly shifted parameter calendars.
 
 python3 analysis/lead_search10.py  (~15 min on 4 cores) -> analysis/lead_search10_results.json, analysis/LEAD_SEARCH10.md
 python3 analysis/lead_search10.py --system 9 --sets 2 --structure disjoint|overlap --games ml8
+    (--system 10 --sets 1: one 10-number set = the top 10 -> lead_search_sys10_*)
     Magnum Life system play: 2 sets of 9 numbers (set B = ranks 10-18, or the top 6 + ranks 10-12);
     "3+" becomes "GE+" (default 5+); earlier Magnum Life leads re-scored -> lead_search_sys9_<structure>_*
 python3 analysis/lead_search10.py --tickets 20   the same with 20 tickets per draw (extra swaps with ranks up
@@ -54,7 +55,7 @@ TOP = 10
 SMOOTH = 5.0
 PATTERNS = ["hot", "cold", "pos", "hot+100"]
 SIMS = 200000
-TAG = f"sys{SYSTEM}_{STRUCT}" if SYSTEM else f"{NT}"
+TAG = (f"sys{SYSTEM}_{STRUCT}" if NSETS > 1 else f"sys{SYSTEM}") if SYSTEM else f"{NT}"
 OUT = os.path.join(common.ROOT, "analysis", f"lead_search{TAG}_results.json")
 MD = os.path.join(common.ROOT, "analysis", f"LEAD_SEARCH{TAG.upper()}.md")
 PREV = os.path.join(common.ROOT, "analysis", "lead_search10_results.json")
@@ -212,7 +213,7 @@ def watch_list():
 
 
 WATCH = watch_list()
-TLAB = f"{NSETS} System {SYSTEM} sets ({STRUCT})" if SYSTEM else f"{NT} tickets"
+TLAB = (f"{NSETS} System {SYSTEM} sets ({STRUCT})" if NSETS > 1 else f"1 System {SYSTEM} set") if SYSTEM else f"{NT} tickets"
 GLAB = f"{GE}+"
 
 
