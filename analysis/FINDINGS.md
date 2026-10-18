@@ -287,6 +287,8 @@ Paksha × Venus rashi (cold) caught all 8 numbers on 26 Sep 2026 (checked indepe
 
 **Combined ranking (`profit_combined.py`, `PROFIT_COMBINED.md`).** All 104,896 lead × format rows (10 ordinary tickets, System 10 × 1, System 9 × 2 overlap / disjoint) scored by the average of their rank by profit margin (profit ÷ stake) and by winning draws. Best on the last 10 draws: Rahu rashi × aspect Mercury–Saturn (cold), System 9 × 2 disjoint, +RM12,685 on RM180 with 4 winning draws (one 7-number hit), earlier margin −82%. Rows in profit with 3+ winning draws: 319 (shifted calendars 188, 224). The top 10 by the same score on the earlier draws (all System 9 disjoint, margins of +530-550% from an earlier Grand prize) lost RM152 on average on the last 10 with 0.7 winning draws (shifted −172, −199).
 
+**6-, 7- and 8-number hits against 20 shifted calendars (`high_hits_null.py`, `HIGH_HITS_NULL.md`).** Counting, over all 26,224 leads and the whole history after warm-up, the lead × draw hits whose best 8-number combination holds 6+, 7+ or 8 winning numbers: the real calendar has slightly more than the shifted calendars in every format, 6+ by 1-4% (rank 2/21 in three formats, 6/21 for System 9 disjoint) and 7+ by 9-16% (rank 3-5/21); System 10 Grand-level hits 39 vs 25 on average (rank 1/21, max shifted 38). The four formats and the "earlier" / "whole history" rows reuse the same leads and draws, so this is about one test at p ≈ 0.05-0.10, not many. It is a small population-wide tilt that no lead chosen in advance has captured (all earlier forward tests lost), and a few percent more 6- and 7-number hits is far from turning the 45% expected loss into a profit.
+
 ## Is the 4D lead special? (`lead_4d_robustness.py`, `lead_hunt.py`)
 
 No. Scored the same way:
