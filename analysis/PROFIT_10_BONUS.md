@@ -24,18 +24,18 @@ Random tickets return RM5.50 of every RM10 on average (prizes are mostly the Gra
 | 1 | paksha × venus_rashi | cold | +7,330,300 | +7,330,390 -10 -10 -10 -10 -10 -10 -10 -10 -10 | 12,375 | -8,140 |
 | 2 | saturn_combust × plum_trigrams | cold | +6,620 | -10 -10 -10 +6,710 -10 -10 -10 -10 -10 -10 | 17,220 | -8,400 |
 | 3 | aspect_jupiter_saturn × plum_trigrams | cold | +6,455 | -10 -10 -10 +6,530 -10 -10 +5 -10 -10 -10 | 19,582 | -8,510 |
-| 4 | day_of_month × plum_trigrams | pos | +6,440 | -10 -10 -10 -10 -10 +6,530 -10 -10 -10 -10 | 10,718 | -8,020 |
-| 5 | day_god × aspect_mars_saturn | hot | +1,885 | -10 -10 -10 -10 -10 -10 -10 +1,975 -10 -10 | 14,689 | -8,270 |
-| 6 | yoga × moon_phase | hot | +1,355 | -10 -10 -10 -10 -10 -10 -10 -10 +1,445 -10 | 23,027 | -8,705 |
+| 4 | day_of_month × plum_trigrams | pos | +6,440 | -10 -10 -10 -10 -10 +6,530 -10 -10 -10 -10 | 10,715 | -8,020 |
+| 5 | day_god × aspect_mars_saturn | hot | +1,885 | -10 -10 -10 -10 -10 -10 -10 +1,975 -10 -10 | 14,694 | -8,270 |
+| 6 | yoga × moon_phase | hot | +1,355 | -10 -10 -10 -10 -10 -10 -10 -10 +1,445 -10 | 23,030 | -8,705 |
 | 7 | kp_sun_sub_lord × nine_star_year | pos | +1,290 | -10 -10 -10 -10 -10 +1,380 -10 -10 -10 -10 | 4,136 | -7,185 |
 | 8 | karana × aspect_mars_saturn | hot | +940 | -10 -10 -10 -10 -10 -10 -10 -10 -10 +1,030 | 4,059 | -7,170 |
 | 9 | karana × aspect_mars_saturn | pos | +940 | -10 -10 -10 -10 -10 -10 -10 -10 -10 +1,030 | 4,212 | -7,210 |
-| 10 | day_pillar × draw_in_daylight | pos | +940 | -10 -10 -10 +1,030 -10 -10 -10 -10 -10 -10 | 2,942 | -6,760 |
+| 10 | day_pillar × draw_in_daylight | pos | +940 | -10 -10 -10 +1,030 -10 -10 -10 -10 -10 -10 | 2,941 | -6,760 |
 | 11 | mercury_nakshatra × plum_trigrams | pos | +870 | -10 +0 -10 -10 -10 +940 +0 -10 -10 -10 | 11,999 | -8,115 |
 | 12 | kp_moon_sub_lord × kp_sun_star_lord | cold | +845 | -10 -10 -10 +10 -10 -10 +915 -10 -10 -10 | 12,989 | -8,175 |
-| 13 | day_pillar × aspect_moon_jupiter | pos | +825 | -10 -10 -10 +915 -10 -10 -10 -10 -10 -10 | 20,764 | -8,570 |
+| 13 | day_pillar × aspect_moon_jupiter | pos | +825 | -10 -10 -10 +915 -10 -10 -10 -10 -10 -10 | 20,761 | -8,570 |
 | 14 | adhika_masa × year_yinyang | cold | +810 | -10 -10 +880 +10 -10 -10 -10 -10 -10 -10 | 1,708 | -5,700 |
-| 15 | month_branch × aspect_moon_mercury | cold | +810 | -10 -10 -10 -10 -10 -10 -10 +900 -10 -10 | 4,158 | -7,190 |
+| 15 | month_branch × aspect_moon_mercury | cold | +810 | -10 -10 -10 -10 -10 -10 -10 +900 -10 -10 | 4,159 | -7,190 |
 | 16 | saturn_rashi × aspect_sun_jupiter | pos | +795 | -10 -10 -10 -10 -10 -10 -10 +880 -5 -10 | 26,139 | -9,155 |
 | 17 | kp_sun_sub_lord × aspect_moon_jupiter | hot | +730 | -10 -10 -10 -10 -10 +5 -10 -10 -10 +805 | 8,486 | -7,835 |
 | 18 | venus_rashi × yellow_black_path | cold | +720 | -10 -10 +810 -10 -10 -10 -10 -10 -10 -10 | 21,188 | -8,595 |
@@ -61,12 +61,56 @@ Random tickets return RM5.50 of every RM10 on average (prizes are mostly the Gra
 
 | Lead | Pattern | Profit, last 10 (RM) | Per draw (RM) | Rank earlier | Profit earlier (RM) |
 |---|---|---|---|---|---|
-| mars_rashi × venus_combust | cold | +145 | -10 -5 -10 -10 -10 +140 -10 -10 +80 -10 | 14,445 | -8,260 |
+| mars_rashi × venus_combust | cold | +145 | -10 -5 -10 -10 -10 +140 -10 -10 +80 -10 | 14,443 | -8,260 |
 | moon_rashi × mars_combust | pos | +10 | -10 -10 +100 -10 -10 -10 -10 -10 -10 -10 | 9,352 | -7,915 |
-| mars_rashi × month | cold | -80 | -10 -10 -10 -10 -10 -10 -10 -10 -10 +10 | 19,811 | -8,525 |
+| mars_rashi × month | cold | -80 | -10 -10 -10 -10 -10 -10 -10 -10 -10 +10 | 19,805 | -8,525 |
 | venus_nakshatra × kp_moon_sub_lord | hot | -95 | -10 -10 -10 -5 -10 -10 -10 -10 -10 -10 | 9,518 | -7,930 |
-| mars_rashi × sun_sign_tropical | cold | -100 | -10 -10 -10 -10 -10 -10 -10 -10 -10 -10 | 24,109 | -8,785 |
+| mars_rashi × sun_sign_tropical | cold | -100 | -10 -10 -10 -10 -10 -10 -10 -10 -10 -10 | 24,106 | -8,785 |
 | mercury_nakshatra × venus_rashi | hot | -100 | -10 -10 -10 -10 -10 -10 -10 -10 -10 -10 | 20,707 | -8,570 |
+
+## Top 20 leads by winning draws on the last 10 (hindsight)
+
+*Winning draw* = the entry wins any prize. A random entry wins on 6.6% of draws (0.7 of 10). Most winning draws by any lead: 4 (22 leads; shifted calendars: 5, 6). Ties broken by profit.
+
+| # | Lead | Pattern | Winning draws | Profit, last 10 (RM) | Per draw (RM) | Earlier win rate | Rank earlier (profit) |
+|---|---|---|---|---|---|---|---|
+| 1 | kp_sun_sub_lord × year_yinyang | pos | 4/10 | +235 | -10 -10 -10 +0 -10 +265 +0 -10 -10 +30 | 6.4% | 8,865 |
+| 2 | hora_lord × mercury_rashi | cold | 4/10 | +85 | +135 -5 -10 -10 -10 -10 -5 -10 -10 +20 | 6.6% | 6,720 |
+| 3 | ayana × kp_moon_star_lord | pos | 4/10 | +80 | +100 -10 -10 +0 +40 +0 -10 -10 -10 -10 | 7.1% | 4,524 |
+| 4 | ayana × kp_moon_star_lord | hot | 4/10 | +40 | +70 -10 -10 +0 +30 +0 -10 -10 -10 -10 | 6.5% | 976 |
+| 5 | mars_rashi × mars_retrograde | cold | 4/10 | +20 | -10 +5 -10 -10 -10 +60 +0 -10 +15 -10 | 7.7% | 5,547 |
+| 6 | mercury_retrograde × aspect_venus_mars | cold | 4/10 | +20 | -10 -10 -10 -10 +80 -10 -10 +5 +0 -5 | 8.2% | 5,922 |
+| 7 | mars_rashi × aspects_soft | cold | 4/10 | +0 | -10 +65 -10 -10 -10 +0 -5 -10 +0 -10 | 6.3% | 6,384 |
+| 8 | venus_retrograde × day_officer | cold | 4/10 | -10 | -10 +45 +0 -10 -10 -10 -10 -5 -10 +10 | 6.7% | 16,127 |
+| 9 | saturn_retrograde × aspect_mars_jupiter | cold | 4/10 | -10 | -5 +10 +0 -10 -10 -10 -10 -10 +45 -10 | 6.6% | 6,053 |
+| 10 | mars_rashi × nayin | pos | 4/10 | -35 | -10 +0 -10 +20 -10 -10 -10 +10 -10 -5 | 5.7% | 23,735 |
+| 11 | saturn_rashi × kp_sun_sub_lord | hot | 4/10 | -35 | -10 +0 -10 -10 -10 -5 +0 -10 -10 +30 | 5.4% | 6,910 |
+| 12 | mars_combust × kp_asc_sub_lord | cold | 4/10 | -35 | -10 -5 +0 -10 +0 +30 -10 -10 -10 -10 | 7.2% | 8,129 |
+| 13 | month_branch × aspect_venus_jupiter | hot | 4/10 | -35 | -10 +30 -10 -5 +0 -10 +0 -10 -10 -10 | 5.0% | 24,254 |
+| 14 | kp_asc_sub_lord × aspect_venus_saturn | cold | 4/10 | -40 | -10 -10 +0 -10 -5 +30 -10 -5 -10 -10 | 7.2% | 2,603 |
+| 15 | mercury_nakshatra × aspect_sun_moon | cold | 4/10 | -45 | -10 -10 +5 -10 +20 -10 -10 -5 -10 -5 | 6.1% | 19,203 |
+| 16 | moon_rashi × aspect_moon_mars | pos | 4/10 | -50 | -5 -10 +25 -10 -10 -5 -10 -10 -10 -5 | 6.4% | 12,067 |
+| 17 | mercury_rashi × aspect_moon_mercury | cold | 4/10 | -50 | -5 -10 -10 -10 -5 -10 +10 +10 -10 -10 | 6.6% | 770 |
+| 18 | solar_term × aspect_moon_jupiter | cold | 4/10 | -50 | +20 -5 -10 -10 -10 -10 -10 +0 -5 -10 | 6.6% | 20,548 |
+| 19 | karana × moon_sign_tropical | hot | 4/10 | -60 | -5 -10 -5 -10 -5 -10 -10 -10 -10 +15 | 5.7% | 18,635 |
+| 20 | mars_combust × aspects_hard | hot | 4/10 | -60 | -10 -10 -10 -10 -5 +0 -10 +10 -10 -5 | 5.0% | 26,161 |
+
+## Top 10 leads by win rate on the earlier draws, played on the last 10
+
+Average on the last 10: 0.3 winning draws, profit -97 (shifted calendars: 0.7, 0.8 winning draws, -92, -74).
+
+| # | Lead | Pattern | Earlier win rate | Profit earlier (RM) | Winning draws, last 10 | Profit, last 10 (RM) | Per draw (RM) |
+|---|---|---|---|---|---|---|---|
+| 1 | tithi × aspect_moon_mercury | hot+100 | 9.5% | -760 | 0/10 | -100 | -10 -10 -10 -10 -10 -10 -10 -10 -10 -10 |
+| 2 | year_yinyang × aspect_sun_jupiter | cold | 9.3% | -4,015 | 0/10 | -100 | -10 -10 -10 -10 -10 -10 -10 -10 -10 -10 |
+| 3 | aspect_mercury_saturn × nine_star_day | hot+100 | 9.3% | -7,100 | 0/10 | -100 | -10 -10 -10 -10 -10 -10 -10 -10 -10 -10 |
+| 4 | masa × aspect_sun_jupiter | cold | 9.3% | -7,505 | 0/10 | -100 | -10 -10 -10 -10 -10 -10 -10 -10 -10 -10 |
+| 5 | jupiter_retrograde × mansion_28 | hot | 9.3% | -7,885 | 0/10 | -100 | -10 -10 -10 -10 -10 -10 -10 -10 -10 -10 |
+| 6 | mars_nakshatra × jupiter_retrograde | cold | 9.2% | -925 | 2/10 | -75 | -10 +10 -10 -10 -10 -10 -10 -10 -5 -10 |
+| 7 | ayana × aspect_jupiter_saturn | hot+100 | 9.2% | -1,365 | 0/10 | -100 | -10 -10 -10 -10 -10 -10 -10 -10 -10 -10 |
+| 8 | saturn_nakshatra × day_stem | cold | 9.2% | -6,875 | 0/10 | -100 | -10 -10 -10 -10 -10 -10 -10 -10 -10 -10 |
+| 9 | saturn_combust × month_pillar | cold | 9.2% | -7,080 | 0/10 | -100 | -10 -10 -10 -10 -10 -10 -10 -10 -10 -10 |
+| 10 | mars_retrograde × aspect_moon_jupiter | cold | 9.2% | -7,495 | 1/10 | -95 | -5 -10 -10 -10 -10 -10 -10 -10 -10 -10 |
 
 ## Re-ranked by profit before every draw
 

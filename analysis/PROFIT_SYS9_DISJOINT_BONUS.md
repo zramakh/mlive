@@ -26,17 +26,17 @@ Random tickets return RM9.90 of every RM18 on average (prizes are mostly the Gra
 | 3 | sun_rashi × sun_sign_tropical | pos | +12,600 | -18 -18 -18 -18 +22 -18 -18 -18 +12,682 +22 | 10,806 | -14,231 |
 | 4 | nakshatra_pada × ayana | cold | +12,580 | -18 -18 -18 -18 +22 +12,682 -18 +2 -18 -18 | 3,375 | -12,591 |
 | 5 | paksha × mansion_28 | hot | +12,560 | +2 +2 -18 -18 +12,682 -18 -18 -18 -18 -18 | 23,952 | -15,541 |
-| 6 | sun_nakshatra × aspect_mercury_saturn | cold | +12,560 | -18 -18 +22 -18 -18 -18 -18 -18 +12,682 -18 | 10,687 | -14,216 |
+| 6 | sun_nakshatra × aspect_mercury_saturn | cold | +12,560 | -18 -18 +22 -18 -18 -18 -18 -18 +12,682 -18 | 10,689 | -14,216 |
 | 7 | day_element × day_vs_year_branch | pos | +12,560 | -18 -18 +2 -18 -18 -18 +12,682 -18 +2 -18 | 2,568 | -12,036 |
 | 8 | sun_sign_tropical × draw_in_daylight | pos | +12,560 | -18 -18 -18 -18 +22 -18 -18 -18 +12,682 -18 | 3,595 | -12,696 |
-| 9 | sun_nakshatra × aspect_sun_venus | cold | +12,540 | -18 -18 -18 -18 -18 +2 -18 -18 -18 +12,682 | 18,959 | -15,061 |
-| 10 | saturn_combust × plum_trigrams | cold | +12,540 | -18 -18 -18 +12,682 -18 -18 -18 -18 +2 -18 | 16,656 | -14,866 |
+| 9 | sun_nakshatra × aspect_sun_venus | cold | +12,540 | -18 -18 -18 -18 -18 +2 -18 -18 -18 +12,682 | 18,962 | -15,061 |
+| 10 | saturn_combust × plum_trigrams | cold | +12,540 | -18 -18 -18 +12,682 -18 -18 -18 -18 +2 -18 | 16,653 | -14,866 |
 | 11 | day_element × day_vs_year_branch | hot | +12,540 | -18 -18 +2 -18 -18 -18 +12,682 -18 -18 -18 | 8,313 | -13,831 |
 | 12 | day_pillar × aspect_jupiter_saturn | pos | +12,540 | -18 -18 -18 +12,682 -18 -18 -18 -18 +2 -18 | 17,182 | -14,911 |
 | 13 | paksha × venus_rashi | cold | +12,520 | +12,682 -18 -18 -18 -18 -18 -18 -18 -18 -18 | 8,922 | -13,941 |
-| 14 | pof_sign × aspect_sun_mars | hot | +12,520 | +12,682 -18 -18 -18 -18 -18 -18 -18 -18 -18 | 7,193 | -13,626 |
-| 15 | venus_retrograde × ayana | hot | +2,580 | -18 -18 -18 +2,742 -18 -18 -18 -18 -18 -18 | 13,597 | -14,581 |
-| 16 | ayana × aspect_sun_mars | hot+100 | +2,580 | -18 -18 -18 -18 -18 +2,742 -18 -18 -18 -18 | 2,562 | -12,036 |
+| 14 | pof_sign × aspect_sun_mars | hot | +12,520 | +12,682 -18 -18 -18 -18 -18 -18 -18 -18 -18 | 7,191 | -13,626 |
+| 15 | venus_retrograde × ayana | hot | +2,580 | -18 -18 -18 +2,742 -18 -18 -18 -18 -18 -18 | 13,595 | -14,581 |
+| 16 | ayana × aspect_sun_mars | hot+100 | +2,580 | -18 -18 -18 -18 -18 +2,742 -18 -18 -18 -18 | 2,563 | -12,036 |
 | 17 | day_element × month | cold | +2,580 | -18 -18 -18 -18 +2,742 -18 -18 -18 -18 -18 | 14,515 | -14,676 |
 | 18 | month × pof_sign | cold | +2,580 | -18 -18 -18 -18 -18 -18 -18 +2,742 -18 -18 | 299 | +9,754 |
 | 19 | nakshatra_lord × kp_asc_sub_lord | hot | +1,700 | -18 -18 -18 -18 +1,462 -18 -18 +342 +22 -18 | 1,492 | -2,881 |
@@ -61,12 +61,56 @@ Random tickets return RM9.90 of every RM18 on average (prizes are mostly the Gra
 
 | Lead | Pattern | Profit, last 10 (RM) | Per draw (RM) | Rank earlier | Profit earlier (RM) |
 |---|---|---|---|---|---|
-| mars_rashi × venus_combust | cold | -15 | -18 -18 -18 -18 -18 +22 -18 -18 +107 -18 | 19,186 | -15,081 |
+| mars_rashi × venus_combust | cold | -15 | -18 -18 -18 -18 -18 +22 -18 -18 +107 -18 | 19,188 | -15,081 |
+| moon_rashi × mars_combust | pos | -140 | -18 +2 +2 -18 -18 -18 -18 -18 -18 -18 | 1,268 | -2,376 |
 | mars_rashi × sun_sign_tropical | cold | -140 | -18 -18 +2 -18 +2 -18 -18 -18 -18 -18 | 25,843 | -15,961 |
-| moon_rashi × mars_combust | pos | -140 | -18 +2 +2 -18 -18 -18 -18 -18 -18 -18 | 1,269 | -2,376 |
-| mars_rashi × month | cold | -160 | -18 -18 -18 -18 -18 -18 -18 -18 -18 +2 | 18,240 | -15,001 |
+| mars_rashi × month | cold | -160 | -18 -18 -18 -18 -18 -18 -18 -18 -18 +2 | 18,243 | -15,001 |
 | mercury_nakshatra × venus_rashi | hot | -180 | -18 -18 -18 -18 -18 -18 -18 -18 -18 -18 | 8,227 | -13,821 |
 | venus_nakshatra × kp_moon_sub_lord | hot | -180 | -18 -18 -18 -18 -18 -18 -18 -18 -18 -18 | 19,952 | -15,146 |
+
+## Top 20 leads by winning draws on the last 10 (hindsight)
+
+*Winning draw* = the entry wins any prize. A random entry wins on 7.4% of draws (0.7 of 10). Most winning draws by any lead: 6 (1 leads; shifted calendars: 5, 5). Ties broken by profit.
+
+| # | Lead | Pattern | Winning draws | Profit, last 10 (RM) | Per draw (RM) | Earlier win rate | Rank earlier (profit) |
+|---|---|---|---|---|---|---|---|
+| 1 | aspect_sun_mercury × universal_day | pos | 6/10 | -20 | +2 -18 +22 +2 +2 -18 +22 -18 -18 +2 | 7.8% | 7,661 |
+| 2 | mercury_rashi × aspect_moon_mercury | cold | 5/10 | +280 | -18 -18 +342 -18 +2 -18 +2 +22 -18 +2 | 7.0% | 13,013 |
+| 3 | aspect_sun_mercury × universal_day | hot | 5/10 | -40 | +2 -18 +22 +2 -18 -18 +22 -18 -18 +2 | 7.4% | 16,135 |
+| 4 | mansion_28 × aspect_sun_mercury | cold | 5/10 | -60 | +2 -18 -18 -18 +2 +2 -18 +2 -18 +22 | 6.8% | 14,714 |
+| 5 | rahu_rashi × aspect_mercury_saturn | cold | 4/10 | +12,685 | +107 -18 +2 +12,682 -18 -18 -18 -18 +2 -18 | 8.1% | 16,639 |
+| 6 | mercury_rashi × saturn_retrograde | cold | 4/10 | +260 | -18 +342 -18 +2 +2 -18 -18 -18 -18 +22 | 8.0% | 18,294 |
+| 7 | mercury_nakshatra × aspect_sun_venus | cold | 4/10 | +240 | -18 -18 +2 -18 +342 +2 -18 -18 -18 +2 | 7.7% | 14,074 |
+| 8 | jupiter_retrograde × universal_day | hot+100 | 4/10 | +240 | +2 -18 -18 +2 -18 -18 +2 -18 -18 +342 | 6.5% | 15,679 |
+| 9 | aspect_mercury_saturn × aspects_soft | cold | 4/10 | +130 | -18 -18 +22 +107 +107 -18 -18 -18 +2 -18 | 6.8% | 19,934 |
+| 10 | pof_sign × aspect_sun_mercury | cold | 4/10 | +110 | -18 +107 -18 -18 -18 -18 +2 +107 +2 -18 | 6.4% | 229 |
+| 11 | karana × aspect_mars_jupiter | pos | 4/10 | +45 | -18 -18 +2 +22 -18 -18 +22 -18 -18 +107 | 7.8% | 7,618 |
+| 12 | mercury_nakshatra × aspect_venus_saturn | cold | 4/10 | +45 | +107 -18 +22 -18 +22 -18 -18 -18 -18 +2 | 7.0% | 24,789 |
+| 13 | venus_rashi × ayana | cold | 4/10 | +45 | +22 -18 +107 +2 -18 -18 -18 -18 -18 +22 | 7.0% | 19,022 |
+| 14 | weekday × venus_retrograde | pos | 4/10 | +25 | +2 -18 -18 +22 +107 +2 -18 -18 -18 -18 | 7.6% | 7,419 |
+| 15 | mars_rashi × aspect_sun_jupiter | cold | 4/10 | +25 | -18 +107 +22 -18 -18 +2 -18 -18 +2 -18 | 9.5% | 18,020 |
+| 16 | venus_nakshatra × month_pillar | hot | 4/10 | +25 | +2 +22 +2 -18 -18 +107 -18 -18 -18 -18 | 7.7% | 20,739 |
+| 17 | moon_navamsa × kp_sun_star_lord | pos | 4/10 | +25 | +2 -18 -18 -18 -18 +22 -18 +2 +107 -18 | 7.4% | 18,028 |
+| 18 | kp_sun_sub_lord × yellow_black_path | hot | 4/10 | +25 | -18 -18 +107 -18 +22 +2 -18 -18 -18 +2 | 7.0% | 11,387 |
+| 19 | nayin × draw_in_daylight | pos | 4/10 | +25 | +2 -18 -18 +22 -18 -18 +107 -18 +2 -18 | 7.8% | 7,898 |
+| 20 | nakshatra × yellow_black_path | hot | 4/10 | +5 | +2 -18 -18 -18 +2 +107 +2 -18 -18 -18 | 8.9% | 8,412 |
+
+## Top 10 leads by win rate on the earlier draws, played on the last 10
+
+Average on the last 10: 1.0 winning draws, profit -154 (shifted calendars: 0.5, 1.2 winning draws, -166, -146).
+
+| # | Lead | Pattern | Earlier win rate | Profit earlier (RM) | Winning draws, last 10 | Profit, last 10 (RM) | Per draw (RM) |
+|---|---|---|---|---|---|---|---|
+| 1 | saturn_nakshatra × aspect_sun_moon | hot | 10.7% | -14,021 | 2/10 | -120 | -18 -18 +2 -18 -18 -18 -18 +22 -18 -18 |
+| 2 | year_yinyang × nine_star_month | cold | 10.5% | -12,736 | 0/10 | -180 | -18 -18 -18 -18 -18 -18 -18 -18 -18 -18 |
+| 3 | mercury_rashi × kp_moon_sub_lord | pos | 10.5% | -12,961 | 0/10 | -180 | -18 -18 -18 -18 -18 -18 -18 -18 -18 -18 |
+| 4 | rahu_rashi × kp_asc_star_lord | cold | 10.4% | -12,126 | 1/10 | -160 | -18 -18 -18 -18 -18 -18 -18 -18 -18 +2 |
+| 5 | kp_sun_star_lord × aspect_mercury_jupiter | hot+100 | 10.4% | -13,221 | 1/10 | -160 | -18 +2 -18 -18 -18 -18 -18 -18 -18 -18 |
+| 6 | adhika_masa × lunar_month | hot | 10.4% | -14,021 | 1/10 | -140 | -18 +22 -18 -18 -18 -18 -18 -18 -18 -18 |
+| 7 | moon_navamsa × mansion_28 | cold | 10.3% | -1,031 | 2/10 | -120 | -18 -18 -18 -18 -18 +2 -18 -18 -18 +22 |
+| 8 | kp_moon_sub_lord × day_god | pos | 10.3% | -12,736 | 0/10 | -180 | -18 -18 -18 -18 -18 -18 -18 -18 -18 -18 |
+| 9 | venus_nakshatra × aspects_hard | pos | 10.3% | -12,951 | 1/10 | -160 | -18 -18 -18 +2 -18 -18 -18 -18 -18 -18 |
+| 10 | karana × moon_navamsa | cold | 10.3% | -13,371 | 2/10 | -140 | -18 -18 -18 +2 -18 -18 +2 -18 -18 -18 |
 
 ## Re-ranked by profit before every draw
 
