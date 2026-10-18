@@ -30,6 +30,10 @@ SIMS = 50000
 OUT = os.path.join(common.ROOT, "analysis", "system_methods_results.json" if SYS == 9 else f"system{SYS}_methods_results.json")
 MD = os.path.join(common.ROOT, "analysis", f"SYSTEM{SYS}_METHODS.md")
 STRUCTS = ("disjoint", "overlap") if NSETS > 1 else ("single",)
+BONUS = "--bonus" in sys.argv                     # score on the 10 balls (8 main + 2 bonus), report the split
+if BONUS:
+    OUT = OUT.replace("_results.json", "_bonus_results.json")
+    MD = MD.replace(".md", "_BONUS.md")
 
 
 def sets_from(score, structure):
@@ -43,6 +47,12 @@ def main():
     g = common.load_game(KEY)
     k, n = g["k"], g["n"]
     W = g["hit"][-tt.HOLD:, 1:].astype(bool)
+    Bw = np.zeros_like(W)
+    if BONUS:
+        import csv
+        rows_ = list(csv.DictReader(open(os.path.join(common.DATA, common.GAMES[KEY][0]))))[-tt.HOLD:]
+        for i, r in enumerate(rows_):
+            Bw[i, [int(r["bonus1"]) - 1, int(r["bonus2"]) - 1]] = True
     G = tt.generators(KEY)
     rng = np.random.default_rng(9)
     res = {}
@@ -53,12 +63,14 @@ def main():
             if name == "baseline: random":
                 r = np.random.default_rng(6)
                 sets = [[sorted(r.choice(n, SYS, replace=False).tolist()) for _ in range(NSETS)] for _ in range(tt.HOLD)]
-            m = np.array([[W[i, s].sum() for s in sets[i]] for i in range(tt.HOLD)])
+            mm = np.array([[W[i, s].sum() for s in sets[i]] for i in range(tt.HOLD)])
+            mb = np.array([[Bw[i, s].sum() for s in sets[i]] for i in range(tt.HOLD)])
+            m = mm + mb
             best = m.max(1)
             sim_best, sim5, sim_max = np.zeros(SIMS), np.zeros(SIMS), np.zeros(SIMS)
             for i in range(tt.HOLD):
                 Ws = np.zeros((SIMS, n), bool)
-                Ws[np.arange(SIMS)[:, None], np.argsort(rng.random((SIMS, n)), 1)[:, :k]] = True
+                Ws[np.arange(SIMS)[:, None], np.argsort(rng.random((SIMS, n)), 1)[:, :k + (2 if BONUS else 0)]] = True
                 ms = np.stack([Ws[:, s].sum(1) for s in sets[i]], 1)
                 sim_best += ms.max(1)
                 sim5 += (ms >= 5).sum(1)
@@ -67,7 +79,10 @@ def main():
                          "chance": round(float((sim_best >= best.sum()).mean()), 4), "max": int(best.max()),
                          "chance_max": round(float((sim_max >= best.max()).mean()), 4),
                          "sets_5plus": int((m >= 5).sum()), "expected_5plus": round(float(sim5.mean()), 3),
-                         "per_draw": m.tolist(), "sets": [[[x + 1 for x in s] for s in ss] for ss in sets]})
+                         "per_draw": m.tolist(),
+                         "split": [f"{mm[i, j]}+{mb[i, j]}" for i, j in enumerate(m.argmax(1))],
+                         "main_sum": int(sum(mm[i, j] for i, j in enumerate(m.argmax(1)))),
+                         "bonus_sum": int(sum(mb[i, j] for i, j in enumerate(m.argmax(1)))), "sets": [[[x + 1 for x in s] for s in ss] for ss in sets]})
         rows.sort(key=lambda r: r["chance"])
         res[structure] = rows
     with open(OUT, "w") as fh:
@@ -77,11 +92,13 @@ def main():
           f"{SYS}-number set, summed over the 10 draws. Chances from 50,000 simulated fair draws on the same sets.", ""]
     for structure, rows in res.items():
         md += [f"## {structure.capitalize()} sets", "",
-               "| Method | Best per draw, summed (expected) | Chance | Most in one set (chance) | Sets with 5+ (expected) |",
-               "|---|---|---|---|---|"]
+               "| Method | Best per draw, summed (expected) | Chance | Most in one set (chance) | Sets with 5+ (expected) |"
+               + (" Better set per draw (main+bonus) | Main / bonus |" if BONUS else ""),
+               "|---|---|---|---|---|" + ("---|---|" if BONUS else "")]
         for r in rows:
             md.append(f"| {r['method']} | {r['best_sum']} ({r['expected']}) | {100 * r['chance']:.1f}% | {r['max']} "
-                      f"({100 * r['chance_max']:.1f}%) | {r['sets_5plus']} ({r['expected_5plus']}) |")
+                      f"({100 * r['chance_max']:.1f}%) | {r['sets_5plus']} ({r['expected_5plus']}) |"
+                      + (f" {' '.join(r['split'])} | {r['main_sum']} / {r['bonus_sum']} |" if BONUS else ""))
         md.append("")
     with open(MD, "w") as fh:
         fh.write("\n".join(md) + "\n")

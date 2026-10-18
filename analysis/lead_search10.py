@@ -21,6 +21,7 @@ Control: the same search on SHIFTS circularly shifted parameter calendars.
 python3 analysis/lead_search10.py  (~15 min on 4 cores) -> analysis/lead_search10_results.json, analysis/LEAD_SEARCH10.md
 python3 analysis/lead_search10.py --system 9 --sets 2 --structure disjoint|overlap --games ml8
     (--system 10 --sets 1: one 10-number set = the top 10 -> lead_search_sys10_*)
+    (--bonus: sets are scored on the 10 balls drawn, 8 main + 2 bonus, and every result is split into main + bonus)
     Magnum Life system play: 2 sets of 9 numbers (set B = ranks 10-18, or the top 6 + ranks 10-12);
     "3+" becomes "GE+" (default 5+); earlier Magnum Life leads re-scored -> lead_search_sys9_<structure>_*
 python3 analysis/lead_search10.py --tickets 20   the same with 20 tickets per draw (extra swaps with ranks up
@@ -47,6 +48,7 @@ SYSTEM = int(sys.argv[sys.argv.index("--system") + 1]) if "--system" in sys.argv
 NSETS = int(sys.argv[sys.argv.index("--sets") + 1]) if "--sets" in sys.argv else 2
 STRUCT = sys.argv[sys.argv.index("--structure") + 1] if "--structure" in sys.argv else "disjoint"
 GE = int(sys.argv[sys.argv.index("--ge") + 1]) if "--ge" in sys.argv else (5 if SYSTEM else 3)
+BONUS = "--bonus" in sys.argv                                        # Magnum Life: score main + bonus balls
 RUN_GAMES = sys.argv[sys.argv.index("--games") + 1].split(",") if "--games" in sys.argv else list(common.GAMES)
 if SYSTEM:
     NT = NSETS
@@ -55,7 +57,7 @@ TOP = 10
 SMOOTH = 5.0
 PATTERNS = ["hot", "cold", "pos", "hot+100"]
 SIMS = 200000
-TAG = (f"sys{SYSTEM}_{STRUCT}" if NSETS > 1 else f"sys{SYSTEM}") if SYSTEM else f"{NT}"
+TAG = ((f"sys{SYSTEM}_{STRUCT}" if NSETS > 1 else f"sys{SYSTEM}") if SYSTEM else f"{NT}") + ("_bonus" if BONUS else "")
 OUT = os.path.join(common.ROOT, "analysis", f"lead_search{TAG}_results.json")
 MD = os.path.join(common.ROOT, "analysis", f"LEAD_SEARCH{TAG.upper()}.md")
 PREV = os.path.join(common.ROOT, "analysis", "lead_search10_results.json")
@@ -117,12 +119,12 @@ def chance_best(k, n):
     rng = np.random.default_rng(0)
     pats = swap_patterns(k)
     war = np.zeros((SIMS, ktop(k)), bool)
-    pos = np.argsort(rng.random((SIMS, n)), 1)[:, :k]                # winning ranks
+    pos = np.argsort(rng.random((SIMS, n)), 1)[:, :k + (2 if BONUS else 0)]   # winning ranks (main + bonus balls)
     for j in range(ktop(k)):
         war[:, j] = (pos == j).any(1)
     m = np.stack([war[:, p].sum(1) for p in pats], 1)
     best = m.max(1)
-    return best.mean(), best.std(), (m >= GE).sum(1).mean(), (m >= GE).sum(1).std(), np.bincount(best, minlength=k + 1) / SIMS
+    return best.mean(), best.std(), (m >= GE).sum(1).mean(), (m >= GE).sum(1).std(), np.bincount(best, minlength=k + 3) / SIMS
 
 
 def init(key):
@@ -130,6 +132,12 @@ def init(key):
     k, n = g["k"], g["n"]
     H = g["hit"][:, 1:].astype(np.float32)
     d = len(H)
+    Bn = np.zeros_like(H)                                            # bonus balls
+    if BONUS:
+        import csv as _csv
+        rows = list(_csv.DictReader(open(os.path.join(common.DATA, common.GAMES[key][0]))))
+        for i, r in enumerate(rows):
+            Bn[i, [int(r["bonus1"]) - 1, int(r["bonus2"]) - 1]] = 1
     srt = np.sort(g["nums"], 1)
     P = np.zeros((d, k, n), np.float32)
     P[np.arange(d)[:, None], np.arange(k)[None, :], srt - 1] = 1
@@ -145,7 +153,7 @@ def init(key):
     rng = np.random.default_rng(23)
     shifts = [0] + [int(x) for x in rng.choice(np.arange(160, R - 160), SHIFTS, replace=False)]
     W.clear()
-    W.update(key=key, g=g, k=k, n=n, H=H, P=P, pglob=pglob, hot100=hot100, codes=codes, d=d, R=R,
+    W.update(key=key, g=g, k=k, n=n, H=H, Bn=Bn, P=P, pglob=pglob, hot100=hot100, codes=codes, d=d, R=R,
              pats=swap_patterns(k), eb=eb, sb=sb, e3=e3, s3=s3, shifts=shifts,
              periods=[(int(0.25 * R), int(0.5 * R)), (int(0.5 * R), int(0.7 * R)), (int(0.7 * R), R), (R, d)],
              tie=np.random.default_rng(3).random((d, n)).astype(np.float32) * 1e-4)
@@ -180,11 +188,15 @@ def evaluate(cid):
         top = np.argpartition(-S, kt - 1, 1)[:, :kt]
         top = np.take_along_axis(top, np.argsort(-np.take_along_axis(S, top, 1), 1), 1)
         war = np.take_along_axis(H, top, 1)                          # draws x (k+3): rank j drawn?
-        m = np.stack([war[:, q].sum(1) for q in W["pats"]], 1)
+        warb = np.take_along_axis(W["Bn"], top, 1)
+        mm = np.stack([war[:, q].sum(1) for q in W["pats"]], 1)       # main balls caught per set
+        mb = np.stack([warb[:, q].sum(1) for q in W["pats"]], 1)      # bonus balls caught per set
+        m = mm + mb
         best = m.max(1)
         ge3 = (m >= GE).sum(1)
         per = [(float(best[a:b].sum()), float(ge3[a:b].sum()), b - a) for a, b in W["periods"]]
         out[p] = {"per": per, "hold_best": best[W["R"]:].tolist(), "hold_m": m[W["R"]:].tolist(),
+                  "hold_main": mm[W["R"]:].tolist(), "hold_bonus": mb[W["R"]:].tolist(),
                   "hold_tickets": [[sorted(int(x) + 1 for x in top[r, q]) for q in W["pats"]] for r in range(W["R"], W["d"])]}
     return out
 
@@ -253,7 +265,7 @@ def main():
             if i % 50 == 0:
                 print(f"{i}/{len(tasks)}", flush=True)
     res = {"sets": len(sets), "patterns": PATTERNS, "games": {}}
-    md = [f"# Lead search for more numbers in one ticket ({TLAB} per draw)", "",
+    md = [f"# Lead search for more numbers in one ticket ({TLAB} per draw{', main + bonus balls' if BONUS else ''})", "",
           "Generated by `analysis/lead_search10.py`. 114 astrological parameters and all their pairs × 4 patterns "
           f"({len(sets) * 4:,} leads per game), {TLAB} per draw. Leads ranked, without the last {HOLD} draws, by the weakest of three "
           "period z-scores of the best-ticket matches; the top 10 are scored on the last 10 draws. *Chance* for a lead = "
@@ -278,6 +290,11 @@ def main():
                              "hold_chance": round(p_ge(hb), 4), "hold_max": int(max(max(r) for r in v["hold_m"])),
                              "hold_3plus": int(sum(sum(1 for x in r if x >= GE) for r in v["hold_m"])),
                              "hold_3plus_expected": round(HOLD * e3, 2), "hold_tickets": v["hold_tickets"]})
+                if BONUS:
+                    bi = [int(np.argmax(r)) for r in v["hold_m"]]
+                    rows[-1]["per_draw_split"] = [f"{v['hold_main'][i][j]}+{v['hold_bonus'][i][j]}" for i, j in enumerate(bi)]
+                    rows[-1]["main_sum"] = int(sum(v["hold_main"][i][j] for i, j in enumerate(bi)))
+                    rows[-1]["bonus_sum"] = int(sum(v["hold_bonus"][i][j] for i, j in enumerate(bi)))
             return rows
 
         for sh in range(SHIFTS + 1):
@@ -313,21 +330,25 @@ def main():
                f"the same selection on shifted calendars: {', '.join(map(str, S['shifted_top10_hold_best']))}. Best weakest-period z "
                f"{S['real_best_weakest_z']} (shifted {', '.join(map(str, S['shifted_best_weakest_z']))}); leads with z > 1 in all three "
                f"periods {S['real_n_consistent']} (shifted {', '.join(map(str, S['shifted_n_consistent']))}).", "",
-               f"| # | Lead | Pattern | z early / valid / late | Last 10: best-ticket sum (expected) | Chance | Max in one ticket | {GLAB} tickets (expected) |",
-               "|---|---|---|---|---|---|---|---|"]
+               f"| # | Lead | Pattern | z early / valid / late | Last 10: best-ticket sum (expected) | Chance | Max in one ticket | {GLAB} tickets (expected) |"
+               + (" Better set per draw (main+bonus) | Main / bonus caught |" if BONUS else ""),
+               "|---|---|---|---|---|---|---|---|" + ("---|---|" if BONUS else "")]
         for i, r in enumerate(real["top"], 1):
             md.append(f"| {i} | {r['set']} | {r['pattern']} | {' / '.join(f'{x:+.2f}' for x in r['z_periods'])} | "
                       f"{r['hold_best_sum']} ({r['hold_expected']}) | {100 * r['hold_chance']:.1f}% | {r['hold_max']} | "
-                      f"{r['hold_3plus']} ({r['hold_3plus_expected']}) |")
+                      f"{r['hold_3plus']} ({r['hold_3plus_expected']}) |"
+                      + (f" {' '.join(r['per_draw_split'])} | {r['main_sum']} / {r['bonus_sum']} |" if BONUS else ""))
         md.append("")
         if game.get("previous_leads"):
             md += [f"**Earlier leads, now with {TLAB}** (rank now = rank among all leads on the earlier periods):", "",
-                   f"| Lead | Pattern | Rank now | z early / valid / late | Last 10: best-ticket sum (expected) | Chance | Max in one ticket | {GLAB} tickets (expected) |",
-                   "|---|---|---|---|---|---|---|---|"]
+                   f"| Lead | Pattern | Rank now | z early / valid / late | Last 10: best-ticket sum (expected) | Chance | Max in one ticket | {GLAB} tickets (expected) |"
+                   + (" Better set per draw (main+bonus) | Main / bonus caught |" if BONUS else ""),
+                   "|---|---|---|---|---|---|---|---|" + ("---|---|" if BONUS else "")]
             for r in game["previous_leads"]:
                 md.append(f"| {r['set']} | {r['pattern']} | {r['rank_now']} | {' / '.join(f'{x:+.2f}' for x in r['z_periods'])} | "
                           f"{r['hold_best_sum']} ({r['hold_expected']}) | {100 * r['hold_chance']:.1f}% | {r['hold_max']} | "
-                          f"{r['hold_3plus']} ({r['hold_3plus_expected']}) |")
+                          f"{r['hold_3plus']} ({r['hold_3plus_expected']}) |"
+                          + (f" {' '.join(r['per_draw_split'])} | {r['main_sum']} / {r['bonus_sum']} |" if BONUS else ""))
             md.append("")
     with open(OUT, "w") as fh:
         json.dump(res, fh, indent=1, default=float)

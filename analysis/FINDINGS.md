@@ -248,6 +248,14 @@ caught 6 of 8 in one overlap set. Non-parameter methods ([SYSTEM9_METHODS.md](SY
 227 vs 222.7 expected (shifted 210–235). Mars rashi × month (cold) ranked #2 on the earlier periods and caught 30 vs 22.3
 (chance 2.3%), no draw above 4 of 8. Best other methods: analogy "direct" 28 (6.9%) and "map" 28 (7.4%, one set with 6).
 
+**System play with bonus balls** (`--bonus`; [LEAD_SEARCHSYS9_DISJOINT_BONUS.md](LEAD_SEARCHSYS9_DISJOINT_BONUS.md),
+[LEAD_SEARCHSYS9_OVERLAP_BONUS.md](LEAD_SEARCHSYS9_OVERLAP_BONUS.md), [LEAD_SEARCHSYS10_BONUS.md](LEAD_SEARCHSYS10_BONUS.md),
+SYSTEM9/10_METHODS_BONUS.md): sets scored on all 10 balls (8 main + 2 bonus), results split main + bonus. Top 10 new leads
+on the last 10 draws: System 9 disjoint 310 vs 325.9 (shifted 325–339), overlap 303 vs 292.1 (292–318), System 10 280 vs
+278.1 (260–299) — at chance. Earlier leads (10 balls): Mars rashi × month 32 vs 32.6 / 34 vs 29.2 / 34 vs 27.8, but only 3–4
+bonus balls (about 5.5 expected); Mars rashi × Venus combust 36 vs 29.2 (overlap, 4%) and 35 vs 27.8 (System 10, 4.3%);
+Mars rashi × tropical Sun sign 40 vs 32.6 (disjoint, 1.2%) but ranked 9,007th on the earlier periods.
+
 ## Is the 4D lead special? (`lead_4d_robustness.py`, `lead_hunt.py`)
 
 No. Scored the same way:
