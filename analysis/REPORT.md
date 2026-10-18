@@ -413,6 +413,17 @@ The neural model never achieves a validation loss below "all numbers equally lik
 5–20 epochs; its tickets are identical on shifted calendars (6/55: z +1.72 every time), i.e. they follow overall number
 frequency, not the parameters. On the test draws every language model fits the results worse than uniform.
 
+### Using the analogy itself as the forecaster (`analogy_model.py`)
+
+"King − man + woman = queen" as a predictor: numbers(today) ≈ numbers(A) − conditions(A) + conditions(today), with
+the astrology term weighted by λ and A a past draw (previous draw, or the 10 most similar earlier draws), or a learned
+condition→numbers map ("direction" vectors fitted by ridge regression). λ ∈ {0, 0.5, 1, 2} and the dimensions were
+chosen on validation draws; λ = 0 would mean the astrology term does not help. Validation chose λ = 0 in 5 of 12
+settings; test scores (z −0.84 to +2.20 over 16 method × game results) and ranking quality (AUC 0.487–0.509) are
+inside the shifted-calendar range (z −2.51 to +2.37, AUC 0.491–0.514). The two best scores (6/50 +2.20, Life +1.83)
+are what the best of 16 tries gives by chance, and the 6/50 one has the astrology term switched off. Details in
+FINDINGS.md and `analogy_results.json`.
+
 ## Conclusion
 
 The Toto and Magnum Life draws are fair for practical purposes. Vedic, KP and Chinese almanac

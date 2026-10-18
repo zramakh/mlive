@@ -106,6 +106,26 @@ never beats "all numbers equally likely", early stopping keeps it at 5–20 epoc
 shifted calendars, i.e. they ignore the parameters and follow overall number frequency. Every LM fits the test draws
 worse than uniform (log-likelihood −0.008 to −0.035 nats per draw).
 
+## Analogy forecaster (`analogy_model.py`)
+
+numbers(today) ≈ numbers(A) − conditions(A) + λ·conditions(today), with A = the previous draw (`last`), the 10 most
+similar earlier draws (`similar`), the same through a learned condition→numbers map (`map`), or the map alone
+(`direct`). λ (the weight of the astrology term) and dimensions chosen on validation draws; test on later draws and the
+last 10; 5 shifted calendars as control.
+
+| Game | last (λ) | similar (λ) | map (λ) | direct | Shifted calendars, all methods | AUC real / shifted |
+|---|---|---|---|---|---|---|
+| 6/50 | −0.54 (2) | +2.20 (0) | +2.20 (0) | +0.08 | −0.78 to +1.10 | 0.487–0.504 / 0.491–0.507 |
+| 6/55 | +1.26 (0) | −0.01 (0) | −0.01 (0) | +0.74 | −1.16 to +1.72 | 0.504–0.509 / 0.496–0.510 |
+| 6/58 | −0.24 (2) | −0.60 (2) | +0.71 (2) | −0.36 | −2.51 to +2.37 | 0.498–0.501 / 0.494–0.510 |
+| Life | +1.83 (2) | +0.38 (2) | −0.84 (2) | −0.49 | −0.90 to +1.72 | 0.504–0.509 / 0.498–0.514 |
+
+(test z of ticket matches.) Validation chose λ = 0 (astrology term off) in 5 of the 12 analogy settings. The two
+highest scores do not need the analogy: 6/50 `similar` / `map` +2.20 has λ = 0, and Magnum Life `last` +1.83 is one of
+16 scores, inside what the shifted calendars produce (up to +2.37). No method's AUC (how well the real numbers rank) is
+above the shifted calendars'. Last 10 draws: all within the shifted range (e.g. Life 20–23 vs 17.8 expected, shifted
+12–23).
+
 ## Is the 4D lead special? (`lead_4d_robustness.py`, `lead_hunt.py`)
 
 No. Scored the same way:
