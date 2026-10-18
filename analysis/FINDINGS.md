@@ -194,6 +194,17 @@ without astrology −1.73); 6/55 γ 2 (karana × adhika masa) → −1.15 (+0.93
 +4.8 here and +3.1 to +4.8 on 5 shifted calendars, which also always choose γ > 0; their test z −1.28 to +1.32. The
 astrology term wins the selection because it adds flexibility to fit noise, and it does not help on later draws.
 
+## Further astrological factors from web research (`extra_astro.py`, [EXTRA_ASTRO.md](EXTRA_ASTRO.md))
+
+Practitioner sources (no tested evidence found) suggested the Part of Fortune, Western aspects, KP ruling planets,
+date numerology and He Tu numbers; the daily Nine Star and Plum Blossom trigrams were added from the almanac. Eleven
+direct number rules (no fitting) × 4 games: z −2.28 to +2.83, 3 with |z| > 1.96 vs 2.2 on shifted calendars, mean z
++0.08 (29% of shifts higher). The best, Star Toto's universal day number (numbers with the date's digital root), is
+1.08× (z +2.83, positive in all three thirds of its history), but it is the best of 44 tests (8.5% of shifted
+calendars beat it) and absent from Power and Supreme Toto, drawn the same evenings (thirds −0.95/−0.27/+0.12 and
+−2.47/+1.37/+0.39); its last 10: 3 vs 6.7. Logged as `universal_day` for 18 and 21 Oct. As lead parameters the new
+factors match the shifted calendars (replication lift 0.966–1.001 vs 0.980–1.007; walk-forward leads −1.57 to +2.12).
+
 ## Is the 4D lead special? (`lead_4d_robustness.py`, `lead_hunt.py`)
 
 No. Scored the same way:

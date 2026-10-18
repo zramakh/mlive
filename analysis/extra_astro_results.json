@@ -1,0 +1,1208 @@
+{
+ "rules": {
+  "toto50": {
+   "pof": {
+    "hits": 161,
+    "expected": 172.4,
+    "ratio": 0.9337,
+    "z": -0.93,
+    "share_shifts_z_ge": 0.79,
+    "last10_hits": 3,
+    "last10_expected": 1.2,
+    "last10_share_shifts_ge": 0.12
+   },
+   "pof3": {
+    "hits": 497,
+    "expected": 517.3,
+    "ratio": 0.9607,
+    "z": -0.97,
+    "share_shifts_z_ge": 0.835,
+    "last10_hits": 4,
+    "last10_expected": 3.6,
+    "last10_share_shifts_ge": 0.485
+   },
+   "pof_degree": {
+    "hits": 183,
+    "expected": 172.4,
+    "ratio": 1.0612,
+    "z": 0.86,
+    "share_shifts_z_ge": 0.11,
+    "last10_hits": 2,
+    "last10_expected": 1.2,
+    "last10_share_shifts_ge": 0.445
+   },
+   "asc": {
+    "hits": 170,
+    "expected": 172.4,
+    "ratio": 0.9859,
+    "z": -0.2,
+    "share_shifts_z_ge": 0.52,
+    "last10_hits": 0,
+    "last10_expected": 1.2,
+    "last10_share_shifts_ge": 1.0
+   },
+   "moon": {
+    "hits": 171,
+    "expected": 172.4,
+    "ratio": 0.9916,
+    "z": -0.12,
+    "share_shifts_z_ge": 0.555,
+    "last10_hits": 4,
+    "last10_expected": 1.2,
+    "last10_share_shifts_ge": 0.005
+   },
+   "jupiter": {
+    "hits": 190,
+    "expected": 172.4,
+    "ratio": 1.1018,
+    "z": 1.43,
+    "share_shifts_z_ge": 0.105,
+    "last10_hits": 2,
+    "last10_expected": 1.2,
+    "last10_share_shifts_ge": 0.285
+   },
+   "kp_numbers": {
+    "hits": 510,
+    "expected": 509.2,
+    "ratio": 1.0016,
+    "z": 0.04,
+    "share_shifts_z_ge": 0.485,
+    "last10_hits": 5,
+    "last10_expected": 3.6,
+    "last10_share_shifts_ge": 0.22
+   },
+   "ruling_planets": {
+    "hits": 3879,
+    "expected": 3876.6,
+    "ratio": 1.0006,
+    "z": 0.06,
+    "share_shifts_z_ge": 0.465,
+    "last10_hits": 30,
+    "last10_expected": 27.0,
+    "last10_share_shifts_ge": 0.185
+   },
+   "universal_day": {
+    "hits": 1036,
+    "expected": 957.7,
+    "ratio": 1.0817,
+    "z": 2.83,
+    "share_shifts_z_ge": 0.0,
+    "last10_hits": 3,
+    "last10_expected": 6.72,
+    "last10_share_shifts_ge": 0.97
+   },
+   "he_tu": {
+    "hits": 1784,
+    "expected": 1724.4,
+    "ratio": 1.0346,
+    "z": 1.69,
+    "share_shifts_z_ge": 0.03,
+    "last10_hits": 11,
+    "last10_expected": 12.0,
+    "last10_share_shifts_ge": 0.675
+   },
+   "nine_star": {
+    "hits": 960,
+    "expected": 957.6,
+    "ratio": 1.0025,
+    "z": 0.09,
+    "share_shifts_z_ge": 0.435,
+    "last10_hits": 4,
+    "last10_expected": 6.6,
+    "last10_share_shifts_ge": 0.92
+   }
+  },
+  "toto55": {
+   "pof": {
+    "hits": 307,
+    "expected": 311.6,
+    "ratio": 0.9854,
+    "z": -0.27,
+    "share_shifts_z_ge": 0.62,
+    "last10_hits": 2,
+    "last10_expected": 1.09,
+    "last10_share_shifts_ge": 0.29
+   },
+   "pof3": {
+    "hits": 925,
+    "expected": 934.7,
+    "ratio": 0.9896,
+    "z": -0.34,
+    "share_shifts_z_ge": 0.635,
+    "last10_hits": 3,
+    "last10_expected": 3.27,
+    "last10_share_shifts_ge": 0.635
+   },
+   "pof_degree": {
+    "hits": 312,
+    "expected": 311.6,
+    "ratio": 1.0014,
+    "z": 0.03,
+    "share_shifts_z_ge": 0.44,
+    "last10_hits": 3,
+    "last10_expected": 1.09,
+    "last10_share_shifts_ge": 0.055
+   },
+   "asc": {
+    "hits": 300,
+    "expected": 311.6,
+    "ratio": 0.9629,
+    "z": -0.69,
+    "share_shifts_z_ge": 0.795,
+    "last10_hits": 1,
+    "last10_expected": 1.09,
+    "last10_share_shifts_ge": 0.8
+   },
+   "moon": {
+    "hits": 296,
+    "expected": 311.6,
+    "ratio": 0.95,
+    "z": -0.93,
+    "share_shifts_z_ge": 0.86,
+    "last10_hits": 1,
+    "last10_expected": 1.09,
+    "last10_share_shifts_ge": 0.67
+   },
+   "jupiter": {
+    "hits": 323,
+    "expected": 311.6,
+    "ratio": 1.0367,
+    "z": 0.69,
+    "share_shifts_z_ge": 0.21,
+    "last10_hits": 1,
+    "last10_expected": 1.09,
+    "last10_share_shifts_ge": 0.71
+   },
+   "kp_numbers": {
+    "hits": 920,
+    "expected": 924.3,
+    "ratio": 0.9953,
+    "z": -0.15,
+    "share_shifts_z_ge": 0.56,
+    "last10_hits": 5,
+    "last10_expected": 3.16,
+    "last10_share_shifts_ge": 0.265
+   },
+   "ruling_planets": {
+    "hits": 7813,
+    "expected": 7737.6,
+    "ratio": 1.0097,
+    "z": 1.23,
+    "share_shifts_z_ge": 0.165,
+    "last10_hits": 27,
+    "last10_expected": 26.73,
+    "last10_share_shifts_ge": 0.63
+   },
+   "universal_day": {
+    "hits": 1881,
+    "expected": 1905.8,
+    "ratio": 0.987,
+    "z": -0.63,
+    "share_shifts_z_ge": 0.815,
+    "last10_hits": 5,
+    "last10_expected": 6.76,
+    "last10_share_shifts_ge": 0.775
+   },
+   "he_tu": {
+    "hits": 3443,
+    "expected": 3427.2,
+    "ratio": 1.0046,
+    "z": 0.32,
+    "share_shifts_z_ge": 0.32,
+    "last10_hits": 8,
+    "last10_expected": 12.0,
+    "last10_share_shifts_ge": 0.895
+   },
+   "nine_star": {
+    "hits": 1890,
+    "expected": 1904.0,
+    "ratio": 0.9927,
+    "z": -0.36,
+    "share_shifts_z_ge": 0.605,
+    "last10_hits": 2,
+    "last10_expected": 6.65,
+    "last10_share_shifts_ge": 0.96
+   }
+  },
+  "toto58": {
+   "pof": {
+    "hits": 302,
+    "expected": 288.2,
+    "ratio": 1.0479,
+    "z": 0.86,
+    "share_shifts_z_ge": 0.215,
+    "last10_hits": 1,
+    "last10_expected": 1.03,
+    "last10_share_shifts_ge": 0.685
+   },
+   "pof3": {
+    "hits": 893,
+    "expected": 864.6,
+    "ratio": 1.0328,
+    "z": 1.04,
+    "share_shifts_z_ge": 0.13,
+    "last10_hits": 5,
+    "last10_expected": 3.1,
+    "last10_share_shifts_ge": 0.195
+   },
+   "pof_degree": {
+    "hits": 281,
+    "expected": 288.2,
+    "ratio": 0.975,
+    "z": -0.45,
+    "share_shifts_z_ge": 0.665,
+    "last10_hits": 1,
+    "last10_expected": 1.03,
+    "last10_share_shifts_ge": 0.615
+   },
+   "asc": {
+    "hits": 260,
+    "expected": 288.2,
+    "ratio": 0.9021,
+    "z": -1.75,
+    "share_shifts_z_ge": 0.965,
+    "last10_hits": 0,
+    "last10_expected": 1.03,
+    "last10_share_shifts_ge": 1.0
+   },
+   "moon": {
+    "hits": 299,
+    "expected": 288.2,
+    "ratio": 1.0374,
+    "z": 0.67,
+    "share_shifts_z_ge": 0.25,
+    "last10_hits": 2,
+    "last10_expected": 1.03,
+    "last10_share_shifts_ge": 0.295
+   },
+   "jupiter": {
+    "hits": 281,
+    "expected": 288.2,
+    "ratio": 0.975,
+    "z": -0.45,
+    "share_shifts_z_ge": 0.61,
+    "last10_hits": 0,
+    "last10_expected": 1.03,
+    "last10_share_shifts_ge": 1.0
+   },
+   "kp_numbers": {
+    "hits": 890,
+    "expected": 854.3,
+    "ratio": 1.0418,
+    "z": 1.31,
+    "share_shifts_z_ge": 0.11,
+    "last10_hits": 7,
+    "last10_expected": 3.1,
+    "last10_share_shifts_ge": 0.01
+   },
+   "ruling_planets": {
+    "hits": 7315,
+    "expected": 7453.1,
+    "ratio": 0.9815,
+    "z": -2.28,
+    "share_shifts_z_ge": 1.0,
+    "last10_hits": 22,
+    "last10_expected": 26.59,
+    "last10_share_shifts_ge": 0.785
+   },
+   "universal_day": {
+    "hits": 1843,
+    "expected": 1859.0,
+    "ratio": 0.9914,
+    "z": -0.41,
+    "share_shifts_z_ge": 0.675,
+    "last10_hits": 4,
+    "last10_expected": 6.72,
+    "last10_share_shifts_ge": 0.955
+   },
+   "he_tu": {
+    "hits": 3334,
+    "expected": 3342.2,
+    "ratio": 0.9975,
+    "z": -0.17,
+    "share_shifts_z_ge": 0.66,
+    "last10_hits": 14,
+    "last10_expected": 12.0,
+    "last10_share_shifts_ge": 0.265
+   },
+   "nine_star": {
+    "hits": 1892,
+    "expected": 1857.0,
+    "ratio": 1.0188,
+    "z": 0.9,
+    "share_shifts_z_ge": 0.155,
+    "last10_hits": 6,
+    "last10_expected": 6.62,
+    "last10_share_shifts_ge": 0.72
+   }
+  },
+  "ml8": {
+   "pof": {
+    "hits": 301,
+    "expected": 299.1,
+    "ratio": 1.0063,
+    "z": 0.12,
+    "share_shifts_z_ge": 0.45,
+    "last10_hits": 4,
+    "last10_expected": 2.22,
+    "last10_share_shifts_ge": 0.15
+   },
+   "pof3": {
+    "hits": 903,
+    "expected": 897.3,
+    "ratio": 1.0063,
+    "z": 0.22,
+    "share_shifts_z_ge": 0.435,
+    "last10_hits": 9,
+    "last10_expected": 6.67,
+    "last10_share_shifts_ge": 0.205
+   },
+   "pof_degree": {
+    "hits": 286,
+    "expected": 299.1,
+    "ratio": 0.9562,
+    "z": -0.86,
+    "share_shifts_z_ge": 0.795,
+    "last10_hits": 1,
+    "last10_expected": 2.22,
+    "last10_share_shifts_ge": 0.94
+   },
+   "asc": {
+    "hits": 325,
+    "expected": 299.1,
+    "ratio": 1.0866,
+    "z": 1.7,
+    "share_shifts_z_ge": 0.04,
+    "last10_hits": 3,
+    "last10_expected": 2.22,
+    "last10_share_shifts_ge": 0.465
+   },
+   "moon": {
+    "hits": 306,
+    "expected": 299.1,
+    "ratio": 1.023,
+    "z": 0.45,
+    "share_shifts_z_ge": 0.335,
+    "last10_hits": 3,
+    "last10_expected": 2.22,
+    "last10_share_shifts_ge": 0.39
+   },
+   "jupiter": {
+    "hits": 294,
+    "expected": 299.1,
+    "ratio": 0.9829,
+    "z": -0.34,
+    "share_shifts_z_ge": 0.67,
+    "last10_hits": 5,
+    "last10_expected": 2.22,
+    "last10_share_shifts_ge": 0.005
+   },
+   "kp_numbers": {
+    "hits": 833,
+    "expected": 883.1,
+    "ratio": 0.9433,
+    "z": -1.97,
+    "share_shifts_z_ge": 0.985,
+    "last10_hits": 6,
+    "last10_expected": 6.44,
+    "last10_share_shifts_ge": 0.755
+   },
+   "ruling_planets": {
+    "hits": 4848,
+    "expected": 4851.6,
+    "ratio": 0.9993,
+    "z": -0.08,
+    "share_shifts_z_ge": 0.55,
+    "last10_hits": 33,
+    "last10_expected": 35.56,
+    "last10_share_shifts_ge": 0.8
+   },
+   "universal_day": {
+    "hits": 1194,
+    "expected": 1196.4,
+    "ratio": 0.998,
+    "z": -0.08,
+    "share_shifts_z_ge": 0.505,
+    "last10_hits": 6,
+    "last10_expected": 8.89,
+    "last10_share_shifts_ge": 0.895
+   },
+   "he_tu": {
+    "hits": 2205,
+    "expected": 2153.8,
+    "ratio": 1.0238,
+    "z": 1.38,
+    "share_shifts_z_ge": 0.125,
+    "last10_hits": 14,
+    "last10_expected": 15.78,
+    "last10_share_shifts_ge": 0.835
+   },
+   "nine_star": {
+    "hits": 1195,
+    "expected": 1196.4,
+    "ratio": 0.9988,
+    "z": -0.05,
+    "share_shifts_z_ge": 0.55,
+    "last10_hits": 8,
+    "last10_expected": 8.89,
+    "last10_share_shifts_ge": 0.705
+   }
+  },
+  "summary": {
+   "tests": 44,
+   "max_z": 2.83,
+   "min_z": -2.28,
+   "n_abs_z_gt_1.96": 3,
+   "shifted_mean_n_abs_z_gt_1.96": 2.2,
+   "share_shifts_max_z_ge": 0.085,
+   "mean_z": 0.078,
+   "share_shifts_mean_z_ge": 0.29
+  }
+ },
+ "leads": {
+  "toto50": {
+   "singles": {
+    "max_rec_z": 0.55,
+    "n_rec_z_gt3": 0,
+    "mean_rec_z": -0.794,
+    "max_rep_z": 0.64,
+    "mean_rep_z": -0.676,
+    "rep_lift": 0.9656,
+    "best_assoc_z": 4.38,
+    "tests": 31,
+    "shifted_mean": {
+     "max_rec_z": 1.183,
+     "n_rec_z_gt3": 0.05,
+     "mean_rec_z": -0.501,
+     "max_rep_z": 1.456,
+     "mean_rep_z": -0.391,
+     "rep_lift": 0.98,
+     "best_assoc_z": 4.293
+    },
+    "real_beats_shifts": {
+     "max_rec_z": 2,
+     "n_rec_z_gt3": 0,
+     "mean_rec_z": 1,
+     "max_rep_z": 0,
+     "mean_rep_z": 0,
+     "rep_lift": 0,
+     "best_assoc_z": 12
+    },
+    "walk_forward_leads": [
+     {
+      "params": "aspect_moon_jupiter",
+      "pre_rec_z": 2.037,
+      "test_rep_hits": 298,
+      "test_rep_expected": 311.04,
+      "test_rep_z": -0.832
+     },
+     {
+      "params": "aspect_sun_mercury",
+      "pre_rec_z": 1.379,
+      "test_rep_hits": 288,
+      "test_rep_expected": 311.04,
+      "test_rep_z": -1.47
+     },
+     {
+      "params": "aspect_moon_mercury",
+      "pre_rec_z": 1.339,
+      "test_rep_hits": 320,
+      "test_rep_expected": 311.04,
+      "test_rep_z": 0.572
+     },
+     {
+      "params": "aspect_mercury_venus",
+      "pre_rec_z": 1.147,
+      "test_rep_hits": 290,
+      "test_rep_expected": 311.04,
+      "test_rep_z": -1.342
+     },
+     {
+      "params": "aspect_sun_venus",
+      "pre_rec_z": 1.054,
+      "test_rep_hits": 295,
+      "test_rep_expected": 311.04,
+      "test_rep_z": -1.023
+     }
+    ],
+    "top_replication": [
+     {
+      "params": "aspect_sun_saturn",
+      "rep_z": 0.635,
+      "pre_rec_z": 0.418
+     },
+     {
+      "params": "aspect_moon_mercury",
+      "rep_z": 0.572,
+      "pre_rec_z": 1.339
+     },
+     {
+      "params": "nine_star_day",
+      "rep_z": 0.189,
+      "pre_rec_z": -0.777
+     },
+     {
+      "params": "universal_day",
+      "rep_z": 0.061,
+      "pre_rec_z": 0.333
+     },
+     {
+      "params": "aspect_sun_mars",
+      "rep_z": -0.003,
+      "pre_rec_z": -0.223
+     }
+    ]
+   },
+   "pairs": {
+    "max_rec_z": 3.19,
+    "n_rec_z_gt3": 3,
+    "mean_rec_z": -0.436,
+    "max_rep_z": 2.93,
+    "mean_rep_z": -0.266,
+    "rep_lift": 0.9849,
+    "best_assoc_z": 6.11,
+    "tests": 3038,
+    "shifted_mean": {
+     "max_rec_z": 3.222,
+     "n_rec_z_gt3": 2.25,
+     "mean_rec_z": -0.246,
+     "max_rep_z": 3.236,
+     "mean_rep_z": -0.183,
+     "rep_lift": 0.99,
+     "best_assoc_z": 6.274
+    },
+    "real_beats_shifts": {
+     "max_rec_z": 9,
+     "n_rec_z_gt3": 16,
+     "mean_rec_z": 3,
+     "max_rep_z": 2,
+     "mean_rep_z": 2,
+     "rep_lift": 2,
+     "best_assoc_z": 7
+    },
+    "walk_forward_leads": [
+     {
+      "params": "ayana x aspect_moon_jupiter",
+      "pre_rec_z": 3.112,
+      "test_rep_hits": 307,
+      "test_rep_expected": 311.04,
+      "test_rep_z": -0.258
+     },
+     {
+      "params": "lagna_rashi x aspect_moon_mercury",
+      "pre_rec_z": 2.964,
+      "test_rep_hits": 293,
+      "test_rep_expected": 311.04,
+      "test_rep_z": -1.151
+     },
+     {
+      "params": "day_officer x aspect_moon_jupiter",
+      "pre_rec_z": 2.871,
+      "test_rep_hits": 290,
+      "test_rep_expected": 306.72,
+      "test_rep_z": -1.074
+     },
+     {
+      "params": "day_officer x aspect_sun_moon",
+      "pre_rec_z": 2.803,
+      "test_rep_hits": 317,
+      "test_rep_expected": 311.04,
+      "test_rep_z": 0.38
+     },
+     {
+      "params": "aspect_moon_jupiter x universal_day",
+      "pre_rec_z": 2.731,
+      "test_rep_hits": 310,
+      "test_rep_expected": 311.04,
+      "test_rep_z": -0.066
+     }
+    ],
+    "top_replication": [
+     {
+      "params": "day_pillar x nine_star_day",
+      "rep_z": 2.932,
+      "pre_rec_z": -0.095
+     },
+     {
+      "params": "kp_asc_star_lord x aspect_venus_mars",
+      "rep_z": 2.868,
+      "pre_rec_z": 0.484
+     },
+     {
+      "params": "jupiter_nakshatra x aspect_jupiter_saturn",
+      "rep_z": 2.858,
+      "pre_rec_z": 0.839
+     },
+     {
+      "params": "solar_term x aspect_mars_saturn",
+      "rep_z": 2.769,
+      "pre_rec_z": 0.145
+     },
+     {
+      "params": "kp_sun_number x aspect_mercury_mars",
+      "rep_z": 2.738,
+      "pre_rec_z": 0.27
+     }
+    ]
+   }
+  },
+  "toto55": {
+   "singles": {
+    "max_rec_z": 0.93,
+    "n_rec_z_gt3": 0,
+    "mean_rec_z": -0.245,
+    "max_rep_z": 1.08,
+    "mean_rep_z": -0.109,
+    "rep_lift": 0.9958,
+    "best_assoc_z": 4.42,
+    "tests": 31,
+    "shifted_mean": {
+     "max_rec_z": 1.484,
+     "n_rec_z_gt3": 0.0,
+     "mean_rec_z": -0.234,
+     "max_rep_z": 1.816,
+     "mean_rep_z": -0.08,
+     "rep_lift": 0.997,
+     "best_assoc_z": 4.588
+    },
+    "real_beats_shifts": {
+     "max_rec_z": 2,
+     "n_rec_z_gt3": 0,
+     "mean_rec_z": 9,
+     "max_rep_z": 0,
+     "mean_rep_z": 7,
+     "rep_lift": 6,
+     "best_assoc_z": 7
+    },
+    "walk_forward_leads": [
+     {
+      "params": "aspect_mercury_jupiter",
+      "pre_rec_z": 1.253,
+      "test_rep_hits": 556,
+      "test_rep_expected": 560.95,
+      "test_rep_z": -0.232
+     },
+     {
+      "params": "aspect_mars_jupiter",
+      "pre_rec_z": 1.016,
+      "test_rep_hits": 566,
+      "test_rep_expected": 560.95,
+      "test_rep_z": 0.237
+     },
+     {
+      "params": "aspect_mercury_venus",
+      "pre_rec_z": 0.873,
+      "test_rep_hits": 572,
+      "test_rep_expected": 560.95,
+      "test_rep_z": 0.519
+     },
+     {
+      "params": "pof_rashi",
+      "pre_rec_z": 0.78,
+      "test_rep_hits": 536,
+      "test_rep_expected": 560.95,
+      "test_rep_z": -1.171
+     },
+     {
+      "params": "universal_day",
+      "pre_rec_z": 0.683,
+      "test_rep_hits": 556,
+      "test_rep_expected": 560.95,
+      "test_rep_z": -0.232
+     }
+    ],
+    "top_replication": [
+     {
+      "params": "aspect_jupiter_saturn",
+      "rep_z": 1.083,
+      "pre_rec_z": 0.301
+     },
+     {
+      "params": "aspect_sun_mercury",
+      "rep_z": 0.989,
+      "pre_rec_z": -0.34
+     },
+     {
+      "params": "pof_nakshatra",
+      "rep_z": 0.66,
+      "pre_rec_z": -0.477
+     },
+     {
+      "params": "aspect_mars_saturn",
+      "rep_z": 0.566,
+      "pre_rec_z": -0.484
+     },
+     {
+      "params": "aspect_mercury_venus",
+      "rep_z": 0.519,
+      "pre_rec_z": 0.873
+     }
+    ]
+   },
+   "pairs": {
+    "max_rec_z": 3.65,
+    "n_rec_z_gt3": 7,
+    "mean_rec_z": -0.059,
+    "max_rep_z": 3.69,
+    "mean_rep_z": -0.055,
+    "rep_lift": 0.9988,
+    "best_assoc_z": 7.32,
+    "tests": 3038,
+    "shifted_mean": {
+     "max_rec_z": 3.405,
+     "n_rec_z_gt3": 3.65,
+     "mean_rec_z": -0.07,
+     "max_rep_z": 3.403,
+     "mean_rep_z": -0.012,
+     "rep_lift": 1.0,
+     "best_assoc_z": 6.582
+    },
+    "real_beats_shifts": {
+     "max_rec_z": 15,
+     "n_rec_z_gt3": 18,
+     "mean_rec_z": 13,
+     "max_rep_z": 17,
+     "mean_rep_z": 6,
+     "rep_lift": 7,
+     "best_assoc_z": 20
+    },
+    "walk_forward_leads": [
+     {
+      "params": "moon_navamsa x plum_trigrams",
+      "pre_rec_z": 3.418,
+      "test_rep_hits": 535,
+      "test_rep_expected": 560.95,
+      "test_rep_z": -1.218
+     },
+     {
+      "params": "moon_phase x plum_trigrams",
+      "pre_rec_z": 3.206,
+      "test_rep_hits": 546,
+      "test_rep_expected": 560.95,
+      "test_rep_z": -0.702
+     },
+     {
+      "params": "karana x aspect_venus_jupiter",
+      "pre_rec_z": 2.965,
+      "test_rep_hits": 534,
+      "test_rep_expected": 560.29,
+      "test_rep_z": -1.235
+     },
+     {
+      "params": "nine_star_year x aspect_moon_saturn",
+      "pre_rec_z": 2.959,
+      "test_rep_hits": 524,
+      "test_rep_expected": 560.95,
+      "test_rep_z": -1.735
+     },
+     {
+      "params": "moon_navamsa x aspect_mercury_mars",
+      "pre_rec_z": 2.925,
+      "test_rep_hits": 557,
+      "test_rep_expected": 560.95,
+      "test_rep_z": -0.185
+     }
+    ],
+    "top_replication": [
+     {
+      "params": "mars_nakshatra x aspect_moon_mercury",
+      "rep_z": 3.694,
+      "pre_rec_z": 0.491
+     },
+     {
+      "params": "tithi x aspect_sun_mercury",
+      "rep_z": 3.384,
+      "pre_rec_z": -1.739
+     },
+     {
+      "params": "aspect_sun_mercury x aspects_soft",
+      "rep_z": 3.149,
+      "pre_rec_z": -1.126
+     },
+     {
+      "params": "venus_rashi x aspect_jupiter_saturn",
+      "rep_z": 3.067,
+      "pre_rec_z": -0.361
+     },
+     {
+      "params": "sun_nakshatra x aspects_soft",
+      "rep_z": 2.997,
+      "pre_rec_z": 0.062
+     }
+    ]
+   }
+  },
+  "toto58": {
+   "singles": {
+    "max_rec_z": 3.77,
+    "n_rec_z_gt3": 1,
+    "mean_rec_z": 0.816,
+    "max_rep_z": 1.66,
+    "mean_rep_z": -0.239,
+    "rep_lift": 0.9905,
+    "best_assoc_z": 5.46,
+    "tests": 31,
+    "shifted_mean": {
+     "max_rec_z": 2.447,
+     "n_rec_z_gt3": 0.15,
+     "mean_rec_z": 0.772,
+     "max_rep_z": 1.59,
+     "mean_rep_z": -0.291,
+     "rep_lift": 0.988,
+     "best_assoc_z": 4.545
+    },
+    "real_beats_shifts": {
+     "max_rec_z": 19,
+     "n_rec_z_gt3": 18,
+     "mean_rec_z": 13,
+     "max_rep_z": 11,
+     "mean_rep_z": 13,
+     "rep_lift": 13,
+     "best_assoc_z": 19
+    },
+    "walk_forward_leads": [
+     {
+      "params": "plum_trigrams",
+      "pre_rec_z": 2.733,
+      "test_rep_hits": 530,
+      "test_rep_expected": 518.9,
+      "test_rep_z": 0.539
+     },
+     {
+      "params": "aspect_moon_jupiter",
+      "pre_rec_z": 1.532,
+      "test_rep_hits": 520,
+      "test_rep_expected": 518.9,
+      "test_rep_z": 0.054
+     },
+     {
+      "params": "aspect_moon_mercury",
+      "pre_rec_z": 1.316,
+      "test_rep_hits": 507,
+      "test_rep_expected": 518.9,
+      "test_rep_z": -0.577
+     },
+     {
+      "params": "aspect_sun_venus",
+      "pre_rec_z": 1.156,
+      "test_rep_hits": 490,
+      "test_rep_expected": 518.9,
+      "test_rep_z": -1.403
+     },
+     {
+      "params": "aspect_mercury_saturn",
+      "pre_rec_z": 1.136,
+      "test_rep_hits": 496,
+      "test_rep_expected": 518.9,
+      "test_rep_z": -1.111
+     }
+    ],
+    "top_replication": [
+     {
+      "params": "aspect_moon_mars",
+      "rep_z": 1.655,
+      "pre_rec_z": 0.884
+     },
+     {
+      "params": "pof_rashi",
+      "rep_z": 1.607,
+      "pre_rec_z": -0.534
+     },
+     {
+      "params": "pof_sign",
+      "rep_z": 1.219,
+      "pre_rec_z": 0.701
+     },
+     {
+      "params": "aspects_hard",
+      "rep_z": 1.219,
+      "pre_rec_z": 0.801
+     },
+     {
+      "params": "aspect_sun_moon",
+      "rep_z": 0.685,
+      "pre_rec_z": 0.734
+     }
+    ]
+   },
+   "pairs": {
+    "max_rec_z": 4.72,
+    "n_rec_z_gt3": 31,
+    "mean_rec_z": 0.275,
+    "max_rep_z": 3.55,
+    "mean_rep_z": -0.006,
+    "rep_lift": 1.0001,
+    "best_assoc_z": 6.85,
+    "tests": 3038,
+    "shifted_mean": {
+     "max_rec_z": 3.845,
+     "n_rec_z_gt3": 9.95,
+     "mean_rec_z": 0.292,
+     "max_rep_z": 3.417,
+     "mean_rep_z": -0.055,
+     "rep_lift": 0.998,
+     "best_assoc_z": 6.649
+    },
+    "real_beats_shifts": {
+     "max_rec_z": 16,
+     "n_rec_z_gt3": 18,
+     "mean_rec_z": 9,
+     "max_rep_z": 16,
+     "mean_rep_z": 14,
+     "rep_lift": 15,
+     "best_assoc_z": 13
+    },
+    "walk_forward_leads": [
+     {
+      "params": "venus_combust x plum_trigrams",
+      "pre_rec_z": 3.473,
+      "test_rep_hits": 547,
+      "test_rep_expected": 518.9,
+      "test_rep_z": 1.364
+     },
+     {
+      "params": "aspect_moon_venus x plum_trigrams",
+      "pre_rec_z": 3.19,
+      "test_rep_hits": 542,
+      "test_rep_expected": 518.9,
+      "test_rep_z": 1.121
+     },
+     {
+      "params": "lunar_leap_month x plum_trigrams",
+      "pre_rec_z": 3.164,
+      "test_rep_hits": 528,
+      "test_rep_expected": 518.9,
+      "test_rep_z": 0.442
+     },
+     {
+      "params": "aspect_sun_venus x plum_trigrams",
+      "pre_rec_z": 3.132,
+      "test_rep_hits": 532,
+      "test_rep_expected": 518.9,
+      "test_rep_z": 0.636
+     },
+     {
+      "params": "mars_combust x plum_trigrams",
+      "pre_rec_z": 3.075,
+      "test_rep_hits": 517,
+      "test_rep_expected": 518.9,
+      "test_rep_z": -0.092
+     }
+    ],
+    "top_replication": [
+     {
+      "params": "day_god x aspect_moon_mars",
+      "rep_z": 3.549,
+      "pre_rec_z": -0.085
+     },
+     {
+      "params": "jupiter_retrograde x plum_trigrams",
+      "rep_z": 3.063,
+      "pre_rec_z": 1.735
+     },
+     {
+      "params": "day_vs_year_branch x pof_rashi",
+      "rep_z": 3.063,
+      "pre_rec_z": 0.538
+     },
+     {
+      "params": "month x pof_sign",
+      "rep_z": 3.063,
+      "pre_rec_z": -0.186
+     },
+     {
+      "params": "pof_rashi x aspect_moon_mars",
+      "rep_z": 2.966,
+      "pre_rec_z": -0.011
+     }
+    ]
+   }
+  },
+  "ml8": {
+   "singles": {
+    "max_rec_z": 1.88,
+    "n_rec_z_gt3": 0,
+    "mean_rec_z": -0.019,
+    "max_rep_z": 2.12,
+    "mean_rep_z": -0.001,
+    "rep_lift": 1.0,
+    "best_assoc_z": 3.33,
+    "tests": 31,
+    "shifted_mean": {
+     "max_rec_z": 1.756,
+     "n_rec_z_gt3": 0.0,
+     "mean_rec_z": 0.01,
+     "max_rep_z": 2.118,
+     "mean_rep_z": 0.237,
+     "rep_lift": 1.007,
+     "best_assoc_z": 3.585
+    },
+    "real_beats_shifts": {
+     "max_rec_z": 11,
+     "n_rec_z_gt3": 0,
+     "mean_rec_z": 6,
+     "max_rep_z": 9,
+     "mean_rep_z": 0,
+     "rep_lift": 0,
+     "best_assoc_z": 5
+    },
+    "walk_forward_leads": [
+     {
+      "params": "aspect_venus_saturn",
+      "pre_rec_z": 1.076,
+      "test_rep_hits": 763,
+      "test_rep_expected": 718.22,
+      "test_rep_z": 2.118
+     },
+     {
+      "params": "aspects_soft",
+      "pre_rec_z": 0.969,
+      "test_rep_hits": 704,
+      "test_rep_expected": 718.22,
+      "test_rep_z": -0.673
+     },
+     {
+      "params": "aspect_venus_mars",
+      "pre_rec_z": 0.952,
+      "test_rep_hits": 697,
+      "test_rep_expected": 718.22,
+      "test_rep_z": -1.004
+     },
+     {
+      "params": "aspect_jupiter_saturn",
+      "pre_rec_z": 0.751,
+      "test_rep_hits": 442,
+      "test_rep_expected": 439.11,
+      "test_rep_z": 0.175
+     },
+     {
+      "params": "nine_star_day",
+      "pre_rec_z": 0.703,
+      "test_rep_hits": 737,
+      "test_rep_expected": 718.22,
+      "test_rep_z": 0.888
+     }
+    ],
+    "top_replication": [
+     {
+      "params": "aspect_venus_saturn",
+      "rep_z": 2.118,
+      "pre_rec_z": 1.076
+     },
+     {
+      "params": "aspect_mars_jupiter",
+      "rep_z": 1.314,
+      "pre_rec_z": -0.997
+     },
+     {
+      "params": "aspect_sun_moon",
+      "rep_z": 1.172,
+      "pre_rec_z": -1.027
+     },
+     {
+      "params": "nine_star_day",
+      "rep_z": 0.888,
+      "pre_rec_z": 0.703
+     },
+     {
+      "params": "aspect_sun_venus",
+      "rep_z": 0.841,
+      "pre_rec_z": -0.828
+     }
+    ]
+   },
+   "pairs": {
+    "max_rec_z": 2.97,
+    "n_rec_z_gt3": 0,
+    "mean_rec_z": 0.053,
+    "max_rep_z": 3.14,
+    "mean_rep_z": 0.007,
+    "rep_lift": 1.0008,
+    "best_assoc_z": 4.77,
+    "tests": 3038,
+    "shifted_mean": {
+     "max_rec_z": 3.525,
+     "n_rec_z_gt3": 4.1,
+     "mean_rec_z": 0.033,
+     "max_rep_z": 3.513,
+     "mean_rep_z": 0.064,
+     "rep_lift": 1.003,
+     "best_assoc_z": 4.984
+    },
+    "real_beats_shifts": {
+     "max_rec_z": 4,
+     "n_rec_z_gt3": 0,
+     "mean_rec_z": 10,
+     "max_rep_z": 2,
+     "mean_rep_z": 6,
+     "rep_lift": 6,
+     "best_assoc_z": 3
+    },
+    "walk_forward_leads": [
+     {
+      "params": "samvatsara x aspect_sun_moon",
+      "pre_rec_z": 3.063,
+      "test_rep_hits": 214,
+      "test_rep_expected": 232.89,
+      "test_rep_z": -1.569
+     },
+     {
+      "params": "ayana x aspect_mercury_mars",
+      "pre_rec_z": 2.885,
+      "test_rep_hits": 716,
+      "test_rep_expected": 712.89,
+      "test_rep_z": 0.148
+     },
+     {
+      "params": "saturn_nakshatra x aspect_mercury_saturn",
+      "pre_rec_z": 2.841,
+      "test_rep_hits": 278,
+      "test_rep_expected": 275.56,
+      "test_rep_z": 0.187
+     },
+     {
+      "params": "samvatsara x aspect_sun_mercury",
+      "pre_rec_z": 2.836,
+      "test_rep_hits": 247,
+      "test_rep_expected": 264.89,
+      "test_rep_z": -1.393
+     },
+     {
+      "params": "venus_nakshatra x kp_ruling_planets",
+      "pre_rec_z": 2.756,
+      "test_rep_hits": 164,
+      "test_rep_expected": 167.11,
+      "test_rep_z": -0.305
+     }
+    ],
+    "top_replication": [
+     {
+      "params": "kp_sun_number x aspect_mercury_mars",
+      "rep_z": 3.138,
+      "pre_rec_z": -1.664
+     },
+     {
+      "params": "lagna_nakshatra x aspect_jupiter_saturn",
+      "rep_z": 3.079,
+      "pre_rec_z": 0.338
+     },
+     {
+      "params": "weekday x aspect_mars_saturn",
+      "rep_z": 2.828,
+      "pre_rec_z": 0.466
+     },
+     {
+      "params": "yoga x aspect_venus_jupiter",
+      "rep_z": 2.591,
+      "pre_rec_z": -0.902
+     },
+     {
+      "params": "lagna_nakshatra x aspect_mars_saturn",
+      "rep_z": 2.586,
+      "pre_rec_z": -1.765
+     }
+    ]
+   }
+  }
+ }
+}
