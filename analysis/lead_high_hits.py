@@ -92,6 +92,8 @@ def main():
         for sh, s0, out in pool.imap_unordered(count, tasks):
             i0 = idx[s0] * 4
             A[i0:i0 + len(out), sh] = out
+    os.makedirs(ARR, exist_ok=True)
+    np.save(os.path.join(ARR, "lead_high_hits_counts.npy"), A)        # leads x calendars x formats x (6+, 7+) x (earlier, last 10)
     pats = ["hot", "cold", "pos", "hot+100"]
     lab = lambda i: (" × ".join(names[j] for j in sets[i // 4]) if sets[i // 4] else "all draws (no astrology)",  # noqa: E731
                      pats[i % 4])
