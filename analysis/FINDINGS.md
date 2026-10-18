@@ -148,6 +148,12 @@ forecaster picks different parameters, and the shifted calendars pick equally pl
 result stands out: 6/55 `last` with tropical Moon sign + Jupiter nakshatra matched 13 vs 6.6 (p 0.008 for one ticket
 set; about 12% for the best of the 16 hold-out results here), while a shifted calendar also reached 13.
 
+Draw by draw, that lead's tickets are mostly the previous draw's numbers (e.g. 4 Oct ticket 21 28 32 39 51 52 vs 3 Oct
+result 21 28 37 39 51 52), and the last 10 Power Toto draws repeated many numbers from the draw before (28 came up 5
+times). A plain "replay the previous draw" ticket matched 12 numbers over those 10 draws (p 0.021); the same analogy with
+200 random parameter pairs matched 9.6 on average, and 10% of them reached 13 or more (best 16). The lead adds one
+match over replaying the last draw, and a random pair of parameters does that well 10% of the time.
+
 ## Is the 4D lead special? (`lead_4d_robustness.py`, `lead_hunt.py`)
 
 No. Scored the same way:
