@@ -1,0 +1,1258 @@
+{
+ "format": "10 tickets",
+ "bonus": false,
+ "games": {
+  "toto50": {
+   "label": "STAR TOTO 6/50",
+   "expected_per_draw": 1.063,
+   "real": {
+    "summary": {
+     "rolling_top1": 13,
+     "rolling_top10_mean": 11.7,
+     "frozen_top1": 13,
+     "frozen_top1_lead": "nakshatra_lord \u00d7 karana (hot)",
+     "frozen_top10_mean": 11.5,
+     "expected": 10.63,
+     "distinct_rolling_leads": 1
+    },
+    "picks": [
+     {
+      "date": "2026-09-26",
+      "lead": "nakshatra_lord \u00d7 karana",
+      "pattern": "hot",
+      "weakest_z": 1.71,
+      "caught": 1,
+      "split": "1+0",
+      "top10_mean": 0.4
+     },
+     {
+      "date": "2026-09-27",
+      "lead": "nakshatra_lord \u00d7 karana",
+      "pattern": "hot",
+      "weakest_z": 1.71,
+      "caught": 1,
+      "split": "1+0",
+      "top10_mean": 1.0
+     },
+     {
+      "date": "2026-09-30",
+      "lead": "nakshatra_lord \u00d7 karana",
+      "pattern": "hot",
+      "weakest_z": 1.71,
+      "caught": 2,
+      "split": "2+0",
+      "top10_mean": 1.8
+     },
+     {
+      "date": "2026-10-03",
+      "lead": "nakshatra_lord \u00d7 karana",
+      "pattern": "hot",
+      "weakest_z": 1.78,
+      "caught": 2,
+      "split": "2+0",
+      "top10_mean": 1.3
+     },
+     {
+      "date": "2026-10-04",
+      "lead": "nakshatra_lord \u00d7 karana",
+      "pattern": "hot",
+      "weakest_z": 1.84,
+      "caught": 1,
+      "split": "1+0",
+      "top10_mean": 0.9
+     },
+     {
+      "date": "2026-10-07",
+      "lead": "nakshatra_lord \u00d7 karana",
+      "pattern": "hot",
+      "weakest_z": 1.84,
+      "caught": 1,
+      "split": "1+0",
+      "top10_mean": 1.1
+     },
+     {
+      "date": "2026-10-10",
+      "lead": "nakshatra_lord \u00d7 karana",
+      "pattern": "hot",
+      "weakest_z": 1.77,
+      "caught": 2,
+      "split": "2+0",
+      "top10_mean": 1.5
+     },
+     {
+      "date": "2026-10-11",
+      "lead": "nakshatra_lord \u00d7 karana",
+      "pattern": "hot",
+      "weakest_z": 1.71,
+      "caught": 1,
+      "split": "1+0",
+      "top10_mean": 0.8
+     },
+     {
+      "date": "2026-10-14",
+      "lead": "nakshatra_lord \u00d7 karana",
+      "pattern": "hot",
+      "weakest_z": 1.77,
+      "caught": 1,
+      "split": "1+0",
+      "top10_mean": 1.4
+     },
+     {
+      "date": "2026-10-17",
+      "lead": "nakshatra_lord \u00d7 karana",
+      "pattern": "hot",
+      "weakest_z": 1.9,
+      "caught": 1,
+      "split": "1+0",
+      "top10_mean": 1.5
+     }
+    ]
+   },
+   "shift1": {
+    "summary": {
+     "rolling_top1": 11,
+     "rolling_top10_mean": 10.3,
+     "frozen_top1": 10,
+     "frozen_top1_lead": "mercury_retrograde \u00d7 kp_sun_star_lord (hot)",
+     "frozen_top10_mean": 10.3,
+     "expected": 10.63,
+     "distinct_rolling_leads": 2
+    },
+    "picks": [
+     {
+      "date": "2026-09-26",
+      "lead": "mercury_retrograde \u00d7 kp_sun_star_lord",
+      "pattern": "hot",
+      "weakest_z": 1.5,
+      "caught": 1,
+      "split": "1+0",
+      "top10_mean": 0.6
+     },
+     {
+      "date": "2026-09-27",
+      "lead": "saturn_nakshatra \u00d7 aspect_moon_mars",
+      "pattern": "cold",
+      "weakest_z": 1.5,
+      "caught": 1,
+      "split": "1+0",
+      "top10_mean": 0.7
+     },
+     {
+      "date": "2026-09-30",
+      "lead": "saturn_nakshatra \u00d7 aspect_moon_mars",
+      "pattern": "cold",
+      "weakest_z": 1.56,
+      "caught": 2,
+      "split": "2+0",
+      "top10_mean": 1.4
+     },
+     {
+      "date": "2026-10-03",
+      "lead": "saturn_nakshatra \u00d7 aspect_moon_mars",
+      "pattern": "cold",
+      "weakest_z": 1.61,
+      "caught": 0,
+      "split": "0+0",
+      "top10_mean": 1.2
+     },
+     {
+      "date": "2026-10-04",
+      "lead": "saturn_nakshatra \u00d7 aspect_moon_mars",
+      "pattern": "cold",
+      "weakest_z": 1.61,
+      "caught": 1,
+      "split": "1+0",
+      "top10_mean": 0.8
+     },
+     {
+      "date": "2026-10-07",
+      "lead": "saturn_nakshatra \u00d7 aspect_moon_mars",
+      "pattern": "cold",
+      "weakest_z": 1.57,
+      "caught": 1,
+      "split": "1+0",
+      "top10_mean": 1.0
+     },
+     {
+      "date": "2026-10-10",
+      "lead": "mercury_retrograde \u00d7 kp_sun_star_lord",
+      "pattern": "hot",
+      "weakest_z": 1.5,
+      "caught": 0,
+      "split": "0+0",
+      "top10_mean": 1.1
+     },
+     {
+      "date": "2026-10-11",
+      "lead": "saturn_nakshatra \u00d7 aspect_moon_mars",
+      "pattern": "cold",
+      "weakest_z": 1.57,
+      "caught": 3,
+      "split": "3+0",
+      "top10_mean": 1.3
+     },
+     {
+      "date": "2026-10-14",
+      "lead": "saturn_nakshatra \u00d7 aspect_moon_mars",
+      "pattern": "cold",
+      "weakest_z": 1.63,
+      "caught": 1,
+      "split": "1+0",
+      "top10_mean": 1.5
+     },
+     {
+      "date": "2026-10-17",
+      "lead": "saturn_nakshatra \u00d7 aspect_moon_mars",
+      "pattern": "cold",
+      "weakest_z": 1.63,
+      "caught": 1,
+      "split": "1+0",
+      "top10_mean": 0.7
+     }
+    ]
+   },
+   "shift2": {
+    "summary": {
+     "rolling_top1": 11,
+     "rolling_top10_mean": 10.0,
+     "frozen_top1": 11,
+     "frozen_top1_lead": "nayin_element \u00d7 pof_rashi (pos)",
+     "frozen_top10_mean": 10.6,
+     "expected": 10.63,
+     "distinct_rolling_leads": 1
+    },
+    "picks": [
+     {
+      "date": "2026-09-26",
+      "lead": "nayin_element \u00d7 pof_rashi",
+      "pattern": "pos",
+      "weakest_z": 2.12,
+      "caught": 3,
+      "split": "3+0",
+      "top10_mean": 1.2
+     },
+     {
+      "date": "2026-09-27",
+      "lead": "nayin_element \u00d7 pof_rashi",
+      "pattern": "pos",
+      "weakest_z": 2.19,
+      "caught": 0,
+      "split": "0+0",
+      "top10_mean": 0.5
+     },
+     {
+      "date": "2026-09-30",
+      "lead": "nayin_element \u00d7 pof_rashi",
+      "pattern": "pos",
+      "weakest_z": 2.12,
+      "caught": 1,
+      "split": "1+0",
+      "top10_mean": 1.0
+     },
+     {
+      "date": "2026-10-03",
+      "lead": "nayin_element \u00d7 pof_rashi",
+      "pattern": "pos",
+      "weakest_z": 2.11,
+      "caught": 1,
+      "split": "1+0",
+      "top10_mean": 1.1
+     },
+     {
+      "date": "2026-10-04",
+      "lead": "nayin_element \u00d7 pof_rashi",
+      "pattern": "pos",
+      "weakest_z": 2.11,
+      "caught": 0,
+      "split": "0+0",
+      "top10_mean": 0.8
+     },
+     {
+      "date": "2026-10-07",
+      "lead": "nayin_element \u00d7 pof_rashi",
+      "pattern": "pos",
+      "weakest_z": 2.05,
+      "caught": 1,
+      "split": "1+0",
+      "top10_mean": 1.3
+     },
+     {
+      "date": "2026-10-10",
+      "lead": "nayin_element \u00d7 pof_rashi",
+      "pattern": "pos",
+      "weakest_z": 2.05,
+      "caught": 1,
+      "split": "1+0",
+      "top10_mean": 1.1
+     },
+     {
+      "date": "2026-10-11",
+      "lead": "nayin_element \u00d7 pof_rashi",
+      "pattern": "pos",
+      "weakest_z": 2.05,
+      "caught": 2,
+      "split": "2+0",
+      "top10_mean": 1.0
+     },
+     {
+      "date": "2026-10-14",
+      "lead": "nayin_element \u00d7 pof_rashi",
+      "pattern": "pos",
+      "weakest_z": 2.16,
+      "caught": 1,
+      "split": "1+0",
+      "top10_mean": 0.7
+     },
+     {
+      "date": "2026-10-17",
+      "lead": "nayin_element \u00d7 pof_rashi",
+      "pattern": "pos",
+      "weakest_z": 2.11,
+      "caught": 1,
+      "split": "1+0",
+      "top10_mean": 1.3
+     }
+    ]
+   }
+  },
+  "toto55": {
+   "label": "POWER TOTO 6/55",
+   "expected_per_draw": 0.967,
+   "real": {
+    "summary": {
+     "rolling_top1": 9,
+     "rolling_top10_mean": 9.9,
+     "frozen_top1": 9,
+     "frozen_top1_lead": "jupiter_nakshatra \u00d7 mars_retrograde (cold)",
+     "frozen_top10_mean": 9.3,
+     "expected": 9.67,
+     "distinct_rolling_leads": 1
+    },
+    "picks": [
+     {
+      "date": "2026-09-26",
+      "lead": "jupiter_nakshatra \u00d7 mars_retrograde",
+      "pattern": "cold",
+      "weakest_z": 1.84,
+      "caught": 1,
+      "split": "1+0",
+      "top10_mean": 0.7
+     },
+     {
+      "date": "2026-09-27",
+      "lead": "jupiter_nakshatra \u00d7 mars_retrograde",
+      "pattern": "cold",
+      "weakest_z": 1.84,
+      "caught": 2,
+      "split": "2+0",
+      "top10_mean": 1.7
+     },
+     {
+      "date": "2026-09-30",
+      "lead": "jupiter_nakshatra \u00d7 mars_retrograde",
+      "pattern": "cold",
+      "weakest_z": 1.84,
+      "caught": 1,
+      "split": "1+0",
+      "top10_mean": 1.1
+     },
+     {
+      "date": "2026-10-03",
+      "lead": "jupiter_nakshatra \u00d7 mars_retrograde",
+      "pattern": "cold",
+      "weakest_z": 1.89,
+      "caught": 1,
+      "split": "1+0",
+      "top10_mean": 0.9
+     },
+     {
+      "date": "2026-10-04",
+      "lead": "jupiter_nakshatra \u00d7 mars_retrograde",
+      "pattern": "cold",
+      "weakest_z": 1.89,
+      "caught": 1,
+      "split": "1+0",
+      "top10_mean": 0.6
+     },
+     {
+      "date": "2026-10-07",
+      "lead": "jupiter_nakshatra \u00d7 mars_retrograde",
+      "pattern": "cold",
+      "weakest_z": 1.89,
+      "caught": 0,
+      "split": "0+0",
+      "top10_mean": 0.5
+     },
+     {
+      "date": "2026-10-10",
+      "lead": "jupiter_nakshatra \u00d7 mars_retrograde",
+      "pattern": "cold",
+      "weakest_z": 1.79,
+      "caught": 0,
+      "split": "0+0",
+      "top10_mean": 1.0
+     },
+     {
+      "date": "2026-10-11",
+      "lead": "jupiter_nakshatra \u00d7 mars_retrograde",
+      "pattern": "cold",
+      "weakest_z": 1.81,
+      "caught": 0,
+      "split": "0+0",
+      "top10_mean": 1.0
+     },
+     {
+      "date": "2026-10-14",
+      "lead": "jupiter_nakshatra \u00d7 mars_retrograde",
+      "pattern": "cold",
+      "weakest_z": 1.77,
+      "caught": 1,
+      "split": "1+0",
+      "top10_mean": 1.2
+     },
+     {
+      "date": "2026-10-17",
+      "lead": "jupiter_nakshatra \u00d7 mars_retrograde",
+      "pattern": "cold",
+      "weakest_z": 1.74,
+      "caught": 2,
+      "split": "2+0",
+      "top10_mean": 1.2
+     }
+    ]
+   },
+   "shift1": {
+    "summary": {
+     "rolling_top1": 13,
+     "rolling_top10_mean": 9.8,
+     "frozen_top1": 14,
+     "frozen_top1_lead": "venus_nakshatra \u00d7 venus_combust (hot)",
+     "frozen_top10_mean": 10.4,
+     "expected": 9.67,
+     "distinct_rolling_leads": 2
+    },
+    "picks": [
+     {
+      "date": "2026-09-26",
+      "lead": "venus_nakshatra \u00d7 venus_combust",
+      "pattern": "hot",
+      "weakest_z": 2.04,
+      "caught": 2,
+      "split": "2+0",
+      "top10_mean": 1.9
+     },
+     {
+      "date": "2026-09-27",
+      "lead": "venus_nakshatra \u00d7 venus_combust",
+      "pattern": "hot",
+      "weakest_z": 2.04,
+      "caught": 2,
+      "split": "2+0",
+      "top10_mean": 1.2
+     },
+     {
+      "date": "2026-09-30",
+      "lead": "moon_rashi \u00d7 venus_nakshatra",
+      "pattern": "hot",
+      "weakest_z": 2.04,
+      "caught": 2,
+      "split": "2+0",
+      "top10_mean": 0.8
+     },
+     {
+      "date": "2026-10-03",
+      "lead": "moon_rashi \u00d7 venus_nakshatra",
+      "pattern": "hot",
+      "weakest_z": 2.09,
+      "caught": 1,
+      "split": "1+0",
+      "top10_mean": 0.7
+     },
+     {
+      "date": "2026-10-04",
+      "lead": "venus_nakshatra \u00d7 venus_combust",
+      "pattern": "hot",
+      "weakest_z": 2.13,
+      "caught": 1,
+      "split": "1+0",
+      "top10_mean": 0.9
+     },
+     {
+      "date": "2026-10-07",
+      "lead": "venus_nakshatra \u00d7 venus_combust",
+      "pattern": "hot",
+      "weakest_z": 2.13,
+      "caught": 0,
+      "split": "0+0",
+      "top10_mean": 0.6
+     },
+     {
+      "date": "2026-10-10",
+      "lead": "venus_nakshatra \u00d7 venus_combust",
+      "pattern": "hot",
+      "weakest_z": 2.13,
+      "caught": 1,
+      "split": "1+0",
+      "top10_mean": 0.5
+     },
+     {
+      "date": "2026-10-11",
+      "lead": "venus_nakshatra \u00d7 venus_combust",
+      "pattern": "hot",
+      "weakest_z": 2.09,
+      "caught": 3,
+      "split": "3+0",
+      "top10_mean": 1.3
+     },
+     {
+      "date": "2026-10-14",
+      "lead": "venus_nakshatra \u00d7 venus_combust",
+      "pattern": "hot",
+      "weakest_z": 2.04,
+      "caught": 1,
+      "split": "1+0",
+      "top10_mean": 1.4
+     },
+     {
+      "date": "2026-10-17",
+      "lead": "venus_nakshatra \u00d7 venus_combust",
+      "pattern": "hot",
+      "weakest_z": 2.04,
+      "caught": 0,
+      "split": "0+0",
+      "top10_mean": 0.5
+     }
+    ]
+   },
+   "shift2": {
+    "summary": {
+     "rolling_top1": 12,
+     "rolling_top10_mean": 9.8,
+     "frozen_top1": 10,
+     "frozen_top1_lead": "day_officer \u00d7 moon_phase (hot)",
+     "frozen_top10_mean": 9.8,
+     "expected": 9.67,
+     "distinct_rolling_leads": 2
+    },
+    "picks": [
+     {
+      "date": "2026-09-26",
+      "lead": "day_officer \u00d7 moon_phase",
+      "pattern": "hot",
+      "weakest_z": 1.41,
+      "caught": 1,
+      "split": "1+0",
+      "top10_mean": 1.0
+     },
+     {
+      "date": "2026-09-27",
+      "lead": "day_officer \u00d7 moon_phase",
+      "pattern": "hot",
+      "weakest_z": 1.41,
+      "caught": 2,
+      "split": "2+0",
+      "top10_mean": 1.6
+     },
+     {
+      "date": "2026-09-30",
+      "lead": "day_officer \u00d7 moon_phase",
+      "pattern": "hot",
+      "weakest_z": 1.44,
+      "caught": 1,
+      "split": "1+0",
+      "top10_mean": 0.9
+     },
+     {
+      "date": "2026-10-03",
+      "lead": "hour_stem_19h \u00d7 nine_star_month",
+      "pattern": "hot",
+      "weakest_z": 1.44,
+      "caught": 2,
+      "split": "2+0",
+      "top10_mean": 0.9
+     },
+     {
+      "date": "2026-10-04",
+      "lead": "hour_stem_19h \u00d7 nine_star_month",
+      "pattern": "hot",
+      "weakest_z": 1.48,
+      "caught": 0,
+      "split": "0+0",
+      "top10_mean": 0.6
+     },
+     {
+      "date": "2026-10-07",
+      "lead": "hour_stem_19h \u00d7 nine_star_month",
+      "pattern": "hot",
+      "weakest_z": 1.4,
+      "caught": 1,
+      "split": "1+0",
+      "top10_mean": 1.1
+     },
+     {
+      "date": "2026-10-10",
+      "lead": "hour_stem_19h \u00d7 nine_star_month",
+      "pattern": "hot",
+      "weakest_z": 1.44,
+      "caught": 1,
+      "split": "1+0",
+      "top10_mean": 0.9
+     },
+     {
+      "date": "2026-10-11",
+      "lead": "hour_stem_19h \u00d7 nine_star_month",
+      "pattern": "hot",
+      "weakest_z": 1.48,
+      "caught": 2,
+      "split": "2+0",
+      "top10_mean": 1.0
+     },
+     {
+      "date": "2026-10-14",
+      "lead": "hour_stem_19h \u00d7 nine_star_month",
+      "pattern": "hot",
+      "weakest_z": 1.53,
+      "caught": 2,
+      "split": "2+0",
+      "top10_mean": 1.0
+     },
+     {
+      "date": "2026-10-17",
+      "lead": "hour_stem_19h \u00d7 nine_star_month",
+      "pattern": "hot",
+      "weakest_z": 1.57,
+      "caught": 0,
+      "split": "0+0",
+      "top10_mean": 0.8
+     }
+    ]
+   }
+  },
+  "toto58": {
+   "label": "SUPREME TOTO 6/58",
+   "expected_per_draw": 0.919,
+   "real": {
+    "summary": {
+     "rolling_top1": 9,
+     "rolling_top10_mean": 7.5,
+     "frozen_top1": 9,
+     "frozen_top1_lead": "year_animal \u00d7 plum_trigrams (pos)",
+     "frozen_top10_mean": 8.3,
+     "expected": 9.19,
+     "distinct_rolling_leads": 3
+    },
+    "picks": [
+     {
+      "date": "2026-09-26",
+      "lead": "year_animal \u00d7 plum_trigrams",
+      "pattern": "pos",
+      "weakest_z": 1.74,
+      "caught": 2,
+      "split": "2+0",
+      "top10_mean": 0.9
+     },
+     {
+      "date": "2026-09-27",
+      "lead": "year_animal \u00d7 plum_trigrams",
+      "pattern": "pos",
+      "weakest_z": 1.74,
+      "caught": 1,
+      "split": "1+0",
+      "top10_mean": 0.7
+     },
+     {
+      "date": "2026-09-30",
+      "lead": "year_animal \u00d7 plum_trigrams",
+      "pattern": "pos",
+      "weakest_z": 1.74,
+      "caught": 1,
+      "split": "1+0",
+      "top10_mean": 1.2
+     },
+     {
+      "date": "2026-10-03",
+      "lead": "year_animal \u00d7 plum_trigrams",
+      "pattern": "pos",
+      "weakest_z": 1.74,
+      "caught": 1,
+      "split": "1+0",
+      "top10_mean": 0.6
+     },
+     {
+      "date": "2026-10-04",
+      "lead": "year_animal \u00d7 plum_trigrams",
+      "pattern": "pos",
+      "weakest_z": 1.74,
+      "caught": 0,
+      "split": "0+0",
+      "top10_mean": 0.7
+     },
+     {
+      "date": "2026-10-07",
+      "lead": "year_animal \u00d7 plum_trigrams",
+      "pattern": "pos",
+      "weakest_z": 1.79,
+      "caught": 1,
+      "split": "1+0",
+      "top10_mean": 0.8
+     },
+     {
+      "date": "2026-10-10",
+      "lead": "year_animal \u00d7 plum_trigrams",
+      "pattern": "pos",
+      "weakest_z": 1.69,
+      "caught": 1,
+      "split": "1+0",
+      "top10_mean": 0.8
+     },
+     {
+      "date": "2026-10-11",
+      "lead": "kp_asc_sub_lord \u00d7 aspect_venus_mars",
+      "pattern": "hot+100",
+      "weakest_z": 1.69,
+      "caught": 2,
+      "split": "2+0",
+      "top10_mean": 0.8
+     },
+     {
+      "date": "2026-10-14",
+      "lead": "mercury_nakshatra \u00d7 moon_navamsa",
+      "pattern": "pos",
+      "weakest_z": 1.74,
+      "caught": 0,
+      "split": "0+0",
+      "top10_mean": 0.2
+     },
+     {
+      "date": "2026-10-17",
+      "lead": "mercury_nakshatra \u00d7 moon_navamsa",
+      "pattern": "pos",
+      "weakest_z": 1.74,
+      "caught": 0,
+      "split": "0+0",
+      "top10_mean": 0.8
+     }
+    ]
+   },
+   "shift1": {
+    "summary": {
+     "rolling_top1": 9,
+     "rolling_top10_mean": 10.4,
+     "frozen_top1": 9,
+     "frozen_top1_lead": "hora_lord \u00d7 nayin_element (hot+100)",
+     "frozen_top10_mean": 10.4,
+     "expected": 9.19,
+     "distinct_rolling_leads": 3
+    },
+    "picks": [
+     {
+      "date": "2026-09-26",
+      "lead": "hora_lord \u00d7 nayin_element",
+      "pattern": "hot+100",
+      "weakest_z": 1.89,
+      "caught": 2,
+      "split": "2+0",
+      "top10_mean": 1.3
+     },
+     {
+      "date": "2026-09-27",
+      "lead": "hora_lord \u00d7 nayin_element",
+      "pattern": "hot+100",
+      "weakest_z": 1.89,
+      "caught": 2,
+      "split": "2+0",
+      "top10_mean": 1.5
+     },
+     {
+      "date": "2026-09-30",
+      "lead": "hora_lord \u00d7 nayin_element",
+      "pattern": "hot+100",
+      "weakest_z": 1.84,
+      "caught": 0,
+      "split": "0+0",
+      "top10_mean": 1.2
+     },
+     {
+      "date": "2026-10-03",
+      "lead": "hora_lord \u00d7 nayin_element",
+      "pattern": "hot+100",
+      "weakest_z": 1.79,
+      "caught": 1,
+      "split": "1+0",
+      "top10_mean": 1.0
+     },
+     {
+      "date": "2026-10-04",
+      "lead": "hora_lord \u00d7 nayin_element",
+      "pattern": "hot+100",
+      "weakest_z": 1.79,
+      "caught": 0,
+      "split": "0+0",
+      "top10_mean": 1.2
+     },
+     {
+      "date": "2026-10-07",
+      "lead": "mercury_nakshatra \u00d7 aspect_sun_mercury",
+      "pattern": "cold",
+      "weakest_z": 1.78,
+      "caught": 1,
+      "split": "1+0",
+      "top10_mean": 1.0
+     },
+     {
+      "date": "2026-10-10",
+      "lead": "mercury_nakshatra \u00d7 aspect_sun_mercury",
+      "pattern": "cold",
+      "weakest_z": 1.78,
+      "caught": 1,
+      "split": "1+0",
+      "top10_mean": 0.6
+     },
+     {
+      "date": "2026-10-11",
+      "lead": "mercury_nakshatra \u00d7 aspect_sun_mercury",
+      "pattern": "cold",
+      "weakest_z": 1.78,
+      "caught": 0,
+      "split": "0+0",
+      "top10_mean": 0.8
+     },
+     {
+      "date": "2026-10-14",
+      "lead": "hora_lord \u00d7 nayin_element",
+      "pattern": "hot+100",
+      "weakest_z": 1.74,
+      "caught": 1,
+      "split": "1+0",
+      "top10_mean": 1.1
+     },
+     {
+      "date": "2026-10-17",
+      "lead": "weekday \u00d7 nayin_element",
+      "pattern": "hot+100",
+      "weakest_z": 1.74,
+      "caught": 1,
+      "split": "1+0",
+      "top10_mean": 0.7
+     }
+    ]
+   },
+   "shift2": {
+    "summary": {
+     "rolling_top1": 10,
+     "rolling_top10_mean": 10.7,
+     "frozen_top1": 6,
+     "frozen_top1_lead": "kp_sun_number \u00d7 day_element (pos)",
+     "frozen_top10_mean": 10.4,
+     "expected": 9.19,
+     "distinct_rolling_leads": 3
+    },
+    "picks": [
+     {
+      "date": "2026-09-26",
+      "lead": "kp_sun_number \u00d7 day_element",
+      "pattern": "pos",
+      "weakest_z": 1.61,
+      "caught": 1,
+      "split": "1+0",
+      "top10_mean": 0.9
+     },
+     {
+      "date": "2026-09-27",
+      "lead": "kp_sun_number \u00d7 day_element",
+      "pattern": "pos",
+      "weakest_z": 1.61,
+      "caught": 1,
+      "split": "1+0",
+      "top10_mean": 0.8
+     },
+     {
+      "date": "2026-09-30",
+      "lead": "kp_sun_number \u00d7 day_element",
+      "pattern": "pos",
+      "weakest_z": 1.61,
+      "caught": 1,
+      "split": "1+0",
+      "top10_mean": 1.5
+     },
+     {
+      "date": "2026-10-03",
+      "lead": "month_pillar \u00d7 nayin_element",
+      "pattern": "hot+100",
+      "weakest_z": 1.61,
+      "caught": 1,
+      "split": "1+0",
+      "top10_mean": 1.0
+     },
+     {
+      "date": "2026-10-04",
+      "lead": "month_pillar \u00d7 nayin_element",
+      "pattern": "hot+100",
+      "weakest_z": 1.61,
+      "caught": 1,
+      "split": "1+0",
+      "top10_mean": 1.0
+     },
+     {
+      "date": "2026-10-07",
+      "lead": "month_pillar \u00d7 nayin_element",
+      "pattern": "hot+100",
+      "weakest_z": 1.61,
+      "caught": 1,
+      "split": "1+0",
+      "top10_mean": 1.1
+     },
+     {
+      "date": "2026-10-10",
+      "lead": "kp_sun_star_lord \u00d7 day_of_month",
+      "pattern": "hot+100",
+      "weakest_z": 1.65,
+      "caught": 1,
+      "split": "1+0",
+      "top10_mean": 0.6
+     },
+     {
+      "date": "2026-10-11",
+      "lead": "kp_sun_star_lord \u00d7 day_of_month",
+      "pattern": "hot+100",
+      "weakest_z": 1.65,
+      "caught": 1,
+      "split": "1+0",
+      "top10_mean": 1.5
+     },
+     {
+      "date": "2026-10-14",
+      "lead": "kp_sun_star_lord \u00d7 day_of_month",
+      "pattern": "hot+100",
+      "weakest_z": 1.66,
+      "caught": 1,
+      "split": "1+0",
+      "top10_mean": 1.2
+     },
+     {
+      "date": "2026-10-17",
+      "lead": "kp_sun_star_lord \u00d7 day_of_month",
+      "pattern": "hot+100",
+      "weakest_z": 1.7,
+      "caught": 1,
+      "split": "1+0",
+      "top10_mean": 1.1
+     }
+    ]
+   }
+  },
+  "ml8": {
+   "label": "Magnum Life 8/36",
+   "expected_per_draw": 2.365,
+   "real": {
+    "summary": {
+     "rolling_top1": 17,
+     "rolling_top10_mean": 24.0,
+     "frozen_top1": 21,
+     "frozen_top1_lead": "venus_nakshatra \u00d7 kp_moon_sub_lord (hot)",
+     "frozen_top10_mean": 24.9,
+     "expected": 23.65,
+     "distinct_rolling_leads": 2
+    },
+    "picks": [
+     {
+      "date": "2026-09-26",
+      "lead": "venus_nakshatra \u00d7 kp_moon_sub_lord",
+      "pattern": "hot",
+      "weakest_z": 1.58,
+      "caught": 0,
+      "split": "0+0",
+      "top10_mean": 2.2
+     },
+     {
+      "date": "2026-09-27",
+      "lead": "venus_nakshatra \u00d7 kp_moon_sub_lord",
+      "pattern": "hot",
+      "weakest_z": 1.47,
+      "caught": 3,
+      "split": "3+0",
+      "top10_mean": 2.5
+     },
+     {
+      "date": "2026-09-30",
+      "lead": "venus_nakshatra \u00d7 kp_moon_sub_lord",
+      "pattern": "hot",
+      "weakest_z": 1.56,
+      "caught": 0,
+      "split": "0+0",
+      "top10_mean": 2.2
+     },
+     {
+      "date": "2026-10-03",
+      "lead": "paksha \u00d7 mercury_retrograde",
+      "pattern": "cold",
+      "weakest_z": 1.46,
+      "caught": 3,
+      "split": "3+0",
+      "top10_mean": 2.8
+     },
+     {
+      "date": "2026-10-04",
+      "lead": "venus_nakshatra \u00d7 kp_moon_sub_lord",
+      "pattern": "hot",
+      "weakest_z": 1.49,
+      "caught": 1,
+      "split": "1+0",
+      "top10_mean": 1.9
+     },
+     {
+      "date": "2026-10-07",
+      "lead": "paksha \u00d7 mercury_retrograde",
+      "pattern": "cold",
+      "weakest_z": 1.46,
+      "caught": 2,
+      "split": "2+0",
+      "top10_mean": 2.7
+     },
+     {
+      "date": "2026-10-10",
+      "lead": "paksha \u00d7 mercury_retrograde",
+      "pattern": "cold",
+      "weakest_z": 1.45,
+      "caught": 3,
+      "split": "3+0",
+      "top10_mean": 2.5
+     },
+     {
+      "date": "2026-10-11",
+      "lead": "venus_nakshatra \u00d7 kp_moon_sub_lord",
+      "pattern": "hot",
+      "weakest_z": 1.54,
+      "caught": 2,
+      "split": "2+0",
+      "top10_mean": 2.0
+     },
+     {
+      "date": "2026-10-14",
+      "lead": "venus_nakshatra \u00d7 kp_moon_sub_lord",
+      "pattern": "hot",
+      "weakest_z": 1.52,
+      "caught": 2,
+      "split": "2+0",
+      "top10_mean": 2.8
+     },
+     {
+      "date": "2026-10-17",
+      "lead": "paksha \u00d7 mercury_retrograde",
+      "pattern": "cold",
+      "weakest_z": 1.49,
+      "caught": 1,
+      "split": "1+0",
+      "top10_mean": 2.4
+     }
+    ]
+   },
+   "shift1": {
+    "summary": {
+     "rolling_top1": 20,
+     "rolling_top10_mean": 22.5,
+     "frozen_top1": 26,
+     "frozen_top1_lead": "mercury_retrograde \u00d7 mansion_28 (cold)",
+     "frozen_top10_mean": 23.3,
+     "expected": 23.65,
+     "distinct_rolling_leads": 3
+    },
+    "picks": [
+     {
+      "date": "2026-09-26",
+      "lead": "mercury_retrograde \u00d7 mansion_28",
+      "pattern": "cold",
+      "weakest_z": 1.65,
+      "caught": 1,
+      "split": "1+0",
+      "top10_mean": 2.1
+     },
+     {
+      "date": "2026-09-27",
+      "lead": "mercury_retrograde \u00d7 mansion_28",
+      "pattern": "cold",
+      "weakest_z": 1.65,
+      "caught": 2,
+      "split": "2+0",
+      "top10_mean": 2.6
+     },
+     {
+      "date": "2026-09-30",
+      "lead": "saturn_rashi \u00d7 aspect_venus_saturn",
+      "pattern": "cold",
+      "weakest_z": 1.73,
+      "caught": 1,
+      "split": "1+0",
+      "top10_mean": 2.4
+     },
+     {
+      "date": "2026-10-03",
+      "lead": "saturn_rashi \u00d7 aspect_venus_saturn",
+      "pattern": "cold",
+      "weakest_z": 1.69,
+      "caught": 2,
+      "split": "2+0",
+      "top10_mean": 2.2
+     },
+     {
+      "date": "2026-10-04",
+      "lead": "rahu_rashi \u00d7 lagna_rashi",
+      "pattern": "cold",
+      "weakest_z": 1.54,
+      "caught": 2,
+      "split": "2+0",
+      "top10_mean": 2.0
+     },
+     {
+      "date": "2026-10-07",
+      "lead": "saturn_rashi \u00d7 aspect_venus_saturn",
+      "pattern": "cold",
+      "weakest_z": 1.53,
+      "caught": 1,
+      "split": "1+0",
+      "top10_mean": 1.7
+     },
+     {
+      "date": "2026-10-10",
+      "lead": "rahu_rashi \u00d7 lagna_rashi",
+      "pattern": "cold",
+      "weakest_z": 1.49,
+      "caught": 2,
+      "split": "2+0",
+      "top10_mean": 2.6
+     },
+     {
+      "date": "2026-10-11",
+      "lead": "rahu_rashi \u00d7 lagna_rashi",
+      "pattern": "cold",
+      "weakest_z": 1.54,
+      "caught": 2,
+      "split": "2+0",
+      "top10_mean": 2.3
+     },
+     {
+      "date": "2026-10-14",
+      "lead": "rahu_rashi \u00d7 lagna_rashi",
+      "pattern": "cold",
+      "weakest_z": 1.52,
+      "caught": 4,
+      "split": "4+0",
+      "top10_mean": 2.2
+     },
+     {
+      "date": "2026-10-17",
+      "lead": "rahu_rashi \u00d7 lagna_rashi",
+      "pattern": "cold",
+      "weakest_z": 1.6,
+      "caught": 3,
+      "split": "3+0",
+      "top10_mean": 2.4
+     }
+    ]
+   },
+   "shift2": {
+    "summary": {
+     "rolling_top1": 28,
+     "rolling_top10_mean": 22.0,
+     "frozen_top1": 28,
+     "frozen_top1_lead": "moon_rashi \u00d7 day_god (cold)",
+     "frozen_top10_mean": 23.3,
+     "expected": 23.65,
+     "distinct_rolling_leads": 1
+    },
+    "picks": [
+     {
+      "date": "2026-09-26",
+      "lead": "moon_rashi \u00d7 day_god",
+      "pattern": "cold",
+      "weakest_z": 2.1,
+      "caught": 3,
+      "split": "3+0",
+      "top10_mean": 2.3
+     },
+     {
+      "date": "2026-09-27",
+      "lead": "moon_rashi \u00d7 day_god",
+      "pattern": "cold",
+      "weakest_z": 2.1,
+      "caught": 3,
+      "split": "3+0",
+      "top10_mean": 2.3
+     },
+     {
+      "date": "2026-09-30",
+      "lead": "moon_rashi \u00d7 day_god",
+      "pattern": "cold",
+      "weakest_z": 2.08,
+      "caught": 1,
+      "split": "1+0",
+      "top10_mean": 2.2
+     },
+     {
+      "date": "2026-10-03",
+      "lead": "moon_rashi \u00d7 day_god",
+      "pattern": "cold",
+      "weakest_z": 2.08,
+      "caught": 2,
+      "split": "2+0",
+      "top10_mean": 1.6
+     },
+     {
+      "date": "2026-10-04",
+      "lead": "moon_rashi \u00d7 day_god",
+      "pattern": "cold",
+      "weakest_z": 1.98,
+      "caught": 3,
+      "split": "3+0",
+      "top10_mean": 1.8
+     },
+     {
+      "date": "2026-10-07",
+      "lead": "moon_rashi \u00d7 day_god",
+      "pattern": "cold",
+      "weakest_z": 1.98,
+      "caught": 2,
+      "split": "2+0",
+      "top10_mean": 2.3
+     },
+     {
+      "date": "2026-10-10",
+      "lead": "moon_rashi \u00d7 day_god",
+      "pattern": "cold",
+      "weakest_z": 1.91,
+      "caught": 4,
+      "split": "4+0",
+      "top10_mean": 2.6
+     },
+     {
+      "date": "2026-10-11",
+      "lead": "moon_rashi \u00d7 day_god",
+      "pattern": "cold",
+      "weakest_z": 1.91,
+      "caught": 3,
+      "split": "3+0",
+      "top10_mean": 2.5
+     },
+     {
+      "date": "2026-10-14",
+      "lead": "moon_rashi \u00d7 day_god",
+      "pattern": "cold",
+      "weakest_z": 1.91,
+      "caught": 3,
+      "split": "3+0",
+      "top10_mean": 2.6
+     },
+     {
+      "date": "2026-10-17",
+      "lead": "moon_rashi \u00d7 day_god",
+      "pattern": "cold",
+      "weakest_z": 1.91,
+      "caught": 4,
+      "split": "4+0",
+      "top10_mean": 1.8
+     }
+    ]
+   }
+  }
+ }
+}
