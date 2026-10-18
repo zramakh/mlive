@@ -1,0 +1,171 @@
+#!/usr/bin/env python3
+"""Magnum Life: every lead x format that caught 6, 7 or 8 winning numbers in one 8-number combination on the
+last 10 draws (hot / cold counts updated before every draw), with the prize and the entry's payout that draw.
+
+Run once per format (same options as profit_rank.py), then with --report to combine:
+python3 analysis/high_hits.py --tickets 10 --bonus
+python3 analysis/high_hits.py --system 10 --sets 1 --bonus
+python3 analysis/high_hits.py --system 9 --sets 2 --structure overlap --bonus
+python3 analysis/high_hits.py --system 9 --sets 2 --structure disjoint --bonus
+python3 analysis/high_hits.py --report     -> analysis/high_hits_results.json, analysis/HIGH_HITS.md
+"""
+
+import itertools
+import json
+import os
+import sys
+from multiprocessing import Pool
+
+import numpy as np
+
+REPORT = "--report" in sys.argv
+if REPORT:
+    sys.argv += ["--tickets", "10", "--bonus"]
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import common  # noqa: E402
+import extra_astro as xa  # noqa: E402
+import profit_rank as pr  # noqa: E402  (prize table; reads the same options)
+
+ls = pr.ls
+KEY = "ml8"
+SHIFTS = 2
+TIER = {16: "8 (Grand)", 15: "7 + bonus (2nd)", 14: "7 (3rd)", 13: "6 + bonus (4th)", 12: "6 (5th)"}
+ARR = os.path.join(common.ROOT, "analysis", "profit_arrays")
+FORMATS = [("10_bonus", "10 tickets"), ("sys10_bonus", "System 10 × 1"),
+           ("sys9_overlap_bonus", "System 9 × 2 overlap"), ("sys9_disjoint_bonus", "System 9 × 2 disjoint")]
+
+
+def series(task):
+    """Best tier code per hold draw (2 x winning in the best 8-combination + 1 if a bonus fits) and payout."""
+    sh, sets = task
+    if ls.W.get("key") != KEY:
+        ls.init(KEY)
+    codes = np.roll(ls.W["codes"], ls.W["shifts"][sh], axis=0)
+    k, n, H, R = ls.W["k"], ls.W["n"], ls.W["H"], ls.W["R"]
+    out_c, out_p, labels = [], [], []
+    for s in sets:
+        cid = np.zeros(len(H), np.int64)
+        for j in s:
+            cid = cid * 1000 + codes[:, j]
+        order = np.argsort(cid, kind="stable")
+        cs = cid[order]
+        first = np.r_[0, np.flatnonzero(np.diff(cs)) + 1]
+        starts = np.repeat(first, np.diff(np.r_[first, len(cid)]))
+
+        def ex(X):
+            xs = X[order]
+            c = np.cumsum(xs, 0) - xs
+            c = c - c[starts]
+            o = np.empty_like(X)
+            o[order] = c
+            return o
+        dp = ex(np.ones((len(cid), 1), np.float32))
+        cnt = ex(H)
+        e = dp * k / n
+        zc = (cnt - e) / np.sqrt(e * (1 - k / n) + 1e-6)
+        scores = {"hot": cnt - e, "cold": e - cnt,
+                  "pos": ((ex(ls.W["P"]) + ls.SMOOTH * ls.W["pglob"]) / (dp[:, :, None] + ls.SMOOTH)).sum(1),
+                  "hot+100": zc + ls.W["hot100"]}
+        kt = ls.ktop(k)
+        for p, S in scores.items():
+            S = (S + ls.W["tie"])[R:]
+            top = np.argpartition(-S, kt - 1, 1)[:, :kt]
+            top = np.take_along_axis(top, np.argsort(-np.take_along_axis(S, top, 1), 1), 1)
+            war = np.take_along_axis(H[R:], top, 1).astype(np.int64)
+            warb = np.take_along_axis(ls.W["Bn"][R:], top, 1).astype(np.int64)
+            best = np.zeros(len(war), np.int64)
+            pay = np.zeros(len(war))
+            for q in ls.W["pats"]:
+                m, b = war[:, q].sum(1), warb[:, q].sum(1)
+                m8 = np.minimum(m, 8)
+                b8 = np.minimum(b, 8 - m8)
+                best = np.maximum(best, np.where(m8 == 8, 16, 2 * m8 + (b8 > 0)))
+                pay += pr.PAY[m, b]
+            out_c.append(best.astype(np.int8))
+            out_p.append(pay.astype(np.float32))
+            labels.append((s, p))
+    return sh, labels, np.array(out_c), np.array(out_p)
+
+
+def run_format():
+    names = common.ALL_PARAMS + xa.extra_params()
+    sets = [()] + [(i,) for i in range(len(names))] + list(itertools.combinations(range(len(names)), 2))
+    tasks = [(sh, sets[i:i + 200]) for sh in range(SHIFTS + 1) for i in range(0, len(sets), 200)]
+    store = {}
+    with Pool(4) as pool:
+        for sh, labels, c, p in pool.imap_unordered(series, tasks):
+            st = store.setdefault(sh, {"labels": [], "c": [], "p": []})
+            st["labels"] += labels
+            st["c"].append(c)
+            st["p"].append(p)
+    lab = lambda s: " × ".join(names[j] for j in s) if s else "all draws (no astrology)"  # noqa: E731
+    os.makedirs(ARR, exist_ok=True)
+    for sh, st in store.items():
+        np.savez_compressed(os.path.join(ARR, f"tiers_{ls.TAG}_sh{sh}.npz"), code=np.vstack(st["c"]),
+                            pay=np.vstack(st["p"]), labels=np.array([f"{lab(x[0])}|{x[1]}" for x in st["labels"]]))
+    print("saved tiers for", ls.TAG)
+
+
+def report():
+    g = common.load_game(KEY)
+    dates = g["dates"][-ls.HOLD:]
+    res = {"formats": {}}
+    md = ["# Magnum Life: leads that caught 6, 7 or 8 winning numbers on the last 10 draws", "",
+          "Generated by `analysis/high_hits.py`. Best 8-number combination of each lead's entry per draw (hot / cold counts "
+          "updated before every draw); *payout* = the whole entry's prizes that draw (all its tickets / combinations), "
+          "*stake* = its cost that draw. Profit over the 10 draws and the lead's earlier profit rank come from "
+          "`profit_rank.py`. Shifted calendars: same leads on calendars rolled out of line with the draws.", ""]
+    summary = ["| Format | 8 (Grand) | 7 + bonus | 7 | 6 + bonus | 6 | Shifted calendars: 7+ / 6+ hits |", "|---|---|---|---|---|---|---|"]
+    lists = []
+    for tag, name in FORMATS:
+        cost = {"10_bonus": 10, "sys10_bonus": 45}.get(tag, 18)
+        per = {}
+        for sh in range(SHIFTS + 1):
+            z = np.load(os.path.join(ARR, f"tiers_{tag}_sh{sh}.npz"))
+            per[sh] = z
+        z = per[0]
+        code, pay, L = z["code"], z["pay"], z["labels"]
+        pz = np.load(os.path.join(ARR, f"{tag}_sh0.npz"))
+        pmap = {lab: i for i, lab in enumerate(pz["labels"])}
+        pre = pz["pre"]
+        rank_pre = np.empty(len(pre), int)
+        rank_pre[np.argsort(-pre, kind="stable")] = np.arange(1, len(pre) + 1)
+        hits = np.argwhere(code >= 12)
+        rows = []
+        for i, t in hits:
+            j = pmap[L[i]]
+            rows.append({"lead": L[i].split("|")[0], "pattern": L[i].split("|")[1], "date": dates[t],
+                         "tier": TIER[int(code[i, t])], "code": int(code[i, t]), "payout": round(float(pay[i, t]), 1),
+                         "stake": cost, "profit_10_draws": round(float(pz["hold"][j].sum()), 1),
+                         "rank_earlier": int(rank_pre[j]), "profit_earlier": round(float(pre[j]), 1)})
+        rows.sort(key=lambda r: (-r["code"], -r["payout"], r["date"]))
+        counts = {c: int((code == c).sum()) for c in TIER}
+        shc = [(int((per[s]["code"] >= 14).sum()), int((per[s]["code"] >= 12).sum())) for s in range(1, SHIFTS + 1)]
+        res["formats"][name] = {"counts": {TIER[c]: v for c, v in counts.items()},
+                                "shifted_7plus_6plus": shc, "rows": rows}
+        summary.append(f"| {name} | {counts[16]} | {counts[15]} | {counts[14]} | {counts[13]} | {counts[12]} | "
+                       f"{', '.join(f'{a} / {b}' for a, b in shc)} (real: {sum(counts[c] for c in (14, 15, 16))} / "
+                       f"{sum(counts.values())}) |")
+        lists += ["", f"## {name}", "",
+                  "| # | Lead | Pattern | Draw | Best combination | Payout that draw (RM) | Stake (RM) | Profit, 10 draws (RM) | Rank earlier | Profit earlier (RM) |",
+                  "|---|---|---|---|---|---|---|---|---|---|"]
+        for r_i, r in enumerate(rows, 1):
+            lists.append(f"| {r_i} | {r['lead']} | {r['pattern']} | {r['date']} | {r['tier']} | {r['payout']:,.0f} | {r['stake']} | "
+                         f"{r['profit_10_draws']:+,.0f} | {r['rank_earlier']:,} | {r['profit_earlier']:+,.0f} |")
+    # draws on which high hits happened
+    md += ["Number of lead × draw hits on the last 10 draws (26,224 leads):", ""] + summary + lists
+    with open(os.path.join(common.ROOT, "analysis", "high_hits_results.json"), "w") as fh:
+        json.dump(res, fh, indent=1)
+    with open(os.path.join(common.ROOT, "analysis", "HIGH_HITS.md"), "w") as fh:
+        fh.write("\n".join(md) + "\n")
+    print("\n".join(summary))
+    for name, v in res["formats"].items():
+        print(name)
+        for r in v["rows"]:
+            if r["code"] >= 14:
+                print("  ", r["lead"], r["pattern"], r["date"], r["tier"], r["payout"], r["profit_10_draws"], r["rank_earlier"])
+        print("   6-number hits:", sum(1 for r in v["rows"] if r["code"] < 14))
+
+
+if __name__ == "__main__":
+    report() if REPORT else run_format()
