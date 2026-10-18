@@ -63,6 +63,23 @@ WATCH = {
                ("kp_moon_number × nayin_element", "hot+100", ["System 7 × 2 overlap"]),
                ("nakshatra × sun_sign_tropical", "hot+100", ["10 sets"])],
 }
+# new-pattern leads from lead_full.py (7 patterns, chosen on draws up to 2026-10-17)
+WATCH["ml8"] += [("mercury_rashi × kp_asc_sub_lord", "cold+100", ["System 10 × 1", "System 9 × 2 overlap"]),
+                 ("mars_retrograde × moon_phase", "hot/cold100", ["System 9 × 2 disjoint"]),
+                 ("mercury_rashi × day_branch", "cold+100", ["System 9 × 2 overlap"]),
+                 ("month_stem × kp_ruling_planets", "hot/cold100", ["System 9 × 2 disjoint"]),
+                 ("aspect_moon_mars × aspect_mercury_mars", "cold+100", ["System 10 × 1"])]
+WATCH["toto50"] += [("hora_lord × mars_combust", "cold/hot100", ["10 sets", "System 7 × 2 overlap"]),
+                    ("saturn_retrograde × aspect_mercury_jupiter", "cold/hot100", ["System 7 × 2 disjoint"]),
+                    ("aspect_sun_mars × aspect_moon_venus", "hot/cold100", ["System 7 × 2 disjoint"]),
+                    ("day_of_month × aspect_venus_jupiter", "hot/cold100", ["System 7 × 2 disjoint"]),
+                    ("mars_combust × aspect_moon_mercury", "hot/cold100", ["10 sets"])]
+WATCH["toto55"] += [("mercury_nakshatra × aspects_soft", "cold/hot100", ["System 7 × 2 disjoint"]),
+                    ("mars_combust × aspect_jupiter_saturn", "cold/hot100", ["10 sets"])]
+WATCH["toto58"] += [("saturn_rashi × kp_asc_star_lord", "cold+100", ["System 7 × 2 disjoint"]),
+                    ("kp_asc_star_lord × year_pillar", "hot/cold100", ["System 7 × 2 overlap"]),
+                    ("lagna_rashi × lunar_day", "hot/cold100", ["System 8 × 1"]),
+                    ("sun_nakshatra × lunar_month", "cold/hot100", ["System 7 × 2 overlap"])]
 SYS = {"System 10 × 1": [list(range(10))], "System 9 × 2 overlap": [list(range(9)), list(range(6)) + [9, 10, 11]],
        "System 9 × 2 disjoint": [list(range(9)), list(range(9, 18))], **tf.SYS_PATS}
 
