@@ -93,6 +93,21 @@ def expected_return():
     return tot * len(ls.swap_patterns(8))
 
 
+def win_chance(sims=200000):
+    """Chance that this entry wins any prize on a fair draw (Monte Carlo over the ranks the tickets use)."""
+    rng = np.random.default_rng(1)
+    pats = ls.swap_patterns(8)
+    kt = ls.ktop(8)
+    pos = np.argsort(rng.random((sims, 36)), 1)[:, :10]
+    w = np.zeros((sims, kt), np.int64)
+    b = np.zeros((sims, kt), np.int64)
+    for j in range(kt):
+        w[:, j] = (pos[:, :8] == j).any(1)
+        b[:, j] = (pos[:, 8:] == j).any(1)
+    pay = sum(PAY[w[:, q].sum(1), b[:, q].sum(1)] for q in pats)
+    return float((pay > 0).mean())
+
+
 def series(task):
     """Profit per draw for a chunk of sets (all four patterns)."""
     sh, sets = task
@@ -156,7 +171,8 @@ def main():
     lo = int(0.25 * R)
     er = expected_return()
     exp10 = round(ls.HOLD * (er - COST), 2)
-    res = {"format": ls.TLAB, "cost_per_draw": COST, "expected_return_per_draw": round(er, 4),
+    pwin = win_chance()
+    res = {"format": ls.TLAB, "cost_per_draw": COST, "win_chance_per_draw": round(pwin, 4), "expected_return_per_draw": round(er, 4),
            "expected_profit_10_draws": exp10, "prize_table": {f"{m}+{b}": float(PAY[m, b]) for m in range(9)
                                                               for b in range(3) if PAY[m, b]}}
     for sh in range(SHIFTS + 1):
@@ -173,10 +189,15 @@ def main():
             picks.append({"date": g["dates"][t], "lead": lab(L[i][0]), "pattern": L[i][1],
                           "profit_before": round(float(P[i, lo:t].sum()), 1), "profit": round(float(P[i, t]), 1)})
         fo = np.argsort(-pre, kind="stable")[:10]
+        wins = (P[:, R:] + COST > 0.5).sum(1)
+        rate_pre = (P[:, lo:R] + COST > 0.5).mean(1)
+        hits = np.lexsort((-hold, -wins))[:TOPN]
+        hits_pre = np.lexsort((-pre, -rate_pre))[:10]
         ho = np.argsort(-hold, kind="stable")
         row = lambda i: {"lead": lab(L[i][0]), "pattern": L[i][1], "profit_last10": round(float(hold[i]), 1),  # noqa: E731
                          "per_draw": [round(float(x), 1) for x in P[i, R:]], "profit_earlier": round(float(pre[i]), 1),
-                         "earlier_per_draw": round(float(pre[i] / (R - lo)), 3), "rank_earlier": int(rank_pre[i])}
+                         "earlier_per_draw": round(float(pre[i] / (R - lo)), 3), "rank_earlier": int(rank_pre[i]),
+                         "wins_last10": int(wins[i]), "win_rate_earlier": round(float(rate_pre[i]), 4)}
         res["real" if sh == 0 else f"shift{sh}"] = {
             "summary": {"best_last10": round(float(hold.max()), 1), "leads_in_profit_last10": int((hold > 0).sum()),
                         "leads": len(P), "frozen_top1": round(float(hold[fo[0]]), 1),
@@ -184,7 +205,12 @@ def main():
                         "rolling_top1": round(sum(x["profit"] for x in picks), 1),
                         "all_leads_mean_last10": round(float(hold.mean()), 2),
                         "best_earlier": round(float(pre.max()), 1),
-                        "leads_in_profit_earlier": int((pre > 0).sum())},
+                        "leads_in_profit_earlier": int((pre > 0).sum()),
+                        "most_wins_last10": int(wins.max()), "leads_with_most_wins": int((wins == wins.max()).sum()),
+                        "best_win_rate_earlier": round(float(rate_pre.max()), 4),
+                        "top_rate_earlier_wins_last10": round(float(wins[hits_pre].mean()), 1),
+                        "top_rate_earlier_profit_last10": round(float(hold[hits_pre].mean()), 1)},
+            "top_hits_last10": [row(i) for i in hits], "top_hits_earlier": [row(i) for i in hits_pre],
             "top_last10": [row(i) for i in ho[:TOPN]], "top_earlier": [row(i) for i in fo],
             "named": [row(i) for i in range(len(L)) if (lab(L[i][0]), L[i][1]) in
                       {(a, b) for a, b in ls.NAMED["ml8"]} | {("mars_rashi × sun_sign_tropical", "cold"),
@@ -232,6 +258,25 @@ def main():
     for r in sorted(R0["named"], key=lambda r: -r["profit_last10"]):
         md.append(f"| {r['lead']} | {r['pattern']} | {fmt(r['profit_last10'])} | {' '.join(fmt(x) for x in r['per_draw'])} | "
                   f"{r['rank_earlier']:,} | {fmt(r['profit_earlier'])} |")
+    sh_w = ", ".join(str(x["most_wins_last10"]) for x in shs)
+    md += ["", f"## Top {TOPN} leads by winning draws on the last 10 (hindsight)", "",
+           f"*Winning draw* = the entry wins any prize. A random entry wins on {100 * pwin:.1f}% of draws "
+           f"({ls.HOLD * pwin:.1f} of 10). Most winning draws by any lead: {s0['most_wins_last10']} "
+           f"({s0['leads_with_most_wins']:,} leads; shifted calendars: {sh_w}). Ties broken by profit.", "",
+           "| # | Lead | Pattern | Winning draws | Profit, last 10 (RM) | Per draw (RM) | Earlier win rate | Rank earlier (profit) |",
+           "|---|---|---|---|---|---|---|---|"]
+    for i, r in enumerate(R0["top_hits_last10"], 1):
+        md.append(f"| {i} | {r['lead']} | {r['pattern']} | {r['wins_last10']}/10 | {fmt(r['profit_last10'])} | "
+                  f"{' '.join(fmt(x) for x in r['per_draw'])} | {100 * r['win_rate_earlier']:.1f}% | {r['rank_earlier']:,} |")
+    md += ["", "## Top 10 leads by win rate on the earlier draws, played on the last 10", "",
+           f"Average on the last 10: {s0['top_rate_earlier_wins_last10']} winning draws, profit {fmt(s0['top_rate_earlier_profit_last10'])} "
+           f"(shifted calendars: {', '.join(str(x['top_rate_earlier_wins_last10']) for x in shs)} winning draws, "
+           f"{', '.join(fmt(x['top_rate_earlier_profit_last10']) for x in shs)}).", "",
+           "| # | Lead | Pattern | Earlier win rate | Profit earlier (RM) | Winning draws, last 10 | Profit, last 10 (RM) | Per draw (RM) |",
+           "|---|---|---|---|---|---|---|---|"]
+    for i, r in enumerate(R0["top_hits_earlier"], 1):
+        md.append(f"| {i} | {r['lead']} | {r['pattern']} | {100 * r['win_rate_earlier']:.1f}% | {fmt(r['profit_earlier'])} | "
+                  f"{r['wins_last10']}/10 | {fmt(r['profit_last10'])} | {' '.join(fmt(x) for x in r['per_draw'])} |")
     md += ["", "## Re-ranked by profit before every draw", "",
            "| Draw | #1 lead | Pattern | Profit before this draw (RM) | Profit on this draw (RM) |", "|---|---|---|---|---|"]
     for x in R0["rolling"]:
