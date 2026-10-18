@@ -1,0 +1,319 @@
+{
+ "format": "2 System 9 sets (overlap)",
+ "bonus": true,
+ "games": {
+  "ml8": {
+   "label": "Magnum Life 8/36",
+   "expected_per_draw": 2.921,
+   "real": {
+    "summary": {
+     "rolling_top1": 27,
+     "rolling_top10_mean": 29.9,
+     "frozen_top1": 29,
+     "frozen_top1_lead": "karana \u00d7 aspect_moon_mars (cold)",
+     "frozen_top10_mean": 30.3,
+     "expected": 29.21,
+     "distinct_rolling_leads": 3
+    },
+    "picks": [
+     {
+      "date": "2026-09-26",
+      "lead": "karana \u00d7 aspect_moon_mars",
+      "pattern": "cold",
+      "weakest_z": 1.57,
+      "caught": 1,
+      "split": "1+0",
+      "top10_mean": 2.4
+     },
+     {
+      "date": "2026-09-27",
+      "lead": "yellow_black_path \u00d7 aspect_sun_venus",
+      "pattern": "cold",
+      "weakest_z": 1.57,
+      "caught": 3,
+      "split": "3+0",
+      "top10_mean": 3.3
+     },
+     {
+      "date": "2026-09-30",
+      "lead": "karana \u00d7 aspect_moon_mars",
+      "pattern": "cold",
+      "weakest_z": 1.62,
+      "caught": 2,
+      "split": "2+0",
+      "top10_mean": 2.8
+     },
+     {
+      "date": "2026-10-03",
+      "lead": "karana \u00d7 aspect_moon_mars",
+      "pattern": "cold",
+      "weakest_z": 1.68,
+      "caught": 3,
+      "split": "3+0",
+      "top10_mean": 3.3
+     },
+     {
+      "date": "2026-10-04",
+      "lead": "karana \u00d7 aspect_moon_mars",
+      "pattern": "cold",
+      "weakest_z": 1.62,
+      "caught": 4,
+      "split": "4+0",
+      "top10_mean": 2.5
+     },
+     {
+      "date": "2026-10-07",
+      "lead": "yellow_black_path \u00d7 aspect_sun_venus",
+      "pattern": "cold",
+      "weakest_z": 1.68,
+      "caught": 1,
+      "split": "1+0",
+      "top10_mean": 2.4
+     },
+     {
+      "date": "2026-10-10",
+      "lead": "karana \u00d7 aspect_moon_mars",
+      "pattern": "cold",
+      "weakest_z": 1.7,
+      "caught": 4,
+      "split": "2+2",
+      "top10_mean": 4.0
+     },
+     {
+      "date": "2026-10-11",
+      "lead": "karana \u00d7 aspect_moon_mars",
+      "pattern": "cold",
+      "weakest_z": 1.7,
+      "caught": 4,
+      "split": "3+1",
+      "top10_mean": 2.8
+     },
+     {
+      "date": "2026-10-14",
+      "lead": "karana \u00d7 aspect_moon_mars",
+      "pattern": "cold",
+      "weakest_z": 1.75,
+      "caught": 3,
+      "split": "2+1",
+      "top10_mean": 3.4
+     },
+     {
+      "date": "2026-10-17",
+      "lead": "mars_rashi \u00d7 aspect_sun_venus",
+      "pattern": "cold",
+      "weakest_z": 1.75,
+      "caught": 2,
+      "split": "2+0",
+      "top10_mean": 3.0
+     }
+    ]
+   },
+   "shift1": {
+    "summary": {
+     "rolling_top1": 34,
+     "rolling_top10_mean": 31.5,
+     "frozen_top1": 34,
+     "frozen_top1_lead": "mercury_retrograde \u00d7 mansion_28 (cold)",
+     "frozen_top10_mean": 31.8,
+     "expected": 29.21,
+     "distinct_rolling_leads": 1
+    },
+    "picks": [
+     {
+      "date": "2026-09-26",
+      "lead": "mercury_retrograde \u00d7 mansion_28",
+      "pattern": "cold",
+      "weakest_z": 1.84,
+      "caught": 1,
+      "split": "1+0",
+      "top10_mean": 2.9
+     },
+     {
+      "date": "2026-09-27",
+      "lead": "mercury_retrograde \u00d7 mansion_28",
+      "pattern": "cold",
+      "weakest_z": 1.84,
+      "caught": 3,
+      "split": "2+1",
+      "top10_mean": 3.3
+     },
+     {
+      "date": "2026-09-30",
+      "lead": "mercury_retrograde \u00d7 mansion_28",
+      "pattern": "cold",
+      "weakest_z": 1.78,
+      "caught": 4,
+      "split": "3+1",
+      "top10_mean": 3.2
+     },
+     {
+      "date": "2026-10-03",
+      "lead": "mercury_retrograde \u00d7 mansion_28",
+      "pattern": "cold",
+      "weakest_z": 1.84,
+      "caught": 5,
+      "split": "5+0",
+      "top10_mean": 3.0
+     },
+     {
+      "date": "2026-10-04",
+      "lead": "mercury_retrograde \u00d7 mansion_28",
+      "pattern": "cold",
+      "weakest_z": 1.78,
+      "caught": 4,
+      "split": "3+1",
+      "top10_mean": 3.1
+     },
+     {
+      "date": "2026-10-07",
+      "lead": "mercury_retrograde \u00d7 mansion_28",
+      "pattern": "cold",
+      "weakest_z": 1.79,
+      "caught": 4,
+      "split": "4+0",
+      "top10_mean": 2.7
+     },
+     {
+      "date": "2026-10-10",
+      "lead": "mercury_retrograde \u00d7 mansion_28",
+      "pattern": "cold",
+      "weakest_z": 1.84,
+      "caught": 4,
+      "split": "4+0",
+      "top10_mean": 3.4
+     },
+     {
+      "date": "2026-10-11",
+      "lead": "mercury_retrograde \u00d7 mansion_28",
+      "pattern": "cold",
+      "weakest_z": 1.84,
+      "caught": 0,
+      "split": "0+0",
+      "top10_mean": 2.6
+     },
+     {
+      "date": "2026-10-14",
+      "lead": "mercury_retrograde \u00d7 mansion_28",
+      "pattern": "cold",
+      "weakest_z": 1.84,
+      "caught": 4,
+      "split": "3+1",
+      "top10_mean": 4.1
+     },
+     {
+      "date": "2026-10-17",
+      "lead": "mercury_retrograde \u00d7 mansion_28",
+      "pattern": "cold",
+      "weakest_z": 1.79,
+      "caught": 5,
+      "split": "3+2",
+      "top10_mean": 3.2
+     }
+    ]
+   },
+   "shift2": {
+    "summary": {
+     "rolling_top1": 29,
+     "rolling_top10_mean": 29.3,
+     "frozen_top1": 30,
+     "frozen_top1_lead": "mars_combust \u00d7 adhika_masa (cold)",
+     "frozen_top10_mean": 29.2,
+     "expected": 29.21,
+     "distinct_rolling_leads": 2
+    },
+    "picks": [
+     {
+      "date": "2026-09-26",
+      "lead": "mars_combust \u00d7 adhika_masa",
+      "pattern": "cold",
+      "weakest_z": 1.68,
+      "caught": 2,
+      "split": "2+0",
+      "top10_mean": 2.9
+     },
+     {
+      "date": "2026-09-27",
+      "lead": "mars_combust \u00d7 adhika_masa",
+      "pattern": "cold",
+      "weakest_z": 1.66,
+      "caught": 3,
+      "split": "3+0",
+      "top10_mean": 3.0
+     },
+     {
+      "date": "2026-09-30",
+      "lead": "aspect_sun_mercury \u00d7 nine_star_day",
+      "pattern": "cold",
+      "weakest_z": 1.61,
+      "caught": 3,
+      "split": "3+0",
+      "top10_mean": 2.9
+     },
+     {
+      "date": "2026-10-03",
+      "lead": "aspect_sun_mercury \u00d7 nine_star_day",
+      "pattern": "cold",
+      "weakest_z": 1.61,
+      "caught": 3,
+      "split": "2+1",
+      "top10_mean": 2.5
+     },
+     {
+      "date": "2026-10-04",
+      "lead": "mars_combust \u00d7 adhika_masa",
+      "pattern": "cold",
+      "weakest_z": 1.62,
+      "caught": 2,
+      "split": "2+0",
+      "top10_mean": 2.3
+     },
+     {
+      "date": "2026-10-07",
+      "lead": "mars_combust \u00d7 adhika_masa",
+      "pattern": "cold",
+      "weakest_z": 1.66,
+      "caught": 3,
+      "split": "2+1",
+      "top10_mean": 2.2
+     },
+     {
+      "date": "2026-10-10",
+      "lead": "mars_combust \u00d7 adhika_masa",
+      "pattern": "cold",
+      "weakest_z": 1.66,
+      "caught": 2,
+      "split": "1+1",
+      "top10_mean": 3.8
+     },
+     {
+      "date": "2026-10-11",
+      "lead": "mars_combust \u00d7 adhika_masa",
+      "pattern": "cold",
+      "weakest_z": 1.61,
+      "caught": 3,
+      "split": "2+1",
+      "top10_mean": 3.2
+     },
+     {
+      "date": "2026-10-14",
+      "lead": "mars_combust \u00d7 adhika_masa",
+      "pattern": "cold",
+      "weakest_z": 1.62,
+      "caught": 4,
+      "split": "4+0",
+      "top10_mean": 3.6
+     },
+     {
+      "date": "2026-10-17",
+      "lead": "mars_combust \u00d7 adhika_masa",
+      "pattern": "cold",
+      "weakest_z": 1.62,
+      "caught": 4,
+      "split": "4+0",
+      "top10_mean": 2.9
+     }
+    ]
+   }
+  }
+ }
+}
