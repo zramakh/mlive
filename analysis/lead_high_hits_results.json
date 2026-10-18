@@ -1,0 +1,333 @@
+{
+ "calendars": 21,
+ "control": [],
+ "top": [
+  {
+   "lead": "aspect_sun_mars \u00d7 aspects_hard",
+   "pattern": "hot",
+   "z": 8.89,
+   "six_earlier": 33,
+   "six_earlier_shifted_mean": 5.9,
+   "seven_earlier": 1,
+   "last10": {
+    "10 tickets": {
+     "six": 0,
+     "seven": 0,
+     "profit": -85.0
+    },
+    "System 10 \u00d7 1": {
+     "six": 0,
+     "seven": 0,
+     "profit": -350.0
+    },
+    "System 9 \u00d7 2 overlap": {
+     "six": 0,
+     "seven": 0,
+     "profit": -160.0
+    },
+    "System 9 \u00d7 2 disjoint": {
+     "six": 0,
+     "seven": 0,
+     "profit": -180.0
+    }
+   }
+  },
+  {
+   "lead": "aspect_sun_venus \u00d7 aspect_sun_jupiter",
+   "pattern": "hot+100",
+   "z": 7.1,
+   "six_earlier": 23,
+   "six_earlier_shifted_mean": 5.8,
+   "seven_earlier": 0,
+   "last10": {
+    "10 tickets": {
+     "six": 0,
+     "seven": 0,
+     "profit": -100.0
+    },
+    "System 10 \u00d7 1": {
+     "six": 0,
+     "seven": 0,
+     "profit": -450.0
+    },
+    "System 9 \u00d7 2 overlap": {
+     "six": 0,
+     "seven": 0,
+     "profit": -180.0
+    },
+    "System 9 \u00d7 2 disjoint": {
+     "six": 0,
+     "seven": 0,
+     "profit": -180.0
+    }
+   }
+  },
+  {
+   "lead": "mars_retrograde \u00d7 planets_with_moon",
+   "pattern": "pos",
+   "z": 6.67,
+   "six_earlier": 30,
+   "six_earlier_shifted_mean": 7.8,
+   "seven_earlier": 0,
+   "last10": {
+    "10 tickets": {
+     "six": 0,
+     "seven": 0,
+     "profit": -100.0
+    },
+    "System 10 \u00d7 1": {
+     "six": 0,
+     "seven": 0,
+     "profit": -450.0
+    },
+    "System 9 \u00d7 2 overlap": {
+     "six": 0,
+     "seven": 0,
+     "profit": -160.0
+    },
+    "System 9 \u00d7 2 disjoint": {
+     "six": 0,
+     "seven": 0,
+     "profit": -180.0
+    }
+   }
+  },
+  {
+   "lead": "kp_moon_sub_lord \u00d7 day_pillar",
+   "pattern": "cold",
+   "z": 6.66,
+   "six_earlier": 17,
+   "six_earlier_shifted_mean": 4.8,
+   "seven_earlier": 2,
+   "last10": {
+    "10 tickets": {
+     "six": 0,
+     "seven": 0,
+     "profit": -80.0
+    },
+    "System 10 \u00d7 1": {
+     "six": 0,
+     "seven": 0,
+     "profit": -350.0
+    },
+    "System 9 \u00d7 2 overlap": {
+     "six": 0,
+     "seven": 0,
+     "profit": -140.0
+    },
+    "System 9 \u00d7 2 disjoint": {
+     "six": 0,
+     "seven": 0,
+     "profit": -140.0
+    }
+   }
+  },
+  {
+   "lead": "kp_sun_number \u00d7 day_stem",
+   "pattern": "hot",
+   "z": 6.58,
+   "six_earlier": 14,
+   "six_earlier_shifted_mean": 3.5,
+   "seven_earlier": 1,
+   "last10": {
+    "10 tickets": {
+     "six": 0,
+     "seven": 0,
+     "profit": -100.0
+    },
+    "System 10 \u00d7 1": {
+     "six": 0,
+     "seven": 0,
+     "profit": -450.0
+    },
+    "System 9 \u00d7 2 overlap": {
+     "six": 0,
+     "seven": 0,
+     "profit": -180.0
+    },
+    "System 9 \u00d7 2 disjoint": {
+     "six": 0,
+     "seven": 0,
+     "profit": -160.0
+    }
+   }
+  },
+  {
+   "lead": "jupiter_rashi \u00d7 nine_star_day",
+   "pattern": "hot",
+   "z": 6.28,
+   "six_earlier": 30,
+   "six_earlier_shifted_mean": 6.8,
+   "seven_earlier": 0,
+   "last10": {
+    "10 tickets": {
+     "six": 0,
+     "seven": 0,
+     "profit": -90.0
+    },
+    "System 10 \u00d7 1": {
+     "six": 0,
+     "seven": 0,
+     "profit": -450.0
+    },
+    "System 9 \u00d7 2 overlap": {
+     "six": 0,
+     "seven": 0,
+     "profit": -180.0
+    },
+    "System 9 \u00d7 2 disjoint": {
+     "six": 0,
+     "seven": 0,
+     "profit": -180.0
+    }
+   }
+  },
+  {
+   "lead": "pof_rashi \u00d7 aspect_venus_jupiter",
+   "pattern": "cold",
+   "z": 6.22,
+   "six_earlier": 26,
+   "six_earlier_shifted_mean": 6.2,
+   "seven_earlier": 7,
+   "last10": {
+    "10 tickets": {
+     "six": 0,
+     "seven": 0,
+     "profit": -95.0
+    },
+    "System 10 \u00d7 1": {
+     "six": 0,
+     "seven": 0,
+     "profit": -400.0
+    },
+    "System 9 \u00d7 2 overlap": {
+     "six": 0,
+     "seven": 0,
+     "profit": -180.0
+    },
+    "System 9 \u00d7 2 disjoint": {
+     "six": 0,
+     "seven": 0,
+     "profit": -180.0
+    }
+   }
+  },
+  {
+   "lead": "tithi \u00d7 saturn_combust",
+   "pattern": "cold",
+   "z": 6.12,
+   "six_earlier": 26,
+   "six_earlier_shifted_mean": 7.6,
+   "seven_earlier": 0,
+   "last10": {
+    "10 tickets": {
+     "six": 0,
+     "seven": 0,
+     "profit": -35.0
+    },
+    "System 10 \u00d7 1": {
+     "six": 0,
+     "seven": 0,
+     "profit": -130.0
+    },
+    "System 9 \u00d7 2 overlap": {
+     "six": 0,
+     "seven": 0,
+     "profit": -55.0
+    },
+    "System 9 \u00d7 2 disjoint": {
+     "six": 0,
+     "seven": 0,
+     "profit": -55.0
+    }
+   }
+  },
+  {
+   "lead": "kp_sun_number \u00d7 day_branch",
+   "pattern": "hot",
+   "z": 5.88,
+   "six_earlier": 12,
+   "six_earlier_shifted_mean": 3.4,
+   "seven_earlier": 3,
+   "last10": {
+    "10 tickets": {
+     "six": 0,
+     "seven": 0,
+     "profit": -100.0
+    },
+    "System 10 \u00d7 1": {
+     "six": 0,
+     "seven": 0,
+     "profit": -450.0
+    },
+    "System 9 \u00d7 2 overlap": {
+     "six": 0,
+     "seven": 0,
+     "profit": -180.0
+    },
+    "System 9 \u00d7 2 disjoint": {
+     "six": 0,
+     "seven": 0,
+     "profit": -160.0
+    }
+   }
+  },
+  {
+   "lead": "planets_with_moon",
+   "pattern": "pos",
+   "z": 5.84,
+   "six_earlier": 24,
+   "six_earlier_shifted_mean": 6.1,
+   "seven_earlier": 0,
+   "last10": {
+    "10 tickets": {
+     "six": 0,
+     "seven": 0,
+     "profit": -100.0
+    },
+    "System 10 \u00d7 1": {
+     "six": 0,
+     "seven": 0,
+     "profit": -450.0
+    },
+    "System 9 \u00d7 2 overlap": {
+     "six": 0,
+     "seven": 0,
+     "profit": -180.0
+    },
+    "System 9 \u00d7 2 disjoint": {
+     "six": 0,
+     "seven": 0,
+     "profit": -160.0
+    }
+   }
+  }
+ ],
+ "forward_six_hits_top10": {
+  "real": 0,
+  "shifted": [
+   0,
+   0,
+   1,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   0,
+   0,
+   0,
+   0,
+   4,
+   0,
+   1,
+   0,
+   0,
+   0
+  ],
+  "share_ge_real": 1.0
+ },
+ "average_lead_last10_six": 0.052
+}
