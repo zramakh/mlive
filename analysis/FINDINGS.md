@@ -289,6 +289,18 @@ Paksha × Venus rashi (cold) caught all 8 numbers on 26 Sep 2026 (checked indepe
 
 **6-, 7- and 8-number hits against 20 shifted calendars (`high_hits_null.py`, `HIGH_HITS_NULL.md`).** Counting, over all 26,224 leads and the whole history after warm-up, the lead × draw hits whose best 8-number combination holds 6+, 7+ or 8 winning numbers: the real calendar has slightly more than the shifted calendars in every format, 6+ by 1-4% (rank 2/21 in three formats, 6/21 for System 9 disjoint) and 7+ by 9-16% (rank 3-5/21); System 10 Grand-level hits 39 vs 25 on average (rank 1/21, max shifted 38). The four formats and the "earlier" / "whole history" rows reuse the same leads and draws, so this is about one test at p ≈ 0.05-0.10, not many. It is a small population-wide tilt that no lead chosen in advance has captured (all earlier forward tests lost), and a few percent more 6- and 7-number hits is far from turning the 45% expected loss into a profit.
 
+## Sports Toto with the official prizes, 10 sets of 6 (`toto_profit.py`, `TOTO_PROFIT.md`)
+
+Star 6/50 (RM1 a set; 6 = RM1,188,888 minimum, 5 + bonus = RM100,000, 5 = RM2,008, 4 + bonus = RM788, 4 = RM28, 3 + bonus = RM18, 3 = RM8), Power 6/55 (RM1; 6 = RM3m minimum, 5 = RM3,300, 4 = RM40, 3 = RM3), Supreme 6/58 (RM2; 6 = RM8.89m minimum, 5 = RM6,888, 4 = RM80, 3 = RM8). Random sets return 35%, 20% and 20% of the stake with jackpots at their minimum. All 26,224 leads and the non-parameter methods, 10 sets per draw, last 10 draws:
+
+| Game (stake over 10 draws) | Random, expected | Best lead (hindsight) | Shifted, best | #1 by earlier profit | Top 10 by earlier profit | Best non-parameter method |
+|---|---|---|---|---|---|---|
+| Star 6/50 (RM100) | −65 | +8,100 (hora_lord × mars_retrograde, cold: 5 numbers on 7 Oct) | +8,100, +8,116 | −100 | −97 | −28 (replay previous draw) |
+| Power 6/55 (RM100) | −80 | +3,023,083 (masa × day_god, hot: jackpot on 27 Sep) | +3,023,080, +3,016,566 | −100 | −82 | −70 (embedding neural) |
+| Supreme 6/58 (RM200) | −160 | +27,856 (nakshatra × nayin, hot+100: 5 numbers on 11 Oct) | +7,192, +7,264 | −200 | −146 | −160 (analogy similar) |
+
+Two Power Toto leads hit the jackpot on the last 10 draws (shifted calendars: 6 and 1); on the earlier draws the real calendar had 8 jackpot-level lead × draw hits against 15 and 25 shifted (Star 18 vs 15, 18; Supreme 13 vs 15, 13). 5-number hits on the last 10 were more common on the real calendar (Star 28 vs 11, 25; Power 146 vs 101, 77; Supreme 22 vs 2, 5) but each game's come mostly from one draw (Star 7 Oct, Power and Supreme 11 Oct) shared by many related leads. Every choice made before the 10 draws lost about the whole stake, the leaders by earlier profit being past jackpot winners.
+
 ## Is the 4D lead special? (`lead_4d_robustness.py`, `lead_hunt.py`)
 
 No. Scored the same way:
