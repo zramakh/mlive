@@ -1,0 +1,542 @@
+{
+ "variants": [
+  "N=5",
+  "N=10",
+  "N=15",
+  "N=20",
+  "N=30",
+  "N=50",
+  "N=75",
+  "N=100",
+  "N=150",
+  "N=200",
+  "N=300",
+  "N=500",
+  "N=all",
+  "half-life 5",
+  "half-life 10",
+  "half-life 20",
+  "half-life 50",
+  "half-life 100",
+  "half-life 200",
+  "overdue"
+ ],
+ "games": {
+  "toto50": {
+   "label": "STAR TOTO 6/50",
+   "curve": {
+    "N=5": {
+     "select_z": -0.16,
+     "test_z": 0.53,
+     "last10_matches": 5
+    },
+    "N=10": {
+     "select_z": -0.11,
+     "test_z": 1.49,
+     "last10_matches": 5
+    },
+    "N=15": {
+     "select_z": -0.37,
+     "test_z": 1.11,
+     "last10_matches": 7
+    },
+    "N=20": {
+     "select_z": -0.58,
+     "test_z": 0.01,
+     "last10_matches": 8
+    },
+    "N=30": {
+     "select_z": -0.84,
+     "test_z": -0.18,
+     "last10_matches": 7
+    },
+    "N=50": {
+     "select_z": 0.62,
+     "test_z": -0.57,
+     "last10_matches": 10
+    },
+    "N=75": {
+     "select_z": -1.26,
+     "test_z": 1.49,
+     "last10_matches": 9
+    },
+    "N=100": {
+     "select_z": -1.62,
+     "test_z": 2.2,
+     "last10_matches": 8
+    },
+    "N=150": {
+     "select_z": 0.36,
+     "test_z": 0.53,
+     "last10_matches": 5
+    },
+    "N=200": {
+     "select_z": 1.56,
+     "test_z": 1.37,
+     "last10_matches": 8
+    },
+    "N=300": {
+     "select_z": -0.53,
+     "test_z": 1.56,
+     "last10_matches": 9
+    },
+    "N=500": {
+     "select_z": -0.98,
+     "test_z": 1.69,
+     "last10_matches": 6
+    },
+    "N=all": {
+     "select_z": -1.41,
+     "test_z": 0.85,
+     "last10_matches": 12
+    },
+    "half-life 5": {
+     "select_z": -0.89,
+     "test_z": 0.85,
+     "last10_matches": 8
+    },
+    "half-life 10": {
+     "select_z": -0.89,
+     "test_z": 2.08,
+     "last10_matches": 7
+    },
+    "half-life 20": {
+     "select_z": -0.63,
+     "test_z": 1.62,
+     "last10_matches": 8
+    },
+    "half-life 50": {
+     "select_z": -0.84,
+     "test_z": 1.37,
+     "last10_matches": 9
+    },
+    "half-life 100": {
+     "select_z": -0.01,
+     "test_z": 2.2,
+     "last10_matches": 7
+    },
+    "half-life 200": {
+     "select_z": -0.16,
+     "test_z": 2.46,
+     "last10_matches": 6
+    },
+    "overdue": {
+     "select_z": -0.63,
+     "test_z": 1.75,
+     "last10_matches": 8
+    }
+   },
+   "chosen": "N=200",
+   "chosen_select_z": 1.56,
+   "chosen_test_z": 1.37,
+   "chosen_last10": 8,
+   "last10_expected": 7.2,
+   "rolling_test_z": 0.33,
+   "rolling_last10": 9.0,
+   "fair": {
+    "best_select_z_mean": 1.5,
+    "share_best_select_z_ge_real": 0.46,
+    "test_z_of_chosen_5_50_95": [
+     -1.48,
+     0.14,
+     1.89
+    ],
+    "share_test_z_ge_real": 0.13,
+    "rolling_test_z_5_50_95": [
+     -1.55,
+     0.01,
+     1.43
+    ],
+    "select_test_corr_mean": 0.043
+   },
+   "select_test_corr": -0.218
+  },
+  "toto55": {
+   "label": "POWER TOTO 6/55",
+   "curve": {
+    "N=5": {
+     "select_z": -0.5,
+     "test_z": 0.83,
+     "last10_matches": 9
+    },
+    "N=10": {
+     "select_z": -0.62,
+     "test_z": 1.11,
+     "last10_matches": 7
+    },
+    "N=15": {
+     "select_z": 0.11,
+     "test_z": 0.55,
+     "last10_matches": 8
+    },
+    "N=20": {
+     "select_z": 0.65,
+     "test_z": -0.02,
+     "last10_matches": 9
+    },
+    "N=30": {
+     "select_z": 1.26,
+     "test_z": 1.63,
+     "last10_matches": 6
+    },
+    "N=50": {
+     "select_z": 1.03,
+     "test_z": -0.68,
+     "last10_matches": 8
+    },
+    "N=75": {
+     "select_z": 0.38,
+     "test_z": 0.45,
+     "last10_matches": 6
+    },
+    "N=100": {
+     "select_z": -0.43,
+     "test_z": -0.21,
+     "last10_matches": 5
+    },
+    "N=150": {
+     "select_z": 0.99,
+     "test_z": -0.02,
+     "last10_matches": 6
+    },
+    "N=200": {
+     "select_z": 1.34,
+     "test_z": 0.22,
+     "last10_matches": 8
+    },
+    "N=300": {
+     "select_z": 1.19,
+     "test_z": -0.59,
+     "last10_matches": 6
+    },
+    "N=500": {
+     "select_z": 0.26,
+     "test_z": 0.74,
+     "last10_matches": 3
+    },
+    "N=all": {
+     "select_z": 0.07,
+     "test_z": 0.64,
+     "last10_matches": 6
+    },
+    "half-life 5": {
+     "select_z": 0.03,
+     "test_z": -0.21,
+     "last10_matches": 7
+    },
+    "half-life 10": {
+     "select_z": 1.03,
+     "test_z": -0.3,
+     "last10_matches": 7
+    },
+    "half-life 20": {
+     "select_z": 1.65,
+     "test_z": 0.03,
+     "last10_matches": 5
+    },
+    "half-life 50": {
+     "select_z": 0.53,
+     "test_z": -0.92,
+     "last10_matches": 5
+    },
+    "half-life 100": {
+     "select_z": 1.19,
+     "test_z": -0.49,
+     "last10_matches": 3
+    },
+    "half-life 200": {
+     "select_z": 0.84,
+     "test_z": 0.97,
+     "last10_matches": 3
+    },
+    "overdue": {
+     "select_z": 0.61,
+     "test_z": 0.26,
+     "last10_matches": 9
+    }
+   },
+   "chosen": "half-life 20",
+   "chosen_select_z": 1.65,
+   "chosen_test_z": 0.03,
+   "chosen_last10": 5,
+   "last10_expected": 6.55,
+   "rolling_test_z": 0.26,
+   "rolling_last10": 3.0,
+   "fair": {
+    "best_select_z_mean": 1.54,
+    "share_best_select_z_ge_real": 0.4,
+    "test_z_of_chosen_5_50_95": [
+     -1.82,
+     -0.02,
+     1.59
+    ],
+    "share_test_z_ge_real": 0.493,
+    "rolling_test_z_5_50_95": [
+     -1.54,
+     -0.07,
+     1.78
+    ],
+    "select_test_corr_mean": -0.023
+   },
+   "select_test_corr": -0.281
+  },
+  "toto58": {
+   "label": "SUPREME TOTO 6/58",
+   "curve": {
+    "N=5": {
+     "select_z": 0.9,
+     "test_z": -1.25,
+     "last10_matches": 9
+    },
+    "N=10": {
+     "select_z": -0.29,
+     "test_z": 1.04,
+     "last10_matches": 7
+    },
+    "N=15": {
+     "select_z": -0.93,
+     "test_z": 0.21,
+     "last10_matches": 7
+    },
+    "N=20": {
+     "select_z": -1.44,
+     "test_z": 1.04,
+     "last10_matches": 7
+    },
+    "N=30": {
+     "select_z": -1.2,
+     "test_z": -0.42,
+     "last10_matches": 4
+    },
+    "N=50": {
+     "select_z": 0.3,
+     "test_z": -1.35,
+     "last10_matches": 8
+    },
+    "N=75": {
+     "select_z": -0.53,
+     "test_z": -0.38,
+     "last10_matches": 4
+    },
+    "N=100": {
+     "select_z": -0.45,
+     "test_z": 0.31,
+     "last10_matches": 7
+    },
+    "N=150": {
+     "select_z": 0.94,
+     "test_z": -1.11,
+     "last10_matches": 6
+    },
+    "N=200": {
+     "select_z": 1.29,
+     "test_z": 0.16,
+     "last10_matches": 6
+    },
+    "N=300": {
+     "select_z": 0.26,
+     "test_z": -0.57,
+     "last10_matches": 4
+    },
+    "N=500": {
+     "select_z": -0.69,
+     "test_z": -0.47,
+     "last10_matches": 7
+    },
+    "N=all": {
+     "select_z": -0.29,
+     "test_z": -2.18,
+     "last10_matches": 4
+    },
+    "half-life 5": {
+     "select_z": -0.09,
+     "test_z": 0.11,
+     "last10_matches": 6
+    },
+    "half-life 10": {
+     "select_z": -0.45,
+     "test_z": -0.13,
+     "last10_matches": 5
+    },
+    "half-life 20": {
+     "select_z": -0.57,
+     "test_z": -0.52,
+     "last10_matches": 6
+    },
+    "half-life 50": {
+     "select_z": -0.09,
+     "test_z": -0.57,
+     "last10_matches": 7
+    },
+    "half-life 100": {
+     "select_z": 0.18,
+     "test_z": -0.91,
+     "last10_matches": 5
+    },
+    "half-life 200": {
+     "select_z": -0.69,
+     "test_z": -0.28,
+     "last10_matches": 7
+    },
+    "overdue": {
+     "select_z": -0.57,
+     "test_z": -0.42,
+     "last10_matches": 6
+    }
+   },
+   "chosen": "N=200",
+   "chosen_select_z": 1.29,
+   "chosen_test_z": 0.16,
+   "chosen_last10": 6,
+   "last10_expected": 6.21,
+   "rolling_test_z": 0.21,
+   "rolling_last10": 6.0,
+   "fair": {
+    "best_select_z_mean": 1.48,
+    "share_best_select_z_ge_real": 0.587,
+    "test_z_of_chosen_5_50_95": [
+     -1.79,
+     0.02,
+     1.43
+    ],
+    "share_test_z_ge_real": 0.44,
+    "rolling_test_z_5_50_95": [
+     -1.6,
+     0.11,
+     1.63
+    ],
+    "select_test_corr_mean": -0.008
+   },
+   "select_test_corr": -0.388
+  },
+  "ml8": {
+   "label": "Magnum Life 8/36",
+   "curve": {
+    "N=5": {
+     "select_z": 0.22,
+     "test_z": -0.69,
+     "last10_matches": 24
+    },
+    "N=10": {
+     "select_z": 1.73,
+     "test_z": -0.02,
+     "last10_matches": 15
+    },
+    "N=15": {
+     "select_z": 2.3,
+     "test_z": 0.31,
+     "last10_matches": 21
+    },
+    "N=20": {
+     "select_z": 1.49,
+     "test_z": -0.69,
+     "last10_matches": 21
+    },
+    "N=30": {
+     "select_z": 1.22,
+     "test_z": -1.7,
+     "last10_matches": 20
+    },
+    "N=50": {
+     "select_z": 0.61,
+     "test_z": -0.64,
+     "last10_matches": 21
+    },
+    "N=75": {
+     "select_z": 0.68,
+     "test_z": -0.88,
+     "last10_matches": 19
+    },
+    "N=100": {
+     "select_z": -0.24,
+     "test_z": -0.88,
+     "last10_matches": 19
+    },
+    "N=150": {
+     "select_z": 1.34,
+     "test_z": 0.31,
+     "last10_matches": 25
+    },
+    "N=200": {
+     "select_z": 1.49,
+     "test_z": -0.16,
+     "last10_matches": 20
+    },
+    "N=300": {
+     "select_z": 1.49,
+     "test_z": 0.46,
+     "last10_matches": 23
+    },
+    "N=500": {
+     "select_z": 0.01,
+     "test_z": -0.88,
+     "last10_matches": 20
+    },
+    "N=all": {
+     "select_z": 0.99,
+     "test_z": -1.08,
+     "last10_matches": 21
+    },
+    "half-life 5": {
+     "select_z": 1.73,
+     "test_z": 0.22,
+     "last10_matches": 18
+    },
+    "half-life 10": {
+     "select_z": 1.38,
+     "test_z": 0.22,
+     "last10_matches": 21
+    },
+    "half-life 20": {
+     "select_z": 1.45,
+     "test_z": -0.31,
+     "last10_matches": 24
+    },
+    "half-life 50": {
+     "select_z": 2.19,
+     "test_z": -0.69,
+     "last10_matches": 22
+    },
+    "half-life 100": {
+     "select_z": 1.53,
+     "test_z": -0.98,
+     "last10_matches": 25
+    },
+    "half-life 200": {
+     "select_z": 2.15,
+     "test_z": -0.88,
+     "last10_matches": 20
+    },
+    "overdue": {
+     "select_z": 0.61,
+     "test_z": -0.07,
+     "last10_matches": 19
+    }
+   },
+   "chosen": "N=15",
+   "chosen_select_z": 2.3,
+   "chosen_test_z": 0.31,
+   "chosen_last10": 21,
+   "last10_expected": 17.78,
+   "rolling_test_z": -0.16,
+   "rolling_last10": 25.0,
+   "fair": {
+    "best_select_z_mean": 1.51,
+    "share_best_select_z_ge_real": 0.153,
+    "test_z_of_chosen_5_50_95": [
+     -1.65,
+     0.03,
+     1.75
+    ],
+    "share_test_z_ge_real": 0.387,
+    "rolling_test_z_5_50_95": [
+     -1.56,
+     -0.07,
+     1.61
+    ],
+    "select_test_corr_mean": -0.01
+   },
+   "select_test_corr": 0.345
+  }
+ }
+}

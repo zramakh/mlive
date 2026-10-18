@@ -172,6 +172,13 @@ Hot ticket = k most frequent numbers of the previous N draws (N = 5 … 500 or a
 Re-optimising every draw over the previous 200: −1.54, −2.33, +0.11, −0.79. A look-back's selection score does not
 predict its test score (correlation −0.50, +0.06, −0.03, +0.00; fair ≈ 0). No look-back works.
 
+**Cold numbers, same test** (`hot_window.py --cold`, [COLD_WINDOW.md](COLD_WINDOW.md)): least-frequent numbers of the
+previous N draws, decayed counts, and "overdue" (longest gap since last drawn). Chosen look-backs: 6/50 N=200 → test z
++1.37; 6/55 half-life 20 → +0.03; 6/58 N=200 → +0.16; Life N=15 → +0.31 (fair histories −1.8 to +1.9). Re-optimised
+every draw: +0.33, +0.26, +0.21, −0.16. Overdue: +1.75, +0.26, −0.42, −0.07. Last 10 draws: 8/7.2, 5/6.5, 6/6.2,
+21/17.8. Selection-vs-test correlation across look-backs −0.40 to +0.34; fair histories have SD ≈ 0.3 for this, so
+Magnum Life's +0.26–0.34 happens 18% of the time. No cold rule works either.
+
 ## Is the 4D lead special? (`lead_4d_robustness.py`, `lead_hunt.py`)
 
 No. Scored the same way:
