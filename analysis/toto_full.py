@@ -349,12 +349,12 @@ def main():
         md_l += [f"## {g['label']}", "",
                  "| # | Lead | Pattern | Earlier 5+ hits (shifted mean) | z | Earlier 6-number hits | Last 10: 5+ hits | Last 10 profit (RM): 10 sets / Sys 7 overlap / Sys 7 disjoint / Sys 8 |",
                  "|---|---|---|---|---|---|---|---|"]
-        for i_, r in zip(top, LH["top"]):
+        for num, (i_, r) in enumerate(zip(top, LH["top"]), 1):
             ld, pt = lab(i_)
-            md_l.append(f"| {len(md_l)} | {ld} | {pt} | {r['five_earlier']} ({r['shifted_mean']:.1f}) | {r['z']:+.2f} | {r['six_earlier']} | "
+            md_l.append(f"| {num} | {ld} | {pt} | {r['five_earlier']} ({r['shifted_mean']:.1f}) | {r['z']:+.2f} | {r['six_earlier']} | "
                         f"{r['five_last10']} | {' / '.join(fmtm(x) for x in r['profit_last10'])} |")
         md_l += ["", f"Forward check: the 10 leads got {fwd} 5+ hits on the last 10 draws (all formats); an average lead gets "
-                 f"{LH['avg_lead_five_last10']:.2f}, 10 leads ≈ {10 * LH['avg_lead_five_last10']:.1f}. The same choice on each shifted "
+                 f"{LH['avg_lead_five_last10']:.3f}, 10 leads ≈ {10 * LH['avg_lead_five_last10']:.2f}. The same choice on each shifted "
                  f"calendar: {', '.join(map(str, ctrl5))}.", ""]
         # how unusual is the top lead among all leads
         me = int(five[top[0], 0])
