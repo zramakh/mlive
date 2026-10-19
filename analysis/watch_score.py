@@ -82,6 +82,12 @@ WATCH["toto58"] += [("saturn_rashi × kp_asc_star_lord", "cold+100", ["System 7 
                     ("kp_asc_star_lord × year_pillar", "hot/cold100", ["System 7 × 2 overlap"]),
                     ("lagna_rashi × lunar_day", "hot/cold100", ["System 8 × 1"]),
                     ("sun_nakshatra × lunar_month", "cold/hot100", ["System 7 × 2 overlap"])]
+# history-window leads from lead_full.py --window (chosen on the draws up to 2026-10-17, plus 2026-10-18 hindsight)
+WATCH["ml8"] += [("day_element × aspect_moon_jupiter", "hot@last_round", ["System 9 × 2 overlap", "10 tickets"]),
+                 ("sun_rashi × nayin_element", "cold/hot100@decay10", ["System 9 × 2 overlap"])]
+WATCH["toto50"] += [("nayin_element × plum_trigrams", "pos@last10", ["System 7 × 2 overlap"]),
+                    ("karana × aspect_venus_mars", "hot@last5", ["System 8 × 1"])]
+WATCH["toto55"] += [("month_branch × aspects_soft", "cold@decay10", ["System 8 × 1"])]
 SYS = {"System 10 × 1": [list(range(10))], "System 9 × 2 overlap": [list(range(9)), list(range(6)) + [9, 10, 11]],
        "System 9 × 2 disjoint": [list(range(9)), list(range(9, 18))], **tf.SYS_PATS}
 

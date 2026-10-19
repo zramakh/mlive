@@ -110,3 +110,16 @@ in `WATCH_LOG.md`.
 | Supreme Toto | kp_asc_star_lord × year_pillar | hot/cold100 | #1 by earlier profit; −RM8 on the last 10 (almost break-even) | System 7 × 2 overlap |
 | Supreme Toto | lagna_rashi × lunar_day | hot/cold100 | 5 numbers, +RM21,384 | System 8 × 1 |
 | Supreme Toto | sun_nakshatra × lunar_month | cold/hot100 | 5 numbers, +RM13,928 | System 7 × 2 overlap |
+
+# History-window leads (last round, last 5 / 10, decayed)
+
+From `lead_full.py --window ...` and `WINDOWS_COMPARE.md`; the pattern carries the window (e.g. `pos@last10` = position
+pattern over only the 10 most recent draws of the cell). Scored from 2026-10-21 on.
+
+| Game | Lead | Pattern | Why | Format |
+|---|---|---|---|---|
+| Magnum Life | day_element × aspect_moon_jupiter | hot@last_round | #1 by earlier profit (one past Grand) in three formats; the only re-ranked pick with profit on the last 10 (+RM360 10 tickets) | System 9 × 2 overlap, 10 tickets |
+| Magnum Life | sun_rashi × nayin_element | cold/hot100@decay10 | 7 numbers on 2024-12-21 and on 2026-10-18 | System 9 × 2 overlap |
+| Star Toto | nayin_element × plum_trigrams | pos@last10 | 5 numbers on 2020-01-04, 2025-04-06 and 2026-10-18 (three repeats) | System 7 × 2 overlap |
+| Star Toto | karana × aspect_venus_mars | hot@last5 | 5 + bonus (Jackpot 2, RM112,216) on 2026-10-18; poor earlier record (rank 33,653) | System 8 × 1 |
+| Power Toto | month_branch × aspects_soft | cold@decay10 | 5 numbers on 2026-10-18 in all four formats; poor earlier record | System 8 × 1 |

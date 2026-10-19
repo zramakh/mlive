@@ -10386,5 +10386,10393 @@
     "z": -1.256832057981329
    }
   }
+ },
+ "toto55": {
+  "label": "POWER TOTO 6/55",
+  "cost": {
+   "10 sets": 10,
+   "System 7 \u00d7 2 overlap": 14,
+   "System 7 \u00d7 2 disjoint": 14,
+   "System 8 \u00d7 1": 28
+  },
+  "formats": {
+   "10 sets": {
+    "cost": 10,
+    "expected_profit_10": -80.1,
+    "real": {
+     "best": 13346.0,
+     "in_profit": 1307.0,
+     "mean": -78.66970278044104,
+     "frozen1": -100.0,
+     "frozen10": -93.4,
+     "rolling": -100.0
+    },
+    "shifted": {
+     "best": [
+      13340.0,
+      13352.0,
+      13340.0,
+      6752.0,
+      13340.0,
+      13343.0,
+      10043.0,
+      13343.0,
+      13343.0,
+      13343.0,
+      13346.0,
+      13352.0,
+      13367.0,
+      13340.0,
+      13346.0,
+      6746.0,
+      13340.0,
+      13340.0,
+      6746.0,
+      13343.0
+     ],
+     "in_profit": [
+      804.0,
+      796.0,
+      964.0,
+      1019.0,
+      804.0,
+      966.0,
+      901.0,
+      787.0,
+      605.0,
+      669.0,
+      618.0,
+      819.0,
+      779.0,
+      875.0,
+      761.0,
+      918.0,
+      743.0,
+      813.0,
+      649.0,
+      794.0
+     ],
+     "mean": [
+      -88.71572387344199,
+      -75.64945960080188,
+      -86.07853220604899,
+      -86.50187396496122,
+      -88.0042055260176,
+      -84.9852915540835,
+      -86.36877887213458,
+      -87.71313082890264,
+      -88.34297916848253,
+      -87.93003137801796,
+      -88.13180946570208,
+      -88.6970060141201,
+      -85.58768412795258,
+      -86.10293733112525,
+      -84.07903338272466,
+      -87.74956419419507,
+      -88.43735291554084,
+      -77.79976902292339,
+      -90.51313954501875,
+      -87.81484790377408
+     ],
+     "frozen1": [
+      -100.0,
+      -100.0,
+      -45.0,
+      -100.0,
+      -100.0,
+      121.0,
+      -100.0,
+      -97.0,
+      -100.0,
+      -100.0,
+      -100.0,
+      -91.0,
+      -100.0,
+      -100.0,
+      -85.0,
+      -97.0,
+      -100.0,
+      -100.0,
+      -100.0,
+      -82.0
+     ],
+     "frozen10": [
+      -76.3,
+      -96.7,
+      -87.2,
+      -82.0,
+      -97.3,
+      -52.8,
+      -75.2,
+      -91.3,
+      -90.9,
+      -92.2,
+      -92.5,
+      -96.4,
+      -76.3,
+      -91.9,
+      -92.8,
+      -94.3,
+      -89.8,
+      -98.5,
+      -99.1,
+      -52.7
+     ],
+     "rolling": [
+      -100.0,
+      -100.0,
+      -45.0,
+      -100.0,
+      -100.0,
+      121.0,
+      -100.0,
+      -97.0,
+      -100.0,
+      -100.0,
+      -100.0,
+      -91.0,
+      -100.0,
+      -100.0,
+      -85.0,
+      -97.0,
+      -100.0,
+      -100.0,
+      -100.0,
+      -82.0
+     ]
+    },
+    "top_profit": [
+     {
+      "lead": "solar_term \u00d7 aspect_sun_mercury",
+      "pattern": "hot+100",
+      "profit": 13346.0,
+      "wins": 2,
+      "best": [
+       0,
+       2,
+       4,
+       6,
+       0,
+       0,
+       4,
+       10,
+       2,
+       0
+      ],
+      "rank_earlier": 27140,
+      "return_earlier": 0.0537
+     },
+     {
+      "lead": "masa \u00d7 day_god",
+      "pattern": "hot",
+      "profit": 13343.0,
+      "wins": 2,
+      "best": [
+       0,
+       10,
+       2,
+       4,
+       2,
+       6,
+       2,
+       4,
+       2,
+       0
+      ],
+      "rank_earlier": 43952,
+      "return_earlier": 0.0381
+     },
+     {
+      "lead": "masa \u00d7 day_god",
+      "pattern": "pos",
+      "profit": 13343.0,
+      "wins": 2,
+      "best": [
+       0,
+       10,
+       2,
+       4,
+       2,
+       6,
+       2,
+       4,
+       0,
+       0
+      ],
+      "rank_earlier": 44812,
+      "return_earlier": 0.0361
+     },
+     {
+      "lead": "sun_nakshatra \u00d7 mars_combust",
+      "pattern": "hot+100",
+      "profit": 13340.0,
+      "wins": 1,
+      "best": [
+       0,
+       2,
+       4,
+       2,
+       0,
+       0,
+       2,
+       10,
+       2,
+       0
+      ],
+      "rank_earlier": 30695,
+      "return_earlier": 0.051
+     },
+     {
+      "lead": "sun_nakshatra \u00d7 aspect_sun_mercury",
+      "pattern": "hot+100",
+      "profit": 13340.0,
+      "wins": 1,
+      "best": [
+       2,
+       2,
+       4,
+       4,
+       0,
+       0,
+       2,
+       10,
+       2,
+       0
+      ],
+      "rank_earlier": 4050,
+      "return_earlier": 0.2137
+     },
+     {
+      "lead": "sun_nakshatra \u00d7 aspect_venus_jupiter",
+      "pattern": "hot+100",
+      "profit": 13340.0,
+      "wins": 1,
+      "best": [
+       0,
+       0,
+       0,
+       4,
+       0,
+       0,
+       2,
+       10,
+       2,
+       0
+      ],
+      "rank_earlier": 32088,
+      "return_earlier": 0.05
+     },
+     {
+      "lead": "venus_rashi \u00d7 aspect_sun_moon",
+      "pattern": "cold",
+      "profit": 13340.0,
+      "wins": 1,
+      "best": [
+       2,
+       10,
+       0,
+       2,
+       2,
+       2,
+       2,
+       0,
+       2,
+       2
+      ],
+      "rank_earlier": 2187,
+      "return_earlier": 0.2293
+     },
+     {
+      "lead": "kp_moon_sub_lord \u00d7 aspect_mars_saturn",
+      "pattern": "hot+100",
+      "profit": 13340.0,
+      "wins": 1,
+      "best": [
+       0,
+       0,
+       4,
+       2,
+       0,
+       2,
+       2,
+       10,
+       2,
+       0
+      ],
+      "rank_earlier": 32060,
+      "return_earlier": 0.05
+     },
+     {
+      "lead": "solar_term \u00d7 aspect_moon_mercury",
+      "pattern": "hot+100",
+      "profit": 13340.0,
+      "wins": 1,
+      "best": [
+       2,
+       4,
+       4,
+       4,
+       2,
+       0,
+       4,
+       10,
+       2,
+       0
+      ],
+      "rank_earlier": 30605,
+      "return_earlier": 0.0511
+     },
+     {
+      "lead": "yoga \u00d7 pof_rashi",
+      "pattern": "hot",
+      "profit": 10052.0,
+      "wins": 2,
+      "best": [
+       0,
+       0,
+       0,
+       2,
+       2,
+       0,
+       2,
+       4,
+       6,
+       10
+      ],
+      "rank_earlier": 24356,
+      "return_earlier": 0.0559
+     },
+     {
+      "lead": "sun_nakshatra \u00d7 ritu",
+      "pattern": "hot+100",
+      "profit": 10046.0,
+      "wins": 2,
+      "best": [
+       0,
+       0,
+       4,
+       6,
+       0,
+       0,
+       4,
+       10,
+       2,
+       0
+      ],
+      "rank_earlier": 38236,
+      "return_earlier": 0.0451
+     },
+     {
+      "lead": "ritu \u00d7 kp_sun_star_lord",
+      "pattern": "hot+100",
+      "profit": 10046.0,
+      "wins": 2,
+      "best": [
+       0,
+       0,
+       4,
+       6,
+       0,
+       0,
+       4,
+       10,
+       2,
+       0
+      ],
+      "rank_earlier": 38584,
+      "return_earlier": 0.0448
+     },
+     {
+      "lead": "yoga \u00d7 pof_rashi",
+      "pattern": "pos",
+      "profit": 10043.0,
+      "wins": 1,
+      "best": [
+       0,
+       0,
+       0,
+       2,
+       0,
+       0,
+       2,
+       4,
+       4,
+       10
+      ],
+      "rank_earlier": 19638,
+      "return_earlier": 0.06
+     },
+     {
+      "lead": "sun_nakshatra \u00d7 aspect_moon_saturn",
+      "pattern": "hot+100",
+      "profit": 10043.0,
+      "wins": 1,
+      "best": [
+       0,
+       4,
+       4,
+       4,
+       0,
+       0,
+       2,
+       10,
+       2,
+       0
+      ],
+      "rank_earlier": 18124,
+      "return_earlier": 0.0615
+     },
+     {
+      "lead": "ritu \u00d7 kp_asc_sub_lord",
+      "pattern": "hot+100",
+      "profit": 10043.0,
+      "wins": 1,
+      "best": [
+       0,
+       0,
+       2,
+       2,
+       0,
+       4,
+       2,
+       10,
+       4,
+       4
+      ],
+      "rank_earlier": 5085,
+      "return_earlier": 0.1979
+     },
+     {
+      "lead": "jupiter_retrograde \u00d7 moon_phase",
+      "pattern": "hot",
+      "profit": 6767.0,
+      "wins": 3,
+      "best": [
+       4,
+       6,
+       0,
+       0,
+       2,
+       2,
+       6,
+       10,
+       2,
+       2
+      ],
+      "rank_earlier": 18661,
+      "return_earlier": 0.0609
+     },
+     {
+      "lead": "jupiter_retrograde \u00d7 moon_phase",
+      "pattern": "pos",
+      "profit": 6767.0,
+      "wins": 3,
+      "best": [
+       4,
+       6,
+       0,
+       0,
+       2,
+       2,
+       6,
+       10,
+       2,
+       2
+      ],
+      "rank_earlier": 23545,
+      "return_earlier": 0.0566
+     },
+     {
+      "lead": "sun_nakshatra \u00d7 mercury_combust",
+      "pattern": "hot+100",
+      "profit": 6749.0,
+      "wins": 2,
+      "best": [
+       2,
+       4,
+       4,
+       6,
+       0,
+       0,
+       2,
+       10,
+       2,
+       0
+      ],
+      "rank_earlier": 4994,
+      "return_earlier": 0.2006
+     },
+     {
+      "lead": "sun_nakshatra \u00d7 year_yinyang",
+      "pattern": "hot+100",
+      "profit": 6746.0,
+      "wins": 1,
+      "best": [
+       0,
+       0,
+       0,
+       4,
+       2,
+       0,
+       2,
+       10,
+       2,
+       0
+      ],
+      "rank_earlier": 24705,
+      "return_earlier": 0.0556
+     },
+     {
+      "lead": "sun_nakshatra \u00d7 aspect_moon_mercury",
+      "pattern": "hot+100",
+      "profit": 6746.0,
+      "wins": 1,
+      "best": [
+       0,
+       2,
+       2,
+       2,
+       0,
+       0,
+       2,
+       10,
+       2,
+       0
+      ],
+      "rank_earlier": 13596,
+      "return_earlier": 0.0665
+     }
+    ],
+    "top_wins": [
+     {
+      "lead": "lagna_rashi \u00d7 lunar_month",
+      "pattern": "hot+100",
+      "profit": 3470.0,
+      "wins": 5,
+      "best": [
+       0,
+       0,
+       6,
+       6,
+       0,
+       0,
+       6,
+       10,
+       6,
+       0
+      ],
+      "rank_earlier": 28472,
+      "return_earlier": 0.0527
+     },
+     {
+      "lead": "sun_rashi \u00d7 lunar_month",
+      "pattern": "hot+100",
+      "profit": 133.0,
+      "wins": 5,
+      "best": [
+       0,
+       0,
+       6,
+       6,
+       0,
+       0,
+       6,
+       8,
+       6,
+       0
+      ],
+      "rank_earlier": 30876,
+      "return_earlier": 0.0509
+     },
+     {
+      "lead": "lagna_rashi \u00d7 aspect_mars_saturn",
+      "pattern": "hot+100",
+      "profit": 111.0,
+      "wins": 5,
+      "best": [
+       0,
+       2,
+       6,
+       6,
+       0,
+       2,
+       6,
+       8,
+       6,
+       0
+      ],
+      "rank_earlier": 25465,
+      "return_earlier": 0.055
+     },
+     {
+      "lead": "sun_rashi \u00d7 aspect_mars_saturn",
+      "pattern": "hot+100",
+      "profit": 105.0,
+      "wins": 5,
+      "best": [
+       0,
+       2,
+       6,
+       6,
+       0,
+       2,
+       6,
+       8,
+       6,
+       0
+      ],
+      "rank_earlier": 10891,
+      "return_earlier": 0.0705
+     },
+     {
+      "lead": "solar_term \u00d7 aspect_moon_mars",
+      "pattern": "hot+100",
+      "profit": 90.0,
+      "wins": 4,
+      "best": [
+       2,
+       0,
+       4,
+       6,
+       0,
+       0,
+       6,
+       8,
+       6,
+       0
+      ],
+      "rank_earlier": 28886,
+      "return_earlier": 0.0524
+     },
+     {
+      "lead": "masa \u00d7 day_god",
+      "pattern": "hot+100",
+      "profit": 87.0,
+      "wins": 4,
+      "best": [
+       0,
+       6,
+       2,
+       6,
+       2,
+       6,
+       4,
+       8,
+       4,
+       0
+      ],
+      "rank_earlier": 33672,
+      "return_earlier": 0.0489
+     },
+     {
+      "lead": "day_branch \u00d7 nine_star_month",
+      "pattern": "hot+100",
+      "profit": 77.0,
+      "wins": 4,
+      "best": [
+       0,
+       0,
+       6,
+       6,
+       0,
+       6,
+       2,
+       8,
+       4,
+       0
+      ],
+      "rank_earlier": 21013,
+      "return_earlier": 0.0587
+     },
+     {
+      "lead": "kp_asc_sub_lord \u00d7 year_stem",
+      "pattern": "hot+100",
+      "profit": 71.0,
+      "wins": 4,
+      "best": [
+       0,
+       0,
+       6,
+       2,
+       0,
+       6,
+       2,
+       8,
+       6,
+       2
+      ],
+      "rank_earlier": 18011,
+      "return_earlier": 0.0616
+     },
+     {
+      "lead": "lunar_day \u00d7 nine_star_month",
+      "pattern": "hot+100",
+      "profit": 68.0,
+      "wins": 4,
+      "best": [
+       0,
+       0,
+       6,
+       6,
+       0,
+       4,
+       6,
+       8,
+       2,
+       0
+      ],
+      "rank_earlier": 10792,
+      "return_earlier": 0.0707
+     },
+     {
+      "lead": "lagna_nakshatra \u00d7 aspect_venus_jupiter",
+      "pattern": "hot+100",
+      "profit": 59.0,
+      "wins": 4,
+      "best": [
+       0,
+       0,
+       4,
+       6,
+       2,
+       0,
+       6,
+       8,
+       6,
+       0
+      ],
+      "rank_earlier": 3409,
+      "return_earlier": 0.2185
+     }
+    ],
+    "top_earlier": [
+     {
+      "lead": "kp_asc_sub_lord \u00d7 day_officer",
+      "pattern": "cold",
+      "profit": -100.0,
+      "wins": 0,
+      "best": [
+       4,
+       0,
+       2,
+       2,
+       2,
+       0,
+       2,
+       0,
+       4,
+       2
+      ],
+      "rank_earlier": 1,
+      "return_earlier": 141.6952
+     },
+     {
+      "lead": "mars_combust \u00d7 kp_sun_star_lord",
+      "pattern": "hot+100",
+      "profit": -85.0,
+      "wins": 1,
+      "best": [
+       0,
+       0,
+       4,
+       4,
+       0,
+       0,
+       4,
+       6,
+       2,
+       0
+      ],
+      "rank_earlier": 2,
+      "return_earlier": 141.3678
+     },
+     {
+      "lead": "kp_sun_star_lord \u00d7 aspect_sun_venus",
+      "pattern": "hot+100",
+      "profit": -91.0,
+      "wins": 1,
+      "best": [
+       0,
+       0,
+       4,
+       4,
+       0,
+       0,
+       2,
+       6,
+       2,
+       0
+      ],
+      "rank_earlier": 3,
+      "return_earlier": 141.3547
+     },
+     {
+      "lead": "jupiter_retrograde \u00d7 aspect_moon_mercury",
+      "pattern": "cold/hot100",
+      "profit": -94.0,
+      "wins": 1,
+      "best": [
+       2,
+       2,
+       4,
+       4,
+       0,
+       2,
+       4,
+       6,
+       2,
+       2
+      ],
+      "rank_earlier": 4,
+      "return_earlier": 141.3522
+     },
+     {
+      "lead": "venus_combust \u00d7 kp_sun_star_lord",
+      "pattern": "hot+100",
+      "profit": -70.0,
+      "wins": 1,
+      "best": [
+       0,
+       0,
+       4,
+       4,
+       0,
+       0,
+       2,
+       6,
+       2,
+       0
+      ],
+      "rank_earlier": 5,
+      "return_earlier": 141.3511
+     },
+     {
+      "lead": "day_element \u00d7 aspect_moon_jupiter",
+      "pattern": "hot",
+      "profit": -100.0,
+      "wins": 0,
+      "best": [
+       2,
+       4,
+       2,
+       2,
+       4,
+       0,
+       0,
+       0,
+       2,
+       0
+      ],
+      "rank_earlier": 6,
+      "return_earlier": 141.3401
+     },
+     {
+      "lead": "day_element \u00d7 aspect_moon_jupiter",
+      "pattern": "pos",
+      "profit": -100.0,
+      "wins": 0,
+      "best": [
+       2,
+       4,
+       2,
+       2,
+       4,
+       0,
+       0,
+       0,
+       2,
+       0
+      ],
+      "rank_earlier": 7,
+      "return_earlier": 141.3394
+     },
+     {
+      "lead": "hora_lord \u00d7 month_stem",
+      "pattern": "cold",
+      "profit": -97.0,
+      "wins": 1,
+      "best": [
+       2,
+       0,
+       2,
+       2,
+       2,
+       2,
+       0,
+       6,
+       0,
+       0
+      ],
+      "rank_earlier": 8,
+      "return_earlier": 141.0789
+     },
+     {
+      "lead": "planets_with_moon \u00d7 year_animal",
+      "pattern": "cold/hot100",
+      "profit": -97.0,
+      "wins": 1,
+      "best": [
+       2,
+       2,
+       4,
+       2,
+       2,
+       0,
+       6,
+       4,
+       4,
+       2
+      ],
+      "rank_earlier": 9,
+      "return_earlier": 141.0481
+     },
+     {
+      "lead": "mars_retrograde \u00d7 aspects_soft",
+      "pattern": "pos",
+      "profit": -100.0,
+      "wins": 0,
+      "best": [
+       2,
+       2,
+       4,
+       2,
+       0,
+       0,
+       2,
+       2,
+       0,
+       0
+      ],
+      "rank_earlier": 10,
+      "return_earlier": 1.3154
+     }
+    ],
+    "rolling": [
+     {
+      "date": "2026-09-26",
+      "lead": "kp_asc_sub_lord \u00d7 day_officer cold",
+      "profit": -10.0
+     },
+     {
+      "date": "2026-09-27",
+      "lead": "kp_asc_sub_lord \u00d7 day_officer cold",
+      "profit": -10.0
+     },
+     {
+      "date": "2026-09-30",
+      "lead": "kp_asc_sub_lord \u00d7 day_officer cold",
+      "profit": -10.0
+     },
+     {
+      "date": "2026-10-03",
+      "lead": "kp_asc_sub_lord \u00d7 day_officer cold",
+      "profit": -10.0
+     },
+     {
+      "date": "2026-10-04",
+      "lead": "kp_asc_sub_lord \u00d7 day_officer cold",
+      "profit": -10.0
+     },
+     {
+      "date": "2026-10-07",
+      "lead": "kp_asc_sub_lord \u00d7 day_officer cold",
+      "profit": -10.0
+     },
+     {
+      "date": "2026-10-10",
+      "lead": "kp_asc_sub_lord \u00d7 day_officer cold",
+      "profit": -10.0
+     },
+     {
+      "date": "2026-10-11",
+      "lead": "kp_asc_sub_lord \u00d7 day_officer cold",
+      "profit": -10.0
+     },
+     {
+      "date": "2026-10-14",
+      "lead": "kp_asc_sub_lord \u00d7 day_officer cold",
+      "profit": -10.0
+     },
+     {
+      "date": "2026-10-17",
+      "lead": "kp_asc_sub_lord \u00d7 day_officer cold",
+      "profit": -10.0
+     }
+    ]
+   },
+   "System 7 \u00d7 2 overlap": {
+    "cost": 14,
+    "expected_profit_10": -112.1,
+    "real": {
+     "best": 13484.0,
+     "in_profit": 1879.0,
+     "mean": -115.60115052732502,
+     "frozen1": -104.0,
+     "frozen10": -111.2,
+     "rolling": -104.0
+    },
+    "shifted": {
+     "best": [
+      6852.0,
+      6816.0,
+      6816.0,
+      6708.0,
+      6816.0,
+      6804.0,
+      3019792.0,
+      6804.0,
+      6804.0,
+      6804.0,
+      6924.0,
+      6816.0,
+      6960.0,
+      6816.0,
+      6816.0,
+      6792.0,
+      6816.0,
+      3019672.0,
+      6696.0,
+      3019792.0
+     ],
+     "in_profit": [
+      1272.0,
+      1319.0,
+      1461.0,
+      1582.0,
+      1278.0,
+      1384.0,
+      1333.0,
+      1345.0,
+      950.0,
+      1172.0,
+      1157.0,
+      1245.0,
+      1289.0,
+      1322.0,
+      1222.0,
+      1446.0,
+      1216.0,
+      1240.0,
+      1038.0,
+      1333.0
+     ],
+     "mean": [
+      -124.29007234376363,
+      -112.31325721258607,
+      -122.28737034777303,
+      -120.56776780266713,
+      -119.7281443388826,
+      -119.66564978645516,
+      -56.15436241610738,
+      -120.13187483657282,
+      -125.05264534123594,
+      -123.03172666259914,
+      -123.39457857578662,
+      -125.14207269240826,
+      -119.62572997472326,
+      -119.98065022226096,
+      -118.77887213457683,
+      -122.74662250501177,
+      -124.98413666870043,
+      1785.0217902902466,
+      -125.09265231412883,
+      -57.54946395885993
+     ],
+     "frozen1": [
+      -128.0,
+      -140.0,
+      -140.0,
+      -140.0,
+      -140.0,
+      -140.0,
+      -140.0,
+      -140.0,
+      -8.0,
+      -140.0,
+      -140.0,
+      -128.0,
+      -140.0,
+      -140.0,
+      -116.0,
+      -140.0,
+      -140.0,
+      -140.0,
+      -116.0,
+      -104.0
+     ],
+     "frozen10": [
+      -132.8,
+      -105.2,
+      -118.4,
+      -108.8,
+      -120.8,
+      -120.8,
+      -107.6,
+      -136.4,
+      -77.6,
+      -81.2,
+      -135.2,
+      -114.8,
+      -98.0,
+      -122.0,
+      -134.0,
+      -135.2,
+      -138.8,
+      -131.6,
+      -130.4,
+      -113.6
+     ],
+     "rolling": [
+      -128.0,
+      -140.0,
+      -140.0,
+      -140.0,
+      -140.0,
+      -140.0,
+      -140.0,
+      -140.0,
+      -8.0,
+      -140.0,
+      -140.0,
+      -128.0,
+      -140.0,
+      -140.0,
+      -116.0,
+      -140.0,
+      -140.0,
+      -140.0,
+      -116.0,
+      -104.0
+     ]
+    },
+    "top_profit": [
+     {
+      "lead": "mars_combust \u00d7 moon_phase",
+      "pattern": "hot",
+      "profit": 13484.0,
+      "wins": 3,
+      "best": [
+       4,
+       10,
+       0,
+       0,
+       2,
+       2,
+       6,
+       10,
+       2,
+       2
+      ],
+      "rank_earlier": 37646,
+      "return_earlier": 0.0482
+     },
+     {
+      "lead": "mars_combust \u00d7 moon_phase",
+      "pattern": "pos",
+      "profit": 13484.0,
+      "wins": 3,
+      "best": [
+       4,
+       10,
+       0,
+       0,
+       2,
+       2,
+       6,
+       10,
+       2,
+       4
+      ],
+      "rank_earlier": 31793,
+      "return_earlier": 0.0526
+     },
+     {
+      "lead": "jupiter_retrograde \u00d7 moon_phase",
+      "pattern": "hot",
+      "profit": 13472.0,
+      "wins": 2,
+      "best": [
+       4,
+       10,
+       0,
+       0,
+       2,
+       2,
+       4,
+       10,
+       2,
+       2
+      ],
+      "rank_earlier": 24653,
+      "return_earlier": 0.0574
+     },
+     {
+      "lead": "jupiter_retrograde \u00d7 moon_phase",
+      "pattern": "pos",
+      "profit": 13472.0,
+      "wins": 2,
+      "best": [
+       4,
+       10,
+       0,
+       0,
+       2,
+       2,
+       4,
+       10,
+       2,
+       4
+      ],
+      "rank_earlier": 34039,
+      "return_earlier": 0.051
+     },
+     {
+      "lead": "sun_nakshatra \u00d7 aspect_sun_mercury",
+      "pattern": "hot+100",
+      "profit": 6816.0,
+      "wins": 3,
+      "best": [
+       2,
+       2,
+       6,
+       6,
+       0,
+       0,
+       2,
+       10,
+       2,
+       0
+      ],
+      "rank_earlier": 11954,
+      "return_earlier": 0.0678
+     },
+     {
+      "lead": "venus_combust \u00d7 moon_phase",
+      "pattern": "pos",
+      "profit": 6816.0,
+      "wins": 3,
+      "best": [
+       4,
+       10,
+       0,
+       0,
+       2,
+       2,
+       6,
+       8,
+       0,
+       2
+      ],
+      "rank_earlier": 22974,
+      "return_earlier": 0.0586
+     },
+     {
+      "lead": "ritu \u00d7 kp_sun_star_lord",
+      "pattern": "hot+100",
+      "profit": 6816.0,
+      "wins": 3,
+      "best": [
+       0,
+       0,
+       6,
+       6,
+       0,
+       0,
+       4,
+       10,
+       2,
+       0
+      ],
+      "rank_earlier": 43430,
+      "return_earlier": 0.0418
+     },
+     {
+      "lead": "moon_phase \u00d7 aspect_moon_mars",
+      "pattern": "hot",
+      "profit": 6816.0,
+      "wins": 3,
+      "best": [
+       2,
+       10,
+       2,
+       0,
+       2,
+       2,
+       6,
+       8,
+       4,
+       2
+      ],
+      "rank_earlier": 38304,
+      "return_earlier": 0.0478
+     },
+     {
+      "lead": "moon_phase \u00d7 aspect_moon_mars",
+      "pattern": "pos",
+      "profit": 6816.0,
+      "wins": 3,
+      "best": [
+       2,
+       10,
+       2,
+       0,
+       2,
+       2,
+       6,
+       8,
+       4,
+       2
+      ],
+      "rank_earlier": 34780,
+      "return_earlier": 0.0506
+     },
+     {
+      "lead": "yoga \u00d7 pof_rashi",
+      "pattern": "hot",
+      "profit": 6804.0,
+      "wins": 2,
+      "best": [
+       0,
+       0,
+       0,
+       2,
+       2,
+       0,
+       4,
+       4,
+       6,
+       10
+      ],
+      "rank_earlier": 19418,
+      "return_earlier": 0.061
+     },
+     {
+      "lead": "yoga \u00d7 pof_rashi",
+      "pattern": "pos",
+      "profit": 6804.0,
+      "wins": 2,
+      "best": [
+       0,
+       0,
+       0,
+       2,
+       0,
+       0,
+       4,
+       4,
+       6,
+       10
+      ],
+      "rank_earlier": 1768,
+      "return_earlier": 0.2901
+     },
+     {
+      "lead": "sun_nakshatra \u00d7 ritu",
+      "pattern": "hot+100",
+      "profit": 6804.0,
+      "wins": 2,
+      "best": [
+       0,
+       0,
+       4,
+       6,
+       0,
+       0,
+       4,
+       10,
+       2,
+       0
+      ],
+      "rank_earlier": 45079,
+      "return_earlier": 0.0373
+     },
+     {
+      "lead": "sun_nakshatra \u00d7 aspect_mercury_saturn",
+      "pattern": "hot+100",
+      "profit": 6804.0,
+      "wins": 2,
+      "best": [
+       2,
+       2,
+       6,
+       4,
+       0,
+       0,
+       2,
+       10,
+       4,
+       0
+      ],
+      "rank_earlier": 40908,
+      "return_earlier": 0.045
+     },
+     {
+      "lead": "masa \u00d7 day_god",
+      "pattern": "hot",
+      "profit": 6804.0,
+      "wins": 2,
+      "best": [
+       0,
+       10,
+       2,
+       4,
+       2,
+       6,
+       2,
+       4,
+       2,
+       0
+      ],
+      "rank_earlier": 44534,
+      "return_earlier": 0.0393
+     },
+     {
+      "lead": "masa \u00d7 day_god",
+      "pattern": "pos",
+      "profit": 6804.0,
+      "wins": 2,
+      "best": [
+       0,
+       10,
+       2,
+       4,
+       2,
+       6,
+       2,
+       4,
+       0,
+       0
+      ],
+      "rank_earlier": 38607,
+      "return_earlier": 0.0474
+     },
+     {
+      "lead": "solar_term \u00d7 aspect_sun_mercury",
+      "pattern": "hot+100",
+      "profit": 6804.0,
+      "wins": 2,
+      "best": [
+       0,
+       2,
+       4,
+       6,
+       0,
+       0,
+       4,
+       10,
+       2,
+       0
+      ],
+      "rank_earlier": 20824,
+      "return_earlier": 0.0602
+     },
+     {
+      "lead": "moon_sign_tropical \u00d7 aspect_mercury_venus",
+      "pattern": "hot+100",
+      "profit": 6804.0,
+      "wins": 2,
+      "best": [
+       0,
+       2,
+       2,
+       2,
+       0,
+       0,
+       4,
+       10,
+       6,
+       0
+      ],
+      "rank_earlier": 22058,
+      "return_earlier": 0.0594
+     },
+     {
+      "lead": "sun_nakshatra \u00d7 mars_combust",
+      "pattern": "hot+100",
+      "profit": 6792.0,
+      "wins": 1,
+      "best": [
+       0,
+       2,
+       2,
+       4,
+       0,
+       0,
+       2,
+       10,
+       2,
+       0
+      ],
+      "rank_earlier": 42233,
+      "return_earlier": 0.0434
+     },
+     {
+      "lead": "sun_nakshatra \u00d7 aspect_moon_saturn",
+      "pattern": "hot+100",
+      "profit": 6792.0,
+      "wins": 1,
+      "best": [
+       0,
+       4,
+       2,
+       4,
+       0,
+       0,
+       2,
+       10,
+       2,
+       0
+      ],
+      "rank_earlier": 22215,
+      "return_earlier": 0.059
+     },
+     {
+      "lead": "sun_nakshatra \u00d7 aspect_venus_jupiter",
+      "pattern": "hot+100",
+      "profit": 6792.0,
+      "wins": 1,
+      "best": [
+       0,
+       2,
+       0,
+       4,
+       2,
+       0,
+       4,
+       10,
+       4,
+       0
+      ],
+      "rank_earlier": 30981,
+      "return_earlier": 0.053
+     }
+    ],
+    "top_wins": [
+     {
+      "lead": "sun_rashi \u00d7 aspect_mars_saturn",
+      "pattern": "hot+100",
+      "profit": 52.0,
+      "wins": 5,
+      "best": [
+       0,
+       2,
+       6,
+       6,
+       0,
+       2,
+       6,
+       8,
+       6,
+       0
+      ],
+      "rank_earlier": 8401,
+      "return_earlier": 0.0731
+     },
+     {
+      "lead": "lagna_rashi \u00d7 aspect_mars_saturn",
+      "pattern": "hot+100",
+      "profit": 52.0,
+      "wins": 5,
+      "best": [
+       0,
+       2,
+       6,
+       6,
+       0,
+       2,
+       6,
+       8,
+       6,
+       0
+      ],
+      "rank_earlier": 40975,
+      "return_earlier": 0.045
+     },
+     {
+      "lead": "year_stem \u00d7 solar_term",
+      "pattern": "hot",
+      "profit": -80.0,
+      "wins": 5,
+      "best": [
+       4,
+       4,
+       6,
+       6,
+       2,
+       2,
+       6,
+       6,
+       6,
+       2
+      ],
+      "rank_earlier": 44425,
+      "return_earlier": 0.0397
+     },
+     {
+      "lead": "year_stem \u00d7 solar_term",
+      "pattern": "pos",
+      "profit": -80.0,
+      "wins": 5,
+      "best": [
+       4,
+       4,
+       6,
+       6,
+       2,
+       2,
+       6,
+       6,
+       6,
+       2
+      ],
+      "rank_earlier": 40346,
+      "return_earlier": 0.0458
+     },
+     {
+      "lead": "lagna_rashi \u00d7 lunar_month",
+      "pattern": "hot+100",
+      "profit": 160.0,
+      "wins": 4,
+      "best": [
+       0,
+       0,
+       6,
+       4,
+       0,
+       0,
+       6,
+       8,
+       6,
+       0
+      ],
+      "rank_earlier": 37107,
+      "return_earlier": 0.0486
+     },
+     {
+      "lead": "jupiter_combust \u00d7 plum_trigrams",
+      "pattern": "cold/hot100",
+      "profit": 148.0,
+      "wins": 4,
+      "best": [
+       0,
+       0,
+       6,
+       8,
+       0,
+       2,
+       6,
+       8,
+       2,
+       0
+      ],
+      "rank_earlier": 213,
+      "return_earlier": 0.5108
+     },
+     {
+      "lead": "sun_sign_tropical \u00d7 aspect_mars_saturn",
+      "pattern": "hot+100",
+      "profit": 148.0,
+      "wins": 4,
+      "best": [
+       0,
+       2,
+       6,
+       4,
+       0,
+       0,
+       8,
+       8,
+       6,
+       0
+      ],
+      "rank_earlier": 27346,
+      "return_earlier": 0.0558
+     },
+     {
+      "lead": "tithi \u00d7 aspect_mars_saturn",
+      "pattern": "hot+100",
+      "profit": 52.0,
+      "wins": 4,
+      "best": [
+       6,
+       2,
+       4,
+       4,
+       2,
+       2,
+       6,
+       6,
+       8,
+       0
+      ],
+      "rank_earlier": 4610,
+      "return_earlier": 0.2636
+     },
+     {
+      "lead": "moon_phase \u00d7 draw_in_daylight",
+      "pattern": "hot",
+      "profit": 52.0,
+      "wins": 4,
+      "best": [
+       4,
+       6,
+       0,
+       6,
+       2,
+       2,
+       6,
+       8,
+       0,
+       4
+      ],
+      "rank_earlier": 10008,
+      "return_earlier": 0.0707
+     },
+     {
+      "lead": "tithi \u00d7 aspect_mercury_jupiter",
+      "pattern": "hot",
+      "profit": 40.0,
+      "wins": 4,
+      "best": [
+       6,
+       8,
+       4,
+       4,
+       0,
+       6,
+       2,
+       4,
+       6,
+       2
+      ],
+      "rank_earlier": 14531,
+      "return_earlier": 0.065
+     }
+    ],
+    "top_earlier": [
+     {
+      "lead": "aspect_sun_mercury \u00d7 plum_trigrams",
+      "pattern": "cold/hot100",
+      "profit": -104.0,
+      "wins": 3,
+      "best": [
+       2,
+       0,
+       6,
+       6,
+       0,
+       0,
+       4,
+       6,
+       2,
+       0
+      ],
+      "rank_earlier": 1,
+      "return_earlier": 101.3117
+     },
+     {
+      "lead": "kp_asc_sub_lord \u00d7 day_officer",
+      "pattern": "cold",
+      "profit": -140.0,
+      "wins": 0,
+      "best": [
+       4,
+       0,
+       2,
+       2,
+       2,
+       0,
+       2,
+       0,
+       4,
+       2
+      ],
+      "rank_earlier": 2,
+      "return_earlier": 101.1164
+     },
+     {
+      "lead": "moon_rashi \u00d7 saturn_combust",
+      "pattern": "pos",
+      "profit": -116.0,
+      "wins": 2,
+      "best": [
+       2,
+       4,
+       6,
+       0,
+       4,
+       2,
+       0,
+       6,
+       2,
+       2
+      ],
+      "rank_earlier": 3,
+      "return_earlier": 101.1111
+     },
+     {
+      "lead": "yoga \u00d7 aspect_mars_saturn",
+      "pattern": "cold/hot100",
+      "profit": -128.0,
+      "wins": 1,
+      "best": [
+       0,
+       0,
+       4,
+       4,
+       2,
+       2,
+       4,
+       6,
+       4,
+       0
+      ],
+      "rank_earlier": 4,
+      "return_earlier": 101.1039
+     },
+     {
+      "lead": "hora_lord \u00d7 month_stem",
+      "pattern": "cold",
+      "profit": -128.0,
+      "wins": 1,
+      "best": [
+       2,
+       0,
+       2,
+       2,
+       2,
+       2,
+       2,
+       6,
+       0,
+       0
+      ],
+      "rank_earlier": 5,
+      "return_earlier": 101.0967
+     },
+     {
+      "lead": "month_stem \u00d7 day_element",
+      "pattern": "pos",
+      "profit": -140.0,
+      "wins": 0,
+      "best": [
+       4,
+       2,
+       2,
+       2,
+       2,
+       0,
+       2,
+       2,
+       0,
+       4
+      ],
+      "rank_earlier": 6,
+      "return_earlier": 101.0967
+     },
+     {
+      "lead": "day_of_month \u00d7 aspects_soft",
+      "pattern": "cold/hot100",
+      "profit": 16.0,
+      "wins": 2,
+      "best": [
+       2,
+       0,
+       2,
+       4,
+       0,
+       6,
+       4,
+       8,
+       2,
+       0
+      ],
+      "rank_earlier": 7,
+      "return_earlier": 101.0955
+     },
+     {
+      "lead": "moon_phase \u00d7 aspect_sun_jupiter",
+      "pattern": "hot+100",
+      "profit": -128.0,
+      "wins": 1,
+      "best": [
+       2,
+       4,
+       2,
+       4,
+       4,
+       2,
+       6,
+       4,
+       2,
+       0
+      ],
+      "rank_earlier": 8,
+      "return_earlier": 101.0935
+     },
+     {
+      "lead": "tithi \u00d7 year_pillar",
+      "pattern": "hot",
+      "profit": -116.0,
+      "wins": 2,
+      "best": [
+       6,
+       6,
+       0,
+       0,
+       4,
+       2,
+       2,
+       2,
+       2,
+       2
+      ],
+      "rank_earlier": 9,
+      "return_earlier": 101.0927
+     },
+     {
+      "lead": "mercury_retrograde \u00d7 aspect_mercury_jupiter",
+      "pattern": "cold/hot100",
+      "profit": -128.0,
+      "wins": 1,
+      "best": [
+       2,
+       2,
+       2,
+       4,
+       0,
+       2,
+       2,
+       6,
+       4,
+       0
+      ],
+      "rank_earlier": 10,
+      "return_earlier": 101.0911
+     }
+    ],
+    "rolling": [
+     {
+      "date": "2026-09-26",
+      "lead": "aspect_sun_mercury \u00d7 plum_trigrams cold/hot100",
+      "profit": -14.0
+     },
+     {
+      "date": "2026-09-27",
+      "lead": "aspect_sun_mercury \u00d7 plum_trigrams cold/hot100",
+      "profit": -14.0
+     },
+     {
+      "date": "2026-09-30",
+      "lead": "aspect_sun_mercury \u00d7 plum_trigrams cold/hot100",
+      "profit": -2.0
+     },
+     {
+      "date": "2026-10-03",
+      "lead": "aspect_sun_mercury \u00d7 plum_trigrams cold/hot100",
+      "profit": -2.0
+     },
+     {
+      "date": "2026-10-04",
+      "lead": "aspect_sun_mercury \u00d7 plum_trigrams cold/hot100",
+      "profit": -14.0
+     },
+     {
+      "date": "2026-10-07",
+      "lead": "aspect_sun_mercury \u00d7 plum_trigrams cold/hot100",
+      "profit": -14.0
+     },
+     {
+      "date": "2026-10-10",
+      "lead": "aspect_sun_mercury \u00d7 plum_trigrams cold/hot100",
+      "profit": -14.0
+     },
+     {
+      "date": "2026-10-11",
+      "lead": "aspect_sun_mercury \u00d7 plum_trigrams cold/hot100",
+      "profit": -2.0
+     },
+     {
+      "date": "2026-10-14",
+      "lead": "aspect_sun_mercury \u00d7 plum_trigrams cold/hot100",
+      "profit": -14.0
+     },
+     {
+      "date": "2026-10-17",
+      "lead": "aspect_sun_mercury \u00d7 plum_trigrams cold/hot100",
+      "profit": -14.0
+     }
+    ]
+   },
+   "System 7 \u00d7 2 disjoint": {
+    "cost": 14,
+    "expected_profit_10": -112.1,
+    "real": {
+     "best": 6816.0,
+     "in_profit": 1602.0,
+     "mean": -116.31421598535692,
+     "frozen1": -140.0,
+     "frozen10": -135.2,
+     "rolling": -140.0
+    },
+    "shifted": {
+     "best": [
+      6816.0,
+      6792.0,
+      6804.0,
+      6804.0,
+      6792.0,
+      6696.0,
+      6816.0,
+      3019660.0,
+      6684.0,
+      6696.0,
+      6792.0,
+      6792.0,
+      6684.0,
+      6804.0,
+      6804.0,
+      6684.0,
+      6804.0,
+      3019660.0,
+      6792.0,
+      6804.0
+     ],
+     "in_profit": [
+      1317.0,
+      1315.0,
+      1390.0,
+      1197.0,
+      1177.0,
+      1251.0,
+      1263.0,
+      1191.0,
+      1440.0,
+      1444.0,
+      1135.0,
+      1586.0,
+      1168.0,
+      1378.0,
+      1335.0,
+      1196.0,
+      1352.0,
+      1287.0,
+      1344.0,
+      1346.0
+     ],
+     "mean": [
+      -118.91336180597925,
+      -114.42926871785932,
+      -119.63357447921206,
+      -116.66111740608385,
+      -123.93959731543625,
+      -122.15471106075132,
+      -121.84319707138499,
+      -51.41288241959383,
+      -123.01943693890003,
+      -120.222173799355,
+      -124.18391004968186,
+      -121.26697463610215,
+      -117.00862895493768,
+      -121.17510677242221,
+      -118.18443301664779,
+      -120.64795607077487,
+      -116.26566721868735,
+      1792.3086376710537,
+      -123.69728928789331,
+      -119.62895493767977
+     ],
+     "frozen1": [
+      -140.0,
+      -140.0,
+      -140.0,
+      -140.0,
+      -128.0,
+      -128.0,
+      -140.0,
+      -140.0,
+      -128.0,
+      -140.0,
+      -140.0,
+      -140.0,
+      -128.0,
+      -140.0,
+      -128.0,
+      -140.0,
+      -116.0,
+      -140.0,
+      -140.0,
+      -8.0
+     ],
+     "frozen10": [
+      -111.2,
+      -118.4,
+      -134.0,
+      -135.2,
+      -122.0,
+      -124.4,
+      -120.8,
+      -137.6,
+      -130.4,
+      -131.6,
+      -135.2,
+      -123.2,
+      -130.4,
+      -134.0,
+      -132.8,
+      -137.6,
+      -117.2,
+      -138.8,
+      -123.2,
+      -105.2
+     ],
+     "rolling": [
+      -140.0,
+      -140.0,
+      -140.0,
+      -140.0,
+      -128.0,
+      -128.0,
+      -140.0,
+      -140.0,
+      -128.0,
+      -140.0,
+      -140.0,
+      -128.0,
+      -128.0,
+      -140.0,
+      -128.0,
+      -140.0,
+      -116.0,
+      -140.0,
+      -140.0,
+      -8.0
+     ]
+    },
+    "top_profit": [
+     {
+      "lead": "day_of_month \u00d7 aspect_moon_mars",
+      "pattern": "cold/hot100",
+      "profit": 6816.0,
+      "wins": 4,
+      "best": [
+       2,
+       0,
+       6,
+       10,
+       0,
+       6,
+       4,
+       8,
+       4,
+       2
+      ],
+      "rank_earlier": 5029,
+      "return_earlier": 0.2749
+     },
+     {
+      "lead": "mercury_combust \u00d7 day_of_month",
+      "pattern": "cold/hot100",
+      "profit": 6804.0,
+      "wins": 3,
+      "best": [
+       4,
+       2,
+       10,
+       2,
+       2,
+       2,
+       6,
+       8,
+       4,
+       2
+      ],
+      "rank_earlier": 5317,
+      "return_earlier": 0.2717
+     },
+     {
+      "lead": "weekday \u00d7 day_pillar",
+      "pattern": "hot+100",
+      "profit": 6792.0,
+      "wins": 2,
+      "best": [
+       2,
+       0,
+       4,
+       8,
+       2,
+       2,
+       2,
+       10,
+       4,
+       0
+      ],
+      "rank_earlier": 44357,
+      "return_earlier": 0.0422
+     },
+     {
+      "lead": "sun_nakshatra \u00d7 aspect_moon_venus",
+      "pattern": "hot+100",
+      "profit": 6792.0,
+      "wins": 2,
+      "best": [
+       2,
+       2,
+       8,
+       2,
+       0,
+       2,
+       4,
+       10,
+       2,
+       0
+      ],
+      "rank_earlier": 8036,
+      "return_earlier": 0.0779
+     },
+     {
+      "lead": "day_pillar \u00d7 mansion_28",
+      "pattern": "hot+100",
+      "profit": 6792.0,
+      "wins": 2,
+      "best": [
+       2,
+       0,
+       4,
+       8,
+       2,
+       2,
+       2,
+       10,
+       4,
+       0
+      ],
+      "rank_earlier": 44464,
+      "return_earlier": 0.0422
+     },
+     {
+      "lead": "nayin \u00d7 mansion_28",
+      "pattern": "hot+100",
+      "profit": 6792.0,
+      "wins": 2,
+      "best": [
+       2,
+       0,
+       4,
+       8,
+       2,
+       2,
+       2,
+       10,
+       4,
+       0
+      ],
+      "rank_earlier": 44465,
+      "return_earlier": 0.0422
+     },
+     {
+      "lead": "day_of_month \u00d7 draw_in_daylight",
+      "pattern": "cold/hot100",
+      "profit": 6792.0,
+      "wins": 2,
+      "best": [
+       4,
+       2,
+       10,
+       4,
+       0,
+       4,
+       4,
+       8,
+       4,
+       2
+      ],
+      "rank_earlier": 40478,
+      "return_earlier": 0.0486
+     },
+     {
+      "lead": "mars_combust \u00d7 moon_phase",
+      "pattern": "pos",
+      "profit": 6696.0,
+      "wins": 4,
+      "best": [
+       4,
+       6,
+       4,
+       0,
+       2,
+       4,
+       6,
+       10,
+       2,
+       6
+      ],
+      "rank_earlier": 31629,
+      "return_earlier": 0.0558
+     },
+     {
+      "lead": "lagna_rashi \u00d7 day_pillar",
+      "pattern": "hot+100",
+      "profit": 6684.0,
+      "wins": 3,
+      "best": [
+       2,
+       2,
+       6,
+       6,
+       2,
+       2,
+       2,
+       10,
+       2,
+       2
+      ],
+      "rank_earlier": 4790,
+      "return_earlier": 0.2769
+     },
+     {
+      "lead": "jupiter_retrograde \u00d7 moon_phase",
+      "pattern": "hot",
+      "profit": 6684.0,
+      "wins": 3,
+      "best": [
+       4,
+       6,
+       0,
+       0,
+       4,
+       4,
+       4,
+       10,
+       2,
+       6
+      ],
+      "rank_earlier": 42548,
+      "return_earlier": 0.0458
+     },
+     {
+      "lead": "jupiter_retrograde \u00d7 moon_phase",
+      "pattern": "pos",
+      "profit": 6684.0,
+      "wins": 3,
+      "best": [
+       4,
+       6,
+       0,
+       0,
+       4,
+       4,
+       4,
+       10,
+       2,
+       6
+      ],
+      "rank_earlier": 43046,
+      "return_earlier": 0.045
+     },
+     {
+      "lead": "mars_combust \u00d7 moon_phase",
+      "pattern": "hot",
+      "profit": 6684.0,
+      "wins": 3,
+      "best": [
+       4,
+       6,
+       4,
+       0,
+       2,
+       4,
+       6,
+       10,
+       2,
+       2
+      ],
+      "rank_earlier": 23355,
+      "return_earlier": 0.0614
+     },
+     {
+      "lead": "kp_moon_sub_lord \u00d7 plum_trigrams",
+      "pattern": "cold/hot100",
+      "profit": 6684.0,
+      "wins": 3,
+      "best": [
+       4,
+       4,
+       6,
+       6,
+       2,
+       2,
+       4,
+       10,
+       4,
+       0
+      ],
+      "rank_earlier": 6076,
+      "return_earlier": 0.0875
+     },
+     {
+      "lead": "moon_phase \u00d7 aspect_moon_mars",
+      "pattern": "hot",
+      "profit": 6684.0,
+      "wins": 3,
+      "best": [
+       2,
+       10,
+       2,
+       2,
+       2,
+       4,
+       6,
+       6,
+       4,
+       2
+      ],
+      "rank_earlier": 43159,
+      "return_earlier": 0.045
+     },
+     {
+      "lead": "moon_phase \u00d7 aspect_moon_mars",
+      "pattern": "pos",
+      "profit": 6684.0,
+      "wins": 3,
+      "best": [
+       2,
+       10,
+       2,
+       2,
+       2,
+       4,
+       6,
+       6,
+       4,
+       2
+      ],
+      "rank_earlier": 44331,
+      "return_earlier": 0.0426
+     },
+     {
+      "lead": "nakshatra_pada \u00d7 year_element",
+      "pattern": "hot",
+      "profit": 6672.0,
+      "wins": 2,
+      "best": [
+       4,
+       2,
+       2,
+       2,
+       0,
+       6,
+       0,
+       10,
+       2,
+       0
+      ],
+      "rank_earlier": 20911,
+      "return_earlier": 0.063
+     },
+     {
+      "lead": "yoga \u00d7 aspect_mars_saturn",
+      "pattern": "cold/hot100",
+      "profit": 6672.0,
+      "wins": 2,
+      "best": [
+       2,
+       0,
+       10,
+       4,
+       2,
+       2,
+       2,
+       6,
+       4,
+       2
+      ],
+      "rank_earlier": 21428,
+      "return_earlier": 0.0626
+     },
+     {
+      "lead": "sun_rashi \u00d7 aspects_soft",
+      "pattern": "cold/hot100",
+      "profit": 6672.0,
+      "wins": 2,
+      "best": [
+       2,
+       2,
+       10,
+       2,
+       2,
+       6,
+       4,
+       4,
+       4,
+       0
+      ],
+      "rank_earlier": 21467,
+      "return_earlier": 0.0626
+     },
+     {
+      "lead": "sun_nakshatra \u00d7 mars_combust",
+      "pattern": "hot+100",
+      "profit": 6672.0,
+      "wins": 2,
+      "best": [
+       0,
+       2,
+       4,
+       6,
+       2,
+       0,
+       2,
+       10,
+       2,
+       0
+      ],
+      "rank_earlier": 31430,
+      "return_earlier": 0.0558
+     },
+     {
+      "lead": "sun_nakshatra \u00d7 aspect_sun_mercury",
+      "pattern": "hot+100",
+      "profit": 6672.0,
+      "wins": 2,
+      "best": [
+       4,
+       2,
+       6,
+       4,
+       0,
+       0,
+       2,
+       10,
+       2,
+       0
+      ],
+      "rank_earlier": 32000,
+      "return_earlier": 0.0554
+     }
+    ],
+    "top_wins": [
+     {
+      "lead": "tithi \u00d7 day_vs_year_branch",
+      "pattern": "hot+100",
+      "profit": -80.0,
+      "wins": 5,
+      "best": [
+       6,
+       4,
+       6,
+       6,
+       2,
+       2,
+       4,
+       6,
+       6,
+       0
+      ],
+      "rank_earlier": 24202,
+      "return_earlier": 0.0606
+     },
+     {
+      "lead": "saturn_nakshatra \u00d7 day_branch",
+      "pattern": "hot+100",
+      "profit": -80.0,
+      "wins": 5,
+      "best": [
+       6,
+       6,
+       2,
+       6,
+       2,
+       2,
+       6,
+       4,
+       6,
+       2
+      ],
+      "rank_earlier": 43726,
+      "return_earlier": 0.0438
+     },
+     {
+      "lead": "ayana \u00d7 universal_day",
+      "pattern": "cold/hot100",
+      "profit": -80.0,
+      "wins": 5,
+      "best": [
+       2,
+       6,
+       6,
+       6,
+       2,
+       2,
+       6,
+       6,
+       2,
+       2
+      ],
+      "rank_earlier": 23931,
+      "return_earlier": 0.061
+     },
+     {
+      "lead": "day_of_month \u00d7 aspect_moon_mars",
+      "pattern": "cold/hot100",
+      "profit": 6816.0,
+      "wins": 4,
+      "best": [
+       2,
+       0,
+       6,
+       10,
+       0,
+       6,
+       4,
+       8,
+       4,
+       2
+      ],
+      "rank_earlier": 5029,
+      "return_earlier": 0.2749
+     },
+     {
+      "lead": "mars_combust \u00d7 moon_phase",
+      "pattern": "pos",
+      "profit": 6696.0,
+      "wins": 4,
+      "best": [
+       4,
+       6,
+       4,
+       0,
+       2,
+       4,
+       6,
+       10,
+       2,
+       6
+      ],
+      "rank_earlier": 31629,
+      "return_earlier": 0.0558
+     },
+     {
+      "lead": "venus_nakshatra \u00d7 moon_phase",
+      "pattern": "hot+100",
+      "profit": 268.0,
+      "wins": 4,
+      "best": [
+       6,
+       2,
+       2,
+       8,
+       2,
+       2,
+       8,
+       8,
+       2,
+       0
+      ],
+      "rank_earlier": 41604,
+      "return_earlier": 0.047
+     },
+     {
+      "lead": "aspect_moon_mars",
+      "pattern": "cold/hot100",
+      "profit": 148.0,
+      "wins": 4,
+      "best": [
+       2,
+       2,
+       2,
+       8,
+       2,
+       8,
+       6,
+       0,
+       4,
+       6
+      ],
+      "rank_earlier": 25914,
+      "return_earlier": 0.0594
+     },
+     {
+      "lead": "jupiter_rashi \u00d7 aspect_moon_mars",
+      "pattern": "cold/hot100",
+      "profit": 148.0,
+      "wins": 4,
+      "best": [
+       0,
+       2,
+       2,
+       8,
+       2,
+       8,
+       6,
+       2,
+       2,
+       6
+      ],
+      "rank_earlier": 21537,
+      "return_earlier": 0.0626
+     },
+     {
+      "lead": "saturn_rashi \u00d7 aspect_moon_mars",
+      "pattern": "cold/hot100",
+      "profit": 148.0,
+      "wins": 4,
+      "best": [
+       2,
+       2,
+       2,
+       8,
+       2,
+       8,
+       6,
+       0,
+       4,
+       6
+      ],
+      "rank_earlier": 27893,
+      "return_earlier": 0.0582
+     },
+     {
+      "lead": "rahu_rashi \u00d7 aspect_moon_mars",
+      "pattern": "cold/hot100",
+      "profit": 148.0,
+      "wins": 4,
+      "best": [
+       4,
+       2,
+       2,
+       8,
+       2,
+       8,
+       6,
+       0,
+       4,
+       6
+      ],
+      "rank_earlier": 36824,
+      "return_earlier": 0.0518
+     }
+    ],
+    "top_earlier": [
+     {
+      "lead": "day_element \u00d7 aspect_jupiter_saturn",
+      "pattern": "cold/hot100",
+      "profit": -140.0,
+      "wins": 0,
+      "best": [
+       4,
+       0,
+       4,
+       4,
+       4,
+       4,
+       2,
+       4,
+       4,
+       0
+      ],
+      "rank_earlier": 1,
+      "return_earlier": 101.3266
+     },
+     {
+      "lead": "aspect_sun_mercury \u00d7 plum_trigrams",
+      "pattern": "cold/hot100",
+      "profit": -116.0,
+      "wins": 2,
+      "best": [
+       2,
+       4,
+       4,
+       6,
+       0,
+       0,
+       4,
+       6,
+       4,
+       0
+      ],
+      "rank_earlier": 2,
+      "return_earlier": 101.3218
+     },
+     {
+      "lead": "sun_nakshatra \u00d7 mercury_rashi",
+      "pattern": "cold/hot100",
+      "profit": -128.0,
+      "wins": 1,
+      "best": [
+       0,
+       0,
+       4,
+       6,
+       4,
+       2,
+       4,
+       4,
+       4,
+       4
+      ],
+      "rank_earlier": 3,
+      "return_earlier": 101.3077
+     },
+     {
+      "lead": "kp_asc_sub_lord \u00d7 day_officer",
+      "pattern": "cold",
+      "profit": -128.0,
+      "wins": 1,
+      "best": [
+       4,
+       2,
+       2,
+       2,
+       2,
+       4,
+       2,
+       0,
+       6,
+       2
+      ],
+      "rank_earlier": 4,
+      "return_earlier": 101.1083
+     },
+     {
+      "lead": "lunar_day \u00d7 aspect_moon_mars",
+      "pattern": "cold",
+      "profit": -140.0,
+      "wins": 0,
+      "best": [
+       0,
+       2,
+       2,
+       0,
+       4,
+       0,
+       4,
+       0,
+       4,
+       2
+      ],
+      "rank_earlier": 5,
+      "return_earlier": 101.1083
+     },
+     {
+      "lead": "moon_rashi \u00d7 aspect_moon_venus",
+      "pattern": "hot/cold100",
+      "profit": -140.0,
+      "wins": 0,
+      "best": [
+       4,
+       4,
+       2,
+       0,
+       4,
+       2,
+       2,
+       2,
+       2,
+       2
+      ],
+      "rank_earlier": 6,
+      "return_earlier": 101.1075
+     },
+     {
+      "lead": "lagna_nakshatra \u00d7 aspect_moon_venus",
+      "pattern": "cold/hot100",
+      "profit": -140.0,
+      "wins": 0,
+      "best": [
+       2,
+       4,
+       4,
+       4,
+       2,
+       2,
+       2,
+       4,
+       2,
+       2
+      ],
+      "rank_earlier": 7,
+      "return_earlier": 101.1043
+     },
+     {
+      "lead": "hora_lord \u00d7 month_stem",
+      "pattern": "cold",
+      "profit": -140.0,
+      "wins": 0,
+      "best": [
+       4,
+       2,
+       2,
+       2,
+       2,
+       2,
+       2,
+       4,
+       0,
+       0
+      ],
+      "rank_earlier": 8,
+      "return_earlier": 101.1019
+     },
+     {
+      "lead": "nakshatra_lord \u00d7 aspect_jupiter_saturn",
+      "pattern": "hot/cold100",
+      "profit": -140.0,
+      "wins": 0,
+      "best": [
+       2,
+       2,
+       0,
+       0,
+       4,
+       2,
+       2,
+       2,
+       0,
+       2
+      ],
+      "rank_earlier": 9,
+      "return_earlier": 101.0987
+     },
+     {
+      "lead": "draw_in_daylight \u00d7 aspects_hard",
+      "pattern": "cold",
+      "profit": -140.0,
+      "wins": 0,
+      "best": [
+       2,
+       2,
+       0,
+       0,
+       2,
+       2,
+       0,
+       2,
+       4,
+       0
+      ],
+      "rank_earlier": 10,
+      "return_earlier": 101.0983
+     }
+    ],
+    "rolling": [
+     {
+      "date": "2026-09-26",
+      "lead": "day_element \u00d7 aspect_jupiter_saturn cold/hot100",
+      "profit": -14.0
+     },
+     {
+      "date": "2026-09-27",
+      "lead": "day_element \u00d7 aspect_jupiter_saturn cold/hot100",
+      "profit": -14.0
+     },
+     {
+      "date": "2026-09-30",
+      "lead": "day_element \u00d7 aspect_jupiter_saturn cold/hot100",
+      "profit": -14.0
+     },
+     {
+      "date": "2026-10-03",
+      "lead": "day_element \u00d7 aspect_jupiter_saturn cold/hot100",
+      "profit": -14.0
+     },
+     {
+      "date": "2026-10-04",
+      "lead": "day_element \u00d7 aspect_jupiter_saturn cold/hot100",
+      "profit": -14.0
+     },
+     {
+      "date": "2026-10-07",
+      "lead": "day_element \u00d7 aspect_jupiter_saturn cold/hot100",
+      "profit": -14.0
+     },
+     {
+      "date": "2026-10-10",
+      "lead": "day_element \u00d7 aspect_jupiter_saturn cold/hot100",
+      "profit": -14.0
+     },
+     {
+      "date": "2026-10-11",
+      "lead": "day_element \u00d7 aspect_jupiter_saturn cold/hot100",
+      "profit": -14.0
+     },
+     {
+      "date": "2026-10-14",
+      "lead": "day_element \u00d7 aspect_jupiter_saturn cold/hot100",
+      "profit": -14.0
+     },
+     {
+      "date": "2026-10-17",
+      "lead": "day_element \u00d7 aspect_jupiter_saturn cold/hot100",
+      "profit": -14.0
+     }
+    ]
+   },
+   "System 8 \u00d7 1": {
+    "cost": 28,
+    "expected_profit_10": -224.2,
+    "real": {
+     "best": 10568.0,
+     "in_profit": 2234.0,
+     "mean": -236.97328510415758,
+     "frozen1": -280.0,
+     "frozen10": -230.2,
+     "rolling": -280.0
+    },
+    "shifted": {
+     "best": [
+      10538.0,
+      3039950.0,
+      10568.0,
+      10568.0,
+      10310.0,
+      3040208.0,
+      10538.0,
+      10310.0,
+      3039920.0,
+      10568.0,
+      10310.0,
+      10538.0,
+      10568.0,
+      10280.0,
+      10280.0,
+      10538.0,
+      10568.0,
+      3039920.0,
+      10538.0,
+      10310.0
+     ],
+     "in_profit": [
+      1542.0,
+      1607.0,
+      1806.0,
+      2019.0,
+      1553.0,
+      1932.0,
+      1726.0,
+      1559.0,
+      1266.0,
+      1576.0,
+      1440.0,
+      1639.0,
+      1535.0,
+      1631.0,
+      1523.0,
+      1769.0,
+      1742.0,
+      1518.0,
+      1307.0,
+      1666.0
+     ],
+     "mean": [
+      -253.74418199250414,
+      -162.0759173712194,
+      -245.19707138499083,
+      -233.32258345681166,
+      -249.3588424997821,
+      -176.23224091344898,
+      -247.84812167698072,
+      -249.32707225660246,
+      -185.33827246578923,
+      -243.92116272988756,
+      -251.26675673319968,
+      -252.58371829512768,
+      -243.3438071995119,
+      -245.8443737470583,
+      -243.6830820186525,
+      -248.029329730672,
+      -248.26035038786716,
+      2068.2298004009413,
+      -256.33561405037915,
+      -250.35143380109824
+     ],
+     "frozen1": [
+      -280.0,
+      -220.0,
+      -280.0,
+      -280.0,
+      -250.0,
+      38.0,
+      -220.0,
+      -250.0,
+      -280.0,
+      8.0,
+      -220.0,
+      -250.0,
+      -280.0,
+      -280.0,
+      -250.0,
+      -280.0,
+      -280.0,
+      -280.0,
+      -250.0,
+      -280.0
+     ],
+     "frozen10": [
+      -268.0,
+      -227.2,
+      -271.0,
+      -277.0,
+      -271.0,
+      -230.2,
+      -256.0,
+      -242.2,
+      -274.0,
+      -213.4,
+      -256.0,
+      -198.4,
+      -277.0,
+      -277.0,
+      -262.0,
+      -277.0,
+      -256.0,
+      -256.0,
+      -248.2,
+      -271.0
+     ],
+     "rolling": [
+      -280.0,
+      -220.0,
+      -280.0,
+      -280.0,
+      -250.0,
+      38.0,
+      -220.0,
+      -250.0,
+      -280.0,
+      8.0,
+      -220.0,
+      -250.0,
+      -280.0,
+      -280.0,
+      -250.0,
+      -280.0,
+      -280.0,
+      -280.0,
+      -250.0,
+      -280.0
+     ]
+    },
+    "top_profit": [
+     {
+      "lead": "kp_moon_sub_lord \u00d7 plum_trigrams",
+      "pattern": "cold/hot100",
+      "profit": 10568.0,
+      "wins": 3,
+      "best": [
+       2,
+       0,
+       8,
+       6,
+       0,
+       2,
+       4,
+       10,
+       2,
+       0
+      ],
+      "rank_earlier": 21620,
+      "return_earlier": 0.06
+     },
+     {
+      "lead": "lagna_rashi \u00d7 day_pillar",
+      "pattern": "hot+100",
+      "profit": 10538.0,
+      "wins": 2,
+      "best": [
+       2,
+       2,
+       8,
+       2,
+       2,
+       2,
+       2,
+       10,
+       2,
+       0
+      ],
+      "rank_earlier": 32244,
+      "return_earlier": 0.0524
+     },
+     {
+      "lead": "yoga \u00d7 month_branch",
+      "pattern": "hot+100",
+      "profit": 10310.0,
+      "wins": 3,
+      "best": [
+       2,
+       0,
+       2,
+       6,
+       0,
+       0,
+       6,
+       10,
+       4,
+       0
+      ],
+      "rank_earlier": 29988,
+      "return_earlier": 0.0539
+     },
+     {
+      "lead": "yoga \u00d7 moon_sign_tropical",
+      "pattern": "hot+100",
+      "profit": 10310.0,
+      "wins": 3,
+      "best": [
+       2,
+       0,
+       0,
+       4,
+       0,
+       0,
+       6,
+       10,
+       6,
+       2
+      ],
+      "rank_earlier": 19542,
+      "return_earlier": 0.0615
+     },
+     {
+      "lead": "jupiter_retrograde \u00d7 moon_phase",
+      "pattern": "hot",
+      "profit": 10310.0,
+      "wins": 3,
+      "best": [
+       4,
+       6,
+       0,
+       0,
+       0,
+       2,
+       6,
+       10,
+       0,
+       2
+      ],
+      "rank_earlier": 36320,
+      "return_earlier": 0.0493
+     },
+     {
+      "lead": "jupiter_retrograde \u00d7 moon_phase",
+      "pattern": "pos",
+      "profit": 10310.0,
+      "wins": 3,
+      "best": [
+       4,
+       6,
+       0,
+       0,
+       0,
+       2,
+       6,
+       10,
+       0,
+       0
+      ],
+      "rank_earlier": 35125,
+      "return_earlier": 0.0503
+     },
+     {
+      "lead": "mars_combust \u00d7 moon_phase",
+      "pattern": "hot",
+      "profit": 10310.0,
+      "wins": 3,
+      "best": [
+       4,
+       6,
+       0,
+       0,
+       0,
+       0,
+       6,
+       10,
+       2,
+       2
+      ],
+      "rank_earlier": 32284,
+      "return_earlier": 0.0524
+     },
+     {
+      "lead": "mars_combust \u00d7 moon_phase",
+      "pattern": "pos",
+      "profit": 10310.0,
+      "wins": 3,
+      "best": [
+       4,
+       6,
+       0,
+       0,
+       0,
+       0,
+       6,
+       10,
+       2,
+       2
+      ],
+      "rank_earlier": 33395,
+      "return_earlier": 0.0516
+     },
+     {
+      "lead": "adhika_masa \u00d7 day_pillar",
+      "pattern": "hot",
+      "profit": 10310.0,
+      "wins": 3,
+      "best": [
+       0,
+       6,
+       6,
+       2,
+       2,
+       0,
+       0,
+       10,
+       2,
+       0
+      ],
+      "rank_earlier": 19679,
+      "return_earlier": 0.0615
+     },
+     {
+      "lead": "adhika_masa \u00d7 day_pillar",
+      "pattern": "pos",
+      "profit": 10310.0,
+      "wins": 3,
+      "best": [
+       0,
+       6,
+       6,
+       2,
+       0,
+       0,
+       0,
+       10,
+       2,
+       0
+      ],
+      "rank_earlier": 13635,
+      "return_earlier": 0.0673
+     },
+     {
+      "lead": "lunar_day \u00d7 aspect_mars_saturn",
+      "pattern": "hot+100",
+      "profit": 10310.0,
+      "wins": 3,
+      "best": [
+       2,
+       0,
+       4,
+       4,
+       2,
+       0,
+       6,
+       6,
+       10,
+       2
+      ],
+      "rank_earlier": 19147,
+      "return_earlier": 0.062
+     },
+     {
+      "lead": "moon_phase \u00d7 aspect_moon_mars",
+      "pattern": "hot",
+      "profit": 10310.0,
+      "wins": 3,
+      "best": [
+       2,
+       10,
+       2,
+       0,
+       0,
+       2,
+       6,
+       6,
+       4,
+       2
+      ],
+      "rank_earlier": 20091,
+      "return_earlier": 0.0612
+     },
+     {
+      "lead": "moon_phase \u00d7 aspect_moon_mars",
+      "pattern": "pos",
+      "profit": 10310.0,
+      "wins": 3,
+      "best": [
+       2,
+       10,
+       2,
+       0,
+       0,
+       2,
+       6,
+       6,
+       4,
+       2
+      ],
+      "rank_earlier": 22737,
+      "return_earlier": 0.0592
+     },
+     {
+      "lead": "yoga \u00d7 month",
+      "pattern": "hot+100",
+      "profit": 10280.0,
+      "wins": 2,
+      "best": [
+       0,
+       0,
+       2,
+       4,
+       0,
+       2,
+       6,
+       10,
+       4,
+       0
+      ],
+      "rank_earlier": 29990,
+      "return_earlier": 0.0539
+     },
+     {
+      "lead": "hora_lord \u00d7 day_pillar",
+      "pattern": "hot+100",
+      "profit": 10280.0,
+      "wins": 2,
+      "best": [
+       2,
+       0,
+       6,
+       4,
+       0,
+       2,
+       4,
+       10,
+       2,
+       2
+      ],
+      "rank_earlier": 44858,
+      "return_earlier": 0.0374
+     },
+     {
+      "lead": "sun_nakshatra \u00d7 masa",
+      "pattern": "hot+100",
+      "profit": 10280.0,
+      "wins": 2,
+      "best": [
+       0,
+       0,
+       4,
+       6,
+       0,
+       0,
+       4,
+       10,
+       2,
+       0
+      ],
+      "rank_earlier": 38366,
+      "return_earlier": 0.0474
+     },
+     {
+      "lead": "venus_rashi \u00d7 masa",
+      "pattern": "hot+100",
+      "profit": 10280.0,
+      "wins": 2,
+      "best": [
+       0,
+       0,
+       4,
+       2,
+       0,
+       0,
+       4,
+       10,
+       6,
+       0
+      ],
+      "rank_earlier": 45153,
+      "return_earlier": 0.0362
+     },
+     {
+      "lead": "mercury_retrograde \u00d7 kp_moon_sub_lord",
+      "pattern": "hot",
+      "profit": 10280.0,
+      "wins": 2,
+      "best": [
+       0,
+       2,
+       0,
+       2,
+       2,
+       6,
+       0,
+       10,
+       2,
+       4
+      ],
+      "rank_earlier": 30360,
+      "return_earlier": 0.0537
+     },
+     {
+      "lead": "mercury_retrograde \u00d7 kp_moon_sub_lord",
+      "pattern": "pos",
+      "profit": 10280.0,
+      "wins": 2,
+      "best": [
+       0,
+       2,
+       0,
+       2,
+       0,
+       6,
+       0,
+       10,
+       2,
+       4
+      ],
+      "rank_earlier": 30361,
+      "return_earlier": 0.0537
+     },
+     {
+      "lead": "mercury_retrograde \u00d7 kp_sun_sub_lord",
+      "pattern": "hot+100",
+      "profit": 10280.0,
+      "wins": 2,
+      "best": [
+       0,
+       0,
+       0,
+       6,
+       0,
+       2,
+       2,
+       10,
+       4,
+       0
+      ],
+      "rank_earlier": 3660,
+      "return_earlier": 0.231
+     }
+    ],
+    "top_wins": [
+     {
+      "lead": "lagna_rashi \u00d7 lunar_month",
+      "pattern": "hot+100",
+      "profit": 128.0,
+      "wins": 5,
+      "best": [
+       0,
+       0,
+       6,
+       6,
+       0,
+       0,
+       6,
+       8,
+       6,
+       0
+      ],
+      "rank_earlier": 18694,
+      "return_earlier": 0.0623
+     },
+     {
+      "lead": "tithi \u00d7 aspect_mars_saturn",
+      "pattern": "hot+100",
+      "profit": 98.0,
+      "wins": 4,
+      "best": [
+       6,
+       0,
+       4,
+       4,
+       2,
+       2,
+       6,
+       6,
+       8,
+       0
+      ],
+      "rank_earlier": 5118,
+      "return_earlier": 0.2232
+     },
+     {
+      "lead": "jupiter_combust \u00d7 plum_trigrams",
+      "pattern": "cold/hot100",
+      "profit": 98.0,
+      "wins": 4,
+      "best": [
+       0,
+       0,
+       6,
+       6,
+       0,
+       0,
+       6,
+       8,
+       4,
+       0
+      ],
+      "rank_earlier": 307,
+      "return_earlier": 0.411
+     },
+     {
+      "lead": "masa \u00d7 day_god",
+      "pattern": "hot+100",
+      "profit": 98.0,
+      "wins": 4,
+      "best": [
+       0,
+       6,
+       2,
+       6,
+       0,
+       6,
+       4,
+       8,
+       4,
+       0
+      ],
+      "rank_earlier": 43700,
+      "return_earlier": 0.0405
+     },
+     {
+      "lead": "day_pillar \u00d7 aspect_mars_jupiter",
+      "pattern": "pos",
+      "profit": 98.0,
+      "wins": 4,
+      "best": [
+       0,
+       6,
+       6,
+       6,
+       2,
+       0,
+       2,
+       8,
+       2,
+       2
+      ],
+      "rank_earlier": 37716,
+      "return_earlier": 0.0481
+     },
+     {
+      "lead": "draw_in_daylight \u00d7 aspect_moon_jupiter",
+      "pattern": "pos",
+      "profit": 98.0,
+      "wins": 4,
+      "best": [
+       2,
+       6,
+       2,
+       2,
+       2,
+       0,
+       2,
+       8,
+       6,
+       6
+      ],
+      "rank_earlier": 3944,
+      "return_earlier": 0.2295
+     },
+     {
+      "lead": "yoga \u00d7 moon_sign_tropical",
+      "pattern": "hot",
+      "profit": -160.0,
+      "wins": 4,
+      "best": [
+       0,
+       0,
+       0,
+       4,
+       6,
+       0,
+       6,
+       6,
+       6,
+       4
+      ],
+      "rank_earlier": 35870,
+      "return_earlier": 0.0496
+     },
+     {
+      "lead": "yoga \u00d7 moon_sign_tropical",
+      "pattern": "pos",
+      "profit": -160.0,
+      "wins": 4,
+      "best": [
+       0,
+       0,
+       0,
+       4,
+       6,
+       0,
+       6,
+       6,
+       6,
+       4
+      ],
+      "rank_earlier": 35871,
+      "return_earlier": 0.0496
+     },
+     {
+      "lead": "sun_rashi \u00d7 mansion_28",
+      "pattern": "hot+100",
+      "profit": -160.0,
+      "wins": 4,
+      "best": [
+       2,
+       2,
+       2,
+       6,
+       2,
+       2,
+       6,
+       6,
+       6,
+       0
+      ],
+      "rank_earlier": 3214,
+      "return_earlier": 0.2334
+     },
+     {
+      "lead": "mars_nakshatra \u00d7 year_element",
+      "pattern": "pos",
+      "profit": -160.0,
+      "wins": 4,
+      "best": [
+       6,
+       2,
+       6,
+       6,
+       0,
+       2,
+       2,
+       6,
+       2,
+       0
+      ],
+      "rank_earlier": 32506,
+      "return_earlier": 0.0522
+     }
+    ],
+    "top_earlier": [
+     {
+      "lead": "mars_retrograde \u00d7 aspects_soft",
+      "pattern": "pos",
+      "profit": -280.0,
+      "wins": 0,
+      "best": [
+       2,
+       2,
+       2,
+       2,
+       0,
+       0,
+       2,
+       2,
+       0,
+       0
+      ],
+      "rank_earlier": 1,
+      "return_earlier": 51.2632
+     },
+     {
+      "lead": "pof_rashi \u00d7 pof_nakshatra",
+      "pattern": "hot+100",
+      "profit": 8.0,
+      "wins": 1,
+      "best": [
+       0,
+       0,
+       2,
+       2,
+       2,
+       0,
+       4,
+       8,
+       4,
+       2
+      ],
+      "rank_earlier": 2,
+      "return_earlier": 51.098
+     },
+     {
+      "lead": "aspect_sun_mercury \u00d7 plum_trigrams",
+      "pattern": "cold/hot100",
+      "profit": -250.0,
+      "wins": 1,
+      "best": [
+       2,
+       0,
+       4,
+       4,
+       0,
+       0,
+       4,
+       6,
+       2,
+       0
+      ],
+      "rank_earlier": 3,
+      "return_earlier": 51.0845
+     },
+     {
+      "lead": "kp_moon_sub_lord \u00d7 month_stem",
+      "pattern": "cold",
+      "profit": -250.0,
+      "wins": 1,
+      "best": [
+       0,
+       2,
+       6,
+       0,
+       2,
+       2,
+       4,
+       2,
+       4,
+       0
+      ],
+      "rank_earlier": 4,
+      "return_earlier": 51.0752
+     },
+     {
+      "lead": "jupiter_retrograde \u00d7 aspect_moon_mercury",
+      "pattern": "cold/hot100",
+      "profit": -250.0,
+      "wins": 1,
+      "best": [
+       2,
+       0,
+       2,
+       4,
+       0,
+       2,
+       4,
+       6,
+       2,
+       0
+      ],
+      "rank_earlier": 5,
+      "return_earlier": 51.0607
+     },
+     {
+      "lead": "venus_nakshatra \u00d7 aspect_jupiter_saturn",
+      "pattern": "pos",
+      "profit": -280.0,
+      "wins": 0,
+      "best": [
+       2,
+       0,
+       0,
+       4,
+       2,
+       2,
+       4,
+       2,
+       2,
+       0
+      ],
+      "rank_earlier": 6,
+      "return_earlier": 50.958
+     },
+     {
+      "lead": "nayin_element \u00d7 plum_trigrams",
+      "pattern": "cold/hot100",
+      "profit": -190.0,
+      "wins": 3,
+      "best": [
+       0,
+       2,
+       6,
+       4,
+       0,
+       2,
+       6,
+       6,
+       4,
+       0
+      ],
+      "rank_earlier": 7,
+      "return_earlier": 50.956
+     },
+     {
+      "lead": "day_stem \u00d7 aspects_soft",
+      "pattern": "cold/hot100",
+      "profit": -250.0,
+      "wins": 1,
+      "best": [
+       2,
+       0,
+       4,
+       4,
+       2,
+       2,
+       2,
+       6,
+       4,
+       0
+      ],
+      "rank_earlier": 8,
+      "return_earlier": 50.9386
+     },
+     {
+      "lead": "venus_nakshatra \u00d7 aspect_jupiter_saturn",
+      "pattern": "hot",
+      "profit": -280.0,
+      "wins": 0,
+      "best": [
+       2,
+       0,
+       0,
+       4,
+       2,
+       2,
+       4,
+       2,
+       2,
+       0
+      ],
+      "rank_earlier": 9,
+      "return_earlier": 50.9378
+     },
+     {
+      "lead": "kp_asc_sub_lord \u00d7 day_officer",
+      "pattern": "cold",
+      "profit": -280.0,
+      "wins": 0,
+      "best": [
+       4,
+       0,
+       2,
+       2,
+       2,
+       0,
+       2,
+       0,
+       2,
+       2
+      ],
+      "rank_earlier": 10,
+      "return_earlier": 50.9345
+     }
+    ],
+    "rolling": [
+     {
+      "date": "2026-09-26",
+      "lead": "mars_retrograde \u00d7 aspects_soft pos",
+      "profit": -28.0
+     },
+     {
+      "date": "2026-09-27",
+      "lead": "mars_retrograde \u00d7 aspects_soft pos",
+      "profit": -28.0
+     },
+     {
+      "date": "2026-09-30",
+      "lead": "mars_retrograde \u00d7 aspects_soft pos",
+      "profit": -28.0
+     },
+     {
+      "date": "2026-10-03",
+      "lead": "mars_retrograde \u00d7 aspects_soft pos",
+      "profit": -28.0
+     },
+     {
+      "date": "2026-10-04",
+      "lead": "mars_retrograde \u00d7 aspects_soft pos",
+      "profit": -28.0
+     },
+     {
+      "date": "2026-10-07",
+      "lead": "mars_retrograde \u00d7 aspects_soft pos",
+      "profit": -28.0
+     },
+     {
+      "date": "2026-10-10",
+      "lead": "mars_retrograde \u00d7 aspects_soft pos",
+      "profit": -28.0
+     },
+     {
+      "date": "2026-10-11",
+      "lead": "mars_retrograde \u00d7 aspects_soft pos",
+      "profit": -28.0
+     },
+     {
+      "date": "2026-10-14",
+      "lead": "mars_retrograde \u00d7 aspects_soft pos",
+      "profit": -28.0
+     },
+     {
+      "date": "2026-10-17",
+      "lead": "mars_retrograde \u00d7 aspects_soft pos",
+      "profit": -28.0
+     }
+    ]
+   }
+  },
+  "combined": {
+   "top": [
+    {
+     "lead": "day_of_month \u00d7 aspect_moon_mars cold/hot100",
+     "format": "System 7 \u00d7 2 disjoint",
+     "stake": 140,
+     "profit": 6816.0,
+     "margin": 48.68571428571428,
+     "wins": 4,
+     "score": 21.0
+    },
+    {
+     "lead": "mars_combust \u00d7 moon_phase pos",
+     "format": "System 7 \u00d7 2 disjoint",
+     "stake": 140,
+     "profit": 6696.0,
+     "margin": 47.82857142857143,
+     "wins": 4,
+     "score": 34.5
+    },
+    {
+     "lead": "lagna_rashi \u00d7 lunar_month hot+100",
+     "format": "10 sets",
+     "stake": 100,
+     "profit": 3470.0,
+     "margin": 34.7,
+     "wins": 5,
+     "score": 114.5
+    },
+    {
+     "lead": "mars_combust \u00d7 moon_phase hot",
+     "format": "System 7 \u00d7 2 overlap",
+     "stake": 140,
+     "profit": 13484.0,
+     "margin": 96.31428571428572,
+     "wins": 3,
+     "score": 132.5
+    },
+    {
+     "lead": "mars_combust \u00d7 moon_phase pos",
+     "format": "System 7 \u00d7 2 overlap",
+     "stake": 140,
+     "profit": 13484.0,
+     "margin": 96.31428571428572,
+     "wins": 3,
+     "score": 132.5
+    },
+    {
+     "lead": "jupiter_retrograde \u00d7 moon_phase hot",
+     "format": "10 sets",
+     "stake": 100,
+     "profit": 6767.0,
+     "margin": 67.67,
+     "wins": 3,
+     "score": 134.5
+    },
+    {
+     "lead": "jupiter_retrograde \u00d7 moon_phase pos",
+     "format": "10 sets",
+     "stake": 100,
+     "profit": 6767.0,
+     "margin": 67.67,
+     "wins": 3,
+     "score": 134.5
+    },
+    {
+     "lead": "sun_nakshatra \u00d7 aspect_sun_mercury hot+100",
+     "format": "System 7 \u00d7 2 overlap",
+     "stake": 140,
+     "profit": 6816.0,
+     "margin": 48.68571428571428,
+     "wins": 3,
+     "score": 139.0
+    },
+    {
+     "lead": "venus_combust \u00d7 moon_phase pos",
+     "format": "System 7 \u00d7 2 overlap",
+     "stake": 140,
+     "profit": 6816.0,
+     "margin": 48.68571428571428,
+     "wins": 3,
+     "score": 139.0
+    },
+    {
+     "lead": "ritu \u00d7 kp_sun_star_lord hot+100",
+     "format": "System 7 \u00d7 2 overlap",
+     "stake": 140,
+     "profit": 6816.0,
+     "margin": 48.68571428571428,
+     "wins": 3,
+     "score": 139.0
+    },
+    {
+     "lead": "moon_phase \u00d7 aspect_moon_mars hot",
+     "format": "System 7 \u00d7 2 overlap",
+     "stake": 140,
+     "profit": 6816.0,
+     "margin": 48.68571428571428,
+     "wins": 3,
+     "score": 139.0
+    },
+    {
+     "lead": "moon_phase \u00d7 aspect_moon_mars pos",
+     "format": "System 7 \u00d7 2 overlap",
+     "stake": 140,
+     "profit": 6816.0,
+     "margin": 48.68571428571428,
+     "wins": 3,
+     "score": 139.0
+    },
+    {
+     "lead": "mercury_combust \u00d7 day_of_month cold/hot100",
+     "format": "System 7 \u00d7 2 disjoint",
+     "stake": 140,
+     "profit": 6804.0,
+     "margin": 48.6,
+     "wins": 3,
+     "score": 142.0
+    },
+    {
+     "lead": "kp_moon_sub_lord \u00d7 plum_trigrams cold/hot100",
+     "format": "System 7 \u00d7 2 overlap",
+     "stake": 140,
+     "profit": 6696.0,
+     "margin": 47.82857142857143,
+     "wins": 3,
+     "score": 152.5
+    },
+    {
+     "lead": "lagna_rashi \u00d7 day_pillar hot+100",
+     "format": "System 7 \u00d7 2 disjoint",
+     "stake": 140,
+     "profit": 6684.0,
+     "margin": 47.74285714285714,
+     "wins": 3,
+     "score": 153.5
+    },
+    {
+     "lead": "jupiter_retrograde \u00d7 moon_phase hot",
+     "format": "System 7 \u00d7 2 disjoint",
+     "stake": 140,
+     "profit": 6684.0,
+     "margin": 47.74285714285714,
+     "wins": 3,
+     "score": 153.5
+    },
+    {
+     "lead": "jupiter_retrograde \u00d7 moon_phase pos",
+     "format": "System 7 \u00d7 2 disjoint",
+     "stake": 140,
+     "profit": 6684.0,
+     "margin": 47.74285714285714,
+     "wins": 3,
+     "score": 153.5
+    },
+    {
+     "lead": "mars_combust \u00d7 moon_phase hot",
+     "format": "System 7 \u00d7 2 disjoint",
+     "stake": 140,
+     "profit": 6684.0,
+     "margin": 47.74285714285714,
+     "wins": 3,
+     "score": 153.5
+    },
+    {
+     "lead": "kp_moon_sub_lord \u00d7 plum_trigrams cold/hot100",
+     "format": "System 7 \u00d7 2 disjoint",
+     "stake": 140,
+     "profit": 6684.0,
+     "margin": 47.74285714285714,
+     "wins": 3,
+     "score": 153.5
+    },
+    {
+     "lead": "moon_phase \u00d7 aspect_moon_mars hot",
+     "format": "System 7 \u00d7 2 disjoint",
+     "stake": 140,
+     "profit": 6684.0,
+     "margin": 47.74285714285714,
+     "wins": 3,
+     "score": 153.5
+    }
+   ],
+   "picked_profit_mean": -108.8,
+   "control": [
+    -128.10000610351562,
+    -121.0,
+    -131.1999969482422,
+    -136.39999389648438,
+    -110.9000015258789,
+    -112.4000015258789,
+    -123.80000305175781,
+    -107.0,
+    -117.5999984741211,
+    -128.39999389648438,
+    -129.0,
+    -111.19999694824219,
+    -131.1999969482422,
+    -124.4000015258789,
+    -114.80000305175781,
+    -106.5999984741211,
+    -121.4000015258789,
+    -138.8000030517578,
+    -122.0,
+    -125.0
+   ],
+   "picked": [
+    {
+     "lead": "aspect_sun_mars \u00d7 aspect_mars_jupiter hot/cold100",
+     "format": "10 sets",
+     "profit": -100.0,
+     "wins": 0,
+     "earlier_margin": -0.2953629976580796
+    },
+    {
+     "lead": "day_branch \u00d7 aspect_moon_mars cold",
+     "format": "10 sets",
+     "profit": -100.0,
+     "wins": 0,
+     "earlier_margin": -0.4518969555035129
+    },
+    {
+     "lead": "day_element \u00d7 aspects_hard hot/cold100",
+     "format": "System 7 \u00d7 2 disjoint",
+     "profit": -140.0,
+     "wins": 0,
+     "earlier_margin": -0.4703245232519237
+    },
+    {
+     "lead": "mercury_combust \u00d7 year_yinyang hot/cold100",
+     "format": "System 7 \u00d7 2 disjoint",
+     "profit": -140.0,
+     "wins": 0,
+     "earlier_margin": -0.4671127467380395
+    },
+    {
+     "lead": "hora_lord \u00d7 pof_nakshatra cold",
+     "format": "10 sets",
+     "profit": -100.0,
+     "wins": 0,
+     "earlier_margin": -0.4094613583138173
+    },
+    {
+     "lead": "venus_nakshatra \u00d7 aspect_mars_jupiter hot+100",
+     "format": "System 7 \u00d7 2 disjoint",
+     "profit": 4.0,
+     "wins": 2,
+     "earlier_margin": -0.4783539645366343
+    },
+    {
+     "lead": "mercury_combust \u00d7 year_stem hot/cold100",
+     "format": "System 7 \u00d7 2 disjoint",
+     "profit": -140.0,
+     "wins": 0,
+     "earlier_margin": -0.4554700568752091
+    },
+    {
+     "lead": "year_animal \u00d7 aspect_venus_saturn cold",
+     "format": "System 7 \u00d7 2 disjoint",
+     "profit": -116.0,
+     "wins": 2,
+     "earlier_margin": -0.4863834058213449
+    },
+    {
+     "lead": "hora_lord \u00d7 moon_phase pos",
+     "format": "System 7 \u00d7 2 disjoint",
+     "profit": -140.0,
+     "wins": 0,
+     "earlier_margin": -0.4755436600869856
+    },
+    {
+     "lead": "year_pillar \u00d7 aspect_venus_saturn cold",
+     "format": "System 7 \u00d7 2 disjoint",
+     "profit": -116.0,
+     "wins": 2,
+     "earlier_margin": -0.4755436600869856
+    }
+   ]
+  },
+  "null": {
+   "10 sets | whole history | 5+": {
+    "real": 5558,
+    "shifted": [
+     5722,
+     5436,
+     5754,
+     5607,
+     5346,
+     5681,
+     5429,
+     5389,
+     6058,
+     5447,
+     5424,
+     5404,
+     5380,
+     5567,
+     5895,
+     6043,
+     5699,
+     6227,
+     5876,
+     6341
+    ],
+    "rank": 13,
+    "share": 0.6
+   },
+   "10 sets | whole history | 6": {
+    "real": 9,
+    "shifted": [
+     11,
+     6,
+     18,
+     12,
+     30,
+     6,
+     11,
+     9,
+     12,
+     14,
+     19,
+     19,
+     20,
+     23,
+     20,
+     8,
+     9,
+     7,
+     18,
+     15
+    ],
+    "rank": 15,
+    "share": 0.8
+   },
+   "10 sets | earlier draws | 5+": {
+    "real": 5477,
+    "shifted": [
+     5705,
+     5304,
+     5710,
+     5567,
+     5319,
+     5644,
+     5387,
+     5361,
+     6025,
+     5412,
+     5398,
+     5384,
+     5328,
+     5529,
+     5840,
+     6014,
+     5676,
+     6166,
+     5865,
+     6319
+    ],
+    "rank": 13,
+    "share": 0.6
+   },
+   "10 sets | earlier draws | 6": {
+    "real": 9,
+    "shifted": [
+     11,
+     6,
+     18,
+     12,
+     30,
+     6,
+     11,
+     9,
+     12,
+     14,
+     19,
+     19,
+     20,
+     23,
+     20,
+     8,
+     9,
+     7,
+     18,
+     15
+    ],
+    "rank": 15,
+    "share": 0.8
+   },
+   "10 sets | last 10 draws | 5+": {
+    "real": 81,
+    "shifted": [
+     17,
+     132,
+     44,
+     40,
+     27,
+     37,
+     42,
+     28,
+     33,
+     35,
+     26,
+     20,
+     52,
+     38,
+     55,
+     29,
+     23,
+     61,
+     11,
+     22
+    ],
+    "rank": 2,
+    "share": 0.05
+   },
+   "10 sets | last 10 draws | 6": {
+    "real": 0,
+    "shifted": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "rank": 1,
+    "share": 1.0
+   },
+   "System 7 \u00d7 2 overlap | whole history | 5+": {
+    "real": 5024,
+    "shifted": [
+     4890,
+     4758,
+     4970,
+     4752,
+     5011,
+     4832,
+     4912,
+     4583,
+     4795,
+     4784,
+     4915,
+     4760,
+     4646,
+     4907,
+     5122,
+     5217,
+     4969,
+     5377,
+     4922,
+     5364
+    ],
+    "rank": 5,
+    "share": 0.2
+   },
+   "System 7 \u00d7 2 overlap | whole history | 6": {
+    "real": 33,
+    "shifted": [
+     43,
+     25,
+     38,
+     28,
+     26,
+     10,
+     19,
+     49,
+     21,
+     24,
+     35,
+     23,
+     31,
+     25,
+     26,
+     15,
+     25,
+     47,
+     40,
+     42
+    ],
+    "rank": 8,
+    "share": 0.35
+   },
+   "System 7 \u00d7 2 overlap | earlier draws | 5+": {
+    "real": 4959,
+    "shifted": [
+     4866,
+     4657,
+     4940,
+     4714,
+     4958,
+     4785,
+     4877,
+     4533,
+     4770,
+     4749,
+     4881,
+     4741,
+     4592,
+     4855,
+     5061,
+     5189,
+     4950,
+     5320,
+     4897,
+     5335
+    ],
+    "rank": 5,
+    "share": 0.2
+   },
+   "System 7 \u00d7 2 overlap | earlier draws | 6": {
+    "real": 33,
+    "shifted": [
+     43,
+     25,
+     38,
+     28,
+     26,
+     10,
+     18,
+     49,
+     21,
+     24,
+     35,
+     23,
+     31,
+     25,
+     26,
+     15,
+     25,
+     18,
+     40,
+     41
+    ],
+    "rank": 7,
+    "share": 0.3
+   },
+   "System 7 \u00d7 2 overlap | last 10 draws | 5+": {
+    "real": 65,
+    "shifted": [
+     24,
+     101,
+     30,
+     38,
+     53,
+     47,
+     35,
+     50,
+     25,
+     35,
+     34,
+     19,
+     54,
+     52,
+     61,
+     28,
+     19,
+     57,
+     25,
+     29
+    ],
+    "rank": 2,
+    "share": 0.05
+   },
+   "System 7 \u00d7 2 overlap | last 10 draws | 6": {
+    "real": 0,
+    "shifted": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     1,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     29,
+     0,
+     1
+    ],
+    "rank": 4,
+    "share": 1.0
+   },
+   "System 7 \u00d7 2 disjoint | whole history | 5+": {
+    "real": 6074,
+    "shifted": [
+     5408,
+     5491,
+     6193,
+     5455,
+     5301,
+     5605,
+     5283,
+     5473,
+     5528,
+     5306,
+     5458,
+     5246,
+     5304,
+     5764,
+     5996,
+     5975,
+     5571,
+     5925,
+     5691,
+     5994
+    ],
+    "rank": 2,
+    "share": 0.05
+   },
+   "System 7 \u00d7 2 disjoint | whole history | 6": {
+    "real": 30,
+    "shifted": [
+     22,
+     23,
+     41,
+     40,
+     21,
+     20,
+     18,
+     23,
+     18,
+     13,
+     27,
+     22,
+     47,
+     27,
+     29,
+     18,
+     27,
+     53,
+     32,
+     33
+    ],
+    "rank": 7,
+    "share": 0.3
+   },
+   "System 7 \u00d7 2 disjoint | earlier draws | 5+": {
+    "real": 6012,
+    "shifted": [
+     5355,
+     5407,
+     6148,
+     5388,
+     5278,
+     5576,
+     5249,
+     5402,
+     5505,
+     5264,
+     5431,
+     5214,
+     5231,
+     5727,
+     5939,
+     5932,
+     5496,
+     5819,
+     5667,
+     5945
+    ],
+    "rank": 2,
+    "share": 0.05
+   },
+   "System 7 \u00d7 2 disjoint | earlier draws | 6": {
+    "real": 30,
+    "shifted": [
+     22,
+     23,
+     41,
+     40,
+     21,
+     20,
+     18,
+     22,
+     18,
+     13,
+     27,
+     22,
+     47,
+     27,
+     29,
+     18,
+     27,
+     24,
+     32,
+     33
+    ],
+    "rank": 6,
+    "share": 0.25
+   },
+   "System 7 \u00d7 2 disjoint | last 10 draws | 5+": {
+    "real": 62,
+    "shifted": [
+     53,
+     84,
+     45,
+     67,
+     23,
+     29,
+     34,
+     71,
+     23,
+     42,
+     27,
+     32,
+     73,
+     37,
+     57,
+     43,
+     75,
+     106,
+     24,
+     49
+    ],
+    "rank": 7,
+    "share": 0.3
+   },
+   "System 7 \u00d7 2 disjoint | last 10 draws | 6": {
+    "real": 0,
+    "shifted": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     1,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     29,
+     0,
+     0
+    ],
+    "rank": 3,
+    "share": 1.0
+   },
+   "System 8 \u00d7 1 | whole history | 5+": {
+    "real": 7043,
+    "shifted": [
+     7348,
+     7239,
+     7708,
+     7414,
+     6907,
+     7818,
+     7016,
+     6662,
+     7502,
+     7090,
+     7158,
+     7004,
+     6931,
+     7305,
+     7847,
+     8120,
+     7729,
+     8145,
+     7552,
+     8382
+    ],
+    "rank": 16,
+    "share": 0.75
+   },
+   "System 8 \u00d7 1 | whole history | 6": {
+    "real": 76,
+    "shifted": [
+     53,
+     27,
+     55,
+     50,
+     41,
+     22,
+     39,
+     50,
+     39,
+     47,
+     74,
+     28,
+     48,
+     58,
+     66,
+     40,
+     32,
+     66,
+     48,
+     58
+    ],
+    "rank": 1,
+    "share": 0.0
+   },
+   "System 8 \u00d7 1 | earlier draws | 5+": {
+    "real": 6972,
+    "shifted": [
+     7329,
+     7109,
+     7661,
+     7319,
+     6874,
+     7763,
+     6976,
+     6622,
+     7467,
+     7028,
+     7126,
+     6983,
+     6869,
+     7253,
+     7784,
+     8083,
+     7691,
+     8076,
+     7536,
+     8353
+    ],
+    "rank": 18,
+    "share": 0.85
+   },
+   "System 8 \u00d7 1 | earlier draws | 6": {
+    "real": 76,
+    "shifted": [
+     53,
+     26,
+     55,
+     50,
+     41,
+     21,
+     39,
+     50,
+     38,
+     47,
+     74,
+     28,
+     48,
+     58,
+     66,
+     40,
+     32,
+     31,
+     48,
+     58
+    ],
+    "rank": 1,
+    "share": 0.0
+   },
+   "System 8 \u00d7 1 | last 10 draws | 5+": {
+    "real": 71,
+    "shifted": [
+     19,
+     130,
+     47,
+     95,
+     33,
+     55,
+     40,
+     40,
+     35,
+     62,
+     32,
+     21,
+     62,
+     52,
+     63,
+     37,
+     38,
+     69,
+     16,
+     29
+    ],
+    "rank": 3,
+    "share": 0.1
+   },
+   "System 8 \u00d7 1 | last 10 draws | 6": {
+    "real": 0,
+    "shifted": [
+     0,
+     1,
+     0,
+     0,
+     0,
+     1,
+     0,
+     0,
+     1,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     35,
+     0,
+     0
+    ],
+    "rank": 5,
+    "share": 1.0
+   }
+  },
+  "lead_hits": {
+   "top": [
+    {
+     "lead": "aspect_moon_venus \u00d7 plum_trigrams cold/hot100",
+     "z": 11.75,
+     "five_earlier": 12,
+     "shifted_mean": 0.25,
+     "six_earlier": 0,
+     "five_last10": 0,
+     "profit_last10": [
+      -36.0,
+      -8.0,
+      -8.0,
+      38.0
+     ]
+    },
+    {
+     "lead": "mars_retrograde \u00d7 aspects_soft pos",
+     "z": 10.2443665906281,
+     "five_earlier": 12,
+     "shifted_mean": 0.65,
+     "six_earlier": 1,
+     "five_last10": 0,
+     "profit_last10": [
+      -100.0,
+      -140.0,
+      -140.0,
+      -280.0
+     ]
+    },
+    {
+     "lead": "kp_moon_sub_lord \u00d7 day_branch hot",
+     "z": 9.550230183180096,
+     "five_earlier": 12,
+     "shifted_mean": 0.5,
+     "six_earlier": 0,
+     "five_last10": 0,
+     "profit_last10": [
+      -100.0,
+      -140.0,
+      -128.0,
+      -280.0
+     ]
+    },
+    {
+     "lead": "venus_nakshatra \u00d7 mars_retrograde hot+100",
+     "z": 8.7,
+     "five_earlier": 9,
+     "shifted_mean": 0.3,
+     "six_earlier": 0,
+     "five_last10": 0,
+     "profit_last10": [
+      -70.0,
+      -116.0,
+      -104.0,
+      -220.0
+     ]
+    },
+    {
+     "lead": "year_yinyang \u00d7 lunar_day cold/hot100",
+     "z": 8.65,
+     "five_earlier": 9,
+     "shifted_mean": 0.35,
+     "six_earlier": 0,
+     "five_last10": 0,
+     "profit_last10": [
+      -100.0,
+      -140.0,
+      -140.0,
+      -280.0
+     ]
+    },
+    {
+     "lead": "jupiter_combust \u00d7 pof_sign pos",
+     "z": 8.6,
+     "five_earlier": 9,
+     "shifted_mean": 0.4,
+     "six_earlier": 0,
+     "five_last10": 0,
+     "profit_last10": [
+      -100.0,
+      -140.0,
+      -140.0,
+      -280.0
+     ]
+    },
+    {
+     "lead": "saturn_retrograde \u00d7 jupiter_combust cold",
+     "z": 8.45,
+     "five_earlier": 9,
+     "shifted_mean": 0.55,
+     "six_earlier": 0,
+     "five_last10": 0,
+     "profit_last10": [
+      -100.0,
+      -140.0,
+      -128.0,
+      -280.0
+     ]
+    },
+    {
+     "lead": "pof_sign \u00d7 aspect_moon_jupiter hot",
+     "z": 8.45,
+     "five_earlier": 9,
+     "shifted_mean": 0.55,
+     "six_earlier": 0,
+     "five_last10": 0,
+     "profit_last10": [
+      -100.0,
+      -140.0,
+      -140.0,
+      -280.0
+     ]
+    },
+    {
+     "lead": "saturn_combust \u00d7 planets_with_moon cold",
+     "z": 7.9,
+     "five_earlier": 8,
+     "shifted_mean": 0.1,
+     "six_earlier": 0,
+     "five_last10": 0,
+     "profit_last10": [
+      -100.0,
+      -140.0,
+      -128.0,
+      -280.0
+     ]
+    },
+    {
+     "lead": "jupiter_nakshatra \u00d7 aspect_sun_moon hot/cold100",
+     "z": 7.85,
+     "five_earlier": 8,
+     "shifted_mean": 0.15,
+     "six_earlier": 0,
+     "five_last10": 0,
+     "profit_last10": [
+      -100.0,
+      -140.0,
+      -140.0,
+      -280.0
+     ]
+    }
+   ],
+   "forward_real": 0,
+   "forward_control": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "avg_lead_five_last10": 0.006079490978819838,
+   "top_lead_rarity": {
+    "hits": 12,
+    "real": 3,
+    "shifted": [
+     2,
+     0,
+     0,
+     0,
+     0,
+     0,
+     1,
+     0,
+     2,
+     1,
+     2,
+     0,
+     0,
+     1,
+     0,
+     2,
+     1,
+     0,
+     1,
+     3
+    ]
+   }
+  },
+  "patterns": {
+   "hot": {
+    "real": 3696.0,
+    "mean": 3995.8,
+    "rank": 16,
+    "z": -0.8160351874423106
+   },
+   "cold": {
+    "real": 3568.0,
+    "mean": 3628.85,
+    "rank": 12,
+    "z": -0.26303022985713376
+   },
+   "pos": {
+    "real": 4430.0,
+    "mean": 4506.15,
+    "rank": 13,
+    "z": -0.21017032954553633
+   },
+   "hot+100": {
+    "real": 3506.0,
+    "mean": 3155.85,
+    "rank": 5,
+    "z": 0.8319681241601764
+   },
+   "cold+100": {
+    "real": 1615.0,
+    "mean": 1803.5,
+    "rank": 16,
+    "z": -0.9017946585486449
+   },
+   "hot/cold100": {
+    "real": 3305.0,
+    "mean": 3090.0,
+    "rank": 5,
+    "z": 0.5860710855404212
+   },
+   "cold/hot100": {
+    "real": 3300.0,
+    "mean": 3294.75,
+    "rank": 10,
+    "z": 0.01484992625976788
+   }
+  }
+ },
+ "toto58": {
+  "label": "SUPREME TOTO 6/58",
+  "cost": {
+   "10 sets": 20,
+   "System 7 \u00d7 2 overlap": 28,
+   "System 7 \u00d7 2 disjoint": 28,
+   "System 8 \u00d7 1": 56
+  },
+  "formats": {
+   "10 sets": {
+    "cost": 20,
+    "expected_profit_10": -160.1,
+    "real": {
+     "best": 27864.0,
+     "in_profit": 304.0,
+     "mean": -182.07373834219473,
+     "frozen1": -200.0,
+     "frozen10": -195.2,
+     "rolling": -200.0
+    },
+    "shifted": {
+     "best": [
+      7264.0,
+      528.0,
+      14080.0,
+      27952.0,
+      7264.0,
+      7288.0,
+      7152.0,
+      7144.0,
+      20952.0,
+      7264.0,
+      14144.0,
+      8923448.0,
+      7288.0,
+      27832.0,
+      14080.0,
+      7424.0,
+      7312.0,
+      7120.0,
+      27832.0,
+      7272.0
+     ],
+     "in_profit": [
+      186.0,
+      122.0,
+      206.0,
+      307.0,
+      189.0,
+      156.0,
+      164.0,
+      161.0,
+      305.0,
+      244.0,
+      174.0,
+      229.0,
+      211.0,
+      227.0,
+      132.0,
+      194.0,
+      333.0,
+      170.0,
+      270.0,
+      131.0
+     ],
+     "mean": [
+      -188.71088642900725,
+      -189.17963915279353,
+      -188.76300880327727,
+      -184.44225573084634,
+      -189.8680380022662,
+      -188.14974287457508,
+      -189.12106685261048,
+      -189.50248409308813,
+      -186.85173886516168,
+      -188.00209186786367,
+      -188.08053691275168,
+      15.048723088991546,
+      -188.79647868909615,
+      -188.08820709491852,
+      -189.8091170574392,
+      -186.89566809029895,
+      -186.54283971062495,
+      -190.19192887649263,
+      -181.6365379586856,
+      -189.77547284929835
+     ],
+     "frozen1": [
+      -200.0,
+      -192.0,
+      -200.0,
+      -80.0,
+      -200.0,
+      -200.0,
+      -200.0,
+      -200.0,
+      -200.0,
+      -200.0,
+      -200.0,
+      -200.0,
+      -200.0,
+      -200.0,
+      -192.0,
+      -200.0,
+      -200.0,
+      -200.0,
+      -200.0,
+      -200.0
+     ],
+     "frozen10": [
+      -196.8,
+      -198.4,
+      -185.6,
+      -181.6,
+      -200.0,
+      -196.8,
+      -192.0,
+      -199.2,
+      -195.2,
+      -196.0,
+      -199.2,
+      -181.6,
+      -200.0,
+      -163.2,
+      -198.4,
+      -193.6,
+      -199.2,
+      -197.6,
+      -196.8,
+      -188.0
+     ],
+     "rolling": [
+      -200.0,
+      -192.0,
+      -200.0,
+      -80.0,
+      -200.0,
+      -200.0,
+      -200.0,
+      -200.0,
+      -200.0,
+      -200.0,
+      -200.0,
+      -200.0,
+      -200.0,
+      -200.0,
+      -192.0,
+      -200.0,
+      -200.0,
+      -200.0,
+      -200.0,
+      -200.0
+     ]
+    },
+    "top_profit": [
+     {
+      "lead": "nakshatra \u00d7 nayin",
+      "pattern": "hot+100",
+      "profit": 27864.0,
+      "wins": 3,
+      "best": [
+       2,
+       6,
+       6,
+       2,
+       2,
+       4,
+       2,
+       10,
+       2,
+       2
+      ],
+      "rank_earlier": 31624,
+      "return_earlier": 0.0557
+     },
+     {
+      "lead": "kp_moon_number \u00d7 nayin",
+      "pattern": "hot+100",
+      "profit": 27840.0,
+      "wins": 2,
+      "best": [
+       0,
+       6,
+       2,
+       2,
+       4,
+       2,
+       2,
+       10,
+       2,
+       0
+      ],
+      "rank_earlier": 45398,
+      "return_earlier": 0.0369
+     },
+     {
+      "lead": "nakshatra \u00d7 day_pillar",
+      "pattern": "hot+100",
+      "profit": 27832.0,
+      "wins": 1,
+      "best": [
+       4,
+       2,
+       4,
+       2,
+       2,
+       2,
+       2,
+       10,
+       4,
+       2
+      ],
+      "rank_earlier": 13357,
+      "return_earlier": 0.0715
+     },
+     {
+      "lead": "nakshatra_pada \u00d7 day_pillar",
+      "pattern": "hot+100",
+      "profit": 27832.0,
+      "wins": 1,
+      "best": [
+       4,
+       2,
+       2,
+       2,
+       2,
+       2,
+       2,
+       10,
+       2,
+       0
+      ],
+      "rank_earlier": 43119,
+      "return_earlier": 0.0438
+     },
+     {
+      "lead": "nakshatra_pada \u00d7 nayin",
+      "pattern": "hot+100",
+      "profit": 27832.0,
+      "wins": 1,
+      "best": [
+       4,
+       2,
+       2,
+       2,
+       2,
+       2,
+       2,
+       10,
+       2,
+       2
+      ],
+      "rank_earlier": 43637,
+      "return_earlier": 0.0428
+     },
+     {
+      "lead": "kp_moon_number \u00d7 day_pillar",
+      "pattern": "hot+100",
+      "profit": 27832.0,
+      "wins": 1,
+      "best": [
+       0,
+       4,
+       2,
+       2,
+       4,
+       2,
+       2,
+       10,
+       2,
+       0
+      ],
+      "rank_earlier": 43173,
+      "return_earlier": 0.0438
+     },
+     {
+      "lead": "day_of_month \u00d7 aspect_jupiter_saturn",
+      "pattern": "cold",
+      "profit": 27768.0,
+      "wins": 2,
+      "best": [
+       2,
+       4,
+       0,
+       10,
+       6,
+       2,
+       2,
+       4,
+       0,
+       2
+      ],
+      "rank_earlier": 25932,
+      "return_earlier": 0.0601
+     },
+     {
+      "lead": "saturn_retrograde \u00d7 day_god",
+      "pattern": "pos",
+      "profit": 20952.0,
+      "wins": 1,
+      "best": [
+       4,
+       4,
+       4,
+       0,
+       10,
+       0,
+       2,
+       4,
+       0,
+       2
+      ],
+      "rank_earlier": 40911,
+      "return_earlier": 0.0471
+     },
+     {
+      "lead": "day_of_month \u00d7 aspect_mars_jupiter",
+      "pattern": "cold",
+      "profit": 14080.0,
+      "wins": 2,
+      "best": [
+       0,
+       6,
+       0,
+       10,
+       0,
+       4,
+       4,
+       2,
+       0,
+       2
+      ],
+      "rank_earlier": 2769,
+      "return_earlier": 0.239
+     },
+     {
+      "lead": "karana \u00d7 day_vs_year_branch",
+      "pattern": "cold",
+      "profit": 7272.0,
+      "wins": 2,
+      "best": [
+       4,
+       2,
+       0,
+       2,
+       0,
+       0,
+       4,
+       0,
+       6,
+       10
+      ],
+      "rank_earlier": 20792,
+      "return_earlier": 0.0642
+     },
+     {
+      "lead": "day_of_month \u00d7 aspect_sun_mars",
+      "pattern": "cold",
+      "profit": 7272.0,
+      "wins": 2,
+      "best": [
+       0,
+       6,
+       0,
+       10,
+       0,
+       2,
+       0,
+       2,
+       2,
+       0
+      ],
+      "rank_earlier": 28236,
+      "return_earlier": 0.0584
+     },
+     {
+      "lead": "mercury_nakshatra \u00d7 mansion_28",
+      "pattern": "hot",
+      "profit": 7264.0,
+      "wins": 1,
+      "best": [
+       0,
+       0,
+       2,
+       2,
+       10,
+       2,
+       0,
+       0,
+       0,
+       2
+      ],
+      "rank_earlier": 19363,
+      "return_earlier": 0.0655
+     },
+     {
+      "lead": "mercury_nakshatra \u00d7 mansion_28",
+      "pattern": "pos",
+      "profit": 7264.0,
+      "wins": 1,
+      "best": [
+       2,
+       0,
+       2,
+       2,
+       10,
+       2,
+       0,
+       0,
+       0,
+       2
+      ],
+      "rank_earlier": 22915,
+      "return_earlier": 0.0624
+     },
+     {
+      "lead": "kp_moon_number \u00d7 day_stem",
+      "pattern": "hot+100",
+      "profit": 7264.0,
+      "wins": 1,
+      "best": [
+       0,
+       2,
+       4,
+       2,
+       2,
+       4,
+       0,
+       10,
+       0,
+       0
+      ],
+      "rank_earlier": 30262,
+      "return_earlier": 0.0569
+     },
+     {
+      "lead": "kp_moon_number \u00d7 hour_stem_19h",
+      "pattern": "hot+100",
+      "profit": 7264.0,
+      "wins": 1,
+      "best": [
+       0,
+       2,
+       2,
+       2,
+       2,
+       2,
+       0,
+       10,
+       0,
+       0
+      ],
+      "rank_earlier": 29454,
+      "return_earlier": 0.0574
+     },
+     {
+      "lead": "mars_rashi \u00d7 aspect_mercury_saturn",
+      "pattern": "cold",
+      "profit": 7192.0,
+      "wins": 1,
+      "best": [
+       4,
+       10,
+       2,
+       0,
+       2,
+       0,
+       4,
+       0,
+       0,
+       0
+      ],
+      "rank_earlier": 36634,
+      "return_earlier": 0.0515
+     },
+     {
+      "lead": "saturn_retrograde \u00d7 day_god",
+      "pattern": "hot",
+      "profit": 7192.0,
+      "wins": 1,
+      "best": [
+       4,
+       4,
+       4,
+       0,
+       10,
+       0,
+       2,
+       4,
+       0,
+       0
+      ],
+      "rank_earlier": 40433,
+      "return_earlier": 0.0476
+     },
+     {
+      "lead": "saturn_retrograde \u00d7 planets_with_moon",
+      "pattern": "hot",
+      "profit": 7120.0,
+      "wins": 1,
+      "best": [
+       2,
+       4,
+       0,
+       0,
+       2,
+       2,
+       2,
+       4,
+       10,
+       0
+      ],
+      "rank_earlier": 43156,
+      "return_earlier": 0.0438
+     },
+     {
+      "lead": "yellow_black_path \u00d7 aspect_sun_mars",
+      "pattern": "hot",
+      "profit": 6976.0,
+      "wins": 1,
+      "best": [
+       4,
+       0,
+       0,
+       0,
+       4,
+       4,
+       0,
+       10,
+       0,
+       2
+      ],
+      "rank_earlier": 19666,
+      "return_earlier": 0.0653
+     },
+     {
+      "lead": "jupiter_retrograde \u00d7 day_of_month",
+      "pattern": "cold",
+      "profit": 552.0,
+      "wins": 2,
+      "best": [
+       2,
+       6,
+       2,
+       8,
+       0,
+       0,
+       2,
+       2,
+       0,
+       4
+      ],
+      "rank_earlier": 31478,
+      "return_earlier": 0.0559
+     }
+    ],
+    "top_wins": [
+     {
+      "lead": "mercury_nakshatra \u00d7 yellow_black_path",
+      "pattern": "hot+100",
+      "profit": -16.0,
+      "wins": 4,
+      "best": [
+       0,
+       0,
+       6,
+       2,
+       6,
+       2,
+       4,
+       8,
+       6,
+       0
+      ],
+      "rank_earlier": 14743,
+      "return_earlier": 0.0699
+     },
+     {
+      "lead": "mercury_nakshatra \u00d7 plum_trigrams",
+      "pattern": "hot+100",
+      "profit": -112.0,
+      "wins": 4,
+      "best": [
+       2,
+       6,
+       6,
+       4,
+       2,
+       2,
+       6,
+       6,
+       4,
+       0
+      ],
+      "rank_earlier": 28572,
+      "return_earlier": 0.058
+     },
+     {
+      "lead": "year_animal \u00d7 nayin_element",
+      "pattern": "cold/hot100",
+      "profit": -112.0,
+      "wins": 4,
+      "best": [
+       0,
+       6,
+       2,
+       6,
+       2,
+       4,
+       0,
+       6,
+       6,
+       0
+      ],
+      "rank_earlier": 45051,
+      "return_earlier": 0.0388
+     },
+     {
+      "lead": "venus_rashi \u00d7 day_element",
+      "pattern": "hot+100",
+      "profit": -144.0,
+      "wins": 4,
+      "best": [
+       6,
+       6,
+       2,
+       2,
+       0,
+       2,
+       2,
+       6,
+       6,
+       0
+      ],
+      "rank_earlier": 7667,
+      "return_earlier": 0.0815
+     },
+     {
+      "lead": "nakshatra \u00d7 nayin",
+      "pattern": "hot+100",
+      "profit": 27864.0,
+      "wins": 3,
+      "best": [
+       2,
+       6,
+       6,
+       2,
+       2,
+       4,
+       2,
+       10,
+       2,
+       2
+      ],
+      "rank_earlier": 31624,
+      "return_earlier": 0.0557
+     },
+     {
+      "lead": "lunar_leap_month \u00d7 mansion_28",
+      "pattern": "pos",
+      "profit": 400.0,
+      "wins": 3,
+      "best": [
+       8,
+       2,
+       2,
+       2,
+       2,
+       0,
+       6,
+       8,
+       0,
+       0
+      ],
+      "rank_earlier": 42089,
+      "return_earlier": 0.0455
+     },
+     {
+      "lead": "kp_moon_number \u00d7 nayin_element",
+      "pattern": "pos",
+      "profit": 352.0,
+      "wins": 3,
+      "best": [
+       0,
+       2,
+       6,
+       2,
+       2,
+       2,
+       2,
+       8,
+       6,
+       2
+      ],
+      "rank_earlier": 42570,
+      "return_earlier": 0.0448
+     },
+     {
+      "lead": "kp_moon_number \u00d7 nayin_element",
+      "pattern": "hot+100",
+      "profit": 296.0,
+      "wins": 3,
+      "best": [
+       0,
+       4,
+       6,
+       2,
+       2,
+       2,
+       2,
+       8,
+       6,
+       2
+      ],
+      "rank_earlier": 15172,
+      "return_earlier": 0.0695
+     },
+     {
+      "lead": "mansion_28 \u00d7 aspect_mars_jupiter",
+      "pattern": "hot",
+      "profit": 296.0,
+      "wins": 3,
+      "best": [
+       8,
+       4,
+       4,
+       2,
+       2,
+       0,
+       6,
+       8,
+       0,
+       2
+      ],
+      "rank_earlier": 14513,
+      "return_earlier": 0.0703
+     },
+     {
+      "lead": "saturn_rashi \u00d7 mansion_28",
+      "pattern": "pos",
+      "profit": 264.0,
+      "wins": 3,
+      "best": [
+       8,
+       2,
+       4,
+       2,
+       0,
+       0,
+       6,
+       8,
+       0,
+       0
+      ],
+      "rank_earlier": 43944,
+      "return_earlier": 0.0423
+     }
+    ],
+    "top_earlier": [
+     {
+      "lead": "rahu_rashi \u00d7 jupiter_combust",
+      "pattern": "hot/cold100",
+      "profit": -200.0,
+      "wins": 0,
+      "best": [
+       2,
+       0,
+       0,
+       0,
+       0,
+       4,
+       2,
+       0,
+       4,
+       2
+      ],
+      "rank_earlier": 1,
+      "return_earlier": 215.1987
+     },
+     {
+      "lead": "lunar_day \u00d7 aspect_moon_mars",
+      "pattern": "hot/cold100",
+      "profit": -200.0,
+      "wins": 0,
+      "best": [
+       2,
+       2,
+       0,
+       0,
+       4,
+       2,
+       2,
+       0,
+       0,
+       4
+      ],
+      "rank_earlier": 2,
+      "return_earlier": 214.7166
+     },
+     {
+      "lead": "mansion_28 \u00d7 aspect_sun_mars",
+      "pattern": "hot+100",
+      "profit": -192.0,
+      "wins": 1,
+      "best": [
+       6,
+       4,
+       4,
+       0,
+       4,
+       2,
+       4,
+       4,
+       0,
+       2
+      ],
+      "rank_earlier": 3,
+      "return_earlier": 214.6909
+     },
+     {
+      "lead": "aspect_venus_jupiter \u00d7 aspects_soft",
+      "pattern": "hot/cold100",
+      "profit": -200.0,
+      "wins": 0,
+      "best": [
+       2,
+       0,
+       0,
+       2,
+       4,
+       2,
+       2,
+       4,
+       4,
+       2
+      ],
+      "rank_earlier": 4,
+      "return_earlier": 214.6817
+     },
+     {
+      "lead": "nakshatra \u00d7 venus_nakshatra",
+      "pattern": "hot+100",
+      "profit": -200.0,
+      "wins": 0,
+      "best": [
+       4,
+       4,
+       0,
+       2,
+       2,
+       2,
+       4,
+       4,
+       2,
+       2
+      ],
+      "rank_earlier": 5,
+      "return_earlier": 214.5531
+     },
+     {
+      "lead": "rahu_nakshatra \u00d7 aspect_moon_venus",
+      "pattern": "pos",
+      "profit": -160.0,
+      "wins": 2,
+      "best": [
+       0,
+       0,
+       4,
+       6,
+       0,
+       2,
+       2,
+       2,
+       6,
+       0
+      ],
+      "rank_earlier": 6,
+      "return_earlier": 214.3819
+     },
+     {
+      "lead": "jupiter_retrograde \u00d7 month",
+      "pattern": "hot/cold100",
+      "profit": -200.0,
+      "wins": 0,
+      "best": [
+       2,
+       0,
+       0,
+       0,
+       2,
+       2,
+       2,
+       0,
+       4,
+       2
+      ],
+      "rank_earlier": 7,
+      "return_earlier": 214.3725
+     },
+     {
+      "lead": "hour_stem_19h \u00d7 nine_star_day",
+      "pattern": "cold+100",
+      "profit": -200.0,
+      "wins": 0,
+      "best": [
+       2,
+       0,
+       0,
+       0,
+       2,
+       2,
+       2,
+       4,
+       2,
+       4
+      ],
+      "rank_earlier": 8,
+      "return_earlier": 214.3673
+     },
+     {
+      "lead": "solar_term \u00d7 aspect_venus_saturn",
+      "pattern": "hot/cold100",
+      "profit": -200.0,
+      "wins": 0,
+      "best": [
+       2,
+       0,
+       0,
+       0,
+       0,
+       2,
+       2,
+       0,
+       2,
+       2
+      ],
+      "rank_earlier": 9,
+      "return_earlier": 214.3577
+     },
+     {
+      "lead": "mars_rashi \u00d7 solar_term",
+      "pattern": "hot/cold100",
+      "profit": -200.0,
+      "wins": 0,
+      "best": [
+       2,
+       0,
+       2,
+       0,
+       4,
+       2,
+       0,
+       0,
+       2,
+       4
+      ],
+      "rank_earlier": 10,
+      "return_earlier": 214.3506
+     }
+    ],
+    "rolling": [
+     {
+      "date": "2026-09-26",
+      "lead": "rahu_rashi \u00d7 jupiter_combust hot/cold100",
+      "profit": -20.0
+     },
+     {
+      "date": "2026-09-27",
+      "lead": "rahu_rashi \u00d7 jupiter_combust hot/cold100",
+      "profit": -20.0
+     },
+     {
+      "date": "2026-09-30",
+      "lead": "rahu_rashi \u00d7 jupiter_combust hot/cold100",
+      "profit": -20.0
+     },
+     {
+      "date": "2026-10-03",
+      "lead": "rahu_rashi \u00d7 jupiter_combust hot/cold100",
+      "profit": -20.0
+     },
+     {
+      "date": "2026-10-04",
+      "lead": "rahu_rashi \u00d7 jupiter_combust hot/cold100",
+      "profit": -20.0
+     },
+     {
+      "date": "2026-10-07",
+      "lead": "rahu_rashi \u00d7 jupiter_combust hot/cold100",
+      "profit": -20.0
+     },
+     {
+      "date": "2026-10-10",
+      "lead": "rahu_rashi \u00d7 jupiter_combust hot/cold100",
+      "profit": -20.0
+     },
+     {
+      "date": "2026-10-11",
+      "lead": "rahu_rashi \u00d7 jupiter_combust hot/cold100",
+      "profit": -20.0
+     },
+     {
+      "date": "2026-10-14",
+      "lead": "rahu_rashi \u00d7 jupiter_combust hot/cold100",
+      "profit": -20.0
+     },
+     {
+      "date": "2026-10-17",
+      "lead": "rahu_rashi \u00d7 jupiter_combust hot/cold100",
+      "profit": -20.0
+     }
+    ]
+   },
+   "System 7 \u00d7 2 overlap": {
+    "cost": 28,
+    "expected_profit_10": -224.1,
+    "real": {
+     "best": 14200.0,
+     "in_profit": 404.0,
+     "mean": -258.28187919463085,
+     "frozen1": -280.0,
+     "frozen10": -273.6,
+     "rolling": -280.0
+    },
+    "shifted": {
+     "best": [
+      14200.0,
+      13896.0,
+      13960.0,
+      14232.0,
+      13928.0,
+      8929968.0,
+      13992.0,
+      13928.0,
+      14168.0,
+      14200.0,
+      14232.0,
+      28072.0,
+      14232.0,
+      14200.0,
+      13928.0,
+      14232.0,
+      8929968.0,
+      13928.0,
+      14200.0,
+      13928.0
+     ],
+     "in_profit": [
+      257.0,
+      239.0,
+      287.0,
+      387.0,
+      252.0,
+      243.0,
+      281.0,
+      241.0,
+      349.0,
+      321.0,
+      271.0,
+      292.0,
+      239.0,
+      319.0,
+      222.0,
+      316.0,
+      396.0,
+      224.0,
+      378.0,
+      226.0
+     ],
+     "mean": [
+      -262.8407565588774,
+      -264.1359714111392,
+      -262.80101106946745,
+      -260.85383073302535,
+      -263.0959644382463,
+      -68.68665562625294,
+      -264.7042621807723,
+      -264.5522531160115,
+      -262.08524361544494,
+      -263.2525058833784,
+      -258.9669659199861,
+      -254.29826549289638,
+      -256.6634707574305,
+      -262.6451669136233,
+      -265.35064935064935,
+      -263.2521572387344,
+      -67.496731456463,
+      -265.02013422818794,
+      -255.29469188529592,
+      -265.45001307417414
+     ],
+     "frozen1": [
+      -280.0,
+      -280.0,
+      -280.0,
+      -280.0,
+      -216.0,
+      -280.0,
+      -280.0,
+      -280.0,
+      -280.0,
+      -248.0,
+      -280.0,
+      -280.0,
+      -216.0,
+      -248.0,
+      -280.0,
+      -280.0,
+      -280.0,
+      -280.0,
+      -280.0,
+      -280.0
+     ],
+     "frozen10": [
+      -273.6,
+      -273.6,
+      -257.6,
+      -276.8,
+      -264.0,
+      -276.8,
+      -260.8,
+      -251.2,
+      -233.6,
+      -243.2,
+      -270.4,
+      -264.0,
+      -273.6,
+      -249.6,
+      -267.2,
+      -254.4,
+      -267.2,
+      -240.0,
+      -270.4,
+      -273.6
+     ],
+     "rolling": [
+      -280.0,
+      -280.0,
+      -280.0,
+      -280.0,
+      -216.0,
+      -280.0,
+      -280.0,
+      -280.0,
+      -280.0,
+      -248.0,
+      -280.0,
+      -280.0,
+      -216.0,
+      -248.0,
+      -280.0,
+      -280.0,
+      -280.0,
+      -280.0,
+      -280.0,
+      -280.0
+     ]
+    },
+    "top_profit": [
+     {
+      "lead": "nakshatra \u00d7 nayin",
+      "pattern": "hot+100",
+      "profit": 14200.0,
+      "wins": 2,
+      "best": [
+       2,
+       4,
+       6,
+       2,
+       2,
+       4,
+       4,
+       10,
+       2,
+       2
+      ],
+      "rank_earlier": 35594,
+      "return_earlier": 0.0552
+     },
+     {
+      "lead": "nakshatra \u00d7 day_pillar",
+      "pattern": "hot+100",
+      "profit": 14168.0,
+      "wins": 1,
+      "best": [
+       4,
+       4,
+       4,
+       2,
+       2,
+       2,
+       2,
+       10,
+       2,
+       2
+      ],
+      "rank_earlier": 24972,
+      "return_earlier": 0.0631
+     },
+     {
+      "lead": "nakshatra_pada \u00d7 day_pillar",
+      "pattern": "hot+100",
+      "profit": 14168.0,
+      "wins": 1,
+      "best": [
+       4,
+       2,
+       2,
+       2,
+       2,
+       2,
+       2,
+       10,
+       2,
+       0
+      ],
+      "rank_earlier": 43997,
+      "return_earlier": 0.045
+     },
+     {
+      "lead": "nakshatra_pada \u00d7 nayin",
+      "pattern": "hot+100",
+      "profit": 14168.0,
+      "wins": 1,
+      "best": [
+       4,
+       2,
+       2,
+       2,
+       2,
+       2,
+       2,
+       10,
+       2,
+       2
+      ],
+      "rank_earlier": 43998,
+      "return_earlier": 0.045
+     },
+     {
+      "lead": "saturn_retrograde \u00d7 day_god",
+      "pattern": "pos",
+      "profit": 14168.0,
+      "wins": 1,
+      "best": [
+       4,
+       4,
+       4,
+       2,
+       10,
+       0,
+       2,
+       4,
+       0,
+       2
+      ],
+      "rank_earlier": 36989,
+      "return_earlier": 0.0541
+     },
+     {
+      "lead": "kp_moon_number \u00d7 day_pillar",
+      "pattern": "hot+100",
+      "profit": 14168.0,
+      "wins": 1,
+      "best": [
+       2,
+       4,
+       2,
+       2,
+       4,
+       2,
+       2,
+       10,
+       2,
+       0
+      ],
+      "rank_earlier": 42602,
+      "return_earlier": 0.0478
+     },
+     {
+      "lead": "kp_moon_number \u00d7 nayin",
+      "pattern": "hot+100",
+      "profit": 14168.0,
+      "wins": 1,
+      "best": [
+       2,
+       4,
+       2,
+       2,
+       4,
+       2,
+       2,
+       10,
+       2,
+       0
+      ],
+      "rank_earlier": 44866,
+      "return_earlier": 0.0425
+     },
+     {
+      "lead": "day_of_month \u00d7 aspect_jupiter_saturn",
+      "pattern": "cold",
+      "profit": 14168.0,
+      "wins": 1,
+      "best": [
+       2,
+       4,
+       0,
+       10,
+       4,
+       2,
+       2,
+       4,
+       0,
+       2
+      ],
+      "rank_earlier": 15104,
+      "return_earlier": 0.0716
+     },
+     {
+      "lead": "saturn_combust \u00d7 day_of_month",
+      "pattern": "cold",
+      "profit": 13992.0,
+      "wins": 2,
+      "best": [
+       2,
+       6,
+       2,
+       10,
+       2,
+       2,
+       0,
+       2,
+       2,
+       0
+      ],
+      "rank_earlier": 42188,
+      "return_earlier": 0.0483
+     },
+     {
+      "lead": "karana \u00d7 day_vs_year_branch",
+      "pattern": "cold",
+      "profit": 13960.0,
+      "wins": 2,
+      "best": [
+       4,
+       2,
+       0,
+       2,
+       0,
+       0,
+       4,
+       0,
+       6,
+       10
+      ],
+      "rank_earlier": 1985,
+      "return_earlier": 0.3118
+     },
+     {
+      "lead": "jupiter_combust \u00d7 day_of_month",
+      "pattern": "cold",
+      "profit": 13960.0,
+      "wins": 2,
+      "best": [
+       2,
+       6,
+       2,
+       10,
+       2,
+       2,
+       0,
+       2,
+       2,
+       0
+      ],
+      "rank_earlier": 18863,
+      "return_earlier": 0.0681
+     },
+     {
+      "lead": "mercury_nakshatra \u00d7 mansion_28",
+      "pattern": "hot",
+      "profit": 13928.0,
+      "wins": 1,
+      "best": [
+       0,
+       0,
+       2,
+       2,
+       10,
+       2,
+       0,
+       0,
+       0,
+       2
+      ],
+      "rank_earlier": 36316,
+      "return_earlier": 0.0546
+     },
+     {
+      "lead": "mercury_nakshatra \u00d7 mansion_28",
+      "pattern": "pos",
+      "profit": 13928.0,
+      "wins": 1,
+      "best": [
+       2,
+       0,
+       2,
+       2,
+       10,
+       2,
+       0,
+       0,
+       0,
+       2
+      ],
+      "rank_earlier": 27631,
+      "return_earlier": 0.0612
+     },
+     {
+      "lead": "kp_moon_number \u00d7 day_stem",
+      "pattern": "hot+100",
+      "profit": 13928.0,
+      "wins": 1,
+      "best": [
+       2,
+       2,
+       4,
+       2,
+       2,
+       4,
+       2,
+       10,
+       2,
+       0
+      ],
+      "rank_earlier": 31929,
+      "return_earlier": 0.0582
+     },
+     {
+      "lead": "kp_moon_number \u00d7 hour_stem_19h",
+      "pattern": "hot+100",
+      "profit": 13928.0,
+      "wins": 1,
+      "best": [
+       0,
+       2,
+       2,
+       2,
+       2,
+       2,
+       0,
+       10,
+       0,
+       0
+      ],
+      "rank_earlier": 41790,
+      "return_earlier": 0.0489
+     },
+     {
+      "lead": "yellow_black_path \u00d7 aspect_sun_mars",
+      "pattern": "hot",
+      "profit": 13928.0,
+      "wins": 2,
+      "best": [
+       4,
+       0,
+       0,
+       0,
+       6,
+       4,
+       0,
+       10,
+       0,
+       2
+      ],
+      "rank_earlier": 14354,
+      "return_earlier": 0.0725
+     },
+     {
+      "lead": "day_of_month \u00d7 aspect_sun_mars",
+      "pattern": "cold",
+      "profit": 13928.0,
+      "wins": 1,
+      "best": [
+       0,
+       4,
+       0,
+       10,
+       0,
+       2,
+       0,
+       2,
+       2,
+       0
+      ],
+      "rank_earlier": 32392,
+      "return_earlier": 0.0579
+     },
+     {
+      "lead": "day_of_month \u00d7 aspect_mars_jupiter",
+      "pattern": "cold",
+      "profit": 13928.0,
+      "wins": 1,
+      "best": [
+       0,
+       4,
+       0,
+       10,
+       0,
+       4,
+       2,
+       2,
+       0,
+       2
+      ],
+      "rank_earlier": 3074,
+      "return_earlier": 0.3057
+     },
+     {
+      "lead": "moon_phase \u00d7 aspect_sun_mars",
+      "pattern": "cold",
+      "profit": 13928.0,
+      "wins": 2,
+      "best": [
+       2,
+       2,
+       2,
+       4,
+       0,
+       4,
+       6,
+       0,
+       2,
+       10
+      ],
+      "rank_earlier": 3943,
+      "return_earlier": 0.3014
+     },
+     {
+      "lead": "day_of_month \u00d7 aspect_sun_jupiter",
+      "pattern": "cold",
+      "profit": 13896.0,
+      "wins": 1,
+      "best": [
+       4,
+       4,
+       2,
+       10,
+       2,
+       4,
+       2,
+       4,
+       2,
+       4
+      ],
+      "rank_earlier": 18023,
+      "return_earlier": 0.0689
+     }
+    ],
+    "top_wins": [
+     {
+      "lead": "masa \u00d7 kp_sun_sub_lord",
+      "pattern": "hot",
+      "profit": 88.0,
+      "wins": 4,
+      "best": [
+       2,
+       0,
+       6,
+       0,
+       8,
+       2,
+       6,
+       2,
+       6,
+       2
+      ],
+      "rank_earlier": 44526,
+      "return_earlier": 0.0436
+     },
+     {
+      "lead": "mercury_nakshatra \u00d7 plum_trigrams",
+      "pattern": "hot+100",
+      "profit": -152.0,
+      "wins": 4,
+      "best": [
+       2,
+       6,
+       6,
+       4,
+       2,
+       2,
+       6,
+       6,
+       4,
+       0
+      ],
+      "rank_earlier": 35003,
+      "return_earlier": 0.0557
+     },
+     {
+      "lead": "masa \u00d7 kp_sun_sub_lord",
+      "pattern": "pos",
+      "profit": -152.0,
+      "wins": 4,
+      "best": [
+       2,
+       0,
+       6,
+       0,
+       6,
+       2,
+       6,
+       2,
+       6,
+       2
+      ],
+      "rank_earlier": 43231,
+      "return_earlier": 0.0467
+     },
+     {
+      "lead": "year_animal \u00d7 nayin_element",
+      "pattern": "cold/hot100",
+      "profit": -152.0,
+      "wins": 4,
+      "best": [
+       2,
+       6,
+       2,
+       6,
+       2,
+       4,
+       0,
+       6,
+       6,
+       0
+      ],
+      "rank_earlier": 36143,
+      "return_earlier": 0.0549
+     },
+     {
+      "lead": "month \u00d7 aspect_sun_moon",
+      "pattern": "hot",
+      "profit": -152.0,
+      "wins": 4,
+      "best": [
+       6,
+       6,
+       0,
+       2,
+       6,
+       0,
+       2,
+       4,
+       6,
+       0
+      ],
+      "rank_earlier": 2303,
+      "return_earlier": 0.3101
+     },
+     {
+      "lead": "month \u00d7 aspect_moon_mercury",
+      "pattern": "hot+100",
+      "profit": -152.0,
+      "wins": 4,
+      "best": [
+       2,
+       6,
+       2,
+       2,
+       6,
+       2,
+       2,
+       6,
+       6,
+       0
+      ],
+      "rank_earlier": 35869,
+      "return_earlier": 0.0552
+     },
+     {
+      "lead": "kp_moon_number \u00d7 nayin_element",
+      "pattern": "hot+100",
+      "profit": 360.0,
+      "wins": 3,
+      "best": [
+       0,
+       4,
+       6,
+       2,
+       4,
+       2,
+       2,
+       8,
+       6,
+       2
+      ],
+      "rank_earlier": 29303,
+      "return_earlier": 0.0601
+     },
+     {
+      "lead": "saturn_rashi \u00d7 mansion_28",
+      "pattern": "pos",
+      "profit": 328.0,
+      "wins": 3,
+      "best": [
+       8,
+       2,
+       2,
+       2,
+       0,
+       0,
+       6,
+       8,
+       0,
+       0
+      ],
+      "rank_earlier": 40276,
+      "return_earlier": 0.0508
+     },
+     {
+      "lead": "rahu_rashi \u00d7 mansion_28",
+      "pattern": "hot",
+      "profit": 296.0,
+      "wins": 3,
+      "best": [
+       8,
+       2,
+       2,
+       0,
+       0,
+       0,
+       6,
+       8,
+       0,
+       0
+      ],
+      "rank_earlier": 20160,
+      "return_earlier": 0.067
+     },
+     {
+      "lead": "rahu_rashi \u00d7 mansion_28",
+      "pattern": "pos",
+      "profit": 296.0,
+      "wins": 3,
+      "best": [
+       8,
+       2,
+       2,
+       0,
+       0,
+       0,
+       6,
+       8,
+       0,
+       0
+      ],
+      "rank_earlier": 30374,
+      "return_earlier": 0.0593
+     }
+    ],
+    "top_earlier": [
+     {
+      "lead": "rahu_rashi \u00d7 jupiter_combust",
+      "pattern": "hot/cold100",
+      "profit": -280.0,
+      "wins": 0,
+      "best": [
+       2,
+       0,
+       0,
+       0,
+       0,
+       4,
+       2,
+       0,
+       4,
+       2
+      ],
+      "rank_earlier": 1,
+      "return_earlier": 153.505
+     },
+     {
+      "lead": "mansion_28 \u00d7 aspect_sun_mars",
+      "pattern": "hot+100",
+      "profit": -248.0,
+      "wins": 1,
+      "best": [
+       4,
+       4,
+       2,
+       2,
+       4,
+       2,
+       6,
+       4,
+       0,
+       2
+      ],
+      "rank_earlier": 2,
+      "return_earlier": 153.266
+     },
+     {
+      "lead": "lunar_day \u00d7 aspect_moon_mars",
+      "pattern": "hot/cold100",
+      "profit": -280.0,
+      "wins": 0,
+      "best": [
+       2,
+       2,
+       0,
+       0,
+       4,
+       2,
+       2,
+       0,
+       0,
+       4
+      ],
+      "rank_earlier": 3,
+      "return_earlier": 153.2657
+     },
+     {
+      "lead": "mercury_combust \u00d7 aspect_moon_mercury",
+      "pattern": "hot/cold100",
+      "profit": -280.0,
+      "wins": 0,
+      "best": [
+       0,
+       0,
+       0,
+       2,
+       4,
+       2,
+       2,
+       0,
+       2,
+       2
+      ],
+      "rank_earlier": 4,
+      "return_earlier": 153.2629
+     },
+     {
+      "lead": "venus_rashi \u00d7 aspect_mars_saturn",
+      "pattern": "pos",
+      "profit": -280.0,
+      "wins": 0,
+      "best": [
+       0,
+       2,
+       4,
+       0,
+       2,
+       0,
+       2,
+       2,
+       4,
+       0
+      ],
+      "rank_earlier": 5,
+      "return_earlier": 153.2613
+     },
+     {
+      "lead": "day_officer \u00d7 day_of_month",
+      "pattern": "hot/cold100",
+      "profit": -248.0,
+      "wins": 1,
+      "best": [
+       4,
+       0,
+       4,
+       4,
+       2,
+       0,
+       6,
+       2,
+       0,
+       2
+      ],
+      "rank_earlier": 6,
+      "return_earlier": 153.2558
+     },
+     {
+      "lead": "kp_asc_star_lord \u00d7 aspect_sun_mercury",
+      "pattern": "pos",
+      "profit": -280.0,
+      "wins": 0,
+      "best": [
+       2,
+       0,
+       2,
+       4,
+       0,
+       0,
+       0,
+       4,
+       4,
+       0
+      ],
+      "rank_earlier": 7,
+      "return_earlier": 153.2544
+     },
+     {
+      "lead": "nine_star_year \u00d7 aspect_sun_saturn",
+      "pattern": "cold/hot100",
+      "profit": -280.0,
+      "wins": 0,
+      "best": [
+       4,
+       4,
+       0,
+       2,
+       4,
+       2,
+       2,
+       2,
+       2,
+       2
+      ],
+      "rank_earlier": 8,
+      "return_earlier": 153.252
+     },
+     {
+      "lead": "ritu \u00d7 aspect_sun_venus",
+      "pattern": "cold+100",
+      "profit": -280.0,
+      "wins": 0,
+      "best": [
+       2,
+       0,
+       2,
+       2,
+       4,
+       2,
+       0,
+       2,
+       4,
+       4
+      ],
+      "rank_earlier": 9,
+      "return_earlier": 153.2498
+     },
+     {
+      "lead": "aspect_venus_jupiter \u00d7 aspects_soft",
+      "pattern": "hot/cold100",
+      "profit": -280.0,
+      "wins": 0,
+      "best": [
+       2,
+       0,
+       0,
+       2,
+       4,
+       2,
+       2,
+       4,
+       4,
+       2
+      ],
+      "rank_earlier": 10,
+      "return_earlier": 153.2495
+     }
+    ],
+    "rolling": [
+     {
+      "date": "2026-09-26",
+      "lead": "rahu_rashi \u00d7 jupiter_combust hot/cold100",
+      "profit": -28.0
+     },
+     {
+      "date": "2026-09-27",
+      "lead": "rahu_rashi \u00d7 jupiter_combust hot/cold100",
+      "profit": -28.0
+     },
+     {
+      "date": "2026-09-30",
+      "lead": "rahu_rashi \u00d7 jupiter_combust hot/cold100",
+      "profit": -28.0
+     },
+     {
+      "date": "2026-10-03",
+      "lead": "rahu_rashi \u00d7 jupiter_combust hot/cold100",
+      "profit": -28.0
+     },
+     {
+      "date": "2026-10-04",
+      "lead": "rahu_rashi \u00d7 jupiter_combust hot/cold100",
+      "profit": -28.0
+     },
+     {
+      "date": "2026-10-07",
+      "lead": "rahu_rashi \u00d7 jupiter_combust hot/cold100",
+      "profit": -28.0
+     },
+     {
+      "date": "2026-10-10",
+      "lead": "rahu_rashi \u00d7 jupiter_combust hot/cold100",
+      "profit": -28.0
+     },
+     {
+      "date": "2026-10-11",
+      "lead": "rahu_rashi \u00d7 jupiter_combust hot/cold100",
+      "profit": -28.0
+     },
+     {
+      "date": "2026-10-14",
+      "lead": "rahu_rashi \u00d7 jupiter_combust hot/cold100",
+      "profit": -28.0
+     },
+     {
+      "date": "2026-10-17",
+      "lead": "rahu_rashi \u00d7 jupiter_combust hot/cold100",
+      "profit": -28.0
+     }
+    ]
+   },
+   "System 7 \u00d7 2 disjoint": {
+    "cost": 28,
+    "expected_profit_10": -224.1,
+    "real": {
+     "best": 13928.0,
+     "in_profit": 211.0,
+     "mean": -259.15105029198986,
+     "frozen1": -280.0,
+     "frozen10": -270.4,
+     "rolling": -280.0
+    },
+    "shifted": {
+     "best": [
+      13960.0,
+      13896.0,
+      13992.0,
+      13928.0,
+      13928.0,
+      13928.0,
+      13896.0,
+      13928.0,
+      13960.0,
+      13928.0,
+      13928.0,
+      13928.0,
+      13928.0,
+      13928.0,
+      13928.0,
+      14168.0,
+      14200.0,
+      13928.0,
+      13960.0,
+      13928.0
+     ],
+     "in_profit": [
+      169.0,
+      128.0,
+      211.0,
+      211.0,
+      149.0,
+      153.0,
+      148.0,
+      146.0,
+      161.0,
+      206.0,
+      161.0,
+      211.0,
+      149.0,
+      135.0,
+      139.0,
+      189.0,
+      202.0,
+      157.0,
+      155.0,
+      154.0
+     ],
+     "mean": [
+      -262.9805630611,
+      -264.3608472064848,
+      -261.0515122461431,
+      -261.32240913448965,
+      -263.3194456550161,
+      -264.8409308811993,
+      -265.75124204654406,
+      -264.980388738778,
+      -264.3451581975072,
+      -262.93349603416715,
+      -262.9993898718731,
+      -258.2975682036085,
+      -265.026061187135,
+      -264.63313867340713,
+      -266.1863505621895,
+      -263.01612481478253,
+      -261.13309509282664,
+      -264.48147825329033,
+      -259.66564978645516,
+      -265.4747668438944
+     ],
+     "frozen1": [
+      -280.0,
+      -280.0,
+      24.0,
+      -248.0,
+      -248.0,
+      -280.0,
+      -280.0,
+      -280.0,
+      -280.0,
+      -280.0,
+      -216.0,
+      -280.0,
+      -280.0,
+      -280.0,
+      -280.0,
+      -280.0,
+      -280.0,
+      -248.0,
+      -280.0,
+      -280.0
+     ],
+     "frozen10": [
+      -270.4,
+      -270.4,
+      -230.4,
+      -260.8,
+      -243.2,
+      -270.4,
+      -260.8,
+      -260.8,
+      -276.8,
+      -273.6,
+      -267.2,
+      -273.6,
+      -280.0,
+      -240.0,
+      -216.0,
+      -273.6,
+      -270.4,
+      -267.2,
+      -260.8,
+      -270.4
+     ],
+     "rolling": [
+      -280.0,
+      -280.0,
+      24.0,
+      -248.0,
+      -248.0,
+      -280.0,
+      -280.0,
+      -280.0,
+      -280.0,
+      -280.0,
+      -216.0,
+      -280.0,
+      -280.0,
+      -280.0,
+      -280.0,
+      -280.0,
+      -280.0,
+      -248.0,
+      -280.0,
+      -280.0
+     ]
+    },
+    "top_profit": [
+     {
+      "lead": "day_of_month \u00d7 aspect_jupiter_saturn",
+      "pattern": "cold",
+      "profit": 13928.0,
+      "wins": 2,
+      "best": [
+       2,
+       4,
+       0,
+       10,
+       4,
+       6,
+       2,
+       4,
+       2,
+       2
+      ],
+      "rank_earlier": 30895,
+      "return_earlier": 0.0585
+     },
+     {
+      "lead": "nakshatra \u00d7 day_pillar",
+      "pattern": "hot+100",
+      "profit": 13896.0,
+      "wins": 1,
+      "best": [
+       4,
+       4,
+       4,
+       2,
+       4,
+       2,
+       2,
+       10,
+       2,
+       2
+      ],
+      "rank_earlier": 42143,
+      "return_earlier": 0.0483
+     },
+     {
+      "lead": "nakshatra \u00d7 nayin",
+      "pattern": "hot+100",
+      "profit": 13896.0,
+      "wins": 1,
+      "best": [
+       2,
+       4,
+       4,
+       2,
+       2,
+       4,
+       4,
+       10,
+       2,
+       2
+      ],
+      "rank_earlier": 29858,
+      "return_earlier": 0.059
+     },
+     {
+      "lead": "nakshatra_pada \u00d7 day_pillar",
+      "pattern": "hot+100",
+      "profit": 13896.0,
+      "wins": 1,
+      "best": [
+       4,
+       2,
+       2,
+       2,
+       4,
+       2,
+       2,
+       10,
+       2,
+       0
+      ],
+      "rank_earlier": 44202,
+      "return_earlier": 0.0447
+     },
+     {
+      "lead": "nakshatra_pada \u00d7 nayin",
+      "pattern": "hot+100",
+      "profit": 13896.0,
+      "wins": 1,
+      "best": [
+       4,
+       2,
+       2,
+       2,
+       4,
+       2,
+       2,
+       10,
+       2,
+       2
+      ],
+      "rank_earlier": 42543,
+      "return_earlier": 0.0478
+     },
+     {
+      "lead": "karana \u00d7 day_vs_year_branch",
+      "pattern": "cold",
+      "profit": 13896.0,
+      "wins": 1,
+      "best": [
+       2,
+       4,
+       2,
+       2,
+       0,
+       2,
+       4,
+       2,
+       4,
+       10
+      ],
+      "rank_earlier": 6075,
+      "return_earlier": 0.0837
+     },
+     {
+      "lead": "moon_rashi \u00d7 lagna_rashi",
+      "pattern": "hot",
+      "profit": 13896.0,
+      "wins": 1,
+      "best": [
+       2,
+       2,
+       0,
+       2,
+       2,
+       2,
+       0,
+       0,
+       10,
+       2
+      ],
+      "rank_earlier": 39873,
+      "return_earlier": 0.051
+     },
+     {
+      "lead": "moon_rashi \u00d7 lagna_rashi",
+      "pattern": "pos",
+      "profit": 13896.0,
+      "wins": 1,
+      "best": [
+       2,
+       2,
+       0,
+       2,
+       2,
+       2,
+       0,
+       0,
+       10,
+       2
+      ],
+      "rank_earlier": 37816,
+      "return_earlier": 0.053
+     },
+     {
+      "lead": "mercury_nakshatra \u00d7 mansion_28",
+      "pattern": "hot",
+      "profit": 13896.0,
+      "wins": 1,
+      "best": [
+       4,
+       2,
+       2,
+       4,
+       10,
+       2,
+       0,
+       0,
+       0,
+       2
+      ],
+      "rank_earlier": 41344,
+      "return_earlier": 0.0494
+     },
+     {
+      "lead": "mercury_nakshatra \u00d7 mansion_28",
+      "pattern": "pos",
+      "profit": 13896.0,
+      "wins": 1,
+      "best": [
+       4,
+       2,
+       2,
+       4,
+       10,
+       2,
+       0,
+       0,
+       0,
+       2
+      ],
+      "rank_earlier": 26350,
+      "return_earlier": 0.0615
+     },
+     {
+      "lead": "moon_navamsa \u00d7 yellow_black_path",
+      "pattern": "hot",
+      "profit": 13896.0,
+      "wins": 1,
+      "best": [
+       2,
+       2,
+       2,
+       4,
+       0,
+       0,
+       0,
+       10,
+       2,
+       2
+      ],
+      "rank_earlier": 41163,
+      "return_earlier": 0.0497
+     },
+     {
+      "lead": "moon_navamsa \u00d7 yellow_black_path",
+      "pattern": "pos",
+      "profit": 13896.0,
+      "wins": 1,
+      "best": [
+       2,
+       2,
+       2,
+       4,
+       0,
+       0,
+       0,
+       10,
+       2,
+       2
+      ],
+      "rank_earlier": 35977,
+      "return_earlier": 0.0546
+     },
+     {
+      "lead": "kp_moon_number \u00d7 day_stem",
+      "pattern": "hot+100",
+      "profit": 13896.0,
+      "wins": 1,
+      "best": [
+       4,
+       2,
+       4,
+       2,
+       4,
+       4,
+       4,
+       10,
+       2,
+       0
+      ],
+      "rank_earlier": 33105,
+      "return_earlier": 0.0568
+     },
+     {
+      "lead": "kp_moon_number \u00d7 day_pillar",
+      "pattern": "hot+100",
+      "profit": 13896.0,
+      "wins": 1,
+      "best": [
+       4,
+       4,
+       2,
+       2,
+       4,
+       2,
+       2,
+       10,
+       2,
+       0
+      ],
+      "rank_earlier": 44269,
+      "return_earlier": 0.0447
+     },
+     {
+      "lead": "kp_moon_number \u00d7 nayin",
+      "pattern": "hot+100",
+      "profit": 13896.0,
+      "wins": 1,
+      "best": [
+       4,
+       4,
+       2,
+       2,
+       4,
+       2,
+       2,
+       10,
+       2,
+       0
+      ],
+      "rank_earlier": 45233,
+      "return_earlier": 0.0414
+     },
+     {
+      "lead": "kp_moon_number \u00d7 hour_stem_19h",
+      "pattern": "hot+100",
+      "profit": 13896.0,
+      "wins": 1,
+      "best": [
+       0,
+       2,
+       4,
+       2,
+       4,
+       4,
+       2,
+       10,
+       2,
+       0
+      ],
+      "rank_earlier": 37049,
+      "return_earlier": 0.0538
+     },
+     {
+      "lead": "yellow_black_path \u00d7 aspect_sun_mars",
+      "pattern": "hot",
+      "profit": 13896.0,
+      "wins": 1,
+      "best": [
+       4,
+       2,
+       4,
+       0,
+       4,
+       2,
+       0,
+       10,
+       0,
+       2
+      ],
+      "rank_earlier": 15891,
+      "return_earlier": 0.0692
+     },
+     {
+      "lead": "day_of_month \u00d7 aspect_sun_mars",
+      "pattern": "cold",
+      "profit": 13896.0,
+      "wins": 1,
+      "best": [
+       2,
+       4,
+       2,
+       10,
+       2,
+       2,
+       2,
+       4,
+       2,
+       2
+      ],
+      "rank_earlier": 8154,
+      "return_earlier": 0.0782
+     },
+     {
+      "lead": "day_of_month \u00d7 aspect_sun_jupiter",
+      "pattern": "cold",
+      "profit": 13896.0,
+      "wins": 1,
+      "best": [
+       4,
+       4,
+       2,
+       10,
+       2,
+       4,
+       2,
+       4,
+       2,
+       2
+      ],
+      "rank_earlier": 38690,
+      "return_earlier": 0.0524
+     },
+     {
+      "lead": "day_of_month \u00d7 aspect_mars_jupiter",
+      "pattern": "cold",
+      "profit": 13896.0,
+      "wins": 1,
+      "best": [
+       4,
+       4,
+       2,
+       10,
+       2,
+       4,
+       2,
+       4,
+       2,
+       2
+      ],
+      "rank_earlier": 760,
+      "return_earlier": 0.317
+     }
+    ],
+    "top_wins": [
+     {
+      "lead": "masa \u00d7 pof_nakshatra",
+      "pattern": "cold/hot100",
+      "profit": -120.0,
+      "wins": 5,
+      "best": [
+       6,
+       6,
+       6,
+       2,
+       4,
+       6,
+       4,
+       4,
+       2,
+       6
+      ],
+      "rank_earlier": 30043,
+      "return_earlier": 0.059
+     },
+     {
+      "lead": "jupiter_retrograde \u00d7 pof_nakshatra",
+      "pattern": "hot+100",
+      "profit": 88.0,
+      "wins": 4,
+      "best": [
+       2,
+       8,
+       6,
+       4,
+       6,
+       4,
+       6,
+       4,
+       2,
+       2
+      ],
+      "rank_earlier": 13919,
+      "return_earlier": 0.0708
+     },
+     {
+      "lead": "nakshatra \u00d7 masa",
+      "pattern": "cold/hot100",
+      "profit": -152.0,
+      "wins": 4,
+      "best": [
+       6,
+       4,
+       6,
+       4,
+       2,
+       2,
+       2,
+       6,
+       2,
+       6
+      ],
+      "rank_earlier": 28289,
+      "return_earlier": 0.0601
+     },
+     {
+      "lead": "mercury_nakshatra \u00d7 aspect_sun_moon",
+      "pattern": "pos",
+      "profit": -152.0,
+      "wins": 4,
+      "best": [
+       6,
+       0,
+       6,
+       2,
+       6,
+       0,
+       6,
+       4,
+       4,
+       0
+      ],
+      "rank_earlier": 21162,
+      "return_earlier": 0.065
+     },
+     {
+      "lead": "mercury_nakshatra \u00d7 plum_trigrams",
+      "pattern": "hot+100",
+      "profit": -152.0,
+      "wins": 4,
+      "best": [
+       4,
+       6,
+       6,
+       4,
+       2,
+       2,
+       6,
+       6,
+       4,
+       0
+      ],
+      "rank_earlier": 27555,
+      "return_earlier": 0.0607
+     },
+     {
+      "lead": "jupiter_nakshatra \u00d7 day_vs_year_branch",
+      "pattern": "hot+100",
+      "profit": -152.0,
+      "wins": 4,
+      "best": [
+       2,
+       2,
+       6,
+       6,
+       2,
+       2,
+       2,
+       6,
+       6,
+       2
+      ],
+      "rank_earlier": 41592,
+      "return_earlier": 0.0491
+     },
+     {
+      "lead": "jupiter_retrograde \u00d7 mansion_28",
+      "pattern": "hot",
+      "profit": -152.0,
+      "wins": 4,
+      "best": [
+       6,
+       2,
+       6,
+       2,
+       0,
+       2,
+       6,
+       6,
+       2,
+       0
+      ],
+      "rank_earlier": 37304,
+      "return_earlier": 0.0535
+     },
+     {
+      "lead": "jupiter_retrograde \u00d7 mansion_28",
+      "pattern": "pos",
+      "profit": -152.0,
+      "wins": 4,
+      "best": [
+       6,
+       2,
+       6,
+       2,
+       0,
+       0,
+       6,
+       6,
+       2,
+       0
+      ],
+      "rank_earlier": 40942,
+      "return_earlier": 0.05
+     },
+     {
+      "lead": "kp_asc_star_lord \u00d7 mansion_28",
+      "pattern": "hot+100",
+      "profit": -152.0,
+      "wins": 4,
+      "best": [
+       6,
+       6,
+       2,
+       4,
+       2,
+       6,
+       2,
+       4,
+       6,
+       2
+      ],
+      "rank_earlier": 2494,
+      "return_earlier": 0.3038
+     },
+     {
+      "lead": "kp_sun_sub_lord \u00d7 day_element",
+      "pattern": "hot+100",
+      "profit": -152.0,
+      "wins": 4,
+      "best": [
+       6,
+       6,
+       2,
+       2,
+       4,
+       6,
+       2,
+       6,
+       2,
+       0
+      ],
+      "rank_earlier": 20921,
+      "return_earlier": 0.0653
+     }
+    ],
+    "top_earlier": [
+     {
+      "lead": "nine_star_year \u00d7 aspect_sun_saturn",
+      "pattern": "cold/hot100",
+      "profit": -280.0,
+      "wins": 0,
+      "best": [
+       2,
+       2,
+       2,
+       2,
+       4,
+       4,
+       2,
+       2,
+       2,
+       2
+      ],
+      "rank_earlier": 1,
+      "return_earlier": 153.261
+     },
+     {
+      "lead": "sun_nakshatra \u00d7 aspect_venus_saturn",
+      "pattern": "cold+100",
+      "profit": -280.0,
+      "wins": 0,
+      "best": [
+       2,
+       2,
+       0,
+       2,
+       4,
+       2,
+       2,
+       4,
+       4,
+       4
+      ],
+      "rank_earlier": 2,
+      "return_earlier": 153.2596
+     },
+     {
+      "lead": "mansion_28 \u00d7 aspect_sun_mars",
+      "pattern": "hot+100",
+      "profit": -280.0,
+      "wins": 0,
+      "best": [
+       4,
+       2,
+       4,
+       4,
+       2,
+       2,
+       4,
+       4,
+       2,
+       2
+      ],
+      "rank_earlier": 3,
+      "return_earlier": 153.255
+     },
+     {
+      "lead": "kp_asc_sub_lord \u00d7 aspect_sun_saturn",
+      "pattern": "cold+100",
+      "profit": -280.0,
+      "wins": 0,
+      "best": [
+       2,
+       0,
+       0,
+       0,
+       4,
+       2,
+       2,
+       2,
+       2,
+       2
+      ],
+      "rank_earlier": 4,
+      "return_earlier": 153.2539
+     },
+     {
+      "lead": "lunar_day \u00d7 aspect_moon_mars",
+      "pattern": "hot/cold100",
+      "profit": -248.0,
+      "wins": 1,
+      "best": [
+       6,
+       2,
+       2,
+       0,
+       4,
+       2,
+       2,
+       2,
+       2,
+       4
+      ],
+      "rank_earlier": 5,
+      "return_earlier": 153.2531
+     },
+     {
+      "lead": "moon_sign_tropical \u00d7 aspect_sun_moon",
+      "pattern": "cold+100",
+      "profit": -280.0,
+      "wins": 0,
+      "best": [
+       2,
+       0,
+       0,
+       4,
+       0,
+       2,
+       4,
+       0,
+       4,
+       2
+      ],
+      "rank_earlier": 6,
+      "return_earlier": 153.2528
+     },
+     {
+      "lead": "rahu_rashi \u00d7 jupiter_combust",
+      "pattern": "hot/cold100",
+      "profit": -280.0,
+      "wins": 0,
+      "best": [
+       2,
+       0,
+       0,
+       0,
+       2,
+       2,
+       2,
+       0,
+       4,
+       2
+      ],
+      "rank_earlier": 7,
+      "return_earlier": 153.2509
+     },
+     {
+      "lead": "mars_retrograde \u00d7 day_of_month",
+      "pattern": "hot+100",
+      "profit": -248.0,
+      "wins": 1,
+      "best": [
+       2,
+       2,
+       6,
+       2,
+       2,
+       2,
+       4,
+       4,
+       4,
+       2
+      ],
+      "rank_earlier": 8,
+      "return_earlier": 153.2509
+     },
+     {
+      "lead": "masa \u00d7 aspects_soft",
+      "pattern": "hot+100",
+      "profit": -248.0,
+      "wins": 1,
+      "best": [
+       4,
+       6,
+       2,
+       2,
+       2,
+       2,
+       2,
+       4,
+       2,
+       2
+      ],
+      "rank_earlier": 9,
+      "return_earlier": 153.2492
+     },
+     {
+      "lead": "day_of_month \u00d7 pof_sign",
+      "pattern": "hot/cold100",
+      "profit": -280.0,
+      "wins": 0,
+      "best": [
+       2,
+       2,
+       0,
+       2,
+       2,
+       2,
+       4,
+       0,
+       2,
+       4
+      ],
+      "rank_earlier": 10,
+      "return_earlier": 153.2473
+     }
+    ],
+    "rolling": [
+     {
+      "date": "2026-09-26",
+      "lead": "nine_star_year \u00d7 aspect_sun_saturn cold/hot100",
+      "profit": -28.0
+     },
+     {
+      "date": "2026-09-27",
+      "lead": "nine_star_year \u00d7 aspect_sun_saturn cold/hot100",
+      "profit": -28.0
+     },
+     {
+      "date": "2026-09-30",
+      "lead": "nine_star_year \u00d7 aspect_sun_saturn cold/hot100",
+      "profit": -28.0
+     },
+     {
+      "date": "2026-10-03",
+      "lead": "nine_star_year \u00d7 aspect_sun_saturn cold/hot100",
+      "profit": -28.0
+     },
+     {
+      "date": "2026-10-04",
+      "lead": "nine_star_year \u00d7 aspect_sun_saturn cold/hot100",
+      "profit": -28.0
+     },
+     {
+      "date": "2026-10-07",
+      "lead": "nine_star_year \u00d7 aspect_sun_saturn cold/hot100",
+      "profit": -28.0
+     },
+     {
+      "date": "2026-10-10",
+      "lead": "nine_star_year \u00d7 aspect_sun_saturn cold/hot100",
+      "profit": -28.0
+     },
+     {
+      "date": "2026-10-11",
+      "lead": "nine_star_year \u00d7 aspect_sun_saturn cold/hot100",
+      "profit": -28.0
+     },
+     {
+      "date": "2026-10-14",
+      "lead": "nine_star_year \u00d7 aspect_sun_saturn cold/hot100",
+      "profit": -28.0
+     },
+     {
+      "date": "2026-10-17",
+      "lead": "nine_star_year \u00d7 aspect_sun_saturn cold/hot100",
+      "profit": -28.0
+     }
+    ]
+   },
+   "System 8 \u00d7 1": {
+    "cost": 56,
+    "expected_profit_10": -448.2,
+    "real": {
+     "best": 8972184.0,
+     "in_profit": 596.0,
+     "mean": -324.63749673145645,
+     "frozen1": -400.0,
+     "frozen10": -520.0,
+     "rolling": -400.0
+    },
+    "shifted": {
+     "best": [
+      21544.0,
+      21464.0,
+      21544.0,
+      21992.0,
+      21384.0,
+      21384.0,
+      21464.0,
+      21464.0,
+      21384.0,
+      21464.0,
+      21464.0,
+      21464.0,
+      21464.0,
+      21464.0,
+      21384.0,
+      21992.0,
+      21544.0,
+      21384.0,
+      22072.0,
+      21464.0
+     ],
+     "in_profit": [
+      465.0,
+      424.0,
+      584.0,
+      549.0,
+      386.0,
+      440.0,
+      410.0,
+      436.0,
+      565.0,
+      541.0,
+      438.0,
+      531.0,
+      438.0,
+      437.0,
+      373.0,
+      467.0,
+      601.0,
+      461.0,
+      541.0,
+      387.0
+     ],
+     "mean": [
+      -527.3023620674627,
+      -528.9054301403295,
+      -519.7209099625208,
+      -520.6751503530027,
+      -530.8937505447573,
+      -527.9060402684564,
+      -527.2444870565676,
+      -528.3144774688399,
+      -528.0976205003051,
+      -524.032946918853,
+      -528.822975682036,
+      -512.5770068857317,
+      -531.9407304105291,
+      -529.6313082890264,
+      -532.4452192103199,
+      -524.150440163863,
+      -520.2166826462128,
+      -531.6780266713153,
+      -514.9371568029286,
+      -531.7088817223046
+     ],
+     "frozen1": [
+      -480.0,
+      -560.0,
+      -400.0,
+      -400.0,
+      -480.0,
+      -560.0,
+      -560.0,
+      -560.0,
+      -560.0,
+      -560.0,
+      -560.0,
+      -480.0,
+      -560.0,
+      -560.0,
+      -480.0,
+      -560.0,
+      -480.0,
+      -560.0,
+      -560.0,
+      -560.0
+     ],
+     "frozen10": [
+      -536.0,
+      -552.0,
+      -528.0,
+      -528.0,
+      -552.0,
+      -544.0,
+      -520.0,
+      -544.0,
+      -544.0,
+      -560.0,
+      -552.0,
+      -528.0,
+      -552.0,
+      -552.0,
+      -504.0,
+      -544.0,
+      -504.0,
+      -560.0,
+      -560.0,
+      -528.0
+     ],
+     "rolling": [
+      -480.0,
+      -560.0,
+      -400.0,
+      -400.0,
+      -480.0,
+      -560.0,
+      -480.0,
+      -560.0,
+      -560.0,
+      -560.0,
+      -560.0,
+      -480.0,
+      -560.0,
+      -560.0,
+      -480.0,
+      -560.0,
+      -480.0,
+      -560.0,
+      -560.0,
+      -560.0
+     ]
+    },
+    "top_profit": [
+     {
+      "lead": "day_of_month \u00d7 aspect_jupiter_saturn",
+      "pattern": "cold",
+      "profit": 8972184.0,
+      "wins": 1,
+      "best": [
+       2,
+       4,
+       0,
+       12,
+       4,
+       2,
+       0,
+       4,
+       0,
+       2
+      ],
+      "rank_earlier": 27221,
+      "return_earlier": 0.0596
+     },
+     {
+      "lead": "nakshatra \u00d7 day_pillar",
+      "pattern": "hot+100",
+      "profit": 21384.0,
+      "wins": 1,
+      "best": [
+       4,
+       2,
+       4,
+       2,
+       0,
+       2,
+       2,
+       10,
+       2,
+       2
+      ],
+      "rank_earlier": 40282,
+      "return_earlier": 0.0484
+     },
+     {
+      "lead": "nakshatra \u00d7 nayin",
+      "pattern": "hot+100",
+      "profit": 21384.0,
+      "wins": 1,
+      "best": [
+       2,
+       4,
+       4,
+       2,
+       2,
+       4,
+       0,
+       10,
+       2,
+       2
+      ],
+      "rank_earlier": 42677,
+      "return_earlier": 0.045
+     },
+     {
+      "lead": "nakshatra_pada \u00d7 day_pillar",
+      "pattern": "hot+100",
+      "profit": 21384.0,
+      "wins": 1,
+      "best": [
+       4,
+       2,
+       2,
+       2,
+       0,
+       2,
+       2,
+       10,
+       2,
+       0
+      ],
+      "rank_earlier": 44706,
+      "return_earlier": 0.0402
+     },
+     {
+      "lead": "nakshatra_pada \u00d7 nayin",
+      "pattern": "hot+100",
+      "profit": 21384.0,
+      "wins": 1,
+      "best": [
+       4,
+       2,
+       2,
+       2,
+       0,
+       2,
+       2,
+       10,
+       2,
+       2
+      ],
+      "rank_earlier": 45405,
+      "return_earlier": 0.0368
+     },
+     {
+      "lead": "karana \u00d7 day_vs_year_branch",
+      "pattern": "cold",
+      "profit": 21384.0,
+      "wins": 1,
+      "best": [
+       4,
+       2,
+       0,
+       2,
+       0,
+       0,
+       4,
+       0,
+       4,
+       10
+      ],
+      "rank_earlier": 12923,
+      "return_earlier": 0.0718
+     },
+     {
+      "lead": "moon_rashi \u00d7 draw_in_daylight",
+      "pattern": "hot",
+      "profit": 21384.0,
+      "wins": 1,
+      "best": [
+       2,
+       0,
+       2,
+       2,
+       2,
+       0,
+       10,
+       2,
+       2,
+       2
+      ],
+      "rank_earlier": 45578,
+      "return_earlier": 0.0354
+     },
+     {
+      "lead": "moon_rashi \u00d7 draw_in_daylight",
+      "pattern": "pos",
+      "profit": 21384.0,
+      "wins": 1,
+      "best": [
+       2,
+       0,
+       2,
+       2,
+       2,
+       0,
+       10,
+       2,
+       0,
+       2
+      ],
+      "rank_earlier": 45765,
+      "return_earlier": 0.0333
+     },
+     {
+      "lead": "mars_rashi \u00d7 aspect_mercury_saturn",
+      "pattern": "cold",
+      "profit": 21384.0,
+      "wins": 1,
+      "best": [
+       4,
+       10,
+       0,
+       0,
+       2,
+       0,
+       4,
+       0,
+       0,
+       0
+      ],
+      "rank_earlier": 37472,
+      "return_earlier": 0.0513
+     },
+     {
+      "lead": "mercury_nakshatra \u00d7 mansion_28",
+      "pattern": "hot",
+      "profit": 21384.0,
+      "wins": 1,
+      "best": [
+       0,
+       0,
+       2,
+       0,
+       10,
+       0,
+       0,
+       0,
+       0,
+       2
+      ],
+      "rank_earlier": 19654,
+      "return_earlier": 0.0652
+     },
+     {
+      "lead": "mercury_nakshatra \u00d7 mansion_28",
+      "pattern": "pos",
+      "profit": 21384.0,
+      "wins": 1,
+      "best": [
+       0,
+       0,
+       2,
+       0,
+       10,
+       0,
+       0,
+       0,
+       0,
+       2
+      ],
+      "rank_earlier": 19422,
+      "return_earlier": 0.0655
+     },
+     {
+      "lead": "saturn_retrograde \u00d7 day_god",
+      "pattern": "hot",
+      "profit": 21384.0,
+      "wins": 1,
+      "best": [
+       4,
+       4,
+       4,
+       0,
+       10,
+       0,
+       2,
+       4,
+       0,
+       0
+      ],
+      "rank_earlier": 27133,
+      "return_earlier": 0.0596
+     },
+     {
+      "lead": "kp_moon_number \u00d7 day_stem",
+      "pattern": "hot+100",
+      "profit": 21384.0,
+      "wins": 1,
+      "best": [
+       0,
+       2,
+       4,
+       2,
+       2,
+       4,
+       0,
+       10,
+       0,
+       0
+      ],
+      "rank_earlier": 26940,
+      "return_earlier": 0.0597
+     },
+     {
+      "lead": "kp_moon_number \u00d7 day_pillar",
+      "pattern": "hot+100",
+      "profit": 21384.0,
+      "wins": 1,
+      "best": [
+       0,
+       4,
+       2,
+       2,
+       4,
+       2,
+       2,
+       10,
+       2,
+       0
+      ],
+      "rank_earlier": 44761,
+      "return_earlier": 0.0402
+     },
+     {
+      "lead": "kp_moon_number \u00d7 nayin",
+      "pattern": "hot+100",
+      "profit": 21384.0,
+      "wins": 1,
+      "best": [
+       0,
+       4,
+       2,
+       2,
+       4,
+       2,
+       2,
+       10,
+       2,
+       0
+      ],
+      "rank_earlier": 45432,
+      "return_earlier": 0.0368
+     },
+     {
+      "lead": "kp_moon_number \u00d7 hour_stem_19h",
+      "pattern": "hot+100",
+      "profit": 21384.0,
+      "wins": 1,
+      "best": [
+       0,
+       2,
+       2,
+       2,
+       2,
+       2,
+       0,
+       10,
+       0,
+       0
+      ],
+      "rank_earlier": 14888,
+      "return_earlier": 0.0697
+     },
+     {
+      "lead": "month_pillar \u00d7 aspect_moon_jupiter",
+      "pattern": "cold",
+      "profit": 21384.0,
+      "wins": 1,
+      "best": [
+       0,
+       4,
+       0,
+       10,
+       4,
+       2,
+       0,
+       2,
+       2,
+       2
+      ],
+      "rank_earlier": 35415,
+      "return_earlier": 0.0534
+     },
+     {
+      "lead": "yellow_black_path \u00d7 aspect_sun_mars",
+      "pattern": "hot",
+      "profit": 21384.0,
+      "wins": 1,
+      "best": [
+       4,
+       0,
+       0,
+       0,
+       4,
+       4,
+       0,
+       10,
+       0,
+       2
+      ],
+      "rank_earlier": 21227,
+      "return_earlier": 0.0641
+     },
+     {
+      "lead": "yellow_black_path \u00d7 aspect_sun_mars",
+      "pattern": "pos",
+      "profit": 21384.0,
+      "wins": 1,
+      "best": [
+       4,
+       0,
+       0,
+       0,
+       4,
+       2,
+       0,
+       10,
+       0,
+       2
+      ],
+      "rank_earlier": 9025,
+      "return_earlier": 0.0784
+     },
+     {
+      "lead": "day_of_month \u00d7 aspect_sun_mars",
+      "pattern": "cold",
+      "profit": 21384.0,
+      "wins": 1,
+      "best": [
+       0,
+       4,
+       0,
+       10,
+       0,
+       2,
+       0,
+       0,
+       2,
+       0
+      ],
+      "rank_earlier": 41782,
+      "return_earlier": 0.0465
+     }
+    ],
+    "top_wins": [
+     {
+      "lead": "mercury_nakshatra \u00d7 plum_trigrams",
+      "pattern": "hot+100",
+      "profit": -240.0,
+      "wins": 4,
+      "best": [
+       0,
+       6,
+       6,
+       4,
+       2,
+       2,
+       6,
+       6,
+       4,
+       0
+      ],
+      "rank_earlier": 32001,
+      "return_earlier": 0.056
+     },
+     {
+      "lead": "saturn_rashi \u00d7 mansion_28",
+      "pattern": "hot",
+      "profit": 736.0,
+      "wins": 3,
+      "best": [
+       8,
+       2,
+       2,
+       2,
+       0,
+       0,
+       6,
+       8,
+       0,
+       0
+      ],
+      "rank_earlier": 42210,
+      "return_earlier": 0.0458
+     },
+     {
+      "lead": "saturn_rashi \u00d7 mansion_28",
+      "pattern": "pos",
+      "profit": 736.0,
+      "wins": 3,
+      "best": [
+       8,
+       2,
+       2,
+       2,
+       0,
+       0,
+       6,
+       8,
+       0,
+       0
+      ],
+      "rank_earlier": 43216,
+      "return_earlier": 0.0441
+     },
+     {
+      "lead": "mansion_28",
+      "pattern": "hot",
+      "profit": 208.0,
+      "wins": 3,
+      "best": [
+       8,
+       2,
+       0,
+       2,
+       2,
+       0,
+       6,
+       6,
+       0,
+       0
+      ],
+      "rank_earlier": 35114,
+      "return_earlier": 0.0534
+     },
+     {
+      "lead": "mansion_28",
+      "pattern": "pos",
+      "profit": 208.0,
+      "wins": 3,
+      "best": [
+       8,
+       2,
+       0,
+       2,
+       2,
+       0,
+       6,
+       6,
+       0,
+       0
+      ],
+      "rank_earlier": 40385,
+      "return_earlier": 0.0482
+     },
+     {
+      "lead": "weekday \u00d7 mansion_28",
+      "pattern": "hot",
+      "profit": 208.0,
+      "wins": 3,
+      "best": [
+       8,
+       2,
+       0,
+       2,
+       2,
+       0,
+       6,
+       6,
+       0,
+       0
+      ],
+      "rank_earlier": 35165,
+      "return_earlier": 0.0534
+     },
+     {
+      "lead": "weekday \u00d7 mansion_28",
+      "pattern": "pos",
+      "profit": 208.0,
+      "wins": 3,
+      "best": [
+       8,
+       2,
+       0,
+       2,
+       2,
+       0,
+       6,
+       6,
+       0,
+       0
+      ],
+      "rank_earlier": 40424,
+      "return_earlier": 0.0482
+     },
+     {
+      "lead": "mercury_nakshatra \u00d7 aspect_sun_moon",
+      "pattern": "hot+100",
+      "profit": 208.0,
+      "wins": 3,
+      "best": [
+       6,
+       0,
+       2,
+       0,
+       2,
+       2,
+       2,
+       8,
+       6,
+       0
+      ],
+      "rank_earlier": 41509,
+      "return_earlier": 0.0468
+     },
+     {
+      "lead": "saturn_rashi \u00d7 aspect_venus_mars",
+      "pattern": "hot",
+      "profit": 208.0,
+      "wins": 3,
+      "best": [
+       0,
+       0,
+       2,
+       0,
+       6,
+       0,
+       2,
+       6,
+       8,
+       0
+      ],
+      "rank_earlier": 39269,
+      "return_earlier": 0.0495
+     },
+     {
+      "lead": "saturn_rashi \u00d7 aspect_venus_mars",
+      "pattern": "pos",
+      "profit": 208.0,
+      "wins": 3,
+      "best": [
+       0,
+       0,
+       2,
+       0,
+       6,
+       0,
+       2,
+       6,
+       8,
+       0
+      ],
+      "rank_earlier": 30840,
+      "return_earlier": 0.0568
+     }
+    ],
+    "top_earlier": [
+     {
+      "lead": "year_stem \u00d7 aspect_sun_moon",
+      "pattern": "pos",
+      "profit": -400.0,
+      "wins": 2,
+      "best": [
+       0,
+       0,
+       0,
+       0,
+       2,
+       2,
+       4,
+       6,
+       6,
+       0
+      ],
+      "rank_earlier": 1,
+      "return_earlier": 77.1894
+     },
+     {
+      "lead": "mercury_rashi \u00d7 ayana",
+      "pattern": "hot/cold100",
+      "profit": -560.0,
+      "wins": 0,
+      "best": [
+       2,
+       0,
+       2,
+       0,
+       2,
+       2,
+       2,
+       0,
+       4,
+       0
+      ],
+      "rank_earlier": 2,
+      "return_earlier": 77.04
+     },
+     {
+      "lead": "planets_with_moon \u00d7 masa",
+      "pattern": "hot/cold100",
+      "profit": -560.0,
+      "wins": 0,
+      "best": [
+       2,
+       0,
+       0,
+       0,
+       2,
+       2,
+       2,
+       0,
+       2,
+       2
+      ],
+      "rank_earlier": 3,
+      "return_earlier": 77.0392
+     },
+     {
+      "lead": "nine_star_year \u00d7 aspect_sun_saturn",
+      "pattern": "cold/hot100",
+      "profit": -560.0,
+      "wins": 0,
+      "best": [
+       2,
+       4,
+       0,
+       2,
+       4,
+       0,
+       2,
+       2,
+       2,
+       2
+      ],
+      "rank_earlier": 4,
+      "return_earlier": 77.0345
+     },
+     {
+      "lead": "ayana \u00d7 aspect_venus_jupiter",
+      "pattern": "hot/cold100",
+      "profit": -480.0,
+      "wins": 1,
+      "best": [
+       2,
+       0,
+       0,
+       0,
+       0,
+       4,
+       2,
+       0,
+       6,
+       2
+      ],
+      "rank_earlier": 5,
+      "return_earlier": 77.0307
+     },
+     {
+      "lead": "mercury_rashi \u00d7 aspect_venus_saturn",
+      "pattern": "hot/cold100",
+      "profit": -560.0,
+      "wins": 0,
+      "best": [
+       2,
+       0,
+       0,
+       0,
+       2,
+       2,
+       2,
+       0,
+       4,
+       2
+      ],
+      "rank_earlier": 6,
+      "return_earlier": 77.0305
+     },
+     {
+      "lead": "day_officer \u00d7 day_of_month",
+      "pattern": "hot/cold100",
+      "profit": -480.0,
+      "wins": 1,
+      "best": [
+       4,
+       0,
+       4,
+       4,
+       2,
+       0,
+       6,
+       2,
+       0,
+       2
+      ],
+      "rank_earlier": 7,
+      "return_earlier": 77.0296
+     },
+     {
+      "lead": "kp_sun_star_lord \u00d7 year_stem",
+      "pattern": "hot",
+      "profit": -560.0,
+      "wins": 0,
+      "best": [
+       2,
+       2,
+       4,
+       4,
+       2,
+       2,
+       0,
+       2,
+       0,
+       2
+      ],
+      "rank_earlier": 8,
+      "return_earlier": 77.0293
+     },
+     {
+      "lead": "masa \u00d7 year_element",
+      "pattern": "cold",
+      "profit": -560.0,
+      "wins": 0,
+      "best": [
+       2,
+       0,
+       4,
+       2,
+       4,
+       0,
+       0,
+       0,
+       0,
+       2
+      ],
+      "rank_earlier": 9,
+      "return_earlier": 77.0285
+     },
+     {
+      "lead": "hour_stem_19h \u00d7 aspect_moon_saturn",
+      "pattern": "hot+100",
+      "profit": -480.0,
+      "wins": 1,
+      "best": [
+       0,
+       6,
+       2,
+       2,
+       2,
+       2,
+       2,
+       2,
+       4,
+       0
+      ],
+      "rank_earlier": 10,
+      "return_earlier": 77.0285
+     }
+    ],
+    "rolling": [
+     {
+      "date": "2026-09-26",
+      "lead": "year_stem \u00d7 aspect_sun_moon pos",
+      "profit": -56.0
+     },
+     {
+      "date": "2026-09-27",
+      "lead": "year_stem \u00d7 aspect_sun_moon pos",
+      "profit": -56.0
+     },
+     {
+      "date": "2026-09-30",
+      "lead": "year_stem \u00d7 aspect_sun_moon pos",
+      "profit": -56.0
+     },
+     {
+      "date": "2026-10-03",
+      "lead": "year_stem \u00d7 aspect_sun_moon pos",
+      "profit": -56.0
+     },
+     {
+      "date": "2026-10-04",
+      "lead": "year_stem \u00d7 aspect_sun_moon pos",
+      "profit": -56.0
+     },
+     {
+      "date": "2026-10-07",
+      "lead": "year_stem \u00d7 aspect_sun_moon pos",
+      "profit": -56.0
+     },
+     {
+      "date": "2026-10-10",
+      "lead": "year_stem \u00d7 aspect_sun_moon pos",
+      "profit": -56.0
+     },
+     {
+      "date": "2026-10-11",
+      "lead": "year_stem \u00d7 aspect_sun_moon pos",
+      "profit": 24.0
+     },
+     {
+      "date": "2026-10-14",
+      "lead": "year_stem \u00d7 aspect_sun_moon pos",
+      "profit": 24.0
+     },
+     {
+      "date": "2026-10-17",
+      "lead": "year_stem \u00d7 aspect_sun_moon pos",
+      "profit": -56.0
+     }
+    ]
+   }
+  },
+  "combined": {
+   "top": [
+    {
+     "lead": "nakshatra \u00d7 nayin hot+100",
+     "format": "10 sets",
+     "stake": 200,
+     "profit": 27864.0,
+     "margin": 139.32,
+     "wins": 3,
+     "score": 13.5
+    },
+    {
+     "lead": "lunar_leap_month \u00d7 mansion_28 pos",
+     "format": "10 sets",
+     "stake": 200,
+     "profit": 400.0,
+     "margin": 2.0,
+     "wins": 3,
+     "score": 58.0
+    },
+    {
+     "lead": "kp_moon_number \u00d7 nayin_element pos",
+     "format": "10 sets",
+     "stake": 200,
+     "profit": 352.0,
+     "margin": 1.76,
+     "wins": 3,
+     "score": 58.5
+    },
+    {
+     "lead": "kp_moon_number \u00d7 nayin_element hot+100",
+     "format": "10 sets",
+     "stake": 200,
+     "profit": 296.0,
+     "margin": 1.48,
+     "wins": 3,
+     "score": 59.0
+    },
+    {
+     "lead": "mansion_28 \u00d7 aspect_mars_jupiter hot",
+     "format": "10 sets",
+     "stake": 200,
+     "profit": 296.0,
+     "margin": 1.48,
+     "wins": 3,
+     "score": 59.0
+    },
+    {
+     "lead": "saturn_rashi \u00d7 mansion_28 pos",
+     "format": "10 sets",
+     "stake": 200,
+     "profit": 264.0,
+     "margin": 1.32,
+     "wins": 3,
+     "score": 60.0
+    },
+    {
+     "lead": "saturn_rashi \u00d7 mansion_28 hot",
+     "format": "System 8 \u00d7 1",
+     "stake": 560,
+     "profit": 736.0,
+     "margin": 1.3142857142857143,
+     "wins": 3,
+     "score": 60.5
+    },
+    {
+     "lead": "saturn_rashi \u00d7 mansion_28 pos",
+     "format": "System 8 \u00d7 1",
+     "stake": 560,
+     "profit": 736.0,
+     "margin": 1.3142857142857143,
+     "wins": 3,
+     "score": 60.5
+    },
+    {
+     "lead": "kp_moon_number \u00d7 nayin_element hot+100",
+     "format": "System 7 \u00d7 2 overlap",
+     "stake": 280,
+     "profit": 360.0,
+     "margin": 1.2857142857142858,
+     "wins": 3,
+     "score": 61.5
+    },
+    {
+     "lead": "mansion_28 pos",
+     "format": "10 sets",
+     "stake": 200,
+     "profit": 240.0,
+     "margin": 1.2,
+     "wins": 3,
+     "score": 63.0
+    },
+    {
+     "lead": "weekday \u00d7 mansion_28 pos",
+     "format": "10 sets",
+     "stake": 200,
+     "profit": 240.0,
+     "margin": 1.2,
+     "wins": 3,
+     "score": 63.0
+    },
+    {
+     "lead": "saturn_rashi \u00d7 mansion_28 pos",
+     "format": "System 7 \u00d7 2 overlap",
+     "stake": 280,
+     "profit": 328.0,
+     "margin": 1.1714285714285715,
+     "wins": 3,
+     "score": 72.0
+    },
+    {
+     "lead": "kp_moon_number \u00d7 nayin_element hot",
+     "format": "10 sets",
+     "stake": 200,
+     "profit": 216.0,
+     "margin": 1.08,
+     "wins": 3,
+     "score": 80.0
+    },
+    {
+     "lead": "rahu_rashi \u00d7 mansion_28 hot",
+     "format": "System 7 \u00d7 2 overlap",
+     "stake": 280,
+     "profit": 296.0,
+     "margin": 1.0571428571428572,
+     "wins": 3,
+     "score": 80.5
+    },
+    {
+     "lead": "rahu_rashi \u00d7 mansion_28 pos",
+     "format": "System 7 \u00d7 2 overlap",
+     "stake": 280,
+     "profit": 296.0,
+     "margin": 1.0571428571428572,
+     "wins": 3,
+     "score": 80.5
+    },
+    {
+     "lead": "mars_rashi \u00d7 yellow_black_path hot+100",
+     "format": "10 sets",
+     "stake": 200,
+     "profit": 200.0,
+     "margin": 1.0,
+     "wins": 3,
+     "score": 86.0
+    },
+    {
+     "lead": "nayin \u00d7 moon_sign_tropical hot",
+     "format": "10 sets",
+     "stake": 200,
+     "profit": 184.0,
+     "margin": 0.92,
+     "wins": 3,
+     "score": 94.0
+    },
+    {
+     "lead": "day_pillar \u00d7 moon_sign_tropical hot+100",
+     "format": "10 sets",
+     "stake": 200,
+     "profit": 176.0,
+     "margin": 0.88,
+     "wins": 3,
+     "score": 95.0
+    },
+    {
+     "lead": "mansion_28 hot",
+     "format": "10 sets",
+     "stake": 200,
+     "profit": 160.0,
+     "margin": 0.8,
+     "wins": 3,
+     "score": 126.5
+    },
+    {
+     "lead": "weekday \u00d7 mansion_28 hot",
+     "format": "10 sets",
+     "stake": 200,
+     "profit": 160.0,
+     "margin": 0.8,
+     "wins": 3,
+     "score": 126.5
+    }
+   ],
+   "picked_profit_mean": -243.2,
+   "control": [
+    -256.79998779296875,
+    -243.1999969482422,
+    -249.60000610351562,
+    -209.60000610351562,
+    -261.6000061035156,
+    -259.20001220703125,
+    -230.39999389648438,
+    -254.39999389648438,
+    -217.60000610351562,
+    -248.8000030517578,
+    -237.60000610351562,
+    -232.0,
+    -240.0,
+    -240.0,
+    -224.8000030517578,
+    -211.1999969482422,
+    -244.8000030517578,
+    -249.60000610351562,
+    -264.0,
+    -250.39999389648438
+   ],
+   "picked": [
+    {
+     "lead": "ritu \u00d7 kp_sun_star_lord pos",
+     "format": "10 sets",
+     "profit": -192.0,
+     "wins": 1,
+     "earlier_margin": -0.41805955811719503
+    },
+    {
+     "lead": "lunar_month \u00d7 aspect_jupiter_saturn cold/hot100",
+     "format": "System 7 \u00d7 2 disjoint",
+     "profit": -280.0,
+     "wins": 0,
+     "earlier_margin": -0.4156717442020036
+    },
+    {
+     "lead": "sun_rashi \u00d7 nayin_element hot",
+     "format": "System 7 \u00d7 2 disjoint",
+     "profit": -248.0,
+     "wins": 1,
+     "earlier_margin": -0.4197886647454371
+    },
+    {
+     "lead": "mars_combust \u00d7 day_officer hot+100",
+     "format": "System 7 \u00d7 2 disjoint",
+     "profit": -280.0,
+     "wins": 0,
+     "earlier_margin": -0.43570742418004665
+    },
+    {
+     "lead": "sun_nakshatra \u00d7 ritu pos",
+     "format": "10 sets",
+     "profit": -192.0,
+     "wins": 1,
+     "earlier_margin": -0.4140249759846302
+    },
+    {
+     "lead": "mars_nakshatra \u00d7 aspect_sun_mars hot+100",
+     "format": "System 7 \u00d7 2 disjoint",
+     "profit": -280.0,
+     "wins": 0,
+     "earlier_margin": -0.44750926307122274
+    },
+    {
+     "lead": "jupiter_nakshatra \u00d7 aspect_moon_saturn cold",
+     "format": "System 7 \u00d7 2 disjoint",
+     "profit": -280.0,
+     "wins": 0,
+     "earlier_margin": -0.4332372718539865
+    },
+    {
+     "lead": "mansion_28 \u00d7 aspect_sun_mars hot+100",
+     "format": "System 7 \u00d7 2 disjoint",
+     "profit": -280.0,
+     "wins": 0,
+     "earlier_margin": 152.2549746123233
+    },
+    {
+     "lead": "planets_with_moon \u00d7 masa hot/cold100",
+     "format": "10 sets",
+     "profit": -200.0,
+     "wins": 0,
+     "earlier_margin": -0.4024975984630163
+    },
+    {
+     "lead": "paksha \u00d7 hour_stem_19h hot",
+     "format": "10 sets",
+     "profit": -200.0,
+     "wins": 0,
+     "earlier_margin": -0.5802113352545629
+    }
+   ]
+  },
+  "null": {
+   "10 sets | whole history | 5+": {
+    "real": 5162,
+    "shifted": [
+     5151,
+     5261,
+     4707,
+     5697,
+     4871,
+     5052,
+     5283,
+     4885,
+     5138,
+     4933,
+     5380,
+     5327,
+     5338,
+     4755,
+     5663,
+     5228,
+     4901,
+     5364,
+     4959,
+     5550
+    ],
+    "rank": 11,
+    "share": 0.5
+   },
+   "10 sets | whole history | 6": {
+    "real": 10,
+    "shifted": [
+     6,
+     22,
+     15,
+     15,
+     16,
+     27,
+     11,
+     10,
+     24,
+     18,
+     46,
+     34,
+     57,
+     34,
+     31,
+     18,
+     12,
+     18,
+     21,
+     22
+    ],
+    "rank": 19,
+    "share": 0.95
+   },
+   "10 sets | earlier draws | 5+": {
+    "real": 5143,
+    "shifted": [
+     5147,
+     5261,
+     4702,
+     5682,
+     4869,
+     5048,
+     5280,
+     4882,
+     5130,
+     4925,
+     5373,
+     5293,
+     5334,
+     4752,
+     5660,
+     5213,
+     4886,
+     5363,
+     4935,
+     5548
+    ],
+    "rank": 12,
+    "share": 0.55
+   },
+   "10 sets | earlier draws | 6": {
+    "real": 10,
+    "shifted": [
+     6,
+     22,
+     15,
+     15,
+     16,
+     27,
+     11,
+     10,
+     24,
+     18,
+     46,
+     33,
+     57,
+     34,
+     31,
+     18,
+     12,
+     18,
+     21,
+     22
+    ],
+    "rank": 19,
+    "share": 0.95
+   },
+   "10 sets | last 10 draws | 5+": {
+    "real": 19,
+    "shifted": [
+     4,
+     0,
+     5,
+     15,
+     2,
+     4,
+     3,
+     3,
+     8,
+     8,
+     7,
+     34,
+     4,
+     3,
+     3,
+     15,
+     15,
+     1,
+     24,
+     2
+    ],
+    "rank": 3,
+    "share": 0.1
+   },
+   "10 sets | last 10 draws | 6": {
+    "real": 0,
+    "shifted": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     1,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "rank": 2,
+    "share": 1.0
+   },
+   "System 7 \u00d7 2 overlap | whole history | 5+": {
+    "real": 6649,
+    "shifted": [
+     6198,
+     6503,
+     5985,
+     6509,
+     5971,
+     5902,
+     6647,
+     5764,
+     6176,
+     6387,
+     5864,
+     6214,
+     6444,
+     6061,
+     6402,
+     6238,
+     6354,
+     5976,
+     6276,
+     6616
+    ],
+    "rank": 1,
+    "share": 0.0
+   },
+   "System 7 \u00d7 2 overlap | whole history | 6": {
+    "real": 15,
+    "shifted": [
+     23,
+     30,
+     18,
+     24,
+     68,
+     27,
+     35,
+     62,
+     27,
+     31,
+     39,
+     32,
+     68,
+     25,
+     40,
+     24,
+     30,
+     27,
+     43,
+     15
+    ],
+    "rank": 20,
+    "share": 1.0
+   },
+   "System 7 \u00d7 2 overlap | earlier draws | 5+": {
+    "real": 6629,
+    "shifted": [
+     6190,
+     6500,
+     5977,
+     6496,
+     5960,
+     5895,
+     6645,
+     5759,
+     6169,
+     6380,
+     5843,
+     6181,
+     6414,
+     6054,
+     6400,
+     6232,
+     6345,
+     5971,
+     6250,
+     6614
+    ],
+    "rank": 2,
+    "share": 0.05
+   },
+   "System 7 \u00d7 2 overlap | earlier draws | 6": {
+    "real": 15,
+    "shifted": [
+     23,
+     30,
+     18,
+     24,
+     68,
+     26,
+     35,
+     62,
+     27,
+     31,
+     39,
+     32,
+     68,
+     25,
+     40,
+     24,
+     29,
+     27,
+     43,
+     15
+    ],
+    "rank": 20,
+    "share": 1.0
+   },
+   "System 7 \u00d7 2 overlap | last 10 draws | 5+": {
+    "real": 20,
+    "shifted": [
+     8,
+     3,
+     8,
+     13,
+     11,
+     7,
+     2,
+     5,
+     7,
+     7,
+     21,
+     33,
+     30,
+     7,
+     2,
+     6,
+     9,
+     5,
+     26,
+     2
+    ],
+    "rank": 5,
+    "share": 0.2
+   },
+   "System 7 \u00d7 2 overlap | last 10 draws | 6": {
+    "real": 0,
+    "shifted": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     1,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     1,
+     0,
+     0,
+     0
+    ],
+    "rank": 3,
+    "share": 1.0
+   },
+   "System 7 \u00d7 2 disjoint | whole history | 5+": {
+    "real": 4837,
+    "shifted": [
+     4867,
+     4830,
+     4660,
+     4775,
+     4502,
+     4799,
+     4724,
+     4919,
+     4517,
+     4821,
+     4898,
+     4912,
+     5032,
+     4527,
+     5244,
+     4834,
+     4633,
+     4851,
+     4857,
+     4927
+    ],
+    "rank": 10,
+    "share": 0.45
+   },
+   "System 7 \u00d7 2 disjoint | whole history | 6": {
+    "real": 13,
+    "shifted": [
+     26,
+     28,
+     11,
+     45,
+     61,
+     22,
+     30,
+     30,
+     28,
+     32,
+     43,
+     42,
+     54,
+     19,
+     42,
+     20,
+     24,
+     28,
+     29,
+     12
+    ],
+    "rank": 19,
+    "share": 0.9
+   },
+   "System 7 \u00d7 2 disjoint | earlier draws | 5+": {
+    "real": 4814,
+    "shifted": [
+     4856,
+     4824,
+     4645,
+     4762,
+     4490,
+     4793,
+     4722,
+     4912,
+     4510,
+     4811,
+     4888,
+     4886,
+     5026,
+     4521,
+     5242,
+     4824,
+     4617,
+     4844,
+     4838,
+     4922
+    ],
+    "rank": 12,
+    "share": 0.55
+   },
+   "System 7 \u00d7 2 disjoint | earlier draws | 6": {
+    "real": 13,
+    "shifted": [
+     26,
+     28,
+     11,
+     45,
+     61,
+     22,
+     30,
+     30,
+     28,
+     32,
+     43,
+     42,
+     54,
+     19,
+     42,
+     20,
+     24,
+     28,
+     29,
+     12
+    ],
+    "rank": 19,
+    "share": 0.9
+   },
+   "System 7 \u00d7 2 disjoint | last 10 draws | 5+": {
+    "real": 23,
+    "shifted": [
+     11,
+     6,
+     15,
+     13,
+     12,
+     6,
+     2,
+     7,
+     7,
+     10,
+     10,
+     26,
+     6,
+     6,
+     2,
+     10,
+     16,
+     7,
+     19,
+     5
+    ],
+    "rank": 2,
+    "share": 0.05
+   },
+   "System 7 \u00d7 2 disjoint | last 10 draws | 6": {
+    "real": 0,
+    "shifted": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "rank": 1,
+    "share": 1.0
+   },
+   "System 8 \u00d7 1 | whole history | 5+": {
+    "real": 6433,
+    "shifted": [
+     6808,
+     6598,
+     5947,
+     6682,
+     6427,
+     6482,
+     6114,
+     6659,
+     6380,
+     6194,
+     6540,
+     6812,
+     6713,
+     6378,
+     6747,
+     6365,
+     6218,
+     6814,
+     6632,
+     6585
+    ],
+    "rank": 13,
+    "share": 0.6
+   },
+   "System 8 \u00d7 1 | whole history | 6": {
+    "real": 43,
+    "shifted": [
+     55,
+     66,
+     40,
+     57,
+     98,
+     60,
+     74,
+     45,
+     57,
+     68,
+     85,
+     64,
+     124,
+     73,
+     70,
+     45,
+     73,
+     63,
+     49,
+     51
+    ],
+    "rank": 20,
+    "share": 0.95
+   },
+   "System 8 \u00d7 1 | earlier draws | 5+": {
+    "real": 6410,
+    "shifted": [
+     6800,
+     6594,
+     5922,
+     6661,
+     6421,
+     6475,
+     6104,
+     6651,
+     6376,
+     6179,
+     6533,
+     6774,
+     6711,
+     6374,
+     6745,
+     6350,
+     6195,
+     6811,
+     6605,
+     6581
+    ],
+    "rank": 14,
+    "share": 0.65
+   },
+   "System 8 \u00d7 1 | earlier draws | 6": {
+    "real": 42,
+    "shifted": [
+     55,
+     66,
+     40,
+     57,
+     98,
+     60,
+     74,
+     45,
+     57,
+     68,
+     85,
+     64,
+     124,
+     73,
+     70,
+     45,
+     73,
+     63,
+     49,
+     51
+    ],
+    "rank": 20,
+    "share": 0.95
+   },
+   "System 8 \u00d7 1 | last 10 draws | 5+": {
+    "real": 23,
+    "shifted": [
+     8,
+     4,
+     25,
+     21,
+     6,
+     7,
+     10,
+     8,
+     4,
+     15,
+     7,
+     38,
+     2,
+     4,
+     2,
+     15,
+     23,
+     3,
+     27,
+     4
+    ],
+    "rank": 4,
+    "share": 0.2
+   },
+   "System 8 \u00d7 1 | last 10 draws | 6": {
+    "real": 1,
+    "shifted": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "rank": 1,
+    "share": 0.0
+   }
+  },
+  "lead_hits": {
+   "top": [
+    {
+     "lead": "nakshatra \u00d7 sun_sign_tropical hot+100",
+     "z": 11.65,
+     "five_earlier": 12,
+     "shifted_mean": 0.35,
+     "six_earlier": 0,
+     "five_last10": 0,
+     "profit_last10": [
+      -200.0,
+      -280.0,
+      -248.0,
+      -560.0
+     ]
+    },
+    {
+     "lead": "nakshatra \u00d7 venus_nakshatra hot+100",
+     "z": 9.65,
+     "five_earlier": 10,
+     "shifted_mean": 0.35,
+     "six_earlier": 1,
+     "five_last10": 0,
+     "profit_last10": [
+      -200.0,
+      -280.0,
+      -280.0,
+      -560.0
+     ]
+    },
+    {
+     "lead": "saturn_combust \u00d7 aspect_sun_moon pos",
+     "z": 9.271050693011064,
+     "five_earlier": 10,
+     "shifted_mean": 0.5,
+     "six_earlier": 0,
+     "five_last10": 0,
+     "profit_last10": [
+      -128.0,
+      -216.0,
+      -216.0,
+      -400.0
+     ]
+    },
+    {
+     "lead": "lunar_day \u00d7 hour_stem_19h cold+100",
+     "z": 8.9,
+     "five_earlier": 9,
+     "shifted_mean": 0.1,
+     "six_earlier": 0,
+     "five_last10": 0,
+     "profit_last10": [
+      -200.0,
+      -280.0,
+      -280.0,
+      -560.0
+     ]
+    },
+    {
+     "lead": "mercury_rashi \u00d7 day_pillar cold/hot100",
+     "z": 8.4,
+     "five_earlier": 9,
+     "shifted_mean": 0.6,
+     "six_earlier": 0,
+     "five_last10": 0,
+     "profit_last10": [
+      -200.0,
+      -280.0,
+      -280.0,
+      -560.0
+     ]
+    },
+    {
+     "lead": "kp_moon_star_lord \u00d7 aspect_sun_mercury cold",
+     "z": 7.7,
+     "five_earlier": 8,
+     "shifted_mean": 0.3,
+     "six_earlier": 0,
+     "five_last10": 0,
+     "profit_last10": [
+      -200.0,
+      -280.0,
+      -280.0,
+      -560.0
+     ]
+    },
+    {
+     "lead": "nakshatra_lord \u00d7 aspect_sun_mercury cold",
+     "z": 7.65,
+     "five_earlier": 8,
+     "shifted_mean": 0.35,
+     "six_earlier": 0,
+     "five_last10": 0,
+     "profit_last10": [
+      -200.0,
+      -280.0,
+      -280.0,
+      -560.0
+     ]
+    },
+    {
+     "lead": "mars_combust \u00d7 day_officer hot+100",
+     "z": 7.65,
+     "five_earlier": 8,
+     "shifted_mean": 0.35,
+     "six_earlier": 0,
+     "five_last10": 0,
+     "profit_last10": [
+      -200.0,
+      -280.0,
+      -280.0,
+      -560.0
+     ]
+    },
+    {
+     "lead": "nakshatra \u00d7 month_branch hot",
+     "z": 7.6,
+     "five_earlier": 8,
+     "shifted_mean": 0.4,
+     "six_earlier": 0,
+     "five_last10": 0,
+     "profit_last10": [
+      -200.0,
+      -280.0,
+      -280.0,
+      -560.0
+     ]
+    },
+    {
+     "lead": "nakshatra_lord \u00d7 ritu cold+100",
+     "z": 7.55,
+     "five_earlier": 8,
+     "shifted_mean": 0.45,
+     "six_earlier": 0,
+     "five_last10": 0,
+     "profit_last10": [
+      -200.0,
+      -280.0,
+      -280.0,
+      -560.0
+     ]
+    }
+   ],
+   "forward_real": 0,
+   "forward_control": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "avg_lead_five_last10": 0.0018521746709666172,
+   "top_lead_rarity": {
+    "hits": 12,
+    "real": 1,
+    "shifted": [
+     1,
+     1,
+     0,
+     0,
+     2,
+     0,
+     0,
+     1,
+     0,
+     0,
+     1,
+     1,
+     1,
+     2,
+     0,
+     0,
+     2,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  "patterns": {
+   "hot": {
+    "real": 2589.0,
+    "mean": 2979.6,
+    "rank": 21,
+    "z": -1.369402762156342
+   },
+   "cold": {
+    "real": 2094.0,
+    "mean": 2220.4,
+    "rank": 16,
+    "z": -0.8000410222225346
+   },
+   "pos": {
+    "real": 2782.0,
+    "mean": 3157.7,
+    "rank": 20,
+    "z": -1.1766691699926892
+   },
+   "hot+100": {
+    "real": 3599.0,
+    "mean": 3157.65,
+    "rank": 2,
+    "z": 1.8039453695526075
+   },
+   "cold+100": {
+    "real": 2927.0,
+    "mean": 2610.75,
+    "rank": 6,
+    "z": 0.8493109070925595
+   },
+   "hot/cold100": {
+    "real": 5192.0,
+    "mean": 4685.6,
+    "rank": 5,
+    "z": 1.0197836504834787
+   },
+   "cold/hot100": {
+    "real": 3813.0,
+    "mean": 3855.95,
+    "rank": 10,
+    "z": -0.1103267880070837
+   }
+  }
  }
 }
