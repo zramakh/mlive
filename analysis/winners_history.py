@@ -16,7 +16,8 @@ import sys
 import numpy as np
 
 DATE = sys.argv[1]
-sys.argv = [sys.argv[0], "--shifts", "1"]
+WIN = sys.argv[sys.argv.index("--window") + 1] if "--window" in sys.argv else "all"
+sys.argv = [sys.argv[0], "--shifts", "1", "--window", WIN]
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import lead_full as lf  # noqa: E402
 
@@ -28,7 +29,7 @@ LABELS = {"Magnum Life 8/36": "ml8", "STAR TOTO 6/50": "toto50", "POWER TOTO 6/5
 def winners():
     """{game key: [(lead, pattern, format, combination, payout)]} from the LEADS7_TODAY file."""
     out, key, on = {}, None, False
-    for ln in open(os.path.join(A, f"LEADS7_TODAY_{DATE}.md")):
+    for ln in open(os.path.join(A, f"LEADS7{lf.TAG.upper()}_TODAY_{DATE}.md")):
         if ln.startswith("## "):
             key = LABELS[ln[3:].split(":")[0]]
             on = False
@@ -59,7 +60,7 @@ def main():
           "same lead on 20 calendars out of line with the draws. *Last 10* = each of the 10 draws before the date: best "
           "combination, and the draw's profit.", ""]
     for key, rows in W.items():
-        z = np.load(os.path.join(A, "profit_arrays", f"leads7_{key}.npz"))
+        z = np.load(os.path.join(A, "profit_arrays", f"leads7{lf.TAG}_{key}.npz"))
         PRE, ST, HO, HC = z["PRE"], z["ST"], z["HO"], z["HC"]
         dates = [str(x) for x in z["dates"]]
         lf.setup(key)
@@ -87,7 +88,7 @@ def main():
             md.append(f"| {lead} | {pat}{' (new)' if pat in lf.NEW else ''} | {f} | {comb}, RM{pay:,.0f} | {rank[fi][i]:,} / "
                       f"{100 * ret:.0f}% / {wins} of {n_pre} ({100 * wins / n_pre:.1f}%) | {hi} ({hi_sh:.1f}) | {l10:+,.0f} | {per} |")
         md += ["", f"Last 10 draws: {', '.join(x[5:] for x in dates)}.", ""]
-    out = os.path.join(A, f"WINNERS_HISTORY_{DATE}.md")
+    out = os.path.join(A, f"WINNERS_HISTORY{lf.TAG.upper()}_{DATE}.md")
     with open(out, "w") as fh:
         fh.write("\n".join(md) + "\n")
     print("\n".join(md))

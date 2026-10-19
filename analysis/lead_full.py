@@ -28,6 +28,10 @@ import numpy as np
 
 UNTIL = sys.argv[sys.argv.index("--until") + 1] if "--until" in sys.argv else None
 NSH = int(sys.argv[sys.argv.index("--shifts") + 1]) if "--shifts" in sys.argv else 20
+# which earlier draws of a lead's cell count: all (default), last_round (the most recent unbroken run of draws in the
+# cell), last5 / last10 (the 5 / 10 most recent draws in the cell), decay10 (all, weight halving every 10 occurrences)
+WINDOW = sys.argv[sys.argv.index("--window") + 1] if "--window" in sys.argv else "all"
+TAG = "" if WINDOW == "all" else f"_{WINDOW}"
 if "--games" not in sys.argv:
     sys.argv += ["--games", "ml8,toto50,toto55,toto58"]
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -139,13 +143,7 @@ def series(task):
         first = np.r_[0, np.flatnonzero(np.diff(cs)) + 1]
         starts = np.repeat(first, np.diff(np.r_[first, d]))
 
-        def ex(X):
-            xs = X[order]
-            c = np.cumsum(xs, 0) - xs
-            c = c - c[starts]
-            o = np.empty_like(X)
-            o[order] = c
-            return o
+        ex = window_ex(order, starts, d)
         dp = ex(np.ones((d, 1), np.float32))
         cnt = ex(H)
         e = dp * k / n
@@ -179,6 +177,46 @@ def series(task):
                 agg[fi, 1] += best >= tp_
             li += 1
     return key, sh, sets[0], pre, stat, hold, hcode, agg
+
+
+def window_ex(order, starts, d):
+    """Exclusive per-cell sums of a draws x ... array over the draws chosen by WINDOW (earlier draws only)."""
+    pos = np.arange(d)
+    if WINDOW == "all" or WINDOW.startswith("last") and WINDOW != "last_round":
+        lo = starts if WINDOW == "all" else np.maximum(pos - int(WINDOW[4:]), starts)
+    elif WINDOW == "last_round":
+        di = order                                                    # draw index of each sorted position
+        new = (pos == starts) | np.r_[True, di[1:] != di[:-1] + 1]
+        rs = np.maximum.accumulate(np.where(new, pos, 0))             # start of each position's run
+        lo = np.where(pos > starts, rs[np.maximum(pos - 1, 0)], pos)
+    elif WINDOW.startswith("decay"):
+        lam = 0.5 ** (1 / float(WINDOW[5:]))
+        rel = (pos - starts).astype(np.float64)
+        a, back = lam ** (-rel), lam ** (rel - 1)
+
+        def ex(X):
+            xs = X[order].astype(np.float64)
+            sh = xs.shape
+            xs = xs.reshape(d, -1) * a[:, None]
+            P0 = np.vstack([np.zeros((1, xs.shape[1])), np.cumsum(xs, 0)])
+            c = ((P0[pos] - P0[starts]) * back[:, None]).reshape(sh).astype(np.float32)
+            o = np.empty_like(X)
+            o[order] = c
+            return o
+        return ex
+    else:
+        raise ValueError(WINDOW)
+
+    def ex(X):
+        xs = X[order]
+        sh = xs.shape
+        xs = xs.reshape(d, -1)
+        P0 = np.vstack([np.zeros((1, xs.shape[1]), xs.dtype), np.cumsum(xs, 0)])
+        c = (P0[pos] - P0[lo]).reshape(sh)
+        o = np.empty_like(X)
+        o[order] = c
+        return o
+    return ex
 
 
 def rank_desc(x):
@@ -248,7 +286,7 @@ def main():
         FMT = G["fmt"]
         kk = G["k"]
         hl, tl = f"{kk - 1}+", f"{kk}"
-        np.savez_compressed(os.path.join(A, "profit_arrays", f"leads7_{key}.npz"), PRE=PRE, ST=ST, HO=HO, HC=HC, AG=AG,
+        np.savez_compressed(os.path.join(A, "profit_arrays", f"leads7{TAG}_{key}.npz"), PRE=PRE, ST=ST, HO=HO, HC=HC, AG=AG,
                             dates=np.array(g["dates"][R:]))
         game = {"label": g["label"], "cost": cost, "formats": {}}
         ev = {}
@@ -417,11 +455,13 @@ def main():
             md_n.append(f"| {pn}{' (new)' if pn in NEW else ''} | {real:,.0f} | {null.mean():,.0f} ({null.min():,.0f}-{null.max():,.0f}) | {rk}/{nc} | {z:+.2f} |")
         md_n.append("")
         res[key] = game
-        with open(os.path.join(A, "leads7_results.json"), "w") as fh:
+        with open(os.path.join(A, f"leads7{TAG}_results.json"), "w") as fh:
             json.dump(res, fh, indent=1, default=float)
         print(g["label"], "done", f"{time.time() - t0:.0f}s", flush=True)
-    for name, md in (("LEADS7_PROFIT.md", md_p), ("LEADS7_COMBINED.md", md_c), ("LEADS7_HIGH_HITS_NULL.md", md_n),
-                     ("LEADS7_LEAD_HIGH_HITS.md", md_l)):
+    for name, md in ((f"LEADS7{TAG.upper()}_PROFIT.md", md_p), (f"LEADS7{TAG.upper()}_COMBINED.md", md_c),
+                     (f"LEADS7{TAG.upper()}_HIGH_HITS_NULL.md", md_n), (f"LEADS7{TAG.upper()}_LEAD_HIGH_HITS.md", md_l)):
+        md.insert(2, f"History window: **{WINDOW}** (which earlier draws of each lead's cell are counted).")
+        md.insert(3, "")
         with open(os.path.join(A, name), "w") as fh:
             fh.write("\n".join(md) + "\n")
     print("wrote all in", f"{time.time() - t0:.0f}s")

@@ -24,6 +24,7 @@ import lead_search10 as ls  # noqa: E402
 import profit_rank as pr  # noqa: E402
 import toto_full as tf  # noqa: E402
 import toto_profit as tp  # noqa: E402
+import lead_full as lfw  # noqa: E402  (history windows)
 
 A = os.path.join(common.ROOT, "analysis")
 LOG = os.path.join(A, "watch_log.csv")
@@ -96,7 +97,9 @@ def bonus(key, d, n):
 
 
 def ranking(cols, pat):
-    """Every draw's numbers ranked by the lead (scores use earlier draws only)."""
+    """Every draw's numbers ranked by the lead (scores use earlier draws only). A pattern written "cold@last5" counts
+    only that history window of the cell (lead_full.py --window)."""
+    pat, _, win = pat.partition("@")
     W = ls.W
     k, n, H = W["k"], W["n"], W["H"]
     d = len(H)
@@ -108,13 +111,8 @@ def ranking(cols, pat):
     first = np.r_[0, np.flatnonzero(np.diff(cs)) + 1]
     starts = np.repeat(first, np.diff(np.r_[first, d]))
 
-    def ex(X):
-        xs = X[order]
-        c = np.cumsum(xs, 0) - xs
-        c = c - c[starts]
-        o = np.empty_like(X)
-        o[order] = c
-        return o
+    lfw.WINDOW = win or "all"
+    ex = lfw.window_ex(order, starts, d)
     dp = ex(np.ones((d, 1), np.float32))
     cnt = ex(H)
     e = dp * k / n
