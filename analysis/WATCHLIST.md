@@ -123,3 +123,19 @@ pattern over only the 10 most recent draws of the cell). Scored from 2026-10-21 
 | Star Toto | nayin_element × plum_trigrams | pos@last10 | 5 numbers on 2020-01-04, 2025-04-06 and 2026-10-18 (three repeats) | System 7 × 2 overlap |
 | Star Toto | karana × aspect_venus_mars | hot@last5 | 5 + bonus (Jackpot 2, RM112,216) on 2026-10-18; poor earlier record (rank 33,653) | System 8 × 1 |
 | Power Toto | month_branch × aspects_soft | cold@decay10 | 5 numbers on 2026-10-18 in all four formats; poor earlier record | System 8 × 1 |
+
+# D9 (navamsa) family leads
+
+From `lead_full.py --family d9` (all D9 singles and pairs, 7 patterns, every history window; `D9_REPORT.md`). Scored
+from 2026-10-21 on.
+
+| Game | Lead | Pattern | Why | Format |
+|---|---|---|---|---|
+| Magnum Life | moon_sign_tropical × sun_navamsa | cold/hot100 | 7 + bonus (RM110,200) on 2025-04-27 and 7 on 2026-10-18 | System 9 × 2 disjoint |
+| Magnum Life | aspect_venus_jupiter × sun_navamsa | cold/hot100 | 7 numbers on 2024-09-15 and on 2026-10-18 | System 10 × 1 |
+| Magnum Life | day_element × lagna_navamsa_lord | pos | Top of the D9 combined ranking: won on 3 of the last 10, +RM1,505 | 10 tickets |
+| Magnum Life | lagna_navamsa_lord × vargottama_count | hot/cold100 | Top of the D9 leads by earlier profit in three formats | System 9 × 2 disjoint |
+| Star Toto | aspect_mars_saturn × mars_navamsa | cold+100 | Top of the D9 combined ranking: won on 4 of the last 10, +RM4,112 | System 7 × 2 disjoint |
+| Power Toto | year_stem × lagna_navamsa_lord | cold | Most 5+ hits against its own shifted calendars (12, z +11.8) | 10 sets |
+| Power Toto | lagna_nakshatra × rahu_navamsa | hot+100 | Won on 3 of the last 10, +RM13,346 | 10 sets |
+| Supreme Toto | plum_trigrams × saturn_navamsa | hot/cold100 | Most 5+ hits against its own shifted calendars (10, z +9.7) | 10 sets |

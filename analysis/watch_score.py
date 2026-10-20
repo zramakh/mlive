@@ -91,6 +91,15 @@ WATCH["ml8"] += [("day_element × aspect_moon_jupiter", "hot@last_round", ["Syst
 WATCH["toto50"] += [("nayin_element × plum_trigrams", "pos@last10", ["System 7 × 2 overlap"]),
                     ("karana × aspect_venus_mars", "hot@last5", ["System 8 × 1"])]
 WATCH["toto55"] += [("month_branch × aspects_soft", "cold@decay10", ["System 8 × 1"])]
+# D9 (navamsa) family leads from lead_full.py --family d9 (chosen on the draws up to 2026-10-17, repeats to 2026-10-18)
+WATCH["ml8"] += [("moon_sign_tropical × sun_navamsa", "cold/hot100", ["System 9 × 2 disjoint"]),
+                 ("aspect_venus_jupiter × sun_navamsa", "cold/hot100", ["System 10 × 1"]),
+                 ("day_element × lagna_navamsa_lord", "pos", ["10 tickets"]),
+                 ("lagna_navamsa_lord × vargottama_count", "hot/cold100", ["System 9 × 2 disjoint"])]
+WATCH["toto50"] += [("aspect_mars_saturn × mars_navamsa", "cold+100", ["System 7 × 2 disjoint"])]
+WATCH["toto55"] += [("year_stem × lagna_navamsa_lord", "cold", ["10 sets"]),
+                    ("lagna_nakshatra × rahu_navamsa", "hot+100", ["10 sets"])]
+WATCH["toto58"] += [("plum_trigrams × saturn_navamsa", "hot/cold100", ["10 sets"])]
 SYS = {"System 10 × 1": [list(range(10))], "System 9 × 2 overlap": [list(range(9)), list(range(6)) + [9, 10, 11]],
        "System 9 × 2 disjoint": [list(range(9)), list(range(9, 18))], **tf.SYS_PATS}
 
