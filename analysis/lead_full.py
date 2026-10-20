@@ -47,6 +47,10 @@ import profit_rank as pr  # noqa: E402
 if FAMILY == "d9":
     import d9  # noqa: E402
     d9.enable()
+elif FAMILY:                                   # another divisional chart: d2, d3, ... d60 (vargas.py)
+    import d9  # noqa: E402
+    import vargas  # noqa: E402
+    vargas.enable()
 
 if UNTIL:                                   # a copy of the data cut at UNTIL, used by every loader
     _cut = os.path.join(common.ROOT, "analysis", "profit_arrays", f"data_until_{UNTIL}")
@@ -232,6 +236,10 @@ def lead_sets(names):
     if FAMILY == "d9":
         fam = {names.index(p) for p in d9.FAMILY}
         sets = [s for s in sets if fam & set(s)]
+    elif FAMILY:                               # the chart's parameters, alone, paired with each other and with the
+        fam = {names.index(p) for p in vargas.family(int(FAMILY[1:]))}     # 114 base + D9 parameters
+        partners = set(range(len(common.ALL_PARAMS) + len(xa.extra_params()) - len(vargas.NEW))) | fam
+        sets = [s for s in sets if fam & set(s) and set(s) <= partners]
     return sets
 
 
