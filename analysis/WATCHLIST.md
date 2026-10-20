@@ -139,3 +139,20 @@ from 2026-10-21 on.
 | Power Toto | year_stem × lagna_navamsa_lord | cold | Most 5+ hits against its own shifted calendars (12, z +11.8) | 10 sets |
 | Power Toto | lagna_nakshatra × rahu_navamsa | hot+100 | Won on 3 of the last 10, +RM13,346 | 10 sets |
 | Supreme Toto | plum_trigrams × saturn_navamsa | hot/cold100 | Most 5+ hits against its own shifted calendars (10, z +9.7) | 10 sets |
+
+# Other divisional-chart leads
+
+From `lead_full.py --family dN` for D2-D60 (`vargas.py`, `VARGAS_REPORT.md`): for the charts and parameters that
+stood out, the #1 lead by profit before 2026-09-26 that contains that parameter. Scored from 2026-10-21 on.
+
+| Game | Lead | Pattern | Why | Format |
+|---|---|---|---|---|
+| Magnum Life | moon_phase × lagna_d24 | hot/cold100 | D24 family ranks 1st in Magnum, Star and Power; lagna_d24 its strongest Magnum parameter (+2.4); #1 D24 lead earlier | 10 tickets |
+| Magnum Life | aspect_mars_jupiter × rahu_d27 | hot/cold100 | rahu_d27 z +6.1 (Magnum Life); #1 D27 lead earlier | 10 tickets |
+| Magnum Life | day_vs_year_branch × jupiter_d7 | hot/cold100 | jupiter_d7 z +5.5 (Magnum Life); #1 D7 lead earlier | System 9 × 2 overlap |
+| Star Toto | samvatsara × vargottama_d24_count | cold | vargottama_d24_count z +3.4 (Star); #1 D24 lead earlier | 10 sets |
+| Star Toto | rahu_rashi × vargottama_d10_count | pos | #1 D10 lead earlier in System 8, whose top 10 made +RM43 on the last 10 (shifted −RM222); saturn_d10 z +7.3 | System 8 × 1 |
+| Power Toto | saturn_d24 | hot+100 | saturn_d24 z +3.0 (Power); #1 D24 lead earlier | 10 sets |
+| Power Toto | pof_sign × moon_d27_lord | hot+100 | moon_d27_lord z +3.7 (Power); +RM78 on the last 10 | 10 sets |
+| Supreme Toto | venus_retrograde × venus_d30 | cold/hot100 | venus_d30 z +4.8 (Supreme); #1 D30 lead earlier | System 7 × 2 disjoint |
+| Supreme Toto | kp_sun_number × lagna_d7 | pos | D7 family ranks 1st in Supreme; lagna_d7 z +3.4 | System 8 × 1 |

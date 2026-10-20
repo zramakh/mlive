@@ -53,7 +53,7 @@ def main():
             continue
         res = json.load(open(p0))
         lf.FAMILY = fam
-        sets = lf.lead_sets(names)
+        sets = lf.lead_sets(names[:len(names) - len(vargas.NEW)] if fam == "d9" else names)
         fl = family(fam)
         member = np.zeros((len(sets) * lf.NP, len(fl)), bool)
         for si, s in enumerate(sets):
