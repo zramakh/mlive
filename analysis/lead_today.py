@@ -19,7 +19,8 @@ import numpy as np
 
 DATE = sys.argv[1]
 WIN = sys.argv[sys.argv.index("--window") + 1] if "--window" in sys.argv else "all"
-sys.argv = [sys.argv[0], "--shifts", "1", "--window", WIN]
+FAM = ["--family", sys.argv[sys.argv.index("--family") + 1]] if "--family" in sys.argv else []
+sys.argv = [sys.argv[0], "--shifts", "1", "--window", WIN] + FAM
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import lead_full as lf  # noqa: E402  (full data: the new draw is the last row)
 
@@ -33,7 +34,7 @@ def tier(c, k):
 
 def main():
     names = common.ALL_PARAMS + xa.extra_params()
-    sets = [()] + [(i,) for i in range(len(names))] + list(itertools.combinations(range(len(names)), 2))
+    sets = lf.lead_sets(names)
     idx = {s: i for i, s in enumerate(sets)}
     NL = len(sets) * lf.NP
     lab = lambda i: (" × ".join(names[j] for j in sets[i // lf.NP]) if sets[i // lf.NP] else "all draws (no astrology)",  # noqa: E731

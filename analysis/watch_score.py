@@ -25,6 +25,9 @@ import profit_rank as pr  # noqa: E402
 import toto_full as tf  # noqa: E402
 import toto_profit as tp  # noqa: E402
 import lead_full as lfw  # noqa: E402  (history windows)
+import d9  # noqa: E402
+
+d9.enable()                                    # D9 (navamsa) parameters available to the watchlist
 
 A = os.path.join(common.ROOT, "analysis")
 LOG = os.path.join(A, "watch_log.csv")

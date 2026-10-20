@@ -15,8 +15,10 @@ import numpy as np
 
 DATE = sys.argv[1]
 WIN = sys.argv[sys.argv.index("--window") + 1] if "--window" in sys.argv else "all"
-if "--window" in sys.argv:
-    del sys.argv[sys.argv.index("--window"):sys.argv.index("--window") + 2]
+FAMILY = sys.argv[sys.argv.index("--family") + 1] if "--family" in sys.argv else None
+for opt in ("--window", "--family"):
+    if opt in sys.argv:
+        del sys.argv[sys.argv.index(opt):sys.argv.index(opt) + 2]
 KEYS = sys.argv[2].split(",") if len(sys.argv) > 2 else ["ml8", "toto50", "toto55", "toto58"]
 sys.argv = [sys.argv[0]]
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -25,7 +27,7 @@ import winners_history as wh  # noqa: E402
 
 wh.DATE = DATE
 wh.WIN = WIN
-ws.lfw.WINDOW, ws.lfw.TAG = WIN, ("" if WIN == "all" else f"_{WIN}")
+ws.lfw.WINDOW, ws.lfw.TAG = WIN, ("" if WIN == "all" else f"_{WIN}") + (f"_{FAMILY}" if FAMILY else "")
 
 ls, tp, tf, pr, common, xa = ws.ls, ws.tp, ws.tf, ws.pr, ws.common, ws.xa
 A = os.path.join(common.ROOT, "analysis")

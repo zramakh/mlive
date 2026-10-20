@@ -17,7 +17,8 @@ import numpy as np
 
 DATE = sys.argv[1]
 WIN = sys.argv[sys.argv.index("--window") + 1] if "--window" in sys.argv else "all"
-sys.argv = [sys.argv[0], "--shifts", "1", "--window", WIN]
+FAM = ["--family", sys.argv[sys.argv.index("--family") + 1]] if "--family" in sys.argv else []
+sys.argv = [sys.argv[0], "--shifts", "1", "--window", WIN] + FAM
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import lead_full as lf  # noqa: E402
 
@@ -45,7 +46,7 @@ def winners():
 
 def main():
     names = common.ALL_PARAMS + xa.extra_params()
-    sets = [()] + [(i,) for i in range(len(names))] + list(itertools.combinations(range(len(names)), 2))
+    sets = lf.lead_sets(names)
     pos = {}
     for si, s in enumerate(sets):
         nm = " × ".join(names[j] for j in s) if s else "all draws (no astrology)"
