@@ -1,0 +1,152 @@
+{
+ "ml8": {
+  "label": "Magnum Life 8/36",
+  "numbers": [
+   9,
+   10,
+   19,
+   20,
+   21,
+   22,
+   33,
+   35
+  ],
+  "formats": {
+   "10 tickets": {
+    "won": 952,
+    "best": 7600.0,
+    "hi": 1,
+    "new_won": 546
+   },
+   "System 10 \u00d7 1": {
+    "won": 1020,
+    "best": 121730.0,
+    "hi": 5,
+    "new_won": 597
+   },
+   "System 9 \u00d7 2 overlap": {
+    "won": 885,
+    "best": 12700.0,
+    "hi": 1,
+    "new_won": 516
+   },
+   "System 9 \u00d7 2 disjoint": {
+    "won": 1072,
+    "best": 12700.0,
+    "hi": 1,
+    "new_won": 562
+   }
+  }
+ },
+ "toto50": {
+  "label": "STAR TOTO 6/50",
+  "numbers": [
+   9,
+   10,
+   15,
+   17,
+   32,
+   45
+  ],
+  "formats": {
+   "10 sets": {
+    "won": 303,
+    "best": 180.0,
+    "hi": 0,
+    "new_won": 112
+   },
+   "System 7 \u00d7 2 overlap": {
+    "won": 275,
+    "best": 148.0,
+    "hi": 0,
+    "new_won": 95
+   },
+   "System 7 \u00d7 2 disjoint": {
+    "won": 434,
+    "best": 4156.0,
+    "hi": 2,
+    "new_won": 122
+   },
+   "System 8 \u00d7 1": {
+    "won": 213,
+    "best": 2696.0,
+    "hi": 0,
+    "new_won": 67
+   }
+  }
+ },
+ "toto55": {
+  "label": "POWER TOTO 6/55",
+  "numbers": [
+   10,
+   18,
+   25,
+   31,
+   46,
+   47
+  ],
+  "formats": {
+   "10 sets": {
+    "won": 286,
+    "best": 3512.0,
+    "hi": 1,
+    "new_won": 172
+   },
+   "System 7 \u00d7 2 overlap": {
+    "won": 219,
+    "best": 264.0,
+    "hi": 0,
+    "new_won": 132
+   },
+   "System 7 \u00d7 2 disjoint": {
+    "won": 335,
+    "best": 132.0,
+    "hi": 0,
+    "new_won": 153
+   },
+   "System 8 \u00d7 1": {
+    "won": 195,
+    "best": 288.0,
+    "hi": 0,
+    "new_won": 136
+   }
+  }
+ },
+ "toto58": {
+  "label": "SUPREME TOTO 6/58",
+  "numbers": [
+   10,
+   13,
+   17,
+   44,
+   46,
+   54
+  ],
+  "formats": {
+   "10 sets": {
+    "won": 225,
+    "best": 128.0,
+    "hi": 0,
+    "new_won": 75
+   },
+   "System 7 \u00d7 2 overlap": {
+    "won": 208,
+    "best": 272.0,
+    "hi": 0,
+    "new_won": 77
+   },
+   "System 7 \u00d7 2 disjoint": {
+    "won": 434,
+    "best": 272.0,
+    "hi": 0,
+    "new_won": 219
+   },
+   "System 8 \u00d7 1": {
+    "won": 175,
+    "best": 608.0,
+    "hi": 0,
+    "new_won": 76
+   }
+  }
+ }
+}
