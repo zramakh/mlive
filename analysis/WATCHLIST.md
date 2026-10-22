@@ -156,3 +156,19 @@ stood out, the #1 lead by profit before 2026-09-26 that contains that parameter.
 | Power Toto | pof_sign × moon_d27_lord | hot+100 | moon_d27_lord z +3.7 (Power); +RM78 on the last 10 | 10 sets |
 | Supreme Toto | venus_retrograde × venus_d30 | cold/hot100 | venus_d30 z +4.8 (Supreme); #1 D30 lead earlier | System 7 × 2 disjoint |
 | Supreme Toto | kp_sun_number × lagna_d7 | pos | D7 family ranks 1st in Supreme; lagna_d7 z +3.4 | System 8 × 1 |
+
+# Chinese divination leads (Da Liu Ren, Mei Hua Yi Shu, Tai Yi Shen Shu)
+
+From `lead_full.py --family dlr / mh / ty` (`chinese_div.py`, `CHINESE_DIV_REPORT.md`), chosen on the draws up to
+2026-10-17. Scored from 2026-10-18 on.
+
+| Game | Lead | Pattern | Why | Format |
+|---|---|---|---|---|
+| Magnum Life | saturn_combust × dlr_zhi_upper | cold+100 | #1 Da Liu Ren lead by earlier profit (Magnum Life); dlr_zhi_upper its strongest positive parameter | 10 tickets |
+| Magnum Life | mh_changed_vs_ti × ty_wenchang | cold+100 | #1 Tai Yi lead by earlier profit in System 9 overlap (return 414%) | System 9 × 2 overlap |
+| Star Toto | aspect_mercury_venus × mh_ti_season | hot | mh_ti_season z +3.6 (Star); #2 Mei Hua lead by earlier profit | 10 sets |
+| Star Toto | lunar_month × ty_host_calc | hot | ty_host_calc z +2.7 (Star); #1 Tai Yi lead earlier | System 8 × 1 |
+| Power Toto | lagna_navamsa_lord × mh_changed | cold | mh_changed z +4.0 (Power); #2 Mei Hua lead earlier | 10 sets |
+| Power Toto | dlr_noble_earth × ty_door | hot+100 | Most 5+ hits against its own shifted calendars (10 vs 0.2, z +9.8) | 10 sets |
+| Supreme Toto | year_yinyang × mh_ti | cold | mh_ti z +3.4 (Supreme); #1 Mei Hua lead earlier | System 7 × 2 disjoint |
+| Supreme Toto | saturn_navamsa × mh_mutual | hot/cold100 | Most 5+ hits against its own shifted calendars (10 vs 0.35, z +9.7) | 10 sets |

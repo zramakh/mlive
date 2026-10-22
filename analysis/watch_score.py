@@ -111,6 +111,17 @@ WATCH["toto55"] += [("saturn_d24", "hot+100", ["10 sets"]),
                     ("pof_sign × moon_d27_lord", "hot+100", ["10 sets"])]
 WATCH["toto58"] += [("venus_retrograde × venus_d30", "cold/hot100", ["System 7 × 2 disjoint"]),
                     ("kp_sun_number × lagna_d7", "pos", ["System 8 × 1"])]
+# Chinese divination charts (chinese_div.py; lead_full.py --family dlr / mh / ty, chosen on the draws up to
+# 2026-10-17): the #1 earlier-profit lead with the system's strongest parameter, or the most 5+ hits against own
+# shifted calendars (CHINESE_DIV_REPORT.md)
+WATCH["ml8"] += [("saturn_combust × dlr_zhi_upper", "cold+100", ["10 tickets"]),
+                 ("mh_changed_vs_ti × ty_wenchang", "cold+100", ["System 9 × 2 overlap"])]
+WATCH["toto50"] += [("aspect_mercury_venus × mh_ti_season", "hot", ["10 sets"]),
+                    ("lunar_month × ty_host_calc", "hot", ["System 8 × 1"])]
+WATCH["toto55"] += [("lagna_navamsa_lord × mh_changed", "cold", ["10 sets"]),
+                    ("dlr_noble_earth × ty_door", "hot+100", ["10 sets"])]
+WATCH["toto58"] += [("year_yinyang × mh_ti", "cold", ["System 7 × 2 disjoint"]),
+                    ("saturn_navamsa × mh_mutual", "hot/cold100", ["10 sets"])]
 SYS = {"System 10 × 1": [list(range(10))], "System 9 × 2 overlap": [list(range(9)), list(range(6)) + [9, 10, 11]],
        "System 9 × 2 disjoint": [list(range(9)), list(range(9, 18))], **tf.SYS_PATS}
 
