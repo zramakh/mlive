@@ -1,0 +1,1742 @@
+{
+ "ml8": {
+  "label": "Magnum Life",
+  "calendars": [
+   {
+    "cells": 1518265,
+    "z2": 38104,
+    "z3": 2555,
+    "pers": 926807,
+    "corr": -0.00393646332083112,
+    "good1": 23700,
+    "good1_mean2": -0.001001438475213945,
+    "good1_above": 0.4832911392405063,
+    "both2": 602,
+    "both2_exp": 602.2639017616397,
+    "both_top": [
+     {
+      "lead": "day_stem \u00d7 day_officer",
+      "pattern": "cold",
+      "cell": "day_stem=Xin \u00d7 day_officer=Open",
+      "n": 10,
+      "z": 5.779524531586302,
+      "z1": 3.4489258894266226,
+      "z2": 4.724556087210736,
+      "next": false
+     },
+     {
+      "lead": "kp_asc_sub_lord \u00d7 aspect_sun_venus",
+      "pattern": "cold",
+      "cell": "kp_asc_sub_lord=Ketu \u00d7 aspect_sun_venus=none",
+      "n": 64,
+      "z": 4.542704131759557,
+      "z1": 3.3963949047059856,
+      "z2": 3.0344009829994634,
+      "next": false
+     },
+     {
+      "lead": "nakshatra_lord \u00d7 pof_sign",
+      "pattern": "cold+100",
+      "cell": "nakshatra_lord=Rahu \u00d7 pof_sign=Leo",
+      "n": 12,
+      "z": 4.30005978368174,
+      "z1": 3.0745935214222255,
+      "z2": 3.0237158572912417,
+      "next": false
+     },
+     {
+      "lead": "aspect_sun_mercury \u00d7 aspect_mars_jupiter",
+      "pattern": "pos",
+      "cell": "aspect_sun_mercury=none \u00d7 aspect_mars_jupiter=conjunction",
+      "n": 25,
+      "z": 4.669477353087781,
+      "z1": 3.5857970939959216,
+      "z2": 2.9941772762762224,
+      "next": false
+     },
+     {
+      "lead": "sun_sign_tropical \u00d7 plum_trigrams",
+      "pattern": "hot",
+      "cell": "sun_sign_tropical=Capricorn \u00d7 plum_trigrams=2-5",
+      "n": 15,
+      "z": 4.25524895715285,
+      "z1": 2.9507207138931815,
+      "z2": 3.0745935214222255,
+      "next": false
+     },
+     {
+      "lead": "sun_sign_tropical \u00d7 plum_trigrams",
+      "pattern": "hot/cold100",
+      "cell": "sun_sign_tropical=Capricorn \u00d7 plum_trigrams=2-5",
+      "n": 15,
+      "z": 4.500744112933641,
+      "z1": 2.9507207138931815,
+      "z2": 3.4339616320747037,
+      "next": false
+     },
+     {
+      "lead": "jupiter_combust \u00d7 kp_asc_sub_lord",
+      "pattern": "cold",
+      "cell": "jupiter_combust=False \u00d7 kp_asc_sub_lord=Ketu",
+      "n": 63,
+      "z": 4.312416856589606,
+      "z1": 3.240370383693416,
+      "z2": 2.868888222197984,
+      "next": false
+     },
+     {
+      "lead": "nakshatra_pada \u00d7 pof_rashi",
+      "pattern": "cold+100",
+      "cell": "nakshatra_pada=Shatabhisha 1 \u00d7 pof_rashi=Simha",
+      "n": 12,
+      "z": 4.30005978368174,
+      "z1": 3.2346823248414522,
+      "z2": 2.8465205402563813,
+      "next": false
+     },
+     {
+      "lead": "nakshatra_pada \u00d7 pof_nakshatra",
+      "pattern": "cold+100",
+      "cell": "nakshatra_pada=Shatabhisha 1 \u00d7 pof_nakshatra=Magha",
+      "n": 12,
+      "z": 4.30005978368174,
+      "z1": 3.2346823248414522,
+      "z2": 2.8465205402563813,
+      "next": false
+     },
+     {
+      "lead": "nakshatra_pada \u00d7 draw_in_daylight",
+      "pattern": "cold+100",
+      "cell": "nakshatra_pada=Shatabhisha 1 \u00d7 draw_in_daylight=True",
+      "n": 12,
+      "z": 4.30005978368174,
+      "z1": 3.2346823248414522,
+      "z2": 2.8465205402563813,
+      "next": false
+     },
+     {
+      "lead": "mercury_rashi \u00d7 nine_star_day",
+      "pattern": "cold/hot100",
+      "cell": "mercury_rashi=Vrischika \u00d7 nine_star_day=9",
+      "n": 13,
+      "z": 4.189964769721131,
+      "z1": 2.8465205402563813,
+      "z2": 3.0745935642622375,
+      "next": false
+     },
+     {
+      "lead": "moon_navamsa \u00d7 pof_rashi",
+      "pattern": "cold+100",
+      "cell": "moon_navamsa=Dhanu \u00d7 pof_rashi=Simha",
+      "n": 13,
+      "z": 4.1899647068491825,
+      "z1": 3.0745934785822135,
+      "z2": 2.8465205402563813,
+      "next": false
+     },
+     {
+      "lead": "moon_navamsa \u00d7 pof_nakshatra",
+      "pattern": "cold+100",
+      "cell": "moon_navamsa=Dhanu \u00d7 pof_nakshatra=Magha",
+      "n": 13,
+      "z": 4.1899647068491825,
+      "z1": 3.0745934785822135,
+      "z2": 2.8465205402563813,
+      "next": false
+     },
+     {
+      "lead": "nakshatra_lord \u00d7 lunar_month",
+      "pattern": "cold",
+      "cell": "nakshatra_lord=Jupiter \u00d7 lunar_month=6",
+      "n": 12,
+      "z": 4.0255878881649645,
+      "z1": 2.8465204939838795,
+      "z2": 2.8465204939838795,
+      "next": false
+     },
+     {
+      "lead": "kp_moon_star_lord \u00d7 lunar_month",
+      "pattern": "cold",
+      "cell": "kp_moon_star_lord=Jupiter \u00d7 lunar_month=6",
+      "n": 12,
+      "z": 4.0255878881649645,
+      "z1": 2.8465204939838795,
+      "z2": 2.8465204939838795,
+      "next": false
+     },
+     {
+      "lead": "month_pillar \u00d7 aspect_sun_saturn",
+      "pattern": "hot",
+      "cell": "month_pillar=Ji Mao \u00d7 aspect_sun_saturn=none",
+      "n": 11,
+      "z": 4.4275600363690515,
+      "z1": 3.4489258894266226,
+      "z2": 2.846520447711378,
+      "next": false
+     },
+     {
+      "lead": "aspect_sun_mercury \u00d7 aspect_mars_jupiter",
+      "pattern": "hot/cold100",
+      "cell": "aspect_sun_mercury=none \u00d7 aspect_mars_jupiter=conjunction",
+      "n": 25,
+      "z": 4.289157961128752,
+      "z1": 2.823462300919616,
+      "z2": 3.280853855634394,
+      "next": false
+     },
+     {
+      "lead": "nakshatra_lord \u00d7 nine_star_day",
+      "pattern": "pos",
+      "cell": "nakshatra_lord=Jupiter \u00d7 nine_star_day=9",
+      "n": 18,
+      "z": 4.258002000900101,
+      "z1": 3.3316854357188936,
+      "z2": 2.7995735569446696,
+      "next": false
+     },
+     {
+      "lead": "nakshatra_pada \u00d7 mercury_retrograde",
+      "pattern": "cold",
+      "cell": "nakshatra_pada=Shatabhisha 1 \u00d7 mercury_retrograde=False",
+      "n": 10,
+      "z": 4.27618000998639,
+      "z1": 3.2346824173864555,
+      "z2": 2.7995735569446696,
+      "next": false
+     },
+     {
+      "lead": "mercury_rashi \u00d7 pof_rashi",
+      "pattern": "pos",
+      "cell": "mercury_rashi=Kanya \u00d7 pof_rashi=Meena",
+      "n": 11,
+      "z": 4.140883525359894,
+      "z1": 3.0745935214222255,
+      "z2": 2.7995735569446696,
+      "next": false
+     },
+     {
+      "lead": "kp_moon_star_lord \u00d7 nine_star_day",
+      "pattern": "pos",
+      "cell": "kp_moon_star_lord=Jupiter \u00d7 nine_star_day=9",
+      "n": 18,
+      "z": 4.258002000900101,
+      "z1": 3.3316854357188936,
+      "z2": 2.7995735569446696,
+      "next": false
+     },
+     {
+      "lead": "lunar_day \u00d7 hour_stem_19h",
+      "pattern": "pos",
+      "cell": "lunar_day=6 \u00d7 hour_stem_19h=Bing",
+      "n": 8,
+      "z": 3.959194893092238,
+      "z1": 2.7995735569446696,
+      "z2": 2.7995735569446696,
+      "next": false
+     },
+     {
+      "lead": "mars_nakshatra \u00d7 hour_stem_19h",
+      "pattern": "cold/hot100",
+      "cell": "mars_nakshatra=Swati \u00d7 hour_stem_19h=Bing",
+      "n": 8,
+      "z": 3.959194853019076,
+      "z1": 2.7995735569446696,
+      "z2": 2.7995735002726607,
+      "next": false
+     },
+     {
+      "lead": "solar_term \u00d7 universal_day",
+      "pattern": "cold/hot100",
+      "cell": "solar_term=Dahan \u00d7 universal_day=3",
+      "n": 10,
+      "z": 3.9755110053073355,
+      "z1": 2.7995735002726607,
+      "z2": 2.846520447711378,
+      "next": false
+     },
+     {
+      "lead": "day_pillar \u00d7 aspect_mercury_jupiter",
+      "pattern": "hot+100",
+      "cell": "day_pillar=Ding Mao \u00d7 aspect_mercury_jupiter=none",
+      "n": 10,
+      "z": 3.9755110769923867,
+      "z1": 2.8465205402563813,
+      "z2": 2.7995735002726607,
+      "next": false
+     }
+    ],
+    "next_top": [
+     {
+      "lead": "yellow_black_path \u00d7 universal_day",
+      "pattern": "cold",
+      "cell": "yellow_black_path=Black \u00d7 universal_day=8",
+      "n": 62,
+      "z": 3.7164639233466925,
+      "z1": 2.5460052674766187,
+      "z2": 2.7079398469649636
+     },
+     {
+      "lead": "lunar_day \u00d7 aspect_sun_mars",
+      "pattern": "cold",
+      "cell": "lunar_day=15 \u00d7 aspect_sun_mars=none",
+      "n": 29,
+      "z": 3.6096477557201796,
+      "z1": 2.2912878279677202,
+      "z2": 2.823462270627153
+     },
+     {
+      "lead": "saturn_retrograde \u00d7 aspect_sun_moon",
+      "pattern": "cold",
+      "cell": "saturn_retrograde=True \u00d7 aspect_sun_moon=none",
+      "n": 311,
+      "z": 3.456540151825855,
+      "z1": 2.6232107238379183,
+      "z2": 2.2794849784186444
+     },
+     {
+      "lead": "moon_rashi \u00d7 ayana",
+      "pattern": "hot",
+      "cell": "moon_rashi=Meena \u00d7 ayana=Dakshinayana",
+      "n": 53,
+      "z": 3.23603286508625,
+      "z1": 2.3723498411402404,
+      "z2": 2.220541298641593
+     },
+     {
+      "lead": "sun_nakshatra \u00d7 mars_combust",
+      "pattern": "hot+100",
+      "cell": "sun_nakshatra=Swati \u00d7 mars_combust=False",
+      "n": 34,
+      "z": 3.1887406615314196,
+      "z1": 2.213133307711696,
+      "z2": 2.3440361407209327
+     },
+     {
+      "lead": "lagna_rashi \u00d7 nayin_element",
+      "pattern": "hot/cold100",
+      "cell": "lagna_rashi=Mesha \u00d7 nayin_element=Earth",
+      "n": 21,
+      "z": 3.0430584341388904,
+      "z1": 2.1714976582409964,
+      "z2": 2.1341476748997366
+     },
+     {
+      "lead": "hour_stem_19h \u00d7 universal_day",
+      "pattern": "cold+100",
+      "cell": "hour_stem_19h=Wu \u00d7 universal_day=8",
+      "n": 21,
+      "z": 3.250539635361189,
+      "z1": 2.1341476407252293,
+      "z2": 2.4721665195499485
+     },
+     {
+      "lead": "mercury_combust \u00d7 kp_sun_star_lord",
+      "pattern": "cold",
+      "cell": "mercury_combust=False \u00d7 kp_sun_star_lord=Rahu",
+      "n": 80,
+      "z": 3.1654524375158126,
+      "z1": 2.4143419149714895,
+      "z2": 2.0473164545290006
+     },
+     {
+      "lead": "moon_phase \u00d7 aspects_hard",
+      "pattern": "cold+100",
+      "cell": "moon_phase=Full \u00d7 aspects_hard=1",
+      "n": 37,
+      "z": 3.004631638153783,
+      "z1": 2.2131333324453886,
+      "z2": 2.0336524317373827
+     },
+     {
+      "lead": "sun_sign_tropical \u00d7 aspect_moon_venus",
+      "pattern": "hot+100",
+      "cell": "sun_sign_tropical=Scorpio \u00d7 aspect_moon_venus=none",
+      "n": 82,
+      "z": 2.963280689416158,
+      "z1": 2.174594303808007,
+      "z2": 2.030247258445611
+     },
+     {
+      "lead": "ayana \u00d7 yellow_black_path",
+      "pattern": "cold/hot100",
+      "cell": "ayana=Dakshinayana \u00d7 yellow_black_path=Black",
+      "n": 312,
+      "z": 2.9246745448888825,
+      "z1": 2.0273011363394855,
+      "z2": 2.1117508452839147
+     },
+     {
+      "lead": "yoga \u00d7 aspect_mars_jupiter",
+      "pattern": "cold/hot100",
+      "cell": "yoga=13 \u00d7 aspect_mars_jupiter=none",
+      "n": 37,
+      "z": 3.004631638153783,
+      "z1": 2.0116262142778805,
+      "z2": 2.241053642501988
+     },
+     {
+      "lead": "solar_term \u00d7 aspect_mercury_saturn",
+      "pattern": "hot+100",
+      "cell": "solar_term=Shuangjiang \u00d7 aspect_mercury_saturn=none",
+      "n": 37,
+      "z": 2.84832134024397,
+      "z1": 2.005652057022013,
+      "z2": 2.033652488409392
+     }
+    ],
+    "next_both2": 13,
+    "next_cells": 33642
+   },
+   {
+    "cells": 1514478,
+    "z2": 39346,
+    "z3": 2675,
+    "pers": 930832,
+    "corr": 0.008441387965637894,
+    "good1": 23516,
+    "good1_mean2": 0.03125501796603203,
+    "good1_above": 0.5031467936723932,
+    "both2": 667,
+    "both2_exp": 600.7136067518092
+   },
+   {
+    "cells": 1521366,
+    "z2": 37806,
+    "z3": 2314,
+    "pers": 921333,
+    "corr": -0.00015654299861738536,
+    "good1": 22635,
+    "good1_mean2": -0.009965391829609871,
+    "good1_above": 0.48442677269715045,
+    "both2": 572,
+    "both2_exp": 549.382112656336
+   },
+   {
+    "cells": 1525083,
+    "z2": 37935,
+    "z3": 2522,
+    "pers": 932323,
+    "corr": 0.010235861165215068,
+    "good1": 21846,
+    "good1_mean2": 0.02021002769470215,
+    "good1_above": 0.4962922274100522,
+    "both2": 622,
+    "both2_exp": 548.1165132684704
+   }
+  ]
+ },
+ "toto50": {
+  "label": "Star Toto",
+  "calendars": [
+   {
+    "cells": 1621088,
+    "z2": 45442,
+    "z3": 3894,
+    "pers": 1021657,
+    "corr": 0.001552771979649962,
+    "good1": 30552,
+    "good1_mean2": -0.0013305973261594772,
+    "good1_above": 0.4878567687876407,
+    "both2": 1027,
+    "both2_exp": 978.4407956877895,
+    "both_top": [
+     {
+      "lead": "saturn_rashi \u00d7 kp_sun_sub_lord",
+      "pattern": "cold+100",
+      "cell": "saturn_rashi=Makara \u00d7 kp_sun_sub_lord=Moon",
+      "n": 40,
+      "z": 4.65357881683323,
+      "z1": 3.528713091308344,
+      "z2": 3.6154715097588994,
+      "next": false
+     },
+     {
+      "lead": "planets_with_moon \u00d7 nayin",
+      "pattern": "cold/hot100",
+      "cell": "planets_with_moon=0 \u00d7 nayin=26",
+      "n": 25,
+      "z": 4.507575567924615,
+      "z1": 3.1769191688942016,
+      "z2": 3.1994826103650107,
+      "next": false
+     },
+     {
+      "lead": "venus_rashi \u00d7 mansion_28",
+      "pattern": "pos",
+      "cell": "venus_rashi=Dhanu \u00d7 mansion_28=Di",
+      "n": 10,
+      "z": 4.527806529840629,
+      "z1": 3.074233245886354,
+      "z2": 3.393939318078937,
+      "next": false
+     },
+     {
+      "lead": "kp_asc_sub_lord \u00d7 day_officer",
+      "pattern": "pos",
+      "cell": "kp_asc_sub_lord=Venus \u00d7 day_officer=Balance",
+      "n": 18,
+      "z": 4.699760061507471,
+      "z1": 3.582195856986922,
+      "z2": 3.074233245886354,
+      "next": false
+     },
+     {
+      "lead": "weekday \u00d7 day_of_month",
+      "pattern": "hot",
+      "cell": "weekday=Wed \u00d7 day_of_month=3",
+      "n": 14,
+      "z": 4.223537362845636,
+      "z1": 2.9864919098628966,
+      "z2": 2.9864919098628966,
+      "next": false
+     },
+     {
+      "lead": "kp_asc_sub_lord \u00d7 day_god",
+      "pattern": "cold+100",
+      "cell": "kp_asc_sub_lord=Rahu \u00d7 day_god=Heavenly Prison",
+      "n": 11,
+      "z": 4.429018791898782,
+      "z1": 3.393939318078937,
+      "z2": 2.9864919098628966,
+      "next": false
+     },
+     {
+      "lead": "day_officer \u00d7 plum_trigrams",
+      "pattern": "hot",
+      "cell": "day_officer=Initiate \u00d7 plum_trigrams=7-2",
+      "n": 16,
+      "z": 4.467802878582117,
+      "z1": 2.9864919098628966,
+      "z2": 3.3232322094416378,
+      "next": false
+     },
+     {
+      "lead": "planets_with_moon \u00d7 day_pillar",
+      "pattern": "cold/hot100",
+      "cell": "planets_with_moon=0 \u00d7 day_pillar=Ding Si",
+      "n": 14,
+      "z": 4.223537362845636,
+      "z1": 2.924850669443287,
+      "z2": 3.074233245886354,
+      "next": false
+     },
+     {
+      "lead": "moon_rashi \u00d7 nine_star_month",
+      "pattern": "cold/hot100",
+      "cell": "moon_rashi=Simha \u00d7 nine_star_month=6",
+      "n": 18,
+      "z": 4.0747919468223905,
+      "z1": 2.8813130175224457,
+      "z2": 2.8813130175224457,
+      "next": false
+     },
+     {
+      "lead": "aspect_sun_moon \u00d7 aspect_mars_saturn",
+      "pattern": "cold",
+      "cell": "aspect_sun_moon=square \u00d7 aspect_mars_saturn=trine",
+      "n": 13,
+      "z": 4.280016150023918,
+      "z1": 3.393939318078937,
+      "z2": 2.8813130175224457,
+      "next": false
+     },
+     {
+      "lead": "nayin \u00d7 aspect_moon_venus",
+      "pattern": "cold/hot100",
+      "cell": "nayin=26 \u00d7 aspect_moon_venus=none",
+      "n": 30,
+      "z": 4.211654306397156,
+      "z1": 2.8346745463544996,
+      "z2": 3.2298259441463135,
+      "next": false
+     },
+     {
+      "lead": "lagna_nakshatra \u00d7 mars_combust",
+      "pattern": "cold",
+      "cell": "lagna_nakshatra=Revati \u00d7 mars_combust=True",
+      "n": 16,
+      "z": 4.467802878582117,
+      "z1": 2.8300949948954908,
+      "z2": 3.7945395133668924,
+      "next": false
+     },
+     {
+      "lead": "masa \u00d7 month",
+      "pattern": "cold",
+      "cell": "masa=Magha \u00d7 month=Jan",
+      "n": 16,
+      "z": 4.467802878582117,
+      "z1": 4.056818105957725,
+      "z2": 2.8167693637430995,
+      "next": false
+     },
+     {
+      "lead": "ritu \u00d7 month",
+      "pattern": "cold",
+      "cell": "ritu=Shishira \u00d7 month=Jan",
+      "n": 16,
+      "z": 4.467802878582117,
+      "z1": 4.056818105957725,
+      "z2": 2.8167693637430995,
+      "next": false
+     },
+     {
+      "lead": "nakshatra \u00d7 aspect_mars_jupiter",
+      "pattern": "hot/cold100",
+      "cell": "nakshatra=Anuradha \u00d7 aspect_mars_jupiter=none",
+      "n": 33,
+      "z": 3.9787292367918234,
+      "z1": 2.810605908885147,
+      "z2": 2.816720398008892,
+      "next": false
+     },
+     {
+      "lead": "sun_rashi \u00d7 aspects_soft",
+      "pattern": "pos",
+      "cell": "sun_rashi=Mithuna \u00d7 aspects_soft=3",
+      "n": 25,
+      "z": 3.9772725376215847,
+      "z1": 2.8813130175224457,
+      "z2": 2.810605908885147,
+      "next": false
+     },
+     {
+      "lead": "venus_rashi \u00d7 kp_moon_sub_lord",
+      "pattern": "hot+100",
+      "cell": "venus_rashi=Meena \u00d7 kp_moon_sub_lord=Mercury",
+      "n": 28,
+      "z": 3.9686267658889824,
+      "z1": 2.810605908885147,
+      "z2": 2.8167693637430995,
+      "next": false
+     },
+     {
+      "lead": "lagna_rashi \u00d7 kp_sun_sub_lord",
+      "pattern": "hot",
+      "cell": "lagna_rashi=Kumbha \u00d7 kp_sun_sub_lord=Rahu",
+      "n": 24,
+      "z": 3.9835134362825246,
+      "z1": 2.8300949948954908,
+      "z2": 2.809220175184296,
+      "next": false
+     },
+     {
+      "lead": "pof_nakshatra \u00d7 aspect_moon_mars",
+      "pattern": "cold+100",
+      "cell": "pof_nakshatra=Swati \u00d7 aspect_moon_mars=none",
+      "n": 36,
+      "z": 4.21590886332772,
+      "z1": 3.1624684312919817,
+      "z2": 2.809220175184296,
+      "next": false
+     },
+     {
+      "lead": "lagna_rashi \u00d7 nayin_element",
+      "pattern": "pos",
+      "cell": "lagna_rashi=Vrishabha \u00d7 nayin_element=Earth",
+      "n": 26,
+      "z": 3.972837271437753,
+      "z1": 2.806934752999707,
+      "z2": 2.8300949948954908,
+      "next": false
+     },
+     {
+      "lead": "kp_moon_star_lord \u00d7 nayin_element",
+      "pattern": "cold",
+      "cell": "kp_moon_star_lord=Saturn \u00d7 nayin_element=Fire",
+      "n": 32,
+      "z": 3.974796994831334,
+      "z1": 2.816720398008892,
+      "z2": 2.806934752999707,
+      "next": false
+     },
+     {
+      "lead": "nayin \u00d7 aspect_moon_mars",
+      "pattern": "cold/hot100",
+      "cell": "nayin=26 \u00d7 aspect_moon_mars=none",
+      "n": 27,
+      "z": 4.990580538858471,
+      "z1": 2.806934752999707,
+      "z2": 4.347622350230744,
+      "next": false
+     },
+     {
+      "lead": "nakshatra \u00d7 nayin_element",
+      "pattern": "pos",
+      "cell": "nakshatra=Hasta \u00d7 nayin_element=Water",
+      "n": 8,
+      "z": 3.862302841470907,
+      "z1": 2.7310605302001494,
+      "z2": 2.7310605302001494,
+      "next": false
+     },
+     {
+      "lead": "yoga \u00d7 planets_with_moon",
+      "pattern": "cold+100",
+      "cell": "yoga=15 \u00d7 planets_with_moon=1",
+      "n": 14,
+      "z": 3.8692137466738608,
+      "z1": 2.7310605302001494,
+      "z2": 2.850841103993761,
+      "next": false
+     },
+     {
+      "lead": "karana \u00d7 aspect_moon_mercury",
+      "pattern": "hot/cold100",
+      "cell": "karana=Kaulava \u00d7 aspect_moon_mercury=trine",
+      "n": 10,
+      "z": 4.108565173378912,
+      "z1": 2.7310605302001494,
+      "z2": 3.074233245886354,
+      "next": false
+     }
+    ],
+    "next_top": [
+     {
+      "lead": "hour_stem_19h \u00d7 aspect_mars_saturn",
+      "pattern": "hot/cold100",
+      "cell": "hour_stem_19h=Wu \u00d7 aspect_mars_saturn=trine",
+      "n": 30,
+      "z": 4.211654306397156,
+      "z1": 2.4393938256032537,
+      "z2": 3.436931597398737
+     },
+     {
+      "lead": "kp_asc_sub_lord \u00d7 month_stem",
+      "pattern": "hot+100",
+      "cell": "kp_asc_sub_lord=Jupiter \u00d7 month_stem=Wu",
+      "n": 24,
+      "z": 3.712894304346252,
+      "z1": 2.8062428981585366,
+      "z2": 2.431599747532044
+     },
+     {
+      "lead": "day_branch \u00d7 yellow_black_path",
+      "pattern": "pos",
+      "cell": "day_branch=Wei \u00d7 yellow_black_path=Black",
+      "n": 54,
+      "z": 3.269078835061059,
+      "z1": 2.386363446712494,
+      "z2": 2.245225248243823
+     },
+     {
+      "lead": "day_stem \u00d7 aspects_hard",
+      "pattern": "cold+100",
+      "cell": "day_stem=Xin \u00d7 aspects_hard=1",
+      "n": 36,
+      "z": 3.332070479489336,
+      "z1": 2.147727121006359,
+      "z2": 2.549456122899031
+     },
+     {
+      "lead": "day_branch \u00d7 yellow_black_path",
+      "pattern": "hot",
+      "cell": "day_branch=Wei \u00d7 yellow_black_path=Black",
+      "n": 54,
+      "z": 3.088666080436877,
+      "z1": 2.1212119315609788,
+      "z2": 2.245225248243823
+     },
+     {
+      "lead": "aspect_venus_mars \u00d7 aspect_mars_jupiter",
+      "pattern": "cold+100",
+      "cell": "aspect_venus_mars=none \u00d7 aspect_mars_jupiter=none",
+      "n": 658,
+      "z": 3.010040898837987,
+      "z1": 2.168580881112752,
+      "z2": 2.092243148286035
+     },
+     {
+      "lead": "ritu \u00d7 nine_star_day",
+      "pattern": "cold/hot100",
+      "cell": "ritu=Sharad \u00d7 nine_star_day=8",
+      "n": 27,
+      "z": 3.4597275523708273,
+      "z1": 2.0738221877644842,
+      "z2": 2.8062428981585366
+     },
+     {
+      "lead": "day_element \u00d7 day_officer",
+      "pattern": "hot+100",
+      "cell": "day_element=Metal \u00d7 day_officer=Receive",
+      "n": 21,
+      "z": 3.147627576252535,
+      "z1": 2.030633096393845,
+      "z2": 2.431599747532044
+     },
+     {
+      "lead": "planets_with_moon \u00d7 kp_sun_star_lord",
+      "pattern": "cold/hot100",
+      "cell": "planets_with_moon=1 \u00d7 kp_sun_star_lord=Rahu",
+      "n": 43,
+      "z": 3.0407288203310365,
+      "z1": 2.279715512813929,
+      "z2": 2.02379147052767
+     },
+     {
+      "lead": "hora_lord \u00d7 hour_stem_19h",
+      "pattern": "cold",
+      "cell": "hora_lord=Mercury \u00d7 hour_stem_19h=Wu",
+      "n": 9,
+      "z": 2.8813130175224457,
+      "z1": 2.0681817423213613,
+      "z2": 2.015849076719332
+     }
+    ],
+    "next_both2": 10,
+    "next_cells": 34342
+   },
+   {
+    "cells": 1611470,
+    "z2": 45538,
+    "z3": 3915,
+    "pers": 997556,
+    "corr": 0.00028477072544596453,
+    "good1": 29608,
+    "good1_mean2": 0.009704305790364742,
+    "good1_above": 0.4963523372061605,
+    "both2": 1022,
+    "both2_exp": 964.2613587608115
+   },
+   {
+    "cells": 1620094,
+    "z2": 46940,
+    "z3": 4120,
+    "pers": 1009316,
+    "corr": 0.006428688864842519,
+    "good1": 31634,
+    "good1_mean2": 0.02721824310719967,
+    "good1_above": 0.5000632231143706,
+    "both2": 1071,
+    "both2_exp": 988.464556194492
+   },
+   {
+    "cells": 1619562,
+    "z2": 44531,
+    "z3": 3533,
+    "pers": 1013705,
+    "corr": 0.003228223796834631,
+    "good1": 30878,
+    "good1_mean2": -0.0031910021789371967,
+    "good1_above": 0.48876222553274173,
+    "both2": 1007,
+    "both2_exp": 922.3451003990314
+   }
+  ]
+ },
+ "toto55": {
+  "label": "Power Toto",
+  "calendars": [
+   {
+    "cells": 2920617,
+    "z2": 73220,
+    "z3": 6538,
+    "pers": 2048942,
+    "corr": -0.0020373870528821664,
+    "good1": 56655,
+    "good1_mean2": -0.027280228212475777,
+    "good1_above": 0.4760921366163622,
+    "both2": 1496,
+    "both2_exp": 1478.4912652481135,
+    "both_top": [
+     {
+      "lead": "mars_rashi \u00d7 mansion_28",
+      "pattern": "cold",
+      "cell": "mars_rashi=Vrischika \u00d7 mansion_28=Nu",
+      "n": 19,
+      "z": 5.539236367271049,
+      "z1": 4.0261796563695595,
+      "z2": 3.8544348655172347,
+      "next": false
+     },
+     {
+      "lead": "nayin \u00d7 nine_star_year",
+      "pattern": "cold+100",
+      "cell": "nayin=5 \u00d7 nine_star_year=2",
+      "n": 12,
+      "z": 4.819870894067181,
+      "z1": 3.334841890439276,
+      "z2": 3.5210737438645174,
+      "next": false
+     },
+     {
+      "lead": "day_vs_year_branch \u00d7 nine_star_year",
+      "pattern": "pos",
+      "cell": "day_vs_year_branch=six harmony \u00d7 nine_star_year=6",
+      "n": 24,
+      "z": 4.852041106443015,
+      "z1": 3.6139556566192343,
+      "z2": 3.2406597607183327,
+      "next": false
+     },
+     {
+      "lead": "masa \u00d7 day_officer",
+      "pattern": "hot",
+      "cell": "masa=Vaishakha \u00d7 day_officer=Close",
+      "n": 19,
+      "z": 4.5930935952083285,
+      "z1": 3.23303596834394,
+      "z2": 3.2873619043132307,
+      "next": false
+     },
+     {
+      "lead": "tithi \u00d7 saturn_combust",
+      "pattern": "cold",
+      "cell": "tithi=15 \u00d7 saturn_combust=False",
+      "n": 91,
+      "z": 4.530267971876859,
+      "z1": 3.018245627688743,
+      "z2": 3.39066380878274,
+      "next": false
+     },
+     {
+      "lead": "kp_moon_number \u00d7 aspects_soft",
+      "pattern": "hot/cold100",
+      "cell": "kp_moon_number=180 \u00d7 aspects_soft=2",
+      "n": 8,
+      "z": 4.7454659584207555,
+      "z1": 3.011872751300779,
+      "z2": 3.699229566877691,
+      "next": false
+     },
+     {
+      "lead": "yoga \u00d7 day_officer",
+      "pattern": "pos",
+      "cell": "yoga=23 \u00d7 day_officer=Balance",
+      "n": 8,
+      "z": 4.259431177151835,
+      "z1": 3.011872669361461,
+      "z2": 3.011872669361461,
+      "next": false
+     },
+     {
+      "lead": "solar_term \u00d7 aspects_soft",
+      "pattern": "pos",
+      "cell": "solar_term=Chunfen \u00d7 aspects_soft=2",
+      "n": 33,
+      "z": 4.642554682617282,
+      "z1": 2.986904185256302,
+      "z2": 3.6140318039541035,
+      "next": false
+     },
+     {
+      "lead": "tithi \u00d7 kp_sun_star_lord",
+      "pattern": "hot",
+      "cell": "tithi=19 \u00d7 kp_sun_star_lord=Saturn",
+      "n": 9,
+      "z": 4.174130650879947,
+      "z1": 3.011872669361461,
+      "z2": 2.9062831180934126,
+      "next": false
+     },
+     {
+      "lead": "nakshatra_lord \u00d7 nayin",
+      "pattern": "hot",
+      "cell": "nakshatra_lord=Ketu \u00d7 nayin=5",
+      "n": 13,
+      "z": 4.381219076414959,
+      "z1": 3.2873618463733836,
+      "z2": 2.9062831180934126,
+      "next": false
+     },
+     {
+      "lead": "yoga \u00d7 kp_sun_sub_lord",
+      "pattern": "hot/cold100",
+      "cell": "yoga=22 \u00d7 kp_sun_sub_lord=Mercury",
+      "n": 12,
+      "z": 4.4230252515645265,
+      "z1": 3.334841890439276,
+      "z2": 2.9062831180934126,
+      "next": false
+     },
+     {
+      "lead": "moon_rashi \u00d7 mars_nakshatra",
+      "pattern": "hot+100",
+      "cell": "moon_rashi=Mithuna \u00d7 mars_nakshatra=Chitra",
+      "n": 14,
+      "z": 4.71617871742597,
+      "z1": 3.715892773828672,
+      "z2": 2.9062831180934126,
+      "next": false
+     },
+     {
+      "lead": "lagna_nakshatra \u00d7 jupiter_retrograde",
+      "pattern": "cold",
+      "cell": "lagna_nakshatra=Magha \u00d7 jupiter_retrograde=True",
+      "n": 34,
+      "z": 4.419455718236324,
+      "z1": 3.578532462922401,
+      "z2": 2.9062831180934126,
+      "next": false
+     },
+     {
+      "lead": "adhika_masa \u00d7 day_stem",
+      "pattern": "hot+100",
+      "cell": "adhika_masa=True \u00d7 day_stem=Xin",
+      "n": 9,
+      "z": 4.174130705506159,
+      "z1": 3.011872751300779,
+      "z2": 2.9062831180934126,
+      "next": false
+     },
+     {
+      "lead": "kp_moon_star_lord \u00d7 nayin",
+      "pattern": "hot",
+      "cell": "kp_moon_star_lord=Ketu \u00d7 nayin=5",
+      "n": 13,
+      "z": 4.381219076414959,
+      "z1": 3.2873618463733836,
+      "z2": 2.9062831180934126,
+      "next": false
+     },
+     {
+      "lead": "kp_sun_star_lord \u00d7 lunar_day",
+      "pattern": "cold",
+      "cell": "kp_sun_star_lord=Ketu \u00d7 lunar_day=15",
+      "n": 9,
+      "z": 5.09060651423492,
+      "z1": 4.386586464393921,
+      "z2": 2.9062831180934126,
+      "next": false
+     },
+     {
+      "lead": "year_stem \u00d7 nayin",
+      "pattern": "pos",
+      "cell": "year_stem=Geng \u00d7 nayin=5",
+      "n": 10,
+      "z": 4.544827570373366,
+      "z1": 3.5210736705757637,
+      "z2": 2.9062831180934126,
+      "next": false
+     },
+     {
+      "lead": "moon_sign_tropical \u00d7 pof_sign",
+      "pattern": "pos",
+      "cell": "moon_sign_tropical=Pisces \u00d7 pof_sign=Capricorn",
+      "n": 9,
+      "z": 5.09060651423492,
+      "z1": 4.386586464393921,
+      "z2": 2.9062831180934126,
+      "next": false
+     },
+     {
+      "lead": "tithi \u00d7 weekday",
+      "pattern": "cold/hot100",
+      "cell": "tithi=20 \u00d7 weekday=Tue",
+      "n": 12,
+      "z": 4.4230252515645265,
+      "z1": 2.906283044804659,
+      "z2": 3.3348419523795783,
+      "next": false
+     },
+     {
+      "lead": "yoga \u00d7 month_stem",
+      "pattern": "pos",
+      "cell": "yoga=14 \u00d7 month_stem=Ren",
+      "n": 9,
+      "z": 4.174130650879947,
+      "z1": 3.011872751300779,
+      "z2": 2.906283044804659,
+      "next": false
+     },
+     {
+      "lead": "weekday \u00d7 day_pillar",
+      "pattern": "hot/cold100",
+      "cell": "weekday=Wed \u00d7 day_pillar=Yi Wei",
+      "n": 12,
+      "z": 4.819870941374868,
+      "z1": 3.8544349274575365,
+      "z2": 2.906283044804659,
+      "next": false
+     },
+     {
+      "lead": "venus_nakshatra \u00d7 day_branch",
+      "pattern": "hot",
+      "cell": "venus_nakshatra=Rohini \u00d7 day_branch=Shen",
+      "n": 11,
+      "z": 4.4765111355371126,
+      "z1": 3.408163427090158,
+      "z2": 2.906283044804659,
+      "next": false
+     },
+     {
+      "lead": "year_stem \u00d7 nayin",
+      "pattern": "hot+100",
+      "cell": "year_stem=Geng \u00d7 nayin=5",
+      "n": 10,
+      "z": 4.1101049498806965,
+      "z1": 2.906283044804659,
+      "z2": 2.9062831180934126,
+      "next": false
+     },
+     {
+      "lead": "lunar_day \u00d7 hour_stem_19h",
+      "pattern": "cold/hot100",
+      "cell": "lunar_day=30 \u00d7 hour_stem_19h=Bing",
+      "n": 9,
+      "z": 4.174130650879947,
+      "z1": 2.906283044804659,
+      "z2": 3.011872751300779,
+      "next": false
+     },
+     {
+      "lead": "day_pillar \u00d7 mansion_28",
+      "pattern": "hot/cold100",
+      "cell": "day_pillar=Yi Wei \u00d7 mansion_28=Bi",
+      "n": 12,
+      "z": 4.819870941374868,
+      "z1": 3.8544349274575365,
+      "z2": 2.906283044804659,
+      "next": false
+     }
+    ],
+    "next_top": [
+     {
+      "lead": "nakshatra_pada \u00d7 aspect_venus_mars",
+      "pattern": "hot/cold100",
+      "cell": "nakshatra_pada=Uttara Bhadrapada 4 \u00d7 aspect_venus_mars=none",
+      "n": 15,
+      "z": 3.2590822706698974,
+      "z1": 2.295656064163963,
+      "z2": 2.315292573534779
+     },
+     {
+      "lead": "nine_star_day \u00d7 plum_trigrams",
+      "pattern": "hot",
+      "cell": "nine_star_day=8 \u00d7 plum_trigrams=7-2",
+      "n": 34,
+      "z": 3.712171390079319,
+      "z1": 2.291484552947123,
+      "z2": 2.958318572756435
+     },
+     {
+      "lead": "solar_term \u00d7 month_stem",
+      "pattern": "cold/hot100",
+      "cell": "solar_term=Shuangjiang \u00d7 month_stem=Wu",
+      "n": 26,
+      "z": 3.4999441628178443,
+      "z1": 2.2914844734543083,
+      "z2": 2.7994170197261226
+     },
+     {
+      "lead": "solar_term \u00d7 month_pillar",
+      "pattern": "cold/hot100",
+      "cell": "solar_term=Shuangjiang \u00d7 month_pillar=Wu Xu",
+      "n": 26,
+      "z": 3.4999441628178443,
+      "z1": 2.2914844734543083,
+      "z2": 2.7994170197261226
+     },
+     {
+      "lead": "month_stem \u00d7 sun_sign_tropical",
+      "pattern": "cold/hot100",
+      "cell": "month_stem=Wu \u00d7 sun_sign_tropical=Scorpio",
+      "n": 26,
+      "z": 3.4999441628178443,
+      "z1": 2.2914844734543083,
+      "z2": 2.7994170197261226
+     },
+     {
+      "lead": "month_pillar \u00d7 sun_sign_tropical",
+      "pattern": "cold/hot100",
+      "cell": "month_pillar=Wu Xu \u00d7 sun_sign_tropical=Scorpio",
+      "n": 26,
+      "z": 3.4999441628178443,
+      "z1": 2.2914844734543083,
+      "z2": 2.7994170197261226
+     },
+     {
+      "lead": "pof_rashi \u00d7 aspect_venus_jupiter",
+      "pattern": "pos",
+      "cell": "pof_rashi=Vrischika \u00d7 aspect_venus_jupiter=none",
+      "n": 172,
+      "z": 3.398104592160547,
+      "z1": 2.288412589242281,
+      "z2": 2.512739867037389
+     },
+     {
+      "lead": "pof_rashi \u00d7 aspect_venus_jupiter",
+      "pattern": "hot",
+      "cell": "pof_rashi=Vrischika \u00d7 aspect_venus_jupiter=none",
+      "n": 172,
+      "z": 3.293283647981067,
+      "z1": 2.2884125710335437,
+      "z2": 2.3686307216000406
+     },
+     {
+      "lead": "jupiter_rashi \u00d7 moon_navamsa",
+      "pattern": "cold+100",
+      "cell": "jupiter_rashi=Karka \u00d7 moon_navamsa=Vrischika",
+      "n": 22,
+      "z": 3.106753484647731,
+      "z1": 2.1942336285039983,
+      "z2": 2.2956561261042654
+     },
+     {
+      "lead": "aspect_sun_jupiter \u00d7 nine_star_day",
+      "pattern": "hot",
+      "cell": "aspect_sun_jupiter=none \u00d7 nine_star_day=8",
+      "n": 223,
+      "z": 3.317423030601509,
+      "z1": 2.1327887655925184,
+      "z2": 2.557814691576112
+     },
+     {
+      "lead": "jupiter_nakshatra \u00d7 aspects_hard",
+      "pattern": "cold",
+      "cell": "jupiter_nakshatra=Ashlesha \u00d7 aspects_hard=1",
+      "n": 52,
+      "z": 2.852645242706481,
+      "z1": 2.113908258576563,
+      "z2": 2.315292573534779
+     },
+     {
+      "lead": "nakshatra_lord \u00d7 aspect_venus_mars",
+      "pattern": "cold+100",
+      "cell": "nakshatra_lord=Saturn \u00d7 aspect_venus_mars=none",
+      "n": 216,
+      "z": 3.518708096880491,
+      "z1": 2.112644612762479,
+      "z2": 2.9450673033494335
+     },
+     {
+      "lead": "mars_rashi \u00d7 moon_navamsa",
+      "pattern": "hot/cold100",
+      "cell": "mars_rashi=Karka \u00d7 moon_navamsa=Vrischika",
+      "n": 17,
+      "z": 2.958318572756435,
+      "z1": 2.291492419033554,
+      "z2": 2.041951396548602
+     },
+     {
+      "lead": "aspect_sun_jupiter \u00d7 nine_star_day",
+      "pattern": "hot/cold100",
+      "cell": "aspect_sun_jupiter=none \u00d7 nine_star_day=8",
+      "n": 223,
+      "z": 3.4094806533511375,
+      "z1": 2.7851989830323203,
+      "z2": 2.03822176295338
+     },
+     {
+      "lead": "moon_navamsa \u00d7 aspect_venus_saturn",
+      "pattern": "cold",
+      "cell": "moon_navamsa=Vrischika \u00d7 aspect_venus_saturn=none",
+      "n": 171,
+      "z": 3.0563285417947283,
+      "z1": 2.294417839154592,
+      "z2": 2.023236656719019
+     },
+     {
+      "lead": "masa \u00d7 adhika_masa",
+      "pattern": "hot+100",
+      "cell": "masa=Ashvin \u00d7 adhika_masa=False",
+      "n": 234,
+      "z": 3.310405131903417,
+      "z1": 2.660163697259504,
+      "z2": 2.0161221274474257
+     }
+    ],
+    "next_both2": 16,
+    "next_cells": 39501
+   },
+   {
+    "cells": 2923291,
+    "z2": 75075,
+    "z3": 7228,
+    "pers": 1979278,
+    "corr": 0.010361590464793353,
+    "good1": 55980,
+    "good1_mean2": -0.010396288707852364,
+    "good1_above": 0.4821543408360129,
+    "both2": 1541,
+    "both2_exp": 1396.1922984037612
+   },
+   {
+    "cells": 2924411,
+    "z2": 74973,
+    "z3": 7099,
+    "pers": 2002525,
+    "corr": 0.0060228712382933485,
+    "good1": 55675,
+    "good1_mean2": -0.019153179600834846,
+    "good1_above": 0.4837718904355635,
+    "both2": 1548,
+    "both2_exp": 1459.2923434164366
+   },
+   {
+    "cells": 2921835,
+    "z2": 75428,
+    "z3": 6664,
+    "pers": 2052722,
+    "corr": -0.0014143744452088218,
+    "good1": 58725,
+    "good1_mean2": -0.04909412935376167,
+    "good1_above": 0.4683354618986803,
+    "both2": 1468,
+    "both2_exp": 1531.2049926877582
+   }
+  ]
+ },
+ "toto58": {
+  "label": "Supreme Toto",
+  "calendars": [
+   {
+    "cells": 2867200,
+    "z2": 85345,
+    "z3": 8428,
+    "pers": 2014285,
+    "corr": -0.006762761365224489,
+    "good1": 59748,
+    "good1_mean2": -0.0342860110104084,
+    "good1_above": 0.4653042779674633,
+    "both2": 1470,
+    "both2_exp": 1572.182309851883,
+    "both_top": [
+     {
+      "lead": "karana \u00d7 aspect_mercury_jupiter",
+      "pattern": "hot+100",
+      "cell": "karana=Garaja \u00d7 aspect_mercury_jupiter=opposition",
+      "n": 12,
+      "z": 5.085382220710047,
+      "z1": 3.8717100360370815,
+      "z2": 3.4905833726107676,
+      "next": false
+     },
+     {
+      "lead": "tithi \u00d7 aspects_hard",
+      "pattern": "hot",
+      "cell": "tithi=2 \u00d7 aspects_hard=3",
+      "n": 14,
+      "z": 4.6176077672326,
+      "z1": 3.1699626045535827,
+      "z2": 3.4587668060119157,
+      "next": false
+     },
+     {
+      "lead": "tithi \u00d7 mars_rashi",
+      "pattern": "cold+100",
+      "cell": "tithi=28 \u00d7 mars_rashi=Karka",
+      "n": 8,
+      "z": 4.4830041075752165,
+      "z1": 3.1699626045535827,
+      "z2": 3.1699626045535827,
+      "next": false
+     },
+     {
+      "lead": "mercury_nakshatra \u00d7 nine_star_year",
+      "pattern": "cold/hot100",
+      "cell": "mercury_nakshatra=Chitra \u00d7 nine_star_year=4",
+      "n": 22,
+      "z": 4.2923471222717,
+      "z1": 3.2510335889872546,
+      "z2": 3.1699626045535827,
+      "next": false
+     },
+     {
+      "lead": "venus_rashi \u00d7 aspects_hard",
+      "pattern": "pos",
+      "cell": "venus_rashi=Dhanu \u00d7 aspects_hard=5",
+      "n": 11,
+      "z": 5.1509958735707,
+      "z1": 4.060848559448563,
+      "z2": 3.1699626045535827,
+      "next": false
+     },
+     {
+      "lead": "nayin \u00d7 plum_trigrams",
+      "pattern": "hot",
+      "cell": "nayin=22 \u00d7 plum_trigrams=8-3",
+      "n": 8,
+      "z": 4.4830041075752165,
+      "z1": 3.1699626045535827,
+      "z2": 3.1699626045535827,
+      "next": false
+     },
+     {
+      "lead": "nayin \u00d7 plum_trigrams",
+      "pattern": "pos",
+      "cell": "nayin=22 \u00d7 plum_trigrams=8-3",
+      "n": 8,
+      "z": 4.4830041075752165,
+      "z1": 3.1699626045535827,
+      "z2": 3.1699626045535827,
+      "next": false
+     },
+     {
+      "lead": "tithi \u00d7 day_stem",
+      "pattern": "hot",
+      "cell": "tithi=4 \u00d7 day_stem=Bing",
+      "n": 10,
+      "z": 4.346414896276239,
+      "z1": 3.0733794470071536,
+      "z2": 3.0733794470071536,
+      "next": false
+     },
+     {
+      "lead": "sun_rashi \u00d7 aspect_sun_mars",
+      "pattern": "hot+100",
+      "cell": "sun_rashi=Dhanu \u00d7 aspect_sun_mars=conjunction",
+      "n": 18,
+      "z": 4.574261235606519,
+      "z1": 3.0733794470071536,
+      "z2": 3.4764895878300863,
+      "next": false
+     },
+     {
+      "lead": "mercury_rashi \u00d7 month_stem",
+      "pattern": "hot/cold100",
+      "cell": "mercury_rashi=Kanya \u00d7 month_stem=Gui",
+      "n": 19,
+      "z": 5.218358353177555,
+      "z1": 3.0733794470071536,
+      "z2": 4.242507987138332,
+      "next": false
+     },
+     {
+      "lead": "mercury_rashi \u00d7 month_pillar",
+      "pattern": "hot/cold100",
+      "cell": "mercury_rashi=Kanya \u00d7 month_pillar=Gui You",
+      "n": 19,
+      "z": 5.218358353177555,
+      "z1": 3.0733794470071536,
+      "z2": 4.242507987138332,
+      "next": false
+     },
+     {
+      "lead": "mansion_28 \u00d7 aspect_moon_mars",
+      "pattern": "cold/hot100",
+      "cell": "mansion_28=Mao \u00d7 aspect_moon_mars=sextile",
+      "n": 9,
+      "z": 4.404070191088625,
+      "z1": 3.0733794470071536,
+      "z2": 3.1699626045535827,
+      "next": false
+     },
+     {
+      "lead": "kp_asc_star_lord \u00d7 day_of_month",
+      "pattern": "cold+100",
+      "cell": "kp_asc_star_lord=Jupiter \u00d7 day_of_month=11",
+      "n": 22,
+      "z": 4.2923471222717,
+      "z1": 3.0351477573648817,
+      "z2": 3.0351477573648817,
+      "next": false
+     },
+     {
+      "lead": "nakshatra \u00d7 universal_day",
+      "pattern": "pos",
+      "cell": "nakshatra=Dhanishta \u00d7 universal_day=9",
+      "n": 11,
+      "z": 4.727826250329537,
+      "z1": 3.022933874708488,
+      "z2": 3.7010414309403457,
+      "next": false
+     },
+     {
+      "lead": "nakshatra_pada \u00d7 aspect_venus_saturn",
+      "pattern": "hot/cold100",
+      "cell": "nakshatra_pada=Jyeshtha 3 \u00d7 aspect_venus_saturn=none",
+      "n": 20,
+      "z": 4.263772942214731,
+      "z1": 3.022933874708488,
+      "z2": 3.1172086468555285,
+      "next": false
+     },
+     {
+      "lead": "yoga \u00d7 nine_star_year",
+      "pattern": "pos",
+      "cell": "yoga=4 \u00d7 nine_star_year=2",
+      "n": 15,
+      "z": 4.5984877223864835,
+      "z1": 3.4684069491106255,
+      "z2": 3.022933874708488,
+      "next": false
+     },
+     {
+      "lead": "day_pillar \u00d7 aspect_sun_mercury",
+      "pattern": "cold/hot100",
+      "cell": "day_pillar=Jia Chen \u00d7 aspect_sun_mercury=conjunction",
+      "n": 14,
+      "z": 4.6176077672326,
+      "z1": 3.022933874708488,
+      "z2": 3.4905833726107676,
+      "next": false
+     },
+     {
+      "lead": "nayin \u00d7 pof_sign",
+      "pattern": "cold",
+      "cell": "nayin=26 \u00d7 pof_sign=Aries",
+      "n": 12,
+      "z": 4.275074083769794,
+      "z1": 3.022933874708488,
+      "z2": 3.022933874708488,
+      "next": false
+     },
+     {
+      "lead": "venus_rashi \u00d7 day_god",
+      "pattern": "cold",
+      "cell": "venus_rashi=Makara \u00d7 day_god=Green Dragon",
+      "n": 19,
+      "z": 4.252406941264143,
+      "z1": 3.0149427608797534,
+      "z2": 3.0005753281216263,
+      "next": false
+     },
+     {
+      "lead": "jupiter_rashi \u00d7 lunar_day",
+      "pattern": "cold/hot100",
+      "cell": "jupiter_rashi=Vrishabha \u00d7 lunar_day=10",
+      "n": 13,
+      "z": 4.255008463718982,
+      "z1": 2.999906166943605,
+      "z2": 3.022933874708488,
+      "next": false
+     },
+     {
+      "lead": "lagna_rashi \u00d7 moon_sign_tropical",
+      "pattern": "hot",
+      "cell": "lagna_rashi=Makara \u00d7 moon_sign_tropical=Aries",
+      "n": 17,
+      "z": 4.577759676922589,
+      "z1": 2.999906166943605,
+      "z2": 3.4587668060119157,
+      "next": false
+     },
+     {
+      "lead": "lagna_rashi \u00d7 pof_rashi",
+      "pattern": "hot",
+      "cell": "lagna_rashi=Makara \u00d7 pof_rashi=Kanya",
+      "n": 17,
+      "z": 4.577759676922589,
+      "z1": 2.999906166943605,
+      "z2": 3.4587668060119157,
+      "next": false
+     },
+     {
+      "lead": "moon_sign_tropical \u00d7 sun_sign_tropical",
+      "pattern": "hot",
+      "cell": "moon_sign_tropical=Aries \u00d7 sun_sign_tropical=Leo",
+      "n": 17,
+      "z": 4.577759676922589,
+      "z1": 2.999906166943605,
+      "z2": 3.4587668060119157,
+      "next": false
+     },
+     {
+      "lead": "sun_sign_tropical \u00d7 pof_rashi",
+      "pattern": "hot",
+      "cell": "sun_sign_tropical=Leo \u00d7 pof_rashi=Kanya",
+      "n": 17,
+      "z": 4.577759676922589,
+      "z1": 2.999906166943605,
+      "z2": 3.4587668060119157,
+      "next": false
+     },
+     {
+      "lead": "sun_nakshatra \u00d7 kp_asc_sub_lord",
+      "pattern": "hot/cold100",
+      "cell": "sun_nakshatra=Pushya \u00d7 kp_asc_sub_lord=Rahu",
+      "n": 15,
+      "z": 4.5984877223864835,
+      "z1": 2.9943730051285433,
+      "z2": 3.530377363196084,
+      "next": false
+     }
+    ],
+    "next_top": [
+     {
+      "lead": "weekday \u00d7 pof_rashi",
+      "pattern": "cold+100",
+      "cell": "weekday=Sat \u00d7 pof_rashi=Vrischika",
+      "n": 72,
+      "z": 4.186418796390795,
+      "z1": 2.5986576007617703,
+      "z2": 3.344863838091549
+     },
+     {
+      "lead": "aspect_mercury_jupiter \u00d7 universal_day",
+      "pattern": "cold/hot100",
+      "cell": "aspect_mercury_jupiter=square \u00d7 universal_day=8",
+      "n": 24,
+      "z": 4.326944613973703,
+      "z1": 2.4242028300829457,
+      "z2": 3.936238570099625
+     },
+     {
+      "lead": "lagna_nakshatra \u00d7 aspect_sun_mercury",
+      "pattern": "pos",
+      "cell": "lagna_nakshatra=Ashwini \u00d7 aspect_sun_mercury=none",
+      "n": 75,
+      "z": 3.9621276728203823,
+      "z1": 2.3252249735408097,
+      "z2": 3.233524164042856
+     },
+     {
+      "lead": "weekday \u00d7 nayin",
+      "pattern": "cold/hot100",
+      "cell": "weekday=Sat \u00d7 nayin=3",
+      "n": 26,
+      "z": 3.540258783501245,
+      "z1": 2.6979707119411915,
+      "z2": 2.3087112739967437
+     },
+     {
+      "lead": "jupiter_nakshatra \u00d7 kp_asc_sub_lord",
+      "pattern": "hot/cold100",
+      "cell": "jupiter_nakshatra=Ashlesha \u00d7 kp_asc_sub_lord=Jupiter",
+      "n": 22,
+      "z": 3.0954426815277665,
+      "z1": 2.2586128540228056,
+      "z2": 2.4682151730700834
+     },
+     {
+      "lead": "venus_retrograde \u00d7 day_element",
+      "pattern": "cold/hot100",
+      "cell": "venus_retrograde=True \u00d7 day_element=Metal",
+      "n": 42,
+      "z": 3.233524164042856,
+      "z1": 2.321534289289886,
+      "z2": 2.2586128540228056
+     },
+     {
+      "lead": "saturn_retrograde \u00d7 aspect_moon_saturn",
+      "pattern": "cold/hot100",
+      "cell": "saturn_retrograde=True \u00d7 aspect_moon_saturn=conjunction",
+      "n": 41,
+      "z": 3.6279572843949315,
+      "z1": 2.845758522335513,
+      "z2": 2.2586128540228056
+     },
+     {
+      "lead": "lagna_nakshatra \u00d7 aspect_mercury_saturn",
+      "pattern": "hot",
+      "cell": "lagna_nakshatra=Ashwini \u00d7 aspect_mercury_saturn=none",
+      "n": 71,
+      "z": 3.153232831144863,
+      "z1": 2.2573811381361306,
+      "z2": 2.2078305432179994
+     },
+     {
+      "lead": "moon_sign_tropical \u00d7 aspect_sun_jupiter",
+      "pattern": "hot",
+      "cell": "moon_sign_tropical=Aries \u00d7 aspect_sun_jupiter=none",
+      "n": 161,
+      "z": 4.321453512280922,
+      "z1": 2.185894883744164,
+      "z2": 3.9421930134623833
+     },
+     {
+      "lead": "year_stem \u00d7 aspect_sun_mercury",
+      "pattern": "hot",
+      "cell": "year_stem=Bing \u00d7 aspect_sun_mercury=none",
+      "n": 222,
+      "z": 3.2221672851985446,
+      "z1": 2.1614791663974415,
+      "z2": 2.450558985730741
+     },
+     {
+      "lead": "mercury_rashi \u00d7 aspect_sun_moon",
+      "pattern": "cold",
+      "cell": "mercury_rashi=Tula \u00d7 aspect_sun_moon=none",
+      "n": 188,
+      "z": 3.409660133272264,
+      "z1": 2.151332875544758,
+      "z2": 2.656961310878129
+     },
+     {
+      "lead": "year_stem \u00d7 aspect_sun_mercury",
+      "pattern": "pos",
+      "cell": "year_stem=Bing \u00d7 aspect_sun_mercury=none",
+      "n": 222,
+      "z": 3.3163636927727524,
+      "z1": 2.52520963567229,
+      "z2": 2.151332875544758
+     },
+     {
+      "lead": "paksha \u00d7 aspect_mars_saturn",
+      "pattern": "hot+100",
+      "cell": "paksha=Shukla \u00d7 aspect_mars_saturn=trine",
+      "n": 134,
+      "z": 3.010183594705421,
+      "z1": 2.122526956255657,
+      "z2": 2.167971068262964
+     },
+     {
+      "lead": "jupiter_rashi \u00d7 aspect_jupiter_saturn",
+      "pattern": "hot+100",
+      "cell": "jupiter_rashi=Karka \u00d7 aspect_jupiter_saturn=none",
+      "n": 186,
+      "z": 2.938236598199103,
+      "z1": 2.060879366470266,
+      "z2": 2.367268328001276
+     },
+     {
+      "lead": "lagna_nakshatra \u00d7 yellow_black_path",
+      "pattern": "pos",
+      "cell": "lagna_nakshatra=Ashwini \u00d7 yellow_black_path=Black",
+      "n": 49,
+      "z": 3.5260218192226556,
+      "z1": 2.0212783619936165,
+      "z2": 3.052116083409545
+     },
+     {
+      "lead": "lagna_nakshatra \u00d7 aspect_mars_jupiter",
+      "pattern": "pos",
+      "cell": "lagna_nakshatra=Ashwini \u00d7 aspect_mars_jupiter=none",
+      "n": 52,
+      "z": 3.2550145151879213,
+      "z1": 2.0212783619936165,
+      "z2": 2.608021478530431
+     },
+     {
+      "lead": "venus_combust \u00d7 aspect_sun_saturn",
+      "pattern": "cold/hot100",
+      "cell": "venus_combust=True \u00d7 aspect_sun_saturn=none",
+      "n": 314,
+      "z": 2.859530810475819,
+      "z1": 2.0307652238452043,
+      "z2": 2.0141114513317318
+     }
+    ],
+    "next_both2": 17,
+    "next_cells": 39459
+   },
+   {
+    "cells": 2867116,
+    "z2": 84092,
+    "z3": 8305,
+    "pers": 1916726,
+    "corr": 0.002610415686853745,
+    "good1": 56449,
+    "good1_mean2": -0.012276061810553074,
+    "good1_above": 0.476412336799589,
+    "both2": 1409,
+    "both2_exp": 1415.2847845753643
+   },
+   {
+    "cells": 2871316,
+    "z2": 84524,
+    "z3": 8286,
+    "pers": 1948128,
+    "corr": -0.003135795867251079,
+    "good1": 57778,
+    "good1_mean2": -0.03854811191558838,
+    "good1_above": 0.46628474505867284,
+    "both2": 1429,
+    "both2_exp": 1508.2388898470738
+   },
+   {
+    "cells": 2865681,
+    "z2": 86597,
+    "z3": 9202,
+    "pers": 2019346,
+    "corr": -0.0023679317432497293,
+    "good1": 62635,
+    "good1_mean2": -0.026467416435480118,
+    "good1_above": 0.4663207471860781,
+    "both2": 1822,
+    "both2_exp": 1646.2210983159896
+   }
+  ]
+ }
+}
