@@ -172,3 +172,24 @@ From `lead_full.py --family dlr / mh / ty` (`chinese_div.py`, `CHINESE_DIV_REPOR
 | Power Toto | dlr_noble_earth × ty_door | hot+100 | Most 5+ hits against its own shifted calendars (10 vs 0.2, z +9.8) | 10 sets |
 | Supreme Toto | year_yinyang × mh_ti | cold | mh_ti z +3.4 (Supreme); #1 Mei Hua lead earlier | System 7 × 2 disjoint |
 | Supreme Toto | saturn_navamsa × mh_mutual | hot/cold100 | Most 5+ hits against its own shifted calendars (10 vs 0.35, z +9.7) | 10 sets |
+
+# Short list (frozen 2026-10-22)
+
+The leads with the best case after every test so far (`CONSISTENCY.md`, `WATCH_RANK.md`, `CELLS_ALL.md`): picked before
+the years they were then tested on and held up there, or the cleanest records on the watchlist. None has beaten chance
+on unseen draws yet. They are judged from 2026-10-24 on, without changes, by the drawn numbers in the lead's top ticket
+(8 Magnum Life, 6 Toto) against exact chance, after about 50 draws (`WATCH_LOG.md`, "Short list"); prizes are logged too.
+
+| Game | Lead | Pattern | Why | Formats |
+|---|---|---|---|---|
+| Star Toto | lagna_rashi × lunar_month | pos | Picked on data to 2021; above chance in 4 of 5 later years, ×1.077 (best forward ratio of the pre-picked leads); Star is the one game where the leads together beat shifted calendars | 10 sets, System 8 × 1 |
+| Supreme Toto | day_of_month × aspect_venus_mars | cold/hot100 | Picked on data to 2016; above chance in 8 of 10 later years, ×1.075 | 10 sets, System 8 × 1 |
+| Power Toto | karana × aspect_mercury_jupiter | hot/cold100 | Picked on data to 2016; ×1.054 over the 10 later years (6 above chance) | 10 sets, System 8 × 1 |
+| Power Toto | year_stem × lagna_navamsa_lord | cold | Three 5-number hits (2017, 2018, 2022), all before it was chosen, no jackpot in its return (already watched) | 10 sets |
+| Supreme Toto | plum_trigrams × saturn_navamsa | hot/cold100 | Three 5-number hits (2014, 2015, 2025) before it was chosen (already watched) | 10 sets |
+| Magnum Life | rahu_nakshatra × aspect_moon_venus | cold/hot100 | Best pre-picked Magnum Life lead, ×1.024 (3 of 5 years); Magnum Life has nothing stronger | 10 tickets, System 10 × 1 |
+
+Also followed as groups rather than single leads: the Mei Hua Yi Shu leads in Toto (ranks 2, 1 and 4 of 21 in Star, Power
+and Supreme, `CHINESE_DIV_REPORT.md`) and the D24 leads (1, 2 and 1 in Magnum Life, Star and Power, `VARGAS_REPORT.md`),
+through their watchlist entries above. In 4D (4DPrediction project, `analysis/score_leads.py`): Karana × Day pillar
+(S1, previous same-value day, i-Box) and Mercury nakshatra × Venus rashi (S1, all earlier same-value days, Straight).

@@ -32,7 +32,8 @@ chinese_div.enable()                           # D9, the divisional charts and t
 A = os.path.join(common.ROOT, "analysis")
 LOG = os.path.join(A, "watch_log.csv")
 MD = os.path.join(A, "WATCH_LOG.md")
-FIELDS = ["date", "game", "lead", "pattern", "format", "numbers", "main", "bonus", "best", "payout", "cost", "profit"]
+FIELDS = ["date", "game", "lead", "pattern", "format", "numbers", "main", "bonus", "best", "payout", "cost", "profit",
+          "top_hits"]                         # drawn numbers among the lead's top k (8 Magnum Life, 6 Toto)
 
 # (lead, pattern, [formats]) per game, from WATCHLIST.md
 WATCH = {
@@ -122,6 +123,17 @@ WATCH["toto55"] += [("lagna_navamsa_lord × mh_changed", "cold", ["10 sets"]),
                     ("dlr_noble_earth × ty_door", "hot+100", ["10 sets"])]
 WATCH["toto58"] += [("year_yinyang × mh_ti", "cold", ["System 7 × 2 disjoint"]),
                     ("saturn_navamsa × mh_mutual", "hot/cold100", ["10 sets"])]
+# Short list, frozen 2026-10-22 (WATCHLIST.md "Short list"): leads picked before the years they were tested on that held
+# up afterwards (CONSISTENCY.md), plus the two cleanest watchlist records. Judged on draws from 2026-10-24 by the drawn
+# numbers in the lead's top ticket (8 Magnum Life, 6 Toto) against exact chance, after about 50 draws.
+WATCH["toto50"] += [("lagna_rashi × lunar_month", "pos", ["10 sets", "System 8 × 1"])]
+WATCH["toto58"] += [("day_of_month × aspect_venus_mars", "cold/hot100", ["10 sets", "System 8 × 1"])]
+WATCH["toto55"] += [("karana × aspect_mercury_jupiter", "hot/cold100", ["10 sets", "System 8 × 1"])]
+WATCH["ml8"] += [("rahu_nakshatra × aspect_moon_venus", "cold/hot100", ["10 tickets", "System 10 × 1"])]
+SHORTLIST = [("toto50", "lagna_rashi × lunar_month", "pos"), ("toto58", "day_of_month × aspect_venus_mars", "cold/hot100"),
+             ("toto55", "karana × aspect_mercury_jupiter", "hot/cold100"), ("toto55", "year_stem × lagna_navamsa_lord", "cold"),
+             ("toto58", "plum_trigrams × saturn_navamsa", "hot/cold100"), ("ml8", "rahu_nakshatra × aspect_moon_venus", "cold/hot100")]
+SHORT_FROM = "2026-10-24"
 SYS = {"System 10 × 1": [list(range(10))], "System 9 × 2 overlap": [list(range(9)), list(range(6)) + [9, 10, 11]],
        "System 9 × 2 disjoint": [list(range(9)), list(range(9, 18))], **tf.SYS_PATS}
 
@@ -204,7 +216,8 @@ def score_game(key, dates):
                 out.append({"date": date, "game": g["label"], "lead": lead, "pattern": pat, "format": f,
                             "numbers": " | ".join(" ".join(f"{x:02d}" for x in s) for s in sets),
                             "main": best[0], "bonus": best[1], "best": f"{best[0]}" + (f"+{best[1]}b" if best[1] else ""),
-                            "payout": round(pay, 2), "cost": cost, "profit": round(pay - cost, 2)})
+                            "payout": round(pay, 2), "cost": cost, "profit": round(pay - cost, 2),
+                            "top_hits": len(win & {int(rk[t, q]) + 1 for q in range(k)})})
     return out
 
 
@@ -232,7 +245,24 @@ def main():
             md.append(f"| {r['game']} | {r['lead']} | {r['pattern']} | {r['format']} | {r['best']} | {float(r['payout']):,.0f} | "
                       f"{r['cost']} | {float(r['profit']):+,.0f} |")
         md.append("")
-    md += ["## Running total", "", "| Game | Lead | Format | Draws | Stake (RM) | Payout (RM) | Profit (RM) | Best match |",
+    md += ["## Short list (frozen 2026-10-22, judged from " + SHORT_FROM + ")", "",
+           "Drawn numbers in the lead's top ticket (8 Magnum Life, 6 Toto) against exact chance (k × k / n per draw); "
+           "z = (hits − chance) / spread. Judge after about 50 draws; |z| below 2 is luck.", "",
+           "| Game | Lead (pattern) | Draws | Hits | Chance | Ratio | z | Profit, first format (RM) |", "|---|---|---|---|---|---|---|---|"]
+    NK = {"ml8": (8, 36), "toto50": (6, 50), "toto55": (6, 55), "toto58": (6, 58)}
+    GL = {"ml8": "Magnum Life", "toto50": "STAR TOTO", "toto55": "POWER TOTO", "toto58": "SUPREME TOTO"}
+    for key, lead, pat in SHORTLIST:
+        f0 = next(fm for ld, pt, fm in WATCH[key] if ld == lead and pt == pat)[0]
+        rr = [r for r in allr if r["lead"] == lead and r["pattern"] == pat and r["format"] == f0
+              and r["game"].upper().startswith(GL[key].upper()) and r["date"] >= SHORT_FROM and r.get("top_hits") not in (None, "")]
+        k, n = NK[key]
+        e, v = k * k / n, k * (k / n) * (1 - k / n) * (n - k) / (n - 1)
+        h = sum(int(r["top_hits"]) for r in rr)
+        nd = len(rr)
+        z = (h - nd * e) / math.sqrt(nd * v) if nd else 0.0
+        md.append(f"| {GL[key].title()} | {lead} ({pat}) | {nd} | {h} | {nd * e:.1f} | "
+                  + (f"×{h / (nd * e):.2f}" if nd else "–") + f" | {z:+.1f} | {sum(float(r['profit']) for r in rr):+,.0f} |")
+    md += ["", "## Running total", "", "| Game | Lead | Format | Draws | Stake (RM) | Payout (RM) | Profit (RM) | Best match |",
            "|---|---|---|---|---|---|---|---|"]
     keyf = lambda r: (r["game"], r["lead"], r["pattern"], r["format"])  # noqa: E731
     for kk in sorted({keyf(r) for r in allr}):
