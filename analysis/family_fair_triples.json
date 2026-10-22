@@ -1,0 +1,506 @@
+{
+ "ml8": {
+  "label": "Magnum Life",
+  "calendars": [
+   {
+    "leads": 1683248,
+    "all_ratio": 1.0003715801465154,
+    "z2": 29994,
+    "z3": 1219,
+    "zmax": 4.98809537469293,
+    "chosen_ratio": 0.9985178352760729,
+    "chosen_z": -10.922234380955945,
+    "blind_leads": 63746,
+    "blind_z3": 80,
+    "blind_max": 4.234455875379267,
+    "top_all": [
+     {
+      "lead": "mars_rashi \u00d7 month \u00d7 aspect_sun_venus",
+      "pattern": "cold",
+      "z": 4.98809537469293
+     },
+     {
+      "lead": "mars_rashi \u00d7 venus_combust \u00d7 month",
+      "pattern": "cold",
+      "z": 4.665125170576123
+     },
+     {
+      "lead": "mars_rashi \u00d7 year_yinyang \u00d7 month",
+      "pattern": "cold",
+      "z": 4.557468435870519
+     },
+     {
+      "lead": "mars_rashi \u00d7 lunar_leap_month \u00d7 month",
+      "pattern": "cold",
+      "z": 4.476725884841318
+     },
+     {
+      "lead": "mars_rashi \u00d7 ayana \u00d7 month",
+      "pattern": "cold",
+      "z": 4.422897517488516
+     },
+     {
+      "lead": "adhika_masa \u00d7 nine_star_year \u00d7 aspect_moon_jupiter",
+      "pattern": "cold",
+      "z": 4.395983333812116
+     },
+     {
+      "lead": "moon_rashi \u00d7 yellow_black_path \u00d7 draw_in_daylight",
+      "pattern": "hot",
+      "z": 4.342154966459314
+     },
+     {
+      "lead": "mars_rashi \u00d7 adhika_masa \u00d7 month",
+      "pattern": "cold",
+      "z": 4.342154966459314
+     }
+    ],
+    "top_blind": [
+     {
+      "lead": "mars_rashi \u00d7 month \u00d7 aspect_sun_venus",
+      "pattern": "cold",
+      "z": 4.234455875379267
+     },
+     {
+      "lead": "mars_rashi \u00d7 venus_combust \u00d7 month",
+      "pattern": "cold",
+      "z": 4.016327731349101
+     },
+     {
+      "lead": "mars_rashi \u00d7 lunar_leap_month \u00d7 month",
+      "pattern": "cold",
+      "z": 3.860521914184696
+     },
+     {
+      "lead": "mars_rashi \u00d7 year_yinyang \u00d7 month",
+      "pattern": "cold",
+      "z": 3.860521914184696
+     },
+     {
+      "lead": "mars_rashi \u00d7 ayana \u00d7 month",
+      "pattern": "cold",
+      "z": 3.798199587318934
+     },
+     {
+      "lead": "mars_rashi \u00d7 adhika_masa \u00d7 month",
+      "pattern": "cold",
+      "z": 3.735877260453172
+     },
+     {
+      "lead": "mars_rashi \u00d7 saturn_combust \u00d7 month",
+      "pattern": "cold",
+      "z": 3.6825134911151243
+     },
+     {
+      "lead": "mercury_rashi \u00d7 lunar_month \u00d7 nayin_element",
+      "pattern": "cold",
+      "z": 3.668866635129116
+     }
+    ]
+   },
+   {
+    "leads": 1683248,
+    "all_ratio": 1.0010153218429718,
+    "z2": 43497,
+    "z3": 2046,
+    "zmax": 4.58438261954692,
+    "chosen_ratio": 1.000150162879986,
+    "chosen_z": 1.1122623848201234,
+    "blind_leads": 66980,
+    "blind_z3": 111,
+    "blind_max": 4.0826485864594675
+   },
+   {
+    "leads": 1683248,
+    "all_ratio": 1.0002218695869305,
+    "z2": 25095,
+    "z3": 892,
+    "zmax": 5.095752109398533,
+    "chosen_ratio": 0.9975579480480004,
+    "chosen_z": -17.993630440846594,
+    "blind_leads": 64786,
+    "blind_z3": 38,
+    "blind_max": 4.359100529110791
+   }
+  ],
+  "sets": 240464
+ },
+ "toto50": {
+  "label": "Star Toto",
+  "calendars": [
+   {
+    "leads": 1683248,
+    "all_ratio": 0.9976125968056133,
+    "z2": 16841,
+    "z3": 714,
+    "zmax": 4.453447947190766,
+    "chosen_ratio": 0.9902972824709775,
+    "chosen_z": -40.599457591005454,
+    "blind_leads": 61560,
+    "blind_z3": 50,
+    "blind_max": 4.166434401889152,
+    "top_all": [
+     {
+      "lead": "rahu_nakshatra \u00d7 jupiter_combust \u00d7 kp_asc_sub_lord",
+      "pattern": "hot/cold100",
+      "z": 4.453447947190766
+     },
+     {
+      "lead": "paksha \u00d7 lunar_month \u00d7 draw_in_daylight",
+      "pattern": "hot/cold100",
+      "z": 4.272295655163807
+     },
+     {
+      "lead": "jupiter_retrograde \u00d7 saturn_combust \u00d7 day_stem",
+      "pattern": "cold",
+      "z": 4.199834738353024
+     },
+     {
+      "lead": "kp_asc_star_lord \u00d7 kp_asc_sub_lord \u00d7 aspect_sun_venus",
+      "pattern": "hot",
+      "z": 4.12737382154224
+     },
+     {
+      "lead": "saturn_rashi \u00d7 day_stem \u00d7 aspect_mercury_venus",
+      "pattern": "cold",
+      "z": 4.091143363136848
+     },
+     {
+      "lead": "lunar_month \u00d7 yellow_black_path \u00d7 aspect_venus_jupiter",
+      "pattern": "hot",
+      "z": 4.091143363136848
+     },
+     {
+      "lead": "day_god \u00d7 draw_in_daylight \u00d7 aspect_sun_mercury",
+      "pattern": "cold",
+      "z": 4.054912904731457
+     },
+     {
+      "lead": "nakshatra \u00d7 year_yinyang \u00d7 nayin_element",
+      "pattern": "hot",
+      "z": 4.018682446326065
+     }
+    ],
+    "top_blind": [
+     {
+      "lead": "venus_nakshatra \u00d7 saturn_retrograde \u00d7 aspect_venus_jupiter",
+      "pattern": "cold+100",
+      "z": 4.166434401889152
+     },
+     {
+      "lead": "paksha \u00d7 kp_asc_star_lord \u00d7 aspect_sun_moon",
+      "pattern": "hot/cold100",
+      "z": 4.149510185337904
+     },
+     {
+      "lead": "nakshatra_lord \u00d7 lagna_rashi \u00d7 aspect_sun_mars",
+      "pattern": "hot/cold100",
+      "z": 3.9356496307357642
+     },
+     {
+      "lead": "rahu_nakshatra \u00d7 jupiter_combust \u00d7 kp_asc_sub_lord",
+      "pattern": "hot/cold100",
+      "z": 3.831507075884389
+     },
+     {
+      "lead": "lunar_month \u00d7 day_branch \u00d7 yellow_black_path",
+      "pattern": "hot/cold100",
+      "z": 3.8033330286078235
+     },
+     {
+      "lead": "paksha \u00d7 lunar_month \u00d7 draw_in_daylight",
+      "pattern": "hot/cold100",
+      "z": 3.722791681445028
+     },
+     {
+      "lead": "paksha \u00d7 lunar_month \u00d7 aspect_moon_venus",
+      "pattern": "hot/cold100",
+      "z": 3.68794064303113
+     },
+     {
+      "lead": "mars_retrograde \u00d7 lunar_leap_month \u00d7 moon_phase",
+      "pattern": "cold",
+      "z": 3.68794064303113
+     }
+    ]
+   },
+   {
+    "leads": 1683248,
+    "all_ratio": 0.9989479795104779,
+    "z2": 18350,
+    "z3": 1135,
+    "zmax": 4.743291614433901,
+    "chosen_ratio": 0.9942960241614847,
+    "chosen_z": -23.820714700311886,
+    "blind_leads": 61247,
+    "blind_z3": 81,
+    "blind_max": 4.157291177412001
+   },
+   {
+    "leads": 1683248,
+    "all_ratio": 0.9967649876770561,
+    "z2": 11801,
+    "z3": 480,
+    "zmax": 4.960674364866253,
+    "chosen_ratio": 0.9873043972845652,
+    "chosen_z": -53.210331224206946,
+    "blind_leads": 61716,
+    "blind_z3": 47,
+    "blind_max": 4.611079727644679
+   }
+  ],
+  "sets": 240464
+ },
+ "toto55": {
+  "label": "Power Toto",
+  "calendars": [
+   {
+    "leads": 1683248,
+    "all_ratio": 0.9966751183217816,
+    "z2": 12920,
+    "z3": 418,
+    "zmax": 4.234440250068601,
+    "chosen_ratio": 0.9919199165316012,
+    "chosen_z": -48.76826103204017,
+    "blind_leads": 95372,
+    "blind_z3": 25,
+    "blind_max": 3.6383264272573186,
+    "top_all": [
+     {
+      "lead": "mars_combust \u00d7 kp_moon_star_lord \u00d7 day_element",
+      "pattern": "hot",
+      "z": 4.234440250068601
+     },
+     {
+      "lead": "lunar_leap_month \u00d7 pof_sign \u00d7 aspects_hard",
+      "pattern": "pos",
+      "z": 4.051203260490495
+     },
+     {
+      "lead": "nakshatra_lord \u00d7 hora_lord \u00d7 hour_stem_19h",
+      "pattern": "pos",
+      "z": 4.051203260490495
+     },
+     {
+      "lead": "venus_combust \u00d7 aspect_sun_saturn \u00d7 aspect_jupiter_saturn",
+      "pattern": "hot",
+      "z": 3.9988498348967503
+     },
+     {
+      "lead": "paksha \u00d7 moon_phase \u00d7 plum_trigrams",
+      "pattern": "pos",
+      "z": 3.9988498348967503
+     },
+     {
+      "lead": "karana \u00d7 saturn_retrograde \u00d7 day_pillar",
+      "pattern": "pos",
+      "z": 3.9726731220998777
+     },
+     {
+      "lead": "kp_moon_star_lord \u00d7 hour_stem_19h \u00d7 aspect_mercury_saturn",
+      "pattern": "pos",
+      "z": 3.9726731220998777
+     },
+     {
+      "lead": "mars_rashi \u00d7 day_vs_year_branch \u00d7 aspect_jupiter_saturn",
+      "pattern": "pos",
+      "z": 3.9464964093030055
+     }
+    ],
+    "top_blind": [
+     {
+      "lead": "sun_rashi \u00d7 month_stem \u00d7 mansion_28",
+      "pattern": "hot+100",
+      "z": 3.6383264272573186
+     },
+     {
+      "lead": "sun_rashi \u00d7 month_pillar \u00d7 mansion_28",
+      "pattern": "hot+100",
+      "z": 3.6383264272573186
+     },
+     {
+      "lead": "month_branch \u00d7 nine_star_month \u00d7 pof_nakshatra",
+      "pattern": "pos",
+      "z": 3.542096544559106
+     },
+     {
+      "lead": "paksha \u00d7 moon_phase \u00d7 plum_trigrams",
+      "pattern": "pos",
+      "z": 3.3346946994274402
+     },
+     {
+      "lead": "mercury_rashi \u00d7 ayana \u00d7 samvatsara",
+      "pattern": "pos",
+      "z": 3.3183893810995686
+     },
+     {
+      "lead": "karana \u00d7 saturn_retrograde \u00d7 day_pillar",
+      "pattern": "pos",
+      "z": 3.2901623841007903
+     },
+     {
+      "lead": "jupiter_nakshatra \u00d7 kp_asc_star_lord \u00d7 aspect_sun_jupiter",
+      "pattern": "pos",
+      "z": 3.196502860617533
+     },
+     {
+      "lead": "mercury_rashi \u00d7 mars_retrograde \u00d7 samvatsara",
+      "pattern": "pos",
+      "z": 3.158851430085166
+     }
+    ]
+   },
+   {
+    "leads": 1683248,
+    "all_ratio": 0.9969273557798156,
+    "z2": 13743,
+    "z3": 506,
+    "zmax": 5.019741633974771,
+    "chosen_ratio": 0.9914659587596296,
+    "chosen_z": -51.452580258438296,
+    "blind_leads": 94381,
+    "blind_z3": 44,
+    "blind_max": 3.80428676906597
+   },
+   {
+    "leads": 1683248,
+    "all_ratio": 0.9984134842900765,
+    "z2": 19167,
+    "z3": 758,
+    "zmax": 5.176801910756005,
+    "chosen_ratio": 0.9952162697458804,
+    "chosen_z": -28.60410623302433,
+    "blind_leads": 90676,
+    "blind_z3": 49,
+    "blind_max": 4.213089989756812
+   }
+  ],
+  "sets": 240464
+ },
+ "toto58": {
+  "label": "Supreme Toto",
+  "calendars": [
+   {
+    "leads": 1683248,
+    "all_ratio": 0.9995628569849362,
+    "z2": 22872,
+    "z3": 937,
+    "zmax": 4.83441699877084,
+    "chosen_ratio": 0.9978274456822547,
+    "chosen_z": -12.484922654857968,
+    "blind_leads": 88798,
+    "blind_z3": 40,
+    "blind_max": 4.403716524439196,
+    "top_all": [
+     {
+      "lead": "paksha \u00d7 sun_rashi \u00d7 aspect_moon_saturn",
+      "pattern": "pos",
+      "z": 4.83441699877084
+     },
+     {
+      "lead": "paksha \u00d7 sun_nakshatra \u00d7 aspect_mercury_saturn",
+      "pattern": "pos",
+      "z": 4.509571060255248
+     },
+     {
+      "lead": "jupiter_rashi \u00d7 mercury_retrograde \u00d7 plum_trigrams",
+      "pattern": "hot+100",
+      "z": 4.455430070502649
+     },
+     {
+      "lead": "karana \u00d7 ayana \u00d7 aspect_venus_saturn",
+      "pattern": "pos",
+      "z": 4.320077596121152
+     },
+     {
+      "lead": "paksha \u00d7 year_stem \u00d7 aspect_mercury_mars",
+      "pattern": "pos",
+      "z": 4.2659366063685535
+     },
+     {
+      "lead": "paksha \u00d7 venus_retrograde \u00d7 aspect_jupiter_saturn",
+      "pattern": "hot+100",
+      "z": 4.211795616615955
+     },
+     {
+      "lead": "hora_lord \u00d7 venus_combust \u00d7 samvatsara",
+      "pattern": "cold/hot100",
+      "z": 4.157654626863356
+     },
+     {
+      "lead": "masa \u00d7 yellow_black_path \u00d7 aspect_moon_mars",
+      "pattern": "pos",
+      "z": 4.1035136371107575
+     }
+    ],
+    "top_blind": [
+     {
+      "lead": "paksha \u00d7 sun_rashi \u00d7 aspect_moon_saturn",
+      "pattern": "pos",
+      "z": 4.403716524439196
+     },
+     {
+      "lead": "jupiter_rashi \u00d7 mercury_retrograde \u00d7 plum_trigrams",
+      "pattern": "hot+100",
+      "z": 3.954825479679867
+     },
+     {
+      "lead": "karana \u00d7 ayana \u00d7 aspect_venus_saturn",
+      "pattern": "pos",
+      "z": 3.839262251693399
+     },
+     {
+      "lead": "aspect_mercury_jupiter \u00d7 aspects_hard \u00d7 plum_trigrams",
+      "pattern": "hot+100",
+      "z": 3.782285634839566
+     },
+     {
+      "lead": "samvatsara \u00d7 aspect_sun_venus \u00d7 aspect_moon_mercury",
+      "pattern": "cold/hot100",
+      "z": 3.782285634839566
+     },
+     {
+      "lead": "paksha \u00d7 sun_nakshatra \u00d7 aspect_mercury_saturn",
+      "pattern": "pos",
+      "z": 3.5947023841229098
+     },
+     {
+      "lead": "paksha \u00d7 venus_retrograde \u00d7 aspect_jupiter_saturn",
+      "pattern": "hot+100",
+      "z": 3.502698584613912
+     },
+     {
+      "lead": "year_animal \u00d7 aspect_mercury_jupiter \u00d7 plum_trigrams",
+      "pattern": "hot",
+      "z": 3.4797260686979046
+     }
+    ]
+   },
+   {
+    "leads": 1683248,
+    "all_ratio": 1.0002283001163736,
+    "z2": 22177,
+    "z3": 832,
+    "zmax": 5.023910462904936,
+    "chosen_ratio": 0.9961460760240877,
+    "chosen_z": -22.545333076034076,
+    "blind_leads": 94564,
+    "blind_z3": 53,
+    "blind_max": 4.5040191217104315
+   },
+   {
+    "leads": 1683248,
+    "all_ratio": 1.0008222764786265,
+    "z2": 25479,
+    "z3": 1046,
+    "zmax": 4.509571060255248,
+    "chosen_ratio": 0.9976191243282221,
+    "chosen_z": -13.772724096562914,
+    "blind_leads": 90696,
+    "blind_z3": 64,
+    "blind_max": 3.811039538056109
+   }
+  ],
+  "sets": 240464
+ }
+}
