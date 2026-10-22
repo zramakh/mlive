@@ -44,9 +44,15 @@ import lead_search10 as ls  # noqa: E402
 import toto_profit as tp  # noqa: E402
 import profit_rank as pr  # noqa: E402
 
+CHINESE_DIV = ("dlr", "mh", "ty")                # Da Liu Ren, Mei Hua, Tai Yi (chinese_div.py)
 if FAMILY == "d9":
     import d9  # noqa: E402
     d9.enable()
+elif FAMILY in CHINESE_DIV:
+    import d9  # noqa: E402
+    import vargas  # noqa: E402
+    import chinese_div  # noqa: E402
+    chinese_div.enable()
 elif FAMILY:                                   # another divisional chart: d2, d3, ... d60 (vargas.py)
     import d9  # noqa: E402
     import vargas  # noqa: E402
@@ -236,6 +242,11 @@ def lead_sets(names):
     if FAMILY == "d9":
         fam = {names.index(p) for p in d9.FAMILY}
         sets = [s for s in sets if fam & set(s)]
+    elif FAMILY in CHINESE_DIV:                # the system's parameters, alone, paired with each other, with the other
+        fam = {names.index(p) for p in chinese_div.family(FAMILY)}         # two systems and with the 114 base + D9
+        nb = len(common.ALL_PARAMS) + len(xa.extra_params()) - len(chinese_div.NEW) - len(vargas.NEW)
+        partners = set(range(nb)) | {names.index(p) for p in chinese_div.NEW}
+        sets = [s for s in sets if fam & set(s) and set(s) <= partners]
     elif FAMILY:                               # the chart's parameters, alone, paired with each other and with the
         fam = {names.index(p) for p in vargas.family(int(FAMILY[1:]))}     # 114 base + D9 parameters
         partners = set(range(len(common.ALL_PARAMS) + len(xa.extra_params()) - len(vargas.NEW))) | fam

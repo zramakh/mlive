@@ -20,7 +20,7 @@ import numpy as np
 DATE = sys.argv[1]
 WIN = sys.argv[sys.argv.index("--window") + 1] if "--window" in sys.argv else "all"
 FAM = ["--family", sys.argv[sys.argv.index("--family") + 1]] if "--family" in sys.argv else []
-sys.argv = [sys.argv[0], "--shifts", "1", "--window", WIN] + FAM
+sys.argv = [sys.argv[0], "--shifts", "1", "--window", WIN] + FAM + ["--until", DATE]      # the data cut at DATE: it is the last row
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import lead_full as lf  # noqa: E402  (full data: the new draw is the last row)
 

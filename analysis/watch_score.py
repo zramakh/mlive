@@ -25,9 +25,9 @@ import profit_rank as pr  # noqa: E402
 import toto_full as tf  # noqa: E402
 import toto_profit as tp  # noqa: E402
 import lead_full as lfw  # noqa: E402  (history windows)
-import vargas  # noqa: E402
+import chinese_div  # noqa: E402
 
-vargas.enable()                                # D9 and the other divisional-chart parameters for the watchlist
+chinese_div.enable()                           # D9, the divisional charts and the Chinese divination charts
 
 A = os.path.join(common.ROOT, "analysis")
 LOG = os.path.join(A, "watch_log.csv")
