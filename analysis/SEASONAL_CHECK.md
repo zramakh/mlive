@@ -54,3 +54,11 @@ W = 7 per year: 2010 ×0.88, 2011 ×1.16, 2012 ×1.03, 2013 ×1.03, 2014 ×0.83,
 
 W = 7 per year: 2011 ×0.83, 2012 ×0.93, 2013 ×1.10, 2014 ×0.98, 2015 ×0.96, 2016 ×0.94, 2017 ×1.05, 2018 ×0.86, 2019 ×1.05, 2020 ×0.93, 2021 ×0.97, 2022 ×1.13, 2023 ×1.04, 2024 ×1.02, 2025 ×1.06, 2026 ×1.16
 
+
+## Star Toto lunar-date rule as 10 sets (`lunar_rule_10.py`)
+
+±7 days, hot, 10 sets built from the ranking as in every other 10-set test. Whole history (1,262 draws, 2018-2026):
+return RM1.16 per RM1, from three draws with 5 numbers (2022-02-08, 2024-07-17, 2025-04-06, RM2,008 each); per year
+×0.46, 0.72, 0.19, 0.30, 1.46, 0.17, 4.13, 1.58, 0.27. The same rule centred on 59 other dates: median return RM0.22,
+2 of 59 at or above the real date (one with a jackpot), 5-number draws 0.25 on average (at most 2). Last 10 draws
+(2026-09-30 to 10-21): best 2 numbers, RM0 on RM100.
