@@ -1,0 +1,650 @@
+{
+ "ml8": {
+  "label": "Magnum Life",
+  "calendars": [
+   {
+    "leads": 11907,
+    "all_ratio": 1.0002387039217397,
+    "z2": 173,
+    "z3": 5,
+    "zmax": 3.4270727214616907,
+    "chosen_ratio": 0.9978951258214807,
+    "chosen_z": -1.3217585135610326,
+    "blind_leads": 455,
+    "blind_z3": 0,
+    "blind_max": 2.394837165655895,
+    "top_all": [
+     {
+      "lead": "moon_rashi \u00d7 moon_out_of_bounds",
+      "pattern": "hot",
+      "z": 3.4270727214616907
+     },
+     {
+      "lead": "moon_void_of_course \u00d7 eclipse_days",
+      "pattern": "cold/hot100",
+      "z": 3.265587619403287
+     },
+     {
+      "lead": "aspect_sun_jupiter \u00d7 moon_void_of_course",
+      "pattern": "cold/hot100",
+      "z": 3.2117592520504856
+     },
+     {
+      "lead": "day_vs_year_branch \u00d7 choghadiya_quality",
+      "pattern": "hot",
+      "z": 3.077188333668482
+     },
+     {
+      "lead": "rahu_nakshatra \u00d7 moon_out_of_bounds",
+      "pattern": "cold/hot100",
+      "z": 3.0233599663156805
+     },
+     {
+      "lead": "year_element \u00d7 choghadiya",
+      "pattern": "cold/hot100",
+      "z": 2.969531598962879
+     },
+     {
+      "lead": "ayana \u00d7 panchaka",
+      "pattern": "pos",
+      "z": 2.942617415286479
+     },
+     {
+      "lead": "moon_rashi \u00d7 moon_out_of_bounds",
+      "pattern": "pos",
+      "z": 2.915703231610078
+     }
+    ],
+    "top_blind": [
+     {
+      "lead": "moon_void_of_course \u00d7 eclipse_days",
+      "pattern": "cold/hot100",
+      "z": 2.394837165655895
+     },
+     {
+      "lead": "moon_rashi \u00d7 moon_out_of_bounds",
+      "pattern": "hot",
+      "z": 2.2463139846361373
+     },
+     {
+      "lead": "aspect_sun_jupiter \u00d7 moon_void_of_course",
+      "pattern": "cold/hot100",
+      "z": 2.115496761943363
+     },
+     {
+      "lead": "year_element \u00d7 choghadiya",
+      "pattern": "cold/hot100",
+      "z": 2.0731426210155512
+     },
+     {
+      "lead": "rahu_nakshatra \u00d7 moon_out_of_bounds",
+      "pattern": "cold/hot100",
+      "z": 1.9861533663856863
+     },
+     {
+      "lead": "day_vs_year_branch \u00d7 choghadiya_quality",
+      "pattern": "hot",
+      "z": 1.9803031180344894
+     },
+     {
+      "lead": "moon_rashi \u00d7 moon_out_of_bounds",
+      "pattern": "pos",
+      "z": 1.8482260492755702
+     },
+     {
+      "lead": "ayana \u00d7 panchaka",
+      "pattern": "pos",
+      "z": 1.7806930349788748
+     }
+    ]
+   },
+   {
+    "leads": 11907,
+    "all_ratio": 0.999208332727678,
+    "z2": 241,
+    "z3": 11,
+    "zmax": 3.4539869051380916,
+    "chosen_ratio": 1.0005525531325616,
+    "chosen_z": 0.3459580253744185,
+    "blind_leads": 485,
+    "blind_z3": 0,
+    "blind_max": 2.476108666927763
+   },
+   {
+    "leads": 11907,
+    "all_ratio": 0.9995602942031514,
+    "z2": 209,
+    "z3": 16,
+    "zmax": 3.615472007196496,
+    "chosen_ratio": 1.0000595359597197,
+    "chosen_z": 0.036599987618749136,
+    "blind_leads": 435,
+    "blind_z3": 0,
+    "blind_max": 2.83351154471091
+   },
+   {
+    "leads": 11907,
+    "all_ratio": 1.0005620481810957,
+    "z2": 142,
+    "z3": 6,
+    "zmax": 3.4809010888144925,
+    "chosen_ratio": 0.9940170418248093,
+    "chosen_z": -3.6889056225923595,
+    "blind_leads": 467,
+    "blind_z3": 0,
+    "blind_max": 2.5766424022767103
+   },
+   {
+    "leads": 11907,
+    "all_ratio": 0.9995807350718064,
+    "z2": 145,
+    "z3": 7,
+    "zmax": 3.830785476607701,
+    "chosen_ratio": 0.9970611782533723,
+    "chosen_z": -1.8181445694329381,
+    "blind_leads": 466,
+    "blind_z3": 0,
+    "blind_max": 2.930341927326089
+   },
+   {
+    "leads": 11907,
+    "all_ratio": 1.0017167301393493,
+    "z2": 238,
+    "z3": 9,
+    "zmax": 3.615472007196496,
+    "chosen_ratio": 0.9971522704032485,
+    "chosen_z": -1.7683067612440881,
+    "blind_leads": 469,
+    "blind_z3": 0,
+    "blind_max": 2.6263295083527773
+   }
+  ],
+  "sets": 1701
+ },
+ "toto50": {
+  "label": "Star Toto",
+  "calendars": [
+   {
+    "leads": 11907,
+    "all_ratio": 0.99937717808131,
+    "z2": 198,
+    "z3": 7,
+    "zmax": 3.5476864870559712,
+    "chosen_ratio": 0.9935421872306559,
+    "chosen_z": -2.289412373458142,
+    "blind_leads": 432,
+    "blind_z3": 0,
+    "blind_max": 2.6494091728408873,
+    "top_all": [
+     {
+      "lead": "jupiter_retrograde \u00d7 station_saturn",
+      "pattern": "cold",
+      "z": 3.5476864870559712
+     },
+     {
+      "lead": "nine_star_month \u00d7 panchaka",
+      "pattern": "cold",
+      "z": 3.402764653434404
+     },
+     {
+      "lead": "masa \u00d7 moon_out_of_bounds",
+      "pattern": "cold",
+      "z": 3.3665341950290117
+     },
+     {
+      "lead": "planets_with_moon \u00d7 choghadiya_quality",
+      "pattern": "cold",
+      "z": 3.33030373662362
+     },
+     {
+      "lead": "jupiter_retrograde \u00d7 moon_out_of_bounds",
+      "pattern": "cold",
+      "z": 3.112920986191269
+     },
+     {
+      "lead": "lunar_month \u00d7 station_jupiter",
+      "pattern": "pos",
+      "z": 3.0766905277858774
+     },
+     {
+      "lead": "saturn_rashi \u00d7 day_part_19h",
+      "pattern": "cold+100",
+      "z": 3.0042296109750937
+     },
+     {
+      "lead": "lunar_month \u00d7 moon_out_of_bounds",
+      "pattern": "hot/cold100",
+      "z": 2.93176869416431
+     }
+    ],
+    "top_blind": [
+     {
+      "lead": "saturn_rashi \u00d7 day_part_19h",
+      "pattern": "cold+100",
+      "z": 2.6494091728408873
+     },
+     {
+      "lead": "masa \u00d7 moon_out_of_bounds",
+      "pattern": "cold",
+      "z": 2.3634967019823248
+     },
+     {
+      "lead": "mansion_28 \u00d7 choghadiya_quality",
+      "pattern": "cold",
+      "z": 2.1878396305341123
+     },
+     {
+      "lead": "lunar_month \u00d7 station_jupiter",
+      "pattern": "pos",
+      "z": 2.121397389801199
+     },
+     {
+      "lead": "planets_with_moon \u00d7 choghadiya_quality",
+      "pattern": "cold",
+      "z": 2.0575804103718185
+     },
+     {
+      "lead": "mansion_28 \u00d7 day_part_19h",
+      "pattern": "cold",
+      "z": 1.935514947406408
+     },
+     {
+      "lead": "mansion_28 \u00d7 choghadiya",
+      "pattern": "cold",
+      "z": 1.935514947406408
+     },
+     {
+      "lead": "lunar_month \u00d7 moon_out_of_bounds",
+      "pattern": "hot/cold100",
+      "z": 1.9190870061944176
+     }
+    ]
+   },
+   {
+    "leads": 11907,
+    "all_ratio": 0.9964145411312413,
+    "z2": 79,
+    "z3": 0,
+    "zmax": 2.8593077773535263,
+    "chosen_ratio": 0.9822783934787354,
+    "chosen_z": -6.177542663179896,
+    "blind_leads": 438,
+    "blind_z3": 0,
+    "blind_max": 2.6494091728408873
+   },
+   {
+    "leads": 11907,
+    "all_ratio": 0.9989952732799603,
+    "z2": 160,
+    "z3": 5,
+    "zmax": 3.765069237488322,
+    "chosen_ratio": 0.9933430521066265,
+    "chosen_z": -2.333919081070761,
+    "blind_leads": 422,
+    "blind_z3": 0,
+    "blind_max": 2.679992891124293
+   },
+   {
+    "leads": 11907,
+    "all_ratio": 0.9995338949466448,
+    "z2": 184,
+    "z3": 7,
+    "zmax": 3.4389951118397954,
+    "chosen_ratio": 0.9945920062398029,
+    "chosen_z": -1.8970346620160712,
+    "blind_leads": 409,
+    "blind_z3": 0,
+    "blind_max": 2.781725774968828
+   },
+   {
+    "leads": 11907,
+    "all_ratio": 0.9971667646621843,
+    "z2": 112,
+    "z3": 4,
+    "zmax": 3.294073278218228,
+    "chosen_ratio": 0.9839065614889215,
+    "chosen_z": -5.772055650317533,
+    "blind_leads": 489,
+    "blind_z3": 0,
+    "blind_max": 2.8801939439942745
+   },
+   {
+    "leads": 11907,
+    "all_ratio": 1.0010359899488512,
+    "z2": 172,
+    "z3": 8,
+    "zmax": 3.1853819030020527,
+    "chosen_ratio": 0.994189896426985,
+    "chosen_z": -2.0420910399948626,
+    "blind_leads": 427,
+    "blind_z3": 0,
+    "blind_max": 2.6278692608665697
+   }
+  ],
+  "sets": 1701
+ },
+ "toto55": {
+  "label": "Power Toto",
+  "calendars": [
+   {
+    "leads": 11907,
+    "all_ratio": 0.9976892533712968,
+    "z2": 138,
+    "z3": 5,
+    "zmax": 3.187371738193708,
+    "chosen_ratio": 0.990299971294613,
+    "chosen_z": -4.887250739249748,
+    "blind_leads": 649,
+    "blind_z3": 0,
+    "blind_max": 2.680237577041959,
+    "top_all": [
+     {
+      "lead": "jupiter_nakshatra \u00d7 station_jupiter",
+      "pattern": "cold",
+      "z": 3.187371738193708
+     },
+     {
+      "lead": "day_god \u00d7 eclipse_days",
+      "pattern": "pos",
+      "z": 3.187371738193708
+     },
+     {
+      "lead": "mars_nakshatra \u00d7 day_part_19h",
+      "pattern": "pos",
+      "z": 3.1350183125999633
+     },
+     {
+      "lead": "aspect_venus_jupiter \u00d7 rahu_kalam",
+      "pattern": "cold",
+      "z": 3.108841599803091
+     },
+     {
+      "lead": "venus_combust \u00d7 rahu_kalam",
+      "pattern": "cold",
+      "z": 3.030311461412474
+     },
+     {
+      "lead": "aspect_sun_moon \u00d7 choghadiya_quality",
+      "pattern": "cold",
+      "z": 2.9517813230218573
+     },
+     {
+      "lead": "mars_retrograde \u00d7 eclipse_season",
+      "pattern": "pos",
+      "z": 2.9517813230218573
+     },
+     {
+      "lead": "day_branch \u00d7 eclipse_days",
+      "pattern": "pos",
+      "z": 2.8994278974281125
+     }
+    ],
+    "top_blind": [
+     {
+      "lead": "saturn_rashi \u00d7 choghadiya",
+      "pattern": "cold",
+      "z": 2.680237577041959
+     },
+     {
+      "lead": "mars_nakshatra \u00d7 eclipse_season",
+      "pattern": "pos",
+      "z": 2.641396406635032
+     },
+     {
+      "lead": "venus_combust \u00d7 rahu_kalam",
+      "pattern": "cold",
+      "z": 2.3611616750131543
+     },
+     {
+      "lead": "aspect_venus_jupiter \u00d7 rahu_kalam",
+      "pattern": "cold",
+      "z": 2.3511845696613176
+     },
+     {
+      "lead": "jupiter_nakshatra \u00d7 station_mars",
+      "pattern": "cold",
+      "z": 2.257235624709267
+     },
+     {
+      "lead": "day_branch \u00d7 eclipse_days",
+      "pattern": "pos",
+      "z": 2.211770185143291
+     },
+     {
+      "lead": "mars_nakshatra \u00d7 eclipse_season",
+      "pattern": "hot",
+      "z": 2.1932088277216395
+     },
+     {
+      "lead": "aspect_mercury_venus \u00d7 station_mars",
+      "pattern": "hot",
+      "z": 2.0420857729843496
+     }
+    ]
+   },
+   {
+    "leads": 11907,
+    "all_ratio": 0.996300834191057,
+    "z2": 80,
+    "z3": 1,
+    "zmax": 3.1350183125999633,
+    "chosen_ratio": 0.9887788064513982,
+    "chosen_z": -5.686997282782041,
+    "blind_leads": 699,
+    "blind_z3": 0,
+    "blind_max": 2.431548613657981
+   },
+   {
+    "leads": 11907,
+    "all_ratio": 0.9996801396599706,
+    "z2": 152,
+    "z3": 5,
+    "zmax": 3.5538457173499207,
+    "chosen_ratio": 0.9933984130280072,
+    "chosen_z": -3.323508918714701,
+    "blind_leads": 619,
+    "blind_z3": 0,
+    "blind_max": 2.5773696096474046
+   },
+   {
+    "leads": 11907,
+    "all_ratio": 0.9970448229167772,
+    "z2": 93,
+    "z3": 9,
+    "zmax": 3.6323758557405377,
+    "chosen_ratio": 0.9876261717766542,
+    "chosen_z": -6.26757350609753,
+    "blind_leads": 680,
+    "blind_z3": 1,
+    "blind_max": 3.316824447021235
+   },
+   {
+    "leads": 11907,
+    "all_ratio": 0.9979220522447025,
+    "z2": 69,
+    "z3": 0,
+    "zmax": 2.9256046102249846,
+    "chosen_ratio": 0.9852542554744653,
+    "chosen_z": -7.456737991147487,
+    "blind_leads": 714,
+    "blind_z3": 0,
+    "blind_max": 1.9370471494999282
+   },
+   {
+    "leads": 11907,
+    "all_ratio": 0.9968994864498468,
+    "z2": 75,
+    "z3": 2,
+    "zmax": 3.2135484509905803,
+    "chosen_ratio": 0.986767360725082,
+    "chosen_z": -6.680765569360846,
+    "blind_leads": 689,
+    "blind_z3": 0,
+    "blind_max": 2.18475775777195
+   }
+  ],
+  "sets": 1701
+ },
+ "toto58": {
+  "label": "Supreme Toto",
+  "calendars": [
+   {
+    "leads": 11907,
+    "all_ratio": 1.0006129611521923,
+    "z2": 178,
+    "z3": 5,
+    "zmax": 3.291398790821776,
+    "chosen_ratio": 0.9935234453702941,
+    "chosen_z": -3.1720917276590765,
+    "blind_leads": 672,
+    "blind_z3": 0,
+    "blind_max": 2.3682660693693474,
+    "top_all": [
+     {
+      "lead": "aspects_soft \u00d7 eclipse_season",
+      "pattern": "hot",
+      "z": 3.291398790821776
+     },
+     {
+      "lead": "aspects_soft \u00d7 eclipse_season",
+      "pattern": "pos",
+      "z": 3.156046316440279
+     },
+     {
+      "lead": "year_animal \u00d7 station_mars",
+      "pattern": "hot+100",
+      "z": 3.12897582156398
+     },
+     {
+      "lead": "day_branch \u00d7 moon_out_of_bounds",
+      "pattern": "cold+100",
+      "z": 3.1019053266876804
+     },
+     {
+      "lead": "jupiter_rashi \u00d7 station_mars",
+      "pattern": "hot+100",
+      "z": 3.074834831811381
+     },
+     {
+      "lead": "year_yinyang \u00d7 panchaka",
+      "pattern": "hot",
+      "z": 2.966552852306184
+     },
+     {
+      "lead": "day_of_month \u00d7 eclipse_season",
+      "pattern": "cold/hot100",
+      "z": 2.912411862553585
+     },
+     {
+      "lead": "kp_moon_number \u00d7 eclipse_days",
+      "pattern": "pos",
+      "z": 2.8582708728009862
+     }
+    ],
+    "top_blind": [
+     {
+      "lead": "day_branch \u00d7 moon_out_of_bounds",
+      "pattern": "cold+100",
+      "z": 2.3682660693693474
+     },
+     {
+      "lead": "aspects_soft \u00d7 eclipse_season",
+      "pattern": "hot",
+      "z": 2.1277911022569067
+     },
+     {
+      "lead": "year_animal \u00d7 station_mars",
+      "pattern": "hot+100",
+      "z": 1.9364548481004713
+     },
+     {
+      "lead": "year_stem \u00d7 station_mars",
+      "pattern": "pos",
+      "z": 1.9087457392431584
+     },
+     {
+      "lead": "day_of_month \u00d7 eclipse_season",
+      "pattern": "cold/hot100",
+      "z": 1.8866347296547765
+     },
+     {
+      "lead": "year_animal \u00d7 station_venus",
+      "pattern": "hot+100",
+      "z": 1.8408029466282112
+     },
+     {
+      "lead": "jupiter_rashi \u00d7 station_mars",
+      "pattern": "hot+100",
+      "z": 1.8261540485148307
+     },
+     {
+      "lead": "kp_moon_number \u00d7 eclipse_days",
+      "pattern": "pos",
+      "z": 1.8212674570621976
+     }
+    ]
+   },
+   {
+    "leads": 11907,
+    "all_ratio": 1.0043838633336932,
+    "z2": 274,
+    "z3": 13,
+    "zmax": 3.480892254955872,
+    "chosen_ratio": 0.9992949452068668,
+    "chosen_z": -0.3440417472180753,
+    "blind_leads": 666,
+    "blind_z3": 0,
+    "blind_max": 2.4147954834915595
+   },
+   {
+    "leads": 11907,
+    "all_ratio": 1.0022839733907802,
+    "z2": 184,
+    "z3": 7,
+    "zmax": 3.3184692856980758,
+    "chosen_ratio": 0.9959544613532343,
+    "chosen_z": -1.974107770670025,
+    "blind_leads": 648,
+    "blind_z3": 0,
+    "blind_max": 2.9037227258788256
+   },
+   {
+    "leads": 11907,
+    "all_ratio": 1.0025211649098857,
+    "z2": 281,
+    "z3": 7,
+    "zmax": 3.9952316576055598,
+    "chosen_ratio": 0.9986229348525355,
+    "chosen_z": -0.6662595885042685,
+    "blind_leads": 638,
+    "blind_z3": 1,
+    "blind_max": 3.4926068656612532
+   },
+   {
+    "leads": 11907,
+    "all_ratio": 1.00313699705011,
+    "z2": 393,
+    "z3": 24,
+    "zmax": 3.9140201729766617,
+    "chosen_ratio": 1.0090148767176363,
+    "chosen_z": 4.414761238036807,
+    "blind_leads": 576,
+    "blind_z3": 3,
+    "blind_max": 3.1865550109708143
+   },
+   {
+    "leads": 11907,
+    "all_ratio": 1.0016187095714895,
+    "z2": 180,
+    "z3": 3,
+    "zmax": 3.3184692856980758,
+    "chosen_ratio": 0.9899767900458963,
+    "chosen_z": -4.926569220663901,
+    "blind_leads": 725,
+    "blind_z3": 0,
+    "blind_max": 2.940229878138424
+   }
+  ],
+  "sets": 1701
+ }
+}
