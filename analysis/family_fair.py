@@ -41,7 +41,7 @@ G = {}
 
 def family_table(key):
     f = {"muhurta": "astro_params_muhurta.csv", "continuous": "astro_params_continuous.csv",
-         "transit": f"astro_params_transit_{key}.csv"}[FAM]
+         "transit": f"astro_params_transit_{key}.csv", "strength": "astro_params_strength.csv"}[FAM]
     rows = {r.pop("date"): r for r in csv.DictReader(open(os.path.join(common.DATA, f)))}
     names = [p for p in next(iter(rows.values())) if len({r[p] for r in rows.values()}) > 1]
     return rows, names

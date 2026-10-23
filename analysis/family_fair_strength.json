@@ -1,0 +1,650 @@
+{
+ "ml8": {
+  "label": "Magnum Life",
+  "calendars": [
+   {
+    "leads": 18375,
+    "all_ratio": 1.0000249215070645,
+    "z2": 295,
+    "z3": 15,
+    "zmax": 3.8846138439605027,
+    "chosen_ratio": 0.9996173143974828,
+    "chosen_z": -0.2975976853015536,
+    "blind_leads": 710,
+    "blind_z3": 1,
+    "blind_max": 3.14474283011067,
+    "top_all": [
+     {
+      "lead": "lunar_month \u00d7 sb_moon",
+      "pattern": "cold",
+      "z": 3.8846138439605027
+     },
+     {
+      "lead": "mercury_rashi \u00d7 sb_moon",
+      "pattern": "cold",
+      "z": 3.615472007196496
+     },
+     {
+      "lead": "month \u00d7 sb_moon",
+      "pattern": "cold",
+      "z": 3.4809010888144925
+     },
+     {
+      "lead": "karana \u00d7 sb_jupiter",
+      "pattern": "cold",
+      "z": 3.4809010888144925
+     },
+     {
+      "lead": "sb_moon \u00d7 sb_weakest",
+      "pattern": "cold",
+      "z": 3.4539869051380916
+     },
+     {
+      "lead": "kp_moon_number \u00d7 sb_weakest",
+      "pattern": "hot",
+      "z": 3.319415986756088
+     },
+     {
+      "lead": "yellow_black_path \u00d7 sb_jupiter",
+      "pattern": "cold/hot100",
+      "z": 3.2925018030796873
+     },
+     {
+      "lead": "yellow_black_path \u00d7 sb_jupiter",
+      "pattern": "cold",
+      "z": 3.265587619403287
+     }
+    ],
+    "top_blind": [
+     {
+      "lead": "mercury_rashi \u00d7 sb_moon",
+      "pattern": "cold",
+      "z": 3.14474283011067
+     },
+     {
+      "lead": "lunar_month \u00d7 sb_moon",
+      "pattern": "cold",
+      "z": 2.804266586107242
+     },
+     {
+      "lead": "karana \u00d7 sb_jupiter",
+      "pattern": "cold",
+      "z": 2.6263295083527773
+     },
+     {
+      "lead": "yellow_black_path \u00d7 sb_jupiter",
+      "pattern": "cold",
+      "z": 2.537862634826155
+     },
+     {
+      "lead": "month \u00d7 sb_moon",
+      "pattern": "cold",
+      "z": 2.520591886570815
+     },
+     {
+      "lead": "sb_moon \u00d7 sb_weakest",
+      "pattern": "cold",
+      "z": 2.3603186417511295
+     },
+     {
+      "lead": "yellow_black_path \u00d7 sb_jupiter",
+      "pattern": "cold/hot100",
+      "z": 2.2781196153904326
+     },
+     {
+      "lead": "kp_moon_number \u00d7 sb_weakest",
+      "pattern": "hot",
+      "z": 2.1895534100404808
+     }
+    ]
+   },
+   {
+    "leads": 18375,
+    "all_ratio": 1.000462519623234,
+    "z2": 386,
+    "z3": 19,
+    "zmax": 4.18066986440091,
+    "chosen_ratio": 1.0004251336898395,
+    "chosen_z": 0.3296010332205838,
+    "blind_leads": 700,
+    "blind_z3": 1,
+    "blind_max": 3.179844814370391
+   },
+   {
+    "leads": 18375,
+    "all_ratio": 1.0011017464678178,
+    "z2": 441,
+    "z3": 25,
+    "zmax": 3.857699660284102,
+    "chosen_ratio": 0.9990446002784639,
+    "chosen_z": -0.7332004844905408,
+    "blind_leads": 694,
+    "blind_z3": 0,
+    "blind_max": 2.930341927326089
+   },
+   {
+    "leads": 18375,
+    "all_ratio": 1.0004781200941915,
+    "z2": 328,
+    "z3": 18,
+    "zmax": 3.8846138439605027,
+    "chosen_ratio": 1.00010310037558,
+    "chosen_z": 0.07865127166682835,
+    "blind_leads": 713,
+    "blind_z3": 0,
+    "blind_max": 2.614075376869458
+   },
+   {
+    "leads": 18375,
+    "all_ratio": 1.0006101844583988,
+    "z2": 317,
+    "z3": 11,
+    "zmax": 4.0460989460189065,
+    "chosen_ratio": 0.9974848559666758,
+    "chosen_z": -1.922709701469138,
+    "blind_leads": 701,
+    "blind_z3": 1,
+    "blind_max": 3.0443465844410813
+   },
+   {
+    "leads": 18375,
+    "all_ratio": 1.0018579277864992,
+    "z2": 393,
+    "z3": 18,
+    "zmax": 3.615472007196496,
+    "chosen_ratio": 0.9946606326327081,
+    "chosen_z": -4.161106295849798,
+    "blind_leads": 764,
+    "blind_z3": 0,
+    "blind_max": 2.537862634826155
+   }
+  ],
+  "sets": 2625
+ },
+ "toto50": {
+  "label": "Star Toto",
+  "calendars": [
+   {
+    "leads": 18375,
+    "all_ratio": 1.001606663742586,
+    "z2": 513,
+    "z3": 48,
+    "zmax": 4.489678405596159,
+    "chosen_ratio": 1.007424762282457,
+    "chosen_z": 3.2095802100243462,
+    "blind_leads": 594,
+    "blind_z3": 3,
+    "blind_max": 3.7568359061677623,
+    "top_all": [
+     {
+      "lead": "moon_phase \u00d7 sb_moon",
+      "pattern": "cold",
+      "z": 4.489678405596159
+     },
+     {
+      "lead": "draw_in_daylight \u00d7 sb_mercury",
+      "pattern": "cold",
+      "z": 4.236065196758416
+     },
+     {
+      "lead": "jupiter_retrograde \u00d7 sb_strongest",
+      "pattern": "cold+100",
+      "z": 3.9099910711098893
+     },
+     {
+      "lead": "aspect_mercury_saturn \u00d7 sb_jupiter",
+      "pattern": "cold",
+      "z": 3.801299695893714
+     },
+     {
+      "lead": "year_yinyang \u00d7 sb_mercury",
+      "pattern": "cold",
+      "z": 3.692608320677538
+     },
+     {
+      "lead": "jupiter_retrograde \u00d7 sb_strongest",
+      "pattern": "cold",
+      "z": 3.692608320677538
+     },
+     {
+      "lead": "adhika_masa \u00d7 sb_strongest",
+      "pattern": "cold+100",
+      "z": 3.6201474038667545
+     },
+     {
+      "lead": "aspect_mars_jupiter \u00d7 sb_strongest",
+      "pattern": "cold+100",
+      "z": 3.583916945461363
+     }
+    ],
+    "top_blind": [
+     {
+      "lead": "moon_phase \u00d7 sb_moon",
+      "pattern": "cold",
+      "z": 3.7568359061677623
+     },
+     {
+      "lead": "draw_in_daylight \u00d7 sb_mercury",
+      "pattern": "cold",
+      "z": 3.3830213881411195
+     },
+     {
+      "lead": "aspect_mars_jupiter \u00d7 sb_weakest",
+      "pattern": "cold+100",
+      "z": 3.341763486301049
+     },
+     {
+      "lead": "aspect_mercury_saturn \u00d7 sb_jupiter",
+      "pattern": "cold",
+      "z": 2.771277361399565
+     },
+     {
+      "lead": "year_yinyang \u00d7 sb_mercury",
+      "pattern": "cold",
+      "z": 2.728845981594494
+     },
+     {
+      "lead": "mars_retrograde \u00d7 sb_mercury",
+      "pattern": "cold+100",
+      "z": 2.6494091728408873
+     },
+     {
+      "lead": "jupiter_retrograde \u00d7 sb_strongest",
+      "pattern": "cold+100",
+      "z": 2.6489431635743927
+     },
+     {
+      "lead": "jupiter_retrograde \u00d7 sb_strongest",
+      "pattern": "cold",
+      "z": 2.526608965749221
+     }
+    ]
+   },
+   {
+    "leads": 18375,
+    "all_ratio": 0.9980982186252644,
+    "z2": 269,
+    "z3": 15,
+    "zmax": 4.12737382154224,
+    "chosen_ratio": 0.9921062322768964,
+    "chosen_z": -3.40544353532202,
+    "blind_leads": 688,
+    "blind_z3": 2,
+    "blind_max": 3.3751920846714496
+   },
+   {
+    "leads": 18375,
+    "all_ratio": 0.999665706461823,
+    "z2": 230,
+    "z3": 12,
+    "zmax": 3.8375301542991056,
+    "chosen_ratio": 0.9861955508416616,
+    "chosen_z": -6.05561895544171,
+    "blind_leads": 723,
+    "blind_z3": 1,
+    "blind_max": 3.918725414184517
+   },
+   {
+    "leads": 18375,
+    "all_ratio": 1.0008672890781074,
+    "z2": 308,
+    "z3": 7,
+    "zmax": 3.7288387790829303,
+    "chosen_ratio": 0.9926999283047174,
+    "chosen_z": -3.227195231517086,
+    "blind_leads": 678,
+    "blind_z3": 0,
+    "blind_max": 2.7668546200886053
+   },
+   {
+    "leads": 18375,
+    "all_ratio": 0.9970690325752739,
+    "z2": 204,
+    "z3": 15,
+    "zmax": 4.453447947190766,
+    "chosen_ratio": 0.9898171369113485,
+    "chosen_z": -4.421790727156846,
+    "blind_leads": 679,
+    "blind_z3": 3,
+    "blind_max": 3.015945757049909
+   },
+   {
+    "leads": 18375,
+    "all_ratio": 1.0003811465669996,
+    "z2": 369,
+    "z3": 23,
+    "zmax": 3.511456028650579,
+    "chosen_ratio": 0.9954281364718125,
+    "chosen_z": -1.9882745298447608,
+    "blind_leads": 681,
+    "blind_z3": 0,
+    "blind_max": 2.7172210313846494
+   }
+  ],
+  "sets": 2625
+ },
+ "toto55": {
+  "label": "Power Toto",
+  "calendars": [
+   {
+    "leads": 18375,
+    "all_ratio": 0.9976621243937105,
+    "z2": 185,
+    "z3": 11,
+    "zmax": 4.0250265476936224,
+    "chosen_ratio": 0.9937294658847163,
+    "chosen_z": -3.8968033588096262,
+    "blind_leads": 980,
+    "blind_z3": 1,
+    "blind_max": 3.2901623841007903,
+    "top_all": [
+     {
+      "lead": "universal_day \u00d7 sb_moon",
+      "pattern": "hot",
+      "z": 4.0250265476936224
+     },
+     {
+      "lead": "aspect_mercury_mars \u00d7 sb_mercury",
+      "pattern": "cold",
+      "z": 3.8679662709123885
+     },
+     {
+      "lead": "day_of_month \u00d7 sb_benefics_minus_malefics",
+      "pattern": "hot",
+      "z": 3.65855256853741
+     },
+     {
+      "lead": "day_of_month \u00d7 sb_benefics_minus_malefics",
+      "pattern": "pos",
+      "z": 3.370608727771814
+     },
+     {
+      "lead": "mars_combust \u00d7 sav_sun",
+      "pattern": "pos",
+      "z": 3.31825530217807
+     },
+     {
+      "lead": "lunar_leap_month \u00d7 sb_venus",
+      "pattern": "cold",
+      "z": 3.31825530217807
+     },
+     {
+      "lead": "mars_combust \u00d7 sav_sun",
+      "pattern": "hot",
+      "z": 3.108841599803091
+     },
+     {
+      "lead": "pof_sign \u00d7 bav_saturn",
+      "pattern": "hot",
+      "z": 3.082664887006219
+     }
+    ],
+    "top_blind": [
+     {
+      "lead": "universal_day \u00d7 sb_moon",
+      "pattern": "hot",
+      "z": 3.2901623841007903
+     },
+     {
+      "lead": "day_of_month \u00d7 sb_benefics_minus_malefics",
+      "pattern": "hot",
+      "z": 2.5820343054413857
+     },
+     {
+      "lead": "aspect_mercury_mars \u00d7 sb_mercury",
+      "pattern": "cold",
+      "z": 2.5295402051244906
+     },
+     {
+      "lead": "day_of_month \u00d7 sb_benefics_minus_malefics",
+      "pattern": "pos",
+      "z": 2.2516033382248697
+     },
+     {
+      "lead": "draw_in_daylight \u00d7 sav_sun",
+      "pattern": "cold",
+      "z": 2.2255544166509122
+     },
+     {
+      "lead": "mars_combust \u00d7 sav_sun",
+      "pattern": "pos",
+      "z": 2.1700180478911633
+     },
+     {
+      "lead": "mars_combust \u00d7 sav_sun",
+      "pattern": "hot",
+      "z": 2.013881218176336
+     },
+     {
+      "lead": "yoga \u00d7 sav_best_sign_house",
+      "pattern": "pos",
+      "z": 2.0109341740042863
+     }
+    ]
+   },
+   {
+    "leads": 18375,
+    "all_ratio": 0.9979715492675195,
+    "z2": 199,
+    "z3": 5,
+    "zmax": 3.396785440568687,
+    "chosen_ratio": 0.9914909888863319,
+    "chosen_z": -5.2934711026848404,
+    "blind_leads": 957,
+    "blind_z3": 0,
+    "blind_max": 2.5773696096474046
+   },
+   {
+    "leads": 18375,
+    "all_ratio": 0.996361961108672,
+    "z2": 204,
+    "z3": 7,
+    "zmax": 3.501492291756176,
+    "chosen_ratio": 0.9920657617122957,
+    "chosen_z": -4.95044267130136,
+    "blind_leads": 1010,
+    "blind_z3": 0,
+    "blind_max": 2.862001028885821
+   },
+   {
+    "leads": 18375,
+    "all_ratio": 0.9957860401432349,
+    "z2": 162,
+    "z3": 14,
+    "zmax": 3.7109059941311546,
+    "chosen_ratio": 0.9929027430547736,
+    "chosen_z": -4.462985908748365,
+    "blind_leads": 1021,
+    "blind_z3": 0,
+    "blind_max": 2.9195445035635625
+   },
+   {
+    "leads": 18375,
+    "all_ratio": 0.9988898755054355,
+    "z2": 281,
+    "z3": 14,
+    "zmax": 3.8941429837092607,
+    "chosen_ratio": 0.9954923381274046,
+    "chosen_z": -2.8089344893565853,
+    "blind_leads": 999,
+    "blind_z3": 0,
+    "blind_max": 2.763338000807507
+   },
+   {
+    "leads": 18375,
+    "all_ratio": 0.9965638228540954,
+    "z2": 179,
+    "z3": 4,
+    "zmax": 3.8417895581155164,
+    "chosen_ratio": 0.9877815586999543,
+    "chosen_z": -7.683573373150957,
+    "blind_leads": 1050,
+    "blind_z3": 1,
+    "blind_max": 3.3024355859981283
+   }
+  ],
+  "sets": 2625
+ },
+ "toto58": {
+  "label": "Supreme Toto",
+  "calendars": [
+   {
+    "leads": 18375,
+    "all_ratio": 1.001735602706691,
+    "z2": 340,
+    "z3": 11,
+    "zmax": 3.345539780574375,
+    "chosen_ratio": 1.0000262131310003,
+    "chosen_z": 0.015838770264788127,
+    "blind_leads": 999,
+    "blind_z3": 0,
+    "blind_max": 2.801776545950882,
+    "top_all": [
+     {
+      "lead": "plum_trigrams \u00d7 sb_mars",
+      "pattern": "pos",
+      "z": 3.345539780574375
+     },
+     {
+      "lead": "sav_moon \u00d7 sb_venus",
+      "pattern": "cold",
+      "z": 3.345539780574375
+     },
+     {
+      "lead": "yoga \u00d7 sb_benefics_minus_malefics",
+      "pattern": "pos",
+      "z": 3.3184692856980758
+     },
+     {
+      "lead": "kp_asc_sub_lord \u00d7 sb_weakest",
+      "pattern": "hot+100",
+      "z": 3.291398790821776
+     },
+     {
+      "lead": "nine_star_day \u00d7 bav_mars",
+      "pattern": "cold",
+      "z": 3.210187306192878
+     },
+     {
+      "lead": "plum_trigrams \u00d7 sb_moon",
+      "pattern": "hot",
+      "z": 3.156046316440279
+     },
+     {
+      "lead": "plum_trigrams \u00d7 sb_moon",
+      "pattern": "pos",
+      "z": 3.12897582156398
+     },
+     {
+      "lead": "planets_with_moon \u00d7 sav_sun",
+      "pattern": "pos",
+      "z": 3.1019053266876804
+     }
+    ],
+    "top_blind": [
+     {
+      "lead": "nine_star_day \u00d7 bav_mars",
+      "pattern": "cold",
+      "z": 2.801776545950882
+     },
+     {
+      "lead": "kp_asc_sub_lord \u00d7 sb_weakest",
+      "pattern": "hot+100",
+      "z": 2.5241116234141923
+     },
+     {
+      "lead": "plum_trigrams \u00d7 sb_moon",
+      "pattern": "hot",
+      "z": 2.341335069623006
+     },
+     {
+      "lead": "moon_sign_tropical \u00d7 sb_saturn",
+      "pattern": "hot",
+      "z": 2.2788383652102504
+     },
+     {
+      "lead": "sav_moon \u00d7 sb_jupiter",
+      "pattern": "hot",
+      "z": 2.145899433456006
+     },
+     {
+      "lead": "plum_trigrams \u00d7 sb_mars",
+      "pattern": "pos",
+      "z": 2.1153248004534366
+     },
+     {
+      "lead": "aspects_soft \u00d7 sav_sun",
+      "pattern": "hot+100",
+      "z": 2.0552614259505475
+     },
+     {
+      "lead": "sav_moon \u00d7 sb_venus",
+      "pattern": "cold",
+      "z": 2.0302427048426415
+     }
+    ]
+   },
+   {
+    "leads": 18375,
+    "all_ratio": 1.0033963597343698,
+    "z2": 409,
+    "z3": 23,
+    "zmax": 3.9681611627292606,
+    "chosen_ratio": 0.9974133418829887,
+    "chosen_z": -1.5734763589497398,
+    "blind_leads": 1063,
+    "blind_z3": 2,
+    "blind_max": 3.0844723730390826
+   },
+   {
+    "leads": 18375,
+    "all_ratio": 1.0034067325342835,
+    "z2": 418,
+    "z3": 16,
+    "zmax": 4.509571060255248,
+    "chosen_ratio": 0.9995682237173213,
+    "chosen_z": -0.26314718447237356,
+    "blind_leads": 1034,
+    "blind_z3": 2,
+    "blind_max": 3.7541492625866058
+   },
+   {
+    "leads": 18375,
+    "all_ratio": 1.0038198178742397,
+    "z2": 590,
+    "z3": 49,
+    "zmax": 4.184725121739655,
+    "chosen_ratio": 1.0092274144965268,
+    "chosen_z": 5.609729025432048,
+    "blind_leads": 995,
+    "blind_z3": 3,
+    "blind_max": 3.3739026063170487
+   },
+   {
+    "leads": 18375,
+    "all_ratio": 1.0027815593168483,
+    "z2": 389,
+    "z3": 14,
+    "zmax": 3.8328086883477637,
+    "chosen_ratio": 0.9990349459537857,
+    "chosen_z": -0.5872810554738764,
+    "blind_leads": 1019,
+    "blind_z3": 0,
+    "blind_max": 2.93251109113604
+   },
+   {
+    "leads": 18375,
+    "all_ratio": 1.0018326112190907,
+    "z2": 305,
+    "z3": 13,
+    "zmax": 3.724526708842566,
+    "chosen_ratio": 0.9982165784256348,
+    "chosen_z": -1.0873205788238884,
+    "blind_leads": 993,
+    "blind_z3": 0,
+    "blind_max": 2.8178999500757373
+   }
+  ],
+  "sets": 2625
+ }
+}
