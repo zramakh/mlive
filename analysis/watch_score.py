@@ -130,12 +130,16 @@ WATCH["toto50"] += [("lagna_rashi × lunar_month", "pos", ["10 sets", "System 8 
 WATCH["toto58"] += [("day_of_month × aspect_venus_mars", "cold/hot100", ["10 sets", "System 8 × 1"])]
 WATCH["toto55"] += [("karana × aspect_mercury_jupiter", "hot/cold100", ["10 sets", "System 8 × 1"])]
 WATCH["ml8"] += [("rahu_nakshatra × aspect_moon_venus", "cold/hot100", ["10 tickets", "System 10 × 1"])]
-SHORTLIST = [("toto50", "lagna_rashi × lunar_month", "pos"), ("toto58", "day_of_month × aspect_venus_mars", "cold/hot100"),
+WATCH["ml8"] += [("mars_rashi × month", "cold", ["10 tickets", "System 10 × 1"])] if not any(
+    x[0] == "mars_rashi × month" for x in WATCH["ml8"]) else []
+WATCH["toto50"] += [("lunar_date", "hot/cold100@7", ["4+4 six", "10 sets"])]
+SHORTLIST = [("ml8", "mars_rashi × month", "cold"), ("toto50", "lunar_date", "hot/cold100@7"), ("toto50", "lagna_rashi × lunar_month", "pos"), ("toto58", "day_of_month × aspect_venus_mars", "cold/hot100"),
              ("toto55", "karana × aspect_mercury_jupiter", "hot/cold100"), ("toto55", "year_stem × lagna_navamsa_lord", "cold"),
              ("toto58", "plum_trigrams × saturn_navamsa", "hot/cold100"), ("ml8", "rahu_nakshatra × aspect_moon_venus", "cold/hot100")]
 SHORT_FROM = "2026-10-24"
 SYS = {"System 10 × 1": [list(range(10))], "System 9 × 2 overlap": [list(range(9)), list(range(6)) + [9, 10, 11]],
-       "System 9 × 2 disjoint": [list(range(9)), list(range(9, 18))], **tf.SYS_PATS}
+       "System 9 × 2 disjoint": [list(range(9)), list(range(9, 18))], **tf.SYS_PATS,
+       "4+4 six": [[0, 1, 2, 3] + list(c) for c in __import__("itertools").combinations(range(4, 8), 2)]}
 
 
 def bonus(key, d, n):
@@ -146,6 +150,29 @@ def bonus(key, d, n):
             if r.get(c):
                 B[i, int(r[c]) - 1] = 1
     return B
+
+
+def lunar_ranking(pat):
+    """Star lunar-date rule: the cell is every earlier-year draw within ±W days of the same Chinese lunar date
+    (pattern written "hot/cold100@7"); seasonal7.py."""
+    import datetime as _dt
+    import seasonal7 as s7
+    import ephemeris as _eph
+    pat, _, w = pat.partition("@")
+    W = ls.W
+    k, n, d = W["k"], W["n"], W["d"]
+    days = [_dt.date.fromisoformat(x) for x in W["g"]["dates"]]
+    yrs = np.array([x.year for x in days])
+    yi = yrs - yrs.min()
+    lun = np.array([(_eph.lunar_date(x)[0] - 1) * 30 + _eph.lunar_date(x)[1] - 1 for x in days])
+    a = (yi, lun, 360, int(w or 7), 0, yi.max() + 1)
+    cnt, dp, Pw = s7.window_sums(W["H"], *a), s7.window_sums(np.ones((d, 1)), *a), s7.window_sums(W["P"], *a)
+    e = dp * k / n
+    zc = (cnt - e) / np.sqrt(e * (1 - k / n) + 1e-6)
+    S = {"hot": cnt - e, "cold": e - cnt, "pos": ((Pw + ls.SMOOTH * W["pglob"]) / (dp[:, :, None] + ls.SMOOTH)).sum(1),
+         "hot+100": zc + W["hot100"], "cold+100": -zc - W["hot100"], "hot/cold100": zc - W["hot100"],
+         "cold/hot100": -zc + W["hot100"]}[pat]
+    return np.argsort(-(S + W["tie"]), 1)
 
 
 def ranking(cols, pat):
@@ -185,7 +212,7 @@ def score_game(key, dates):
     names = common.ALL_PARAMS + xa.extra_params()
     out = []
     for lead, pat, fmts in WATCH[key]:
-        rk = ranking([names.index(x) for x in lead.split(" × ")], pat)
+        rk = lunar_ranking(pat) if lead == "lunar_date" else ranking([names.index(x) for x in lead.split(" × ")], pat)
         for date in dates:
             if date not in g["dates"]:
                 continue
