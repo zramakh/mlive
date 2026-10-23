@@ -193,3 +193,8 @@ Also followed as groups rather than single leads: the Mei Hua Yi Shu leads in To
 and Supreme, `CHINESE_DIV_REPORT.md`) and the D24 leads (1, 2 and 1 in Magnum Life, Star and Power, `VARGAS_REPORT.md`),
 through their watchlist entries above. In 4D (4DPrediction project, `analysis/score_leads.py`): Karana × Day pillar
 (S1, previous same-value day, i-Box) and Mercury nakshatra × Venus rashi (S1, all earlier same-value days, Straight).
+
+Added to the short list 2026-10-23: Magnum Life mars_rashi × month (cold, System 10; best blind record in FAIR_OOS.md),
+Star Toto lunar-date rule (hot/cold100 ±7 days; 6 tickets "4+4" and 10 sets; SEASONAL7.md, LUNAR_OPT.md) and Star
+Toto moon_phase × sb_moon (cold; Shadbala of the Moon, FAMILY_FAIR_STRENGTH.md; 10 sets and System 8). Judged from
+2026-10-24 like the rest of the short list.

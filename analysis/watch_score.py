@@ -133,7 +133,8 @@ WATCH["ml8"] += [("rahu_nakshatra × aspect_moon_venus", "cold/hot100", ["10 tic
 WATCH["ml8"] += [("mars_rashi × month", "cold", ["10 tickets", "System 10 × 1"])] if not any(
     x[0] == "mars_rashi × month" for x in WATCH["ml8"]) else []
 WATCH["toto50"] += [("lunar_date", "hot/cold100@7", ["4+4 six", "10 sets"])]
-SHORTLIST = [("ml8", "mars_rashi × month", "cold"), ("toto50", "lunar_date", "hot/cold100@7"), ("toto50", "lagna_rashi × lunar_month", "pos"), ("toto58", "day_of_month × aspect_venus_mars", "cold/hot100"),
+WATCH["toto50"] += [("moon_phase × sb_moon", "cold", ["10 sets", "System 8 × 1"])]
+SHORTLIST = [("toto50", "moon_phase × sb_moon", "cold"), ("ml8", "mars_rashi × month", "cold"), ("toto50", "lunar_date", "hot/cold100@7"), ("toto50", "lagna_rashi × lunar_month", "pos"), ("toto58", "day_of_month × aspect_venus_mars", "cold/hot100"),
              ("toto55", "karana × aspect_mercury_jupiter", "hot/cold100"), ("toto55", "year_stem × lagna_navamsa_lord", "cold"),
              ("toto58", "plum_trigrams × saturn_navamsa", "hot/cold100"), ("ml8", "rahu_nakshatra × aspect_moon_venus", "cold/hot100")]
 SHORT_FROM = "2026-10-24"
@@ -150,6 +151,32 @@ def bonus(key, d, n):
             if r.get(c):
                 B[i, int(r[c]) - 1] = 1
     return B
+
+
+EXTRA_TABLES = ["astro_params_strength.csv", "astro_params_muhurta.csv", "astro_params_continuous.csv"]
+
+
+def lead_cols(lead, names):
+    """Column indices of a lead's parameters; parameters of the newer families (strength.py, astro_more.py) are
+    appended to the code matrix on first use."""
+    W = ls.W
+    extra = W.setdefault("extra_cols", {})
+    out = []
+    for x in lead.split(" × "):
+        if x in names:
+            out.append(names.index(x))
+            continue
+        if x not in extra:
+            for f in EXTRA_TABLES:
+                rows = {r.pop("date"): r for r in csv.DictReader(open(os.path.join(common.DATA, f)))}
+                if x in next(iter(rows.values())):
+                    vals = sorted({r[x] for r in rows.values()})
+                    col = np.array([vals.index(rows[d][x]) for d in W["g"]["dates"]])
+                    W["codes"] = np.hstack([W["codes"], col[:, None]])
+                    extra[x] = W["codes"].shape[1] - 1
+                    break
+        out.append(extra[x])
+    return out
 
 
 def lunar_ranking(pat):
@@ -212,7 +239,7 @@ def score_game(key, dates):
     names = common.ALL_PARAMS + xa.extra_params()
     out = []
     for lead, pat, fmts in WATCH[key]:
-        rk = lunar_ranking(pat) if lead == "lunar_date" else ranking([names.index(x) for x in lead.split(" × ")], pat)
+        rk = lunar_ranking(pat) if lead == "lunar_date" else ranking(lead_cols(lead, names), pat)
         for date in dates:
             if date not in g["dates"]:
                 continue
