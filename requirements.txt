@@ -1,0 +1,8 @@
+# Python packages used by analysis/ (Python 3.13)
+numpy
+scipy          # shape_astro.py
+ephem          # astro_more.py (Moon declination); kintaiyi
+kinliuren==0.1.2.9   # chinese_div.py (Da Liu Ren)
+kintaiyi==0.2.3      # chinese_div.py (Tai Yi Shen Shu)
+sxtwl          # kintaiyi
+cn2an          # kintaiyi
