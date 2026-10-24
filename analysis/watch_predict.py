@@ -57,7 +57,7 @@ def main():
         k = W["k"]
         t = W["g"]["dates"].index(DATE)
         for lead, pat, fmts in ws.WATCH[key]:
-            rk = ws.ranking([names.index(x) for x in lead.split(" × ")], pat)
+            rk = ws.lunar_ranking(pat) if lead == "lunar_date" else ws.ranking(ws.lead_cols(lead, names), pat)
             for f in fmts:
                 pats = ls.swap_patterns(k) if f in ("10 tickets", "10 sets") else ws.SYS[f]
                 sets = [sorted(int(rk[t, q]) + 1 for q in p) for p in pats]
