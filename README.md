@@ -2,6 +2,8 @@
 
 Malaysian lottery draw history and an astrology-based prediction study.
 
+**Continuing this research? Start with [HANDOFF.md](HANDOFF.md).**
+
 - [`data/`](data/README.md): every STAR TOTO 6/50, POWER TOTO 6/55, SUPREME TOTO 6/58 and Magnum
   Life result available on lotto-8.com, with corrections checked against lottolyzer.com.
   `data/astro_params.csv` holds the 83 Vedic, KP and Chinese almanac parameters of every draw date.
