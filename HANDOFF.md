@@ -1,7 +1,7 @@
 # Handoff: state of the research (read this first)
 
-Last updated 2026-10-24. Branch `claude/focused-franklin-ajsdm9`. Results data run to the **2026-10-21** draw
-(Magnum Life 438/26, Sports Toto 6201/26); the 24 Oct draw is not yet added. Full history of questions and answers:
+Last updated 2026-10-24. Branch `claude/focused-franklin-ajsdm9`. Results data run to the **2026-10-24** draw
+(Magnum Life 439/26, Sports Toto 6202/26). Full history of questions and answers:
 [docs/conversation.md](docs/conversation.md). Detailed summary of every test: [analysis/FINDINGS.md](analysis/FINDINGS.md).
 
 ## 1. The question and the bottom line
