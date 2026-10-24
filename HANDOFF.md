@@ -94,5 +94,8 @@ year in every family. Combining leads makes them weaker.
 ## 8. Environment notes
 
 `pip install -r requirements.txt` (kinliuren / kintaiyi only needed to rebuild `data/astro_params_chinese_div.csv`).
+
+On Windows set `PYTHONUTF8=1` (or run `python -X utf8 ...`): the scripts open files without an explicit encoding, and the
+Chinese-chart table and the `×` in lead names need UTF-8.
 `analysis/profit_arrays/` (git-ignored, several GB) holds working arrays; every one is rebuilt by its script. Long jobs:
 `analysis/runs/`. The 4D sister project: github.com/zramakh/4DPrediction (branch claude/4d-results-scraper-9ptbd5).
